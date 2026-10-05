@@ -1,9 +1,279 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T06:51:27Z",
-  "count": 44,
+  "updatedAt": "2026-10-05T08:45:45Z",
+  "count": 48,
   "projects": [
+    {
+      "id": "hacker_news:49962088",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49962088",
+      "title": "The Velocity Trap（速度陷阱）",
+      "url": "https://colineberhardt.github.io/the-velocity-trap/",
+      "canonicalUrl": "https://colineberhardt.github.io/the-velocity-trap/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49962088",
+      "hnUrl": "https://news.ycombinator.com/item?id=49962088",
+      "publishedAt": "2026-10-05T08:19:22Z",
+      "discoveredAt": "2026-10-05T08:43:24Z",
+      "what": "可直接在浏览器阅读的英文中篇小说网站，提供作者序言、24章目录和章节前后导航。故事以软件故障调查切入，讨论组织采用 AI、追求交付速度时忽略的系统风险与人的处境。",
+      "audience": "关心 AI 对软件工程、团队管理和职业角色影响的开发者、技术管理者，以及喜欢商业寓言的英文读者。",
+      "why": "作者 Colin Eberhardt 在 HN 原帖和署名序言中说，行业谈论 AI 工具能力很多，却也需要讨论它对人的影响；他希望借故事帮助人们理解这种变化，因此受到以故事讲述 DevOps 转型的《凤凰项目》（The Phoenix Project）启发，写了这部追问速度、风险与人的角色的小说。他明确说明写作使用了 AI 辅助。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49962088",
+          "https://colineberhardt.github.io/the-velocity-trap/prologue/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官网目录、署名作者序言和第一章正文，确认无需登录即可在线阅读，目录列出24章；未通读整部小说或逐一验证所有章节。",
+        "checkedAt": "2026-10-05T08:43:24Z"
+      },
+      "caveats": [
+        "这是英文虚构小说及在线阅读网站，情节不能当作真实事故调查或 AI 采用效果的实证。",
+        "作者明确披露 AI 辅助写作；未独立评估全书质量、技术与医学情节准确性。",
+        "HN 帖子时间不代表作品首次上线时间；热度不构成收入或市场需求验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49962088"
+        },
+        {
+          "type": "official_site",
+          "url": "https://colineberhardt.github.io/the-velocity-trap/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://colineberhardt.github.io/the-velocity-trap/prologue/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://colineberhardt.github.io/the-velocity-trap/chapters/01/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49962088.json"
+        }
+      ],
+      "tags": [
+        "在线阅读",
+        "AI",
+        "软件工程",
+        "英文",
+        "小说"
+      ]
+    },
+    {
+      "id": "hacker_news:49962022",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49962022",
+      "title": "Bubble Rumble：地球聊天室与 IRC 接入",
+      "url": "https://bubblerumble.net/?from=hn&irc",
+      "canonicalUrl": "https://bubblerumble.net/?irc",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49962022",
+      "hnUrl": "https://news.ycombinator.com/item?id=49962022",
+      "publishedAt": "2026-10-05T08:10:27Z",
+      "discoveredAt": "2026-10-05T08:42:31Z",
+      "audience": "想在浏览器中参与带地理可视化的实时聊天，或用 IRC 客户端接入同一聊天室的成年用户（根据功能归纳）",
+      "what": "带 3D 地球视图的网页聊天室，以 IP 推算的粗略位置展示在线参与者，提供公共与私密房间、语音及翻译功能。官方界面说明可通过 bubblerumble.net 的 TLS 6697 端口接入 IRC，加入 #public，与网页端双向聊天；房间所有者还可配置外部 IRC 频道桥接。",
+      "why": "未找到作者可读的个人创作缘由。HN 原帖没有正文，发帖者的一条评论在官方 API 中仅显示 [flagged]；官网介绍了地球聊天与 IRC 功能，不能据此推断个人动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49962022",
+          "https://hacker-news.firebaseio.com/v0/item/49962034.json",
+          "https://bubblerumble.net/?irc"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 Firebase 元数据与两条评论记录，核对官网 HTML、聊天与 IRC 界面的公开脚本、隐私政策和使用条款。确认具有实际网页应用结构，不只是介绍页；未执行页面脚本、发送聊天、连接 IRC、登录、连接钱包或进行交易。",
+        "checkedAt": "2026-10-05T08:44:28Z"
+      },
+      "caveats": [
+        "仅核对公开页面与脚本，未实测地球渲染、消息收发、IRC 桥接、语音、翻译或在线人数；已检查的公开原帖只有一条可读的非作者评论。",
+        "同一网站还运行 GNOT 加密货币奖池及概率性游戏；条款要求至少 18 岁且符合所在地要求，并警告交易不可逆及资金损失。本条仅介绍聊天功能，不代表对代币游戏的推荐。",
+        "隐私政策称 IP 地址用于粗略定位，显示位置约为 25 公里网格，访问日志保留 14 天；公共聊天室保留最近 300 条消息。免账号不等于匿名或端到端加密。",
+        "隐私政策说明聊天内容可能发送到 Anthropic 用于翻译或助手回答，含提问图片与发言名；网站还有 Coinzilla 广告。私密房间依靠链接访问，数据流与隐私承诺未作独立审计。",
+        "HN 发帖者为 jaekwon，尚未独立核实该账号与网站运营者的身份关系。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49962022"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49962022.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49962034.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bubblerumble.net/?irc"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bubblerumble.net/app-windows.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bubblerumble.net/app-chat.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bubblerumble.net/privacy.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bubblerumble.net/terms.html"
+        }
+      ],
+      "tags": [
+        "即时聊天",
+        "IRC",
+        "地理可视化",
+        "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49961802",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49961802",
+      "title": "AI Events World",
+      "url": "https://aieventsworld.com/en/",
+      "canonicalUrl": "https://aieventsworld.com/en/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49961802",
+      "hnUrl": "https://news.ycombinator.com/item?id=49961802",
+      "publishedAt": "2026-10-05T07:39:23Z",
+      "discoveredAt": "2026-10-05T08:42:19Z",
+      "audience": "需要按地区、日期和线上或线下形式寻找 AI 会议的开发者、研究人员、从业者与活动参与者（依据目录功能归纳）",
+      "what": "AI 会议发现网站，以三维地球与可筛选列表整理未来 12 个月的活动，并提供会议详情、主办方网站入口和日历文件下载。核查时目录列出 31 项活动，支持六种界面语言；已实际验证 Hybrid 筛选后列表留下 6 项混合形式活动。",
+      "why": "官方仓库 README 说明，AI 会议资讯散落在许多网站、LinkedIn 帖子和口耳相传中，因此团队希望做一个集中查看活动时间与地点的地方，减少四处查找；这是官方项目缘由。HN 作者评论已被标记，未据此补推个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/NonicaTeam/AIEventsWorld#why-this-exists"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖、官方 Firebase 元数据及全部可见评论、官网首页、一个会议详情页和官方仓库 README；在云端浏览器试用 Hybrid 筛选并核对 6 条结果。地球区域在本次浏览器核查中持续显示 Loading globe，未验证旋转和标记交互；未订阅、提交活动、登录或购买。",
+        "checkedAt": "2026-10-05T08:45:45Z"
+      },
+      "caveats": [
+        "本次列表筛选可用，但三维地球未成功载入；这是当前核查环境中的结果，不能据此断定所有用户均无法使用。",
+        "官网说明仅展示未来 12 个月，并为保持地图可读性采用每城一个活动的规则；不应视为完整会议名录。会议日期、场地和报名状态未逐项向主办方核实，应以各活动官网为准。",
+        "页面设付费 Featured 展示位；突出展示不等于独立质量评选。日历下载、投稿审核、邮件订阅与数据处理机制未实测。",
+        "HN 发帖账号为 JaimeNonica；创作缘由按官网或官方仓库归因，未独立核实账号背后的个人身份。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49961802"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49961802.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49961830.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aieventsworld.com/en/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aieventsworld.com/en/events/world-summit-ai-2026/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/NonicaTeam/AIEventsWorld"
+        }
+      ],
+      "tags": [
+        "AI 会议",
+        "活动目录",
+        "地球可视化",
+        "日历",
+        "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49961794",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49961794",
+      "title": "StackKit",
+      "url": "https://stackkit.website/",
+      "canonicalUrl": "https://stackkit.website/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49961794",
+      "hnUrl": "https://news.ycombinator.com/item?id=49961794",
+      "publishedAt": "2026-10-05T07:38:26Z",
+      "discoveredAt": "2026-10-05T08:42:22Z",
+      "audience": "希望比较 SaaS 替代品、自托管方案和开发工具的工程师、独立开发者及小型技术团队（依据官网定位归纳）",
+      "what": "开发工具比较与发现网站，按现有 SaaS 产品或使用场景组织替代方案。比较页用表格列出工具分类、替代对象、免费额度说明、自托管方式、简介和项目链接，覆盖分析监控、数据库、表单等场景。",
+      "why": "官网 About 说明，项目为减少臃肿企业工具、隐藏付费墙和重复配置带来的开发摩擦而建，并希望让缺少营销资源的轻量、本地优先或自托管工具更容易被发现；这是官方陈述的创作缘由，未将其写成发帖者个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://stackkit.website/about/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 Firebase 元数据及完整评论树，并核对官网首页、About 和服务器端标签管理比较页。作者可见回复主要解释站点插画及帮助开发者提高效率的定位；未安装或运行任何被收录工具。",
+        "checkedAt": "2026-10-05T08:45:45Z"
+      },
+      "caveats": [
+        "它是选型目录与比较文章站点；被列出的工具仍需分别访问、部署或使用。未逐项复核目录的价格、功能、维护状态及部署成本。",
+        "官网称收录信息经人工核验，但本次未独立验证其核验流程。样例页同时包含开源与 source-available 项目，免费自托管、源码可见和开源许可证不能混为一谈。",
+        "本次核查限于公开页面阅读，未测试站内搜索，也未对被推荐工具进行性能、安全或合规审计。",
+        "HN 发帖账号为 StackKit；创作缘由按官网或官方仓库归因，未独立核实账号背后的个人身份。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49961794"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49961794.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49961950"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stackkit.website/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stackkit.website/about/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stackkit.website/articles/server-side-tagging-without-stapes-per-request-fees/"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "自托管",
+        "SaaS 替代",
+        "软件选型",
+        "比较目录"
+      ]
+    },
     {
       "id": "hacker_news:49961352",
       "provider": "hacker_news",
