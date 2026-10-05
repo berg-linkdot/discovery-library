@@ -1,9 +1,82 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T17:45:24Z",
-  "count": 94,
+  "updatedAt": "2026-10-05T18:48:04Z",
+  "count": 95,
   "projects": [
+    {
+      "id": "hacker_news:49968305",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49968305",
+      "title": "Watchbot：以加密货币积分计费的网页监控与信息雷达工具",
+      "url": "https://store.watchtbot.site/",
+      "canonicalUrl": "https://store.watchtbot.site/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49968305",
+      "hnUrl": "https://news.ycombinator.com/item?id=49968305",
+      "publishedAt": "2026-10-05T18:09:48Z",
+      "discoveredAt": "2026-10-05T18:45:35Z",
+      "audience": "需要追踪网页变化并接收 webhook 的开发者、独立经营者和小团队；官网也面向寻找资助、招标或商业线索，以及希望通过 MCP 调用这些服务的 AI agent 开发者。",
+      "what": "一个托管式网页工具集合，核心 Watchbot 按检查次数监测 URL 内容变化并推送 webhook。官网还列出资助与招标匹配、链上事件提醒、Google Maps 商业线索 CSV、签证预约余位监测、每周摘要、交易线索管理及 MCP 接口；这些模块共用积分余额，宣称接受 Base 或 Ethereum 上的 USDC、USDT、ETH。实际启用需生成 API key 并按对应功能购买或消耗积分。",
+      "why": "作者未说明。HN 原帖仅有标题和官网链接，没有正文或作者评论说明创作缘由。官网把产品目标描述为让自动化服务以按量收费维持自身运行，但这属于产品定位，不能推断为发布者的个人经历、开发起因或已经实现的商业结果。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49968305",
+          "https://store.watchtbot.site/"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "读取 HN 页面与官方 Firebase 元数据，确认原帖无正文且评论数为零；成功读取官网首页及各产品区块。首页所链接的 /docs、/docs.html、/health、/ticker 首次返回 HTTP 502，重试返回 HTTP 530（错误码 1033），因此未确认 API 文档、运行状态或服务实际可用性。未登录、生成密钥、提交表单、建立监控、联系第三方或支付，未实测提醒准确性与交付。",
+        "checkedAt": "2026-10-05T18:48:04Z"
+      },
+      "caveats": [
+        "HN 标题称五个 micro-SaaS 在一台 Mac Mini 上运行，核查时官网列出九个产品；具体部署、模块数量差异及“由自主 agent 构建”的说法未获独立验证。",
+        "官网列出网页检查每次 1 美分、资助匹配每次 5 美分、招标服务每 30 天 49 美元等收费，但本轮未进入支付流程或验证到账、退款、服务保证及实际计费规则。",
+        "官网的首笔 ETH 收款、实时结算、交易线索和已成交数量均为产品方自报或首页静态内容；本轮没有独立验证付费客户、实际收入或市场需求。",
+        "官网声称无需账号，但实际使用流程仍涉及 API key、积分余额及 webhook；公开页面可读不等于所有监控服务正在正常运行。",
+        "Show HN 发帖时间代表此次分享时间，不代表产品首次上线；官网提到的 2026 年 9 月 11 日首笔结算同样不能据此确定产品上线日期。",
+        "HN 发布账号为 madansa7，标题以第一人称称运营这些产品，但本轮未独立核验其与官网团队的身份关系。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49968305"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49968305.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://store.watchtbot.site/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://store.watchtbot.site/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://store.watchtbot.site/docs.html#mcp"
+        },
+        {
+          "type": "official_site",
+          "url": "https://store.watchtbot.site/health"
+        },
+        {
+          "type": "official_site",
+          "url": "https://store.watchtbot.site/ticker"
+        }
+      ],
+      "tags": [
+        "网页监控",
+        "Webhook",
+        "信息筛选",
+        "MCP",
+        "按量计费"
+      ]
+    },
     {
       "id": "hacker_news:49967539",
       "provider": "hacker_news",
