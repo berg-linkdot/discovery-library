@@ -1,9 +1,258 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T16:53:14Z",
-  "count": 90,
+  "updatedAt": "2026-10-05T17:45:24Z",
+  "count": 94,
   "projects": [
+    {
+      "id": "hacker_news:49967539",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967539",
+      "title": "Invofox：把 PDF 和图片提取为结构化 JSON 的文档处理 API",
+      "url": "https://www.invofox.com/en/",
+      "canonicalUrl": "https://www.invofox.com/en/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967539",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967539",
+      "publishedAt": "2026-10-05T17:09:34Z",
+      "discoveredAt": "2026-10-05T17:43:31Z",
+      "audience": "需要把发票、收据、工资单、银行账单等文档接入业务流程的软件开发与企业运营团队；适合评估托管式文档提取 API 的工程团队。",
+      "what": "一个托管式文档处理 API，官网介绍 OCR、文档分类与拆分、字段及表格提取、字段校验和纠错反馈能力。正式开发文档给出的流程是先配置文档类型并上传文件，获得 documentId，再通过 webhook 或轮询获取结构化 JSON；字段由账号内的文档类型定义，常见类型之外可配置定制提取流程。",
+      "why": "作者未说明。本轮可读取的 HN 原帖没有正文，唯一作者评论的官方 API 内容已标为 [flagged]；官网表达的产品目标是让团队少维护 OCR、字段校验及模型更新等文档处理基础设施，但不能把产品定位推断为作者的个人经历或创业起因。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49967539",
+          "https://hacker-news.firebaseio.com/v0/item/49967588.json",
+          "https://www.invofox.com/en/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "读取 HN 原帖及官方 Firebase 元数据，核查唯一作者评论的不可读状态；阅读官网首页、定价、正式集成文档及零保留说明。核实公开页面中的功能与调用流程，未登录、生成密钥、上传文档或调用提取 API，因此未实测提取质量、校验可靠性、延迟或数据删除效果。",
+        "checkedAt": "2026-10-05T17:45:14Z"
+      },
+      "caveats": [
+        "官网的 99.2% 准确率、生产处理量、客户标识和安全合规表述均为产品方说法，本轮未独立验证，也没有收入或市场需求验证证据；错误页抵扣及准确率 SLA 的定价说明限定于年处理量超过 100 万页的团队。",
+        "定价页列出一次性免费 500 页；Starter 起价每月 500 美元、按年计费、每月最多 5,000 页，Scale 与 Enterprise 需报价。官网明确价格是估算，可能随文档复杂度、用量与集成要求变化。",
+        "首页的简化请求示例不能直接代替正式集成文档：文档要求账号及环境级 API 密钥，上传后异步处理，文件也可能被拒绝，需处理失败事件与最终状态。",
+        "零数据保留不是所有套餐默认开启的能力；专门说明页将其列为 Scale、Enterprise 的自愿启用配置，并说明训练样本保留另需明确选择。涉及敏感文档时应先确认实际合同、处理区域及保留配置。",
+        "HN 发布账号为 albertogimeno，本轮未独立核验其与产品团队的身份关系；唯一评论被标记后不可读，不能据此还原创作动机。Show HN 发帖时间仅代表此次分享时间，不证明产品刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967539"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967539.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967588.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.invofox.com/en/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.invofox.com/en/pricing/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://developers.invofox.com/documentation/integrating-invofox"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.invofox.com/en/zero-retention-policy/"
+        }
+      ],
+      "tags": [
+        "文档处理",
+        "OCR",
+        "API",
+        "JSON",
+        "企业工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49967408",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967408",
+      "title": "SelfBench",
+      "url": "https://selfbench.dev/",
+      "canonicalUrl": "https://selfbench.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967408",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967408",
+      "publishedAt": "2026-10-05T16:58:47Z",
+      "discoveredAt": "2026-10-05T17:40:33Z",
+      "audience": "需要按自家代码库选择编程模型和代理配置的开发者、工程团队（依据产品用途归纳）",
+      "what": "从仓库已合并的 PR 构建带隐藏测试的编程评测，支持在网页中审核任务、运行模型与代理，并比较准确率和单任务成本；公开站点提供多个开源仓库的结果榜单。",
+      "why": "作者在 Show HN 中说，通用基准容易被针对性优化，不能可靠反映模型在具体代码库中的表现，而自行构建评测又很耗时，因此开发了自动从 PR 生成评测的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49967408"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取官方仓库、公开榜单首页和 PostHog 结果页；后者成功返回 36 个任务、10 组模型配置及准确率与成本表。未登录工作区或实际生成、运行评测。",
+        "checkedAt": "2026-10-05T17:44:29Z"
+      },
+      "caveats": [
+        "结果由项目方发布，本次未独立复跑验证；排名与费用依赖所选任务、模型及代理配置。",
+        "对自己的仓库运行评测需登录并连接仓库、配置模型和沙箱凭据；官方说明批量生成可能需要数小时。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967408"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967408.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mupt-ai/self-bench"
+        },
+        {
+          "type": "official_site",
+          "url": "https://selfbench.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://selfbench.dev/PostHog/posthog"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "AI 评测",
+        "开源",
+        "网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49967183",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967183",
+      "title": "The Last Line: Machine War",
+      "url": "https://playgama.ai/play/55p62bkfsc",
+      "canonicalUrl": "https://playgama.ai/play/55p62bkfsc",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967183",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967183",
+      "publishedAt": "2026-10-05T16:41:21Z",
+      "discoveredAt": "2026-10-05T17:45:24Z",
+      "audience": "喜欢 X-COM 式回合制小队战术游戏、想体验 AI 辅助制作独立游戏的浏览器玩家。",
+      "what": "可在 Playgama 网页进入的 3D 小队战术游戏。作者描述的核心是间接指挥：玩家操控队长，队员根据各自的智能属性自行行动；存活后的成长偏向决策能力，而不只是增加生命值。官网确认游戏名称及浏览器入口，游戏页资源中可见瞄准、手榴弹、队伍机动和结束回合等操作。",
+      "why": "HN 发帖者 AndreyK1984 自称制作者：他想做一个类似 X-COM、但只直接控制队长的游戏，让其他队员自主行动，并在生存中学会更聪明地作战。他也想验证用 AI 协作在两三天内完成游戏的可能性，称使用 Three.js、原生 JavaScript 和分工子代理制作玩法、美术及音乐。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49967183"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、Playgama 游戏详情页及其公开嵌入游戏 HTML；确认网页游戏入口和操作文案。未启动并完成实玩，未验证队员学习机制、游戏平衡或完整战役。",
+        "checkedAt": "2026-10-05T17:45:24Z"
+      },
+      "caveats": [
+        "X-COM 是以回合制小队战术著称的游戏系列，此处只是作者对玩法灵感的比较，不表示与其官方有关联。",
+        "游戏 HTML 初始文案为俄语，并包含英语、西班牙语切换逻辑；各语言完成度与运行效果未实测。",
+        "制作时长、队员学习行为及作者对品质的评价均为作者自述，未独立复现。",
+        "HN 时间为本次分享帖发布时间，不代表游戏首次上线时间；未将页面游玩次数当作需求或收入验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967183"
+        },
+        {
+          "type": "official_site",
+          "url": "https://playgama.ai/play/55p62bkfsc"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967183.json"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "回合制战术",
+        "AI 辅助开发",
+        "独立游戏"
+      ]
+    },
+    {
+      "id": "hacker_news:49967176",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967176",
+      "title": "PR Lens",
+      "url": "https://prlens.dev/",
+      "canonicalUrl": "https://prlens.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967176",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967176",
+      "publishedAt": "2026-10-05T16:40:42Z",
+      "discoveredAt": "2026-10-05T17:40:33Z",
+      "audience": "需要理解 AI 生成代码与大型 PR 的开发者、代码审查者和工程团队（依据产品用途归纳）",
+      "what": "将 PR 或代码库变成带变更颜色标记的架构图和动态数据流图，可嵌入代码审查评论，并在网页画布中缩放、查看细节和逐步浏览；官网提供公开示例。",
+      "why": "团队工程师在官网文章中解释，代理加快代码变更后，团队仍需维持对系统演进的共同理解；他们用每个 PR 的自动架构图和动态数据流图降低理解负担，帮助成员跟上变化。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://www.coldtea.ai/blog/reducing-cognitive-load-ai-generated-prs"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取官网、官方仓库及团队动机文章；公开的欢迎邮件示例画布成功返回，包含架构视图、缩放和四步演示控件。未操作画布、安装集成或测试真实 PR 生成。",
+        "checkedAt": "2026-10-05T17:44:29Z"
+      },
+      "caveats": [
+        "本次只检查公开页面与示例内容，未验证图表能否准确概括任意代码变更。",
+        "自动处理仓库需要配置 GitHub App、CI 或本地代理工具；官网宣称的审查提速未独立验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967176"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967176.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/coldteadotai/pr-lens"
+        },
+        {
+          "type": "official_site",
+          "url": "https://prlens.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://prlens.dev/c/uSdxMcPBFwhfgfaGh-dveQ"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.coldtea.ai/blog/reducing-cognitive-load-ai-generated-prs"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "代码审查",
+        "可视化",
+        "开源",
+        "网页应用"
+      ]
+    },
     {
       "id": "hacker_news:49967146",
       "provider": "hacker_news",
