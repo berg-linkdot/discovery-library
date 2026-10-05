@@ -1,9 +1,128 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T09:44:19Z",
-  "count": 51,
+  "updatedAt": "2026-10-05T10:45:15Z",
+  "count": 53,
   "projects": [
+    {
+      "id": "hacker_news:49963105",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49963105",
+      "title": "Cold Email Gate：先判断是否值得发信的 Claude 提示词",
+      "url": "https://pfoerringer.gumroad.com/free-claude-prompt-cold-email",
+      "canonicalUrl": "https://pfoerringer.gumroad.com/free-claude-prompt-cold-email",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49963105",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963105",
+      "publishedAt": "2026-10-05T10:37:35Z",
+      "discoveredAt": "2026-10-05T10:43:27Z",
+      "what": "无需注册即可完整阅读的英文提示词资源网页，包含可复制的模板、使用步骤、样例与限制。模板让 Claude 根据用户提供的潜在客户资料，检查近期事件、具体问题和负责人，再建议发送、先补充研究或不发送；满足条件才起草简短邮件。网页本身不运行模型，使用时需将模板和资料另行带入 Claude。",
+      "audience": "开展企业客户拓展的独立开发者、小型企业和销售人员，尤其适合想在写信前判断对象与时机是否合适的人（根据页面用途归纳）。cold email 指向尚未建立联系的对象主动发送的业务拓展邮件。",
+      "why": "作者未说明个人制作经历。官方页面陈述的目标是把“是否应该发信”的判断放在措辞优化之前，以减少缺乏依据、换个公司名仍然通用的拓展邮件；这是产品目标，不能推断为作者本人遇到过的具体问题。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://pfoerringer.gumroad.com/free-claude-prompt-cold-email",
+          "https://news.ycombinator.com/item?id=49963105"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖和官方 API，并在浏览器查看官方页面完整提示词、示例、限制及署名说明。核查时原帖无正文、无评论；未向 Claude 提交资料、运行提示词、下载付费内容或发送邮件。",
+        "checkedAt": "2026-10-05T10:43:27Z"
+      },
+      "caveats": [
+        "本条是可直接阅读和复制的提示词资源网站，不是能够站内执行、联网调查或自动发信的 Web 应用。运行需要另外使用模型服务，相关账号和费用以该服务为准。",
+        "页面明确表示提示词不核实事实，只依据粘贴的资料；过时或错误信息仍可能产生误导结果。未独立测试判断准确率、稳定性或防提示注入效果。",
+        "官网披露内容由 Claude 代表 Sebastian Pfoerringer 编写和测试，展示的客户、公司和数字均为虚构，样例来自单次运行；未独立核实 HN 账号 CherryAI 与署名人的关系。",
+        "免费页面另链向收费扩展包；本次未购买。作者不承诺回复率，示例、营销陈述和 HN 热度均不构成需求、收入或效果验证。",
+        "使用者仍需自行考虑收件人资料的隐私和当地商业邮件规则；本次未做合规评估。HN 帖子时间不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963105"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49963105.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pfoerringer.gumroad.com/free-claude-prompt-cold-email"
+        }
+      ],
+      "tags": [
+        "提示词资源",
+        "Claude",
+        "业务拓展",
+        "英文",
+        "免费在线阅读"
+      ]
+    },
+    {
+      "id": "hacker_news:49962951",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49962951",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49962951",
+      "hnUrl": "https://news.ycombinator.com/item?id=49962951",
+      "publishedAt": "2026-10-05T10:18:39Z",
+      "title": "Reright.it：AI 代写文字的人工编辑与审批队列",
+      "url": "https://reright.it/",
+      "canonicalUrl": "https://reright.it/",
+      "discoveredAt": "2026-10-05T10:42:09Z",
+      "audience": "使用 AI 代理起草邮件、客户回复、提交说明和公开文字，又希望发布前保留个人语气与人工把关的开发者和其他代理使用者（依据原帖与官网功能归纳）",
+      "what": "网页草稿编辑与审批工具，通过 MCP 接收代理生成的文字及用途、读者、目标等上下文，在统一队列中供用户修改、批准或拒绝，再把决定和最终文字返回代理。官网提供浏览器审核流程说明；本地安装器与 hooks 用于接入部分代理并拦截尚未获批的发送，并非纯 CLI 工具。",
+      "why": "HN 发帖者 paulofilip3 自述，自己让代理写很多邮件、客户消息和提交说明，但生成文字容易显出 AI 痕迹，也不像自己的口吻。尝试规则集和 humanizer 类技巧仍不满意后，他做了统一审核队列，保留代理搜集信息和搭建初稿的便利，再亲自调整句式、删去过度热情与不用的词。他称先为自己制作并使用了一段时间，觉得有用才公开。官网署名发布方为 interpt；本轮未独立核验该账号背后的个人身份。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49962951"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及重新获取的官方 Firebase 元数据，并在云浏览器阅读官网首页、使用文档和隐私政策。核查时原帖无评论，API descendants 为 0 且无 kids。文档明确描述网页审核队列和编辑器，首页示例是动画；未注册、登录查看真实队列、安装 hooks、连接 MCP 或提交草稿，未实测端到端审批。",
+        "checkedAt": "2026-10-05T10:45:15Z"
+      },
+      "caveats": [
+        "官方文档把它定位为文字检查点，而非安全沙箱。无 hooks 的云端或其他 MCP 客户端仅依赖代理遵守规则，不能强制提交审核；无人值守代理暂不支持。",
+        "官方称仅 Claude Code 做过端到端测试；Codex CLI、Gemini CLI、Copilot 和 Cursor 的 hooks 仅按文档载荷测试，尚未在实际工具中验证。各工具自动运行或跳过审批模式下的 hooks 行为也未确认。",
+        "官方说明 hooks 仅检查已识别的调用，存在可绕过路径；哈希匹配只能说明文字曾获批准，不能证明实际发送目标就是审批时的目标。本轮未进行安全审计。",
+        "草稿正文、上下文、修改和拒绝原因会上传并保存在服务端。隐私政策称传输与部分存储内容加密，但明确不是端到端加密，运营方具备解密能力；免费版正文保留 1 天，付费版可设 1 至 90 天。这些承诺未独立审计。",
+        "官网列免费版每月 10 条草稿，更多额度另有美元月费订阅；实际使用须注册账户并配置代理连接。功能、个人自用反馈和官网定价都不构成市场需求、收入或可靠性验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49962951"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49962951.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reright.it/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reright.it/docs/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reright.it/privacy/"
+        }
+      ],
+      "tags": [
+        "AI 代理",
+        "人工审批",
+        "文字编辑",
+        "MCP",
+        "浏览器应用"
+      ]
+    },
     {
       "id": "hacker_news:49962594",
       "provider": "hacker_news",
