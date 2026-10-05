@@ -1,9 +1,217 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T11:47:03Z",
-  "count": 57,
+  "updatedAt": "2026-10-05T12:50:15Z",
+  "count": 60,
   "projects": [
+    {
+      "id": "hacker_news:49964046",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49964046",
+      "title": "Refuseless：面向安全研究与开发工具的托管模型 API",
+      "url": "https://refuseless.com/",
+      "canonicalUrl": "https://refuseless.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49964046",
+      "hnUrl": "https://news.ycombinator.com/item?id=49964046",
+      "publishedAt": "2026-10-05T12:36:08Z",
+      "discoveredAt": "2026-10-05T12:50:15Z",
+      "what": "提供按使用量付费的在线模型推理服务，接口格式兼容 OpenAI。官网称目前托管 GLM 5.3 及 Flash 的修改版本，可供现有开发工具调用；这里的 abliterated 指对模型作降低拒答倾向的处理，是提供方的产品描述，未验证其实际效果。它是需要账户和 API 密钥的托管服务，本轮没有发现免登录网页聊天演示。",
+      "audience": "需要在线模型接口的开发者，以及在获得授权的环境中开展安全研究的团队（根据官网定位归纳）。",
+      "why": "作者未说明具体制作原因。HN 发帖账号 jurisdb 仅介绍当前模型和后续计划；官网表达了面向安全专业人员提供较少拒答模型接口的产品目标，但未找到可核实的创作者身份或个人开发经历。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49964046",
+          "https://refuseless.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对实时 HN 原帖、官方 API 时间和评论状态，并用云端浏览器读取官网、定价页及官方文档。本轮 HN 帖下无评论；已看到账户入口、计费说明与接口文档，但未注册、申请密钥、充值或发送模型请求。",
+        "checkedAt": "2026-10-05T12:50:15Z"
+      },
+      "caveats": [
+        "官网与文档的接口及控制台域名分别使用 .com 和 .dev，存在不一致；本轮未请求接口验证哪组地址有效。",
+        "按用量计费，需要账户与密钥；没有实测模型可用性、输出质量、延迟或收费准确性。页面中的无提示词留存、性能排名与拒答处理效果均为提供方宣称，未独立核验。",
+        "降低拒答并不代表答案正确、安全或合法；该条目仅记录公开服务，不构成安全背书。",
+        "HN 发帖时间不代表产品首次上线时间；未发现经核验的收入、使用量或市场需求证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49964046"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49964046.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://refuseless.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://refuseless.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docs.refuseless.com/"
+        }
+      ],
+      "tags": [
+        "在线API",
+        "模型推理",
+        "开发者工具",
+        "安全研究"
+      ]
+    },
+    {
+      "id": "hacker_news:49963994",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49963994",
+      "title": "Seylo：集中项目资料并供 AI 读写的在线工作台",
+      "url": "https://seylo.co/",
+      "canonicalUrl": "https://seylo.co/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49963994",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963994",
+      "publishedAt": "2026-10-05T12:30:51Z",
+      "discoveredAt": "2026-10-05T12:48:37Z",
+      "audience": "需要整理参考资料、文件与 AI 生成内容的创作者、设计师、营销人员、独立创业者及写作者；官网也列出学生和自由职业者。",
+      "what": "把图片、网页、笔记、文件、脚本和 AI 对话按项目保存的网页工作台。官网介绍可通过 iPhone 分享菜单、Chrome 扩展收集资料，并用 MCP 让 Claude、ChatGPT 等读取项目上下文、把新内容写回；提供资料关联、版本历史及多种查看方式。",
+      "why": "官网创作者 Jakub Radziejewski 自述，他在 ChatGPT 与 Claude 间生成脚本、提示和图片时，值得保存的成果经常淹没在找不回的对话里，因此独自制作 Seylo，将内容与项目背景、来源关系一并保留。HN 发帖账号 Yakobeen 也自称独立开发者，但本轮未独立确认账号与实名的对应。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://seylo.co/about",
+          "https://news.ycombinator.com/item?id=49963994"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖与官方 API，核查时无评论（descendants 为 0、无 kids），因此没有作者评论可补读。已读取官网首页、About、帮助、价格页及网页注册入口；确认是带网页账户入口的在线项目工具。未登录、注册、安装扩展或测试项目保存与 MCP。",
+        "checkedAt": "2026-10-05T12:48:37Z"
+      },
+      "caveats": [
+        "上述功能来自作者及官网说明，未完成登录后的实际工作流程，也未验证同步、导出、AI 读写效果或隐私安全。",
+        "官网价格页将 AI/MCP 接入列为 Pro 功能，但标注 2026 年 8 月 7 日更新的 About 仍称付费方案尚未开放；页面信息不一致，当前可购买性与实际权益未核实。",
+        "移动端官方当前仅列出 iPhone。publishedAt 为 HN 帖子时间，不代表产品首次上线；官网 About 所标日期早于该帖。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963994"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49963994.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seylo.co/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seylo.co/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seylo.co/help"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seylo.co/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seylo.co/login?mode=signup"
+        }
+      ],
+      "tags": [
+        "项目资料",
+        "AI 上下文",
+        "知识管理",
+        "MCP",
+        "创作工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49963936",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49963936",
+      "title": "YAVCHN：把新闻原文与讨论放在一起的 HN/Lobsters 阅读器",
+      "url": "https://yavchn.com/hn/",
+      "canonicalUrl": "https://yavchn.com/hn/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49963936",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963936",
+      "publishedAt": "2026-10-05T12:24:45Z",
+      "discoveredAt": "2026-10-05T12:49:33Z",
+      "audience": "经常浏览 Hacker News 或 Lobsters、想先快速查看原文和评论再决定是否深入阅读的人；也适合希望集中整理收藏、笔记或筛选 HN 招聘帖的读者（依据官方功能归纳）。",
+      "what": "可直接在线访问的开源新闻阅读器。网页以新闻列表配合阅读窗口，把链接文章的阅读模式正文与讨论放在同一窗口中，并提供传统独立页面视图。官网列有 HN 热门、Show HN、Ask HN、新帖和招聘等列表，以及 Lobsters 来源、收藏、合集、笔记、屏蔽域名、链接讨论查找和回复查看等工具。基本阅读无需登录；投票或回复会跳回 HN/Lobsters 原站。",
+      "why": "作者 Paul Parks 在官方仓库 README 中解释，自己看 HN 时经常先打开讨论，再点击原文、再回到讨论，来回切换很烦；他真正想要的是快速看一眼文章和讨论，判断哪部分值得深入。因此做了这个把阅读模式文章与评论放在一起的阅读器。官网明确署名 Paul Parks，HN 发帖账号 paulmooreparks 的个人页与官网均链接到同一 GitHub 账号，支持该自述的作者归属。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://github.com/paulmooreparks/yavchn#no-really-why",
+          "https://raw.githubusercontent.com/paulmooreparks/yavchn/main/README.md"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖及官方 API，核查时 descendants 为 0，评论树为空，没有可读取的作者评论；另核对作者公开个人页、官网新闻列表、单条阅读页、帮助/关于说明、隐私政策与官方 README。官网实际返回带标题、分数和评论数的新闻列表，以及 Article、Discussion、Split 阅读控件；单条文章及评论正文需 JavaScript 延迟加载，本轮仅做公开网页与资料核对，未运行浏览器交互、登录、安装或提交表单。",
+        "checkedAt": "2026-10-05T12:49:33Z"
+      },
+      "caveats": [
+        "本轮未执行文章抽取、评论加载、窗口拖动、检索、收藏、笔记或账号同步，不能把界面和 README 的功能说明当成这些功能已经实测成功；移动端兼容性及速度也未验证。",
+        "阅读依赖 HN/Lobsters 的公开接口、文章发布站点和网络连接。官方说明投票及发言仍需前往原站，YAVCHN 不代替原站账户。",
+        "官方隐私政策说明，匿名收藏与笔记等保存在本地浏览器，登录后部分数据会同步到账户；文章内图片直接来自发布站点，可能向其暴露访问者 IP。以上为网站自述，本轮未做隐私或安全审计。",
+        "记录中的发布时间是本次 Show HN 发帖时间，不代表产品首次上线；未核实用户规模、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963936"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49963936.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://news.ycombinator.com/user?id=paulmooreparks"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yavchn.com/hn/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yavchn.com/story/hn/49963171"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yavchn.com/privacy"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/paulmooreparks/yavchn"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/paulmooreparks/yavchn/main/README.md"
+        }
+      ],
+      "tags": [
+        "新闻阅读器",
+        "Hacker News",
+        "Lobsters",
+        "分窗阅读",
+        "开源",
+        "在线工具"
+      ]
+    },
     {
       "id": "hacker_news:49963508",
       "provider": "hacker_news",
