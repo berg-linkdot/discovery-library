@@ -1,9 +1,165 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T19:48:53Z",
-  "count": 98,
+  "updatedAt": "2026-10-05T20:45:27Z",
+  "count": 100,
   "projects": [
+    {
+      "id": "hacker_news:49970017",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49970017",
+      "title": "The Electronic Music Web：探索电子音乐流派关系与演变的互动图谱",
+      "url": "https://eweb.learningtodj.com/",
+      "canonicalUrl": "https://eweb.learningtodj.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49970017",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970017",
+      "publishedAt": "2026-10-05T20:13:11Z",
+      "discoveredAt": "2026-10-05T20:44:42Z",
+      "audience": "按页面功能判断，适合希望理解电子音乐流派、寻找代表曲目与背景资料的听众、DJ 初学者和音乐文化爱好者；官网使用简明英语编写条目。",
+      "what": "Learning to DJ 发布的电子音乐资料站，把流派组织成关系图、按年代排列的时间线及可独立打开的介绍页。官网 About 标注 142 个流派、9 个家族，首页结构化数据也列出 142 个条目；单个流派页提供历史、声音特点、代表人物、厂牌、前后影响关系、资料来源和 YouTube 曲目链接。已读取的主页、时间线与 Chicago House 条目无需登录即可访问。",
+      "why": "作者未说明个人创作起因。官网说明的产品目标是用节点与连线展示电子音乐流派及其关系，并让读者从节点进入历史、人物、厂牌和代表曲目；这属于站点用途，不能据此推断作者的个人经历或做图谱的原因。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49970017",
+          "https://eweb.learningtodj.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已通过只读 HTTP 获取并审阅 HN 原帖、官方 Firebase 条目与发布者资料、官网首页、About、Timeline、Chicago House 样例页及 Learning to DJ 主站；这些页面返回 HTTP 200。确认静态文字、流派链接、引用来源和 YouTube 入口存在；未在浏览器运行关系图或时间线控件，未播放曲目，也未逐一核验全部流派与外链。没有登录、安装、提交表单或联系作者。",
+        "checkedAt": "2026-10-05T20:44:42Z"
+      },
+      "caveats": [
+        "互动关系图与时间线依赖客户端加载；本轮仅审阅页面和静态内容，未验证拖拽、缩放、搜索、节点选择或移动端交互效果，不能将“互动”描述视为实测结果。",
+        "官网称内容依据书籍、音乐报道、访谈和唱片数据库研究后重写；样例页确有引用，但本轮未独立核对音乐史、流派边界、年代或影响关系的准确性。",
+        "曲目使用 YouTube 外链，官网声明不托管音频；未验证各地区的播放可用性、版权状态或链接是否全部有效。",
+        "发布者身份关联来自一手页面自述：HN 账号 devrob 的官方 API 资料称 learningtodj.com 是其 DJ／电子音乐学校，图谱 About 则署名 Learning to DJ；主站署名 Robert Simoes 和 Aqua Flamingo Labs Inc.，本轮未作独立实名或主体核验。",
+        "核查时 HN 官方 API 的 descendants 为 0，且无正文和 kids；没有可供核验的作者评论。publishedAt 是 HN 分享时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49970017"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49970017.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/devrob.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://eweb.learningtodj.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://eweb.learningtodj.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://eweb.learningtodj.com/timeline"
+        },
+        {
+          "type": "official_site",
+          "url": "https://eweb.learningtodj.com/g/chicago-house"
+        },
+        {
+          "type": "official_site",
+          "url": "https://learningtodj.com/"
+        }
+      ],
+      "tags": [
+        "音乐发现",
+        "电子音乐",
+        "关系图谱",
+        "DJ 学习",
+        "音乐史"
+      ]
+    },
+    {
+      "id": "hacker_news:49969680",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49969680",
+      "title": "Meanwhile Map：在历史地图上对照世界各地的同期事件",
+      "url": "https://meanwhilemap.com/",
+      "canonicalUrl": "https://meanwhilemap.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49969680",
+      "hnUrl": "https://news.ycombinator.com/item?id=49969680",
+      "publishedAt": "2026-10-05T19:48:03Z",
+      "discoveredAt": "2026-10-05T20:43:15Z",
+      "audience": "读历史书时希望建立跨地区时代背景的读者、历史爱好者，以及需要按时期对照事件的学习者；这些是根据作者自述与工具功能归纳的适用人群，并非已验证的用户规模。",
+      "what": "一个可公开打开的开源历史探索网页：选择年份、起始月份及一个月到一百年的时间窗口，在地图与列表中查看世界各地的同期事件，并可按类别筛选、查看 Wikipedia 摘要及分享当前视图。官网与源码显示事件来自 Wikidata，底图采用 OpenHistoricalMap 并按时间窗口中点筛选历史边界；可选建筑与组织成立、人物出生与死亡等类别，Wikipedia 内容语言包含中文。应用在浏览器中调用开放数据服务，代码采用 MIT 许可证。",
+      "why": "HN 发帖者 29b 明确说，自己读历史书时虽然知道事件日期，仍很难把它放进更大的历史背景；与其他地区同时发生的事情对照会更容易理解，因此做了 Meanwhile Map。他以 1520 年代的莫卧儿帝国建立、特诺奇蒂特兰被攻占和维也纳围城为例说明这种对照方式。官方仓库 README 的 Motivation 章节也给出相同的第一人称动机；作者另称这是一次借助 AI 编程的实验。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49969680",
+          "https://github.com/ea/meanwhilemap"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "通过只读 HTTP 读取 HN 原帖、官方 Firebase 元数据及当时唯一一条评论，核查官网 HTML、公开仓库 README、MIT LICENSE、仓库元数据以及线上 app.js 与 data.js。确认页面包含时间与筛选控件，源码具备地图加载、Wikidata 查询、事件列表及 Wikipedia 摘要逻辑；没有在浏览器中运行或操作地图，也没有实际请求事件查询来核验结果。未登录、安装、提交表单或联系任何人，不能将这些源码和页面说明视为交互功能或历史准确性的实测。",
+        "checkedAt": "2026-10-05T20:45:27Z"
+      },
+      "caveats": [
+        "事件、日期、坐标和历史边界依赖 Wikidata、Wikipedia 与 OpenHistoricalMap 的覆盖及准确性；官网承认早期历史与部分地区资料稀疏。结果依 Wikipedia 覆盖数量排序并受最大事件数限制，不能当作完整历史年表或客观重要性排序。",
+        "空心标记可能只是地区或国家位置；模糊日期会以可能重叠的时间段展示。底图采用窗口中点，较长窗口内发生的边界变化未必同时呈现；本轮未独立核验任何历史事件或地理归属。",
+        "虽然是客户端静态网页，仍依赖外部查询、地图和百科服务；源码包含查询超时与失败处理。作者称只使用匿名访问计数、无个人跟踪，但本轮未做网络或隐私审计，不能将客户端处理理解为离线或不向第三方请求数据。",
+        "MIT 许可证适用于应用代码，地图、文字与图片另有各自许可；README 特别注明 GlobCover 土地覆盖图层限教育和科学用途，商业复用前应另查数据授权。",
+        "HN 账号 29b 自称制作者，原帖与官网均链接 ea/meanwhilemap 仓库，仓库许可证署名 ea；未独立核验账号之间的现实身份。唯一评论表达对古代文化可点击阅读的愿望，不能当作已实现功能或市场验证。HN 发布时间只代表本次分享时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49969680"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49969680.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49969783.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://meanwhilemap.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ea/meanwhilemap"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ea/meanwhilemap/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ea/meanwhilemap/blob/main/LICENSE"
+        },
+        {
+          "type": "official_site",
+          "url": "https://meanwhilemap.com/js/app.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://meanwhilemap.com/js/data.js"
+        }
+      ],
+      "tags": [
+        "历史",
+        "交互地图",
+        "知识探索",
+        "Wikidata",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49969447",
       "provider": "hacker_news",
