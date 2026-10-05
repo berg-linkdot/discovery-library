@@ -1,9 +1,220 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T18:48:04Z",
-  "count": 95,
+  "updatedAt": "2026-10-05T19:48:53Z",
+  "count": 98,
   "projects": [
+    {
+      "id": "hacker_news:49969447",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49969447",
+      "title": "Smolvm：微型虚拟机分支与检查点历史的交互式网页演示",
+      "url": "https://smolmachines.com/engineering/branching-and-checkpoint-lineage",
+      "canonicalUrl": "https://smolmachines.com/engineering/branching-and-checkpoint-lineage",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49969447",
+      "hnUrl": "https://news.ycombinator.com/item?id=49969447",
+      "publishedAt": "2026-10-05T19:34:26Z",
+      "discoveredAt": "2026-10-05T19:48:53Z",
+      "audience": "评估 AI agent 沙箱、运行状态分支与检查点存储方案的开发者，以及希望直观理解写时复制和历史恢复的工程读者。",
+      "what": "Smolvm 本体是开源微型虚拟机运行时；本次链接提供三组无需登录的概念性网页演示：运行中分支的写时复制页面共享、检查点历史分叉，以及删除旧文件后差分快照链与保留历史的检查点能否恢复。页面配有对应 CLI 示例与技术取舍说明。这些模拟用于理解机制，不会在浏览器中实际创建虚拟机；同一项目另有需账号的 smol cloud 控制台。",
+      "why": "作者未说明个人创作起因。署名 @binsquare 的文章以 AI agent 会积累运行进程、代码和浏览器状态，需要从同一状态尝试不同下一步或回到旧状态为设计背景；这是文中明确描述的技术问题与产品目标，不能推断为作者个人经历或已验证的市场需求。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49969447",
+          "https://smolmachines.com/engineering/branching-and-checkpoint-lineage"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 Firebase 元数据、工程文章、运行时 README、官网 FAQ 与云端说明。云端浏览器确认文章正常显示三组模拟控件，并确认 cloud 控制台为登录入口；未操作模拟、登录控制台、安装运行时或创建真实虚拟机。本条因原帖自身包含可用的概念演示界面而收录，不把文档插图或云端登录页当作真实 VM 实测。",
+        "checkedAt": "2026-10-05T19:48:53Z"
+      },
+      "caveats": [
+        "网页演示是概念模拟；分支暂停时间、恢复速度、磁盘一致性及安全隔离均为项目方描述，本轮没有独立复现。",
+        "工程文章注明功能适用于 1.18.0 及以后版本，并列出分支与磁盘链深度和默认历史数量限制；实际支持范围应以所安装版本文档为准。",
+        "较早文章的同操作系统恢复限制与当前 README 的跨 macOS/Linux 检查点说明存在差异；本轮未验证兼容性，不能据此保证任意跨平台恢复。",
+        "官方明确 smolvm 是本地或自管基础设施运行时，smol cloud 是以其为基础的托管服务；本条入口是原帖的技术演示，不是在线免费虚拟机。云端服务需要账号，定价与免费额度文档存在不一致，未核验实际收费。",
+        "核查时 HN 原帖没有正文或评论；HN 分享时间不代表运行时或云服务首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49969447"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49969447.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://smolmachines.com/engineering/branching-and-checkpoint-lineage"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/smol-machines/smolvm"
+        },
+        {
+          "type": "official_site",
+          "url": "https://smolmachines.com/console"
+        },
+        {
+          "type": "official_site",
+          "url": "https://smolmachines.com/faq"
+        },
+        {
+          "type": "official_site",
+          "url": "https://smolmachines.com/docs/cloud"
+        },
+        {
+          "type": "official_site",
+          "url": "https://smolmachines.com/pricing"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "微型虚拟机",
+        "交互式演示",
+        "AI 沙箱",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49969421",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49969421",
+      "title": "ScienceShot Live Grid：欧洲 15 个电力市场的碳强度与电价看板",
+      "url": "https://scienceshot.com/live-grid",
+      "canonicalUrl": "https://scienceshot.com/live-grid",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49969421",
+      "hnUrl": "https://news.ycombinator.com/item?id=49969421",
+      "publishedAt": "2026-10-05T19:33:19Z",
+      "discoveredAt": "2026-10-05T19:46:44Z",
+      "audience": "负责欧洲数据中心工作负载排期、用电排放报告及选址比较的运营人员与工程团队；也适合查看不同电力市场碳强度和日前电价的研究者。",
+      "what": "无需登录即可阅读的电网数据网页看板，汇总 15 个欧洲市场的估算发电碳强度、可再生能源比例及日前批发电价，并提供市场详情、逐小时表格和适合安排训练、批处理、备份等弹性计算的四小时窗口。官网称每 10 分钟刷新，提供英国区域比较及可嵌入组件；德国详情页和公开 JSON 数据接口均成功返回实际数据。",
+      "why": "作者未说明个人创作动机。HN 原帖只有标题和链接，核查时没有正文或评论；官网明确的产品目标是帮助安排计算负载、报告电网排放和比较数据中心选址。官网 About 页说明 ScienceShot 出版物希望连接物理与计算基础设施两个领域，但没有直接说明这个 Live Grid 工具的个人开发起因，不能将出版物背景当作工具作者自述。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49969421",
+          "https://scienceshot.com/live-grid",
+          "https://scienceshot.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "读取 HN 页面和官方 Firebase 元数据，核查时评论数为零；阅读官网看板、德国市场详情及 About 页，并成功读取官网公开数据接口，确认包含 15 个市场及生成时间为 2026-10-05T19:39:27Z 的快照。未操作浏览器图表、安装组件、登录、提交表单、联系第三方或支付，也未独立复算碳强度、预测和最佳时段。",
+        "checkedAt": "2026-10-05T19:46:44Z"
+      },
+      "caveats": [
+        "碳强度是依据发电结构与生命周期排放因子的生产端估算，不净计进口和出口；官网提示小型、依赖进口的市场可能与消费端口径明显不同。未来小时依据可再生能源比例预测推算，不能当作实测排放。",
+        "价格是日前批发市场价格，不等于数据中心合同电价或实际电费；四小时窗口仅供参考，官网不保证调度效果或节省金额。",
+        "官网明确提示爱尔兰缺少免费来源的远期电价与碳强度预测，比利时上游缺少核电输出导致碳强度估算偏高。本轮快照中英国后续小时电价也为空，其最佳窗口只按碳强度选择。",
+        "“15 个市场”包含意大利北部、挪威 NO2、瑞典 SE3 和丹麦 DK1 等局部竞价区，不能一概理解为完整国家电网覆盖。",
+        "页面标示“未来 48 小时”，但本轮 JSON 的 48 个小时从欧洲中部时间当天零点开始，包含已过去小时；核查时可向前查看的剩余时段约 27 小时，并非完整未来 48 小时。",
+        "HN 发布账号为 major_stef，未独立核验其与 ScienceShot 团队的身份关系；Show HN 时间仅是此次分享时间，不证明工具首次上线。本轮没有独立验证使用量、付费收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49969421"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49969421.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://scienceshot.com/live-grid"
+        },
+        {
+          "type": "official_site",
+          "url": "https://scienceshot.com/live-grid/germany"
+        },
+        {
+          "type": "official_site",
+          "url": "https://scienceshot.com/wp-json/ss/v1/grid"
+        },
+        {
+          "type": "official_site",
+          "url": "https://scienceshot.com/about"
+        }
+      ],
+      "tags": [
+        "电网数据",
+        "碳强度",
+        "电价",
+        "数据中心",
+        "网页看板"
+      ]
+    },
+    {
+      "id": "hacker_news:49969349",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49969349",
+      "title": "Cold Email Killer：自行部署到 Google Apps Script 的 Gmail 冷邮件过滤工具",
+      "url": "https://github.com/christianmat/cold-email-killer",
+      "canonicalUrl": "https://github.com/christianmat/cold-email-killer",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49969349",
+      "hnUrl": "https://news.ycombinator.com/item?id=49969349",
+      "publishedAt": "2026-10-05T19:28:31Z",
+      "discoveredAt": "2026-10-05T19:48:53Z",
+      "audience": "使用 Gmail、经常收到陌生销售邮件，并愿意自行部署和审查邮箱权限的个人或工作邮箱用户。",
+      "what": "一个在用户自己的 Google Apps Script 项目中运行的 Gmail 过滤工具，带实际的网页设置界面。默认每十分钟用规则和可选 AI 分类邮件，给疑似冷邮件加标签并移出收件箱，不删除邮件；网页可选择模型提供方、阈值、试运行策略、每日调用上限和放行名单，也可暂停、立即运行、清理近期积压并查看判断记录。不是现成公共 SaaS，初次需用 Node 和 clasp 部署，之后通过自己的 Apps Script 网页管理。",
+      "why": "官方 README 用第一人称说明，每天会收到大量陌生销售人员的“简单问一下”“再次跟进”邮件，因此用这个工具把它们标记并归档，让收件箱保留真正写给自己的信息。HN 发帖者 pancomplex 另称在工作和个人邮箱使用数周，目的是减少打断并保持专注；这是其使用与分享背景，未独立核实该账号与仓库维护者的身份关系，不能直接当作同一人的创作经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49969349",
+          "https://github.com/christianmat/cold-email-killer"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 正文与官方 Firebase 元数据，核查时无评论；阅读官方 README、src/ui/Settings.html 与 src/gas/main.ts。源码确认 doGet 提供设置网页，并有保存配置、即时运行、历史清理等服务端处理函数，因此按需自行部署的实用网页应用收录。未安装、授权 Gmail、输入 API key、部署项目或处理真实邮件，未实测分类和误判恢复效果。",
+        "checkedAt": "2026-10-05T19:48:53Z"
+      },
+      "caveats": [
+        "需自行部署到 Google 账号，并授予 Apps Script 完整 Gmail 权限；仓库称代码只读取、打标签和归档，但这不缩小授权本身的范围，使用前应审查源码与权限。",
+        "启用 AI 后，README 说明发件人、主题和正文前 2,000 个字符会发送给所选模型服务；选择 None 才仅使用规则。自己的模型也需从 Google 服务器可达，不能直接填写电脑上的 localhost。",
+        "API key 保存在脚本属性中；需自行管理密钥、供应商数据政策与可能产生的模型费用。所谓自行部署仍由 Google Apps Script 执行，并不代表全部处理都在自己的电脑上。",
+        "首次 24 小时默认只加标签的试运行、允许名单和误判纠正是官方描述；本轮只读源码，没有验证对重要邮件的保护能否覆盖所有情况。",
+        "HN 所称拦截 99% 是发布者个人使用结果，未经独立评测；不能当作普遍准确率、真实需求或商业成果证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49969349"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49969349.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/christianmat/cold-email-killer"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/christianmat/cold-email-killer/blob/main/src/ui/Settings.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/christianmat/cold-email-killer/blob/main/src/gas/main.ts"
+        }
+      ],
+      "tags": [
+        "邮件过滤",
+        "Gmail",
+        "Google Apps Script",
+        "自行部署",
+        "网页应用",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49968305",
       "provider": "hacker_news",
