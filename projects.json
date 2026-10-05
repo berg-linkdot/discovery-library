@@ -1,9 +1,224 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T05:43:35Z",
-  "count": 41,
+  "updatedAt": "2026-10-05T06:51:27Z",
+  "count": 44,
   "projects": [
+    {
+      "id": "hacker_news:49961352",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49961352",
+      "title": "Supermodels",
+      "url": "https://supermodels.phototypelabs.com",
+      "canonicalUrl": "https://supermodels.phototypelabs.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49961352",
+      "hnUrl": "https://news.ycombinator.com/item?id=49961352",
+      "publishedAt": "2026-10-05T06:32:33Z",
+      "discoveredAt": "2026-10-05T06:51:25Z",
+      "audience": "需要为具体项目选择与比较 AI 模型的设计师、小型工作室、建筑师、品牌与营销团队及内容创作者（官网列举）",
+      "what": "浏览器创作工作台，将文本、图像、视频、配音与音乐模型放在同一界面，并提供批量图像生成和作品图库。官网称用户可先在访客工作区准备草稿，登录后选择模型与设置、查看费用估算，再按用量生成。",
+      "why": "官方项目回顾明确将起点归于一个创作问题：怎样把脑中的画面描述得足够清楚，得到有用的结果。因此先着手帮助用户说明创作方向、尝试生成并判断如何修改；这是官方项目缘起，未核实为 HN 发帖者的个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://supermodels.phototypelabs.com/post/monthly-update-2026-03"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已阅读 HN 原帖、官方 Firebase 元数据、官网首页、项目起源与近期更新、隐私政策及使用条款；核查时原帖无正文、无评论。未登录、提交提示词、上传文件、充值或调用生成。",
+        "checkedAt": "2026-10-05T06:51:25Z"
+      },
+      "caveats": [
+        "模型目录、生成能力与效果仅依据官网声明，未实际测试；访客模式用于准备草稿，生成需要 Google 登录和钱包余额，官网列最低充值额为 10 美元。",
+        "隐私政策说明提示词、参考文件等会传给所选第三方集成，服务也处理账号、作品、交易记录和使用分析；默认私人图库不等于本地处理。",
+        "商业使用许可仍受各模型条款、使用限制及第三方权利约束；团队预算与协作功能标为即将推出。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49961352"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49961352.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://supermodels.phototypelabs.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://supermodels.phototypelabs.com/post/monthly-update-2026-03"
+        },
+        {
+          "type": "official_site",
+          "url": "https://supermodels.phototypelabs.com/post/monthly-update-2026-09"
+        },
+        {
+          "type": "official_site",
+          "url": "https://supermodels.phototypelabs.com/post/monthly-update-2026-10"
+        },
+        {
+          "type": "official_site",
+          "url": "https://supermodels.phototypelabs.com/privacy.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://supermodels.phototypelabs.com/terms.html"
+        }
+      ],
+      "tags": [
+        "AI 创作",
+        "多模型",
+        "按量付费",
+        "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49961206",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49961206",
+      "title": "LaunchPact",
+      "url": "https://www.launchpact.io/",
+      "canonicalUrl": "https://www.launchpact.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49961206",
+      "hnUrl": "https://news.ycombinator.com/item?id=49961206",
+      "publishedAt": "2026-10-05T06:06:29Z",
+      "discoveredAt": "2026-10-05T06:51:04Z",
+      "audience": "准备在 Product Hunt 发布产品、希望协调同行支持的创业者与独立开发者，也面向推广 Reddit 帖子的创作者（依据官网功能归纳）",
+      "what": "发布支持网页应用：登记产品与发布日期、寻找同期发布者并建立互相支持约定，通过提醒、投票截图核验与信誉分记录履约；另提供 Reddit 帖子互助、发布素材及产品目录等功能。",
+      "why": "官网创始人自述，自己曾在没有准备和支持者的情况下发布产品，几乎没有反馈或曝光；看到其他创业者也在发布当天临时求助，因此制作工具帮助大家提前组织并兑现相互支持。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.launchpact.io/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方元数据、首页、Reddit 功能页、核验政策及服务条款；核查时没有评论。未注册、登录、上传截图或实际测试互助流程。",
+        "checkedAt": "2026-10-05T06:51:04Z"
+      },
+      "caveats": [
+        "互助履约、AI 截图核验准确率及推广效果均未独立验证；条款承认核验可能误判，不保证 Product Hunt 排名、流量或收入，并声明与 Product Hunt 无隶属关系。",
+        "官网列每次 Product Hunt 发布含 10 个免费约定，单次激活标价 34 美元以解锁更多功能；Reddit 免费版可同时登记 3 篇帖子。价格与额度以实际页面为准。",
+        "Reddit 功能页明确提醒，有组织的集体投票涉及平台的投票操纵规则，互助约定并非没有风险；未将官网的合规宣传视为第三方平台认可。",
+        "隐私政策说明会保存上传的核验截图及相关元数据，图片可能包含用户名；本次仅阅读公开资料，未作安全审计。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49961206"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49961206.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.launchpact.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.launchpact.io/reddit-upvotes"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.launchpact.io/about/verification"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.launchpact.io/terms"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.launchpact.io/privacy"
+        }
+      ],
+      "tags": [
+        "产品发布",
+        "创业者社区",
+        "营销协作",
+        "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49961181",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49961181",
+      "title": "Times Table Test",
+      "url": "https://timestabletest.com/",
+      "canonicalUrl": "https://timestabletest.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49961181",
+      "hnUrl": "https://news.ycombinator.com/item?id=49961181",
+      "publishedAt": "2026-10-05T06:02:24Z",
+      "discoveredAt": "2026-10-05T06:51:27Z",
+      "audience": "学习乘法表的学生，以及准备家庭练习、课堂活动或测验的家长与教师；也有面向成人的高难度练习",
+      "what": "免费、免注册的乘法练习网页，提供四档难度与选择、输入、限时、判断四种作答方式，并配有乘法表、六款小游戏和可打印练习卷生成器。公开页面含简体中文版本；学习页面覆盖 1–30 的乘法表。",
+      "why": "官网说明的产品目标是通过短时测验、游戏与针对错题的练习帮助学习者熟记乘法表，并方便家庭和课堂使用；HN 原帖没有作者说明，未找到明确的个人创作缘由。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://timestabletest.com/",
+          "https://news.ycombinator.com/item?id=49961181"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖与官方 API、英文和简体中文首页、练习卷页面及隐私与使用条款；核查时原帖没有评论，未开始测验、游戏或生成打印文件。",
+        "checkedAt": "2026-10-05T06:51:27Z"
+      },
+      "caveats": [
+        "功能依据公开页面和操作说明核对；题目准确性、游戏运行、打印排版、移动端适配及学习效果未实测。",
+        "官网称成绩、进度和设置仅保存在当前设备浏览器，不能据此假定会跨设备同步；隐私声明未作独立技术审计。",
+        "隐私政策说明使用 Cloudflare CDN 与访问统计，并保留短期技术日志；不能将“成绩本地保存”理解为网站没有任何技术数据处理。",
+        "使用条款允许免费在家庭和教学中打印、复制和分发练习卷，但不允许出售或在其他网站冒充自己的作品发布。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49961181"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49961181.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://timestabletest.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://timestabletest.com/zh/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://timestabletest.com/multiplication-worksheets/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://timestabletest.com/privacy-policy/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://timestabletest.com/terms-of-use/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://timestabletest.com/contact/"
+        }
+      ],
+      "tags": [
+        "数学学习",
+        "教育",
+        "练习卷",
+        "浏览器应用"
+      ]
+    },
     {
       "id": "hacker_news:49960969",
       "provider": "hacker_news",
