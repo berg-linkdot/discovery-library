@@ -1,9 +1,69 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T01:43:09Z",
-  "count": 40,
+  "updatedAt": "2026-10-05T05:43:35Z",
+  "count": 41,
   "projects": [
+    {
+      "id": "hacker_news:49960969",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49960969",
+      "title": "Estimate My X",
+      "url": "https://estimatemyx.com/",
+      "canonicalUrl": "https://estimatemyx.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49960969",
+      "hnUrl": "https://news.ycombinator.com/item?id=49960969",
+      "publishedAt": "2026-10-05T05:21:57Z",
+      "discoveredAt": "2026-10-05T05:43:35Z",
+      "audience": "希望在发布前评估 X 帖子表现、比较改写方案与发布时间的个人创作者和社交媒体运营者（依据功能归纳）",
+      "what": "网页应用：输入 X 帖子草稿，估算曝光、点赞、回复、转发等指标，并比较优化建议与发布时间。官网称模型结合 X 公开推荐算法权重、公开帖子数据及账号近期表现，在浏览器内分析草稿。",
+      "why": "作者说明的产品目标是帮助用户在发布前估算互动并优化帖子，结合账号数据与发布时间改善估算；未说明个人创作缘由。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49960969"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、公开首页、隐私政策及页面脚本；核查时原帖没有评论，未提交草稿、查询账号或使用优化功能。",
+        "checkedAt": "2026-10-05T05:43:35Z"
+      },
+      "caveats": [
+        "预测准确率、改写效果与实时 X 算法的一致性未独立验证；官网明确说明估算不是保证，产品与 X Corp 无隶属关系。",
+        "页面脚本提供免登录估算与手动填写统计数据入口，优化功能要求登录；官网列免费每月 3 次优化，付费方案仍标为即将推出。",
+        "官网称草稿正文在浏览器处理，但隐私政策说明优化草稿的哈希、使用记录及登录后的公开 X 账号资料会保存到服务端；账号查询可涉及 X API 或 FxTwitter。",
+        "隐私与数据流仅按公开声明和部分页面脚本核对，未作安全审计；未登录、提交表单或测试功能。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49960969"
+        },
+        {
+          "type": "official_site",
+          "url": "https://estimatemyx.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://estimatemyx.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://estimatemyx.com/assets/index-DvoTISq9.js"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49960969.json"
+        }
+      ],
+      "tags": [
+        "社交媒体",
+        "内容优化",
+        "浏览器应用"
+      ]
+    },
     {
       "id": "hacker_news:49959656",
       "provider": "hacker_news",
