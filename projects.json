@@ -1,9 +1,267 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T22:39:45Z",
-  "count": 109,
+  "updatedAt": "2026-10-05T23:46:13Z",
+  "count": 113,
   "projects": [
+    {
+      "id": "hacker_news:49972233",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49972233",
+      "title": "FlyHedwig：开源的 B2B 邮件序列与回复管理网页工具",
+      "url": "https://flyhedwig.com/",
+      "canonicalUrl": "https://flyhedwig.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49972233",
+      "hnUrl": "https://news.ycombinator.com/item?id=49972233",
+      "publishedAt": "2026-10-05T23:38:01Z",
+      "discoveredAt": "2026-10-05T23:44:14Z",
+      "audience": "需要从自有邮箱管理 B2B 外联、销售跟进与回复分类的小团队，以及希望自行部署邮件活动管理网页的技术用户。",
+      "what": "通过网页管理联系人导入、多步邮件序列、发送时段、多邮箱配额、收件箱与统计，并可接入 Claude Code／Codex 的 MCP 工具。官方说明邮件经用户自己的 SMTP 或 Microsoft 365 发送，收到回复、退信或退订后停止相应序列；AI 可分类回复并生成草稿。提供官方托管网页和 MIT 开源自托管版本，官网展示 Campaigns、Inbox、Analytics 等界面示意。",
+      "why": "HN 发布者 gabceboli 在原帖明确说，他此前不了解 cold email（向尚未建立联系的潜在客户发送外联邮件），也曾把软件费用视为理所当然；研究后认为不该必须为此付费，因此制作了 FlyHedwig。他自述为项目制作者，但本轮未进一步核实其真实姓名或法律主体。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49972233"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查实时 HN 原帖、官方 Firebase 元数据与发布者的唯一评论，读取官网公开介绍及其链接的官方 GitHub README、MIT 许可证。已确认网页管理和自托管说明，未注册、登录、连接邮箱、导入联系人、发送邮件、安装或部署软件。",
+        "checkedAt": "2026-10-05T23:44:14Z"
+      },
+      "caveats": [
+        "官网的邮件数量、回复率和机会数被明确标为示例数据，不能当作实际用户、收入或外联效果证据。",
+        "免费托管、无限联系人及邮箱数量等为核查时官方说明，不代表自有邮箱、服务器、模型服务等相关成本均为零；没有进入账号或付款流程核验实际配额与服务条件。",
+        "网页完整工作流需创建账号并连接自有邮箱；官网说明会存储加密后的邮箱密码或令牌，本轮未审计实现、安全性、送达率或长期可用性。",
+        "官方称内置回复代理只分类和起草，但 MCP 文档摘要亦列出启动活动与发送回复权限；授权自动化前须区分只读、起草与发信能力，本轮未授予任何权限。",
+        "自托管需要 Docker、服务配置和 HTTPS 等运行环境；没有部署验证。使用者仍需自行确认联系人来源、退订处理与适用规则。",
+        "publishedAt 是该 HN 帖子的发布时间，不能据此判断产品刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49972233"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49972246"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49972233.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://flyhedwig.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/gabrilator/hedwig"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/gabrilator/hedwig/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/gabrilator/hedwig/blob/main/LICENSE"
+        }
+      ],
+      "tags": [
+        "邮件管理",
+        "B2B",
+        "网页应用",
+        "MCP",
+        "开源",
+        "自托管"
+      ]
+    },
+    {
+      "id": "hacker_news:49972195",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49972195",
+      "title": "Open Twin：用 Modelica 模拟物理系统，探索 PLC 控制逻辑测试",
+      "url": "https://open-twin.netlify.app/w/d5e756e1-4b43-415b-a10c-bb83fb98fe55",
+      "canonicalUrl": "https://open-twin.netlify.app/w/d5e756e1-4b43-415b-a10c-bb83fb98fe55",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49972195",
+      "hnUrl": "https://news.ycombinator.com/item?id=49972195",
+      "publishedAt": "2026-10-05T23:34:06Z",
+      "discoveredAt": "2026-10-05T23:44:03Z",
+      "audience": "希望用物理系统仿真检查 PLC 控制逻辑的自动化与控制工程师，以及探索 Modelica、数字孪生和可视化仿真的开发者。",
+      "what": "一个基于 Modelica 的物理系统仿真早期网页演示。作者提出可用模拟系统来测试 PLC 调节逻辑。官网前端包含节点与 3D 视图、仿真时长和步长、信号曲线及回放控制；公开脚本列出外部环境、房间和恒温器的 FMU 模型，并包含向后端请求耦合仿真的代码。本轮只确认网页初始控件和这些代码，未确认仿真结果或实际 PLC 接入。",
+      "why": "HN 发布者 tgirotto 未说明个人创作动机。他在 HN 只明确提出产品用途：用 Modelica 模拟真实物理系统，并探索将其用于 PLC 调节逻辑测试；他称演示很基础，希望听取反馈。这些是用途与发布目标，不能据此推断个人经历或开发起因。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49972195"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读核查 HN 原帖、官方 Firebase 条目与官网网页及其公开前端脚本；核查时 descendants 为 0 且没有 kids，讨论页无评论，因此没有作者评论可补充。官网 HTTP 返回 200；云浏览器短暂显示默认 7200 秒时长、60 秒步长及加载中的播放控件，随后页面空白，控制台记录 WebGL context 创建失败。未操作模型或主动运行仿真，未连接 PLC、登录、安装或提交表单；未验证仿真结果、计算精度和端到端功能。",
+        "checkedAt": "2026-10-05T23:44:03Z"
+      },
+      "caveats": [
+        "作者明确称其为基础演示。前端侧栏的模型卡片被设置为不可用，并带有“目前这些 twin 尚不可用”的演示提示；不能把代码中的组件或控制项当作已验证可用的完整编辑器。",
+        "本次云浏览器无法创建 WebGL context，加载后只剩空白页与 Netlify 标识；这是本环境的观察结果，不能据此认定所有用户都无法使用。",
+        "PLC 测试是作者提出的潜在用途。未看到经验证的 PLC 连接流程、协议支持、硬件在环测试或准确性基准，不能作为生产控制系统测试能力的证明。",
+        "本轮未核实开源仓库、许可证、价格、部署方式或数据保留政策；项目名称中的 Open 不代表已确认开源。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49972195"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49972195.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://open-twin.netlify.app/w/d5e756e1-4b43-415b-a10c-bb83fb98fe55"
+        },
+        {
+          "type": "official_site",
+          "url": "https://open-twin.netlify.app/assets/index-C42M0D1_.js"
+        }
+      ],
+      "tags": [
+        "Modelica",
+        "物理仿真",
+        "数字孪生",
+        "PLC",
+        "控制工程",
+        "早期演示"
+      ]
+    },
+    {
+      "id": "hacker_news:49971841",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49971841",
+      "title": "TrailEditor：帮助改进 OpenStreetMap 山地车路线与难度标记的轻量编辑器",
+      "url": "https://traileditor.app",
+      "canonicalUrl": "https://traileditor.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49971841",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971841",
+      "publishedAt": "2026-10-05T22:46:05Z",
+      "discoveredAt": "2026-10-05T23:43:28Z",
+      "audience": "希望补充或修正 OpenStreetMap 山地车（MTB）路线、IMBA 难度评级及路线网络信息的骑行者和地图贡献者。",
+      "what": "作者介绍的轻量地图编辑器，支持加载卫星影像、激光雷达或 OSM GPS 轨迹辅助核对路径；用快捷键标注 IMBA 难度，新增、编辑与拆分路线，圈选路线建立或更新路线网络，并以 changeset 上传到 OSM。作者称初期支持按美国和加拿大的州或地区加载路线。本轮只核实了作者的公开功能说明，未进入编辑界面。",
+      "why": "作者 kennethtransier 在 HN 原帖明确表示，OSM 的山地车路线数据仍有很大改进空间，尤其是 IMBA 难度评级，因此开发这款工具来降低参与 OSM 数据贡献的门槛。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49971841"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "只读核查 HN 讨论页及官方 Firebase 条目：当时 descendants 为 0 且没有 kids，无作者评论可补充。官网在本次访问中返回 HTTP 403，浏览器也无法加载，未取得官网页面内容。因此未验证地图加载、快捷键、路线编辑或 OSM 上传。没有登录、安装、提交表单、修改地图或创建 changeset。",
+        "checkedAt": "2026-10-05T23:43:28Z"
+      },
+      "caveats": [
+        "功能及初期地域支持来自作者的 HN 介绍，未经实际操作验证；不能据此确认美国、加拿大以外地区的支持情况。",
+        "未能读取官网，价格、许可证、隐私条款、登录与授权要求均未核实；本次访问受阻不等于产品对所有用户不可用。",
+        "该工具用于编辑公共地图数据，不应仅凭尚未核实的路线或难度标记判断骑行安全；实际路线状况未作核查。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49971841"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49971841.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://traileditor.app/"
+        }
+      ],
+      "tags": [
+        "地图编辑",
+        "OpenStreetMap",
+        "山地车",
+        "户外路线",
+        "众包数据"
+      ]
+    },
+    {
+      "id": "hacker_news:49971832",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49971832",
+      "title": "DenizliHub（DH Tools）：浏览器内的 PDF、图片与开发者工具集合",
+      "url": "https://denizlihub.com/",
+      "canonicalUrl": "https://denizlihub.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49971832",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971832",
+      "publishedAt": "2026-10-05T22:45:01Z",
+      "discoveredAt": "2026-10-05T23:46:13Z",
+      "audience": "经常处理 PDF、图片、文本或 JSON 的开发者、办公人员、学生与数字内容创作者，尤其是希望避免上传文件的用户。",
+      "what": "将 PDF 合并与转换、图片压缩和 OCR、JSON 格式化、二维码、文本处理等日常工具集中在网页中。官网目前列出 46 项核心工具，称无需注册即可免费使用，并提供可选 PRO 会员；发布到 HN 时标题写的是 40 项。已读到 JSON 工具的公开说明与入口，但未执行转换。",
+      "why": "官方 About 页面明确说，独立开发者 Furkan 在 2026 年建立 DH Tools，是为了提供一种替代方案，回应其对常见工具网站订阅收费、垃圾广告和将个人文件上传至未知服务器的不满，让人们在浏览器中以低门槛完成日常工作。此动机来自官网；HN 发布者唯一评论已被标记为 dead，无法读取其原始内容。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://denizlihub.com/about/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读获取实时官方 Firebase 帖子及其唯一子评论，并读取 HN 讨论页；讨论页无可见评论，子评论仅返回 [dead]。读取搜索工具可访问的官网首页、About、隐私政策和 JSON 工具页文本，其中部分抓取时间早于本轮一至两周。直接 HTTP 获取首页返回 403，PDF 合并及 DNS 子页未能获取；未进行交互运行、文件选择或上传、登录、注册、安装、联系或付款。",
+        "checkedAt": "2026-10-05T23:46:13Z"
+      },
+      "caveats": [
+        "“文件不离开浏览器”、离线执行及性能均为官方声明，本轮没有检查运行时网络请求或审计实现，不能据此保证隐私、安全、速度或所有工具可用。",
+        "隐私政策明确披露 Google AdSense 及第三方广告 Cookie；首页另列 IP 查询和通过 Cloudflare DNS-over-HTTPS 查询的网络工具，因此不能把文件本地处理理解为整个网站完全不联网或不存在第三方追踪。",
+        "免费范围与 PRO 功能仅依据官网说明，未进入会员流程核实；不同页面可能有版本或缓存差异，HN 标题的 40 项与官网 46 项不能视为本轮逐项验证过的数量。",
+        "官网还宣称适合处理敏感文件及符合相关隐私要求，本轮未核验合规性；不宜仅凭宣传上传、输入或处理真实敏感资料。",
+        "作者评论 49971837 在官方 API 中为 dead 且正文仅为 [dead]，未尝试恢复不可见内容；不能将官网作者身份与 HN 账号的对应关系视为独立认证。",
+        "publishedAt 是 HN 帖子的发布时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49971832"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49971832.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49971837.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://denizlihub.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://denizlihub.com/about/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://denizlihub.com/privacy/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://denizlihub.com/json-formatter/"
+        }
+      ],
+      "tags": [
+        "网页工具",
+        "PDF",
+        "图片处理",
+        "开发者工具",
+        "本地处理",
+        "免费增值"
+      ]
+    },
     {
       "id": "hacker_news:49971727",
       "provider": "hacker_news",
