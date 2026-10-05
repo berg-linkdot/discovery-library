@@ -1,9 +1,288 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T10:45:15Z",
-  "count": 53,
+  "updatedAt": "2026-10-05T11:47:03Z",
+  "count": 57,
   "projects": [
+    {
+      "id": "hacker_news:49963508",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49963508",
+      "title": "Island Three：可步入的奥尼尔圆筒太空城市",
+      "url": "https://islandthree.world/",
+      "canonicalUrl": "https://islandthree.world/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49963508",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963508",
+      "publishedAt": "2026-10-05T11:32:58Z",
+      "discoveredAt": "2026-10-05T11:47:02Z",
+      "what": "面向浏览器的三维太空聚居地漫游。以奥尼尔圆筒设想为背景，让人从街道视角观看向头顶弯曲的山谷、城市与窗面；官网介绍可步行、骑踏板车、乘高架列车并观察昼夜和镜面变化。奥尼尔圆筒是通过旋转产生类似重力、让居民生活在内壁的太空栖居概念，不是已经建成的真实设施。",
+      "audience": "对太空居住、科幻世界、城市尺度与三维场景感兴趣的普通访客、设计者及可视化爱好者（按页面用途归纳）。",
+      "why": "官网署名 Zach Kauble。他自述小学二年级在 Roy A. Gallant 的《Our Universe》中读到并看到奥尼尔圆筒插画后，就一直希望亲身站到那样的世界里；所以把这个网站做成可以走进去的场景。HN 发帖者 zkauble3310 也在作者评论中说自己长期迷恋圆筒聚居地，并通过 Claude Code 与 Claude 驱动的 Blender 反复调模型和性能。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://islandthree.world/",
+          "https://news.ycombinator.com/item?id=49963532"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已核对 HN 原帖、作者评论与官方 API 时间，使用云端浏览器读取官网和更新记录，并点击进入 /colony/。已看到场景时钟、街区、山谷、速度及画质界面；该浏览器无法创建 WebGL 上下文，三维画面未渲染，因此未完成行走体验。普通页面抓取返回 403，浏览器能正常打开官网。",
+        "checkedAt": "2026-10-05T11:47:02Z"
+      },
+      "caveats": [
+        "需要可用的 WebGL 图形环境。首次进入页面提示可能等待约一分钟；本轮云端浏览器的 WebGL 不可用，无法据此判定网站在普通设备上是否正常。实际性能、手机兼容性、步行和交通工具操作未实测。",
+        "属于想象性、教育性三维体验，不是太空城市工程可行性验证。官网所列未来建设时间线包含作者预测，历史与航天计划也未在本轮逐条独立核验。",
+        "官网更新记录早于本次 HN 帖子；发布时间只是 Show HN 发帖时间，不能据此断言网站刚上线。未验证访问量、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963508"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963532"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49963508.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://islandthree.world/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://islandthree.world/colony/"
+        }
+      ],
+      "tags": [
+        "太空科幻",
+        "三维漫游",
+        "浏览器演示",
+        "可视化"
+      ]
+    },
+    {
+      "id": "hacker_news:49963394",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49963394",
+      "title": "Minigraf：可在浏览器回看图数据历史的双时态数据库",
+      "url": "https://project-minigraf.github.io/minigraf-visualizer/",
+      "canonicalUrl": "https://project-minigraf.github.io/minigraf-visualizer/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49963394",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963394",
+      "publishedAt": "2026-10-05T11:18:18Z",
+      "discoveredAt": "2026-10-05T11:47:03Z",
+      "audience": "需要保留关系数据及修订历史的开发者，以及想直观理解双时态数据的学习者；官网列举 AI 代理记忆、离线移动应用和浏览器应用等用途（依据作者原帖和官方资料归纳）。",
+      "what": "开源嵌入式图数据库，并提供免安装的网页 Playground 和时间旅行可视化器。本条入口是可直接使用的可视化器，可加载职业变化、代理记忆等样例，在关系图、事实表和双时态图之间切换，逐笔回看新增、撤回与纠正。双时态分别记录“何时写入数据库”和“在现实中何时有效”，因此能区分事后纠错与事实本身发生变化。底层用 Datalog 查询关系，支持把数据库保存在单个 .graph 文件中。",
+      "why": "HN 作者 adityamukho 说明，这是他此前时态图数据库项目 RecallGraph 的后继：沿用前作的概念，但去掉对另一套数据库的依赖，改为自行提供存储、事务和查询引擎，做成可嵌入应用的独立库并支持完整双时态。他未进一步说明具体的个人使用痛点或商业动机。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49963394",
+          "https://news.ycombinator.com/item?id=23455516"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取 HN 原帖、官方 API、作者链接的前作讨论、官方 README 和已知问题清单；原帖核查时无评论，API descendants 为 0。用云浏览器打开官方可视化器，切换双时态图和事实表，并回看 Careers & corrections 样例：事务 5 的 Alice 薪资为 75000，事务 7 为纠正后的 80000，两者现实有效期都从 2023-06-01 开始。另查看 Playground 编辑器与入场提示，未接受其条款提示、输入 API 密钥或使用 AI Tutor；未安装软件、导入个人文件或测试生产负载。",
+        "checkedAt": "2026-10-05T11:47:03Z"
+      },
+      "caveats": [
+        "主项目是开发者数据库库，不是托管数据库服务；本条因官方提供实际可用的浏览器演示而收录。README 将浏览器 WASM 包列为实验性 Tier 2，不能把演示成功等同于生产可靠性。",
+        "官方当前版本问题清单披露：v2.0.2 及部分早期版本在同一次写入或撤回中处理同一实体、同一属性的多个值时，查询可能只返回一个值。官方建议逐值分次操作，并将根本修复列入 v3.0.0；本次未复现缺陷，也未确认在线演示所用版本。",
+        "Playground 提示 AI 功能会把消息和密钥发送给所选模型服务；使用 Anthropic 时还会经其服务器中转。无需使用这些 AI 功能即可查看独立可视化器样例，相关隐私承诺未经本次独立审计。",
+        "仅实测内置样例的浏览和历史切换，未验证自有 .graph 文件兼容性、崩溃恢复、性能、AI 推理效果或完整数据正确性。开源、演示可用和 HN 热度均不构成市场需求、收入或生产成熟度验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963394"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49963394.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/project-minigraf/minigraf"
+        },
+        {
+          "type": "official_site",
+          "url": "https://project-minigraf.github.io/minigraf-visualizer/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://project-minigraf.github.io/minigraf-visualizer/#sample=careers&tx=7&e=:alice&view=map"
+        },
+        {
+          "type": "official_site",
+          "url": "https://minigraf-playground.vercel.app/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/project-minigraf/minigraf/issues/421"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=23455516"
+        }
+      ],
+      "tags": [
+        "图数据库",
+        "双时态",
+        "历史回放",
+        "浏览器演示",
+        "开源",
+        "Datalog"
+      ]
+    },
+    {
+      "id": "hacker_news:49963368",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49963368",
+      "title": "SuperLocalMemory：带答案检查面板的本地 AI 记忆管理台",
+      "url": "https://www.superlocalmemory.com/",
+      "canonicalUrl": "https://www.superlocalmemory.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49963368",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963368",
+      "publishedAt": "2026-10-05T11:14:11Z",
+      "discoveredAt": "2026-10-05T11:46:34Z",
+      "audience": "需要让多个 AI 编程助手跨会话复用项目知识，并希望在浏览器检查记忆、来源与运行状态的开发者和自托管团队（依据官方功能归纳）",
+      "what": "本地部署的 AI 记忆系统，附带可操作的 Web 管理台：浏览和筛选记忆、查看知识图谱、配置工作区与服务，并经 MCP 或 CLI 接入助手。README 列出 16 个面板；新增 Answer Check 可在网页测试检索，查看结果是否足以回答问题、检查耗时与历史统计。它由本地守护进程提供页面，符合自托管 Web 应用范围；官网是介绍与文档入口。",
+      "why": "作者未说明。核查时 HN 原帖只有标题和仓库链接，没有正文或作者评论；已读官网及文档未提供可核实的个人制作经历。官方陈述的产品目标是让代理保留跨会话记忆，并区分“找到相关内容”和“确有答案”，不能据此推断作者自身经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49963368",
+          "https://www.superlocalmemory.com/",
+          "https://github.com/qualixar/superlocalmemory/blob/main/docs/answer-check.md"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖 HTML 与官方 API、官网、实时获取的 README、Dashboard Coverage、Answer Check 文档及管理台 HTML 源码，确认有搜索、图谱和设置等网页界面。HN API 当时无评论、无 kids。未安装或运行项目，未打开实际部署的管理台、提交测试查询或验证端到端功能。",
+        "checkedAt": "2026-10-05T11:46:34Z"
+      },
+      "caveats": [
+        "需要自行安装并运行服务，不是打开官网即可使用的托管应用。当前 README 要求 Python 3.12+；npm 安装路线另需 Node 18+。列出的支持平台为 Apple Silicon macOS、64 位 Windows 与 Linux，Intel Mac 和 32 位 Windows 不支持；项目使用 AGPL-3.0-or-later 许可。",
+        "答案检查可关闭。文档中的本地 Laya 检查需要 Apple Silicon Mac，模型约 1.1 GB；在线 Jev 需要自备 TypeSafe 或 OpenRouter 密钥、承担供应商费用并明确同意。检查仅给出信号，不移除检索结果，也不能保证助手据此正确回答。",
+        "官方说明在线 Jev 会发送问题及前 3 条记忆，启用可选重排则为前 20 条；普通个人资料不会被自动剥除。Mode C、外部模型与可选备份等也有各自外传路径，不能将“本地优先”理解为所有配置都不联网。",
+        "文档提示个人模式不强制登录，多用户部署需另行配置登录与权限；部分面板在缺少数据或依赖时可能为空。界面存在并不证明所有功能已启用或安全边界有效，本轮未进行安全或隐私审计。",
+        "官网的基准、合规与可靠性陈述未经本轮独立验证，不能作为准确率、法律合规、市场需求或收入证明；HN 发帖时间也不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963368"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49963368.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.superlocalmemory.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/qualixar/superlocalmemory"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/qualixar/superlocalmemory/blob/main/docs/DASHBOARD-COVERAGE.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/qualixar/superlocalmemory/blob/main/docs/answer-check.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/qualixar/superlocalmemory/blob/main/src/superlocalmemory/ui/index.html"
+        }
+      ],
+      "tags": [
+        "AI 记忆",
+        "自托管",
+        "本地部署",
+        "MCP",
+        "知识图谱",
+        "答案检查"
+      ]
+    },
+    {
+      "id": "hacker_news:49963151",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49963151",
+      "title": "EarWing：配合开源麦克风阵列的本地浏览器转录与会议摘要",
+      "url": "https://github.com/nlothian/earwing",
+      "canonicalUrl": "https://github.com/nlothian/earwing",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49963151",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963151",
+      "publishedAt": "2026-10-05T10:44:24Z",
+      "discoveredAt": "2026-10-05T11:46:13Z",
+      "audience": "愿意自行组装硬件或部署前端、希望在本机处理录音与会议内容的开发者和技术爱好者（依据官方文档用途归纳）；不适合期待打开公共网页即可使用的普通用户。",
+      "what": "开源 ESP32 四麦克风阵列项目，附带真正承担转录工作的自托管网页应用。页面接收设备音频流，用浏览器内的 Parakeet 模型转成文字，支持说话人标记、复制和导出；可选助手用本机 WebGPU 生成会议摘要并回答有关转录内容的问题。源码还提供本地音频文件入口，官方开发文档提供不接真实硬件的模拟设备流程，因此具备实际浏览器工具用途，而非只有硬件介绍页。",
+      "why": "HN 发帖者 nl 以制作者身份自述，他对人们花在转录硬件及配套软件订阅上的金额感到惊讶，于是制作了可以自行 3D 打印和组装、把转录与摘要计算交给浏览器的 EarWing。他同时承认软件目前仍较粗糙，并称在 Chrome 中运行得不错；这些是作者自述，未独立验证成本节省或使用效果。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49963151"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖 HTML、两次官方 API、官方仓库主 README、完整网页应用 README，以及音频文件处理和会议摘要同步源码。原帖评论树为空，最终 API 的 descendants 为 0 且无 kids，因此没有作者评论可补充。确认源码包含 File 转录入口和浏览器端处理流程；未找到官方公共在线应用入口，未安装或运行项目、下载模型、组装设备或实测转录及摘要。",
+        "checkedAt": "2026-10-05T11:46:13Z"
+      },
+      "caveats": [
+        "主流程需要 Freenove FNK0104 ESP32 开发板、四个 INMP441 麦克风、接线、外壳及固件和网页文件的分别烧录。无硬件的模拟设备开发流程与本地文件入口有官方文档/源码依据，但本轮没有验证独立部署是否顺利。",
+        "官方网页文档称首次使用需从 Hugging Face 下载约 0.93–1.26 GB 转录模型，并从 jsDelivr 获取运行时；可另选本地模型目录。浏览器内推理不能等同于首次使用完全无需联网。",
+        "转录有 WebGPU 和 CPU/WASM 路径；摘要助手要求支持 shader-f16 的 WebGPU 与安全上下文，没有 CPU 后备路径，模型还需约 0.76–1.55 GB 下载。性能和浏览器兼容性未实测。",
+        "设备 HTTPS 使用自签名证书，部署涉及浏览器或系统信任配置；本轮没有访问本地设备、绕过警告或改变安全设置。",
+        "文档称推理在浏览器内进行，但加载助手后，生成的会议摘要会自动发送到同源设备的 /meeting 接口以在设备屏幕显示；不能把它描述为所有内容绝不离开浏览器。说话人命名还会在浏览器本地保存声纹，隐私和安全承诺未独立审计。",
+        "作者明确称软件仍较粗糙。说话人区分、转录、摘要及行动项可能有误，重要内容需要人工复核；本次未验证中文识别效果。开源定位、作者动机和功能介绍不构成需求、收入、准确率或成本优势验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49963151"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49963151.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nlothian/earwing"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nlothian/earwing/blob/main/site/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nlothian/earwing/blob/main/site/src/components/Transcriber.jsx"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nlothian/earwing/blob/main/site/src/components/meetingSync.js"
+        }
+      ],
+      "tags": [
+        "语音转录",
+        "会议摘要",
+        "浏览器内模型",
+        "自托管",
+        "开源硬件"
+      ]
+    },
     {
       "id": "hacker_news:49963105",
       "provider": "hacker_news",
