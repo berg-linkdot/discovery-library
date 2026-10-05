@@ -1,9 +1,222 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T14:57:32Z",
-  "count": 75,
+  "updatedAt": "2026-10-05T15:48:42Z",
+  "count": 78,
   "projects": [
+    {
+      "id": "hacker_news:49966295",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966295",
+      "title": "Reverse.horse：让人扮演 Jev 模型的网页训练与人工应答实验",
+      "url": "https://reverse.horse/",
+      "canonicalUrl": "https://reverse.horse/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966295",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966295",
+      "publishedAt": "2026-10-05T15:39:06Z",
+      "discoveredAt": "2026-10-05T15:44:33Z",
+      "audience": "想直观了解 Jev / System One 请求格式和三类判断问题的开发者，以及对人机速度差异、互动科普和实验性网页感兴趣的人（依据作者定位归纳）。",
+      "what": "一个介于交互教程与艺术项目之间的网页应用：访客在浏览器中扮演模型，回答是非概率、选项判断和有序评分三类问题。官网提供训练、答题和请求编排页面；练习可与保存的 Jev 答案比较，另有兼容 /v1/systemone 格式的实验 API，将请求交给在线真人作答后汇总返回。向真实 Jev 发起对照请求是独立的可选功能，需要用户连接自己的 OpenRouter 账户及额度。",
+      "why": "作者在 HN 和官网 About 自述，Jev 将问题拆解为快速、便宜的判断任务，让他产生了新的理解和使用智能的想法；他想通过让人亲自充当模型，解释其请求结构和三种问题类型，并使人直观体会处理速度的差异。他也提到，开发早期的示例对人而言太复杂，因此不得不继续拆小问题。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966295",
+          "https://reverse.horse/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖与 Firebase 官方 API，核查时评论树为空；读取官网首页、About、Help、Question、Privacy 及公开 app.js，确认独立网页训练/答题界面、练习逻辑与可选模型对照说明。未运行浏览器、加入答题连接、提交答案或 API 请求、保存题目、连接 OpenRouter、生成密钥或支付；未验证真实多人应答、超时行为或模型对比效果。",
+        "checkedAt": "2026-10-05T15:48:42Z"
+      },
+      "caveats": [
+        "这是作者定位的教程和实验项目；真人应答不是 Jev 模型推理，也不应当作可靠生产 API。作者明确提醒人多时可能出现故障。",
+        "Help 称实时请求最多交给五名在线答题者，30 秒截止后汇总已有答案，无人回答可能返回 504、容量满时可能返回 503；这些行为仅核对官方说明，未实测。",
+        "提交的实时问题会展示给其他在线真人；Privacy 还提醒基础设施或 OpenRouter 可能记录数据，勿向该演示发送敏感或内部信息。",
+        "默认答题比较使用预先保存的 Jev 结果，并非每次实时请求模型；可选真实模型对照会使用用户自己的 OpenRouter 额度。速度、费用和示意报酬都是作者的测量或估算，本轮未复核，不能理解为实际支付承诺。",
+        "HN 账号 martinemde 的表述与官网署名 Martin Emde 一致，但未独立核验个人身份；发布时间为 Show HN 发帖时间，不代表产品首次上线，也未核实使用量或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966295"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966295.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reverse.horse/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reverse.horse/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reverse.horse/help"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reverse.horse/request"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reverse.horse/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reverse.horse/app.js"
+        }
+      ],
+      "tags": [
+        "互动教程",
+        "AI",
+        "Jev",
+        "人工应答",
+        "API演示"
+      ]
+    },
+    {
+      "id": "hacker_news:49966215",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966215",
+      "title": "Abralo：让人和编程智能体在同一工作区协作",
+      "url": "https://abralo.com/",
+      "canonicalUrl": "https://abralo.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966215",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966215",
+      "publishedAt": "2026-10-05T15:33:39Z",
+      "discoveredAt": "2026-10-05T15:41:00Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966215"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966215.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/cw12574/abralo-workspace"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/cw12574/abralo-workspace/blob/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://abralo.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://abralo.com/demo.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://abralo.com/demo.js"
+        }
+      ],
+      "audience": "需要同时协调多个编程智能体、查看任务交接并审查代码成果的开发者。",
+      "what": "开源本地工作区，以浏览器聊天界面组织人与智能体的私聊和共享房间，支持智能体间委派、Git worktree、上下文笔记及按提供商查看用量。官网还提供无需账户的浏览器交通模拟实验，用于展示一次多智能体协作的成果。",
+      "why": "作者 Chris 在 HN 说，早期产品像更友好的多智能体 TMUX，但自己同时处理三四个智能体就会信息过载，于是将它改成类似 Slack 的共享房间，让智能体能够相互委派；首轮用户反馈也推动了后续功能。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966215"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "实时读取 HN 原帖、Firebase API、官方仓库 README、仓库文件树、官网与 demo.html/demo.js；核查时无评论。确认产品采用 React 浏览器界面连接本地 Node 服务，公开演示页面有交通模拟、桥梁控制与比较曲线实现。未在浏览器实际交互，未下载安装、连接模型账户或运行智能体。",
+        "checkedAt": "2026-10-05T15:45:17Z"
+      },
+      "caveats": [
+        "完整工作区需要本地安装与受支持的模型提供商账户，提供商费用另计；公开交通演示是生成成果，不会在浏览器中运行智能体。",
+        "v0.1.3-preview 为早期、未签名预览版；官方建议使用可丢弃文件并选择 Ask 权限模式。",
+        "原帖提到 browser-use 与大量集成，但当前 README 明确电脑操作尚未包含在下载版，托管连接流程仅覆盖 Railway、Stripe、Gmail，通用 MCP 服务目录尚未开放。",
+        "Claude 订阅登录的第三方授权仍未解决；本地工作区会把相关提示、文件和工具结果发送给所选提供商，Git worktree 不是安全沙箱。"
+      ],
+      "tags": [
+        "智能体协作",
+        "开发工具",
+        "本地 Web 应用",
+        "开源",
+        "交互演示"
+      ]
+    },
+    {
+      "id": "hacker_news:49965957",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49965957",
+      "title": "Agentic Telemetry：自托管的智能体事件观测仪表盘",
+      "url": "https://github.com/yuyalapis/agentic-telemetry",
+      "canonicalUrl": "https://github.com/yuyalapis/agentic-telemetry",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49965957",
+      "hnUrl": "https://news.ycombinator.com/item?id=49965957",
+      "publishedAt": "2026-10-05T15:16:03Z",
+      "discoveredAt": "2026-10-05T15:40:44Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49965957"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49965957.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/yuyalapis/agentic-telemetry"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/yuyalapis/agentic-telemetry/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/yuyalapis/agentic-telemetry/blob/main/server.py"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/yuyalapis/agentic-telemetry/blob/main/dashboard.html"
+        }
+      ],
+      "audience": "希望在本地查看多智能体运行、工具调用、交接与错误事件的开发者。",
+      "what": "轻量级自托管遥测服务，使用 Python 标准库与 SQLite 收集事件，提供实际浏览器仪表盘。界面汇总运行、智能体、错误及近 24 小时活动，可按运行、事件类型或文本筛选事件流，并每 10 秒刷新。",
+      "why": "作者未说明个人创作动机；HN 仅有项目标题，官方 README 将目标描述为按运行或智能体检查活动的轻量级遥测收集器。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49965957",
+          "https://github.com/yuyalapis/agentic-telemetry"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "实时读取 HN 原帖与官方 Firebase API，核查时无评论；读取官方仓库、README、server.py 和 dashboard.html，确认服务提供根路径网页仪表盘，并从事件 API 加载数据。仅做源码审阅，未安装、启动服务或提交遥测事件。",
+        "checkedAt": "2026-10-05T15:45:13Z"
+      },
+      "caveats": [
+        "需要自行运行本地服务并接入事件，未发现作者提供的在线托管演示。",
+        "当前是最小 alpha 版本；官方明确尚无身份认证、保留策略、分布式部署或完整指标聚合，默认仅监听本机。",
+        "仪表盘基于最新 1,000 条事件生成摘要，事件表最多展示筛选后的 100 条；不能据此推断完整历史统计。",
+        "HN 发帖账号与仓库账号不同，未独立确认发帖者是否为仓库作者；没有把项目目标推断为个人动机。"
+      ],
+      "tags": [
+        "智能体",
+        "可观测性",
+        "仪表盘",
+        "自托管",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49965478",
       "provider": "hacker_news",
