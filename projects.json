@@ -1,0 +1,2022 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "zh-CN",
+  "updatedAt": "2026-10-05T01:43:09Z",
+  "count": 40,
+  "projects": [
+    {
+      "id": "hacker_news:49959656",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49959656",
+      "title": "Orrery",
+      "url": "https://orrery.ryboso.me/",
+      "canonicalUrl": "https://orrery.ryboso.me/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49959656",
+      "hnUrl": "https://news.ycombinator.com/item?id=49959656",
+      "publishedAt": "2026-10-05T01:12:10Z",
+      "discoveredAt": "2026-10-05T01:43:09Z",
+      "audience": "探索太阳系运动的天文爱好者与学习者（依据功能归纳）",
+      "what": "使用 Three.js 与 NAIF SPICE 空间几何数据的太阳系可视化网页。作者称可播放或拖动时间轴，探索 1950–2050 年主要天体位置，显示轨道并分享视图。",
+      "why": "作者发现 NAIF SPICE 缺少高度标准化的 JavaScript 绑定，先开发 tspice 包装 CSPICE，再制作可视化工具测试该库；测试平台逐渐完善，成为独立项目 Orrery。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49959656"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "HN 作者说明与官方仓库 README 指向同一线上应用。",
+        "checkedAt": "2026-10-05T01:43:09Z"
+      },
+      "caveats": [
+        "未独立验证渲染、播放、时间轴、轨道开关或分享流程。",
+        "1950–2050 年范围和交互能力依据作者说明。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49959656"
+        },
+        {
+          "type": "official_site",
+          "url": "https://orrery.ryboso.me/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49959656.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/rybosome/orrery"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/rybosome/orrery/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49959257",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49959257",
+      "title": "The Poteto Frontier",
+      "url": "https://poteto-frontier.vercel.app/",
+      "canonicalUrl": "https://poteto-frontier.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49959257",
+      "hnUrl": "https://news.ycombinator.com/item?id=49959257",
+      "publishedAt": "2026-10-05T00:03:12Z",
+      "discoveredAt": "2026-10-05T00:47:46Z",
+      "audience": "想用梗图表达对 AI 代理自主性信任程度的用户（依据用途归纳）",
+      "what": "浏览器互动图表，将同时工作的代理数量与信任度放在曲线上，可添加 X 头像、调整位置并下载 PNG 梗图。",
+      "why": "作者说，这个小型梗图应用受 Lauren Tan（@poteto）的演讲启发，演讲提出了通常有多少个代理在替你工作的问题。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49959257"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "图表容器、位置滑块、头像输入及下载按钮可见，官方 README 已核对。",
+        "checkedAt": "2026-10-05T00:47:46Z"
+      },
+      "caveats": [
+        "未加载个人头像或下载图表。",
+        "这是主观趣味表达，不是代理性能测试或已验证的信任测量。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49959257"
+        },
+        {
+          "type": "official_site",
+          "url": "https://poteto-frontier.vercel.app/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49959257.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/transitive-bullshit/poteto-frontier"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/transitive-bullshit/poteto-frontier/main/readme.md"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49959138",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49959138",
+      "title": "Faded",
+      "url": "https://joinfaded.com/",
+      "canonicalUrl": "https://joinfaded.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49959138",
+      "hnUrl": "https://news.ycombinator.com/item?id=49959138",
+      "publishedAt": "2026-10-04T23:46:25Z",
+      "discoveredAt": "2026-10-05T00:47:46Z",
+      "audience": "想尝试短暂、限量照片分享的用户（依据功能归纳）",
+      "what": "照片社交网页：发图时设置按时间或浏览量计算的寿命，逐渐叠加所选褪色滤镜，到期照片消失、评论保留。",
+      "why": "作者称这是个人趣味副项目，用来实验数字持久性与稀缺性。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49959138"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "官网返回有效网页，HN 作者说明了响应式网页与滤镜实验室。",
+        "checkedAt": "2026-10-05T00:47:46Z"
+      },
+      "caveats": [
+        "照片寿命、评论保留、移动端体验及实验室免注册来自作者陈述，未功能测试。",
+        "未验证渲染界面或上传照片。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49959138"
+        },
+        {
+          "type": "official_site",
+          "url": "https://joinfaded.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49959138.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49959308.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49959008",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49959008",
+      "title": "Soulor",
+      "url": "https://soulor.app/",
+      "canonicalUrl": "https://soulor.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49959008",
+      "hnUrl": "https://news.ycombinator.com/item?id=49959008",
+      "publishedAt": "2026-10-04T23:27:27Z",
+      "discoveredAt": "2026-10-04T23:47:07Z",
+      "audience": "想预演困难对话、换角度理解社交情境或与记得上下文的 AI 伙伴聊天的人",
+      "what": "AI 陪伴聊天与多视角情境模拟，可练习难开口的沟通；公开网页应用入口已核对，使用需登录",
+      "why": "官网 About 解释：观察到很多人缺少一个能随时无所不谈的对象，想做记得个人背景的 AI 伙伴，并让同一情境得到不同观点",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://soulor.app/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "公开官网、About、隐私政策及网页应用入口已核对。",
+        "checkedAt": "2026-10-04T23:47:07Z"
+      },
+      "caveats": [
+        "使用需要登录，聊天与模拟效果未实测。",
+        "隐私政策说明消息由第三方 AI 提供商处理，不能称为端到端私密。",
+        "产品标为 Early Access，并非治疗服务。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49959008"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soulor.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soulor.app/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soulor.app/app"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soulor.app/privacy"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49958964",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49958964",
+      "title": "Xetodus",
+      "url": "https://xetodus.com/",
+      "canonicalUrl": "https://xetodus.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49958964",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958964",
+      "publishedAt": "2026-10-04T23:20:23Z",
+      "discoveredAt": "2026-10-04T23:47:07Z",
+      "audience": "喜欢太空探索、战斗、交易和殖民地经营的多人游戏玩家",
+      "what": "官网介绍为浏览器 3D 太空 MMO，可驾驶飞船、采矿交易、登陆行星和建立殖民地；游戏官网与入口在云浏览器成功核对",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49958964"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "游戏官网、玩法说明、FAQ 与浏览器游戏入口可打开。",
+        "checkedAt": "2026-10-04T23:47:07Z"
+      },
+      "caveats": [
+        "未进入游戏，实际玩法、多人规模、性能和付费公平性未验证。",
+        "未确认 HN 发帖者与创作者的关系。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958964"
+        },
+        {
+          "type": "official_site",
+          "url": "https://xetodus.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://xetodus.com/#faq"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49958950",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49958950",
+      "title": "RedactPDF.ai",
+      "url": "https://redactpdf.ai",
+      "canonicalUrl": "https://redactpdf.ai/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49958950",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958950",
+      "publishedAt": "2026-10-04T23:18:17Z",
+      "discoveredAt": "2026-10-04T23:47:07Z",
+      "audience": "需要分享含个人信息的 PDF、申请材料或可复用表单的人",
+      "what": "AI 建议敏感信息遮盖区，用户复核、调整后下载脱敏 PDF；官网工作流与公开源码已核对",
+      "why": "作者看到反复发生的 PDF 脱敏泄露报道后，想让脱敏既省事又有效，并便于共享资料与申请模板",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49958973"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "官网工作流说明与公开源码已核对。",
+        "checkedAt": "2026-10-04T23:47:07Z"
+      },
+      "caveats": [
+        "页面图像会发送至 Google Gemini，不是纯本地处理。",
+        "未上传文件；删除承诺、检测完整性及脱敏不可恢复性均未验证。",
+        "AI 仅提出建议，用户仍需逐项复核。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958950"
+        },
+        {
+          "type": "official_site",
+          "url": "https://redactpdf.ai"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958973"
+        },
+        {
+          "type": "official_site",
+          "url": "https://redactpdf.ai/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://redactpdf.ai/#why-this-is-free"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/opengreencard/redactpdf"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49958795",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49958795",
+      "title": "Shorter.dev",
+      "url": "https://shorter.dev",
+      "canonicalUrl": "https://shorter.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49958795",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958795",
+      "publishedAt": "2026-10-04T22:54:41Z",
+      "discoveredAt": "2026-10-04T23:47:07Z",
+      "audience": "为项目、品牌或个人网站寻找短域名的人",
+      "what": "网页工具寻找将名字尾部拼成域名后缀的 domain hack，并生成去元音缩写；公开页面和源代码已核对",
+      "why": "作者未说明；仓库仅列灵感来源，不能当作个人创作缘由",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49958795"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "公开搜索页面与官方源代码已核对。",
+        "checkedAt": "2026-10-04T23:47:07Z"
+      },
+      "caveats": [
+        "未提交搜索或验证实际结果。",
+        "DNS 无记录不等于可以注册，需向注册商核实。",
+        "未独立确认 HN 发帖者与仓库作者为同一人。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958795"
+        },
+        {
+          "type": "official_site",
+          "url": "https://shorter.dev"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49958795.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://shorter.dev/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/niklasanesen/shorter"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/niklasanesen/shorter/blob/main/src/main.rs"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49958538",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49958538",
+      "title": "WikiJS",
+      "url": "https://gmaterni.github.io/wikijs/wikijs.html",
+      "canonicalUrl": "https://gmaterni.github.io/wikijs/wikijs.html",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49958538",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958538",
+      "publishedAt": "2026-10-04T22:22:31Z",
+      "discoveredAt": "2026-10-04T22:43:11Z",
+      "audience": "需要把自己的 PDF、TXT、DOCX 文档变为可查询知识库，并希望核对回答来源的人",
+      "what": "官方 README 将它描述为 100% 客户端网页应用：导入 PDF/TXT/DOCX，编译成 wiki 页面，再让 LLM 只基于 wiki 作答；以来源片段子串校验引用。数据用浏览器 IndexedDB 保存，可用静态服务器自托管。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49958538"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "官方仓库说明网页应用结构；HN 提交的托管链接在检查时显示页面不存在。",
+        "checkedAt": "2026-10-04T22:43:11Z"
+      },
+      "caveats": [
+        "未运行或上传文档，生成质量与引用准确性未验证。",
+        "浏览器存储不等于文档永不发送给外部模型；数据流未审计。",
+        "不同部署的登录要求可能不同；不是其他同名 Wiki.js 项目。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958538"
+        },
+        {
+          "type": "official_site",
+          "url": "https://gmaterni.github.io/wikijs/wikijs.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/gmaterni/wikijs"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49958422",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49958422",
+      "title": "Sortbot",
+      "url": "https://www.sortbot.io/",
+      "canonicalUrl": "https://www.sortbot.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49958422",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958422",
+      "publishedAt": "2026-10-04T22:10:51Z",
+      "discoveredAt": "2026-10-04T22:43:11Z",
+      "audience": "需要整理工具、零件、日用品和车库杂物，并希望让 AI 助手查询实物位置的人",
+      "what": "官网称可用物品照片及可选语音备注生成名称、描述、标签和位置记录；支持箱子套箱子的存放结构、标签代码搜索、语义搜索，以及 REST API、原生 MCP 与数据导出。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49958422"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "官网与应用入口、库存示例、价格及功能说明已核对。",
+        "checkedAt": "2026-10-04T22:43:11Z"
+      },
+      "caveats": [
+        "库存样例标为 Example，代理对话图标为 Concept。",
+        "未验证识别准确率、登录后功能、API/MCP 或导出。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958422"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.sortbot.io/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49958343",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49958343",
+      "title": "Maurer rose：每次点击生成新玫瑰曲线",
+      "url": "https://counter.maricakes.de/",
+      "canonicalUrl": "https://counter.maricakes.de/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49958343",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958343",
+      "publishedAt": "2026-10-04T22:01:26Z",
+      "discoveredAt": "2026-10-04T22:43:11Z",
+      "audience": "对数学图案、生成艺术或极简自托管小项目感兴趣的人（根据作品功能推断）",
+      "what": "原帖介绍：每次点击让全站共享计数加一，以新的 n 值绘制一朵 Maurer 玫瑰曲线。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49958343"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "HN 原帖说明了共享计数和 Maurer 玫瑰曲线的玩法。",
+        "checkedAt": "2026-10-04T22:43:11Z"
+      },
+      "caveats": [
+        "未独立验证图案渲染或点击效果；未操作会改变全站共享计数的按钮。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958343"
+        },
+        {
+          "type": "official_site",
+          "url": "https://counter.maricakes.de/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49958239",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49958239",
+      "title": "FogScape：恶搞旧金山的 RuneScape 风网页 MMO",
+      "url": "https://fogscape.vercel.app/",
+      "canonicalUrl": "https://fogscape.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49958239",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958239",
+      "publishedAt": "2026-10-04T21:48:10Z",
+      "discoveredAt": "2026-10-04T22:43:11Z",
+      "audience": "喜欢 RuneScape 风格、旧金山科技圈梗或轻量多人网页游戏的人（根据作品内容推断）",
+      "what": "以旧金山 Marina Safeway 周边为场景的即时多人游戏。入口介绍包含做数据标注赚金币、在 Safeway 消费、推进创业项目获得 XP，以及解 Quant 的题加入 AI Lab。",
+      "why": "作者明确说为了好玩，并测试模型能把恶搞游戏做到什么程度，以及实时多人效果如何。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49958239"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "公开入口页面与 HN 原帖描述相符，可见进入游戏及游戏状态界面元素。",
+        "checkedAt": "2026-10-04T22:43:11Z"
+      },
+      "caveats": [
+        "未进入游戏或验证多人同步、玩法完成度及模型生成过程。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49958239"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fogscape.vercel.app/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49957955",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957955",
+      "title": "LumonTasker",
+      "url": "https://highlatencylife.com/notes/task-printer-machine-out-of-severance/",
+      "canonicalUrl": "https://highlatencylife.com/notes/task-printer-machine-out-of-severance",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957955",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957955",
+      "publishedAt": "2026-10-04T21:14:12Z",
+      "discoveredAt": "2026-10-04T21:49:42Z",
+      "audience": "想以一次只做一项任务的方式管理待办、并愿意自搭树莓派触屏和打印机的 DIY/效率工具爱好者（根据产品功能归纳）。",
+      "what": "从 Trello 选择任务，在浏览器界面查看、挑选、完成或跳过；配合 Raspberry Pi 触屏与热敏打印机打印纸质任务票。提供简洁蓝色终端和 Severance/MDR 风格两种布局。",
+      "why": "作者在制作记录中明确表示，面对太长的待办列表容易焦虑、难以决定优先级并分散注意力；此前把任务写在小纸条上、从罐中抽取，一次只专注一项任务很有帮助。他想把该方式数字化，并融入复古计算、3D 打印和《Severance》的爱好。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://highlatencylife.com/notes/task-printer-machine-out-of-severance/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "官方制作记录、仓库与软件文档已核对。",
+        "checkedAt": "2026-10-04T21:49:42Z"
+      },
+      "caveats": [
+        "需自托管，未发现公共托管演示；打印还需要树莓派与打印机，未实测。",
+        "本地预览使用假任务；源码有非商业限制。",
+        "当前文档说明 AI 默认关闭，可选外部模型服务。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957955"
+        },
+        {
+          "type": "official_site",
+          "url": "https://highlatencylife.com/notes/task-printer-machine-out-of-severance/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957955.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://highlatencylife.com/about/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Strizzo/LumonTasker"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Strizzo/LumonTasker/tree/main/software"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Strizzo/LumonTasker/blob/main/software/preview/server.py"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49957863",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957863",
+      "title": "Last Internet Connection",
+      "url": "https://reparadoxy.itch.io/last-internet-connection",
+      "canonicalUrl": "https://reparadoxy.itch.io/last-internet-connection",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957863",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957863",
+      "publishedAt": "2026-10-04T21:06:20Z",
+      "discoveredAt": "2026-10-04T21:49:42Z",
+      "audience": "想即开即玩、挑战反应和手眼协调的小游戏玩家（依据玩法归纳）",
+      "what": "可在浏览器中玩的像素风反应小游戏：把手机画面给出的八位数字代码输入路由器，在倒计时、不断换位的键盘与视觉干扰中完成任务。",
+      "why": "作者未说明；公开说明介绍技术与游戏设定，仓库献辞不能被推断为开发动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49957863"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "浏览器游戏可启动并响应数字键盘点击。",
+        "checkedAt": "2026-10-04T21:49:42Z"
+      },
+      "caveats": [
+        "包含闪动、遮挡和惊吓图像。",
+        "未验证通关、完整重开、音频或移动端兼容性。",
+        "倒计时可能受输入事件影响，不宜理解为严格真实秒数。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957863"
+        },
+        {
+          "type": "official_site",
+          "url": "https://reparadoxy.itch.io/last-internet-connection"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957863.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Rubinoslaw/Last-Internet-Connection"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Rubinoslaw/Last-Internet-Connection/blob/main/main.py"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49957752",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957752",
+      "title": "MapLibre Compose",
+      "url": "https://maplibre.org/maplibre-compose/demo/",
+      "canonicalUrl": "https://maplibre.org/maplibre-compose/demo",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957752",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957752",
+      "publishedAt": "2026-10-04T20:55:40Z",
+      "discoveredAt": "2026-10-04T21:49:42Z",
+      "audience": "需要以 Compose/Kotlin API 给跨平台应用加入可定制地图的开发者；网页示例也展示地图、地震数据及轮渡线路",
+      "what": "为 Compose Multiplatform 提供交互矢量地图的 Kotlin 库，覆盖 Android、iOS、桌面和 Web；附在线地图示例。",
+      "why": "作者说，开发公交及列车追踪应用时找不到满足定制需求的地图库，于是先封装 MapLibre SDK；发现其他社区也有相同需求后，将其拆分成跨平台库，解决 API 差异与桌面支持缺口。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49957752"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "官方文档、仓库与在线示例入口已核对；检查时演示未成功渲染。",
+        "checkedAt": "2026-10-04T21:49:42Z"
+      },
+      "caveats": [
+        "本质是开发库，网页是功能示例，未完成交互验证。",
+        "仍是 1.0 前版本，Web 与桌面标为 Alpha，API 可能发生兼容性变化。",
+        "Web 使用 Kotlin/JS；不支持 Kotlin/Wasm 目标或浏览器离线地图下载。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957752"
+        },
+        {
+          "type": "official_site",
+          "url": "https://maplibre.org/maplibre-compose/demo/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957752.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://maplibre.org/maplibre-compose/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://maplibre.org/maplibre-compose/demo/app/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/maplibre/maplibre-compose"
+        },
+        {
+          "type": "official_site",
+          "url": "https://maplibre.org/news/2025-01-05-maplibre-newsletter-december-2024/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49957425",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957425",
+      "title": "RevScope",
+      "url": "https://revscope.co/",
+      "canonicalUrl": "https://revscope.co/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957425",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957425",
+      "publishedAt": "2026-10-04T20:20:35Z",
+      "discoveredAt": "2026-10-04T20:49:42Z",
+      "audience": "适合需要判断推广渠道和内容实际变现效果的网站经营者、SaaS 创业者及营销人员（根据其官网功能定位归纳）。",
+      "what": "把网站访问与支付记录关联起来的收入分析网页工具，用来查看哪些渠道、内容、落地页和关键词带来收入；官网还介绍订阅指标、转化漏斗及 AI 引荐流量分析。",
+      "why": "作者明确表示，对 Google Analytics 和 Plausible 感到不满，想要一个简单、能指出改善收入行动方向的工具：少关注浏览量等虚荣指标，直接看收入从哪里来，从而判断时间应该投向哪里。他还说自己约 25 年前学编程时就做过网页分析副项目，这次有回到起点的感觉；AI 帮助他完成了以往容易搁置的最后润色工作。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49957425"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "公开演示免登录可打开；切换来源标签后显示渠道、收入及转化率表格。",
+        "checkedAt": "2026-10-04T20:49:42Z"
+      },
+      "caveats": [
+        "仅验证演示界面，未验证真实客户数据、生产集成准确性或合规性。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957425"
+        },
+        {
+          "type": "official_site",
+          "url": "https://revscope.co/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957425.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://revscope.co/faq/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://revscope.co/demo/?tab=revenue_sources"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49957202",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957202",
+      "title": "agent-bridge",
+      "url": "https://github.com/mayurathavale18/agent-bridge",
+      "canonicalUrl": "https://github.com/mayurathavale18/agent-bridge",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957202",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957202",
+      "publishedAt": "2026-10-04T19:50:14Z",
+      "discoveredAt": "2026-10-04T20:49:42Z",
+      "audience": "希望通过手机联系自己部署的编程代理、且能自行配置 Node.js、代理 CLI 和 OpenWA 的开发者（按产品用途判断）。",
+      "what": "把 Claude Code、Codex 等编程代理接到 WhatsApp 自聊，并附浏览器配置台，可选择代理、调整其配置，查看环境变量覆盖及待重启状态。主要交互入口是 WhatsApp，网页部分是配置管理。",
+      "why": "作者在官方仓库 Motivation 中说明：不同代理各有通讯和会话方案，难以从手机统一使用；他想避免逐个重写 WhatsApp 集成，并保留破坏性操作的聊天审批和自己部署数据的控制权。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://github.com/mayurathavale18/agent-bridge#motivation"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "官方 README 与网页配置台源码已核对。",
+        "checkedAt": "2026-10-04T20:49:42Z"
+      },
+      "caveats": [
+        "需要自托管，未发现公开托管演示；未验证实际代理或 WhatsApp 工作流。",
+        "配置台默认仅绑定本机且无认证，不应直接暴露为公共服务。",
+        "官方 README 将 OpenCode 适配列为计划，未将其计入已支持功能。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957202"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mayurathavale18/agent-bridge"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mayurathavale18/agent-bridge#motivation"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957202.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mayurathavale18/agent-bridge#the-config-dashboard"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mayurathavale18/agent-bridge/blob/main/src/dashboard/server.ts"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49957109",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957109",
+      "title": "Phonebook",
+      "url": "https://phonebook.dev/",
+      "canonicalUrl": "https://phonebook.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957109",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957109",
+      "publishedAt": "2026-10-04T19:41:47Z",
+      "discoveredAt": "2026-10-04T20:49:42Z",
+      "audience": "同时维护多个代码仓库、需要跨项目核对 API 行为的开发者，以及使用 Claude Code 协作的团队。",
+      "what": "连接运行中的 Claude Code 会话，让一个项目的会话向另一个项目或已授权队友的会话提问并接收答案；网页 Directory 用来查看公开注册的会话与状态。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49957109"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "首页、安装说明与公开会话目录可打开，目录可展开离线记录。",
+        "checkedAt": "2026-10-04T20:49:42Z"
+      },
+      "caveats": [
+        "未安装连接器或验证跨会话问答。",
+        "需要 Claude Code 与 Node.js；注册名称、说明和主题公开。",
+        "问答经过服务端且不提供端到端加密；官方建议用于可信人员与非敏感仓库。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957109"
+        },
+        {
+          "type": "official_site",
+          "url": "https://phonebook.dev/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957109.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://phonebook.dev/directory"
+        },
+        {
+          "type": "official_site",
+          "url": "https://phonebook.dev/setup"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49957084",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957084",
+      "title": "Svetoviz",
+      "url": "https://app.svetoviz.com/",
+      "canonicalUrl": "https://app.svetoviz.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957084",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957084",
+      "publishedAt": "2026-10-04T19:38:38Z",
+      "discoveredAt": "2026-10-04T19:48:38Z",
+      "audience": "需要探索大型图像/机器学习数据集的开发者、研究人员或数据工作者（从产品用途推断）。",
+      "what": "公开机器学习数据集的可视化浏览器；官网介绍可流式查看大型 Hugging Face 数据集、转换为可浏览的 3D 场景，并通过元数据建立搜索。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49957084"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "官方文档确认线上应用入口；检查时应用一直停留在加载界面。",
+        "checkedAt": "2026-10-04T19:48:38Z"
+      },
+      "caveats": [
+        "未验证数据集浏览、搜索或可视化；检查结果不能证明网站对所有用户不可用。",
+        "未确认发帖者为开发者。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957084"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.svetoviz.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957084.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://svetoviz.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://svetoviz.com/content/guides/datasets"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49956865",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49956865",
+      "title": "Anchor Terminal",
+      "url": "https://www.anchorterminal.com/tools/",
+      "canonicalUrl": "https://www.anchorterminal.com/tools",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49956865",
+      "hnUrl": "https://news.ycombinator.com/item?id=49956865",
+      "publishedAt": "2026-10-04T19:09:49Z",
+      "discoveredAt": "2026-10-04T19:48:38Z",
+      "audience": "为 agent 选择或接入工具的开发者、技术团队，以及希望改善 agent 使用体验的工具提供商。",
+      "what": "免费浏览、筛选和比较模型 API、MCP 服务、agent 框架、数据与其他工具的目录，集中显示评分、价格、鉴权方式、运行位置、优缺点，并提供机器可读目录。",
+      "why": "HN 发帖人本人的动机未说明。官网团队希望把公开、版本化、可核查的评级方法用于 AI 代理工具，减少仅按热度选型，并推动工具改善。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.anchorterminal.com/about/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "公开目录、主页与 About 已核对。",
+        "checkedAt": "2026-10-04T19:48:38Z"
+      },
+      "caveats": [
+        "未测试搜索、比较、API 或集成。",
+        "现有评分和评论主要来自公开资料整理，不是独立实际调用测试。",
+        "官网披露部分探针与任务套件评估尚待执行；未确认 HN 发帖人与创作者关系。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49956865"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.anchorterminal.com/tools/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.anchorterminal.com/about/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.anchorterminal.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956865.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49956771",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49956771",
+      "title": "SciMigo — Build with Python",
+      "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+      "canonicalUrl": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49956771",
+      "hnUrl": "https://news.ycombinator.com/item?id=49956771",
+      "publishedAt": "2026-10-04T18:59:25Z",
+      "discoveredAt": "2026-10-04T20:49:42Z",
+      "audience": "零基础学习者、曾因纯终端输出练习而难以坚持的 Python 初学者，以及带孩子学编程的家长或教师；进阶模块也覆盖算法面试常见模式。",
+      "what": "把 Python 入门做成浏览器里的可视化实验：修改代码后在旁边看到绘图、动画或小游戏的变化。13 个模块从机器人绘图、变量与循环、井字棋逐步到贪吃蛇、生成器与常见算法模式；官方说明使用 Pyodide 在浏览器运行标准 CPython。",
+      "why": "作者 davidwshao 亲眼看到女儿学习 Python 遇到困难，因此制作了无需安装、无需处理包版本或虚拟环境、用即时图形反馈代替纯终端输出的课程，降低入门阻力。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49956771"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "首课编辑器、就绪的 Python 环境及图形预览已正常加载。",
+        "checkedAt": "2026-10-04T20:49:42Z"
+      },
+      "caveats": [
+        "未运行自定义代码或测试练习完成流程。",
+        "官网称前 6 模块及全部阅读材料免费，第 7–13 模块引导实验一次性 49 美元；未核验结账。",
+        "代码留在设备的说法未经独立审计。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49956771"
+        },
+        {
+          "type": "official_site",
+          "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956771.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://scimigo.com/en/learn/build-with-python"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957335"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49956183",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49956183",
+      "title": "Awesome Dataviz",
+      "url": "https://awesomedataviz.com/",
+      "canonicalUrl": "https://awesomedataviz.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49956183",
+      "hnUrl": "https://news.ycombinator.com/item?id=49956183",
+      "publishedAt": "2026-10-04T17:54:49Z",
+      "discoveredAt": "2026-10-04T18:50:00Z",
+      "audience": "为项目挑选图表、地图、网络图或仪表盘工具的开发者和数据工作者；另提供 JSON/API、MCP 和 llms.txt 给 AI 助手使用。前半句由目录类别与比较用途推断，AI 助手用途为官网明确表述。",
+      "what": "把社区维护的可视化工具列表做成可搜索、分类浏览和比较的网页目录。当前列出 291 个工具、23 个类别，包含图表库、地图、图网络、BI 仪表盘等；每日刷新 GitHub 与包仓库数据，并展示维护活跃度、下载量、替代品及比较。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49956183"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "首页和 About 页面已核对。",
+        "checkedAt": "2026-10-04T18:50:00Z"
+      },
+      "caveats": [
+        "未操作搜索或比较。",
+        "网站按 GitHub stars 排序，关注度不能等同质量；目录规模为检查时页面所示。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49956183"
+        },
+        {
+          "type": "official_site",
+          "url": "https://awesomedataviz.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://awesomedataviz.com/about/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956183.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956405.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956507.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956211.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49956108",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49956108",
+      "title": "Exro",
+      "url": "https://www.exro.ai/",
+      "canonicalUrl": "https://www.exro.ai/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49956108",
+      "hnUrl": "https://news.ycombinator.com/item?id=49956108",
+      "publishedAt": "2026-10-04T17:48:36Z",
+      "discoveredAt": "2026-10-04T18:50:00Z",
+      "audience": "经常在 Slack、Claude/GPT、Gmail、文档和 Markdown 之间搬运文本，想省去手工清理格式的人。由作者明确描述的使用场景归纳。",
+      "what": "粘贴 Slack、AI、邮件、文档或 Markdown 内容后，按确定性规则整理跨应用复制带来的格式问题，例如删除时间戳和 Slack 的 edited 标记、把 API 字段转成行内代码、清理异常高亮；作者强调不改语法或文案。",
+      "why": "作者反复在 Slack、Claude、GPT 和 Gmail 之间复制内容并手工修格式；尝试用提示词规定格式，但执行不稳定，因此做了只改格式、不改措辞的确定性工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49956108"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "输入、输出、复制与格式控件可见。",
+        "checkedAt": "2026-10-04T18:50:00Z"
+      },
+      "caveats": [
+        "未输入文本或验证转换效果；客户端处理和不存储内容的说法未经独立审计。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49956108"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.exro.ai/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956108.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49955930",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49955930",
+      "title": "Jev Pages",
+      "url": "https://github.com/sagapranav/jev-pages",
+      "canonicalUrl": "https://github.com/sagapranav/jev-pages",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49955930",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955930",
+      "publishedAt": "2026-10-04T17:30:38Z",
+      "discoveredAt": "2026-10-04T17:50:26Z",
+      "audience": "适合想快速尝试产品落地页样式的独立开发者、设计师，以及探索 Jev 决策式界面的开发者（根据功能推断，并非作者直接宣称）。",
+      "what": "Jev Pages：输入几行产品介绍，实时形成落地页的开源网页设计实验。Jev 判断文字用途，从预设选项中选择版式、字体、色彩、光影和照片，再由代码组成页面；Jev 本身不生成文案。",
+      "why": "作者认为 Jev 擅长在选项之间做选择，于是把落地页设计拆成一组选择题，想试探 Jev 的理解边界；作者承认文字分析这一步换成 LLM 可能更稳妥。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://github.com/sagapranav/jev-pages"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "官方仓库 README 与项目元数据已核对。",
+        "checkedAt": "2026-10-04T17:50:26Z"
+      },
+      "caveats": [
+        "需自行运行本地网页服务，未发现公共试玩站，未实测。",
+        "完整功能需要 Jev API 配置；无配置时仅有简易离线预览。",
+        "设计来自预设选项，速度与安全性未经独立验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955930"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/sagapranav/jev-pages"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49955930.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/sagapranav/jev-pages/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://api.github.com/repos/sagapranav/jev-pages"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49955833",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49955833",
+      "title": "LaunchSeed",
+      "url": "https://launch-seed.com/",
+      "canonicalUrl": "https://launch-seed.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49955833",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955833",
+      "publishedAt": "2026-10-04T17:20:29Z",
+      "discoveredAt": "2026-10-04T18:50:00Z",
+      "audience": "帮助准备创业或副业的人从选择点子进入执行；用途推断与官方自述分开。",
+      "what": "按预算、技能、时间等回答匹配创业点子，提供成本、工具、营销和90天启动计划的网页工具。",
+      "why": "HN 作者未说明可核实的个人动机。官网团队说，不满重复的创业点子清单，希望提供匹配用户资金、技能与时间的具体生意及实际执行计划；此为官方团队自述。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://launch-seed.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "首页及公开创业点子目录可打开；示例完整计划入口转到注册页。",
+        "checkedAt": "2026-10-04T18:50:00Z"
+      },
+      "caveats": [
+        "未测试问卷生成。",
+        "首页称免费，About 仍有 Pro plan 字样；不能认定所有功能均免注册。",
+        "未确认 HN 发帖账号与官网团队为同一主体。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955833"
+        },
+        {
+          "type": "official_site",
+          "url": "https://launch-seed.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://launch-seed.com/about"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49955833.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49955835.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49956253.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://launch-seed.com/examples"
+        },
+        {
+          "type": "official_site",
+          "url": "https://launch-seed.com/signup"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49955523",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49955523",
+      "title": "Animated Git Cheat Sheet（Git 动画速查表）",
+      "url": "https://initialcommit.com/learn/git/animated-cheat-sheet",
+      "canonicalUrl": "https://initialcommit.com/learn/git/animated-cheat-sheet",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49955523",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955523",
+      "publishedAt": "2026-10-04T16:47:38Z",
+      "discoveredAt": "2026-10-04T17:50:26Z",
+      "audience": "学习 Git 或经常需要查命令的开发者",
+      "what": "免费交互式 Git 速查表，含 128 条命令，可按类别/关键词筛选，查看模拟分支图、命令说明、风险等级和撤销提示；可挑选命令组成可下载、打印的个人速查表。",
+      "why": "官网明确说用即将发布的 git-sim v0.4 做一份可定制的动画速查表，让人只保留自己常忘记、真正需要的命令；HN 未另述个人缘由。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://initialcommit.com/learn/git/animated-cheat-sheet"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "切换分支分类后显示 14 条命令及渲染完成的提交图。",
+        "checkedAt": "2026-10-04T17:50:26Z"
+      },
+      "caveats": [
+        "未执行下载或打印；git-sim 新版发布时间是官网预告。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955523"
+        },
+        {
+          "type": "official_site",
+          "url": "https://initialcommit.com/learn/git/animated-cheat-sheet"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49955509",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49955509",
+      "title": "Z8Apps 对话式手机应用搭建平台",
+      "url": "https://z8apps.com",
+      "canonicalUrl": "https://z8apps.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49955509",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955509",
+      "publishedAt": "2026-10-04T16:46:22Z",
+      "discoveredAt": "2026-10-04T17:50:26Z",
+      "audience": "需要自己应用但不会雇开发者的工作室、小团队、俱乐部和家庭（官网定位）。",
+      "what": "在浏览器里用聊天描述应用，再在并排手机模拟器中查看/测试，继续聊天修改；官网称内置账号、角色、预约名额、照片、地图与聊天。",
+      "why": "作者未说明；HN 只有链接、无正文/评论。官网描述的目标是让需要小型应用、但不会雇开发者的人能够自己搭建，不将该产品定位当作作者个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49955509"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "官网与官方入门、限制文档已核对。",
+        "checkedAt": "2026-10-04T17:50:26Z"
+      },
+      "caveats": [
+        "完整搭建需账号；生成速度与数据库等能力未实测。",
+        "官方限制包括暂不支持推送、支付、发邮件、离线和自定义代码、布局、字体。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955509"
+        },
+        {
+          "type": "official_site",
+          "url": "https://z8apps.com"
+        },
+        {
+          "type": "official_site",
+          "url": "https://z8apps.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://z8apps.com/help/first-app"
+        },
+        {
+          "type": "official_site",
+          "url": "https://z8apps.com/help/limits"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49955423",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49955423",
+      "title": "法国革命历（共和历）",
+      "url": "https://repcal.libcg.so/",
+      "canonicalUrl": "https://repcal.libcg.so/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49955423",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955423",
+      "publishedAt": "2026-10-04T16:38:16Z",
+      "discoveredAt": "2026-10-04T17:50:26Z",
+      "audience": "对法国革命史、替代历法或日历可视化感兴趣的人；这是基于功能推断的受众，非作者宣称。",
+      "what": "可交互法国共和历：显示革命历日期与公历对照、每日植物/动物/农具名称及插图、十进制时间，支持英法双语、按日/月浏览和公历日期跳转。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49955423"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "历法说明可展开，切换下一日后日期与网址更新。",
+        "checkedAt": "2026-10-04T17:50:26Z"
+      },
+      "caveats": [
+        "未独立审计日期转换与闰年算法。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955423"
+        },
+        {
+          "type": "official_site",
+          "url": "https://repcal.libcg.so/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49955423.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49955128",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49955128",
+      "title": "Slopely 雪场数据库",
+      "url": "https://slopely.app/resorts/",
+      "canonicalUrl": "https://slopely.app/resorts",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49955128",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955128",
+      "publishedAt": "2026-10-04T16:07:55Z",
+      "discoveredAt": "2026-10-04T16:46:27Z",
+      "audience": "滑雪、单板滑雪爱好者，尤其想查看雪场及具体雪道的人",
+      "what": "公开网站按国家浏览雪场，列出具名雪道与难度、缆车数、海拔落差和雪道地图。网页显示 4,860 个雪区、75 个国家。主产品的个人滑行记录和护照功能在 iOS/Android 原生应用中。",
+      "why": "作者 anhanh11001 在 HN 说明：两年前开始滑雪后着迷，现有追踪应用不符合自己想要的简单全局旅程地图、具体滑过的雪道和红黑道数量统计，因此制作 Slopely。他也喜欢探索地图技术。此动机指整个产品；独立网页数据库的开发动机作者未说明。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49955128"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "公开雪场数据库、法国列表及 Abondance 详情页可免登录浏览。",
+        "checkedAt": "2026-10-04T16:46:27Z"
+      },
+      "caveats": [
+        "收录的是网页雪场数据库；个人滑行记录与护照属于原生应用，未测试。",
+        "首页与数据库页使用不同雪场数量口径，不合并为统一总量。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955128"
+        },
+        {
+          "type": "official_site",
+          "url": "https://slopely.app/resorts/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://slopely.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://slopely.app/resorts/abondance"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49955117",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49955117",
+      "title": "Skins.dev",
+      "url": "https://skins.dev/",
+      "canonicalUrl": "https://skins.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49955117",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955117",
+      "publishedAt": "2026-10-04T16:06:53Z",
+      "discoveredAt": "2026-10-04T16:46:27Z",
+      "audience": "日常使用 Jira、Salesforce、邮件等网页工具，想补齐缺失功能的用户",
+      "what": "借 Chromium 扩展录下页面和操作，在 Studio 网页应用里描述、预览和修改功能，由 AI 生成只对自己生效的页面功能层。作者称不止 CSS/JS，也支持调用外部 API 和带 SQLite 的服务器端功能。",
+      "why": "作者 dalichelbi 在 HN 说明：很多 AI 工具让人从零造工具，但已有软件往往已满足 80% 的需求；他想用 Skins 补上剩余 20%，并根据 SaaS 论坛中长期未解决的功能请求制作模板。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49955117"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "官方文档中的交互式引导演示可推进步骤。",
+        "checkedAt": "2026-10-04T16:46:27Z"
+      },
+      "caveats": [
+        "完整使用需要账号及 Chromium 扩展；公开演示为模拟。",
+        "未录制真实页面或验证后端能力。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955117"
+        },
+        {
+          "type": "official_site",
+          "url": "https://skins.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://skins.dev/docs/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954954",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954954",
+      "title": "HN Word Trends",
+      "url": "https://hntrends.hughparry.com/",
+      "canonicalUrl": "https://hntrends.hughparry.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954954",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954954",
+      "publishedAt": "2026-10-04T15:50:18Z",
+      "discoveredAt": "2026-10-04T16:46:27Z",
+      "audience": "想观察 HN 社区词汇、技术热度和语言变化的读者或研究者",
+      "what": "像 Google Trends 一样，画出一至三词短语在 HN 评论中每百万词出现次数的时间曲线，可比较多个词、切换预设主题及平滑窗口。仅纳入累计至少 40 次出现的词组。",
+      "why": "作者 HughParry 在 HN 说明：最近看到不少给 HN 帖子分类的项目，觉得做一个 HN 版 Google Trends 会很好玩，也想看看通常被认为是 LLM 常用词的趋势。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49954954"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "默认曲线正常载入，切换语言主题后图表与 URL 更新。",
+        "checkedAt": "2026-10-04T16:46:27Z"
+      },
+      "caveats": [
+        "某些 AI 常用措辞增加也可能来自讨论 AI，不能直接推断评论由 AI 生成。",
+        "数据覆盖与规模为网站自报，未独立全量核验。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954954"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hntrends.hughparry.com/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49955135"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954940",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954940",
+      "title": "Long Vacation 拼假优化器",
+      "url": "https://longvacation.eu/",
+      "canonicalUrl": "https://longvacation.eu/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954940",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954940",
+      "publishedAt": "2026-10-04T15:49:13Z",
+      "discoveredAt": "2026-10-04T17:50:26Z",
+      "audience": "想少用年假拼出长连休的上班族，以及需协调伴侣假期的人。",
+      "what": "将年假预算、周末和国家/地区公假组合成更长连休的免费规划器；作者称支持一个伴侣日历、多来源地区假日，以及月份上限、不可休假日、锁定休假日等约束；Shuffle 生成不同组合。",
+      "why": "作者说最初是为了试用 Copilot 的新能力；后来发现 holiday-optimizer.com 等同类工具，才尝试做差异化。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49954941"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "免登录规划器与官方荷兰示例可打开，并生成假期组合。",
+        "checkedAt": "2026-10-04T17:50:26Z"
+      },
+      "caveats": [
+        "未逐项验证伴侣日历等功能。",
+        "作者说明算法非确定性，不代表数学上已证明的全局最优。",
+        "应另核对雇主政策、地方假日与团队安排；检查时国家列表未见中国。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954940"
+        },
+        {
+          "type": "official_site",
+          "url": "https://longvacation.eu/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954941"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49954940.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49954941.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://longvacation.eu/app"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Duzij/VacationOptimizer"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954905",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954905",
+      "title": "Pve-agents",
+      "url": "https://pve-agents.sh",
+      "canonicalUrl": "https://pve-agents.sh/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954905",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954905",
+      "publishedAt": "2026-10-04T15:45:52Z",
+      "discoveredAt": "2026-10-04T16:46:27Z",
+      "audience": "已有 Proxmox 基础设施、想在自有硬件运行代码代理的开发者",
+      "what": "自托管网页控制台：提供仓库、分支与任务，创建临时 LXC 容器运行代码代理；浏览器里看实时记录、回应权限询问、审查文件 diff，再推送或丢弃结果。",
+      "why": "作者 ndom91 在 HN 明说：在工作中用惯 Cursor 云代理后，想给自己的个人项目做一个类似环境，但运行在自己的基础设施上，于是作为副项目开发。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49954905"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "官网及官方部署文档确认有自托管网页控制台。",
+        "checkedAt": "2026-10-04T16:46:27Z"
+      },
+      "caveats": [
+        "未找到无需安装的公开托管实例；未部署或验证隔离与代理执行。",
+        "实际使用需要 Proxmox、GitHub App 与代理配置。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954905"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pve-agents.sh"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pve-agents.sh/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pve-agents.sh/docs/getting-started/quick-start"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pve-agents.sh/docs/getting-started/requirements"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954801",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954801",
+      "title": "Top of The Hops",
+      "url": "https://greg76.github.io/toth/",
+      "canonicalUrl": "https://greg76.github.io/toth",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954801",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954801",
+      "publishedAt": "2026-10-04T15:35:04Z",
+      "discoveredAt": "2026-10-04T15:49:01Z",
+      "audience": "比较开发工具受欢迎程度变化的开发者和 Homebrew 用户",
+      "what": "基于每周 Homebrew 数据快照的分析看板，展示软件包增长、新增包及同类工具随时间的比较。",
+      "why": "作者说失业后想学习和尝试流行工具，但 Homebrew 的单次快照难以呈现竞争工具随时间的变化，因此开始每周保存过去 30 天的 formula 与 cask 数据。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49954801"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "公开看板及图表已渲染。",
+        "checkedAt": "2026-10-04T15:49:01Z"
+      },
+      "caveats": [
+        "作者报告 Homebrew 7.0.0 附近曾发生数据上报回归，并称 7.0.6 已修复；未经独立核验，曲线下跌不宜直接解释为需求下降。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954801"
+        },
+        {
+          "type": "official_site",
+          "url": "https://greg76.github.io/toth/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954800",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954800",
+      "title": "Bearbits",
+      "url": "https://bearbits.io/",
+      "canonicalUrl": "https://bearbits.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954800",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954800",
+      "publishedAt": "2026-10-04T15:35:04Z",
+      "discoveredAt": "2026-10-04T15:49:01Z",
+      "audience": "会议较多的专业人士和团队，尤其是跨语言工作的顾问",
+      "what": "浏览器会议助手，官网介绍实时转录、翻译及基于网络搜索的建议，可在会议中切换语言，无需会议机器人加入。",
+      "why": "作者说主要为自己和妻子制作；两人都是顾问、会议很多，现有工具无法满足实时多语言理解、翻译及基于实际网络搜索提供建议的需求。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49954800"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "官网与注册入口已核对。",
+        "checkedAt": "2026-10-04T15:49:01Z"
+      },
+      "caveats": [
+        "免费试用需要账号；未登录或测试真实会议、转录和翻译。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954800"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bearbits.io/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954798",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954798",
+      "title": "MapAnimator",
+      "url": "https://mapanimator.baldinger.se/",
+      "canonicalUrl": "https://mapanimator.baldinger.se/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954798",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954798",
+      "publishedAt": "2026-10-04T15:34:55Z",
+      "discoveredAt": "2026-10-04T15:49:01Z",
+      "audience": "记录摩托车、骑行、徒步、自驾或航海路线的旅行视频创作者",
+      "what": "免注册的浏览器路线动画工具，将手绘路线或 GPX 轨迹转为地图视频，可设置标记、交通方式及镜头运动；官网宣传本地处理和最高 4K MP4 导出。",
+      "why": "作者未说明创作动机。HN 分享者明确表示与项目无关，只因周末制作视频时成功使用而推荐；不能将分享者的理由当作创作者动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49954840",
+          "https://mapanimator.baldinger.se/about",
+          "https://mapanimator.baldinger.se/faq"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "公开首页、About 与 FAQ 已核对。",
+        "checkedAt": "2026-10-04T15:49:01Z"
+      },
+      "caveats": [
+        "检查环境不具备网站要求的 WebGL 2 能力，编辑器、示例和导出未实测；FAQ 推荐桌面 Chrome/Edge。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954798"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mapanimator.baldinger.se/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954840"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mapanimator.baldinger.se/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mapanimator.baldinger.se/faq"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954718",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954718",
+      "title": "Borehole",
+      "url": "https://borehole.dev/",
+      "canonicalUrl": "https://borehole.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954718",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954718",
+      "publishedAt": "2026-10-04T15:26:50Z",
+      "discoveredAt": "2026-10-04T18:50:00Z",
+      "audience": "用于买方早期筛查或卖方提前发现可修复问题；官方首页直接描述这两种用途。",
+      "what": "读取Git历史与工作树，执行100多项确定性检查，为收购技术尽调生成带commit、文件或行证据的风险报告；无法从代码回答的事项明确留给人工。",
+      "why": "作者明确说自己多年做并购技术尽调，发现许多改变交易的问题可由仓库回答，例如代码审查、关键人员依赖、许可证变更、发布来源和CI测试，因此做了把这些证据整理成交易团队可行动报告的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49954718"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "公共仓库扫描入口及 Prometheus 公开示例报告可免登录查看。",
+        "checkedAt": "2026-10-04T18:50:00Z"
+      },
+      "caveats": [
+        "未提交新扫描或独立审计检查结果。",
+        "免费报告注明不能替代专业尽调。",
+        "付费公共扫描另有语言模型复核，不能将整个平台概括为完全不使用模型。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954718"
+        },
+        {
+          "type": "official_site",
+          "url": "https://borehole.dev/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49954718.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://borehole.dev/r/prometheus/prometheus/dff7878"
+        },
+        {
+          "type": "official_site",
+          "url": "https://borehole.dev/pricing"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954394",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954394",
+      "title": "Instapath Personal Agent Challenge",
+      "url": "https://instapath.ai/personal-agent-challenge",
+      "canonicalUrl": "https://instapath.ai/personal-agent-challenge",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954394",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954394",
+      "publishedAt": "2026-10-04T14:48:09Z",
+      "discoveredAt": "2026-10-04T15:49:01Z",
+      "audience": "对公开对比挑战感兴趣的个人 AI 代理用户和开发者",
+      "what": "个人 AI 代理挑战网站，规划让代理寻找并解决线上挑战以赢得比特币奖励，提供参与者与挑战看板。",
+      "why": "官网解释：代理很多，但缺少诚实比较各自宣称能力的方式，因此希望它们在同一时间公开尝试相同任务，并公布参与、正确性和速度。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://instapath.ai/personal-agent-challenge"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "公开页面与挑战看板已核对。",
+        "checkedAt": "2026-10-04T15:49:01Z"
+      },
+      "caveats": [
+        "检查时有 1 位注册参与者、0 个已发布挑战，比赛尚未开始。",
+        "未验证代理参与、挑战执行或奖励流程。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954394"
+        },
+        {
+          "type": "official_site",
+          "url": "https://instapath.ai/personal-agent-challenge"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49954256",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49954256",
+      "title": "Surka",
+      "url": "https://surka.vercel.app/start",
+      "canonicalUrl": "https://surka.vercel.app/start",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49954256",
+      "hnUrl": "https://news.ycombinator.com/item?id=49954256",
+      "publishedAt": "2026-10-04T14:30:09Z",
+      "discoveredAt": "2026-10-04T14:45:08Z",
+      "audience": "安排互相推广的创始人、产品负责人、通讯作者、社群和创作者",
+      "what": "免注册的浏览器合作条款表，记录双方交付物及截止时间；官网介绍可提供各自的链接，供合作方接受、提议修改或拒绝。",
+      "why": "作者未说明个人创作动机。官网指出互推合作常因条款模糊、无人负责截止时间、素材散落、追踪混乱和缺乏跟进而停滞。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://surka.vercel.app/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "首页及合作表单可打开；未提交合作。",
+        "checkedAt": "2026-10-04T14:45:08Z"
+      },
+      "caveats": [
+        "官网说明首批试用的跟进由人工完成，自动邮件尚未上线。",
+        "未验证完整执行流程；HN 提交时间不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49954256"
+        },
+        {
+          "type": "official_site",
+          "url": "https://surka.vercel.app/start"
+        },
+        {
+          "type": "official_site",
+          "url": "https://surka.vercel.app/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49953441",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49953441",
+      "title": "CubbySlicer",
+      "url": "https://cubbycad.com/slicer/",
+      "canonicalUrl": "https://cubbycad.com/slicer",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49953441",
+      "hnUrl": "https://news.ycombinator.com/item?id=49953441",
+      "publishedAt": "2026-10-04T12:43:17Z",
+      "discoveredAt": "2026-10-04T13:42:34Z",
+      "audience": "需要在浏览器中准备 3D 打印任务的用户（依据产品用途归纳）",
+      "what": "浏览器中的 3D 打印切片工具。",
+      "why": "作者说自己经常在工作电脑上用它触发家中的打印任务。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49953441"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "产品界面已加载；未完成实际切片。",
+        "checkedAt": "2026-10-04T13:42:34Z"
+      },
+      "caveats": [
+        "检查环境无法使用所需图形能力，切片功能未实测。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49953441"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cubbycad.com/slicer/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:49953430",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49953430",
+      "title": "Orbeez kit",
+      "url": "https://orbeez-kit.vercel.app/chat",
+      "canonicalUrl": "https://orbeez-kit.vercel.app/chat",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49953430",
+      "hnUrl": "https://news.ycombinator.com/item?id=49953430",
+      "publishedAt": "2026-10-04T12:41:33Z",
+      "discoveredAt": "2026-10-04T13:42:34Z",
+      "audience": "希望构建 AI 代理交互界面的开发者（依据组件用途归纳）",
+      "what": "提供代理界面组件和公开交互演示，包括显示代理状态的动态表情及保持布局稳定的流式展示。演示中的代理为脚本模拟。",
+      "why": "作者未说明个人创作动机。官网介绍的目标是提供有趣的代理界面组件和布局稳定的流式体验；这属于产品目标。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://orbeez-kit.vercel.app/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "公开演示成功加载。",
+        "checkedAt": "2026-10-04T13:42:34Z"
+      },
+      "caveats": [
+        "页面明确说明代理均为脚本模拟，不能视为真实代理运行；组件实际集成未测试。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49953430"
+        },
+        {
+          "type": "official_site",
+          "url": "https://orbeez-kit.vercel.app/chat"
+        },
+        {
+          "type": "official_site",
+          "url": "https://orbeez-kit.vercel.app/"
+        }
+      ]
+    }
+  ]
+}

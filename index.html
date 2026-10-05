@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="从公开来源发现新产品，记录它在做什么、为谁而做，以及作者为什么开始。">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>新作档案 · 产品发现</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2321243d'/%3E%3Cpath d='M8 10h16M8 16h12M8 22h16' stroke='%23e5ee9b' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#archive">跳到产品档案</a>
+  <header class="topbar page-width">
+    <a class="brand" href="./" aria-label="新作档案首页"><span class="brand-mark" aria-hidden="true">≡</span><span>新作档案</span><span class="brand-en">PRODUCT NOTES</span></a>
+    <nav aria-label="主导航"><a class="nav-current" href="#archive">产品档案</a><a href="#about">关于收录</a></nav>
+  </header>
+  <main>
+    <section class="intro page-width" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <p class="eyebrow">INDEPENDENT IDEAS, PUBLIC SOURCES</p>
+        <h1 id="page-title">新产品，和它们的起点<span class="title-dot">.</span></h1>
+        <p class="intro-description">它在做什么，为谁而做，为什么开始。<br class="mobile-break">从公开分享中，留下值得回看的产品线索。</p>
+      </div>
+      <div class="archive-stat" aria-label="档案概况"><span class="stat-label">已收录</span><strong id="total-count">—</strong><span class="stat-foot">个产品 · <span id="source-count">—</span> 个来源</span></div>
+    </section>
+    <section class="archive page-width" id="archive" aria-labelledby="archive-title">
+      <div class="archive-heading"><div><span class="section-number">01 /</span><h2 id="archive-title">产品档案</h2></div><p id="updated-at">正在读取档案…</p></div>
+      <form id="filters" class="filter-panel" role="search" aria-label="筛选产品" autocomplete="off">
+        <div class="search-field"><label class="visually-hidden" for="search">搜索产品、用途或关键词</label><span class="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="搜索产品、用途或关键词" maxlength="200"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜索" hidden>×</button></div>
+        <div class="filter-row">
+          <div class="filter-control source-control"><label for="source">来源</label><select id="source"><option value="">全部来源</option></select></div>
+          <div class="filter-control date-control"><label for="date-from">来源帖日期</label><div class="date-range"><input id="date-from" type="date" aria-label="起始日期"><span aria-hidden="true">至</span><input id="date-to" type="date" aria-label="结束日期"></div></div>
+          <button class="reset-button" id="reset-filters" type="button">重置筛选</button>
+        </div>
+      </form>
+      <div class="results-heading"><p id="result-count" role="status" aria-live="polite">正在加载…</p><span>来源帖最新优先 <span aria-hidden="true">↓</span></span></div>
+      <div id="date-error" class="inline-error" role="alert" hidden>起始日期不能晚于结束日期，请调整日期范围。</div>
+      <div id="projects" class="project-grid" aria-label="产品列表" aria-busy="true"></div>
+      <div id="empty-state" class="empty-state" hidden><span class="empty-glyph" aria-hidden="true">∅</span><h3>暂时没有匹配的产品</h3><p>试试更短的关键词，或放宽日期与来源。</p><button id="empty-reset" class="primary-button" type="button">查看全部产品</button></div>
+      <div id="error-state" class="empty-state" role="alert" hidden><h3>档案暂时无法读取</h3><p id="error-description">请刷新页面后再试。</p><button id="retry-load" class="primary-button" type="button">重新加载</button></div>
+      <noscript><div class="empty-state">此页面需要 JavaScript 来搜索和展示档案。你也可以直接查看<a href="./projects.json">公开数据文件</a>。</div></noscript>
+    </section>
+    <section class="about page-width" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">READ THE SOURCE</p><h2 id="about-title">保留出处，也保留不确定性</h2></div>
+      <div class="about-copy"><p>这里整理公开发布的产品与项目。每条记录都保留原始来源，并区分作者自述、整理推断和未核实信息。</p><p>功能、效果与作者身份未必经过独立验证，收录不代表推荐。当前收录范围和时间以档案数据为准；不是对全网新产品的完整统计。</p><p class="privacy-note">仅含公开资料 · 无登录 · 无评论 · 无第三方追踪</p></div>
+    </section>
+  </main>
+  <footer class="footer page-width"><span>新作档案 <span class="footer-divider">/</span> PUBLIC PRODUCT ARCHIVE</span><span>来源帖时间 · 北京时间（Asia/Shanghai）</span></footer>
+  <dialog id="project-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button id="close-dialog" class="close-dialog" type="button" aria-label="关闭产品详情">×</button><div id="project-detail"></div></div></dialog>
+</body>
+</html>
