@@ -1,9 +1,793 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T15:48:42Z",
-  "count": 78,
+  "updatedAt": "2026-10-05T16:53:14Z",
+  "count": 90,
   "projects": [
+    {
+      "id": "hacker_news:49967146",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967146",
+      "title": "ResumeTester：简历评分、逐句改写与求职管理网页工具",
+      "url": "https://resumetester.com/welcome",
+      "canonicalUrl": "https://resumetester.com/welcome",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967146",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967146",
+      "publishedAt": "2026-10-05T16:38:41Z",
+      "discoveredAt": "2026-10-05T16:50:39Z",
+      "audience": "需要检查简历表达、匹配职位要求并跟踪求职进展的求职者（依据官网功能归纳）。",
+      "what": "一个需要账号的网页服务：上传 PDF 后，按影响力、清晰度、结构、完整性给出评分与修改建议，可编辑并导出 PDF；付费功能扩展到职位匹配、搜索、申请看板、求职信、面试练习及逐次批准的自动申请。公开首页提供一份明确标注为虚构人物的示例报告，能直接查看问题排序、关键词缺口和带占位符的改写方式。",
+      "why": "作者未说明个人创作动机。官网提出的产品目标是解决投递后没有回音却不知道简历哪里有问题的困境，让用户看到可读性、成果表述与职位匹配的具体缺口；这属于产品定位，不能据此推断创始人的亲身经历。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://resumetester.com/welcome"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖和 Firebase 官方数据，核查时没有评论；阅读官网首页、完整示例报告、FAQ、隐私政策及服务条款。仅核实公开页面和官方功能说明，未登录、上传简历、调用 AI、下载生成文件或提交职位申请；未验证评分、改写和自动申请的真实效果。",
+        "checkedAt": "2026-10-05T16:50:39Z"
+      },
+      "caveats": [
+        "示例报告是官网虚构样例，约一分钟完成、AI 不捏造事实和招聘软件可读等均为产品方说法；条款同时提醒 AI 输出可能错误或不完整，且不保证面试或录用。",
+        "公开报价为免费 3 次测试、Pro 每月 12 美元、Premium 每月 29 美元；付费按月自动续订，条款另写明有公平日限额。首页“无限测试”不宜理解为没有任何限制。",
+        "隐私政策说明简历及职位文本经 OpenRouter 交给模型处理；自动申请还会通过 Browserbase，并在用户批准后把简历与答案交给雇主。需先评估个人资料的第三方处理范围。",
+        "自动申请仅支持无需账号的招聘表单，发送后不能由该服务撤回；本轮没有实际申请，也未核验职位数据的时效性。",
+        "HN 发布账号 relatedcode 与产品团队的关系未独立核实；官网列出的运营商是 Related Code Kft.。Show HN 日期不是产品首次上线证明，本轮没有使用量、收入或市场需求证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967146"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967146.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://resumetester.com/welcome"
+        },
+        {
+          "type": "official_site",
+          "url": "https://resumetester.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://resumetester.com/terms"
+        }
+      ],
+      "tags": [
+        "求职",
+        "简历",
+        "AI",
+        "Web 应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49967120",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967120",
+      "title": "PokeBest：组建并分享六只宝可梦的收藏阵容页",
+      "url": "https://pokebest.club/en",
+      "canonicalUrl": "https://pokebest.club/en",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967120",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967120",
+      "publishedAt": "2026-10-05T16:36:49Z",
+      "discoveredAt": "2026-10-05T16:52:22Z",
+      "audience": "想整理和分享自己喜爱宝可梦阵容的爱好者；更偏个人喜好展示，而非已验证的竞技配队分析。",
+      "what": "无需账号的宝可梦阵容网页：页面提供六个选择位置、随机组队、清空、阵容标题与名字，并显示所选属性覆盖。用户可发布独立分享页，浏览其他人的阵容；本轮直接读到的公开样例展示六只宝可梦、编号、属性和分享、复制、保存入口。页面有日文和英文切换，插画署名 @komori541milk。",
+      "why": "作者未说明创作动机。HN 标题和官网仅说明想让大家组建并分享喜欢的宝可梦队伍；未见第一人称起因，不能推断作者的个人经历或将现存样例当作需求验证。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49967120",
+          "https://pokebest.club/en"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖及 Firebase 数据，核查时没有评论；阅读组队页、公开阵容列表、一个已有阵容页和隐私政策，确认六只宝可梦与属性展示、发布和分享入口。未运行浏览器交互、选择阵容、填写名字、发布内容或保存图片，未验证随机算法、全图鉴覆盖或分享图片生成。",
+        "checkedAt": "2026-10-05T16:52:22Z"
+      },
+      "caveats": [
+        "发布具有不可逆后果：首页及隐私政策明确表示阵容不能修改，也不能由用户或其他人删除。",
+        "阵容链接虽然难猜但公开，填写的名字会出现在页面和分享图片中；隐私政策还明确说该名字会随页面标题、分享链接传给 Google Analytics，不宜填写敏感身份信息。",
+        "官网声明这是非官方粉丝网站，与 Nintendo、Creatures 或 GAME FREAK 没有关联；宝可梦名称及形象的商标归权利方，插画有单独作者署名。",
+        "HN 发布账号 peperoncino 与站点创作者的关系未获一手确认，不能将插画作者直接认作网站作者；列表中已有阵容不代表已验证活跃用户、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967120"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967120.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pokebest.club/en"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pokebest.club/en/parties"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pokebest.club/en/p/129bf8ff-a1d9-42ef-b5f0-69192fb5c37a"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pokebest.club/en/privacy"
+        }
+      ],
+      "tags": [
+        "宝可梦",
+        "粉丝工具",
+        "分享",
+        "Web 应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49967073",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967073",
+      "title": "past.dev：带时间与来源的代理记忆服务，附浏览器费用估算工具",
+      "url": "https://past.dev/",
+      "canonicalUrl": "https://past.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967073",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967073",
+      "publishedAt": "2026-10-05T16:34:20Z",
+      "discoveredAt": "2026-10-05T16:50:39Z",
+      "audience": "为 AI 代理构建跨会话、可追溯记忆的开发团队，以及需要粗估长上下文成本的开发者。",
+      "what": "核心产品是托管的 Memory API：接收带时间戳的文本，保存当前与历史事实，再按请求者身份返回带日期和来源的证据。官网另提供浏览器管理控制台，用于项目、密钥、访问受众和用量；公开的 token 费用计算器无需注册，可在浏览器读入文本并比较整份重复发送、提示缓存及记忆检索三种成本情景。API 与控制台需要账号，计算器是独立的网页工具入口。",
+      "why": "官方 About 页说明，团队此前制作产品、工程、邮件、会议和行动跟踪代理时，反复遇到持久录入、当前状态查询与来源追踪的共同需求；旧信息、相互矛盾的事实和归属不清促使他们将这些能力做成统一记忆 API。费用计算器的 FAQ 也直说，它用具体算术展示其销售的记忆层可能带来的成本差异。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://past.dev/about",
+          "https://past.dev/tools/token-cost-calculator"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖和 Firebase 数据，核查时无评论；阅读发布文章、首页、About、Quickstart 和公开 token 费用计算器，确认网页表单与计算假设；app.past.dev 返回需 JavaScript 的应用壳。未注册、创建密钥、调用 API、输入或上传文件，也未运行浏览器交互和重跑基准测试。",
+        "checkedAt": "2026-10-05T16:50:39Z"
+      },
+      "caveats": [
+        "主要能力通过 API/MCP 使用，浏览器控制台主要管理项目和用量；本条同时指出可公开访问的费用计算器，不把发布文章当作已经实测的网页记忆演示。",
+        "BEAM 10M 的 85.03% 等数字来自厂商 2026-09-29 运行结果，未独立复现；文章承认不同厂商运行配置不同，且其 10M 跨会话推理子项仅 28.17%，不能概括成普遍准确或无限记忆。",
+        "计算器用字符比例估 token，价格快照标注 2026-09-02；不是精确账单，且记忆方案未包括记忆服务自身费用、缓存列采用理想化情景。本轮未核对各模型现价或验证“文件不上传”的网络行为。",
+        "官网 About 页署名创始人为 Mehdi Djabri 和 Alex Ronse；HN 发布账号 louisreal 与团队的关系未获明确一手确认。不能把该账号当作已认证作者。",
+        "免费额度、每月 99 美元 Flex、认证与性能均属官网声明；未创建账号核验限制，也没有把额度、融资背景或基准排名当成收入、付费客户或已验证市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967073"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967073.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://past.dev/blog/introducing-past-dev"
+        },
+        {
+          "type": "official_site",
+          "url": "https://past.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://past.dev/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://past.dev/docs/memory-api/quickstart"
+        },
+        {
+          "type": "official_site",
+          "url": "https://past.dev/tools/token-cost-calculator"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.past.dev"
+        }
+      ],
+      "tags": [
+        "AI 记忆",
+        "开发者工具",
+        "费用计算",
+        "Web 服务"
+      ]
+    },
+    {
+      "id": "hacker_news:49967052",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49967052",
+      "title": "Possiblymadebyahuman：记录并签署写作过程的网页编辑器",
+      "url": "https://possiblymadebyahuman.com/",
+      "canonicalUrl": "https://possiblymadebyahuman.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49967052",
+      "hnUrl": "https://news.ycombinator.com/item?id=49967052",
+      "publishedAt": "2026-10-05T16:32:57Z",
+      "discoveredAt": "2026-10-05T16:53:14Z",
+      "audience": "希望展示写作过程的作者，以及想核查编辑记录完整性、理解生成过程的读者。",
+      "what": "提供免安装的 /write 网页编辑器，保留本地草稿并记录编辑时序、位置、增删长度和输入来源；写作者可发布带哈希链的短链接记录，读者在浏览器查看、校验，也可用可选的文本指纹比对文稿。另有 Chrome 扩展和 Emacs 集成。公开接口返回的已有样例包含事件清单和记录清单，本轮确认有 2,389 条事件；这不是对人类作者身份的证明。",
+      "why": "官网一手说明把它定位为对“文章被怀疑由 AI 生成”的回应：既然无法提供不可能被伪造的人类创作证明，至少让作者分享可核查的写作过程，并用服务器观察到的检查点增加伪造时间跨度的成本。该动机来自官方说明，未独立核验个人身份。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://possiblymadebyahuman.com/",
+          "https://possiblymadebyahuman.com/docs/threat-model/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖及 Firebase 数据，核查时没有评论；阅读官网、网页编辑器说明、隐私和威胁模型，并只读获取 /write 应用壳、公开前端脚本和官网链接样例的 JSON（2,389 个编辑事件）。未在浏览器创建草稿、输入正文、发布记录、安装扩展或重算哈希；仅核实页面、来源代码入口与已有样例数据。",
+        "checkedAt": "2026-10-05T16:53:14Z"
+      },
+      "caveats": [
+        "官方明确表示不能证明人类创作：照着 AI 文本重新打字、模拟慢速输入都可能产生正常记录；哈希完整性与文本绑定不等于作者身份认证，也不应被用于判断无记录的文章必由 AI 写成。",
+        "网页草稿正文按说明留在浏览器，编辑事件与哈希检查点会传给服务。默认可选文本绑定虽不发送正文，公开盐值仍允许别人猜测短句或可预测内容；“内容盲”不等于绝对匿名。",
+        "已发布记录默认长期公开，没有公开删除接口；删除本地草稿不会删除已发布记录或服务端检查点。发布前需考虑记录本身及可选指纹的公开性。",
+        "普通网页校验是与服务器给出的哈希比较；若要抵抗服务端同时替换内容与哈希，官方要求另存完整哈希并使用可信校验器。本轮没有进行密码学或安全审计。",
+        "HN 账号 juanre 与官网链接的 GitHub 仓库所有者同名，但个人身份及账号与产品关系未独立核实；没有收入、活跃用户或市场需求验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967052"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49967052.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://possiblymadebyahuman.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://possiblymadebyahuman.com/write"
+        },
+        {
+          "type": "official_site",
+          "url": "https://possiblymadebyahuman.com/docs/write/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://possiblymadebyahuman.com/docs/privacy/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://possiblymadebyahuman.com/docs/threat-model/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://possiblymadebyahuman.com/8MxUYwiQ3q"
+        },
+        {
+          "type": "official_site",
+          "url": "https://possiblymadebyahuman.com/api/records/8MxUYwiQ3q"
+        }
+      ],
+      "tags": [
+        "写作",
+        "来源记录",
+        "隐私",
+        "Web 应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49966967",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966967",
+      "title": "I Want My AI：整合多模型聊天与第三方应用操作的网页助手",
+      "url": "https://iwantmy.ai/welcome",
+      "canonicalUrl": "https://iwantmy.ai/welcome",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966967",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966967",
+      "publishedAt": "2026-10-05T16:26:17Z",
+      "discoveredAt": "2026-10-05T16:50:39Z",
+      "audience": "希望在一个网页聊天界面切换 AI 模型，并处理邮件、日历、文档和任务的个人及办公用户（依据官网定位归纳）。",
+      "what": "官网介绍的多模型 AI 聊天服务，提供网页搜索、文件问答、推理和自定义提示词，并通过连接的应用处理邮件、日历、文档或工单，声称把每一步操作显示在对话里。页面展示模型切换、应用连接和任务示例；服务条款确认它通过 OpenRouter 接入模型、通过 Composio 操作第三方应用。",
+      "why": "作者未说明个人创作动机。官网的产品目标是让用户连接常用应用后直接用自然语言交代任务，并在同一订阅中使用多个模型；未见解释为什么开始制作这一产品的一手叙述。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://iwantmy.ai/welcome"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖与 Firebase 官方数据，核查时无评论；阅读官网功能页、方案说明、FAQ、隐私政策和条款。未登录、连接应用、发送提示词、上传文件、执行外部动作或购买；页面里的邮件总结是展示内容，未当作真实运行结果。",
+        "checkedAt": "2026-10-05T16:50:39Z"
+      },
+      "caveats": [
+        "149 个应用、338 个模型及相关功能均为官网列示，未逐一验证可用性，也不能视为实际用户、客户或收入数据。",
+        "免费方案列出每月 100 条标准模型消息；付费方案有分层消息额度。应用介绍写应用包含在 Basic/Pro 中，但免费方案列表也列出 149 个连接，公开文字有不一致，实际免费权限未核实。",
+        "HN 标题带 75% 折扣与优惠码，但本轮未验证适用方案、价格、到期时间或兑换条件，不能视为已确认优惠。公开页面抓取未给出完整付费金额。",
+        "隐私政策说明消息先经 OpenAI Moderation API 检查，再经 OpenRouter 交给所选模型；连接应用的数据会经 Composio，并可能返回给模型。操作记录和聊天内容会保存，应慎选权限与输入资料。",
+        "HN 发布账号 relatedcode 与团队关系未独立核实；官网列出的运营商是 Related Code Kft.。未发现个人创作动机、使用规模或商业需求的一手证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966967"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966967.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://iwantmy.ai/welcome"
+        },
+        {
+          "type": "official_site",
+          "url": "https://iwantmy.ai/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://iwantmy.ai/terms"
+        }
+      ],
+      "tags": [
+        "AI 助手",
+        "多模型",
+        "办公自动化",
+        "Web 应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49966874",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966874",
+      "title": "Skytail：可直接在浏览器玩的开源 3D 飞行游戏",
+      "url": "https://skytail.coyotiv.com/",
+      "canonicalUrl": "https://skytail.coyotiv.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966874",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966874",
+      "publishedAt": "2026-10-05T16:19:58Z",
+      "discoveredAt": "2026-10-05T16:50:59Z",
+      "audience": "想直接玩轻量 3D 飞行游戏的玩家，以及研究 Three.js 跨浏览器、macOS 和 Xbox 共用代码的开发者（依据玩法和仓库定位归纳）",
+      "what": "一款可在浏览器运行的开源无尽飞行游戏：操纵 Coyotiv 吉祥物收集星星补充能量、躲避炸弹，穿过程序生成的地形与昼夜变化。仓库也提供把同一套 TypeScript／Three.js 游戏编译为原生 macOS 和 Xbox 应用的构建流程。",
+      "why": "发帖者自述团队一直在探索把 Three.js 游戏编译成原生 C++，让同一份 TypeScript／JavaScript 代码在网页、macOS 和 Xbox 上运行；最近让这个小游戏在 Xbox 原生运行后，决定公开代码并征求反馈。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966874"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 主帖、官方仓库完整 README，并确认 README 链接的浏览器游戏入口可返回页面。主帖当前没有评论；未启动图形化游戏交互，也未安装或验证原生构建。",
+        "checkedAt": "2026-10-05T16:52:35Z"
+      },
+      "caveats": [
+        "浏览器玩法与跨平台构建能力依据官方说明；未实测游戏操控、帧率、编译结果或 Xbox 运行表现。",
+        "这是开源游戏及其可自托管代码，同时提供公开浏览器入口；原生平台运行另有工具链要求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966874"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/geastack/skytail"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/geastack/skytail/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://skytail.coyotiv.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966874.json"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "开源",
+        "Three.js",
+        "跨平台"
+      ]
+    },
+    {
+      "id": "hacker_news:49966865",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966865",
+      "title": "Era by Eon：为 AI 代理生成模拟企业与 SaaS 数据",
+      "url": "https://console.era.eon.io/",
+      "canonicalUrl": "https://console.era.eon.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966865",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966865",
+      "publishedAt": "2026-10-05T16:19:08Z",
+      "discoveredAt": "2026-10-05T16:50:59Z",
+      "audience": "需要跨企业 SaaS 场景开发、演示和评估 AI 代理的开发者与研究者（依据官方定位归纳）",
+      "what": "通过网页向导描述一家虚构公司，生成相互关联的客户、员工、交易和历史记录，并投射到 Salesforce、Slack、Jira、Google Drive 等模拟系统；代理可通过 MCP 或兼容厂商的 REST API 读取这些合成环境。另提供 CLI 和可本地运行的模拟器镜像。",
+      "why": "发帖者 Benji 自称参与构建 Era，表示最初为团队自身使用而做，研究伙伴反应积极后决定免费提供给开发者。他在回复中进一步解释，Eon 的备份业务为内部软件开发积累了数字孪生、数据工程和统计建模能力，Era 将这些能力用于这个社区项目。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966865",
+          "https://news.ycombinator.com/item?id=49967074"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 主帖及现有作者回复、官网、生成向导页面和官方功能／限制说明。没有登录、申请访问或创建模拟公司，未运行代理测试。",
+        "checkedAt": "2026-10-05T16:52:35Z"
+      },
+      "caveats": [
+        "官方文档说明控制台按账号授予访问权，未获授权的访客需申请；“免费提供给开发者”为官方定位，并非无需账号即可使用。",
+        "环境使用合成数据，不能替代含真实业务数据的预发布环境；官方说明数据平面只读，不能据此完整测试代理向业务系统写回的流程。",
+        "“真实感”、数据规模和研究效果为作者或官方陈述，本次未独立验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966865"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49967074"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.era.eon.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.era.eon.io/synthesis.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.era.eon.io/llms.txt"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966865.json"
+        }
+      ],
+      "tags": [
+        "AI 代理",
+        "测试评估",
+        "合成数据",
+        "MCP",
+        "开发工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49966745",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966745",
+      "title": "SoldStack：二手服饰成交价查询与费用计算",
+      "url": "https://soldstack.fly.dev/",
+      "canonicalUrl": "https://soldstack.fly.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966745",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966745",
+      "publishedAt": "2026-10-05T16:09:30Z",
+      "discoveredAt": "2026-10-05T16:50:59Z",
+      "audience": "开发二手转售软件的开发者，以及想查看服饰、鞋包成交参考价和销售成本的转售卖家（依据作者介绍和公开工具归纳）",
+      "what": "提供 Poshmark 二手商品成交参考价 API，官方称会过滤不相关商品、童码、套装、重复项和价格离群值，返回中位价、区间、售出时间、扣费后收入及买入参考。网站还提供无需注册的价格指南和 Poshmark 费用计算器，以及需注册的 Google Sheets 接入。",
+      "why": "作者在 HN 明确表示，eBay 成交数据被放到登录之后，而 Poshmark 数据混杂、部分很旧，所以想让开发者更容易取得可用的成交数据；他还说明需要剔除童码、套装、重复项和离群值，避免混合计算产生误导价格。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966745"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 主帖、官网、公开价格指南及费用计算器页面；计算器页面展示默认输入对应的费用示例。主帖当前没有评论；未提交搜索、注册 API key、调用付费 API 或核验底层成交数据。",
+        "checkedAt": "2026-10-05T16:52:35Z"
+      },
+      "caveats": [
+        "当前官方标注的已上线数据源只有 Poshmark；eBay 等其他市场不能视为已支持。",
+        "过滤质量、更新频率、成交时间和建议买入价均来自官方说明，尚未独立核验，不能视为保证转售利润或证明实际需求。",
+        "官网 API 示例使用 soldstack.dev 域名，本次该域名返回 502；本记录链接的 soldstack.fly.dev 首页和工具页面可读取。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966745"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soldstack.fly.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soldstack.fly.dev/price"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soldstack.fly.dev/poshmark-fee-calculator"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966745.json"
+        }
+      ],
+      "tags": [
+        "二手交易",
+        "价格查询",
+        "开发者 API",
+        "费用计算"
+      ]
+    },
+    {
+      "id": "hacker_news:49966733",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966733",
+      "title": "Designobo：在无限画布比较 AI 生成的 HTML 原型",
+      "url": "https://designobo.com/",
+      "canonicalUrl": "https://designobo.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966733",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966733",
+      "publishedAt": "2026-10-05T16:08:13Z",
+      "discoveredAt": "2026-10-05T16:51:09Z",
+      "audience": "需要快速比较界面方案的创始人、产品经理、设计师和开发者（官网明确列出）",
+      "what": "浏览器中的 AI 界面原型工具：把多张 HTML 页面放在无限画布上比较，可通过聊天、元素批注、涂画或样式编辑器修改，分享可点击原型并导出 HTML；支持连接兼容 MCP 的编程代理。",
+      "why": "作者在 HN 明确说，自己受够了同类网页原型工具操作迟缓，所以制作 Designobo，希望交互更快。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966733"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核读当前 HN 帖子（无评论）、官网功能与套餐说明，以及官网链接的公开原型示例页面；未登录、生成或编辑原型。",
+        "checkedAt": "2026-10-05T16:51:09Z"
+      },
+      "caveats": [
+        "官网明确说明只生成前端界面原型，不提供后端或数据库；不能据此视为完整应用生成器。",
+        "标题中的 40 KB JavaScript 和作者的速度评价未独立测量；免费额度及付费套餐以官网实时页面为准。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966733"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966733.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://designobo.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://designobo.com/s/0fcb15806dcfbdf4dd82aeed3d3596b6ef727948ea89aef742c016d462515cc1"
+        }
+      ],
+      "tags": [
+        "AI",
+        "原型设计",
+        "设计工具",
+        "Web应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49966592",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966592",
+      "title": "Ontoplano：可自托管的个人计划与生活管理应用",
+      "url": "https://ontoplano.com/",
+      "canonicalUrl": "https://ontoplano.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966592",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966592",
+      "publishedAt": "2026-10-05T15:58:06Z",
+      "discoveredAt": "2026-10-05T16:51:09Z",
+      "audience": "希望把周计划、任务、笔记及生活记录集中管理，并重视自托管和数据可迁移性的个人（依据官网用途归纳）",
+      "what": "开源生活管理 Web 应用，可自托管或使用官方托管实例；将时间块、待办、笔记、目标、习惯、运动、库存、菜谱和购物清单放在一起，并提供 API 与可限定权限的 MCP 接口。另有 Android 客户端。",
+      "why": "官网创始人 Estevão 说，他起初为自己开发：任务、笔记和纸上计划散落各处，希望有一个统一容器；用了一段时间后才公开，让更多人参与改进，并认为如此私人的数据应由用户掌握。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://ontoplano.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核读当前 HN 帖子（无评论）、官方仓库 README 与官网；官方实例和演示域名均可访问，但本次返回的是登录入口，未进入账户或部署自托管版本。",
+        "checkedAt": "2026-10-05T16:51:09Z"
+      },
+      "caveats": [
+        "这是可自托管的浏览器应用，亦提供移动端，不是仅有原生客户端。",
+        "软件采用 AGPLv3；自托管免费，官方托管实例收费并提供试用。官网列出的同步、离线及权限控制未实测。",
+        "HN 发帖账号 philipthetenth 与官网署名创始人 Estevão 的具体身份关系未确认；创作动机来自官网创始人第一人称说明。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966592"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966592.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ontoplano.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ontoplano/ontoplano"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.ontoplano.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.ontoplano.com/"
+        }
+      ],
+      "tags": [
+        "生产力",
+        "开源",
+        "自托管",
+        "任务管理",
+        "Web应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49966541",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966541",
+      "title": "mojirama：按剧情、情绪和模糊片名找影视作品",
+      "url": "https://mojirama.com/",
+      "canonicalUrl": "https://mojirama.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966541",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966541",
+      "publishedAt": "2026-10-05T15:54:41Z",
+      "discoveredAt": "2026-10-05T16:51:09Z",
+      "audience": "只记得剧情、情绪、演员或部分片名，想寻找电影和剧集的观众（依据官网支持的查询方式归纳）",
+      "what": "电影与剧集检索网站，可按剧情描述、演员、情绪、年代、片长、模糊片名或 emoji 寻找作品；官方 About 说明结合关键词索引、语义向量和 Clef-Flash 查询规划，并提供相似作品及 emoji 猜电影玩法。",
+      "why": "作者未说明个人创作起因。HN 发帖者自称制作了该搜索工具；官网 About 将产品归于 Mostly Right 团队，说明的产品目标是理解用户描述来寻找电影与剧集。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966541",
+          "https://mojirama.com/#about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核读当前 HN 帖子（无评论）、官网首页、官方 About 组件及所链接的数据集页面；首页响应包含作品目录数据。本次仅作页面与公开源码核读，未提交搜索或测试检索准确率。",
+        "checkedAt": "2026-10-05T16:51:09Z"
+      },
+      "caveats": [
+        "约 126 万部电影和剧集、毫秒级检索及语义理解效果是官方描述，本次未独立验证完整规模或性能。",
+        "官网说明数据来自 TMDB，产品未获 TMDB 背书或认证；About 中的流媒体可看地区信息针对美国。",
+        "HN 发帖者与 Mostly Right 团队的具体身份关系未独立确认。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966541"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966541.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mojirama.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mojirama.com/#about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mojirama.com/assets/AboutModal-BCop9-tm.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mostlyright.md/datasets/movies-with-plot-summaries-and-ratings-since-1887"
+        }
+      ],
+      "tags": [
+        "电影",
+        "搜索",
+        "语义检索",
+        "Web应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49966423",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49966423",
+      "title": "LIZARD：通过屏幕与摄像头传文件的光学 Web 工具",
+      "url": "https://fosslabs.dev/",
+      "canonicalUrl": "https://fosslabs.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49966423",
+      "hnUrl": "https://news.ycombinator.com/item?id=49966423",
+      "publishedAt": "2026-10-05T15:47:23Z",
+      "discoveredAt": "2026-10-05T16:51:09Z",
+      "audience": "希望用屏幕到摄像头的光学方式传文件、或研究光学通信的开发者与实验用户（依据官方用途归纳）",
+      "what": "将文件编码为屏幕上连续变化的灰度二维图码，再由另一设备摄像头读取并重建文件。官网提供浏览器发送与接收页面，仓库包含可安装为 PWA 的 Web 应用，以及 Android 和桌面实现。",
+      "why": "作者未说明个人创作起因。作者在 HN 解释，其目标是设计针对数字屏幕而非纸面的光学传输格式，让距离、清晰度变化导致部分数据块损失，而非整个图码直接失效。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49966429",
+          "https://github.com/FNWTalon/lizard"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核读当前 HN 帖子及作者评论、官方仓库 README、官网首页与发送／接收页面。确认存在独立可用形态的 Web 应用；未选择文件、启用摄像头或进行跨设备传输。",
+        "checkedAt": "2026-10-05T16:51:09Z"
+      },
+      "caveats": [
+        "仓库明确称其为研究项目，格式仍可能变化；Android 版本为 alpha。",
+        "HN 的 16 Mbps 演示及 README 的吞吐量来自作者在特定手机和显示器上的测量，不能当作浏览器普遍性能；作者报告的同手机 Chrome 速度低于原生 Android。",
+        "接收依赖摄像头权限以及兼容的运行环境；实际效果受显示器对比度、亮度、帧率和摄像头影响，本次未实测。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966423"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49966423.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49966429"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fosslabs.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fosslabs.dev/send.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fosslabs.dev/recv.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/FNWTalon/lizard"
+        }
+      ],
+      "tags": [
+        "文件传输",
+        "光学通信",
+        "开源",
+        "PWA",
+        "Web应用"
+      ]
+    },
     {
       "id": "hacker_news:49966295",
       "provider": "hacker_news",
