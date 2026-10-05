@@ -1,9 +1,163 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T21:49:41Z",
-  "count": 107,
+  "updatedAt": "2026-10-05T22:39:45Z",
+  "count": 109,
   "projects": [
+    {
+      "id": "hacker_news:49971727",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49971727",
+      "title": "BountyIndex：聚合漏洞赏金计划的网页索引，新增 14 项工具的 MCP v2",
+      "url": "https://www.bountyindex.in/mcp",
+      "canonicalUrl": "https://www.bountyindex.in/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49971727",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971727",
+      "publishedAt": "2026-10-05T22:31:05Z",
+      "discoveredAt": "2026-10-05T22:39:45Z",
+      "audience": "需要跨平台挑选公开漏洞赏金计划、查看奖励与测试范围的安全研究人员，以及希望在支持 MCP 的 AI 客户端中查询同一索引的用户。",
+      "what": "一个可直接浏览的漏洞赏金计划聚合网站，将 HackerOne、Bugcrowd、Intigriti、YesWeHack、Federacy 与 Immunefi 的公开项目集中到网页目录，提供平台、资产类型、最低奖励和计划类型筛选，以及域名范围查询、机会评分和变更动态入口。本次 Show HN 分享的是其 MCP v2：官方文档列出 14 项工具、3 个预设工作流和 1 个统计资源，覆盖项目搜索、详情、范围反查、变化记录、奖励排行及批量查询；页面称无需 API key 或注册。核查时网页目录实际显示 1,447 条结果及项目行，这只是当时网站展示的数据。",
+      "why": "官网的“Why this exists”直接说明了产品缘由：漏洞赏金平台各自展示自己的计划，其他目录可能陈旧或偏重政策，原始 JSON 又需要额外处理，因此希望提供一个便于人和 AI 代理统一检索、筛选的索引。这是官方的第一手产品说明；HN 原帖没有正文或作者评论，未找到作者个人经历或更具体的创作故事。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.bountyindex.in/",
+          "https://news.ycombinator.com/item?id=49971727"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读获取并核查 HN 原帖、官方 Firebase 条目、官网首页、MCP 文档、项目目录、范围查询页和实现说明页。确认项目目录页面包含实际数据行、筛选选项及分页，范围查询页包含输入入口；不是只有 MCP 配置或命令行工具。本轮未提交查询、操作筛选、登录、安装客户端或调用 MCP，不能据此确认交互流程、匹配准确率和工具执行效果。HN 核查时 descendants 为 0、无 kids，原帖无评论可补读。",
+        "checkedAt": "2026-10-05T22:39:45Z"
+      },
+      "caveats": [
+        "这次帖子介绍现有网站的 MCP v2 更新，HN 时间不是产品首次上线时间。文档将 v2 标为公开测试版，声明每分钟 60 次请求；配额和兼容性未经实测。",
+        "数据完整性、最高赏金、范围匹配和奖励变化均依赖上游数据及网站处理。本轮没有逐项对照各赏金平台，也未验证奖金可领取性；进行任何安全测试前仍需到项目官方政策核对范围并取得授权。",
+        "实现说明写明每天抓取一次数据，首页同时存在新计划一小时内出现的宣传说法，时效性表述并不完全一致；不应将其当作实时授权或即时更新的保证。",
+        "首页称基础浏览免费且无需注册，GitHub 登录用于跨设备同步关注列表；本轮没有验证登录、同步、导出、RSS 或 Discord 通知。",
+        "首页比较表仍写“五个平台”，目录和实现说明已列出六个平台；目录统计及页面宣传的用户数量未作独立核实。",
+        "HN 发布账号为 axolotl619；本轮未独立核实其真实身份或与网站运营者的关系。产品动机仅归因于官方页面，不把该账号身份视为已核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49971727"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49971727.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.bountyindex.in/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.bountyindex.in/mcp"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.bountyindex.in/programs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.bountyindex.in/scope-lookup"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.bountyindex.in/how-it-works"
+        }
+      ],
+      "tags": [
+        "漏洞赏金",
+        "安全研究",
+        "网页工具",
+        "信息聚合",
+        "MCP",
+        "免费浏览"
+      ]
+    },
+    {
+      "id": "hacker_news:49971503",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49971503",
+      "title": "Mainbrella：为 AI 编程与自动化任务提供容器工作区和浏览器终端",
+      "url": "https://mainbrella.com/",
+      "canonicalUrl": "https://mainbrella.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49971503",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971503",
+      "publishedAt": "2026-10-05T22:04:23Z",
+      "discoveredAt": "2026-10-05T22:39:20Z",
+      "audience": "需要为 AI 编程代理、评测或自动化任务准备临时 Linux 执行环境的开发者，以及希望通过网页管理容器和交互式终端的技术用户。",
+      "what": "基于 Cloudflare 的容器工作区服务。官方网页源码包含登录后的控制台，可创建、查看和停止容器、选择机器规格与运行镜像，并通过内嵌 xterm.js 终端操作 shell；文档还介绍 HTTP 命令执行、文件读写、SSH 和自定义镜像。网页与后端仓库采用 GPL-3.0，作者表示可在自己的 Cloudflare 账号部署。本轮确认了实际网页界面及终端连接代码，但没有登录或运行容器。",
+      "why": "作者 Andrew Arrow 在 HN 原帖中明确说，Cloudflare 刚推出的容器沙箱服务激发了他尝试构建更好的 E2B／Daytona 类系统的想法；他也在征求反馈、功能建议和首批付费客户。这是作者对创作起因的直接陈述，不代表已验证其优于这些服务。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49971503"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读核查 HN 原帖及官方 Firebase 条目；当时 descendants 为 0 且没有 kids，因此无作者评论可补充。直接访问主站返回 HTTP 403，未完成在线页面或登录后交互验证。读取作者链接的官方前后端仓库、README、网页目录树、首页、控制台、xterm.js 终端与容器管理源码和基准说明。未安装、部署、登录、订阅、创建容器或执行基准测试。",
+        "checkedAt": "2026-10-05T22:39:20Z"
+      },
+      "caveats": [
+        "托管服务没有免费计划。作者及仓库说明 Builder 为 5 美元／月，需登录并有有效付费订阅才能创建容器；此为核查时的官方价格说明，未进入结账确认税费或最终价格。",
+        "文档中的 Builder 限额包括最多 5 个并发容器、每 UTC 月 1,000 次启动、250 compute-unit hours、单次最长 1 小时和 10 分钟空闲超时；不同规格消耗不同额度，失败启动也计入次数。实际计费和限额执行未经实测。",
+        "容器停止后文件不会保留，硬性会话期限与空闲超时可能终止工作；不能据此当作持久服务器或持久文件存储。",
+        "作者在 HN 声称首轮 30 次创建为 381 毫秒，100 个同时启动平均 680 毫秒；仓库基准页则把这些列为历史原型的 P50／P95，指标口径有差异，并明确缺少原始样本、测试日期、区域、配置及冷热启动信息。本轮未复现，也不把它们作为可比较的性能结论。",
+        "虽然提供开源网页界面，自托管仍需配置 Cloudflare 服务、数据库迁移、认证及后端等依赖；不是只下载网页就能运行。主站的 HTTP 403 只反映本次访问结果，不能据此认定产品对所有用户不可用。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49971503"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49971503.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mainbrella/web"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mainbrella/backend"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mainbrella/web/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mainbrella/web/blob/main/dashboard/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mainbrella/web/blob/main/src/container-terminal.js"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mainbrella/web/blob/main/src/containers-dashboard.js"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mainbrella/web/blob/main/benchmarks/index.html"
+        }
+      ],
+      "tags": [
+        "AI 开发",
+        "容器沙箱",
+        "浏览器终端",
+        "开发者工具",
+        "开源",
+        "自托管"
+      ]
+    },
     {
       "id": "hacker_news:49971028",
       "provider": "hacker_news",
