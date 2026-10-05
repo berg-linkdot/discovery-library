@@ -1,9 +1,543 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T20:45:27Z",
-  "count": 100,
+  "updatedAt": "2026-10-05T21:49:41Z",
+  "count": 107,
   "projects": [
+    {
+      "id": "hacker_news:49971028",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49971028",
+      "title": "Ototo：带本地网页仪表盘的代码探索助手",
+      "url": "https://ototo.dev/",
+      "canonicalUrl": "https://ototo.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49971028",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971028",
+      "publishedAt": "2026-10-05T21:25:51Z",
+      "discoveredAt": "2026-10-05T21:49:40Z",
+      "audience": "使用 Claude Code 或 OpenCode、希望把代码探索交给较小模型，并通过本地网页查看调用过程、耗时与 token 使用情况的开发者和工程团队；适用人群依据作者自述及官方功能归纳。",
+      "what": "Ototo 本体是需要安装的 MCP／命令行工具，可把代码探索任务交给用户指定的较小模型。它另有可实际使用的本地网页仪表盘：运行 ototo ui 后读取本机运行日志，按时间、仓库、工具或模型查看调用次数、token、延迟、错误、每轮探索步骤和最终答案；官方源码也提供运行记录、实时状态及插件接口。本条因这个有具体用途的自托管 Web UI 收录，官网上的代码问答示例本身只是展示，并非公开在线推理演示。",
+      "why": "HN 作者 schoenobates 明确说，希望把代码探索等消耗较多 token 的任务交给较小模型，再把结果交回主模型，以降低使用成本并减少主会话中探索过程占据的上下文。他还说自己先试过图结构方案，后来发现现在的方法更合适。这是作者说明的整体项目动机；未找到专门解释网页仪表盘起因的陈述。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49971028",
+          "https://ototo.dev/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "通过只读 HTTP 获取 HN 原帖与官方 API、官网、GitLab README、本地仪表盘服务端 ui.rs 与网页源码。README 的 Dashboard 章节和服务端的 HTML／运行记录／实时状态路由相互印证该 Web UI 存在。未安装 Ototo、配置模型、启动本地服务或在浏览器操作仪表盘；没有验证推理质量、节省成本、运行时安全性或端到端功能。",
+        "checkedAt": "2026-10-05T21:49:40Z"
+      },
+      "caveats": [
+        "这是需要在用户机器部署的本地网页工具，没有发现可直接使用的公共托管仪表盘；本轮没有安装或试运行。",
+        "官方说明仪表盘默认只监听 127.0.0.1，API 需要本地访问 key，因为日志可包含问题、代码和回答；本轮仅核查说明与部分源码，未进行安全审计。代码仍会发送给用户所配置的模型服务，不能把本地 UI 理解为模型推理必然完全离线。",
+        "官网及作者列出的 token／费用节省、回答正确率与性能属于项目方测试或自述，本轮未独立复现。",
+        "HN 原帖核查时 descendants 为 0 且无 kids，没有作者评论可补充；publishedAt 为 HN 分享时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49971028"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49971028.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ototo.dev/"
+        },
+        {
+          "type": "repository",
+          "url": "https://gitlab.com/handmadedigital/projects/ototo"
+        },
+        {
+          "type": "repository",
+          "url": "https://gitlab.com/handmadedigital/projects/ototo/-/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://gitlab.com/handmadedigital/projects/ototo/-/blob/main/src/ototo/ui.rs"
+        },
+        {
+          "type": "repository",
+          "url": "https://gitlab.com/handmadedigital/projects/ototo/-/blob/main/src/ototo/ui/index.html"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "本地网页工具",
+        "开发工具",
+        "AI 编程",
+        "MCP",
+        "调用监控"
+      ]
+    },
+    {
+      "id": "hacker_news:49971016",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49971016",
+      "title": "Crazy Ones Tribute：以黑白动画与旁白纪念乔布斯的网页作品",
+      "url": "https://crazy.eyad.com/",
+      "canonicalUrl": "https://crazy.eyad.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49971016",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971016",
+      "publishedAt": "2026-10-05T21:24:59Z",
+      "discoveredAt": "2026-10-05T21:49:31Z",
+      "audience": "对史蒂夫·乔布斯、Apple 广告文化和浏览器动画感兴趣的观众；这是依据作品主题与呈现方式归纳的适用人群。",
+      "what": "Eyad Nour 制作的独立纪念网页，将“Crazy Ones”广告重新编排为黑白人物绘制动画，配以音乐、声音设计及作者称从原广告音轨分离的乔布斯旁白。官网提供播放、暂停、静音、重播和按左右方向键切换人物的控件；人物姓名链接到 Wikipedia。线上时间线数据安排了爱因斯坦、鲍勃·迪伦等 13 位人物，最后以乔布斯收束。首页无需登录即可读取。",
+      "why": "作者 eyadnour 在 HN 正文明确说，自己少年时看过原广告后决定买 Mac，花了四年积蓄才买到；乔布斯去世当天再听他的旁白时深受触动，感觉广告像在讲述他本人。因此在逝世十五周年之际，把广告重做成浏览器里的黑白动画纪念作品。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49971016",
+          "https://crazy.eyad.com/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已通过只读 HTTPS 审阅 HN 原帖、官方 Firebase 元数据、官网 HTML 与其中的 Credits、线上 main.js、audio.js、人物场景及时间线 JSON，均返回 HTTP 200。确认页面包含播放控件、人物名单及动画和音频调度代码；本轮未使用浏览器、播放音频或运行动画，不能把页面与源码核验当成交互或音画同步实测。没有登录、安装、提交表单或联系作者。",
+        "checkedAt": "2026-10-05T21:49:31Z"
+      },
+      "caveats": [
+        "网站需要 JavaScript 绘制动画并加载音频与图像资源；未验证不同浏览器、手机、无障碍体验、资源完整性或实际播放流畅度。",
+        "官网明确这是独立致敬作品，与 Apple 无隶属、赞助或背书关系。乔布斯原声及其分离处理方式来自作者和官网说明；本轮没有独立鉴定音频，也未核验广告文案、录音和人物素材的再使用授权。",
+        "作者称代码、动画、声音设计、插图及音乐使用 AI 工具制作；这些制作归属为一手自述，未独立验证具体模型版本或生成过程。",
+        "核查时 HN 官方 API 的 descendants 为 0 且无 kids，原帖页面也未见评论，因此没有额外作者评论可核验。publishedAt 是 HN 分享时间，不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49971016"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49971016.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crazy.eyad.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crazy.eyad.com/js/main.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crazy.eyad.com/js/audio.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crazy.eyad.com/data/scenes.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crazy.eyad.com/data/timeline.json"
+        }
+      ],
+      "tags": [
+        "网页动画",
+        "数字艺术",
+        "乔布斯",
+        "广告文化",
+        "纪念作品"
+      ]
+    },
+    {
+      "id": "hacker_news:49970810",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49970810",
+      "title": "Sideloop：管理 iOS 侧载应用自动续签的自托管网页工具",
+      "url": "https://github.com/filippofinke/sideloop",
+      "canonicalUrl": "https://github.com/filippofinke/sideloop",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49970810",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970810",
+      "publishedAt": "2026-10-05T21:11:04Z",
+      "discoveredAt": "2026-10-05T21:49:40Z",
+      "audience": "拥有 iPhone 或 iPad、愿意在 Linux 或 Mac 上自托管服务，并需要管理侧载 IPA 应用续签的技术用户；并非面向无需部署即可使用的普通在线工具。",
+      "what": "一个带网页界面的自托管服务，用免费 Apple ID 为侧载 IPA 应用重新签名，并在有效期结束前通过同一 Wi-Fi 重新安装。官方仓库提供完整网页界面与 HTTP 服务代码，涵盖设备和应用管理、IPA 上传、Apple 登录及二次验证输入、运行进度与活动记录；README 说明依赖 AltServer-Linux，支持 Linux 与 Mac 部署，不要求设备安装 AltStore 或 SideStore。浏览器负责管理流程，签名与设备通信由本地服务执行。",
+      "why": "作者未说明个人创作起因。HN 原帖只有链接和标题，没有正文或评论；README 明确的产品目标是让侧载应用在免费签名到期前自动续签、减少重复安装操作，不能把这个用途推断为作者自己的经历。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49970810",
+          "https://github.com/filippofinke/sideloop"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读获取 HN 原帖与官方 API、官方 GitHub 仓库和 README、仓库文件树、sideloop/index.html 与 server.py。确认实际网页源码及设备、应用、签名任务、上传、日志接口存在；不是只有演示视频或 CLI 说明。未安装 Docker、启动服务、登录 Apple ID、连接设备、上传 IPA 或实际签名，未验证自动续签和数据保留效果。",
+        "checkedAt": "2026-10-05T21:49:40Z"
+      },
+      "caveats": [
+        "需要自行部署，未发现公共可试用实例；本轮没有部署或执行。官方快速开始要求 Docker Compose，首次构建还需编译 AltServer。",
+        "README 要求使用 Apple ID 常规密码并在首次登录时输入二次验证码，明确建议使用单独的临时 Apple ID；这涉及账号凭据和设备信任，本轮没有进行任何登录或凭据处理，也没有审计凭据保存方式。",
+        "初次配对需要 USB；源码显示浏览器内配对仅适用于 Linux，Mac 需先用 Finder 配对并启用 Wi-Fi 显示，同时桥接系统 usbmuxd。续签时设备需解锁并处于同一 Wi-Fi。",
+        "免费账号的每台设备应用数量及每周 App ID 数量受 Apple 限制；README 写明每台 3 个应用、每周 10 个 App ID，扩展也占用名额。本轮未向 Apple 独立核对规则或验证兼容性。",
+        "项目自称与 Apple 无关；自动化签名、保留应用数据及后续静默登录均为官方说明，未经实测。HN 核查时 descendants 为 0 且无 kids；分享时间不代表首次发布。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49970810"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49970810.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/filippofinke/sideloop"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/filippofinke/sideloop/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/filippofinke/sideloop/blob/main/sideloop/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/filippofinke/sideloop/blob/main/sideloop/server.py"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "网页工具",
+        "iOS",
+        "侧载应用",
+        "设备管理",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49970788",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49970788",
+      "title": "Soundscaper：在浏览器里录音、剪辑和混合多轨音频",
+      "url": "https://soundscaper.org/",
+      "canonicalUrl": "https://soundscaper.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49970788",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970788",
+      "publishedAt": "2026-10-05T21:09:35Z",
+      "discoveredAt": "2026-10-05T21:49:41Z",
+      "audience": "想在浏览器中录音、剪辑播客或混合多轨声音的创作者，以及熟悉 Audacity、希望尝试网页替代工具的用户；适用人群按官方功能归纳，未验证真实使用规模。",
+      "what": "以 Audacity 4 的布局和交互为参照重新实现的网页音频编辑器。官方 README 与网页资源列出多轨非破坏性编辑、录音、实时效果、参数均衡器、响度与频谱检查、素材项目箱，以及 Audacity AUP、AUP3、AUP4 导入和仅音频的 AUP3／AUP4 导出。项目以本机保存和处理媒体为设计方向，无需 Soundscaper 账号；另有桌面版和相关视频编辑工具 Framescaper，本条收录的是可直接打开的浏览器音频工作区。",
+      "why": "作者 LeoWattenberg 在 HN 第一人称说明，结束 Audacity 4 的设计工作后开始尝试网页与 WASM 工具，进而想把 Audacity 搬到浏览器；他还明确重视由非营利组织持有项目，以免再次为开源音频编辑器实现商业化策略。官方 README 补充，曾尝试把新功能加入 Audacity，但旧代码库使实现困难，因此把 Soundscaper 定位为新功能原型、独立替代方案和跨平台选择。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49970788",
+          "https://github.com/LeoWattenberg/Soundscaper"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "通过只读 HTTPS 读取 HN 原帖与官方 Firebase 元数据，核查时 descendants 为 0 且没有 kids；读取官网根页面、/en/ 工作区入口、PWA manifest、页面实际引用的启动模块和隐私说明模块、官方 README 及 Mindscaper 主页，已获取的这些资源返回 HTTP 200。源码与 manifest 可确认多轨编辑网页入口和本机项目相关功能声明；未运行浏览器交互、录音、导入文件、应用效果或导出项目，不能据此确认编辑质量及兼容性。未登录、授权麦克风、安装或上传媒体。",
+        "checkedAt": "2026-10-05T21:49:41Z"
+      },
+      "caveats": [
+        "Audacity 4 兼容、新增功能和本机处理是官方目标与实现说明，本轮未实测；尤其项目导入、效果还原和 AUP3／AUP4 导出可能存在差异，README 明确导出为仅音频并附兼容性报告。",
+        "隐私说明称常规项目和媒体留在设备上，但不是完全没有网络连接：应用与资源由 Cloudflare 提供，可选 Freesound 搜索、下载、账号连接和上传会通过代理或第三方处理相关数据。未审计运行时网络流量或隐私保障。",
+        "隐私说明明确，清除浏览器站点数据会移除网页项目库；重要项目应自行导出备份。本轮未测试浏览器容量、恢复能力、长录音或跨设备兼容性。",
+        "非营利持有是作者自述，Mindscaper 官网也自称非营利创作者协会；本轮未核验其法律主体、所有权或与隐私说明中数据控制者的关系。",
+        "核查时没有作者评论可补充。publishedAt 来自 HN 官方 API 的此次分享时间，不代表产品首次上线；未独立验证用户数、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49970788"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49970788.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soundscaper.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soundscaper.org/en/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soundscaper.org/manifest-soundscaper.webmanifest"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soundscaper.org/assets/site-entry-DvOkAP-q.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soundscaper.org/assets/PrivacyPolicyDialog-CfarkKKw.js"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/LeoWattenberg/Soundscaper"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/LeoWattenberg/Soundscaper/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mindscaper.org/"
+        }
+      ],
+      "tags": [
+        "音频编辑",
+        "多轨录音",
+        "Audacity",
+        "本机处理",
+        "网页应用",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49970630",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49970630",
+      "title": "Sondahub：无需账号的多协议模拟 API 与在线测试实验室",
+      "url": "https://sondahub.com/",
+      "canonicalUrl": "https://sondahub.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49970630",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970630",
+      "publishedAt": "2026-10-05T20:58:21Z",
+      "discoveredAt": "2026-10-05T21:49:41Z",
+      "audience": "学习或测试 API 的开发者、前端原型作者，以及需要验证 HTTP、实时消息、身份集成和 MCP 客户端的工程人员；无需先部署自己的后端即可阅读文档和调用公开测试接口。",
+      "what": "可公开访问的模拟 API 实验室，官网按电商、物联网、银行、社交、客服、航班和企业目录组织七组虚构数据，并提供带网页运行入口的请求示例。官方列出 REST、GraphQL、OData、SOAP、gRPC-Web、WebSocket、SSE、MQTT、MCP 等协议，以及身份认证测试、FHIR 合成诊所和第三方 API 仿真沙箱。已读取 API 索引与 Store 的 OpenAPI 3.0.3 文档。托管服务宣称免费、无需账号或密钥，可配合普通 API 客户端使用，不依赖安装其关联桌面产品。",
+      "why": "作者 pablovarela 在 HN 明确说，他们创建这个免费公共 API 实验室，是作为即将推出的免费产品的试验场，同时也希望使用 Postman、Insomnia、Bruno 或自写代码的人能够使用。官网把该产品具体命名为 LockFlare Sonda；这是作者陈述的开发用途，没有证据进一步推断个人痛点、客户需求或商业成效。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49970630",
+          "https://sondahub.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读读取 HN 原帖与官方 Firebase 元数据，核查时 descendants 为 0 且没有 kids；官网首页、Store 示例文档、会话持久化说明、公开 /v1 索引、Store OpenAPI 文档和开源仓库 README 均成功获取。确认页面列有可运行示例、接口路径及会话规则；没有在浏览器点击运行示例，也未测试写入、实时协议、MCP、认证流程或第三方沙箱兼容性。未登录、安装、提交表单、发送真实个人资料或密钥。",
+        "checkedAt": "2026-10-05T21:49:41Z"
+      },
+      "caveats": [
+        "所有业务记录由官网描述为固定种子生成的假数据；银行、医疗、支付和密钥服务都是测试场景，不应发送真实个人资料、金融信息、病历或秘密。第三方沙箱是独立仿真，并非相关厂商的官方测试环境。",
+        "托管版所谓持久化依赖客户端在后续请求中携带最新 X-Sondahub-Session。官网说 token 经签名但未加密，持有人可读取内容；上限为 24,000 字符，超限写入可能只返回结果而不保存，旧数据版本的 token 也可能被忽略。不是可替代生产数据库的持久存储。",
+        "官网的 78,076 条记录、七组业务世界、协议覆盖和 SDK 兼容性属于官方描述，本轮仅核对索引和文档，未逐项测试协议行为、服务稳定性或所有数据。",
+        "公开 MIT 仓库只是精选版本，README 列出 Store、Social、Helpdesk 三组数据及较少协议；其写入保存在进程内存中，和托管版的会话 token 方案不同，不能把两者能力或存储行为混为一谈。",
+        "HN 作者提到关联产品即将发布，但本条未验证该产品的发布时间；publishedAt 仅为 API 实验室此次 HN 分享时间。核查时无作者评论，也没有独立用户规模、收入或市场需求证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49970630"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49970630.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sondahub.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sondahub.com/apis/store/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sondahub.com/mock-api-with-persistence/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://api.sondahub.com/v1"
+        },
+        {
+          "type": "official_site",
+          "url": "https://api.sondahub.com/v1/store/openapi.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/lockflare/sondahub-core"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/lockflare/sondahub-core/main/README.md"
+        }
+      ],
+      "tags": [
+        "API 测试",
+        "模拟数据",
+        "开发工具",
+        "MCP",
+        "多协议",
+        "在线实验室"
+      ]
+    },
+    {
+      "id": "hacker_news:49970586",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49970586",
+      "title": "Simulkit：估算 Mac 运行本地大模型的内存与速度",
+      "url": "https://simulkit.com/en/mac-local-llm",
+      "canonicalUrl": "https://simulkit.com/en/mac-local-llm",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49970586",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970586",
+      "publishedAt": "2026-10-05T20:55:29Z",
+      "discoveredAt": "2026-10-05T21:49:40Z",
+      "audience": "想了解现有 Mac 能运行哪些开放权重大模型，或希望比较不同 Mac 内存配置、量化方式与运行框架的开发者和本地 AI 爱好者；不宜仅凭估算结果作购买决定。",
+      "what": "无需登录即可查看的 Mac 本地大模型模拟网页。页面提供 Mac 型号、芯片、统一内存、模型、量化、上下文长度及 MLX／llama.cpp 等参数，展示估算的模型内存需求、读写 token 速度、上下文处理时间、可容纳的其他模型与 Mac 配置比较。作者给出的共享场景有独立网页及可读取的 Markdown 版本，便于把参数和结果交给其他工具阅读。当前核查入口围绕 Mac 电脑，不能按 HN 标题扩展成所有 iPhone、iPad 或 Apple 设备的支持。",
+      "why": "HN 作者 fclairamb 明确说，自己觉得向大家解释不同 Apple 设备能运行什么模型会很有意思，因此做了这套模拟；他还特别强调共享结果同时生成适合 LLM 读取的版本，并称项目没有追踪、联盟推广或商业收费。后几项是作者的产品取向和自述，未作为独立验证的隐私结论。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49970586"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "通过只读 HTTP 获取 HN 原帖与官方 API、模拟器页面、官方参数／方法 Markdown，以及作者链接的共享网页和对应 Markdown，均返回 HTTP 200。已核实页面含参数控件、预置计算结果，以及共享场景中的两组参数和结果表；另保留客户端主脚本。未在浏览器修改参数、执行交互、保存或分享新场景，也未安装模型或测量真实 Mac 性能。",
+        "checkedAt": "2026-10-05T21:49:40Z"
+      },
+      "caveats": [
+        "这是容量和性能估算器，不会在网页里真正运行所选大模型；本轮没有测试交互计算，也没有独立复现任何速度或内存数字。",
+        "官网称用公开基准校准，实际速度仍随硬件、运行框架、软件版本、温度和上下文变化；其“通常误差在 15% 内”等说法属于项目方陈述。型号、参数、可售配置和价格未逐项向 Apple 或模型发布方独立核实。",
+        "官网价格标注采用特定日期、地区与基础存储配置，不是实时商家报价；不应把显示的低价配置直接视为购买建议。",
+        "作者称其为可完全离线的 PWA 且无追踪；本轮未验证离线缓存或进行隐私审计。页面 FAQ 说明常规计算在浏览器完成，而 Save／Share 会发送信息，本轮没有操作这些按钮。",
+        "HN 核查时 descendants 为 0 且无 kids；没有作者评论可追加核验。publishedAt 是 HN 分享时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49970586"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49970586.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://simulkit.com/en/mac-local-llm"
+        },
+        {
+          "type": "official_site",
+          "url": "https://simulkit.com/en/mac-local-llm.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://simulkit.com/en/mac-local-llm/6MwixMWu8m"
+        },
+        {
+          "type": "official_site",
+          "url": "https://simulkit.com/en/mac-local-llm/6MwixMWu8m.md"
+        }
+      ],
+      "tags": [
+        "网页工具",
+        "本地大模型",
+        "Mac",
+        "性能估算",
+        "硬件比较",
+        "PWA"
+      ]
+    },
+    {
+      "id": "hacker_news:49970495",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49970495",
+      "title": "Imaging Science：可调参数的灰度图像滤波与变换实验网页",
+      "url": "https://voranto.nat.selfnet.de/imaging/",
+      "canonicalUrl": "https://voranto.nat.selfnet.de/imaging/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49970495",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970495",
+      "publishedAt": "2026-10-05T20:49:10Z",
+      "discoveredAt": "2026-10-05T21:49:31Z",
+      "audience": "学习成像科学、图像处理或计算机视觉的学生，以及希望直观看到滤波、变换和噪声影响的自学者；作者明确以自己的大学课程为项目背景。",
+      "what": "提供在线演示和公开源码的图像处理学习网页。README 与前后端源码说明，可在画布中导入图像、添加图形或手绘，调节参数观察 Canny 边缘检测、角点检测、形态学处理、去噪、高低通滤波、FFT／DCT／小波变换及噪声模型等操作，并查看直方图、均值和方差。前端使用 Vue 与 Fabric.js，后端用 FastAPI 执行数值运算；仅处理灰度图。官方 README 链接的在线演示首页及其实际部署 JavaScript 包均可公开获取。",
+      "why": "作者 Voranto 在 HN 正文明确说，自己作为大学生对成像科学、图像处理和计算机视觉产生兴趣，却很难想象课程中的变换与滤波器究竟怎样工作，也没找到能模拟这些滤波器的合适工具，于是做了这个网站来展示课堂所学的大部分变换、滤波器和噪声模型，并希望获得反馈。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49970495",
+          "https://github.com/Voranto/Imaging-Science-Project"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已通过只读 HTTPS 读取 HN 原帖与官方 Firebase 元数据、GitHub 仓库页面和 API、README、TODO、前后端关键源码，以及 README 指向的在线演示 HTML 和实际部署的 JavaScript 包，均返回 HTTP 200。确认仓库是前后端网页应用，部署包使用 /imaging/api，滤波源码会把灰度像素数组发往后端。本轮未在浏览器运行画布、调用计算接口或上传图片，未独立验证算法结果、数值精度及后端可用性，也未登录或安装。",
+        "checkedAt": "2026-10-05T21:49:31Z"
+      },
+      "caveats": [
+        "作者明确标注项目和 UI 尚未完成，预计存在较多问题；仓库 TODO 另记小波变换有轻微伪影，以及生产环境与开发环境的前后端行为不同。本轮未复现或判定这些问题是否影响某个具体操作。",
+        "仅支持灰度图，不是完整的彩色图像处理工作流。README 所述自定义 32 位像素缓冲区用于减轻量化与画布抗锯齿影响，不能据此保证所有算法精度；导入原本只有 8 位精度的图像不会凭空增加细节。",
+        "滤波与变换依赖服务器计算；源码中滤波操作会上传画布灰度像素数据，在线部署包指向同站 /imaging/api，不能视为纯本地、离线或不传输图片内容的工具。本轮未审计服务端数据保存和删除方式，不宜上传敏感图像。",
+        "仓库可公开阅读且提供本地部署说明，但核查到的仓库文件列表未见 LICENSE，GitHub API 的 license 也为空，不能据此宣称具备明确开源许可。在线演示只核验了页面与脚本可达，尚未确认实际交互和计算成功。",
+        "核查时 HN 官方 API 的 descendants 为 0 且无 kids，原帖页面也未见评论；publishedAt 是 HN 分享时间，不代表项目首次开发或上线日期。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49970495"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49970495.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Voranto/Imaging-Science-Project"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Voranto/Imaging-Science-Project/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Voranto/Imaging-Science-Project/blob/main/TODO"
+        },
+        {
+          "type": "official_site",
+          "url": "https://voranto.nat.selfnet.de/imaging/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://voranto.nat.selfnet.de/imaging/assets/index-CQ9L7eHT.js"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Voranto/Imaging-Science-Project/blob/main/ImagingScience/src/composables/filters/Filter.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Voranto/Imaging-Science-Project/blob/main/ImagingScience/src/composables/transform/FFT.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Voranto/Imaging-Science-Project/blob/main/src/project/api.py"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://api.github.com/repos/Voranto/Imaging-Science-Project"
+        }
+      ],
+      "tags": [
+        "图像处理",
+        "成像科学",
+        "交互学习",
+        "滤波器",
+        "计算机视觉"
+      ]
+    },
     {
       "id": "hacker_news:49970017",
       "provider": "hacker_news",
