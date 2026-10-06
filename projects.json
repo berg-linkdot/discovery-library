@@ -1,9 +1,236 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T19:50:43Z",
-  "count": 195,
+  "updatedAt": "2026-10-06T20:53:37Z",
+  "count": 198,
   "projects": [
+    {
+      "id": "hacker_news:49983573",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49983573",
+      "title": "SecretGate",
+      "url": "https://personal.secretgate.site",
+      "canonicalUrl": "https://personal.secretgate.site/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49983573",
+      "hnUrl": "https://news.ycombinator.com/item?id=49983573",
+      "publishedAt": "2026-10-06T20:24:17Z",
+      "discoveredAt": "2026-10-06T20:53:37Z",
+      "what": "可自托管的匿名留言收件箱。用户创建收件链接并分享，访客无需注册即可留言，收件人用自己的密钥在浏览器内解密查看。官方提供个人版网页演示，页面还列出恢复码、消息到期删除、长期不活跃收件箱清理，以及将留言制作成分享图片的功能。官网说明后端使用原生 PHP 8、MySQL 和 Redis。",
+      "audience": "想向粉丝或社区收集匿名反馈的创作者、社区管理者，以及希望为客户部署独立留言服务的开发者和小型团队。",
+      "why": "在所核对的可读资料中，作者未说明个人创作契机。可读 HN 内容只有标题，API 中唯一的作者评论已被标记且正文不可见。官网把产品目标解释为降低留言者对身份暴露的顾虑，并通过浏览器端加密减少对托管服务器保密性的依赖；这属于官方产品目标。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49983573",
+          "https://hacker-news.firebaseio.com/v0/item/49983583.json",
+          "https://secretgate.site"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖和官方 API 的全部返回评论，核对官网、个人演示 HTML、隐私政策和条款。演示 HTML 包含默认隐藏的发送、收件箱和恢复视图，不能据此当作成功运行。公开前端代码显示 AES-256-GCM 消息加密、RSA-OAEP 密钥包装及 PBKDF2 私钥保护。本轮仅作静态只读核查，未创建收件箱、发送消息、完成验证码、恢复数据、安装服务或审计完整系统。",
+        "checkedAt": "2026-10-06T20:53:37Z"
+      },
+      "caveats": [
+        "端到端加密是官方主张；公开前端代码提供了浏览器端加密的实现线索，但本次未验证实际请求、服务器行为、密钥分发与完整攻击模型，不能据此背书“绝对匿名”或“无法破解”。",
+        "隐私政策说明服务器仍保存时间、收件箱公钥、派生认证信息与删除设置；安全限流使用短期加盐 IP 哈希计数。主机和 Cloudflare 可能保留访问日志，页面也使用 Cloudflare Turnstile 与 Google Fonts，不能把无需注册理解为没有网络元数据。",
+        "演示页面提供创建、恢复与发送入口，但创建和发送需要 Turnstile；本轮未操作这些流程，自动删除、恢复与分享图片等行为均未实测。",
+        "收件人需要妥善保管 Secret Code 和恢复码。隐私政策提醒，启用“记住此设备”后，能访问该浏览器配置的人也能读取收件箱，不宜用于共享设备。",
+        "官网通过许可方式提供完整源码并要求自行部署 PHP、MySQL 和 Redis；所核对官方页面未链接可验证的公开源码仓库，本次未确认许可全文或部署可复现性，因此不标注为开源。",
+        "HN 发帖账号 sasiru-mindaka 的真实身份及其与站点运营者的关系未独立核验；API 中唯一的作者评论为 dead/flagged，正文无法核查。来源帖时间是 2026-10-06 的 HN 发帖时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49983573"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49983573.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49983583.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://personal.secretgate.site"
+        },
+        {
+          "type": "official_site",
+          "url": "https://secretgate.site"
+        },
+        {
+          "type": "official_site",
+          "url": "https://personal.secretgate.site/privacy.php"
+        },
+        {
+          "type": "official_site",
+          "url": "https://personal.secretgate.site/terms.php"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "匿名反馈",
+        "网页工具",
+        "浏览器加密",
+        "隐私"
+      ]
+    },
+    {
+      "id": "hacker_news:49983378",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49983378",
+      "title": "DevPause",
+      "url": "https://devpause.com/",
+      "canonicalUrl": "https://devpause.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49983378",
+      "hnUrl": "https://news.ycombinator.com/item?id=49983378",
+      "publishedAt": "2026-10-06T20:10:18Z",
+      "discoveredAt": "2026-10-06T20:53:37Z",
+      "what": "可在浏览器探索程序生成雕塑与发光粒子世界的互动艺术网站。官网的漂流图谱列出 48 类形态，独立工作室提供 24 个可调整的起始雕塑；可拖动、旋转和散开形体，搭配随动作变化的生成音乐。页面还提供文字生成形态、专注与呼吸引导、收藏和图像导出等入口，视觉探索无需付费。",
+      "audience": "想在工作间隙短暂欣赏互动视觉与声音的人，以及对程序化艺术、数学形态和浏览器图形感兴趣的设计师、开发者与创作者。",
+      "why": "作者未说明个人创作动机。核查时 HN 帖仅有标题与链接，没有正文或作者评论；官网将项目定位为让人进行小小探索、亲手改变雕塑并获得短暂停顿的浏览器空间，这是产品目标，不能当作作者亲历故事或已证明的减压效果。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49983378",
+          "https://devpause.com/about",
+          "https://devpause.com/press"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖和官方 API（核查时无评论），核对官网首页、雕塑图谱、工作室、About、隐私、Press 与 World Pass 页面。确认公开网页包含画布及形态、声音、AI、收藏等界面入口；本次只读页面，未运行或操作 WebGL 演示，未输入姓名或描述、提交表单、登录、安装、购买或联系作者。",
+        "checkedAt": "2026-10-06T20:53:37Z"
+      },
+      "caveats": [
+        "互动世界需要 JavaScript；HN 标题称使用原生 WebGL2。本次未验证实际渲染、音频、移动设备性能、导出或跨浏览器兼容性。",
+        "官网表示视觉探索免费，World Pass 标价一次性 29 美元，包含部分额外会话、档案及录制/导出能力；About 页同时称正式购买仍在准备。页面各功能数量与付费描述不完全一致，实际可用范围、税费与结账状态未验证。",
+        "AI 并非一概离线：隐私页称浏览器 AI 在支持且启用时本机运行，本地规则引导不上传描述；选择 Cloudflare AI 并提交时，会发送描述与场景设置给 Cloudflare，并受每日请求预算限制。",
+        "不要求具名账户不等于零服务器数据：官方隐私页说明匿名会话 Cookie 最长保留 180 天，收藏与部分会话信息会同步，另有粗粒度运行诊断；私人日记称留在本机。本次未审计这些隐私承诺。",
+        "官网明确称未把产品作为治疗或提高生产力的干预进行评估；首页有关“重置心情”的表述属于宣传，不能视为经验证的健康或效率效果。",
+        "HN 发帖账号为 realraghavgupta；官网未提供可核对的个人作者身份，本次未独立确认发帖人与站点运营者的关系。来源帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49983378"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49983378.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://devpause.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://devpause.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://devpause.com/sculptures"
+        },
+        {
+          "type": "official_site",
+          "url": "https://devpause.com/studio"
+        },
+        {
+          "type": "official_site",
+          "url": "https://devpause.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://devpause.com/press"
+        },
+        {
+          "type": "official_site",
+          "url": "https://devpause.com/pass"
+        }
+      ],
+      "tags": [
+        "互动艺术",
+        "程序生成",
+        "WebGL",
+        "浏览器体验",
+        "生成音乐"
+      ]
+    },
+    {
+      "id": "hacker_news:49983275",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49983275",
+      "title": "SRA RiskGate Demo",
+      "url": "https://huggingface.co/spaces/sriram1983007/sra-riskgate-demo",
+      "canonicalUrl": "https://huggingface.co/spaces/sriram1983007/sra-riskgate-demo",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49983275",
+      "hnUrl": "https://news.ycombinator.com/item?id=49983275",
+      "publishedAt": "2026-10-06T20:00:00Z",
+      "discoveredAt": "2026-10-06T20:53:37Z",
+      "what": "稳定币支付风险判断与付款争议处理的公开研究演示。网页允许选择合成测试场景、查看或编辑付款上下文与检查结果，再调用基于 Qwen3 微调的 4B 模型，输出批准、暂缓或拒绝及相关原因；争议场景考虑链上结算完成后不能直接撤销的边界。稳定币在这里指 USDC 等区块链代币，页面展示的是模拟签名与证明数据，不是实际转账页面。",
+      "audience": "研究支付风控、链上智能体、模型结构化输出和对抗测试的开发者与研究人员。",
+      "why": "作者在 HN 只说自己为稳定币风险决策引擎制作了这个模型，未说明个人创作契机。官方模型资料把目标描述为在付款前结合规则与核验结果把关，并在付款后提出符合结算状态的争议处理建议；这属于产品目标，不能据此推断已有客户需求。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49983275",
+          "https://huggingface.co/sriram1983007/SRA-RiskGate-4B"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API（核查时没有评论），核对 Hugging Face Space、模型与数据集说明和 Gradio 应用源码，并在浏览器观察到默认测试场景、模型输入、运行按钮及研究免责声明。源码读取 benchmark 与 sft 的 test split。本次未提交模型输入、启动推理、连接钱包、执行支付或复现基准。",
+        "checkedAt": "2026-10-06T20:53:37Z"
+      },
+      "caveats": [
+        "标题的约 99.5% 准确率来自作者自报的合成数据基准，不是对真实资金、合规或未知攻击的可靠性保证。本次未独立复现；作者公开帖子与模型卡在测试样本数及若干安全指标上存在不同表述，应核对所用版本。",
+        "当前模型卡明确承认约一成注入测试未被标记，争议退款金额、目标和幂等键全部正确的比例约为 66%；不能让模型输出单独触发不可逆支付或退款，实际应用仍需确定性验证和人工审核。",
+        "模型依赖外部签名核验、制裁筛查等输入，并要求指定提示格式与解码设置；网页说明不是实际制裁筛查或法律意见的替代品。公开演示部署在 Hugging Face ZeroGPU，运行时可受共享资源与队列限制。",
+        "HN 发帖账号与 Hugging Face 项目账号均为 sriram1983007，官网资料署名 Sriram Ramakrishnan；身份关联依据公开账号及自述，未作实名核验。来源帖时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49983275"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49983275.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/spaces/sriram1983007/sra-riskgate-demo"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/sriram1983007/SRA-RiskGate-4B"
+        },
+        {
+          "type": "repository",
+          "url": "https://huggingface.co/spaces/sriram1983007/sra-riskgate-demo/blob/main/app.py"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/datasets/sriram1983007/sra-stablecoin-risk-bench"
+        },
+        {
+          "type": "discussion",
+          "url": "https://huggingface.co/posts/sriram1983007/957859997324494"
+        }
+      ],
+      "tags": [
+        "网页演示",
+        "AI",
+        "支付风控",
+        "合成数据",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49983013",
       "provider": "hacker_news",
