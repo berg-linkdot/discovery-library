@@ -1,9 +1,210 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T21:46:51Z",
-  "count": 200,
+  "updatedAt": "2026-10-06T22:50:44Z",
+  "count": 203,
   "projects": [
+    {
+      "id": "hacker_news:49985077",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49985077",
+      "title": "Forte：QDB 多栏阅读界面",
+      "url": "https://qdb.us/forte/",
+      "canonicalUrl": "https://qdb.us/forte/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49985077",
+      "hnUrl": "https://news.ycombinator.com/item?id=49985077",
+      "publishedAt": "2026-10-06T22:31:35Z",
+      "discoveredAt": "2026-10-06T22:50:44Z",
+      "audience": "喜欢 IRC 聊天语录、复古桌面软件界面，或想以多栏方式浏览 QDB 内容的读者。",
+      "what": "为 QDB 语录网站提供的新闻组阅读器风格网页界面。页面把标签、主题列表与内容预览放在多栏区域，主题列表列出标题、作者、日期、回复数和分数，并提供排序、前后切换及发帖入口。适合集中浏览历史聊天摘录与站内讨论。",
+      "why": "作者未说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49985077",
+          "https://qdb.us/forte/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取 HN 原帖与官方 API，核查时没有评论；核对 QDB 首页、Forte 页面及公开阅读器脚本。在云浏览器打开后，页面首次加载崩溃，重载恢复并显示 14,884 个主题与 7 个标签；只读点选一条站点规则主题后，下方成功显示完整内容预览，再选择置顶标签，列表筛选为 1 条主题且预览正常。仅验证了主题选择、预览与一次标签筛选，未登录、发帖、回复、投票或提交表单。",
+        "checkedAt": "2026-10-06T22:50:44Z"
+      },
+      "caveats": [
+        "云浏览器首次加载出现页面崩溃提示（错误码 9），重载后恢复；原因未确定，本次没有验证长期稳定性、移动端表现或大列表性能。",
+        "这是 QDB 网站的替代阅读界面，未发现可以订阅任意新闻源或导入 RSS 的公开说明。",
+        "页面包含发帖、回复与投票相关功能；本次未登录、发帖、回复、投票或提交任何表单。",
+        "站内历史聊天摘录含粗俗、成人或冒犯性文字，内容由用户贡献，不适合所有读者。",
+        "HN 原帖使用 HTTP 链接，该请求在本次抓取中超时；相同路径的 HTTPS 页面成功返回，因此收录 HTTPS 入口。",
+        "HN 发帖账号为 forgotmypw17，本次未独立核实该账号与网站作者真实身份的对应关系。来源帖时间为 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49985077"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49985077.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://qdb.us/forte/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://qdb.us/"
+        }
+      ],
+      "tags": [
+        "语录网站",
+        "复古界面",
+        "多栏阅读",
+        "网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49985019",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49985019",
+      "title": "Vokalu Typing Test（配套网页工具）",
+      "url": "https://vokalu.com/typing-test/",
+      "canonicalUrl": "https://vokalu.com/typing-test/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49985019",
+      "hnUrl": "https://news.ycombinator.com/item?id=49985019",
+      "publishedAt": "2026-10-06T22:26:38Z",
+      "discoveredAt": "2026-10-06T22:50:44Z",
+      "what": "Vokalu 官网附带的免费浏览器打字速度测试，提供 50 段含大小写、数字与标点的英语练习。开始输入后计时，最多测试 60 秒，显示每分钟字数和准确率；完成后可调整字数与假设说话速度，查看打字和说话耗时的估算比较。另有自行标记完成的朗读计时环节。HN 原帖介绍的主产品是桌面语音输入应用，本条收录的是其配套网页工具。",
+      "audience": "想练习英语键盘输入、了解当前打字速度，或粗略比较打字与朗读耗时的人。",
+      "why": "作者未说明这项配套网页打字测试的独立创作动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49985019",
+          "https://news.ycombinator.com/item?id=49985020",
+          "https://vokalu.com/typing-test/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 及作者评论，核对 Vokalu 官网、打字测试页面与其公开脚本。页面提供输入框、段落选择、计时及成绩区域；脚本包含输入事件、60 秒计时、字数与准确率计算、完成和重试逻辑。未交互输入、实测成绩准确性、启用麦克风或测试朗读功能。",
+        "checkedAt": "2026-10-06T22:50:44Z"
+      },
+      "caveats": [
+        "这是桌面语音输入产品的配套网页测试，不能在网页中体验 Vokalu 的语音转写能力；桌面应用需要另行下载安装，本次未安装、登录或测试。",
+        "测试使用英语段落，依赖 JavaScript。每分钟字数按五个字符折算一个标准词，并只计当前位置匹配的字符；准确率累计输入错误，即使后来删除或纠正也会影响分数。它是练习分数，不是认证测评。",
+        "说话耗时按选择的速度加处理时间估算；扩大比较字数时，打字耗时也按本次速度推算。页面明确说明这不是实测的 Vokalu 处理结果，停顿、纠错和编辑可能增加时间。",
+        "可选朗读环节会请求麦克风权限，由用户自行标记读完，不检查实际朗读内容，也不测量转写或编辑耗时。页面宣称音频不保存、不上传，本次未独立审计其隐私行为。",
+        "来源时间是 HN 主产品帖的提交时间，不代表这项配套网页工具的首次上线时间。",
+        "HN 发帖账号为 whatisofdsk，作者评论使用同一账号；本次未独立核实其真实身份。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49985019"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49985019.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49985020"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vokalu.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vokalu.com/typing-test/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vokalu.com/_astro/typing-test.astro_astro_type_script_index_0_lang.w2Bz5WiE.js"
+        }
+      ],
+      "tags": [
+        "打字练习",
+        "速度测试",
+        "浏览器工具",
+        "英语"
+      ]
+    },
+    {
+      "id": "hacker_news:49984591",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49984591",
+      "title": "Solus",
+      "url": "https://www.solus.so/",
+      "canonicalUrl": "https://www.solus.so/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49984591",
+      "hnUrl": "https://news.ycombinator.com/item?id=49984591",
+      "publishedAt": "2026-10-06T21:47:18Z",
+      "discoveredAt": "2026-10-06T22:50:44Z",
+      "audience": "希望把一个新主题拆成短课，利用零散时间自学并通过练习巩固知识的人。",
+      "what": "把学习主题组织成短课程、短课与练习的人工智能学习网站。官网展示主题学习地图与神经网络等示例；隐私政策说明可根据输入的主题、上传的文档或视频链接生成课程、测验和配图，并保存学习进度。",
+      "why": "作者未说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49984591",
+          "https://www.solus.so/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 及唯一一条评论，未见作者说明创作动机。已核对官网首页、定价页与隐私政策；只读访问课程入口后进入登录页。确认产品定位与公开说明，未使用登录后的课程功能。",
+        "checkedAt": "2026-10-06T22:50:44Z"
+      },
+      "caveats": [
+        "首页的开始使用按钮指向注册页，课程入口会跳转登录页。本次未注册、登录、生成课程、上传资料或完成测验，无法核实课程准确性、个性化程度与学习效果。",
+        "官网宣传可以免费开始，但本次公开页面没有明确免费额度；定价页列出付费方案和每月 10 门课程，具体权益应以使用时页面为准。",
+        "隐私政策说明，课程主题与附加材料可能交由人工智能模型服务商处理，账户与课程资料由基础设施服务商保存；本次没有审计其隐私或安全实现。",
+        "首页展示的社区课程卡片未提供本次可直接阅读的完整课程内容，不能把展示画面当成已实测课程。",
+        "HN 发帖账号为 allybahaei，本次未独立核实该账号与产品作者真实身份的对应关系。来源帖时间为 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49984591"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49984591.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.solus.so/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49984664.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.solus.so/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.solus.so/courses"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.solus.so/privacy"
+        }
+      ],
+      "tags": [
+        "学习工具",
+        "人工智能",
+        "短课程",
+        "自学",
+        "网页应用"
+      ]
+    },
     {
       "id": "hacker_news:49983919",
       "provider": "hacker_news",
