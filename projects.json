@@ -1,9 +1,484 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T18:49:59Z",
-  "count": 187,
+  "updatedAt": "2026-10-06T19:50:43Z",
+  "count": 195,
   "projects": [
+    {
+      "id": "hacker_news:49983013",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49983013",
+      "title": "GridCore",
+      "url": "https://github.com/w512/GridCore",
+      "canonicalUrl": "https://github.com/w512/GridCore",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49983013",
+      "hnUrl": "https://news.ycombinator.com/item?id=49983013",
+      "publishedAt": "2026-10-06T19:39:08Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "audience": "在一台 NVIDIA GPU 或 Apple Silicon Mac 上同时跑本地聊天、编程代理、文档索引和截图分析，希望观察显存、队列与模型竞争情况的开发者及本地 AI 玩家。",
+      "what": "用于单机本地大模型的开源调度器，附带自托管、只读的浏览器监控面板。它位于应用和 llama.cpp 之间，接受 OpenAI 兼容请求，按交互、后台、批处理三类工作排队，估算并实测模型内存占用，管理模型加载、驻留和淘汰。服务启动后浏览器访问本机地址即可打开 /admin/ui，查看内存按模型分配、最近十分钟内存／队列／GPU 利用率趋势、驻留模型、运行与等待任务、等待原因和调度事件。",
+      "why": "作者 Nick Blokhin 在自己的技术说明中自述，一块 16GB RTX 4060 Ti 同时被聊天、编程代理、文档索引器和截图模型使用，各自独立的 llama-server 互不了解，会争抢计算与显存，内存不够时还会崩溃。他希望调度器知道正在等回复的用户比后台索引更需要及时响应，因此从六月开始编写 GridCore，并在真实 NVIDIA 与 Apple Silicon 硬件上修正模拟测试未暴露的内存记账和调度问题。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://blokhin.us/notes/gridcore-gpu-scheduler/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "读取 HN 原帖及官方 Firebase API，核查时没有可读作者评论，两条评论均为 dead／flagged 占位（其中一条来自作者），没有可读正文；核对作者原文、官方 README、仓库树及实际嵌入式 HTML/Go 面板源码。确认面板轮询 /admin/state、展示内存与队列图表，根路径会跳转到 /admin/ui；本次没有下载安装、运行模拟或真实 GPU 负载，也未把演示视频当作实测。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "这是本机自托管的调度服务与监控网页，不是公开托管的在线推理或聊天服务；需要自行配置 llama.cpp 和模型。",
+        "当前官方范围是单 GPU、NVIDIA CUDA 或 Apple Silicon Metal；README 明确列出 AMD、多 GPU、vLLM／MLX、云端回退和打断正在生成的聊天尚未支持。",
+        "当前没有身份认证，官方要求监听地址保持 127.0.0.1；除只读面板外还存在管理 API，不应直接暴露到公网。",
+        "面板用于观察，不提供网页修改配置或操作模型的控制按钮。无 GPU 的模拟模式只返回预设回复，不能用于证明真实推理速度。",
+        "文中的延迟、显存估算误差及无失败测试结果均为作者在指定硬件上的测量，本次未复现，不应视作任意机器上的性能保证。",
+        "作者网站署名与其链接的 w512/GridCore 仓库信息一致，HN 发帖账号也为 w512；这是公开出处交叉对应，并非独立身份验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49983013"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49983013.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://blokhin.us/notes/gridcore-gpu-scheduler/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/w512/GridCore"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/w512/GridCore/HEAD/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/w512/GridCore/master/internal/api/ui/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/w512/GridCore/master/internal/api/ui.go"
+        }
+      ],
+      "tags": [
+        "本地大模型",
+        "GPU",
+        "自托管",
+        "监控面板",
+        "开源",
+        "llama.cpp"
+      ]
+    },
+    {
+      "id": "hacker_news:49982997",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982997",
+      "title": "0sql（含自托管聊天仪表盘示例）",
+      "url": "https://0sql.io/",
+      "canonicalUrl": "https://0sql.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982997",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982997",
+      "publishedAt": "2026-10-06T19:36:55Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "audience": "构建嵌入式分析、AI 数据问答和内部 BI 工具的开发者，以及希望统一指标定义、关联关系和行级权限的数据平台团队；官方仪表盘示例适合有 Node.js 和 API 配置能力的人自行部署。",
+      "what": "以语义模型把结构化查询规格转换成 SQL 的托管服务，并提供可自托管的开源聊天式网页仪表盘。示例使用 Next.js、合成客服数据和 DuckDB：用户用自然语言提问，大模型生成查询规格，0sql 规划 SQL，应用执行后绘图；可把结果固定成仪表盘卡片，并查看规格、SQL 和调用耗时。示例还可切换演示用户，展示同一查询如何按模型里的行级权限生成不同 SQL。",
+      "why": "作者在 HN 明确说，他们把另一款应用 Strata.do 的语义层抽出，做成独立服务，让其他人也能构建带有确定性查询层的数据应用。官方示例进一步说明其设计目标：由大模型选择指标和维度，让语义层处理关联、粒度、SQL 方言与权限，减少每个应用自行拼接 SQL 的负担。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49982997",
+          "https://0sql.io/docs/examples/chat-dashboard/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖与官方 API（核查时无评论），核对官网、官方教程、GitHub README、项目依赖以及页面、聊天、仪表盘和查询执行源码。仓库确有聊天与图表网页界面，并提供在 localhost:3000 启动的步骤；本次未安装或运行项目、创建账户、取得密钥或执行查询，不能据此确认端到端可用性、性能或权限效果。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "可自托管的是聊天仪表盘示例；0sql 语义服务当前使用托管 API。作者在 HN 表示该服务的自托管版本尚待推出，不能把整个系统描述为完全自托管。",
+        "运行示例需要 Node.js 22 或更新版本、zsql CLI、0sql 账户及部署／查询密钥，以及 Anthropic 或 OpenAI API 密钥；需要自行准备应用环境，模型调用可能收费，官网截图不是免配置的在线交互试玩。",
+        "官方关于不连接仓库、不接收实际数据的说明针对 0sql 规划服务。聊天示例源码会把查询结果的前 12 行作为工具结果交回所选大模型，因此接入真实数据前仍需评估向模型服务商传输数据的范围。",
+        "示例的用户切换器只是模拟身份，聊天记录暂存在内存、卡片保存在 JSON 文件；官方要求生产部署另接认证会话、按用户隔离的存储和请求限流。不要直接当作经过安全验证的生产分析系统。",
+        "确定性、正确 SQL、微秒级规划及行级权限有效性均为官方主张；本次只核对资料与源码，未做独立性能、安全或结果正确性测试。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982997"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982997.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://0sql.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://0sql.io/docs/examples/chat-dashboard/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://0sql.io/docs/examples/chat-dashboard/dashboard/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/stratasite/0sql-dashboard-demo"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/stratasite/0sql-dashboard-demo/blob/main/src/lib/tools.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/stratasite/0sql-dashboard-demo/blob/main/src/app/page.tsx"
+        }
+      ],
+      "tags": [
+        "数据分析",
+        "聊天仪表盘",
+        "语义层",
+        "SQL",
+        "开发者工具",
+        "自托管示例"
+      ]
+    },
+    {
+      "id": "hacker_news:49982974",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982974",
+      "title": "attention awareness · Profile builder",
+      "url": "https://attentionawareness.com/build",
+      "canonicalUrl": "https://attentionawareness.com/build",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982974",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982974",
+      "publishedAt": "2026-10-06T19:35:23Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "what": "为 iPhone 生成限制配置文件的免费网页工具：选择要屏蔽的应用和网站、网站例外、成人内容过滤与试用模式，再下载签名配置文件。它属于 attention awareness 项目，与 Mac 设置应用及浏览器扩展配套；网站还提供手动设置指南。网页能准备配置，但要真正隐藏 iPhone 应用，设备须已处于受监督模式并安装该配置。",
+      "audience": "想减少 iPhone 上成瘾式信息流、同时保留地图、银行等必要功能，且愿意理解设备监督与配置文件限制的使用者。",
+      "why": "作者 Mert Duzgun 在 HN 说，读到 Stepan Parunashvili 的 iPhone Dumbphone 文章改变了自己的生活，希望项目至少也能帮助另一个人。官网进一步解释：他实践后遇到 App Store 被关、银行应用及餐馆二维码受影响，于是先写只屏蔽成瘾信息流的指南；发现步骤太长、又需清空手机后，再制作更容易使用的 Mac 应用，并公开配套配置生成器。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49982974",
+          "https://attentionawareness.com/build"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖与官方 API（核查时无评论），核对官网首页、实际 Profile builder 页面、官方仓库 README 和配置签名说明。网页可见应用列表、网站规则、可移除试用模式、永久限制确认及下载入口；未提交选择、生成或下载配置、安装软件、连接设备、改变监督状态或实测屏蔽效果。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "配置文件会改变设备限制。默认锁定配置不能直接在 iPhone 上移除；官网说明通常需 Apple Configurator 或抹掉设备等方式，试用模式才可在设置里移除。多份配置会叠加，新增配置不能放松旧限制。",
+        "网页不负责让普通 iPhone 自动进入受监督模式；官方手动 Apple Configurator 路径会先清空手机。Mac 应用宣称可在部分系统版本免抹除完成，但本次没有验证兼容性或数据安全，操作前应自行备份。",
+        "生成签名文件需要把配置提交到项目服务器。作者称屏蔽列表不存储、不追踪，本次未核实实际网络、日志与隐私行为，也未审计签名证书或配置安全。",
+        "免费、效果与屏幕使用时间变化均来自作者或官方描述，不代表对所有用户有效；HN 账号 mertduzgun 与官网署名的关系根据公开发帖内容判断。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982974"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982974.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://attentionawareness.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://attentionawareness.com/build"
+        },
+        {
+          "type": "official_site",
+          "url": "https://attentionawareness.com/guide"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mertbuilds/attentionawareness"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mertbuilds/attentionawareness/blob/main/docs/signing.md"
+        }
+      ],
+      "tags": [
+        "数字健康",
+        "iPhone",
+        "配置文件",
+        "网页工具",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49982822",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982822",
+      "title": "HieraticBench",
+      "url": "https://hieraticbench.vercel.app/",
+      "canonicalUrl": "https://hieraticbench.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982822",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982822",
+      "publishedAt": "2026-10-06T19:22:15Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "audience": "研究多模态模型、视觉文字识别和评测方法的 AI 开发者，以及关注古埃及僧侣体文字与数字人文学的研究者、学习者。",
+      "what": "围绕古埃及僧侣体（hieratic）手写文字的公开 AI 评测与资料网站，可直接浏览模型成绩、数据集图片、出处许可和评测方法。v0.1 收录 268 项：87 份僧侣体文献、29 份其他埃及文字对照、150 个单字符，以及同一句未公开译文文本的两种手写版本。任务逐层区分文字系统识别、字符读法、转写和翻译；另有开源评测程序供研究者自行运行。",
+      "why": "作者在 HN 以 amoursy 发帖，官网署名 Aly Moursy。他说自己痴迷埃及学，疫情期间想纹一句僧侣体文字，2022 年请牛津的埃及学者写出，再请另一位专家重绘。此后每逢新模型发布就拿这句话测试，发现模型连文字种类都常认错，于是把个人测试做成基准，希望寻找尚未饱和的评测问题，并推动 AI 真正读懂僧侣体。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49982822",
+          "https://hieraticbench.vercel.app/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖及官方 Firebase API（核查时无评论），核对官网首页、Dataset、Method 和官方仓库 README。公开页面确实提供榜单、分组图片目录、来源许可、提示词及评分规则；本次没有运行评测程序、调用模型 API，或独立验证古文字标签与模型成绩。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "这是公开结果与研究资料网站，不是可上传图片即时翻译僧侣体的在线工具；自行新增模型评测需要本地运行程序和提供模型服务凭据。",
+        "作者在 HN 主动说明自己没有评测经验，不能确定评分完全正确。所谓密封集实际只有同一句话的两种笔迹，Method 页面也承认还不足以构成有统计意义的结论。",
+        "榜单存在未运行和部分完成的任务，不同模型覆盖范围不同；密封句的转写与翻译未进行自动评分，首页“没有 AI 能读懂”的表述不应当作完整翻译能力的独立证据。",
+        "官方 Method 页称答案没有保存，Dataset 页却称字符、转写与译文私下保留，描述并不一致；本次无法核实隐藏答案及人工判定机制。",
+        "公开的著名文献图片可能出现在模型训练数据中，两张密封图目前为截图裁剪；本次成绩是项目方公开报告，未复现。HN 账号与官网署名的对应关系来自发布内容，未另行核验。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982822"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982822.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hieraticbench.vercel.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hieraticbench.vercel.app/dataset/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hieraticbench.vercel.app/method/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/alymoursy/hieraticbench"
+        }
+      ],
+      "tags": [
+        "AI 评测",
+        "多模态",
+        "古文字",
+        "埃及学",
+        "开放数据",
+        "研究资源"
+      ]
+    },
+    {
+      "id": "hacker_news:49982629",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982629",
+      "title": "Gretel",
+      "url": "https://github.com/Relic-a/Gretel",
+      "canonicalUrl": "https://github.com/Relic-a/Gretel",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982629",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982629",
+      "publishedAt": "2026-10-06T19:04:55Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "audience": "希望把学习、工作与娱乐等不同兴趣拆成独立 YouTube 推荐流、又不想为每种兴趣另建 Google 账号的用户；采用网页方式运行时需要具备本地部署能力。",
+      "what": "围绕不同主题创建独立 YouTube 推荐档案的开源工具，主要提供桌面安装包，同时明确支持自托管的 Next.js 网页界面。用户为每个档案设定主题和频道，程序通过 YT.js 搜索候选视频、扩展相关视频，再用语义嵌入过滤偏题内容；观看行为继续调整主题表示和推荐。界面还包括频道浏览、收藏、喜欢、历史记录与播放队列，数据主要保存在本机 SQLite。",
+      "why": "HN 发帖人 Ezap2 自述，YouTube 很擅长吸引自己的注意力，却把所有兴趣混到一个推荐流里，容易分心。他不想完全关闭推荐，而是想仅通过选择几个主题就创建独立兴趣档案，不必额外创建或关联 Google 账号，因此做了 Gretel。他也明确把它描述为仍较粗糙的 beta，并希望观察长期使用后推荐是否真能朝用户希望的方向收敛。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49982629"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "读取了 HN 原帖与官方 Firebase API，核查时没有评论；核对官方 README、隐私说明、package.json、实际 /app 路由及主界面和登录相关源码。README 明示可单独运行 web app；源码提供浏览器分支和本地 HTTP API，支持按自托管网页界面收录。未安装、启动、登录、输入 API key 或实测推荐与视频播放；没有验证一个公开托管的可直接使用版本。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "这是以本地桌面使用为主的 beta 项目；网页界面需要自行运行 Node.js 24 与项目依赖，不是点击链接即可使用的在线 SaaS。",
+        "托管嵌入服务涉及 Google／Supabase 登录或访问码，也支持自带 OpenRouter key；免费额度、费用及账号流程没有实测。",
+        "本地优先不等于完全离线：YouTube 接收相关请求，主题和部分视频文字会发往 OpenRouter 的嵌入服务；隐私说明列出 Supabase 认证、用量和缓存处理。",
+        "官方说明自带 API key 会以明文保存在本机设置文件；安装包目前未签名，推荐质量、平台兼容性及长期维护未验证。",
+        "创作动机来自 HN 发帖人的第一人称说明；本次没有独立核实 Ezap2 与 GitHub Relic-a 账号的身份对应。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982629"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982629.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Relic-a/Gretel"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Relic-a/Gretel/HEAD/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Relic-a/Gretel/HEAD/PRIVACY.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Relic-a/Gretel/HEAD/app/app/page.tsx"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Relic-a/Gretel/HEAD/app/components/use-gretel-auth.ts"
+        }
+      ],
+      "tags": [
+        "YouTube",
+        "推荐流",
+        "自托管",
+        "网页界面",
+        "开源",
+        "注意力管理"
+      ]
+    },
+    {
+      "id": "hacker_news:49982533",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982533",
+      "title": "Pratevenn",
+      "url": "https://github.com/UrukiApp/pratevenn",
+      "canonicalUrl": "https://github.com/UrukiApp/pratevenn",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982533",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982533",
+      "publishedAt": "2026-10-06T18:56:44Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "audience": "学习挪威语 Bokmål（书面挪威语，挪威语的两种官方书面规范之一）、希望私下练习口语与日常对话，且愿意在自己电脑上部署本地 AI 的学习者。",
+      "what": "开源、自托管的挪威语口语陪练，启动本地服务后用浏览器访问 localhost:8000。支持麦克风对话和文字输入，由本地语音识别、对话模型与语音合成串联回答；网页界面可调整语速、停顿等待时间和模型，保存或回看本机聊天，并提供语法／词汇建议与整段练习复盘。支持 CPU 和 NVIDIA GPU。",
+      "why": "官方 README 将目标表述为让挪威语学习者在自己的电脑上进行私密的 AI 对话练习，不依赖云账号，并在模型下载后离线使用。HN 原帖只有标题和仓库链接，核查时没有作者补充；没有找到创作者本人为何开始这个项目的经历，因此这里仅记录产品目标。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/UrukiApp/pratevenn"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖及官方 Firebase API（核查时无评论），核对官方仓库 README、文件树和 pratevenn/web/index.html。README 明确要求通过浏览器打开本地服务，页面源码含对话、设置、聊天历史与练习复盘控件，因此确认属于可自托管网页工具。未安装 Docker、下载模型、运行服务或测试音频。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "不是打开公网网址即可使用的托管服务：需自行安装 Docker／Compose、首次联网下载模型并启动本地服务。",
+        "官方推荐配有至少 8GB 显存的 NVIDIA GPU；CPU 也受支持，但本次未测资源占用、响应速度或普通电脑体验。",
+        "项目处于早期开发，README 提醒可能有错误及破坏性变更；界面明确说反馈可能不准确，尤其会受语音转写错误影响，且不评估发音。",
+        "离线和数据留在本机是官方设计声明，本次没有进行网络行为或隐私安全审计。HN 提交者 habedi0 与仓库维护者的对应关系未独立确认。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982533"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982533.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/UrukiApp/pratevenn"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/UrukiApp/pratevenn/blob/main/pratevenn/web/index.html"
+        }
+      ],
+      "tags": [
+        "语言学习",
+        "挪威语",
+        "口语练习",
+        "本地 AI",
+        "自托管",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49982366",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982366",
+      "title": "Send with Sam",
+      "url": "https://www.sendwithsam.com/",
+      "canonicalUrl": "https://www.sendwithsam.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982366",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982366",
+      "publishedAt": "2026-10-06T18:41:45Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "audience": "想给亲友写一封可保存的纸质信，却不知如何开头，或更习惯先口述再修改文字的人。",
+      "what": "以电影《她》（Her）的 OS1 为灵感的语音写信网页应用。用户向 AI 助手 Sam 讲述收信人、回忆和想表达的内容，在纸张式界面中共同修改信件，再选择打印并通过邮政寄出。公开页面提供麦克风入口、手动编辑信件和寄信入口；还写明验证邮箱后每天可获得 15 分钟语音时间。",
+      "why": "发帖者 Neddes 在 HN 自称开发者，明确说想做出《她》中的一小部分：像 Theodore 替人写信那样，让用户与 Sam 交谈、修改，再把信印出寄走。他特别提到花了很多心力还原电影的感觉和动画。官网也说明，希望帮助不知道如何开口的人把感受组织成自己的信。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49982366",
+          "https://www.sendwithsam.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖与官方 Firebase API，核查时无评论；读取官网公开页面及其前端资源，确认语音写信、文本编辑、地址与支付流程的界面结构。没有使用麦克风、验证邮箱、提交信件或地址，也没有下单；未实测语音效果、印刷或邮寄履约。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "语音使用需要麦克风权限；页面把每天 15 分钟语音时间与邮箱验证关联，未经验证的可用额度没有核实。",
+        "实体寄信涉及收件地址与支付；本次没有进入实际报价流程，因此价格、可投递地区、时效、退款政策和信件数据处理方式均未核实。",
+        "Neddes 的开发者身份依据其 HN 自述，未独立核验真实身份；本站是电影风格致敬项目，未发现与电影权利方合作的说明。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982366"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982366.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.sendwithsam.com/"
+        }
+      ],
+      "tags": [
+        "AI 写作",
+        "语音交互",
+        "纸质信件",
+        "邮寄",
+        "网页应用"
+      ]
+    },
     {
       "id": "hacker_news:49982299",
       "provider": "hacker_news",
@@ -1014,6 +1489,69 @@
         "循环检测",
         "开发者工具",
         "网页控制台"
+      ]
+    },
+    {
+      "id": "hacker_news:49980399",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980399",
+      "title": "Durable Actors / Terse",
+      "url": "https://demo.useterse.ai/",
+      "canonicalUrl": "https://demo.useterse.ai/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980399",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980399",
+      "publishedAt": "2026-10-06T15:58:19Z",
+      "discoveredAt": "2026-10-06T19:50:43Z",
+      "what": "开源持久化 Actor 运行时的公开网页演示：通过共享计数器展示状态读取、增减写入、延迟、在线活动和地区分布。底层项目让开发者以带持久状态和顺序执行语义的对象构建实时聊天、协作编辑与多代理应用，提供 TypeScript／Python 接入与完整网页示例，并可按官方文档自行部署运行时。",
+      "audience": "评估实时协作或状态型服务架构的开发者，以及希望观察持久化对象读写演示、研究 Cloudflare Durable Objects 替代方案的团队。",
+      "why": "发帖者 thomask1995 在 HN 说自己看好持久化对象的方向，但不满为了使用它而承受 Cloudflare 的厂商绑定，因此与 Olivier 一起做了开源 Durable Actors。他特别强调可配置 CPU、内存、数据驻留与空闲超时、可直接接入已有技术栈的类型安全客户端，以及默认 SQLite 持久化。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49980399"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖与官方 API（核查时无评论），核对官方 README、自托管文档、公开演示页面与其前端逻辑。确认页面存在计数器状态读写、WebSocket 连接及活动展示结构；没有实际连接演示会话、点击修改共享计数、部署服务或运行外部代码。本次不能确认实时后端响应或测量延迟。",
+        "checkedAt": "2026-10-06T19:50:43Z"
+      },
+      "caveats": [
+        "网页是底层开发框架的演示，不是开箱即用的聊天或文档协作产品；开发实际应用仍需写代码、配置基础设施。",
+        "自托管文档当前以 Google Cloud 的 GKE Sandbox、PostgreSQL 和 GCS 为支持路径，不能把“无厂商锁定”的宣传理解为已验证适配所有云平台。",
+        "未实测并发一致性、故障恢复、安全性或速度；页面初始读取只显示等待连接及空白数值，不能当作运行成功证据。",
+        "开发者身份及共同作者关系来自 HN 自述，未独立核验；源码可读并不等于经过安全审计。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980399"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980399.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.useterse.ai/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/TerseAI/durable-actors"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/TerseAI/durable-actors/blob/main/docs/self-hosting.md"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "实时协作",
+        "持久化状态",
+        "网页演示",
+        "开源",
+        "自托管"
       ]
     },
     {
