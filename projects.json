@@ -1,9 +1,155 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T06:49:32Z",
-  "count": 120,
+  "updatedAt": "2026-10-06T07:42:14Z",
+  "count": 122,
   "projects": [
+    {
+      "id": "hacker_news:49975380",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49975380",
+      "title": "SkillHub Local：跨 AI 编程工具与项目的本地管理面板",
+      "url": "https://github.com/mjalalimanesh/skillhub-local",
+      "canonicalUrl": "https://github.com/mjalalimanesh/skillhub-local",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49975380",
+      "hnUrl": "https://news.ycombinator.com/item?id=49975380",
+      "publishedAt": "2026-10-06T07:35:26Z",
+      "discoveredAt": "2026-10-06T07:40:46Z",
+      "audience": "同时使用 Claude Code、Codex、Cursor 等 AI 编程工具，且在多个代码项目间管理技能、指令和记忆文件的开发者；这一使用场景来自作者原帖与仓库说明。",
+      "what": "开源、本地运行的 Web 管理面板，安装启动后在 localhost:3742 用浏览器访问。仓库介绍它会扫描不同工具及项目中的技能、记忆、指令、插件和 MCP 配置，提供集中查看、文件编辑、技能复制或符号链接等功能，并区分全局与项目范围。按自托管 Web 应用收录。",
+      "why": "HN 发帖者 mjalalimanesh 自述同时使用多种 AI 编程工具、在多个目录下开发项目，难以判断技能、AGENTS.md 与 MCP 分别安装在哪里；他也遇到代理生成的记忆包含误导性指令，希望偶尔阅读和修改，因此制作了这个统一界面。发帖账号与仓库所有者同名，作者身份依据其原帖自述，未独立验证现实身份。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49975380",
+          "https://hacker-news.firebaseio.com/v0/item/49975380.json"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读核查实时 HN 原帖、官方 Firebase API、发布者公开资料及官方 GitHub 仓库 README。确认安装说明给出本地浏览器入口、React 前端与 Fastify 后端，以及集中管理功能说明；未安装、启动、读取本机代理文件、连接 MCP 或实际操作管理面板。",
+        "checkedAt": "2026-10-06T07:40:46Z"
+      },
+      "caveats": [
+        "需要本地安装并运行 Node.js 环境；仓库要求 Node.js 18+，技能操作依赖 skills CLI。此次核查未发现无需安装即可使用的公开在线演示。",
+        "所述扫描、编辑、跨工具复制和 MCP 发现能力来自仓库说明，未验证兼容性、运行稳定性或实际效果。",
+        "该工具能够读取和修改本地代理上下文及配置。README 称服务默认只绑定本机地址并使用令牌保护接口，但本次未进行安全审计；安装技能可能运行第三方代码，应另行评估来源与权限。",
+        "publishedAt 是本次 Show HN 发帖时间，不能据此确定产品首次上线日期；未核实付费用户、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49975380"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49975380.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/mjalalimanesh.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mjalalimanesh/skillhub-local"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mjalalimanesh/skillhub-local/blob/main/README.md"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "AI 编程",
+        "本地 Web 应用",
+        "自托管",
+        "技能管理",
+        "开源软件"
+      ]
+    },
+    {
+      "id": "hacker_news:49975125",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49975125",
+      "title": "YardSmart：本地建筑设备租赁市场",
+      "url": "https://yardsmart.io",
+      "canonicalUrl": "https://yardsmart.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49975125",
+      "hnUrl": "https://news.ycombinator.com/item?id=49975125",
+      "publishedAt": "2026-10-06T06:56:10Z",
+      "discoveredAt": "2026-10-06T07:42:14Z",
+      "audience": "需要为施工或其他项目租用附近设备的租客，以及希望出租闲置工具的设备所有者。官网分别介绍这两类用户；作者表示现阶段聚焦其曾经营建筑公司的美国得克萨斯州 El Paso 地区。",
+      "what": "建筑设备和工具租赁 Web 市场，可公开浏览设备、日租价格、地点及详情页。官网介绍按日期预订、计算报价、站内沟通和设备发布管理。本次公开搜索页加载出 7 条记录，包含梯子、搅拌机及 Bobcat s70；详情页提供日期选择和后续登录预订入口。",
+      "why": "HN 发帖者 oscar417 明确自述自己创建了 YardSmart：他曾经营建筑公司，认为大型租赁商价格高、查询可用设备的界面不便；Facebook Marketplace 虽有价格优势，却须等待卖家回复确认。周末深夜临时需要挖掘机的经历让他希望有类似 Uber/Airbnb 的工具租赁服务，因此开始制作。其真实姓名和经营经历未独立核实。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49975125"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查 HN 原帖、官方 Firebase API 与发布者资料；读取官网关于、使用说明、FAQ 和信任安全页，并在云端浏览器查看首页、公开搜索结果和 Bobcat s70 详情页。确认实用 Web 界面、设备条目及登录预订提示；未登录、选日期、提交表单、预订、发送消息或付款。",
+        "checkedAt": "2026-10-06T07:42:14Z"
+      },
+      "caveats": [
+        "作者称产品仍处早期。公开页面存在设备条目不等于库存真实、指定日期可租或交易已经完成；租赁成交量、真实需求及收入均未验证。",
+        "搜索页虽标注 El Paso 活动区域，7 条结果中仍包含 Austin 条目；当次地图底图显示 API KEY REQUIRED，地图呈现存在问题。",
+        "预订后续需要登录，本次未验证报价、付款、发布设备、消息、身份核验或纠纷处理能否完整运行。",
+        "抽查详情页显示“同意无保险租赁”的选项，未选择或接受；实际保险覆盖、额外费用与取消条款尚未核验。",
+        "HN 作者身份与过往经历仅据其自述，公开用户资料未提供进一步介绍。publishedAt 是官方 API 所示 Show HN 发帖时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49975125"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49975125.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/oscar417.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yardsmart.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yardsmart.io/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yardsmart.io/how-it-works"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yardsmart.io/faq"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yardsmart.io/trust-and-safety"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yardsmart.io/search"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yardsmart.io/listings/6a59c963e4e72530c93aac49"
+        }
+      ],
+      "tags": [
+        "设备租赁",
+        "本地市场",
+        "建筑工具",
+        "Web应用"
+      ]
+    },
     {
       "id": "hacker_news:49974836",
       "provider": "hacker_news",
