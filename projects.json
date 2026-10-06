@@ -1,9 +1,72 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T04:39:51Z",
-  "count": 119,
+  "updatedAt": "2026-10-06T06:49:32Z",
+  "count": 120,
   "projects": [
+    {
+      "id": "hacker_news:49974836",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49974836",
+      "title": "Screens：浏览器截图美化工具",
+      "url": "https://screens.click/",
+      "canonicalUrl": "https://screens.click/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49974836",
+      "hnUrl": "https://news.ycombinator.com/item?id=49974836",
+      "publishedAt": "2026-10-06T06:10:25Z",
+      "discoveredAt": "2026-10-06T06:49:32Z",
+      "audience": "需要为产品展示、教程或社交分享整理截图的开发者、设计师和内容创作者；这是依据截图美化功能归纳的适用人群。",
+      "what": "一个浏览器截图美化工具。首页提供拖入、粘贴或选择截图的入口，并介绍边框、渐变背景、阴影与 3D 倾斜效果。官网称免费使用、图像在浏览器中处理；配套 Chrome 扩展在本次核查时仍标记为待审核。",
+      "why": "作者未说明。本轮 HN 原帖没有正文或评论，发布者 bronco3767 的公开资料也没有身份或创作经历介绍。官网强调让截图更适合分享，但这是产品目标，不能据此推断作者的个人制作缘由或市场需求。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49974836",
+          "https://screens.click/",
+          "https://news.ycombinator.com/user?id=bronco3767"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查实时 HN 页面、官方 Firebase API 与发布者公开资料，并在云端浏览器查看官网首页、信息菜单及隐私页。确认公开截图输入入口和扩展待审核标记；未上传或粘贴图像、生成或导出作品、安装扩展、登录或提交表单。",
+        "checkedAt": "2026-10-06T06:49:32Z"
+      },
+      "caveats": [
+        "没有实际导入截图或操作编辑器，边框、渐变、阴影、3D 倾斜等能力来自首页说明，输出质量、导出格式与性能尚未验证。",
+        "官网称图像不会上传，但本次未进行网络流量或代码审计。隐私页同时说明网站使用 Google Analytics，设置 Cookie 并收集页面浏览、浏览器类型和大致位置等使用数据；另说明编辑器从 Google Fonts 加载字体。不能将本地图像处理理解为完全没有第三方请求或追踪。",
+        "Chrome 扩展入口标记为待审核，未取得可安装的商店链接，也未验证扩展捕获截图、权限或本地存储行为；隐私页对此的描述不等于已经实测。",
+        "未独立确认 HN 发布者与网站制作者的身份关系。publishedAt 是本次 Show HN 发帖时间，不代表网站或产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49974836"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49974836.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://news.ycombinator.com/user?id=bronco3767"
+        },
+        {
+          "type": "official_site",
+          "url": "https://screens.click/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://screens.click/privacy"
+        }
+      ],
+      "tags": [
+        "截图美化",
+        "图像编辑",
+        "浏览器工具",
+        "产品展示"
+      ]
+    },
     {
       "id": "hacker_news:49974089",
       "provider": "hacker_news",
