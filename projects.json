@@ -1,9 +1,760 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T12:43:39Z",
-  "count": 142,
+  "updatedAt": "2026-10-06T13:50:38Z",
+  "count": 153,
   "projects": [
+    {
+      "id": "hacker_news:49978267",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978267",
+      "title": "Kahawai",
+      "url": "https://kahawai.net/",
+      "canonicalUrl": "https://kahawai.net/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978267",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978267",
+      "publishedAt": "2026-10-06T13:36:33Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "拥有自己的电影、剧集、动画或音乐收藏，希望通过浏览器访问媒体，并将存储与转码分配到不同设备的自托管用户。",
+      "what": "包含完整浏览器界面的开源自托管媒体服务器，提供媒体库浏览、播放、观看进度、元数据及用户管理。官方文档说明可单机运行，也可将控制中心、只读媒体存储节点和转码节点分开部署；优先直接播放，必要时换封装或只转换不兼容的音视频流。网页界面嵌入服务器，状态存储于 SQLite，另有独立 Android/Google TV 客户端。",
+      "why": "作者未在本次可核实的一手自述中说明个人制作动机。官网明确的产品目标是保留原媒体文件、按实际播放能力尽量减少转换，并让存储与计算分开部署。官网虽有第一人称“Why I built it”段落，但网页源码仍标注该段由设计文档起草、并非作者撰写、待重写，因此不据此确认作者的个人经历；HN 提交者与仓库作者的关系也未核实。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978267",
+          "https://kahawai.net/",
+          "https://github.com/iksteen/kahawai"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖与官方 API、官网、仓库 README、Web UI README 和路由源码，确认存在由服务器提供的 Vue 浏览器应用及媒体库、播放、设置和管理界面。核查时 HN 唯一评论被标记为 dead/flagged，仅返回占位文本，无法读取其内容。未找到公开托管演示入口；未登录、安装、运行项目或播放媒体。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "需要自行部署和提供有权使用的媒体；官网推荐容器镜像。自托管 Web UI 的存在已由文档和源码确认，但实际播放、字幕、转码性能与设备兼容性均未实测。",
+        "官网明确标注为预发布软件，目前只提供候选版本，版本之间可能有破坏性变化，升级前应备份；不提供直播电视或 DVR。",
+        "对外开放服务器需要自行配置 TLS 反向代理和访问安全；README 特别说明未设置 public_url 时不会检查浏览器 Origin，不能把自托管等同于默认安全。",
+        "元数据及可选字幕、片头时间等功能涉及外部服务，并非完全离线；跳过片头、字幕处理及分布式转码等能力仅依据项目方描述，未独立验证。HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978267"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978267.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978274.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://kahawai.net/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iksteen/kahawai"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iksteen/kahawai/blob/master/web/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iksteen/kahawai/blob/master/web/src/router.ts"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "媒体服务器",
+        "视频播放",
+        "音乐",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49978244",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978244",
+      "title": "Vev",
+      "url": "https://huggingface.co/spaces/CountingSheep/vev",
+      "canonicalUrl": "https://huggingface.co/spaces/CountingSheep/vev",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978244",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978244",
+      "publishedAt": "2026-10-06T13:35:13Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "想针对截图或图片提出结构化判断问题、查看各答案概率的开发者、视觉模型研究者与评测人员。",
+      "what": "基于 Qwen3.5 的开放权重视觉决策模型，并提供可直接打开的 Hugging Face Gradio 网页演示。网页可上传图片、补充文本，填写最多四组是非题或多选题；项目设计为返回各允许答案的概率，而非自由生成文本。仓库另提供兼容 Jev 请求格式的本地 HTTP 服务与 Python 用法。",
+      "why": "作者未说明个人制作动机。官方 README 仅明确产品目标：针对文本、JSON 或图片提出预先定义答案的判断问题，并用答案概率支持阈值决策；图像用途包括界面状态与规则符合性判断。核查时 HN 原帖没有正文或评论，无法补充作者动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978244",
+          "https://github.com/Xiaooolong/vev"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 官方 API、官方 README、Hugging Face Space README 和公开界面源码，并在云浏览器实际打开演示。页面显示 Running on ZERO，可见图片上传、可选文本、四组问题/选项及 Ask 控件。未登录、上传图片、提交问题或执行模型推理，因此未验证答案结果、速度或准确率；核查时原帖无评论。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "这是 v0.1 研究预览。代码采用 Apache 2.0 许可，模型权重为 CC BY-NC 4.0，仅限非商业使用，不能把开放代码许可理解为模型可商用。",
+        "官方披露概率并非精确校准的频率，改变选项顺序可能改变最高概率答案；多项文本基准弱于 Jev，游戏画面缺陷检测仍不足以依赖。基准和延迟数据均来自作者，未独立复现。",
+        "在线演示托管在 Hugging Face，输入会发送到该服务；不宜上传含敏感内容的截图。本次只核验界面，未测试匿名推理额度、排队情况或实际返回结果。页面提示冷启动首个请求约需半分钟。",
+        "本地运行要求 Python 3.11 以上、NVIDIA GPU 与 CUDA 版 PyTorch，官方称 4B 和 9B 模型分别约需 10 GB、19 GB 显存；本次没有安装或运行。HN 发帖时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978244"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978244.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Xiaooolong/vev"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/spaces/CountingSheep/vev"
+        },
+        {
+          "type": "repository",
+          "url": "https://huggingface.co/spaces/CountingSheep/vev/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://huggingface.co/spaces/CountingSheep/vev/blob/main/app.py"
+        }
+      ],
+      "tags": [
+        "视觉模型",
+        "截图分析",
+        "概率判断",
+        "网页演示",
+        "开放权重"
+      ]
+    },
+    {
+      "id": "hacker_news:49978219",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978219",
+      "title": "TagBackup",
+      "url": "https://tagbackup.com/",
+      "canonicalUrl": "https://tagbackup.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978219",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978219",
+      "publishedAt": "2026-10-06T13:33:26Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "需要把服务器数据库备份到 S3 兼容存储、按标签保留和提取副本的独立开发者与小团队，尤其是希望在浏览器中查看备份的人。",
+      "what": "开源 Go 备份工具，附带在自己电脑上运行的浏览器管理界面，并提供公开网页演示。把可读标签编码进 S3 对象键名，支持按标签筛选、列出、上传、下载和删除文件；网页界面可切换存储桶与查看文件列表。实际使用需自行安装本地服务并配置 S3 兼容存储，属于本地自托管 Web UI。",
+      "why": "作者 joncombe 在 HN 自述，想用便宜、简单、可重复的方法每晚备份 VPS 数据库到 S3、保留数周副本、删除旧备份，并随时拉取到个人电脑，而不必记住文件名与时间戳。他说这是为自己反复打磨的工具；该自述不能视为独立需求或可靠性验证。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978234"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 原帖、作者评论及官方 API，实际在云浏览器打开官网 v0.0.12、内嵌 Web UI 和当前文档。看到存储桶按钮、示例文件表、标签、上传/删除控制与分页；没有提交操作、上传、下载、删除、安装或连接真实存储桶。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "网页演示的示例数据不是实际备份能力或恢复可靠性的验证；真实运行需要本地安装和自行承担对象存储配置、费用与权限管理。",
+        "标签位于对象键名中，不是 AWS S3 object tags；文档说明不符合其命名格式的对象会被忽略，存储桶配置仍需命令行或配置文件。",
+        "仅监听本机、无遥测及凭据留在本机属于作者/官方声明，本次未审计代码、网络行为、删除安全或灾难恢复。",
+        "这是来源帖子发布时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978219"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978234"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978219.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tagbackup.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tagbackup.com/docs/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/joncombe/tagbackup"
+        }
+      ],
+      "tags": [
+        "备份",
+        "对象存储",
+        "S3",
+        "自托管",
+        "Web UI"
+      ]
+    },
+    {
+      "id": "hacker_news:49978171",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978171",
+      "title": "Parseable",
+      "url": "https://www.parseable.com/",
+      "canonicalUrl": "https://www.parseable.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978171",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978171",
+      "publishedAt": "2026-10-06T13:30:50Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "需要集中查询日志、指标和分布式追踪，并希望使用对象存储或自有基础设施的 SRE、平台工程与可观测性团队。",
+      "what": "带网页控制台的可观测性数据湖平台，提供托管云服务及自托管部署。官方介绍以 Parquet 与对象存储保存遥测数据，在 Web 界面提供日志、指标、追踪、仪表盘和告警，并支持 SQL 等查询方式；开源、云端及企业版本的功能范围不同。",
+      "why": "作者未说明个人制作动机。HN 原帖只有链接及标题，核查时无正文或评论；官网与文档描述的是统一遥测数据、开放存储格式和降低运维成本的产品目标。HN 提交者 yashdotrv 的主页没有身份说明，不能确认其是项目作者或团队成员。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978171",
+          "https://www.parseable.com/docs/introduction"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖及官方 API、官网、开源仓库 README、Quickstart、产品介绍与基准说明。官方 Quickstart 明确自托管网页控制台位于本地服务端口，并提供托管云账户入口；云浏览器打开托管入口后确认跳转到账户登录页。未登录、安装、部署、接入数据或执行查询和性能测试。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "自托管需要安装及配置服务；本次仅核对文档，未运行本地控制台。托管云需要注册账户，官方说明有 14 天试用。",
+        "官网区分 AGPLv3 开源版、托管云和企业版；PromQL、分布式查询、AI 等能力的具体版别及授权限制需另外核对，不能默认开源版包含所有宣传功能。",
+        "HN 标题声称每分钟处理 1 亿条时间序列，但本次未找到与该标题对应的测试条件或复现证据。已读官方基准页是其他吞吐与成本场景，不足以验证该数字；也未独立核验官网性能、成本和用户规模宣传。",
+        "涉及生产日志及遥测数据，接入前需核对部署、访问控制、保留及外部 AI 服务的数据处理规则；HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978171"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978171.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.parseable.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.parseable.com/docs/get-started"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.parseable.com/docs/introduction"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.parseable.com/docs/benchmarks"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.parseable.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/parseablehq/parseable"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://news.ycombinator.com/user?id=yashdotrv"
+        }
+      ],
+      "tags": [
+        "可观测性",
+        "日志分析",
+        "数据湖",
+        "可自托管"
+      ]
+    },
+    {
+      "id": "hacker_news:49978155",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978155",
+      "title": "Azurade AI",
+      "url": "https://azurade.com/",
+      "canonicalUrl": "https://azurade.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978155",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978155",
+      "publishedAt": "2026-10-06T13:29:38Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "希望在一个账户中生成图片和视频的创作者，以及想通过 MCP 或 REST API 接入多种生成模型的开发者。",
+      "what": "托管图片与视频生成 Web 应用，同时提供远程 MCP 服务和 REST API，网页与代理共用积分余额。官方开发者页列出多种模型、调用前费用估算、任务状态和结果下载；项目方称积分可单次购买、不过期，失败生成自动退回余额。",
+      "why": "HN 发帖者 delneg 自称作者，明确说自己厌倦图像和视频生成服务中过期的积分、订阅和月底清零的额度，因此创建 Azurade，希望用统一、不过期的预付余额提供多种模型，并允许不订阅直接购买积分。该动机与官网的积分政策文章相符；作者身份仅依据本人自述，未独立核实。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978155",
+          "https://azurade.com/blog/expiring-ai-credits/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖与官方 API、官网、开发者说明及积分政策文章。云浏览器打开生成模式页后短暂显示提示词、上传和生成控件，随后自动跳转登录页，页面明确要求登录才能生成。核查时原帖没有评论；未登录、授权 MCP、创建密钥、上传文件、提交生成或付款。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "需要账户及积分；官网同时提供订阅和一次性积分包，不能把“不强制订阅”理解为没有订阅方案。积分不过期和失败退回是项目方政策，未实际验证。",
+        "官网首页写 35 个模型，开发者页列 37 个，页面口径存在差异；模型数量、版本、质量、速度及可用性未独立验证。",
+        "开发者文档说明结果下载链接无需认证，获得链接的人即可打开文件；不宜据首页的保密宣传推断所有生成链接都有访问控制。",
+        "HN 作者称自己和朋友使用及用代理评估过多轮，均为自述，不能作为独立需求或效果验证；HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978155"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978155.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://azurade.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://azurade.com/developers/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://azurade.com/blog/expiring-ai-credits/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://azurade.com/mode/?category=ai-photoshoot&mode=nano-banana-custom"
+        },
+        {
+          "type": "official_site",
+          "url": "https://azurade.com/login/"
+        }
+      ],
+      "tags": [
+        "图像生成",
+        "视频生成",
+        "MCP",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49978129",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978129",
+      "title": "ADHDev",
+      "url": "https://adhf.dev/",
+      "canonicalUrl": "https://adhf.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978129",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978129",
+      "publishedAt": "2026-10-06T13:27:01Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "已经使用 Claude Code、Codex 等编码工具，希望从浏览器或手机管理会话、审批与同一仓库并行任务的开发者。",
+      "what": "编码智能体的 Web 仪表盘与任务协调工具。官方提供云端入口，也提供含完整本地网页界面的开源 standalone 版本，可查看会话、发送指令、审批或中断工作。Repo Mesh 为每个仓库维护任务队列，以独立 git worktree 隔离并行任务；Refinery 按仓库配置的检查门槛验证、变基并合并完成的工作。跨机器调度和手机推送属于云版能力。",
+      "why": "作者未说明个人制作动机。官方 README 和官网明确的产品目标是把不同厂商、不同机器上的编码智能体集中到一个控制界面和任务队列，并处理并行任务完成后的验证与合并。HN 提交者使用 vilmire 名称，与仓库所有者一致，但本次可获取的评论均已删除或标记 dead，无法从可读作者发言补充动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978129",
+          "https://github.com/vilmire/adhdev",
+          "https://adhf.dev/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 官方 API 及其评论记录、官方 README 和自托管安装指南，并在云浏览器实际打开官网及云端登录页，确认 GitHub/Google 登录入口。公开文档明确 standalone 内嵌 localhost:3847 Web 仪表盘，仓库列有独立网页应用与共享 React 组件。未登录、连接机器、安装 daemon、启动智能体或执行合并；实际运行能力未独立验证。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "需要自行安装本地守护进程，并已有安装且完成认证的编码智能体；本次只审阅公开网页和源码说明，没有验证登录后的仪表盘或本地完整流程。",
+        "自托管版本采用 AGPL-3.0-or-later，单机任务队列可本地运行；跨机器协调、互联网远程访问和推送依赖云版。官网列有免费与付费方案，功能边界和额度应以使用时页面为准。",
+        "自动合并能力以项目方说明为依据，测试门槛不保证代码安全或正确。官网说明云端审批推送会接收待审批内容，通知展示最多 80 个字符；P2P 与隐私保证未经过独立审计。",
+        "兼容性并非覆盖所有列出的工具：官方明确区分已测试、部分或未验证集成。Windows 的 Node.js 24 以上安装/启动路径暂不支持；官网称 Linux 已日常使用，但自托管指南仍称尚未充分验证，资料存在差异。",
+        "自托管默认仅监听本机；官方提醒向局域网开放且没有令牌或仪表盘密码时会缺少保护。HN 发帖时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978129"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978129.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/vilmire/adhdev"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/vilmire/adhdev/blob/main/docs/self-hosted/setup.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://adhf.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://adhf.dev/login"
+        }
+      ],
+      "tags": [
+        "编码智能体",
+        "任务队列",
+        "Web 仪表盘",
+        "可自托管",
+        "开发工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49977969",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977969",
+      "title": "Connect-it",
+      "url": "https://connect-it-app.pages.dev/",
+      "canonicalUrl": "https://connect-it-app.pages.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977969",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977969",
+      "publishedAt": "2026-10-06T13:15:17Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "想通过连线与实验学习数学、逻辑门、电路、密码学或声音的学生、教师和可视化编程爱好者。",
+      "what": "免登录浏览器节点画布，可把数值、计时器、逻辑门、颜色、二维码和音乐等节点连起来，观察数据流；另有节点说明、现成实验及循序渐进的学习路径。核查时界面列出 197 个实验与 274 个节点，并提供不创建副本的预览模式。",
+      "why": "项目署名作者 Zubin Khavarian 在自己的项目介绍中明确说，Connect-it 受 Austin Griffith 的 eth.build 启发，并表达对后者的欣赏；这是可核实的一手创作灵感。未见更具体的个人痛点或商业动机说明。HN 提交者 zubink 的主页没有身份介绍，本次未独立核实其与署名作者的关系。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://zubin.dev/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、项目首页和署名作者官网，并在云浏览器打开实验目录及 QR Your Message 预览，确认文字、二维码、数值显示节点与连线实际载入。核查时原帖没有评论；仅查看预置示例，未修改输入、搭建新图、测试音频、保存或导出。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "实验与节点数量来自当前界面，未逐项验证；实际学习效果、需求和完整功能未获独立验证。",
+        "实验包含密码、区块链与电路等教学内容；部分实验说明明确采用课堂级参数，不能作为生产安全或真实电气工程工具。",
+        "网页说明学习进度保留在当前设备；跨设备同步、持久保存及导入导出未验证。",
+        "HN 发帖时间为来源发布时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977969"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977969.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://connect-it-app.pages.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://zubin.dev/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://news.ycombinator.com/user?id=zubink"
+        }
+      ],
+      "tags": [
+        "可视化编程",
+        "互动学习",
+        "节点画布",
+        "免登录"
+      ]
+    },
+    {
+      "id": "hacker_news:49977818",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977818",
+      "title": "GrepJob",
+      "url": "https://grepjob.com/",
+      "canonicalUrl": "https://grepjob.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977818",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977818",
+      "publishedAt": "2026-10-06T13:05:23Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "按地区、薪资、资历、技术栈和工作类型寻找软件工程岗位的求职者。",
+      "what": "软件工程职位聚合与筛选网站，从公司招聘页面收集职位，并用 AI 提取技术栈、经验等字段。公开首页能查看一部分职位及公司信息，职位详情包含职责、要求和原始招聘链接；其余匹配职位要求创建账号。",
+      "why": "作者未说明个人制作动机。官网表达的产品目标是直接整理公司招聘信息、改进筛选并帮助工程师更快找工作。HN 提交者 kylem866 未在原帖提供自述；本次没有查到能确认其与网站作者身份对应的一手说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977818",
+          "https://grepjob.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、唯一一条非作者评论、提交者公开资料、官网首页和一条 Fujitsu 职位详情。确认公开页面实际包含职位内容、筛选入口、来源链接和注册限制；未登录、申请职位、提交搜索表单或核验完整职位库。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "“67,000+ 职位”“每小时更新”“没有幽灵职位”等均为项目方陈述，不能视为职位有效性、招聘意愿或去重质量的独立验证。官网展示的用户数量和评价也未经独立核验。",
+        "公开页面仅提供部分匹配结果，其余结果需要账号；AI 提取字段和职位摘要可能不完整，求职前应回原始雇主页面核实。",
+        "核查时唯一 HN 评论来自其他用户，提出职位存续时间与无真实招聘意图等担忧；它既不是作者回复，也不构成对项目质量的客观验证。",
+        "HN 发帖时间是来源发布时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977818"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977818.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://grepjob.com/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978105"
+        },
+        {
+          "type": "official_site",
+          "url": "https://grepjob.com/jobs/5ebc32fa-fe71-43c0-8fef-7e7c5ecaa151"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/kylem866.json"
+        }
+      ],
+      "tags": [
+        "求职",
+        "软件工程",
+        "职位搜索"
+      ]
+    },
+    {
+      "id": "hacker_news:49977716",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977716",
+      "title": "Aldo Coach",
+      "url": "https://aldo-coach.app/",
+      "canonicalUrl": "https://aldo-coach.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977716",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977716",
+      "publishedAt": "2026-10-06T12:56:21Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "希望记录力量训练、查看动作历史，并由 AI 根据训练日志提出计划与调整建议的成年训练者；官方安全说明限定 18 岁以上。",
+      "what": "带浏览器应用入口的训练日志与 AI 教练，也提供 iPhone 应用。官方说明它可以记录每组训练、主观用力程度与个人纪录，生成周期训练计划，并根据已记录的表现提出后续组数或重量调整，供使用者确认。官网提供 /app 网页入口，公开应用源码可见账号流程、训练界面与演示模式；移动端专属整合不能自动视为网页版能力。",
+      "why": "作者未说明个人制作动机。官网仅明确希望把训练记录、计划编排和逐组反馈放在同一产品中，并自述由 River Lentil LLC 的单人开发者运营。HN 提交者使用 jackchillemi；其与运营方的身份关系未独立核实。原帖作者评论已被标记，公开 API 只返回 [flagged]，无法据此还原动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977716",
+          "https://aldo-coach.app/"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已核对 HN 原帖、官方 API、官网首页、/app 公开页面及应用源码、隐私政策和健康安全说明。官网在云浏览器正常显示并直连网页应用；进入 /app 后页面读取与截图连续超时，因此仅确认存在实质网页应用代码和公开入口，未声称网页演示已运行成功。没有登录、注册、输入训练或健康资料，也没有测试 AI 建议。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "实际训练指导质量、安全性、长期记忆可靠性与计划效果均未验证。官方明确表示它不是医疗服务、诊断或康复治疗，也不能代替能够观察动作的合格教练；不能把疼痛评分或 AI 建议当作恢复训练的医疗许可。",
+        "隐私政策说明，相关训练、聊天及经同意提供的伤痛资料会作为教练上下文发送给 Anthropic；账号和训练资料由 Supabase 等服务处理，数据在美国存储和处理。隐私承诺与访问隔离仅按官方披露记录，未做审计。",
+        "官网核查时标注免费、无需银行卡；可用地区、账号要求及后续收费政策应以当时条款为准。Apple Health 等功能明确限于 iOS，本次未验证网页端与原生端的功能差异。",
+        "公开代码存在演示模式，但云浏览器未能可靠载入应用界面，未实际进入演示。HN 核查时没有可读评论；发帖时间不是产品首次上线时间，未取得独立使用量或市场需求证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977716"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977716.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977725.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aldo-coach.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aldo-coach.app/app"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aldo-coach.app/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aldo-coach.app/health-safety"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aldo-coach.app/consumer-health-data"
+        }
+      ],
+      "tags": [
+        "训练日志",
+        "AI 教练",
+        "健身",
+        "Web 应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49977705",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977705",
+      "title": "Athanor Bio Tools",
+      "url": "https://athanortools.com/",
+      "canonicalUrl": "https://athanortools.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977705",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977705",
+      "publishedAt": "2026-10-06T12:55:30Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "希望通过浏览器使用生物信息学、蛋白质结构预测、序列设计和化学信息学工具的研究人员及开发者。",
+      "what": "将多种生物与化学计算工具集中到网页表单和统一 API 的托管网站，公开列出 RDKit、Boltz-2、Chai-1、ProteinMPNN 等工具。工具页提供参数、示例预设、文档和运行入口；作者介绍可连接任务输出与输入并管理历史作业。另有本地 CLI、Rust/Python 库和 Molchanica 桌面软件，不能据此断言此 Web 站点可直接自托管。",
+      "why": "HN 作者 the__alchemist 明确说，反复安装生物 ML 工具、配置蛋白质结构预测与序列/骨架生成流程令他困扰，因此先做了 CLI 和 Rust/Python 库，再构建网页界面。他自己会在平板上或离开性能足够的电脑时使用网站。其 HN 个人页也链接 Athanor 与相关 GitHub 项目；作者身份联系有本人公开资料支持，未做独立实名核验。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977705",
+          "https://hacker-news.firebaseio.com/v0/user/the__alchemist.json"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、作者公开资料、官网目录、RDKit 工具表单、API 文档和官网链接的 bio_tools 仓库 README。核查时原帖没有评论；RDKit 页面在未登录状态下展示运行入口，并提示注册用于保存和管理作业。未提交任何运行、上传数据、安装工具或验证计算输出。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "目录中多项工具标为 Work in Progress，列出工具不代表其计算流程已可用；预测正确性、运行稳定性与工作流串联未实测。",
+        "API 文档说明整个网站同一时间只执行一个任务，已完成结果会在后续任务积累后被清理；需要自行及时保留结果。",
+        "不同底层模型和工具有不同许可及商业使用限制；网页或 API 的存在不代表所有工具均可用于商业项目。",
+        "这是研究计算工具，不能据页面宣传推断实验有效性或临床用途。未提交研究数据，也未验证托管端的数据处理规则。",
+        "本地 CLI/库及桌面集成有公开源码说明，本次未安装或确认完整 Web 界面的自托管方式；HN 发帖时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977705"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977705.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://athanortools.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://athanortools.com/tools/rdkit/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://athanortools.com/api_docs"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/David-OConnor/bio_tools"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/the__alchemist.json"
+        }
+      ],
+      "tags": [
+        "生物信息学",
+        "科研工具",
+        "蛋白质设计",
+        "Web 应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49977684",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977684",
+      "title": "AccessLumens CPACC 练习与模拟考试",
+      "url": "https://accesslumens.com/learn/cpacc",
+      "canonicalUrl": "https://accesslumens.com/learn/cpacc",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977684",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977684",
+      "publishedAt": "2026-10-06T12:53:49Z",
+      "discoveredAt": "2026-10-06T13:50:38Z",
+      "audience": "准备 IAAP CPACC 无障碍基础认证考试、希望通过题目复习相关知识的学习者。",
+      "what": "免费的浏览器 CPACC 备考网站。公开界面列出四套各 100 题的练习、两套各 100 题的两小时模拟考试，以及一套 50 题冲刺练习。页面说明练习逐题显示答案，模拟考试提交后才显示答案，进度保存在当前浏览器。",
+      "why": "作者未明确说明个人制作动机。HN 发帖者 prabhusaves 自述近期有 CPACC 考试经历，并添加了自己觉得有助于备考的练习与模拟测试；没有进一步交代开发经过，其身份和考试经历未独立核实。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977684",
+          "https://accesslumens.com/learn/cpacc"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、提交者公开资料和官网，并在独立云浏览器标签页核对已加载的练习/模拟考试列表及开始按钮；同时阅读公开前端代码中本地保存、题目检查和计时逻辑。核查时原帖没有评论。未开始或提交测试，未逐题审校题库、计时、评分或答题解释。",
+        "checkedAt": "2026-10-06T13:50:38Z"
+      },
+      "caveats": [
+        "网站明确说明与 IAAP 无隶属关系，题目为依据 2023 年 10 月版 Body of Knowledge 编写的原创题，非回忆真题；本次未核验其与当前官方考纲的一致性。",
+        "作者认为题目对备考有用属于个人自述，不能视为通过率、题库准确性或教学效果的独立验证。",
+        "页面声明进度仅保存在当前浏览器；不应期待跨设备同步，清除浏览器数据可能丢失进度。",
+        "未登录、注册或提交表单；HN 发帖时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977684"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977684.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://accesslumens.com/learn/cpacc"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/prabhusaves.json"
+        }
+      ],
+      "tags": [
+        "无障碍",
+        "考试备考",
+        "学习工具",
+        "免费网页"
+      ]
+    },
     {
       "id": "hacker_news:49977423",
       "provider": "hacker_news",
