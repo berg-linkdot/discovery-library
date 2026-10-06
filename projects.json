@@ -1,9 +1,280 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T14:52:46Z",
-  "count": 164,
+  "updatedAt": "2026-10-06T15:45:51Z",
+  "count": 168,
   "projects": [
+    {
+      "id": "hacker_news:49979862",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49979862",
+      "title": "Trends Radar",
+      "url": "https://growthupdate.io/radar",
+      "canonicalUrl": "https://growthupdate.io/radar",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49979862",
+      "hnUrl": "https://news.ycombinator.com/item?id=49979862",
+      "publishedAt": "2026-10-06T15:20:57Z",
+      "discoveredAt": "2026-10-06T15:45:51Z",
+      "audience": "想寻找产品方向、内容选题和增长实验线索的创业者、独立开发者、增长营销人员及产品经理。",
+      "what": "免费网页趋势发现工具，用圆形雷达和分类列表展示不同产品领域的周度变化，再逐层查看细分主题、值得关注的产品与相关文章。公开 SDK 主题页可见趋势关键词、产品官网和文章来源链接；HN 介绍称其结合 AI 研究、评分与人工策展分析搜索、产品和内容趋势。",
+      "why": "作者未说明个人制作动机。HN 原帖只说明产品希望帮助用户提早发现新趋势；GrowthUpdate 官方介绍强调把分散在博客、通讯、视频和工具目录中的增长资料集中起来，帮助团队形成可测试的想法，属于产品目标说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49979862",
+          "https://growthupdate.io/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API（核查时无评论），并在云端浏览器查看雷达主页、Developer Tools 分类、SDK 主题和官方介绍。分类与主题页无需登录即可读取，包含产品和文章外链；未订阅、注册或提交表单，未复算趋势指标或验证预测能力。",
+        "checkedAt": "2026-10-06T15:45:51Z"
+      },
+      "caveats": [
+        "页面标为 beta；核查时比较的是 2026 年 9 月 28 日至 10 月 4 日与前一周，不能当作实时热度。",
+        "本次查看的页面没有公开百分比的具体计算公式、样本量或原始搜索量；这些数值只能按平台自身趋势信号理解，不能直接当成市场规模或真实需求增幅。",
+        "AI 研究及提前发现趋势是作者的产品描述，本次未验证预测准确性。主题关键词链接到 Google 搜索，产品与文章则提供外部来源，仍需自行评估质量和时效。",
+        "HN 时间为本次发帖时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979862"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979862.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://growthupdate.io/radar"
+        },
+        {
+          "type": "official_site",
+          "url": "https://growthupdate.io/radar/developer-tools"
+        },
+        {
+          "type": "official_site",
+          "url": "https://growthupdate.io/radar/developer-tools/sdk"
+        },
+        {
+          "type": "official_site",
+          "url": "https://growthupdate.io/about"
+        }
+      ],
+      "tags": [
+        "趋势发现",
+        "产品研究",
+        "增长营销",
+        "内容选题",
+        "网页工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49979456",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49979456",
+      "title": "Octri.dev",
+      "url": "https://octri.dev/",
+      "canonicalUrl": "https://octri.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49979456",
+      "hnUrl": "https://news.ycombinator.com/item?id=49979456",
+      "publishedAt": "2026-10-06T14:56:01Z",
+      "discoveredAt": "2026-10-06T15:45:51Z",
+      "audience": "维护对外 API、希望同步文档与多语言客户端的独立开发者、开源维护者、创业公司和 API 团队。",
+      "what": "从 API 规格生成可定制文档站、十种语言的 SDK 和让 AI 代理读取或调用 API 的 MCP 工具，并提供可选的 SDK/API 错误监控。官网展示 GitHub 同步、包注册表发布、重新生成后的草稿与差异审批；另有无需账户的 OpenAPI 规格审查页，按 14 项规则评估生成 SDK 的就绪程度。",
+      "why": "联合创始人 Emad 在 HN 原帖说，自己经历过 API 完成后仍需维护文档、多语言 SDK 及各包管理器版本的负担，而找到的同类方案多面向企业、价格让独立开发者、开源项目乃至创业公司难以承受，因此想把 API 所需的这组工具做得更容易获得。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49979456"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API（核查时无评论）、官网产品与价格说明、监控页、免费规格审查页和开源资助页。确认公开审查入口、规则和示例报告存在；未提交规格、创建账户、安装 SDK/MCP、连接仓库或发布包，未验证生成质量和监控效果。",
+        "checkedAt": "2026-10-06T15:45:51Z"
+      },
+      "caveats": [
+        "免费方案仅含 1 种 SDK 语言、50 个 API 端点、一次性 100 AI credits 和每月 100 MB 监控流入量。月付 Starter/Growth/Business 分别为 49/99/249 美元另加税，包含 2/4/10 种语言；部分付费档额外语言每种每月 50 美元。",
+        "HN 原帖把开源资助概括为免费 Business，但详情页实际列出专属额度：10 种语言、1,000 端点，监控和 AI credits 仍是免费档额度；需人工审核，要求 OSI 许可、近 6 个月有发布、公开规格且无付费托管版，并需署名与宣传授权。",
+        "监控默认关闭，启用后会随新构建的 SDK 分发。官网称会在客户端和接收端脱敏，但自定义 tags/context 按原样保留；普通监控方案超额仍继续接收且可能计费，启用前需核对隐私、同意机制及费用。",
+        "免费审查器评估的是规格对 SDK 生成的适配程度，不是 API 质量或安全认证。官网称不保留完整规格，但会保留 info 区块中的标题、版本、联系人及扣分规则；公开评分需另选发布选项，规格上限 5 MB。",
+        "MCP 可包含真实 API 调用能力，正式使用应检查端点与权限范围。宣传的生产可用性未经本次实测；HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979456"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979456.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://octri.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://octri.dev/openapi-audit"
+        },
+        {
+          "type": "official_site",
+          "url": "https://octri.dev/monitoring"
+        },
+        {
+          "type": "official_site",
+          "url": "https://octri.dev/open-source"
+        }
+      ],
+      "tags": [
+        "API 文档",
+        "SDK 生成",
+        "OpenAPI",
+        "MCP",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49979431",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49979431",
+      "title": "GPTPromptMaker",
+      "url": "https://www.gptpromptmaker.com/prompt-generator",
+      "canonicalUrl": "https://www.gptpromptmaker.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49979431",
+      "hnUrl": "https://news.ycombinator.com/item?id=49979431",
+      "publishedAt": "2026-10-06T14:54:32Z",
+      "discoveredAt": "2026-10-06T15:45:51Z",
+      "audience": "经常使用 ChatGPT、Claude、Gemini 等 AI 工具，希望把零散需求整理成可重复使用提示词的内容创作者、营销人员、开发者和小团队。",
+      "what": "提供独立网页提示词生成器：输入任务并选择 CO-STAR、RISEN 或 CRAFT 框架，得到可复制到 AI 工具中的结构化指令。官网还提供提示词模板库、个人收藏库、变量替换及角色设定，并介绍文本、图片、视频和 Skill 提示词构建器与团队共享空间；Chrome 扩展可把改写和保存入口嵌入常用 AI 网站。本次收录依据是无需安装扩展即可打开的网页工具。",
+      "why": "作者未说明个人制作动机。HN 原帖只介绍使用框架及适用模型，核查时没有评论。官方 About 页说明的产品目标，是减少专业用户反复试写提示词、指令含糊及输出不稳定的问题，通过模板和引导式构建让提示词更易复用；这属于官方产品目标，不能当作作者亲身经历。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49979431",
+          "https://www.gptpromptmaker.com/pages/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及本轮采集的官方 API 元数据，核查时无评论；查看 Chrome 商店、独立官网、公开提示词生成器、About、价格、隐私及条款。生成器可见任务输入、三种框架选项和输出区；没有填写或提交请求、登录、安装扩展或付费，因此未验证生成质量、实际额度、收藏和协作功能。",
+        "checkedAt": "2026-10-06T15:45:51Z"
+      },
+      "caveats": [
+        "公开生成器说明前 2 次生成无需登录或信用卡，之后需免费账户。首页免费计划标示每月 10 次生成、每月可使用或编辑 5 个库内提示词、最多保存 5 项且无文件夹，工作台只含 CO-STAR；公开试用页则展示三种框架，具体额度和框架权限未实测。",
+        "核查时官网标价 Pro 每月 15 美元或每年 150 美元，Teams 每月 33 美元或每年 330 美元，最多 5 人。付费方案宣传不限生成与扩展模板、共享等功能，未验证实际公平使用限制或退订退款流程。",
+        "隐私政策说明网站保存账户及用户创建、保存的提示词、模板和角色；扩展主动改写的文本会传至服务器并交由 Google Gemini API 处理，保留最近 20 条，重复改写的提示词可能自动进入长期收藏库。网站使用 Google Analytics 与 Microsoft Clarity；不应把它视为纯本地工具，涉及机密资料前需检查数据政策。",
+        "提示词结构不能保证 AI 答案准确、合规或没有偏差；官网条款要求自行审查输出。模板数量、效果和跨平台兼容性均为官方说明，未逐项实测；HN 时间是此次发帖时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979431"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979431.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://chromewebstore.google.com/detail/gpt-prompt-maker-prompt-g/njpoaipglodaefkcinilkpicepdlimoo"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.gptpromptmaker.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.gptpromptmaker.com/prompt-generator"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.gptpromptmaker.com/pages/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.gptpromptmaker.com/privacy-policy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.gptpromptmaker.com/terms-of-service"
+        }
+      ],
+      "tags": [
+        "提示词",
+        "AI",
+        "模板库",
+        "内容创作",
+        "网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49979272",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49979272",
+      "title": "Mevali",
+      "url": "https://mevali.lamdera.app/",
+      "canonicalUrl": "https://mevali.lamdera.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49979272",
+      "hnUrl": "https://news.ycombinator.com/item?id=49979272",
+      "publishedAt": "2026-10-06T14:42:59Z",
+      "discoveredAt": "2026-10-06T15:45:51Z",
+      "audience": "重视用户价值与团队协作、希望减轻 Scrum 或 Kanban 流程负担的敏捷软件团队，以及愿意体验早期项目管理工具的人。",
+      "what": "一个敏捷项目管理网页试用场。作者介绍其把用户故事压缩为卡片，记录受益人、需求、价值估算及验收条件，方便拆分大任务；站会按人员和工作项展示状态，回顾实验持续保留在下一阶段视野中，计划功能结合蒙特卡洛模拟、依赖和团队可用时间。公开入口提供命名团队后的交互式演练。",
+      "why": "作者 johnsuder 在 HN 评论中说，16 年来既见过有效的敏捷实践，也见过流于表演的 Scrum；他发现 Jira、Azure DevOps、GitLab、Shortcut 等工具会制造摩擦并鼓励反敏捷的做法，所以想为面向用户、真正协作的团队减少浪费，而不是说服讨厌 Scrum 的团队接受它。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49979325"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖、官方 API 和核查时唯一的作者评论，并在云端浏览器打开官方试用页。页面明确写着 playground，要求输入姓名、选择头像颜色并为演练创建团队数据；未填写或提交入口，因此内部看板、模拟与协作功能均仅有作者说明，未作交互验证。",
+        "checkedAt": "2026-10-06T15:45:51Z"
+      },
+      "caveats": [
+        "当前链接是 playground 演练入口；本次未确认正式生产版、收费、数据导出、保留策略或使用条款，不能视作已核验的生产团队服务。",
+        "入口明确提示：若已有成员使用同一名字，就会以该成员身份重新进入。这不等同于已验证的账户认证，不宜在此试用场放入真实人员、客户或敏感项目资料。",
+        "提交入口会按团队建立演练数据；本次未提交。项目拆分、回顾实验与蒙特卡洛计划的实际效果尚未验证，模拟也不应理解为交付日期保证。",
+        "HN 时间为本次发帖时间，不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979272"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979272.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mevali.lamdera.app/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979325"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979325.json"
+        }
+      ],
+      "tags": [
+        "敏捷开发",
+        "项目管理",
+        "Scrum",
+        "团队协作",
+        "交付预测"
+      ]
+    },
     {
       "id": "hacker_news:49979145",
       "provider": "hacker_news",
