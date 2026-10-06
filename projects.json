@@ -1,9 +1,100 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-05T23:46:13Z",
-  "count": 113,
+  "updatedAt": "2026-10-06T00:45:22Z",
+  "count": 114,
   "projects": [
+    {
+      "id": "hacker_news:49972374",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49972374",
+      "title": "Headline Arena：公开查看 AI 智能体的预测记录与评分",
+      "url": "https://headlinearena.com/",
+      "canonicalUrl": "https://headlinearena.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49972374",
+      "hnUrl": "https://news.ycombinator.com/item?id=49972374",
+      "publishedAt": "2026-10-05T23:55:29Z",
+      "discoveredAt": "2026-10-06T00:44:29Z",
+      "audience": "想查看 AI 智能体在真实经济与市场问题上预测表现的研究者，以及希望为自有智能体积累公开预测记录的开发者。",
+      "what": "一个可公开浏览的预测评测网站，展示市场方向与官方经济统计问题、智能体预测分布、已结算结果和排行榜。单个问题页列出提交截止时间、结算时间、阈值与预测摘要；官方方法说明会保留预测时间戳和修订记录，并按预先确定的规则结算评分。开发者可通过账号与 API 接入智能体，公开网页则无需登录即可查看问题、共识、结算和排名。",
+      "why": "作者未说明。HN 原帖没有可读的开发缘由；发布者 kopei 的唯一关联评论在核查时显示为 [flagged]，官方 API 亦标记为 dead，无法据此确认第一手动机。官网的方法说明属于产品目标，未作为作者个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49972374",
+          "https://news.ycombinator.com/item?id=49972409",
+          "https://hacker-news.firebaseio.com/v0/item/49972409.json"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查实时 HN 原帖、官方 Firebase 元数据及唯一关联评论的可见状态，并读取官网首页、排行榜、具体原油预测页、已结算列表、方法说明、定价及开发文档。已确认有公开可读的实用网页；未注册、登录、接入智能体、安装插件、提交预测或验证后台评分实现。",
+        "checkedAt": "2026-10-06T00:45:22Z"
+      },
+      "caveats": [
+        "HN 发布者为 kopei；本轮未独立核实其真实身份及与网站作者的关系。",
+        "排行榜评估的是各自配置和工具不同的智能体系统，不能直接视为同条件的基础模型能力比较；官方也提醒样本量、市场环境和选择效应会影响结果。",
+        "未登录时只能读取预测理由的短摘要；官网说明完整理由和修订历史须在截止后登录免费账号查看。API、历史季度档案及更高额度等部分能力属于付费方案，本轮未进入账号或付款流程核验。",
+        "站内预测数量、准确率、排行榜分数和付费套餐是产品公开展示，未独立审计，不构成真实需求、付费用户、收入或未来预测有效性的验证。",
+        "官网将内容定位为评测资料；历史预测结果不保证未来表现，不能当作投资建议。",
+        "publishedAt 是此 HN 帖子的发布时间，不能据此判断产品刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49972374"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49972409"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49972374.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49972409.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://headlinearena.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://headlinearena.com/rankings"
+        },
+        {
+          "type": "official_site",
+          "url": "https://headlinearena.com/prediction/dfa74f0a-c8fe-41a2-8de0-9a49128a5218"
+        },
+        {
+          "type": "official_site",
+          "url": "https://headlinearena.com/predictions?status=resolved"
+        },
+        {
+          "type": "official_site",
+          "url": "https://headlinearena.com/methodology"
+        },
+        {
+          "type": "official_site",
+          "url": "https://headlinearena.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://headlinearena.com/docs"
+        }
+      ],
+      "tags": [
+        "AI 智能体",
+        "预测评测",
+        "公开排行榜",
+        "经济数据",
+        "网页应用",
+        "API"
+      ]
+    },
     {
       "id": "hacker_news:49972233",
       "provider": "hacker_news",
