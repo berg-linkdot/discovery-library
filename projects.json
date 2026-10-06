@@ -1,9 +1,322 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T09:40:19Z",
-  "count": 126,
+  "updatedAt": "2026-10-06T10:51:36Z",
+  "count": 130,
   "projects": [
+    {
+      "id": "hacker_news:49976458",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976458",
+      "title": "SEO Audit Console：结合搜索表现与爬取数据的本地 SEO 仪表盘",
+      "url": "https://github.com/houtini-ai/seo-audit",
+      "canonicalUrl": "https://github.com/houtini-ai/seo-audit",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976458",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976458",
+      "publishedAt": "2026-10-06T10:14:23Z",
+      "discoveredAt": "2026-10-06T10:51:36Z",
+      "audience": "管理自有网站的 SEO 从业者、站长与营销团队，尤其是希望把 Google Search Console 的搜索表现和站内技术问题放在一起分析，并愿意本地安装和配置数据权限的人。",
+      "what": "开源 SEO 审计工具，以 MCP 接入 Claude，并提供真正独立于聊天宿主的本地 Web 仪表盘。仓库说明它把 Google Search Console 历史和网站爬取结果存入本地 SQLite，执行 99 项检查，按预期可挽回流量与修复工作量排列问题；浏览器面板可查看站点健康、搜索表现、内容机会与链接结构，也能导出自包含 HTML 报告。已从源码确认独立 HTTP 服务、站点切换和同源数据接口，按自托管 Web 应用收录。",
+      "why": "仓库作者自述，在约二十年的技术 SEO 审计工作中，常见报告只列出爬虫看到的问题，无法解释 Google 实际给哪些查询和页面带来展示与点击。因此他把搜索表现、网站结构与爬取结果合并，希望优先修复有实际流量影响的问题，并减少团队反复导出、合表和检查的工作。HN 发帖者 richardbaxter 仅简短说明需安装并同步 Search Console；这里的详细动机依据仓库作者自述，未独立验证其现实身份或工作年限。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/houtini-ai/seo-audit#readme",
+          "https://github.com/houtini-ai/seo-audit/blob/master/README.md"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读核查 HN 原帖、官方 Firebase 数据、GitHub 仓库、README、仪表盘文档、package.json、Vite 配置，以及独立服务入口、HTTP 服务、Web 调用处理器和前端源码。确认 seo-audit-dashboard 入口启动独立本地服务，前端 Web 模式通过 /api/call 读取数据而不依赖 MCP 聊天桥接；源码也提供站点选择页。未安装、构建、启动或实测面板，未创建凭据、同步 Search Console、爬取网站或调用付费 API。",
+        "checkedAt": "2026-10-06T10:51:36Z"
+      },
+      "caveats": [
+        "需要本地运行环境与预先同步的数据；仓库要求 Node.js 20 或以上，核心审计需要配置 Google Cloud 服务账号凭据并授予相应 Search Console 站点权限。独立面板读取现有本地数据库，不能将其理解为无需配置即可使用的公开在线服务。",
+        "源码提供独立进程及 Docker 伴随服务的本机端口用法；本轮没有安装或运行，不能确认部署成功率、浏览器兼容性、99 项检查的准确性或 SEO 效果。",
+        "可选的 DataForSEO、Majestic、Firecrawl 和 Supadata 功能可能产生第三方费用；部分功能需要额外订阅或权限。本轮未核价、未开通，也未验证各供应商功能。",
+        "本地 SQLite 与导出的 HTML 报告可能包含网站搜索表现和业务数据；导出是当时的数据快照，不会自动更新。README 的本地存储、无遥测等表述属于项目方说明，此次仅做源码范围核查，未进行完整隐私或安全审计。",
+        "部分仪表盘文档只介绍聊天内嵌视图和静态报告，但当前 README、包入口和服务源码已明确提供独立浏览器模式；本次据此收录，而非仅凭截图或 HTML 导出判断。",
+        "publishedAt 是此次 Show HN 的发布时间，不代表产品首次上线日期。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976458"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976458.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit/blob/master/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit/blob/master/package.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit/blob/master/manual/dashboard.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit/blob/master/src/dashboard.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit/blob/master/src/core/webServer.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit/blob/master/src/core/webHandlers.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/houtini-ai/seo-audit/blob/master/src/ui/dashboard.ts"
+        }
+      ],
+      "tags": [
+        "SEO",
+        "Google Search Console",
+        "本地 Web 应用",
+        "自托管",
+        "数据分析",
+        "开源软件"
+      ]
+    },
+    {
+      "id": "hacker_news:49976376",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976376",
+      "title": "Acceptodds：预测 ICLR 论文录用结果的虚拟积分市场",
+      "url": "https://acceptodds.com/",
+      "canonicalUrl": "https://acceptodds.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976376",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976376",
+      "publishedAt": "2026-10-06T10:03:26Z",
+      "discoveredAt": "2026-10-06T10:50:28Z",
+      "audience": "关注 ICLR 投稿与同行评审的机器学习研究者、论文作者，以及希望研究群体预测或用机器人参与模拟市场的开发者。",
+      "what": "围绕论文是否被会议录用建立的网页预测市场。公开页面可浏览论文、查看摘要和原文链接、录用概率形式的报价、成交记录与排行榜；官网另有论文相似度地图，公开 API 文档也已可读取。作者称使用 LMSR 定价及不可兑换现金的 reputation 积分，并为约 4.2 万篇 ICLR 2027 投稿建立市场；本轮确认了论文详情和报价页面，未进行交易或验证预测效果。",
+      "why": "HN 发帖者 armstrongb 自述，他认为当前机器学习会议与论文评审的状况有问题，但并不确定怎样修复，因此做了这个有趣的实验，希望引发关于会议评审如何改进的讨论。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49976376"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查 HN 原帖、官方 API、发帖者资料、官网论文目录、论文详情、排行榜、公开 OpenAPI 与官方链接的仓库 README。云浏览器打开论文地图，显示 42,429 篇论文及筛选控件，但截图未见地图散点，未将数字加载视为地图完整可用。未登录、注册、提交表单、交易、下注或安装软件。",
+        "checkedAt": "2026-10-06T10:50:28Z"
+      },
+      "caveats": [
+        "官方说明 reputation 不可兑换金钱，仓库说明没有现金价值奖品；本站自称娱乐性实验，与 ICLR、OpenReview 等组织无隶属关系。未独立审计规则执行、积分安全或合规性。",
+        "市场价格不等于会议官方录用概率，也不构成论文质量判断；覆盖数量、LMSR 行为与预测效果未独立验证。",
+        "仓库说明参与交易需要以获准机构域名的邮箱注册并验证。公开阅读无需登录；注册、机器人接入、交易、结算和评论功能均未测试。",
+        "论文地图在本次云浏览器截图中仍为空白，虽显示 42,429 篇论文及控件，实际空间可视化与交互尚未验证。",
+        "HN 账号 armstrongb 在正文中自称创建者；官网链接至 benedict-armstrong/acceptodds 仓库，但未独立核实现实身份。核查时无评论。publishedAt 为本条 Show HN 发布时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976376"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976376.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/armstrongb.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://acceptodds.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://acceptodds.com/papers/iclr2027-49923"
+        },
+        {
+          "type": "official_site",
+          "url": "https://acceptodds.com/leaderboard"
+        },
+        {
+          "type": "official_site",
+          "url": "https://acceptodds.com/map"
+        },
+        {
+          "type": "official_site",
+          "url": "https://acceptodds.com/api/v1/openapi.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/benedict-armstrong/acceptodds"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/benedict-armstrong/acceptodds/blob/master/README.md"
+        }
+      ],
+      "tags": [
+        "学术研究",
+        "同行评审",
+        "模拟预测市场",
+        "论文发现",
+        "开源项目",
+        "Web 应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49976361",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976361",
+      "title": "Mashy：可在浏览器开玩的九洞像素高尔夫",
+      "url": "https://playmashy.com/",
+      "canonicalUrl": "https://playmashy.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976361",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976361",
+      "publishedAt": "2026-10-06T10:02:28Z",
+      "discoveredAt": "2026-10-06T10:50:28Z",
+      "audience": "想在浏览器短暂休闲、喜欢像素画风高尔夫，或希望与朋友比较成绩的玩家。",
+      "what": "像素画风的九洞高尔夫网页游戏。官网介绍包含铁杆、切杆和推杆，以及与朋友在 clubhouse 挑战的玩法。本轮无需登录即可点击开球入口进入第一洞，看到俯视球场、球杆选择、风向风速、距离、杆数和挥杆控件；免费浏览器游玩与朋友挑战属于官网说明，完整九洞流程和社交功能尚未测试。",
+      "why": "HN 发帖者 marcperel 自述，他在前一周制作了这款九洞像素高尔夫游戏，目的是挑战自己的朋友，并希望听取反馈。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49976361"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "核查 HN 原帖、唯一一条评论、官方 API 与官网 HTML，并在云浏览器打开游戏、点击 TEE OFF NOW，确认无需登录即可进入第 1/9 洞 BUTTERCUP，画面显示 PAR 3、88 YDS、球杆与 SWING 控件。仅验证到开局界面，未实际击球、完成球洞、登录、提交成绩或表单。",
+        "checkedAt": "2026-10-06T10:50:28Z"
+      },
+      "caveats": [
+        "未实际击球或完成九洞，不能据开局界面确认物理手感、计分准确性、难度平衡或完整通关体验；移动设备与不同浏览器兼容性未测试。",
+        "官网介绍免费浏览器游玩和 clubhouse 朋友挑战，但账号、联网挑战、成绩保存与任何后续付费功能均未核验。",
+        "官网 HTML 包含 Google、Meta 和 Cloudflare 的统计或追踪脚本引用；本轮未做隐私或安全审计，不应将可直接开玩理解为没有追踪。",
+        "HN 账号 marcperel 自称作者，官网以 A Green Keeper game 标注品牌，未独立核实账号与品牌的归属。唯一评论来自其他用户 nryoo，并非作者补充。",
+        "作者称在前一周制作，但未给出准确首次上线日期；publishedAt 仅为本条 Show HN 时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976361"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976568"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976361.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976568.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/marcperel.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://playmashy.com/"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "高尔夫",
+        "像素艺术",
+        "休闲游戏",
+        "在线演示"
+      ]
+    },
+    {
+      "id": "hacker_news:49976312",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976312",
+      "title": "Dungeons & Business Cards：名片大小的地牢桌游浏览器版",
+      "url": "https://business-cards.arispen.com/",
+      "canonicalUrl": "https://business-cards.arispen.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976312",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976312",
+      "publishedAt": "2026-10-06T09:57:01Z",
+      "discoveredAt": "2026-10-06T10:49:35Z",
+      "audience": "喜欢轻量地牢冒险、掷骰子和单人桌上角色扮演游戏的人，以及想先在浏览器里了解这款名片桌游规则的玩家。",
+      "what": "把一张名片上的地牢冒险规则改编成可直接打开的浏览器游戏，页面代掷六面骰并记录角色状态，玩家选择探索房间、应对陷阱和怪物、寻找 Yendor 护符。页面提供单人及 2 至 4 人队伍入口；规则说明队伍成员轮流带路与战斗。本轮已进入单人流程并掷出精灵角色，看到自动建议姓名、满格三颗生命值与进入地牢按钮，未继续验证完整冒险。",
+      "why": "作者未说明。HN 原帖只有标题与链接，核查时没有正文或评论；官网规则、原作 itch.io 页面及开发日志说明了名片大小、便于携带和介绍桌游玩法的产品目标，但未发现作者明确陈述创作这款游戏或浏览器版本的个人缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49976312",
+          "https://business-cards.arispen.com/",
+          "https://arispen.itch.io/dnbc"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "只读核查 HN 原帖、官方 API 和发帖账号资料、浏览器版规则、官方原作页面与开发日志；在云端浏览器打开公开游戏，点击 Play solo 和 Roll your character，观察到掷出 6、生成精灵角色及建议姓名。未填写或提交表单、登录、安装、下载或购买；未验证进入地牢后的战斗、通关及多人流程。",
+        "checkedAt": "2026-10-06T10:49:35Z"
+      },
+      "caveats": [
+        "仅实测了单人开局和角色掷骰。完整战斗、物品、存档、阵亡记录及多人队伍流程未测试；页面的 2 至 4 人队伍入口不等于已验证联网多人功能。",
+        "浏览器规则说明它对原名片规则作了具体解释，包括每次命中扣一颗生命、房间只探索一次及重复装备限制；纸面版与网页版的细节不应直接视为完全相同。",
+        "原作 itch.io 页面已有 2022 年开发日志，2023 年 3 月 2 日日志确认第一版已发布并印制。本条 publishedAt 仅是此次 Show HN 发帖时间，不能作为原作或网页版首次上线日期。",
+        "HN 发帖账号 arispen 与官方域名及原作作者账号名称相符，但仅据公开关联，未独立核实发帖者的现实身份或其本人完成浏览器改编；作者动机保持未知。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976312"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976312.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/arispen.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://business-cards.arispen.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://arispen.itch.io/dnbc"
+        },
+        {
+          "type": "official_site",
+          "url": "https://arispen.itch.io/dnbc/devlog/496783/v100"
+        },
+        {
+          "type": "official_site",
+          "url": "https://arispen.itch.io/dnbc/devlog/411142/v050"
+        },
+        {
+          "type": "official_site",
+          "url": "https://arispen.itch.io/dnbc/devlog/408277/v041"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "地牢冒险",
+        "桌游",
+        "骰子",
+        "在线演示"
+      ]
+    },
     {
       "id": "hacker_news:49976142",
       "provider": "hacker_news",
