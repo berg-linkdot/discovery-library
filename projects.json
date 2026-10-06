@@ -1,9 +1,471 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T11:46:18Z",
-  "count": 135,
+  "updatedAt": "2026-10-06T12:43:39Z",
+  "count": 142,
   "projects": [
+    {
+      "id": "hacker_news:49977423",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977423",
+      "title": "Five Nines",
+      "url": "https://github.avestura.dev/five-nines/",
+      "canonicalUrl": "https://github.avestura.dev/five-nines/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977423",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977423",
+      "publishedAt": "2026-10-06T12:29:46Z",
+      "discoveredAt": "2026-10-06T12:43:39Z",
+      "audience": "想通过可视化练习理解扩容、缓存、排队、限流与容错等云架构模式的开发者和系统设计学习者。",
+      "what": "可直接在浏览器打开的云架构教学游戏。玩家为虚构演出票务创业公司搭建并连接服务器、数据库等组件，在预算与服务目标下应对流量；官方列出分为三个阶段的 16 个关卡，逐步解锁设计模式及沙盒。组件名称可切换通用、Azure 或 AWS，知识卡链接对应官方架构资料。",
+      "why": "作者未说明个人制作动机。仓库只明确产品教学目标：让玩家通过会暴露特定架构缺陷的关卡逐步学习云设计模式。HN 提交者与仓库所有者均使用 avestura 名称，但本次未独立核实其身份关系。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977423",
+          "https://github.com/avestura/five-nines"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、项目 README，并在云浏览器实际打开关卡地图、教学说明、第一关任务和搭建界面，确认可见服务器、数据库、预算、错误预算及运行控制。核查时原帖没有评论；未搭建完整架构、运行通关或核验其余关卡及沙盒。",
+        "checkedAt": "2026-10-06T12:43:39Z"
+      },
+      "caveats": [
+        "项目明确声明这是刻意简化的教学模型，数值为虚构，排队、分片和故障转移等规则有所简化；不能用于真实生产系统的容量规划或可靠性预测。",
+        "界面建议使用桌面浏览器及鼠标，组件和连线需要拖拽；后续关卡及沙盒存在通关解锁条件，本次未逐一验证。",
+        "官方仓库采用 MIT 许可并提供本地运行说明；本次未安装、运行测试套件或审计代码，教学效果及需求未获得独立验证。",
+        "HN 发帖时间是来源发布时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977423"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977423.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://github.avestura.dev/five-nines/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/avestura/five-nines"
+        }
+      ],
+      "tags": [
+        "云架构",
+        "系统设计",
+        "互动学习",
+        "浏览器游戏"
+      ]
+    },
+    {
+      "id": "hacker_news:49977385",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977385",
+      "title": "MailAccess",
+      "url": "https://mailaccess.pro/",
+      "canonicalUrl": "https://mailaccess.pro/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977385",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977385",
+      "publishedAt": "2026-10-06T12:24:18Z",
+      "discoveredAt": "2026-10-06T12:43:39Z",
+      "audience": "希望在明确授权范围内了解电子邮箱公开暴露情况、核查线索来源的安全研究人员、渗透测试人员与 OSINT 学习者。",
+      "what": "提供托管网页服务，也可自托管完整 Web 界面的开源邮箱调查平台。按官方文档，它汇总公开网页、账户及泄露线索，生成带来源、置信度和推理说明的发现与身份关联图，并支持多种报告导出；另有组织邮箱发现功能。托管调查入口要求登录，核心引擎采用 MIT 许可。",
+      "why": "HN 发帖者 coding-maniac 自称安全工程师和项目作者：学习渗透测试时，他认同“理解方法比记住工具更重要”，却发现现有邮箱 OSINT 工具缺少对方法和证据链的呈现，因此想做一个解释线索来源、关联推理与评分的工具，帮助像初学时的自己一样的使用者。其作者身份与职业仅依据本人自述，未独立核实。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977385"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖及官方 API、官网、仓库 README 和自托管文档；核查时没有评论。在云浏览器打开调查入口后确认跳转至登录页，未登录、安装、输入邮箱或域名，也未执行任何实际调查。公开隐私页仅返回概述，并显示完整文件暂不可用。",
+        "checkedAt": "2026-10-06T12:43:39Z"
+      },
+      "caveats": [
+        "邮箱、账户及身份关联可能涉及敏感个人信息，仅适合合法且明确授权的用途；来源标签和置信度评分不等于身份确认，准确性、误报率和数据来源合法性未独立验证。",
+        "托管服务需要账号并有免费额度及付费方案；本次没有进入登录后的应用，自托管界面和运行能力仅依据官方文档核对。",
+        "官网隐私页核查时显示完整文件暂不可用，无法核验详细数据保留和处理规则；自托管引擎仍会向外部来源发起请求，不能把本地部署理解为完全离线。",
+        "模块覆盖、下载量和用户支持等数字或评价均来自项目方，不构成独立需求验证；HN 发帖时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977385"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977385.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mailaccess.pro/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mailaccess.pro/investigate"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mailaccess.pro/legal/privacy"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/KatrielMoses/MailAccess"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/KatrielMoses/MailAccess/blob/main/docs/self-hosting.md"
+        }
+      ],
+      "tags": [
+        "安全研究",
+        "OSINT",
+        "邮箱",
+        "可自托管"
+      ]
+    },
+    {
+      "id": "hacker_news:49977301",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977301",
+      "title": "Bridglet",
+      "url": "https://bridglet.com/",
+      "canonicalUrl": "https://bridglet.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977301",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977301",
+      "publishedAt": "2026-10-06T12:12:47Z",
+      "discoveredAt": "2026-10-06T12:43:39Z",
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已阅读 HN 原帖、官方 API、作者完整评论及官网首页、入门文档、开发者说明和定价页。核查时原帖有 1 条作者评论；确认公开说明的托管 SFTP、浏览器文件入口和 API 用途，未进入账户或执行文件传输。",
+        "checkedAt": "2026-10-06T12:43:39Z"
+      },
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977301"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977301.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bridglet.com/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977402"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977402.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bridglet.com/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bridglet.com/developers"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bridglet.com/pricing"
+        }
+      ],
+      "audience": "需要从客户或供应商接收文件的自由职业者、代理机构，以及需要 SFTP 数据导入、导出与文件到达通知的 SaaS 和数据工程团队。",
+      "what": "托管 SFTP 与浏览器文件共享服务，让同一隔离文件夹同时接受 SFTP 自动传输和网页上传、下载。提供客户访问入口、到达通知 Webhook、文件保留策略和管理界面；较高套餐及终身方案包含用于创建和管理文件夹的 REST API。",
+      "why": "HN 提交者 vectorfrog 在作者评论中自称 Kevin、自由职业网页分析开发者：一位客户认为 Azure 的 SFTP 端点对低频文件传输太贵，促使他用 Elixir/Erlang 做更轻量的替代；虽然该客户后来不再需要，他继续加入实时网页界面和上传下载，用于与自己的客户交换不适合放进代码仓库的文件。个人身份未独立核实，云服务价格比较仅为其当时经历。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977402"
+        ]
+      },
+      "caveats": [
+        "已看到公开产品、文档和价格页面，但没有注册、创建目录、上传文件或建立 SFTP 连接；实际传输、Webhook 交付、权限隔离与安全性未测试。",
+        "核查时月付从 15 美元起，包含 5 个共享文件夹、10 GB 空间及连接频率限制；官网另列限量一次性付费方案。所有方案从首日计费，具体价格、额度和退款条件以购买时条款为准。",
+        "产品按文件传递入口设计，保留策略可定时清理文件；不应将其自动视为长期备份或归档服务。API 并非包含在所有月付套餐中。",
+        "作者称已有付费用户并获客户推荐，官网也展示见证；这些均属第一方陈述，未独立核实收入、用户量、可靠性或市场需求。"
+      ],
+      "tags": [
+        "文件共享",
+        "SFTP",
+        "开发者工具",
+        "托管服务"
+      ]
+    },
+    {
+      "id": "hacker_news:49977298",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977298",
+      "title": "(Soda)base",
+      "url": "https://sodabase.io/",
+      "canonicalUrl": "https://sodabase.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977298",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977298",
+      "publishedAt": "2026-10-06T12:12:05Z",
+      "discoveredAt": "2026-10-06T12:43:39Z",
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API，以及官网首页、文档目录、定价、隐私、只读权限和预热说明。原帖当时无评论；公开页面可访问，未进行登录后的功能测试。具体检查参考页另一次请求返回 403，未进一步核验该页。",
+        "checkedAt": "2026-10-06T12:43:39Z"
+      },
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977298"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977298.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sodabase.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sodabase.io/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sodabase.io/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sodabase.io/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sodabase.io/docs/read-only-by-design"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sodabase.io/docs/warm-up"
+        }
+      ],
+      "audience": "使用 Supabase、希望及时发现数据停止更新或行数异常，并在 Slack 中排查相关任务的开发者与小团队。",
+      "what": "面向 Supabase 的托管数据监控服务。连接项目并选择表后，学习更新规律，检查数据新鲜度与行数异常，向 Slack 发送告警并提供根因分析；另有 MCP 接口供编码助手读取监控信息。公开文档说明部分检查需要积累历史，Schema 检查仍在逐步上线，Agent 修复尚未推出。",
+      "why": "HN 发帖者 santiviquez 自称共同创作者，明确说他们想在自己的 Supabase 表过期、记录数量异常或数据出现异常时收到提醒，因此将 Soda 的异常检测算法适配为易于配置的 Supabase 服务。官网标注由 Soda 制作；具体个人身份未进一步独立核实。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977298",
+          "https://sodabase.io/"
+        ]
+      },
+      "caveats": [
+        "本次只阅读公开网页和文档，没有注册、授权 Supabase、连接 Slack 或触发真实异常；检测效果、根因分析质量与服务稳定性未验证。",
+        "官网文档称监控使用专用只读角色，但该角色会绕过所选表的行级安全策略并读取这些表的完整行范围；连接生产项目之前需自行审查权限与数据处理范围。安全与不保存原始行数据的说法来自官方，未做独立审计。",
+        "首页展示的批准修复流程不能视为已上线功能：定价页明确将 Agent fixes 标为即将推出，并称修复会是供用户审核的提案；Schema 检查也仍在逐步上线。",
+        "核查时免费方案为 1 个项目、5 张监控表及每月 5 次问题分析；额度、付费方案与功能可能调整。HN 发帖时间不是首次上线时间，未取得独立用户量或需求验证证据。"
+      ],
+      "tags": [
+        "数据库",
+        "Supabase",
+        "数据监控",
+        "托管服务"
+      ]
+    },
+    {
+      "id": "hacker_news:49977257",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977257",
+      "title": "HivePaaS",
+      "url": "https://hivepaas.com/",
+      "canonicalUrl": "https://hivepaas.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977257",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977257",
+      "publishedAt": "2026-10-06T12:06:18Z",
+      "discoveredAt": "2026-10-06T12:43:39Z",
+      "audience": "希望在自己的 VPS 或 Docker Swarm 集群上，通过网页统一部署和管理应用、数据库与函数的独立开发者、小团队及软件服务商。",
+      "what": "带网页管理面板的开源、自托管 PaaS，底层使用 Docker Swarm。官方文档列出从 Git 或 Docker 镜像部署应用、管理域名与 TLS、查看日志和指标、备份、应用模板与多节点管理等功能；官网提供界面预览和需登录的只读演示入口。正式使用需要自行准备 Linux 服务器并部署。",
+      "why": "作者未说明个人制作动机。官方表达的产品目标是让开发者保留自有服务器控制权，同时以网页面板简化应用部署和运维。HN 提交者 tiendc 邀请大家反馈 beta 版本的安装体验并表示可以解答设计问题；本次未独立确认其与仓库维护者的身份关系。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977257",
+          "https://news.ycombinator.com/item?id=49977269",
+          "https://github.com/hivepaas/hivepaas",
+          "https://hivepaas.com/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、唯一评论、官方 README、仓库目录和开发文档；文档确认独立的网页 dashboard 构建与服务方式。云浏览器成功打开官网并读到界面预览、功能说明和演示链接，也打开了 Demo 1 的登录页；未登录演示、安装或执行部署，未实测面板内部操作。普通 HTTP 与网页抓取工具读取官网/演示曾失败，随后浏览器可访问。",
+        "checkedAt": "2026-10-06T12:43:39Z"
+      },
+      "caveats": [
+        "HN 发帖者说明当前为 v1.0.0-beta2，安装可靠性、生产稳定性和边缘情况尚未在本次验证。",
+        "这是自托管软件，服务器、安全更新、备份与运维仍由使用者承担；不是打开官网就能托管生产应用的免配置服务。",
+        "约 300 MB 控制面内存、性能、成本节省、零遥测和停用控制面后应用持续运行等属于官方声明，本次未做基准、安全或故障测试。",
+        "HN 发帖时间不等于首次发布；未取得用户规模、收入或市场需求验证证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977257"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977269"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977257.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/hivepaas/hivepaas"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/hivepaas/hivepaas/blob/main/docs/DEVELOPMENT.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hivepaas.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo1.hivepaas.com/"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "开发者工具",
+        "应用部署",
+        "Docker Swarm",
+        "网页管理面板"
+      ]
+    },
+    {
+      "id": "hacker_news:49977176",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977176",
+      "title": "Data Color Tool",
+      "url": "https://imperavi.com/data/color-tool/",
+      "canonicalUrl": "https://imperavi.com/data/color-tool/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977176",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977176",
+      "publishedAt": "2026-10-06T11:58:50Z",
+      "discoveredAt": "2026-10-06T12:43:39Z",
+      "audience": "需要为图表、数据报告或仪表盘挑选配色的数据可视化作者、设计师与前端开发者。",
+      "what": "面向数据可视化的浏览器色板工具，界面提供分类、顺序和发散三类色阶，可调整颜色数量、饱和度和明暗，锁定或修改基色，并在饼图、环图、折线、条形、柱形及矩形树图中预览；另有三类色觉缺陷模拟与 HEX、CSS、SVG 复制入口。",
+      "why": "官网作者在配套文章中明确表示，制作工具是为了加快选择和调整颜色，并默认生成协调的组合；文章强调配色应服从数据含义、图表形式和阅读重点。HN 提交者 lessio 与文章作者的身份关系未独立确认。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://imperavi.com/blog/how-i-build-color-palettes-for-data-visualization/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖及官方 API，核查时无评论。普通 HTTP 读取官网返回 403，随后在自有云端浏览器成功读取完整工具界面与配套作者文章。仅检查初始界面和说明，未操作生成、参数调整、色觉模拟或复制导出，不能视为交互实测。",
+        "checkedAt": "2026-10-06T12:43:39Z"
+      },
+      "caveats": [
+        "色觉模拟是辅助检查，不保证图表满足无障碍要求；仍需在实际背景、细线与图例尺寸下检查，并结合文字或形状区分。",
+        "未检查生成算法、复制格式、跨浏览器兼容性或隐私实现；页面可读不等于全部功能经过验证。",
+        "HN 发帖时间不代表首次上线时间；未取得用户量、商业收入或需求验证证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977176"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977176.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imperavi.com/data/color-tool/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imperavi.com/blog/how-i-build-color-palettes-for-data-visualization/"
+        }
+      ],
+      "tags": [
+        "数据可视化",
+        "配色",
+        "设计工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49977126",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977126",
+      "title": "FixMyContract",
+      "url": "https://www.fixmycontract.com/try",
+      "canonicalUrl": "https://www.fixmycontract.com/try",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977126",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977126",
+      "publishedAt": "2026-10-06T11:52:51Z",
+      "discoveredAt": "2026-10-06T12:43:39Z",
+      "audience": "签署租约、雇佣文件、保密协议或客户合同前，希望先读懂风险条款的租客、自由职业者、员工与小企业。",
+      "what": "AI 合同初读工具：上传 PDF、照片、Word 或 Excel，选择自己在合同中的角色，获得按风险分级的发现、对应原文引句和可向对方提出的修改请求，并可生成请求修改的邮件草稿；付费功能包含替代措辞，Pro 及以上还可比较合同新旧版本。无需账号的试用最多 10 页，完整展示最重要的两项发现。",
+      "why": "官网团队自述，经常碰到合同只给一两天答复，却需要在艰涩长文、直接签字与未预算的律师费用之间选择；因此想让日常小合同也能被读懂，给出具体修改请求，而不是替用户决定是否签署。HN 提交者 kiranbuilds 与运营者的身份关系未独立确认。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.fixmycontract.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网试用页、首页与 About。API 显示无可见评论，关联的一条评论已标记 dead/flagged，不作为证据。未上传合同、登录、付款或运行分析，原文匹配、法律解释准确性与版本对比均未实测。",
+        "checkedAt": "2026-10-06T12:43:39Z"
+      },
+      "caveats": [
+        "仅为信息性 AI 分析，不能替代合格律师；引文与原文一致不代表法律解释正确，官网公开测试亦未评判解释正确性。",
+        "试用与付费配额不同；官网列单份报告 9 美元，Pro 每月 19 美元、Expert 每月 79 美元，价格及限制可能变化。",
+        "官网声明加密、不用于模型训练，并对匿名与登录用户设不同删除规则；本次没有审计数据流或删除执行情况，不构成隐私保证。",
+        "HN 发帖时间不代表首次上线时间；未取得独立用户量、收入或需求验证证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977126"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977126.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.fixmycontract.com/try"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.fixmycontract.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.fixmycontract.com/"
+        }
+      ],
+      "tags": [
+        "合同",
+        "AI",
+        "法律信息"
+      ]
+    },
     {
       "id": "hacker_news:49977013",
       "provider": "hacker_news",
