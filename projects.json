@@ -1,9 +1,464 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T15:45:51Z",
-  "count": 168,
+  "updatedAt": "2026-10-06T16:54:37Z",
+  "count": 175,
   "projects": [
+    {
+      "id": "hacker_news:49980899",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980899",
+      "title": "Code Royale",
+      "url": "https://coderoyale.app/",
+      "canonicalUrl": "https://coderoyale.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980899",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980899",
+      "publishedAt": "2026-10-06T16:38:45Z",
+      "discoveredAt": "2026-10-06T16:54:37Z",
+      "audience": "想和朋友进行限时编程对战的程序员、编程学习者，以及希望自行托管此类活动的开发者。",
+      "what": "免费开源的多人网页编程游戏。创建房间并分享代码或链接后，房主选择难度，所有玩家在相同时限内解决同一道题；支持 Python、JavaScript、TypeScript、Go、Java、C、C++ 和 Rust，并提供自动补全。可多次运行示例，正式提交用隐藏测试评分，通过数优先、提交速度用于打破平局，赛后可查看彼此代码。",
+      "why": "作者在 HN 原帖明确说，自己和朋友以前玩 CodinGame 的 Clash of Code，但其中有些地方不合心意，于是决定做自己的版本；仓库进一步说他们想在空闲时一起玩一个好用的编程游戏。作者没有具体说明不满意哪些功能。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49980899",
+          "https://github.com/eduardokairalla1/code-royale"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖和官方 API（核查时无评论）、官网 HTML、公开前端资源及 GitHub README。确认官网提供游戏入口，前端含昵称、创建房间和加入房间控件，README 说明比赛规则和自托管方式；未创建或加入房间、提交代码、运行游戏、安装或自托管，未验证多人同步、判题和隔离安全。",
+        "checkedAt": "2026-10-06T16:54:37Z"
+      },
+      "caveats": [
+        "作者称无需注册；创建或加入房间仍需输入玩家昵称。官网和 README 列出 TypeScript，HN 原帖的语言清单未单独列出它。",
+        "README 称正式答案只提交一次，倒计时结束会自动提交编辑器内容，赛后其他玩家可查看代码；不宜把私有代码或凭据作为答案。",
+        "自托管要求 Docker Compose v2、约 12 GB 磁盘及自行配置运行环境；MIT 开源不等于已经完成安全审计。",
+        "本次只核查公开页面与资源，未验证实际游戏可用性；HN 时间为发帖时间，不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980899"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980899.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://coderoyale.app/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/eduardokairalla1/code-royale"
+        }
+      ],
+      "tags": [
+        "编程游戏",
+        "多人对战",
+        "网页应用",
+        "开源",
+        "自托管"
+      ]
+    },
+    {
+      "id": "hacker_news:49980892",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980892",
+      "title": "Sidekins 网页角色设计演示",
+      "url": "https://www.sidekins.com/",
+      "canonicalUrl": "https://www.sidekins.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980892",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980892",
+      "publishedAt": "2026-10-06T16:38:11Z",
+      "discoveredAt": "2026-10-06T16:54:37Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980892"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980892.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.sidekins.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.sidekins.com/about"
+        }
+      ],
+      "audience": "想在浏览器体验像素角色外观设计和陪伴式界面的用户，以及考虑使用 Sidekins Mac 桌面应用的人。",
+      "what": "Sidekins 主产品是带社交功能的 Mac 像素桌面助手；此次收录限于官网内嵌、无需安装即可进入的角色设计演示。网页包含随机角色、文字描述生成、改名和本浏览器保存界面，并展示角色动作、换装与页面引导；无需安装即可查看和进入设计器。完整屏幕理解、代办与好友桌面互访仍属于原生 Mac 应用。",
+      "why": "作者未说明个人制作动机。HN 发帖者 18kage 自称独立开发者，介绍了可自定义桌面角色、指导操作、代办和好友互动；官网 About 标明制作者是印度独立开发者 Kushal Jain，但所读一手页面没有说明为何开始制作。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49980892",
+          "https://www.sidekins.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API（核查时无评论）、官网与 About；在云端浏览器打开 Make it yours 设计器，确认随机造型、描述生成、改名、每日额度和浏览器内保存入口，并核查对应客户端逻辑。官网公开前端代码也包含描述生成请求及本地保存逻辑；未提交描述、生成角色、登录、下载或安装，未验证生成质量和原生功能。",
+        "checkedAt": "2026-10-06T16:54:37Z"
+      },
+      "caveats": [
+        "这是网页角色设计演示的收录，不能把它当成完整 Web 版桌面助手；官网描述的屏幕操作、研究代办及好友互访需 Mac 原生应用。",
+        "设计器显示文字描述生成每天三次，随机生成另有入口；本次只读核查，没有消耗生成额度，后端是否成功返回角色尚未实测。",
+        "完整应用要求 Apple Silicon Mac、macOS 11 或以上以及 Google 登录；免费起用仍有消息/代办额度，Pro 详情和费用未核实。",
+        "描述生成会向站点服务器发送输入描述和当前造型；本地保存不代表全部处理都在本机。未确认角色可导出或迁移到 Mac 应用；原生应用“不保存截图”等隐私声明未经本次审计。",
+        "HN 发帖时间不代表产品首次上线时间。"
+      ],
+      "tags": [
+        "像素角色",
+        "网页演示",
+        "角色设计",
+        "Mac 配套工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49980501",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980501",
+      "title": "FoundrRadio",
+      "url": "https://foundrradio.live/",
+      "canonicalUrl": "https://foundrradio.live/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980501",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980501",
+      "publishedAt": "2026-10-06T16:05:06Z",
+      "discoveredAt": "2026-10-06T16:54:37Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980501"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980501.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://foundrradio.live/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://foundrradio.live/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://foundrradio.live/how-it-works"
+        },
+        {
+          "type": "official_site",
+          "url": "https://foundrradio.live/discover"
+        }
+      ],
+      "audience": "想听个人直播电台的听众，以及希望开设在线音乐、谈话或专题广播的独立创作者和小型社群。",
+      "what": "采用复古收音机拨盘的网络直播电台平台。用户可按虚拟频率和内容类型发现电台；广播者可认领频道、设置电台资料，并通过网页 Studio 使用麦克风或电脑音频直播。官网用 88.0–108.0 的 201 个频道编号模拟 FM 调谐体验，属于互联网音频服务。",
+      "why": "作者 theanimeshs 在 HN 说，自己喜欢老式收音机调台、听音乐和新闻的感觉，但人们通常只能做听众，少有机会拥有自己的频率并广播，因此想把发现电台和让任何人开台结合起来。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49980501"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API（核查时无评论）、官网首页、公开电台目录、Manifesto 和使用指南；云端浏览器可见虚拟调谐器及开播/停播频道列表。未登录、认领或付费购买频道、授权麦克风、播放或发起直播，未测试音频传输质量。",
+        "checkedAt": "2026-10-06T16:54:37Z"
+      },
+      "caveats": [
+        "频道是平台内的虚拟编号，不是现实无线电频谱或广播牌照。",
+        "官方说明称频道需购买，实际播出要创建账户并保持 Studio 网页开启；本次未进入结账，价格、额度与持续可用性未核实。",
+        "官网强调以直播为主，停播频道不提供点播节目；目录的在线状态只是核查时的页面标记，不能当成实际听众数量或稳定性证据。",
+        "使用麦克风或电脑音频会涉及录音权限及内容播出责任；本次未核查版权合规或平台安全。HN 发帖时间不代表首次上线时间。"
+      ],
+      "tags": [
+        "网络电台",
+        "音频直播",
+        "创作者工具",
+        "网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49980492",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980492",
+      "title": "Mission Shadow",
+      "url": "https://missionshadow.com/",
+      "canonicalUrl": "https://missionshadow.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980492",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980492",
+      "publishedAt": "2026-10-06T16:04:19Z",
+      "discoveredAt": "2026-10-06T16:54:37Z",
+      "audience": "喜欢潜行、程序化地图和短局单人行动游戏，使用桌面或笔记本电脑的玩家。",
+      "what": "基于 Three.js 的免费 3D 浏览器潜行游戏：从飞机跳伞进入程序化生成的岛屿，躲避巡逻、摄像头与灯光，完成窃取情报或破坏目标等任务后前往直升机撤离点。官网介绍了视线与声响侦测、藏匿、训练靶场、时段和天气变化；可用岛屿代码让朋友进入相同地图，并在结束后比较分数。",
+      "why": "作者未说明制作动机。HN 原帖只有“用 Three.js 做了浏览器 3D 潜行游戏”的标题，没有正文；核查时唯一评论来自其他用户，官网说明玩法与产品特点，未给出作者的创作缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49980492",
+          "https://missionshadow.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 与全部现有评论（1 条，非作者），并读取官网 HTML 和公开客户端资源。确认首页说明和客户端中有开始行动、训练场、新岛屿、天气与键位界面；未执行游戏脚本或开始行动，未实测 WebGL 渲染、性能、敌人 AI、任务完成和分享功能。",
+        "checkedAt": "2026-10-06T16:54:37Z"
+      },
+      "caveats": [
+        "官网称无需下载、安装或账户；运行仍需启用 JavaScript 和支持 WebGL 的浏览器，并建议使用键盘鼠标的桌面或笔记本电脑。",
+        "官网关于现代浏览器兼容性和游戏机制的说明未经本次实玩验证，移动设备表现也未核查。",
+        "岛屿代码用于复用地图，不代表多人联机；客户端说明任务会随完成一局或返回菜单而改变。",
+        "包含虚构战斗、武器和击倒守卫情节；HN 时间为发帖时间，不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980492"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980492.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://missionshadow.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980677.json"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "潜行游戏",
+        "Three.js",
+        "WebGL",
+        "程序化地图"
+      ]
+    },
+    {
+      "id": "hacker_news:49980477",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980477",
+      "title": "Orbit",
+      "url": "https://orbit-cli.com/",
+      "canonicalUrl": "https://orbit-cli.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980477",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980477",
+      "publishedAt": "2026-10-06T16:03:18Z",
+      "discoveredAt": "2026-10-06T16:54:37Z",
+      "audience": "同时使用 Claude Code、Codex、Cursor 等编码代理，希望管理并行任务、审查交付过程并追溯代码决策的个人工程师、技术负责人和创始工程师。",
+      "what": "本地优先的编码代理任务与交付系统，附带自托管浏览器仪表板。用户可在网页查看和搜索任务、审批或拒绝待办、发起交付、检查运行步骤与失败原因、查看审计记录，以及按权限编辑任务、代理组合和配置；底层通过独立 Git worktree、文件锁和检查关卡协调多个已有编码代理，将任务推进到 pull request。也可通过 SSH 隧道打开另一台机器上的控制台。",
+      "why": "官方 README 解释，编码代理生成代码越来越快，规划、审查和可追溯性反而容易被省略，几个月后可能无人能解释某行代码为何存在，因此希望降低这些工程纪律的执行成本，把需求、计划、审查与提交关联起来。作者在 HN 评论中进一步把目标概括为打通“代理完成工作”到“PR 真正交付”的路径，未分享更具体的个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/constellation-works/orbit",
+          "https://news.ycombinator.com/item?id=49980497",
+          "https://github.com/constellation-works/orbit/blob/agent-main/docs/POSITIONING.md"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及唯一作者评论、官方 README、定位与架构说明，并在云端浏览器核对 Dashboard 官方指南。确认产品包含可审批、发起任务、检查运行和编辑配置的实用浏览器界面，而非纯 CLI。未安装、启动本地服务、连接代理或仓库、修改配置或执行交付；网页能力依据官方说明与界面图核查，未实际运行。",
+        "checkedAt": "2026-10-06T16:54:37Z"
+      },
+      "caveats": [
+        "需要自行安装并运行，官网是介绍和文档，不是免安装托管工作台。官方定位为免费 MIT 开源项目，无收费档或托管版本；使用已有模型账户产生的费用仍需自行承担。",
+        "需要 macOS 或 Linux、Node.js 18+ 和至少一个已登录的编码代理 CLI；PR 流程还需要已登录的 GitHub CLI。项目仍为 1.0 前版本，次版本可能带来破坏性变更。",
+        "Dashboard 默认仅监听本机回环地址且没有登录机制；能访问该端口或转发端口的人可以使用服务进程权限调用写接口。远程使用应遵循官方 SSH 隧道说明，勿将端口直接公开。",
+        "默认 PR 交付停在待审查阶段；显式启用完成选项可以合并 PR。具体模式和权限决定实际副作用，不能把所有运行都理解为只读审查。",
+        "本次没有验证沙箱隔离、文件锁可靠性、审计完整性、并行性能或代码交付质量；官网演示录像为此前工作区记录。",
+        "HN 时间为本次发帖时间，不代表项目首次发布。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980477"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980497"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980477.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/constellation-works/orbit"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/constellation-works/orbit/blob/agent-main/docs/POSITIONING.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://orbit-cli.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://orbit-cli.com/how-to/dashboard/"
+        }
+      ],
+      "tags": [
+        "AI 编码代理",
+        "开发者工具",
+        "任务管理",
+        "代码审查",
+        "自托管",
+        "网页仪表板"
+      ]
+    },
+    {
+      "id": "hacker_news:49980418",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980418",
+      "title": "AI Circuit Breaker",
+      "url": "https://circuit-breaker-sage.vercel.app/",
+      "canonicalUrl": "https://circuit-breaker-sage.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980418",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980418",
+      "publishedAt": "2026-10-06T15:59:22Z",
+      "discoveredAt": "2026-10-06T16:54:37Z",
+      "audience": "通过 OpenAI 兼容接口运行自主代理、担心重复工具调用或失控重试耗尽模型预算的独立开发者和工程团队。",
+      "what": "面向代理请求的托管反向代理和成本防护服务。用户通过网站账户控制台管理保护密钥、查看额度与用量，把 SDK 的 base URL 换成其网关后，由服务按重复请求指纹检测循环，并检查小时和每日预算上限。公开网页另有逐步请求模拟、接入文档和费用估算器；模拟用于解释拦截流程，不是真实代理执行。",
+      "why": "作者 Roan de Jager 在官网以第一人称说明，一个自主代理曾陷入递归工具重试，一夜消耗数百美元 API 额度，因此制作了 Circuit Breaker，希望在类似失控请求继续消耗预算前加上一层检测和硬性费用上限。首页另一个 45 分钟损失 680 多美元的展示被明确标为假设案例，不能与作者经历混为一谈。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://circuit-breaker-sage.vercel.app/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖与官方 API、官网、文档、价格页、登录入口及公开健康端点，并在云端浏览器查看文档。健康端点返回 online、版本 0.1.0；文档说明可在 Dashboard 管理保护密钥与预算用量。未注册、登录、生成或提交密钥、发送模型请求、购买或测试实际拦截。HN 唯一评论由作者发布但已标为 dead，API 仅返回 [flagged]，无法阅读其原文。",
+        "checkedAt": "2026-10-06T16:54:37Z"
+      },
+      "caveats": [
+        "控制台需账户登录，本次未进入账户内界面；健康端点在线只说明服务可响应，不代表循环检测、预算限制或真实上游转发已经通过验证。",
+        "核查时免费档支持每月 15 美元的被监控模型支出；Pro 为每月 29 美元，列示不限被监控支出和每小时 50 美元、每天 200 美元的上限。被监控额度不等于赠送模型 API 额度，模型费用需另计。",
+        "首页请求轨迹、损失案例和节省金额计算均为模拟或假设值；低于 35 毫秒等延迟是工程目标，非本次测量结果。",
+        "上游请求会经过该网关。官网称提示词仅在内存处理、上游密钥加密保存且记录用量与运行元数据；这些隐私、安全和密钥处理说法未经本次独立审计，接入前仍需核对组织的数据与凭据政策。",
+        "本次明确核对的是 OpenAI 兼容 chat completions 接入说明，不能据此保证所有模型供应商、复杂重试或变形循环都能被识别。",
+        "HN 时间为本次发帖时间，不代表服务首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980418"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980418.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980424.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://circuit-breaker-sage.vercel.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://circuit-breaker-sage.vercel.app/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://circuit-breaker-sage.vercel.app/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://circuit-breaker-sage.vercel.app/login"
+        },
+        {
+          "type": "official_site",
+          "url": "https://circuit-breaker-api.onrender.com/health"
+        }
+      ],
+      "tags": [
+        "AI 代理",
+        "API 网关",
+        "预算控制",
+        "循环检测",
+        "开发者工具",
+        "网页控制台"
+      ]
+    },
+    {
+      "id": "hacker_news:49980174",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980174",
+      "title": "Fill Gates",
+      "url": "https://fillgates.com/",
+      "canonicalUrl": "https://fillgates.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980174",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980174",
+      "publishedAt": "2026-10-06T15:41:53Z",
+      "discoveredAt": "2026-10-06T16:54:37Z",
+      "audience": "喜欢每日益智题、逻辑门和数字电路推理的玩家。",
+      "what": "每日逻辑电路网页谜题：切换输入开关，让电路输出匹配目标，并尽量减少翻转次数。页面提供往期谜题归档、统计、计时与提示；公开客户端还包含逻辑门参考、线路探查、撤销、检查点和练习入口，供玩家逐步推理电路状态。",
+      "why": "作者在 HN 原帖明确说，灵感来自一本漫画书里的谜题，觉得很好玩，想以不那么繁琐的方式继续解更多同类题目；发帖时也在寻找合适的难度和每日解题时长，并向试玩者征集题号及用时反馈。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49980174"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖与官方 API（核查时无评论）、官网 HTML 及公开客户端资源中的帮助、规则、归档路由和条款。确认游戏界面与练习/归档入口存在；未实际解题、提交反馈或复制谜题内容，未验证每日题目覆盖范围、唯一解、难度平衡和统计准确性。",
+        "checkedAt": "2026-10-06T16:54:37Z"
+      },
+      "caveats": [
+        "官网条款称免费游玩，进度和统计保存在当前设备的浏览器中；清除网站数据会丢失记录，也不会自动跨浏览器或设备同步。本次未进行运行时隐私审计。",
+        "帮助说明整题揭晓会结束连续记录，并在归档中标为放弃；提示与操作次数会影响成绩展示。",
+        "作者仍在征集难度和解题时长反馈，不能据此认为难度已经稳定或存在经验证的学习效果。",
+        "条款禁止复制或重新发布谜题，以及用自动工具获取不公平优势；HN 时间为发帖时间，不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980174"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980174.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fillgates.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fillgates.com/#/terms"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fillgates.com/#/archive"
+        }
+      ],
+      "tags": [
+        "每日谜题",
+        "逻辑电路",
+        "益智游戏",
+        "网页应用"
+      ]
+    },
     {
       "id": "hacker_news:49979862",
       "provider": "hacker_news",
