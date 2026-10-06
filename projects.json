@@ -1,9 +1,297 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T16:54:37Z",
-  "count": 175,
+  "updatedAt": "2026-10-06T17:50:27Z",
+  "count": 180,
   "projects": [
+    {
+      "id": "hacker_news:49981384",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49981384",
+      "title": "Vyasa",
+      "url": "https://vyasa.site/",
+      "canonicalUrl": "https://vyasa.site/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49981384",
+      "hnUrl": "https://news.ycombinator.com/item?id=49981384",
+      "publishedAt": "2026-10-06T17:15:50Z",
+      "discoveredAt": "2026-10-06T17:50:27Z",
+      "audience": "希望自行托管博客、内容网站或结构化内容后台，并愿意维护 Rust 服务与 PostgreSQL 的开发者和站点管理员。",
+      "what": "开源、自托管的 Web 内容管理系统，定位为 Rust 编写的 WordPress 替代品。官方文档说明有浏览器管理后台、区块与字段编辑器、自定义内容类型、角色权限、主题工作室，以及 REST／GraphQL 接口；主题以设计数据与受限模板构成，插件作为 WebAssembly 组件运行。可选 AI 功能覆盖写作辅助、主题设计、搜索与 MCP 内容管理，需自行配置模型服务。官网提供可公开浏览的示例站和管理后台演示入口。",
+      "why": "官方博客署名 Gopal 的作者以第一人称说明，自己运行过的 WordPress 网站曾被有漏洞或被植入后门的插件破坏；由于插件通常拥有宿主应用的全部权限，他因此围绕“插件只能使用声明并获准的能力，且每次调用都检查”这一原则构建 Vyasa。HN 发帖者 techgopal 没有补充说明，本次未独立确认其与博客署名作者的身份对应。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://vyasa.site/blog/a-plugin-should-not-read-your-users-table"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖与官方 API（核查时无正文、无评论）、官网、GitHub README、入门指南、功能矩阵、AI 配置文档和作者博客；公开演示首页返回带示例文章的站点，/admin 返回管理应用入口。未登录演示、创建内容、调用 AI、安装软件或自托管；编辑、导入、插件隔离和性能均未实测。",
+        "checkedAt": "2026-10-06T17:50:27Z"
+      },
+      "caveats": [
+        "项目处于 1.0 之前的阶段；README 提醒 API 可能随小版本变化，数据库迁移仅支持向前，升级前需要备份。",
+        "自托管需 PostgreSQL 15+；文档按单节点产品设计，尚无多站点与水平扩展支持。公开演示声明每小时重置，不适合保存实际工作。",
+        "AI 需自行提供并付费使用模型服务；文档说明相关集成默认关闭。若未设置部署密钥，保存的模型 API 密钥会以明文存储，生产环境配置需特别检查。",
+        "插件沙箱和权限机制是官方设计说明，未经本次独立安全审计；作者也明确指出插件仍可滥用已授予权限，宿主自身漏洞不受沙箱保护。",
+        "文档存在版本不同步：功能矩阵仍写插件市场未构建，而官网与较新的作者博客、README 已介绍市场。应按具体版本核对；HN 时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49981384"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49981384.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vyasa.site/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.vyasa.site"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vyasa.site/docs/getting-started"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vyasa.site/docs/features"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vyasa.site/docs/using/ai-models"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vyasa.site/blog/a-plugin-should-not-read-your-users-table"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/vyasa-cms/vyasa"
+        }
+      ],
+      "tags": [
+        "内容管理",
+        "自托管",
+        "开源",
+        "Rust",
+        "网页后台",
+        "AI 辅助写作"
+      ]
+    },
+    {
+      "id": "hacker_news:49981383",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49981383",
+      "title": "Deploylist",
+      "url": "https://deploylist.com/",
+      "canonicalUrl": "https://deploylist.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49981383",
+      "hnUrl": "https://news.ycombinator.com/item?id=49981383",
+      "publishedAt": "2026-10-06T17:15:47Z",
+      "discoveredAt": "2026-10-06T17:50:27Z",
+      "audience": "想随意发现有趣网页应用、小游戏和独立网站的用户，以及寻找产品与交互灵感的独立开发者。",
+      "what": "把 Hacker News 和多个 Reddit 社群的高票独立网站整理成 StumbleUpon 式发现站。提供可在页面内逐个浏览网站的 Live feed，以及附投票数、来源讨论和原站链接的榜单；可按应用、游戏、其他类型与最近一周／一个月筛选。作者称每三天自动采集一次，重点选择可在浏览器直接访问的独立项目；不允许嵌入或检查时无法访问的站点仍可出现在榜单，但不会进入 Live feed。",
+      "why": "作者 henry-xli 在 HN 明确说，自己看到独立开发不断增长，但不少复刻 StumbleUpon 的尝试因收录内容不够好而失去吸引力，因此想借助论坛投票来筛选项目，让用户快速浏览、获取创作灵感，并重新感受探索互联网的乐趣。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49981383"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖与官方 API（核查时无评论）、官网首页、Live feed、榜单、页面实际加载的 JavaScript 和公开项目数据。确认有分类／时间筛选、随机内嵌浏览及来源链接逻辑，公开数据包含 256 条记录；未在浏览器实际切换或加载各第三方站点，未验证每个网站的可用性或数据采集任务。",
+        "checkedAt": "2026-10-06T17:50:27Z"
+      },
+      "caveats": [
+        "“Live feed”指逐个查看网站的浏览界面，并不代表实时抓取；检查到的数据快照生成于 2026-10-06 03:59 UTC，作者称每三天更新。",
+        "榜单依据所选社群的投票与采集规则，不能视为全网质量排名；不同社群票数不能直接代表产品用户规模或成功程度。",
+        "内嵌浏览会连接第三方网站，且受其嵌入与安全策略限制；本次仅核对公开页面、前端逻辑和数据，未实测完整交互。",
+        "HN 时间为此次发帖时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49981383"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49981383.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://deploylist.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://deploylist.com/live/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://deploylist.com/leaderboards/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://deploylist.com/data/sites.json"
+        }
+      ],
+      "tags": [
+        "网站发现",
+        "独立开发",
+        "网页应用",
+        "Hacker News",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "hacker_news:49981302",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49981302",
+      "title": "KitDecoder",
+      "url": "https://kitdecoder.com/",
+      "canonicalUrl": "https://kitdecoder.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49981302",
+      "hnUrl": "https://news.ycombinator.com/item?id=49981302",
+      "publishedAt": "2026-10-06T17:09:45Z",
+      "discoveredAt": "2026-10-06T17:50:27Z",
+      "audience": "经常做网页抓取、数据提取和文本清理的开发者，以及需要临时编码解码、格式化、比较和转换数据的用户。",
+      "what": "免费、无需账号的浏览器开发者工具集合，把 Base64／URL／HTML 编解码、JSON／XML／SQL 格式化、JSON Schema 校验、文本比较、正则测试、CSV／YAML 转 JSON、JWT 解码和 Cron 解析等放在统一界面。另有 Beta 版 Regex Pipeline，可串联提取、替换、解码、去标签和大小写变换，并展示每一步的前后结果；支持英文／西班牙文、明暗主题及键盘操作。",
+      "why": "作者 MetcoreB 在 HN 明确说，过去几年一直做网页抓取和数据提取，经常需要解码、比较、测试和编辑文本／数据的小工具，因此决定把其中一些集中到一个地方，也希望其他开发者和数据工作者能用上。官网 About 进一步将痛点归纳为每个小任务都要寻找不同网站，界面、操作习惯、广告和登录门槛各不相同。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49981302",
+          "https://kitdecoder.com/about/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API（核查时无评论）、官网目录、About、隐私说明、JSON Formatter 和 Regex Pipeline 页面，并检查公开客户端目录及相关处理模块。确认这些页面有输入／输出、格式化／压缩、流水线步骤和示例说明，客户端包含 JSON 处理和正则流水线实现；未向工具输入数据、运行页面转换或进行网络隐私审计，不能视为全部工具逐项实测。",
+        "checkedAt": "2026-10-06T17:50:27Z"
+      },
+      "caveats": [
+        "官网声称工具输入在浏览器本地处理，部分公开处理代码与此相符；但隐私页同时披露每页加载 Google AdSense，页面源码也有广告及 Cloudflare 统计脚本。输入本地处理不代表页面完全不联系第三方，不能据此绕过单位的数据或安全政策。",
+        "较大输入受设备内存和 CPU 限制；JSON 与正则页面显示超过 1 MB 会暂停实时处理，需手动继续。没有账号同步历史或跨设备项目保存。",
+        "Regex Pipeline 仍标为 Beta，采用固定的大小写不敏感和 dotAll 匹配，不支持自由选择全部正则标志；处理的是字符串，不是完整 DOM／JSON 解析。与 Sequentum 的兼容性尚未实测。",
+        "这是数据处理工具集合，并非自动抓取网站的完整爬虫平台。About 将需要实际 HTTP 请求的 Request Tester 列为计划中的例外，当前不应当作已可用功能。",
+        "本次没有逐项验证转换正确性、大文件性能、离线缓存或隐私承诺；HN 时间为发帖时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49981302"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49981302.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://kitdecoder.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://kitdecoder.com/about/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://kitdecoder.com/privacy/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://kitdecoder.com/formatters/json-formatter/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://kitdecoder.com/text/regex-pipeline/"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "数据清理",
+        "编码解码",
+        "正则表达式",
+        "浏览器工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49981104",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49981104",
+      "title": "Mock Freeli 网页歌曲推荐器",
+      "url": "https://mockfreeli.org/",
+      "canonicalUrl": "https://mockfreeli.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49981104",
+      "hnUrl": "https://news.ycombinator.com/item?id=49981104",
+      "publishedAt": "2026-10-06T16:54:36Z",
+      "discoveredAt": "2026-10-06T17:50:27Z",
+      "audience": "为视频、直播、播客寻找相似风格配乐的创作者，以及想按已有歌曲查找可用授权替代曲目的剪辑师。",
+      "what": "无需安装即可使用的网页歌曲推荐器：粘贴 YouTube 歌曲链接，寻找五首风格相近的候选配乐，可选择 Internet Archive、NCS 和 YouTube Audio Library 来源。网页结果提供歌曲、相似度、节拍与调性、来源许可及署名文案，并有播放、复制署名和分享结果入口；公开浏览目录可直接查看已有推荐。本次 HN 帖发布的是配套 Chrome 扩展，收录范围是独立网页服务及其公开结果页面。",
+      "why": "作者 ianhil 在 HN 明确说，此前已经发布过 Mock Freeli 服务，这次做 Chrome 扩展是为了让它更容易使用，让用户在 YouTube 找到喜欢的歌后直接请求相似配乐。作者未说明最初创建网页服务的个人动机，不能把扩展更新当成服务首次发布。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49981104"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 评论树、Chrome 商店说明、官网 HTML 与内嵌前端逻辑、公开歌曲目录、ABBA 示例结果和隐私页。确认网页有 YouTube URL 输入及推荐请求逻辑，示例页面列出五首结果、来源许可和署名文案；未提交新推荐、播放音频或安装扩展，未验证匹配质量与曲目权利。公开可读评论没有作者补充；API 中另有标为屏蔽或删除的回复，无法读取其实际内容。",
+        "checkedAt": "2026-10-06T17:50:27Z"
+      },
+      "caveats": [
+        "“License-free”是站点用语，不等于所有曲目均无版权或不需署名；示例同时列出 CC BY、公共领域和 YouTube Audio Library 等不同许可，需逐条核对使用条件。网站明确说 Internet Archive 许可来自上传者声明，本次没有审计其权属或授权准确性。",
+        "网页推荐需要向服务端发送所选 YouTube 视频 ID。隐私页称服务器会短暂提取音频片段计算相似度，并为公开视频保留视频 ID、公开标题、频道和推荐结果以供缓存及公开分享；这不是完全本地处理，隐私声明未经独立审计。",
+        "商店说明包含“已审核曲库”“不读取历史”等开发者声明，不能替代独立安全或授权核验；Chrome 商店的数据披露类别包含浏览记录。扩展未安装，权限与实际行为未测试。",
+        "本次仅核查公开页面和前端资源，未验证新推荐的成功率、音频播放或性能；HN 时间是这次扩展发帖时间，不是网页服务首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49981104"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49981104.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mockfreeli.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mockfreeli.org/browse"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mockfreeli.org/r/xFrGuyw1V8s/abba-dancing-queen"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mockfreeli.org/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://chromewebstore.google.com/detail/mockfreeli-license-free-m/aoggplkmpefenfgaclipbbgcpaaheneg"
+        }
+      ],
+      "tags": [
+        "配乐发现",
+        "音乐推荐",
+        "网页工具",
+        "视频创作",
+        "Chrome 配套服务"
+      ]
+    },
     {
       "id": "hacker_news:49980899",
       "provider": "hacker_news",
@@ -120,6 +408,71 @@
         "网页演示",
         "角色设计",
         "Mac 配套工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49980749",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49980749",
+      "title": "SPrav Job AI",
+      "url": "https://sprav-jobai.vercel.app/",
+      "canonicalUrl": "https://sprav-jobai.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49980749",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980749",
+      "publishedAt": "2026-10-06T16:26:57Z",
+      "discoveredAt": "2026-10-06T17:50:27Z",
+      "audience": "希望把岗位查找、简历调整、面试准备和申请记录放在浏览器内管理的求职者，尤其是开发者、数据科学与工程岗位候选人。",
+      "what": "浏览器端求职工具，公开应用资源包含岗位搜索、简历工作区、面试准备、申请跟踪及职业资料界面。官方说明可查询 Greenhouse、Lever、Ashby 等招聘系统的公开岗位，按目标岗位辅助调整简历并导出 PDF／DOCX；AI 可选浏览器 WebGPU、本地 Ollama 或自行提供密钥的外部模型服务。应用以本地浏览器存储为核心，官网称个人非商业求职用途免费、无需账号。",
+      "why": "作者未说明个人制作动机。HN 投稿者 SVSPraveen 未提供正文，可见评论无补充，官方 API 中的作者评论仅返回被标记的占位内容。官网将 SVS Praveen 列为创建者，公开 About 说明其产品目标是把求职流程集中到本地优先、无需订阅的工具中；这只是官方目标，不能据此推断作者的个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49980749",
+          "https://sprav-jobai.vercel.app/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 item 与作者评论 API，以及官网 HTML、页面加载的应用资源、岗位与简历工作区、About／许可和文档模块。可确认这是带多个实际工作区的网页应用，而非仅有下载说明；未在浏览器运行工作区、提交简历、查询岗位、生成内容、调用模型或安装软件。官网链接的 Web 应用源码仓库返回 404，About 同时标记其为私有仓库。",
+        "checkedAt": "2026-10-06T17:50:27Z"
+      },
+      "caveats": [
+        "“100% client-side”不等于所有使用场景均不外连：岗位查询依赖第三方招聘系统，选择自带密钥的云端模型时也会联系相应服务；本次未审计数据流、浏览器存储或加密实现。",
+        "本地 WebGPU AI 依赖兼容浏览器与硬件，Ollama 需已有本地运行环境；外部模型可能产生服务商费用。未安装或下载模型，也未验证各模式可用性。",
+        "官方关于岗位数量、岗位真实性、回调提升、隐私及生成速度的宣称未独立验证；不能视为招聘结果保证或用户需求证据。",
+        "许可说明限定免费个人非商业求职用途，主应用源码为专有并非开源；GitHub 公共数据镜像不等于主程序开放源码。",
+        "此次核查为公开资料与客户端资源审阅，不是完整交互测试。HN 时间是来源帖子时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49980749"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980749.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49980774.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sprav-jobai.vercel.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sprav-jobai.vercel.app/assets/AboutLegal-BRokRU6v.js"
+        }
+      ],
+      "tags": [
+        "求职工具",
+        "简历",
+        "网页应用",
+        "本地优先",
+        "WebGPU",
+        "AI 辅助"
       ]
     },
     {
