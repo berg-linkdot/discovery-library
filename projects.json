@@ -1,9 +1,292 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T07:42:14Z",
-  "count": 122,
+  "updatedAt": "2026-10-06T09:40:19Z",
+  "count": 126,
   "projects": [
+    {
+      "id": "hacker_news:49976142",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976142",
+      "title": "DisplayMath：按观看距离比较屏幕大小与视角",
+      "url": "https://displaymath.com/?d=samsung-s95d-77_300cm,lg-g6-97_300cm#canvas",
+      "canonicalUrl": "https://displaymath.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976142",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976142",
+      "publishedAt": "2026-10-06T09:24:42Z",
+      "discoveredAt": "2026-10-06T09:40:19Z",
+      "audience": "正在比较电视、显示器或影院屏幕尺寸，希望结合观看距离、像素密度和摆放空间判断大小的人。",
+      "what": "无需账号的浏览器屏幕尺寸计算器，可从预设或分辨率、对角线、距离计算尺寸、面积、PPI 和视角，并在同一画布比较。此次打开 HN 的 77 英寸与 97 英寸屏幕、3 米观看距离示例，成功切换测量表及英寸/厘米单位；页面给出约 170.5×95.9 厘米和 214.7×120.8 厘米，并显示面积约相差 59%。官网另称支持在兼容 iPhone/iPad 上用 AR 查看真实大小，未实际测试。",
+      "why": "官网首页以第一人称说明：制作者为了比较赴伦敦 BFI IMAX 观看《The Odyssey》时的屏幕视觉大小与家中电视的视觉大小而制作工具。关于页另称项目最早来自挑选显示器的电子表格，因图形比表格更有用而发展为网站；两种起源描述的时间关系未解释。关于页署名 Alex Turbatu，但本次未确认 HN 账号 xcafebabe 与该姓名的对应关系。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://displaymath.com/",
+          "https://displaymath.com/about"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "只读核查 HN 原帖、官方 Firebase API、发布者资料、官网及关于/隐私页；云端浏览器打开原帖提供的双屏比较，实际切换 Measurements 与 in + cm，确认尺寸表随单位改变。独立用 16:9 几何关系复算两屏宽高、PPI 和 3 米水平视角，与界面舍入结果一致。未请求相机、测试 AR、登录、填写或提交表单。",
+        "checkedAt": "2026-10-06T09:40:19Z"
+      },
+      "caveats": [
+        "本轮仅验证双屏预设比较、测量表和单位切换；AR、房间测量、曲面屏模型及其他计算页面未实测。",
+        "官网称 AR 需要受支持的 iPhone 或 iPad；不能将无须安装独立 App 理解为所有设备均支持。",
+        "计算以输入的可视面板尺寸与几何模型为基础，尺寸示例不含边框或支架；未逐一核对预设型号与厂商规格。视角和像素密度也不能保证实际沉浸感、舒适度或画质。",
+        "隐私页说明使用 Umami、Ahrefs Web Analytics 与 Google Ads 转化衡量；共享链接可能包含屏幕名称、尺寸和距离，避免在名称中输入隐私信息。匿名和数据处理保证属运营方说明，本次未审计。",
+        "首页与关于页分别叙述影院比较和选购显示器表格两种起源，未擅自合并成确定时间线。HN 本轮无作者正文或评论；publishedAt 是本条 Show HN 发布时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976142"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976142.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/xcafebabe.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://displaymath.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://displaymath.com/?d=samsung-s95d-77_300cm,lg-g6-97_300cm#canvas"
+        },
+        {
+          "type": "official_site",
+          "url": "https://displaymath.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://displaymath.com/privacy"
+        }
+      ],
+      "tags": [
+        "屏幕尺寸",
+        "电视",
+        "显示器",
+        "计算器",
+        "可视化",
+        "AR"
+      ]
+    },
+    {
+      "id": "hacker_news:49976134",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976134",
+      "title": "photocn：带在线示例的可组合照片编辑器",
+      "url": "https://photocn.dev",
+      "canonicalUrl": "https://photocn.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976134",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976134",
+      "publishedAt": "2026-10-06T09:23:32Z",
+      "discoveredAt": "2026-10-06T09:40:19Z",
+      "audience": "想在 React 与 shadcn/ui 项目中加入图片编辑功能的开发者，以及希望查看完整编辑器、头像裁剪、滤镜等浏览器示例的人。",
+      "what": "开源照片编辑引擎与 React 组件集合，官网提供完整编辑器、精简版、移动版、头像裁剪等公开 Web 演示；开发者也可将组件复制进自己的应用并自行部署。官方文档列出曝光与色彩调整、曲线、13 种滤镜、裁剪旋转、模糊、混合、撤销以及 PNG/JPEG/WebP 导出。此次在线编辑器加载出工具栏和调整面板，但渲染引擎在核查环境中报错，实际编辑与导出效果未验证。",
+      "why": "作者未说明。此次 Show HN 仅有标题和产品链接，没有正文或作者评论；官网和 README 说明了可组合、自行掌握 UI 的产品目标，以及从 mini-photo-editor 提取和重写的技术来源，但未发现作者明确陈述的个人开发动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49976134",
+          "https://github.com/rbbydotdev/photocn"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "只读核查 HN 原帖、官方 Firebase API、发布者资料、官网介绍和文档、GitHub README；在云端浏览器打开 Blocks 与 /view/editor，确认公开编辑器界面和内置示例入口。编辑器明确显示“webgl2 not available in worker context”，未将界面出现视为编辑成功。未上传照片、安装、登录、导出或提交表单。",
+        "checkedAt": "2026-10-06T09:40:19Z"
+      },
+      "caveats": [
+        "本次云浏览器环境未能启用编辑器所需的 worker WebGL2 上下文，无法确认图像渲染、调色、裁剪和导出链路；该结果不等于所有浏览器均无法使用。",
+        "开发者集成需要安装 npm 引擎并通过 shadcn CLI 引入组件；README 使用 Radix 版 shadcn/ui。可以自行部署，但本轮未安装或自托管。",
+        "功能、移动端支持、EXIF 保留和性能描述来自官方文档或仓库，未进行独立兼容性、性能或安全审计。",
+        "HN 发帖账号与官方仓库所有者同为 rbbydotdev，仅据公开账号关联，未独立核实现实身份；本次未发现作者评论。publishedAt 为本条 Show HN 时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976134"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976134.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/rbbydotdev.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://photocn.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://photocn.dev/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://photocn.dev/blocks"
+        },
+        {
+          "type": "official_site",
+          "url": "https://photocn.dev/view/editor"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/rbbydotdev/photocn"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/rbbydotdev/photocn/blob/main/README.md"
+        }
+      ],
+      "tags": [
+        "照片编辑",
+        "开发者工具",
+        "React",
+        "开源软件",
+        "在线演示",
+        "可自行部署"
+      ]
+    },
+    {
+      "id": "hacker_news:49975987",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49975987",
+      "title": "SendOps：使用自有 Amazon SES 的邮件工作流",
+      "url": "https://sendops.dev/",
+      "canonicalUrl": "https://sendops.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49975987",
+      "hnUrl": "https://news.ycombinator.com/item?id=49975987",
+      "publishedAt": "2026-10-06T08:59:11Z",
+      "discoveredAt": "2026-10-06T09:39:42Z",
+      "audience": "已有或准备使用 Amazon SES、需要用户引导、试用转化和唤回邮件的 SaaS 开发者与营销团队；也面向希望用编程代理编写和维护邮件流程的团队。",
+      "what": "基于自有 Amazon SES 账户发送邮件的托管 Web 工作流平台。官网展示可视化客户旅程与可版本化的 SendFlow 定义，介绍通过产品事件触发邮件、等待条件、分支和 webhook，也提供 API/MCP 接口。首页可见旅程示例与应用登录入口；本次未进入账户内的编辑器或验证实际发信。",
+      "why": "HN 发帖者 ksajadi 自述，团队希望用邮件按用户行为与目标帮助其使用产品，又不想为很少触达的联系人持续付费或为压低账单反复调整名单；他们同时希望让编程代理协助构建邮件工作流，因此制作了使用客户自有 SES、采用固定平台订阅费的 SendOps。这是作者在原帖中的解释，其对其他厂商计费方式的概括未作市场核验。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49975987",
+          "https://hacker-news.firebaseio.com/v0/item/49975987.json"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查 HN 原帖、官方 Firebase API、发帖者公开资料与官方首页，并用云端浏览器查看公开旅程示例及应用入口。确认官方介绍与 HN 发帖所指产品一致；未注册、登录、连接 AWS、创建工作流或发送邮件。",
+        "checkedAt": "2026-10-06T09:39:42Z"
+      },
+      "caveats": [
+        "SendOps 是托管平台，使用自己的 SES 账户不等于可以自托管 SendOps。发送工作流需要配置 AWS 账户、发信域名及相关权限，本次未验证完整接入流程。",
+        "官网说明平台不按联系人或邮件数量收费，但 AWS 的 SES 与其他资源用量另行计费，且套餐有团队和资源限制；“固定费用”不等于总成本固定或免费发送。",
+        "可视化编辑、SendFlow、API/MCP、实际投递和触发条件的可靠性均来自官方说明；公开旅程示例不能证明生产工作流已实测。",
+        "官网客户案例、发送规模与营销效果未经独立核验；HN 发帖者作为制作者的身份依据其自述，未独立验证现实身份。publishedAt 是本次 Show HN 发帖时间，不代表首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49975987"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49975987.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/ksajadi.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sendops.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.sendops.dev/login"
+        }
+      ],
+      "tags": [
+        "邮件工作流",
+        "Amazon SES",
+        "营销自动化",
+        "开发者工具",
+        "Web应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49975838",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49975838",
+      "title": "Buscalid：从产品网站寻找潜在企业客户",
+      "url": "https://buscalid.com/",
+      "canonicalUrl": "https://buscalid.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49975838",
+      "hnUrl": "https://news.ycombinator.com/item?id=49975838",
+      "publishedAt": "2026-10-06T08:37:56Z",
+      "discoveredAt": "2026-10-06T09:39:42Z",
+      "audience": "刚发布产品、验证商业想法的独立开发者与创始人，以及希望寻找企业客户的自由职业者和顾问；这些目标人群由官网列明。",
+      "what": "寻找和筛选潜在企业客户的 Web 应用。官网说明，输入自己的产品网站后，它会分析业务、搜索相关公司、按对方网站信息给出 0–100 分匹配评分，并生成待人工审核的邮件草稿。公开首页提供网站输入框和寻找线索按钮，另有完整平台注册入口；本次只查看页面，未运行线索查询。",
+      "why": "作者未说明。HN 发帖者 davidnez 在评论中自称制作者并表示愿意回答问题，但未交代个人经历或制作动机。官网强调帮助新产品找到第一批客户，这是产品目标，不能当作作者动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49975838",
+          "https://news.ycombinator.com/item?id=49975892",
+          "https://buscalid.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查 HN 原帖、作者评论、官方 Firebase API、作者公开资料及官网，并使用云端浏览器确认网站输入框、线索查找按钮、收费方案和注册入口存在。未提交网站、生成线索、注册、连接邮箱、发送邮件或付款。",
+        "checkedAt": "2026-10-06T09:39:42Z"
+      },
+      "caveats": [
+        "线索真实性、匹配评分质量、邮件草稿准确度与实际获客效果均未验证；这些能力目前仅有官方产品说明支持。",
+        "官网称免注册演示可查询 1 家公司，免费账户一次性提供 10 家公司分析；完整工作流需要账户，付费方案与额度可能变化。",
+        "官网 FAQ 表示 Gmail 连接使用 Google 应用专用密码，并自述加密存储、仅发送人工批准的邮件；本次未连接邮箱，也未审计凭据保护、退订或发送控制机制。",
+        "HN 作者身份仅据账号自述；API 中另有一条已标记不可见的评论，未用其推断动机。publishedAt 是 Show HN 发帖时间，不代表首次上线时间；未核实用户量、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49975838"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49975838.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49975892"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49975892.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/davidnez.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buscalid.com/"
+        }
+      ],
+      "tags": [
+        "客户开发",
+        "销售线索",
+        "邮件草稿",
+        "Web应用"
+      ]
+    },
     {
       "id": "hacker_news:49975380",
       "provider": "hacker_news",
