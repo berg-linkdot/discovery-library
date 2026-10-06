@@ -1,9 +1,173 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T03:44:33Z",
-  "count": 117,
+  "updatedAt": "2026-10-06T04:39:51Z",
+  "count": 119,
   "projects": [
+    {
+      "id": "hacker_news:49974089",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49974089",
+      "title": "Capbase",
+      "url": "https://capbase.fyi",
+      "canonicalUrl": "https://capbase.fyi/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49974089",
+      "hnUrl": "https://news.ycombinator.com/item?id=49974089",
+      "publishedAt": "2026-10-06T04:14:14Z",
+      "discoveredAt": "2026-10-06T04:38:55Z",
+      "audience": "需要初步了解非上市公司、融资轮次与投资者的创业者、研究者和投资从业者；以及愿意补充或更正公开公司资料的贡献者（依据官网用途归纳）。",
+      "what": "公司与私募市场资料网站，可浏览公司、融资轮次、投资者、基金和人物，并以来源标记链接至公开文件。官网称数据来自美国 SEC 申报、SBIR 政府项目、Wikidata 与经审核的社区贡献；基础浏览无需账号，完整资料通过贡献解锁。",
+      "why": "官网提出让原本受订阅与席位费用限制的公司融资资料更容易获取。HN 发帖者 robertwt7 与官网链接的代码仓库所有者同名，并以建设者口吻解释：参考 levels.fyi 的贡献模式，以 30 天访问权限鼓励持续更新，在贡献量和数据新鲜度之间取得平衡。未找到作者进一步说明个人最初创作契机。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49974190",
+          "https://capbase.fyi/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时只读读取首页、关于页、FAQ、数据说明和 Brex 公开资料页，并读取 HN 原帖及作者回应；通过官方 Firebase API 核对提交时间。Brex 页面实际显示来源链接及“6 名投资者仅显示 2 名”的访问限制。未登录、提交贡献、运行代码或验证全站数据准确性。",
+        "checkedAt": "2026-10-06T04:38:55Z"
+      },
+      "caveats": [
+        "免费浏览有深度限制：各资料分区默认只展示前两行；经审核通过的一次贡献可解锁所有完整资料 30 天，贡献需要账号。",
+        "数据库与代码许可证不同：官网标注数据库汇编采用 CC BY-NC 4.0，商业使用需另行联系；代码采用 AGPL-3.0。不能把“开源”理解为数据库可无限制商用。",
+        "数据可能缺漏或滞后。抽查的 Brex 页面显示总融资 $0、没有融资轮次记录，这只能表明该页面记录不足，不能据此判断公司没有融资。",
+        "FAQ 表示尚无公开 API，并提示需要批量导出、估值分析或 CRM 集成的用户可能仍需其他平台；本次未验证上述能力。",
+        "作者个人最初创作契机未明；现有一手证据主要说明产品目标与贡献解锁机制的设计理由。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49974089"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49974190"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49974089.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://capbase.fyi"
+        },
+        {
+          "type": "official_site",
+          "url": "https://capbase.fyi/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://capbase.fyi/faq"
+        },
+        {
+          "type": "official_site",
+          "url": "https://capbase.fyi/data"
+        },
+        {
+          "type": "official_site",
+          "url": "https://capbase.fyi/companies/brex"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/robertwt7/capbase"
+        }
+      ],
+      "tags": [
+        "公司数据库",
+        "融资信息",
+        "私募市场",
+        "社区贡献",
+        "开源软件"
+      ]
+    },
+    {
+      "id": "hacker_news:49974080",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49974080",
+      "title": "Documentation Wayback Machine：从 Plakar 快照按需浏览历史文档",
+      "url": "https://astro-plakar-wayback.fly.dev/docs/getting-started/installation/",
+      "canonicalUrl": "https://astro-plakar-wayback.fly.dev/docs/getting-started/installation/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49974080",
+      "hnUrl": "https://news.ycombinator.com/item?id=49974080",
+      "publishedAt": "2026-10-06T04:12:23Z",
+      "discoveredAt": "2026-10-06T04:39:51Z",
+      "audience": "维护产品文档、需要保留旧版本及配套资源的开发者和文档团队，以及想了解 Plakar 加密备份、去重和按需恢复的工程师；这是依据公开演示用途归纳的适用人群。",
+      "what": "一个可公开浏览的文档历史版本 Web 演示，以示例 Nimbus 文档展示 Astro 服务端页面、Plakar 加密快照和 Cloudflare R2 存储的组合。页面提供 v1 至 v6 的版本入口，当前文档来自本地目录，旧版页面通过恢复接口读取对应快照，并在侧栏显示命令、耗时和读取的文件。演示覆盖正文、图片、PDF、CSV／JSON 和样式表，另有创建新版本入口。它是可自托管的技术演示，未发现面向任意外部网站的通用抓取服务。",
+      "why": "作者的个人制作缘由尚未找到。官方仓库明确给出的产品目标是让读者安全地、按需浏览文档站的历史版本，并把过去版本作为加密快照保存在异地存储。这个目标不等同于作者亲身遇到的问题或市场需求验证；本轮 HN 原帖没有正文和评论，不能补出第一人称动机。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/rishi-raj-jain/astro-plakar-wayback",
+          "https://astro-plakar-wayback.fly.dev/docs/getting-started/installation/",
+          "https://news.ycombinator.com/item?id=49974080"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查实时 HN 原帖、发布者公开资料页、官方 Firebase API、当前安装页、参考资料页、两个历史版本入口及官网链接的 GitHub README。历史页的初始 HTML 是加载壳；随后按页面声明的只读恢复接口取得 v5 完整正文、样式、导航、资源链接和完成事件。接口明确回报复用已解密缓存，因此只证实本次缓存读取成功，未证实冷启动恢复或实时从 R2 下载。没有使用浏览器、登录、安装、执行仓库程序、创建新版本、提交表单或修改站点。",
+        "checkedAt": "2026-10-06T04:39:51Z"
+      },
+      "caveats": [
+        "页面中的 Nimbus 安装命令、产品文档、引语和配图用于演示版本变化；不应当作 Nimbus 产品或其客户评价已经得到核实，也未运行其中任何安装命令。",
+        "v5 恢复接口本轮返回 reused decrypted cache，毫秒耗时是缓存命中结果；不能据此推断从远端冷恢复、解密、大规模文档站或并发访问的真实性能。",
+        "页面显示加密、压缩、去重及存储统计，仓库说明 R2 上传依赖配置。本轮未检查 R2 账户、远端对象、备份完整性或密钥管理，不将界面指标当作独立安全审计证据。",
+        "仓库说明部署需要长期运行的 Node 进程、磁盘和 Plakar 子进程；这不是仅上传静态文件即可运行的归档服务。创建新版本会备份当前文档并改变演示内容，本轮未触发该入口。",
+        "HN 发布者为 rishi_，项目仓库位于 rishi-raj-jain 名下；发布者公开资料未提供身份说明，本轮未独立确认两者为同一人，也未发现作者评论可解释个人动机。",
+        "publishedAt 取自官方 Firebase API，表示本次 Show HN 帖子的发布时间，不代表项目、快照或网站的首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49974080"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49974080.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://news.ycombinator.com/user?id=rishi_"
+        },
+        {
+          "type": "official_site",
+          "url": "https://astro-plakar-wayback.fly.dev/docs/getting-started/installation/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://astro-plakar-wayback.fly.dev/docs/references/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://astro-plakar-wayback.fly.dev/archive/2026-08-19-ea2cb096/getting-started/installation/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://astro-plakar-wayback.fly.dev/archive/2026-08-19-26b6dfa4/getting-started/installation/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://astro-plakar-wayback.fly.dev/api/retrieve/2026-08-19-ea2cb096/getting-started/installation"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/rishi-raj-jain/astro-plakar-wayback"
+        }
+      ],
+      "tags": [
+        "文档归档",
+        "历史版本",
+        "Plakar",
+        "加密备份",
+        "Cloudflare R2",
+        "Web 演示",
+        "Astro"
+      ]
+    },
     {
       "id": "hacker_news:49973659",
       "provider": "hacker_news",
