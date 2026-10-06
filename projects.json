@@ -1,9 +1,77 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T22:50:44Z",
-  "count": 203,
+  "updatedAt": "2026-10-06T23:45:37Z",
+  "count": 206,
   "projects": [
+    {
+      "id": "hacker_news:49985533",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49985533",
+      "title": "InterPoll：可自托管的社区投票与讨论网页应用",
+      "url": "https://endless.sbs/",
+      "canonicalUrl": "https://endless.sbs/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49985533",
+      "hnUrl": "https://news.ycombinator.com/item?id=49985533",
+      "publishedAt": "2026-10-06T23:15:52Z",
+      "discoveredAt": "2026-10-06T23:45:37Z",
+      "audience": "希望尝试浏览器内社区投票、帖子讨论及点对点数据同步，或自行部署社区前端与中继的用户和开发者。",
+      "what": "一款开源的社区投票与讨论网页应用，提供公开在线实例，也有自行运行前端和中继的说明。项目文档介绍了社区、投票、帖子与评论，以及投票回执、链记录查看和网络状态等功能；其设计是先在设备本地保存记录，再经 GunDB 和中继同步，并使用设备密钥签名。本次确认了网页入口及相关前端路由，未实测这些功能。",
+      "why": "项目开发者在 README 中写道，他们反复遇到平台审查、隐性限流或悄然删除内容，因此制作 InterPoll，希望社区能自行制定规则并保有内容副本。这是项目方对创作动机的自述；其所述遭遇及产品能否解决这些问题未独立核实。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://github.com/Interpoll1/decentralised#so-what-is-this-exactly"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖、官方 API、仓库 README、官网 HTML 及官网 HTML 引用的公开主脚本；HN 核查时无评论。官网和脚本均返回 HTTP 200，HTML 标注 canonical 为 https://endless.sbs/，脚本包含首页、社区、投票、帖子、设置、Chain Explorer 和 Resilience 页面路由。未在浏览器渲染或交互操作，未登录、安装、自托管、投票、发帖、创建身份或提交数据；跨设备同步、离线恢复、签名与加密效果均未验证。",
+        "checkedAt": "2026-10-06T23:45:37Z"
+      },
+      "caveats": [
+        "在线实例依赖 JavaScript，静态 HTML 主要是启动界面。本次只读核对页面和公开脚本，没有验证实际界面能否完成加载、社区内容是否可读或操作流程是否可用。",
+        "可自行运行网页前端和中继；自托管涉及开发运行环境与中继配置，本次没有部署或安装。",
+        "去中心化、抗审查、防篡改和加密能力来自项目文档，不能视为安全审计结论。文档自身说明数据延续依赖至少一个持有副本的参与者重新上线，中继仍可延迟或审查消息。",
+        "文档明确表示防重复投票机制不保证数学意义上的“一人一票”；不能据此认定适合高风险选举或身份认证场景。文档还提醒私有社区密钥丢失后无法恢复，本次未检验密钥管理或隐私行为。",
+        "HN 发帖账号为 thegoodduck，正文签名为 InterPoll 开发团队；本次未独立核实账号、团队与仓库维护者的身份对应关系。publishedAt 是 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49985533"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49985533.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Interpoll1/decentralised"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Interpoll1/decentralised/master/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://endless.sbs/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://endless.sbs/assets2/index-BhGN6A2L.js"
+        }
+      ],
+      "tags": [
+        "社区讨论",
+        "在线投票",
+        "点对点",
+        "自托管",
+        "开源",
+        "网页应用"
+      ]
+    },
     {
       "id": "hacker_news:49985077",
       "provider": "hacker_news",
@@ -131,6 +199,103 @@
         "速度测试",
         "浏览器工具",
         "英语"
+      ]
+    },
+    {
+      "id": "hacker_news:49984736",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49984736",
+      "title": "Agentability：公开 AI 网页任务记录与网站可读性评分的观察站",
+      "url": "https://agentability.org/",
+      "canonicalUrl": "https://agentability.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49984736",
+      "hnUrl": "https://news.ycombinator.com/item?id=49984736",
+      "publishedAt": "2026-10-06T22:00:58Z",
+      "discoveredAt": "2026-10-06T23:45:37Z",
+      "audience": "想观察 AI 在真实网页上如何查资料、分析访问失败原因的开发者和研究者，以及希望了解自家网站对只读网页代理是否友好的站点维护者。",
+      "what": "一个无需注册即可阅读的公开观察站。每日节目让 AI 生成十个现实信息查询任务，再由另一代理通过普通 HTTP GET 尝试完成，网页展示任务、逐步访问记录、答案及失败原因；另有约 113 个网站的每周评分、逐项检查报告和开放 JSON 数据。评分关注 llms.txt、爬虫政策、无需 JavaScript 的内容可读性、结构化数据、站点地图和常见功能链接等。核查时可读取 2026 年 10 月 6 日的十项任务及 10 月 5 日的评分数据。",
+      "why": "官网解释的项目目标是把“AI 代理能否真正使用现有网页”变成可以公开观察的问题，因此同时发布实际任务记录、可复现检查和开放数据。仓库维护者还表示自行承担模型 API 费用是出于兴趣。作者未说明更具体的个人起因，也未提供已经验证的用户需求或收入依据。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://agentability.org/",
+          "https://raw.githubusercontent.com/khalidsaidi/agentability/main/README.md"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖及官方 API、官网首页、方法说明、当日完整节目页与原始 JSON、评分榜与汇总 JSON、一个逐站报告及仓库 README。公开网页均可通过 HTTP 直接读取；确认当日 JSON 含十项任务，评分汇总含 113 个站点。HN API 的唯一评论 49984808 被标记为 dead，正文仅为 [flagged]，原帖无可见评论，未将其作为动机依据。未操作浏览器、重新运行代理或评分器，也未逐项核验节目答案和被测网站。",
+        "checkedAt": "2026-10-06T23:45:37Z"
+      },
+      "caveats": [
+        "这是一套只读网页实验与报告浏览网站。代理不能执行 JavaScript、登录、填表或购买；结果不能推广为完整浏览器代理或真实交易任务的能力。",
+        "“完成 8/10”等结果、网站分数和成功标签来自项目自身的模型与评分规则，本次没有独立重跑或事实复核；它们不是通用能力认证、用户需求、收入或商业验证。",
+        "文档存在口径差异：首页与最新 README 称节目每日更新，方法页仍称每周；方法页及 README 写每任务至多 14 次访问，当日节目却显示某任务有 30 次访问。本次未确认差异原因。",
+        "目前是预设站点的公开评分库。要求新增站点或重新审查需通过 GitHub issue 或代码贡献，未发现可直接输入任意网址并即时运行的网页审计表单。",
+        "HN 发帖账号与官网链接的 GitHub 仓库所有者均名为 khalidsaidi，但未独立核实其真实身份。publishedAt 取自 HN 官方 API 的提交时间，不代表项目首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49984736"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49984736.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49984808.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/fieldtest/2026-10-06/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/data/fieldtest/2026-10-06.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/ai-index/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/data/summary.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/ai-index/site/duckduckgo.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/methodology/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentability.org/support/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/khalidsaidi/agentability"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/khalidsaidi/agentability/main/README.md"
+        }
+      ],
+      "tags": [
+        "AI 代理",
+        "网页可读性",
+        "公开实验",
+        "网站评分",
+        "开放数据",
+        "网页应用"
       ]
     },
     {
@@ -807,6 +972,78 @@
         "埃及学",
         "开放数据",
         "研究资源"
+      ]
+    },
+    {
+      "id": "hacker_news:49982817",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982817",
+      "title": "HiddenContent.ai：隐藏内容检测与可检索技术参考",
+      "url": "https://hiddencontent.ai/techniques/",
+      "canonicalUrl": "https://hiddencontent.ai/techniques/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982817",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982817",
+      "publishedAt": "2026-10-06T19:21:50Z",
+      "discoveredAt": "2026-10-06T23:45:37Z",
+      "audience": "将第三方文档交给 AI 处理的开发者、安全工程师，以及想了解文档隐藏文字方式和检测边界的读者。",
+      "what": "提供文档隐藏内容检测服务及无需登录的技术参考网站。公开目录可按关键词和格式筛选隐藏文字技术，并解释其原理、检测方式及盲区；检测服务通过 API 或 MCP 连接器使用，项目方称可返回发现位置、处理后的文本和结果证书。本次收录入口指向可直接查阅的技术参考，实际文档分析需要另行接入服务。",
+      "why": "官方 About 页面称，AeroSpark 团队在把合同交给语言模型的工作流程中，发现文件可能包含人眼看不到但模型会读取的内容。他们没有找到符合需求、能在第三方文档进入模型前进行检查的工具，因此先为自己的流程开发，再作为服务提供。这是官方第一手自述，未独立核实其经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://hiddencontent.ai/about/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取实时 HN 原帖与官方 API；两个评论记录分别只显示 [dead] 和 [flagged]，无法读取作者评论正文。核对官网首页、入门与 About 内容，并在云浏览器打开技术参考，实际输入 vanish 后列表筛选为 docx.vanish，进入详情后可见原理、处理规则和盲区。只验证公开参考目录的筛选与详情阅读；没有调用分析 API、上传文件、创建密钥、连接 MCP、登录、安装或付费。",
+        "checkedAt": "2026-10-06T23:45:37Z"
+      },
+      "caveats": [
+        "HN 主帖介绍 MCP 服务，本条按其具有独立阅读与检索用途的公开技术参考网站收录；该参考目录本身不是文件上传扫描器。",
+        "未测试任何实际文档检测，不能据此判断准确率、误报率、抗提示注入效果、证书安全性或文件隐私。官网的检测、存储与安全说明均为项目方声明。",
+        "技术条目会列出局限，例如 docx.vanish 详情说明某些表格样式继承可能只记录覆盖缺口；有隐藏内容不自动等于恶意，未发现问题也不能理解为完整安全保证。",
+        "API 与 MCP 使用涉及账户、密钥及可能的按量费用；本次未注册、授权、购买或提交文件。",
+        "初始普通 HTTP 抓取官网返回 403，云浏览器随后可以正常读取技术参考和 About 页；未据此推断服务整体不可用。",
+        "HN 发帖账号为 davenaff；官方页面将产品归属 AeroSpark，但本次未独立确认该账号与公司的身份关系。HN 帖子时间不是网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982817"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982817.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hiddencontent.ai/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hiddencontent.ai/start/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hiddencontent.ai/techniques/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hiddencontent.ai/techniques/docx.vanish/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hiddencontent.ai/about/"
+        }
+      ],
+      "tags": [
+        "安全参考",
+        "文档处理",
+        "提示注入",
+        "开发者工具",
+        "可检索目录"
       ]
     },
     {
