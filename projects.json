@@ -1,9 +1,188 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T02:45:45Z",
-  "count": 115,
+  "updatedAt": "2026-10-06T03:44:33Z",
+  "count": 117,
   "projects": [
+    {
+      "id": "hacker_news:49973659",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49973659",
+      "title": "NativeShip：把 SaaS API 制作成可发布的 n8n 集成节点",
+      "url": "https://www.nativeship.io/",
+      "canonicalUrl": "https://www.nativeship.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49973659",
+      "hnUrl": "https://news.ycombinator.com/item?id=49973659",
+      "publishedAt": "2026-10-06T03:03:11Z",
+      "discoveredAt": "2026-10-06T03:44:15Z",
+      "audience": "已有 API、希望为客户提供 n8n 集成的 SaaS 团队，以及需要生成、打包和维护 n8n 社区节点的开发者。",
+      "what": "一个网页式 n8n 社区节点制作和发布服务。官方说明可导入 OpenAPI 3 文档，生成节点与凭证定义、构建并校验 npm 包；网页编辑器可调整资源、操作和标签，并预览节点在 n8n 中的外观。接入自己的 GitHub 和 npm 后可审阅版本再发布，并查看发布记录。公开网站还提供已生成节点的可浏览目录、操作列表和安装说明；核心编辑、生成和发布流程需要进入账号。",
+      "why": "官方团队在《How to Turn an API Into an n8n Community Node》中明确解释，他们制作 NativeShip，是因为 API 请求本身之外的节点结构、凭证、构建、测试、仓库、npm 发布以及 API 变更后的重复维护占用了大量时间，希望让已有 API 的团队不用每次从空目录重做这些工作。这是官网以“我们”口吻给出的第一手开发缘由；本轮未确认文章个人署名及其与 HN 发布者身份的关系。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.nativeship.io/blog/how-to-turn-an-api-into-an-n8n-community-node"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查实时 HN 原帖、官方 Firebase 帖子与全部关联评论，以及官网首页、定价、节点目录、Supermemory 节点详情、博客、相关 API 转节点文章、指南与登录入口。HN 作者可见回复仅确认支持 npm provenance，另有一条评论标记为 dead；登录页静态读取仅显示 Loading。已确认网页服务说明及实用公开节点目录，未登录、注册、填写表单、上传 API 文档、连接 GitHub/npm、构建、发布或安装节点，未交互验证首页示例编辑器。",
+        "checkedAt": "2026-10-06T03:44:15Z"
+      },
+      "caveats": [
+        "核查时定价页显示一次性 79 美元，包含 1 个 n8n 节点及 3 次构建；重新导入 OpenAPI 文档不消耗构建次数。未进入付款流程，价格、税费及后续额外构建安排未实测。",
+        "生成以 OpenAPI 3 规格为前提；官网对自动生成、兼容性、持续维护和发布便利性的描述尚未通过实际项目验证，首页界面示例不能当作功能成功运行的证据。",
+        "npm provenance 表示发布来源证明，不等同于 n8n 官方验证。已审阅的 Supermemory 节点页明确写明该节点需要自托管 n8n；不能据此承诺生成的节点可直接安装到 n8n Cloud。",
+        "公开节点列表和周下载量属于官网展示，本轮未独立核对 npm 下载统计或审计生成代码，也不能将它们视为真实客户需求、付费用户或收入验证。",
+        "HN 发布者为 bhavyshekhaliya；作者身份及其与网站团队的关系未独立核实。",
+        "publishedAt 来自官方 Firebase API，表示此 HN 帖子的发布时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49973659"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49973659.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49973749"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49973749.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49973759.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nativeship.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nativeship.io/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nativeship.io/nodes"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nativeship.io/nodes/supermemory"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nativeship.io/blog/how-to-turn-an-api-into-an-n8n-community-node"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nativeship.io/guides"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nativeship.io/login"
+        }
+      ],
+      "tags": [
+        "n8n",
+        "API 集成",
+        "OpenAPI",
+        "节点生成",
+        "开发工具",
+        "网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49973649",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49973649",
+      "title": "Crowsnest：用本地网页统一管理 Claude Code 与 Codex 的会话和多账号",
+      "url": "https://crowsnest.app/",
+      "canonicalUrl": "https://crowsnest.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49973649",
+      "hnUrl": "https://news.ycombinator.com/item?id=49973649",
+      "publishedAt": "2026-10-06T03:01:33Z",
+      "discoveredAt": "2026-10-06T03:44:33Z",
+      "audience": "同时使用 Claude Code、Codex 或多个订阅账号，希望集中浏览历史、查看用量、转交任务及协调多个编程代理的开发者。",
+      "what": "一个运行在用户机器上的编程代理工作区，提供 macOS 外壳和连接 127.0.0.1 本地服务器的浏览器界面。官方说明网页界面可浏览和搜索两种代理的会话、修复支持的 Claude 历史记录、继续原生会话并查看本地用量；付费高阶方案还提供多账号切换、带来源标记的任务交接、并行任务及经过审阅的多代理计划。它依赖 Claude Code／Codex 原生运行时及用户自己的模型服务。因具备有明确用途的本地 Web UI 收录，官网本身不是托管编程服务。",
+      "why": "作者 teivz 在 HN 的首条评论中明确说，自己有多个 Codex 和 Claude Code 账号；某个账号达到用量限制后，需要把上下文复制到另一个账号，长对话和复杂任务尤其费时。因此做了这个运行在本机的会话服务器和界面，集中查看用量、选择账号，并在账号间转交工作。这是作者的第一人称动机，不能据此推断其他用户需求或付费验证。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49973683",
+          "https://hacker-news.firebaseio.com/v0/item/49973683.json"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读获取实时 HN 原帖、官方 Firebase 条目及唯一评论，并读取官网首页、下载页、界面指南、隐私边界说明和官方发布仓库。官网明确说明浏览器连接本机回环服务器，以及对应的历史浏览、搜索、修复和用量功能；已区分真正的本地产品与首页预设回复演示。本轮没有安装、启动本地服务器、登录、填写表单、运行代理或购买；发布仓库说明开发源码为私有，因此未审阅实际服务端或网页实现。",
+        "checkedAt": "2026-10-06T03:44:33Z"
+      },
+      "caveats": [
+        "需要在用户机器上运行，未发现可直接使用的公共托管工作区。首页演示明确使用准备好的回复，不能证明实际代理执行、账号交接或对话续接有效。",
+        "官网当前主要分发 Apple silicon、macOS 13 及以上的应用；官方应用须 Google 或 GitHub 登录，首次登录开始固定七天试用。公开价格为 Standard 19.99 美元、Pro 69.99 美元、Premium 首发 99 美元，均为一次性购买；模型用量另付。仅核对公开标价，未进入结账确认最终金额或授权限制。",
+        "“本地”指工作区及历史处理。实际模型任务仍由 Claude Code／Codex 向配置的服务商发送内容；账号登录、用户开启的更新检查、SSH 工作区及可选连接另有网络路径。本轮未审计隐私、安全、用量计算或文件修改机制。",
+        "官网还写有源码运行及 uvx crowsnest 免账号，但官方发布仓库说明源码开发为私有，且本轮读取的 PyPI 同名包元数据指向 thorwhalen/crowsnest，并非本站 teivz 的发布仓库；无法确认该命令用于此产品，不将其作为可用安装方式。",
+        "作者描述的跨账号／跨服务商交接与官方说明中的摘要分叉有关，并非不同模型原生共享同一线程，也不合并订阅额度；实际上下文保留、自动切换、并行执行和效果均未实测。",
+        "HN 核查时有一条评论，来自发布者本人。帖子、官网示例和定价不是用户规模、收入或市场需求已被验证的证据；publishedAt 是 HN 分享时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49973649"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49973683"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49973649.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49973683.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crowsnest.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crowsnest.app/download/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crowsnest.app/guides/ai-coding-agent-ui/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crowsnest.app/blogs/local-ai-coding-agent-privacy/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/teivz/crowsnest-macos"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://pypi.org/pypi/crowsnest/json"
+        }
+      ],
+      "tags": [
+        "本地网页工具",
+        "AI 编程",
+        "多账号管理",
+        "会话搜索",
+        "用量分析",
+        "macOS"
+      ]
+    },
     {
       "id": "hacker_news:49973312",
       "provider": "hacker_news",
