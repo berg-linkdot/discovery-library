@@ -1,9 +1,717 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T13:50:38Z",
-  "count": 153,
+  "updatedAt": "2026-10-06T14:52:46Z",
+  "count": 164,
   "projects": [
+    {
+      "id": "hacker_news:49979145",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49979145",
+      "title": "Ollin",
+      "url": "https://ollin.travel/try",
+      "canonicalUrl": "https://ollin.travel/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49979145",
+      "hnUrl": "https://news.ycombinator.com/item?id=49979145",
+      "publishedAt": "2026-10-06T14:33:26Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "独自、情侣、家庭或多人结伴出游，希望把每日行程、预订资料和共同开支集中管理的旅行者。",
+      "what": "提供免登录入口的网页旅行规划工具：用一句话描述目的地、天数和偏好，生成按天安排的行程。官网说明完整产品还支持多人共同编辑、投票与聊天、费用分摊、地图和打包清单，能把转发的预订邮件归入行程，并通过合作平台完成预订；付费功能包括路线优化、离线行程和旅行回顾。",
+      "why": "官方 About 页以第一人称说明，一对爱旅行的伴侣厌倦了规划文档、酒店确认邮件、群聊中的餐厅推荐和便签上的打包清单彼此分散，也不希望总由一个人承担整理工作，因此想把从构思、计划、旅途中使用到返程回顾放进同一个应用。HN 作者评论只邀请试用并反馈，没有补充个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://ollin.travel/about",
+          "https://news.ycombinator.com/item?id=49979201"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 和核查时唯一的作者评论，查看免登录试用页、官方介绍、价格及条款。试用页可见行程描述输入和八个出游示例；没有提交生成请求、登录或预订，因此未验证生成结果、实时信息、协作及离线功能。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "免登录试用入口可访问；免费账户每月通常含 3 次 AI 行程生成（首月 5 次）、25 次行程助理编辑，最多同时有 3 个活跃行程。匿名试用的具体次数限制未实测。",
+        "官网核查价为 Pro 每月 12 美元或每年 89 美元，Group 每月 25 美元或每年 179 美元，另有每趟行程 24 美元的一次性 Trip Pass。订阅试用 30 天后自动续费；团体 AI 用量仍有公平使用限制，官网对 Group 的表格与正文额度存在不一致，购买前应确认。",
+        "官网宣传引用实时来源，但条款明确 AI 行程可能不准确或过时；营业时间、价格、签证和安全要求仍须自行核实。预订在第三方完成，适用对方条款，Ollin 可能获得佣金。",
+        "本次为公开页面核查，不代表已验证全部宣传能力；HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979145"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979145.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ollin.travel/try"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ollin.travel/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ollin.travel/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ollin.travel/terms"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979201"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979201.json"
+        }
+      ],
+      "tags": [
+        "旅行规划",
+        "AI",
+        "多人协作",
+        "费用分摊",
+        "网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49979124",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49979124",
+      "title": "CoverCheck",
+      "url": "https://covercheck.thecompound.tech/",
+      "canonicalUrl": "https://covercheck.thecompound.tech/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49979124",
+      "hnUrl": "https://news.ycombinator.com/item?id=49979124",
+      "publishedAt": "2026-10-06T14:32:07Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "需要持续审查供应商保险证明、管理多个社区供应商合规记录的美国物业经理和业主协会（HOA）。",
+      "what": "在网页中管理供应商保险证明（COI），将 ACORD 25 上的险种、保额、附加被保险人等批单标记及有效期与各社区的要求比对，标出缺项、额度不足或即将到期的记录。公开首页有只读样例账本和免费手填预检；付费服务读取上传的证明，并在需要补件或续保时自动给保险代理人发送催办邮件、保留发送记录。",
+      "why": "作者未说明个人制作动机。HN 原帖没有正文，核查时没有评论；官方 About 页说明的产品目标，是把读取供应商保险证明、检查社区要求和催要更新证明的流程连起来，但没有给出创作者自身的经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49979124",
+          "https://covercheck.thecompound.tech/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API、公开只读样例账本、价格、About、安全说明和条款。样例包含 8 家供应商、3 个社区及检查与催办记录，页面有手填证书预检入口；未填写或提交数据、上传 PDF、登录、付费或发送邮件，未验证识别和后台自动催办。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "手填 ACORD 25 数值的预检免费且无需账户；PDF 读取与持续追踪属于每月 9 美元订阅，官网称不限供应商和社区数量，自动续费。公开账本是标明 QA 的只读演示，不能当作真实客户运行成效。",
+        "服务会自行给供应商的保险代理人发送邮件，不逐封等待用户批准；正式启用前应核对收件人、要求配置和这种自动发送行为。",
+        "免费预检不询问保险生效日，假设保单当天已经生效。条款明确只比对证明内容，不向承保公司核验保单是否仍有效，也不保证保险未被取消或额度未被用尽；不能据绿色结果认定供应商已获得真实有效的承保。",
+        "付费读取会把证明交由 Google Gemini 处理；数据库、文件和邮件也依赖第三方服务。涉及供应商、保险及代理人资料，上传前需有相应权限。准确性、送达率和后台流程未经本次实测；HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49979124"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49979124.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://covercheck.thecompound.tech/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://covercheck.thecompound.tech/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://covercheck.thecompound.tech/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://covercheck.thecompound.tech/security"
+        },
+        {
+          "type": "official_site",
+          "url": "https://covercheck.thecompound.tech/legal/terms-of-service"
+        }
+      ],
+      "tags": [
+        "保险证明",
+        "物业管理",
+        "HOA",
+        "合规辅助",
+        "自动催办"
+      ]
+    },
+    {
+      "id": "hacker_news:49978800",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978800",
+      "title": "Tinyhat / Muse Office",
+      "url": "https://github.com/tinyhat-ai/muse-office",
+      "canonicalUrl": "https://github.com/tinyhat-ai/muse-office",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978800",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978800",
+      "publishedAt": "2026-10-06T14:11:50Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "已在使用 Muse，希望把项目分给不同 AI 专家，并通过一个私有网页查看负责人、进度、待决定事项和知识笔记的个人及小团队；也适合愿意自行部署参考应用的开发者。",
+      "what": "一套开源的 Muse 多代理工作指令与可自托管 Office 网页应用。配套指令把 Muse 设为统筹者，由不同专家处理任务并积累各自的技能与记忆；Office 提供任务和项目、团队成员、客户联系人、报告及笔记页面，人可以在任务、笔记和项目中留言回复。参考实现使用 Next.js 和 SQLite，笔记支持 Markdown、表格及 Mermaid 图。",
+      "why": "作者未说明可核实的个人制作动机。官方 README 的产品目标是让 Muse 分派和检查专家工作，保留各专家的学习，并让用户在一个私有 Office 里看到进展与需要决定的事项。HN 作者的介绍评论被标记为 flagged，官方 API 只返回占位文本，无法从中确认具体创作经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978800",
+          "https://hacker-news.firebaseio.com/v0/item/49978836.json",
+          "https://github.com/tinyhat-ai/muse-office"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、实时官方 API、全部评论节点及官方 README、开发指南、页面规格和 package.json，确认存在可本地运行的 Next.js/SQLite Web 应用，官方指南给出 localhost:3007 入口。两条评论分别为 flagged 和 dead，占位之外无正文。未安装、运行、登录或提交任务，也未验证 Muse 实际委派及专家记忆效果。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "这是需要 Muse 构建私有 Office 或自行部署的参考 Web 应用，不是打开仓库即可使用的公共 SaaS；完整代理工作流依赖相应 Muse 环境。官网估计首次构建约 30 分钟，但时间与成功率未实测。",
+        "开发指南说明多数页面用于阅读，用户可评论和回复，其他记录主要由 Muse 通过 Office actions 更新；多代理记忆与审批行为是官方指令设计，并非本次已验证的执行保证。",
+        "代码采用 MIT 许可。默认数据库会生成设置任务、示例团队、联系人和有出处的公共图表；另有明确的虚构演示种子，不能把示例内容当成真实业务成果。",
+        "官方开发指南提示 main 分支可能领先稳定频道，且稳定提示词当前仍链接 main 的构建文件，二者可能分别变化。未评估对外部署安全或实际运行成本；HN 时间是发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978800"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978800.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978836.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/tinyhat-ai/muse-office"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/tinyhat-ai/muse-office/blob/main/docs/DEVELOPING.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/tinyhat-ai/muse-office/blob/main/spec/PAGES.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/tinyhat-ai/muse-office/blob/main/package.json"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "开源",
+        "多代理协作",
+        "任务管理",
+        "知识笔记"
+      ]
+    },
+    {
+      "id": "hacker_news:49978646",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978646",
+      "title": "Authrot",
+      "url": "https://authrot.app/",
+      "canonicalUrl": "https://authrot.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978646",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978646",
+      "publishedAt": "2026-10-06T14:01:08Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "写长篇小说、系列故事或网络连载，需要维护人物、世界设定、伏笔及多章连续性的作者，尤其是奇幻和 LitRPG 写作者及合作者。",
+      "what": "面向长篇创作的网页写作工作室。编辑章节时，可由 AI 从正文建立人物、地点、物件和情节线索的设定库，并回链到原文、指出前后矛盾和未兑现伏笔；人物关系图可按章节回看。另提供故事大纲、需作者确认的 AI 修改建议、实时合作、分支结局、EPUB/PDF/Word 导出，以及按计划连载发布和分角色配音。",
+      "why": "作者 Joe 在 HN 原帖明确说，自己的故事超过约 25 章后，Google Docs 和 Word 在手机上变得很卡，所以先做了章节间快速切换和长篇顺畅滚动。之后又希望把人物、地点、物件及它们逐章变化的联系画成图，并且每个信息都能定位回具体章节段落，于是加入 AI 阅读与整理。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978646"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取包含作者完整自述的 HN 原帖和实时官方 API（核查时无评论），查看官网功能示例、About、价格、隐私政策和公开阅读页。写作入口要求账户，阅读目录当时为空；未登录、导入文稿、生成内容、发布或购买积分，未验证实际编辑器性能、协作、图谱与导出。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "写作账户及编辑、设定库、历史和分支功能免费，AI 另按积分计费；新账户通常赠 50 积分，并非无限免费 AI。核查价为 500 积分 10 美元、1,050 积分 20 美元、5,500 积分 100 美元，无订阅，已购积分不过期。",
+        "使用写作工作室需要注册，隐私政策要求账户持有人年满 18 岁。公开阅读页当时尚无已发布故事，未用其验证连载或读者体验。",
+        "AI 整理、改写和配音会向所选模型提供相关文稿内容；支持自带模型密钥。官方虽称自身不会用文稿训练 AI，但隐私政策对不同模型方另有说明，尤其不能保证 DeepSeek 不保存或用文本改进模型，不应理解为完全本地或所有供应商都不训练。",
+        "长篇流畅度、连续性检查的准确率及整套出版流程均未独立实测，功能描述来自作者和官网；HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978646"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978646.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://authrot.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://authrot.app/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://authrot.app/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://authrot.app/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://authrot.app/reader"
+        }
+      ],
+      "tags": [
+        "小说写作",
+        "AI",
+        "设定管理",
+        "人物关系",
+        "连载发布"
+      ]
+    },
+    {
+      "id": "hacker_news:49978602",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978602",
+      "title": "CTXFW · 交互式规格检查演示",
+      "url": "https://ctxfw.heuristicolab.com/#simulator",
+      "canonicalUrl": "https://ctxfw.heuristicolab.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978602",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978602",
+      "publishedAt": "2026-10-06T13:58:36Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "使用 AI 编程代理、希望了解规格约束检查与上下文压缩的开发者及工程团队（依据官方定位归纳）",
+      "what": "CTXFW 本体是本地 AST 上下文裁剪与规格检查工具；其官网另提供无需安装的互动模拟器。用户可切换示例或编辑 Markdown，查看否定约束、变量边界、状态机与错误分类的启发式评分；页面也有按固定假设计算的 token 成本估算器。",
+      "why": "作者未说明个人创作动机。官方说明的产品目标是减少编程代理读取外围依赖带来的上下文膨胀，并在开发流程中检查规格约束；本次 Show HN 链接介绍在 Airflow、Zulip 等仓库上的基准。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/heuristicolab/ctxfw/blob/main/README.md",
+          "https://github.com/heuristicolab/ctxfw/blob/main/docs/benchmarks/TRILOGY_EMPIRICAL_BENCHMARK.md"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读 HN 原帖及官方 API、仓库 README、所提交基准报告与官网源码，并在云端浏览器实际切换官网两种示例：模糊规格显示 0.0700/FAIL，规范示例显示 1.0000/PASS。未安装或运行 CLI，也未复现基准。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "网页是前端模拟：源码使用关键词正则与固定权重评分，显示的通过状态及固定 manifest hash 不能证明规格正确性、安全性或合规性；它不在浏览器执行 AST 裁剪。",
+        "成本估算使用固定调用量、裁剪比例和模型价格假设，不是实测账单或经核实的当前模型定价。",
+        "基准报告是作者自报且未复现；其表格列出 PostHog P95 为 250.29 ms，但文字又称所有仓库低于 20 ms，存在内部不一致。",
+        "HN 官方 API 中两条作者评论及另一评论均标记 dead，正文仅剩 [flagged]，未将其视作动机证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978602"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978602.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/heuristicolab/ctxfw/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/heuristicolab/ctxfw/blob/main/docs/benchmarks/TRILOGY_EMPIRICAL_BENCHMARK.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ctxfw.heuristicolab.com/#simulator"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "AI 编程",
+        "交互演示"
+      ]
+    },
+    {
+      "id": "hacker_news:49978583",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978583",
+      "title": "Napoleon Chronicle",
+      "url": "https://napoleon-chronicle.vercel.app/",
+      "canonicalUrl": "https://napoleon-chronicle.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978583",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978583",
+      "publishedAt": "2026-10-06T13:57:12Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "想按时间顺序阅读拿破仑书信、命令和公告的历史爱好者、学生与教学材料整理者。",
+      "what": "无需登录即可浏览的历史资料网站，把拿破仑的书信、命令、公告等整理为类似社交动态的逐日时间线。可选择年月或历史节点进入，按日翻阅，并打开逐字节录及来源背景；另提供全档案搜索、地图、人物关联和收藏入口。公开索引列出 2,721 条资料、1,567 个有记录的日期，资料日期为 1790-03-10 至 1821-05-01。",
+      "why": "作者个人制作动机未说明。HN 原帖仅说明把拿破仑的书信和命令做成逐日时间线；核查时没有评论，官网和公开索引未提供可确认的作者个人起因。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978583",
+          "https://napoleon-chronicle.vercel.app/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取 HN 原帖及实时官方 API、官网、公开数据索引和前端脚本，并在独立云浏览器标签页进入 1796-07-06 时间线，看到当日七条资料，展开 Source & context 与 Verbatim，确认出处链接和节录可见。搜索入口已打开；未全面测试地图、收藏或分享功能。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "信息流使用现代英语转述，并非每条都是拿破仑原话；应打开 Verbatim 与来源核对。核查样例出处链接指向 Internet Archive 上的 1856 年通信集。",
+        "“verified”是网站自己的编辑状态，不是本次核查对所有史料准确性的背书；翻译、转述、约略日期及回忆录材料仍需回到来源判断。",
+        "日期选择范围为 1789–1821 年，但有大量空白日期；索引说明 12,052 天中仅 1,567 天有资料，不能当作完整生平或全量文献。",
+        "收藏、关注及阅读位置由浏览器本地存储实现，未发现账户同步说明；本次未验证跨设备或清除浏览器数据后的保留情况。",
+        "HN 发帖时间不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978583"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978583.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://napoleon-chronicle.vercel.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://napoleon-chronicle.vercel.app/data/index.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://napoleon-chronicle.vercel.app/app.js?v=3"
+        },
+        {
+          "type": "official_site",
+          "url": "https://napoleon-chronicle.vercel.app/#/d/1796-07-06"
+        }
+      ],
+      "tags": [
+        "历史",
+        "拿破仑",
+        "档案浏览",
+        "时间线",
+        "教育"
+      ]
+    },
+    {
+      "id": "hacker_news:49978580",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978580",
+      "title": "Frutjam",
+      "url": "https://frutjam.com/",
+      "canonicalUrl": "https://frutjam.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978580",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978580",
+      "publishedAt": "2026-10-06T13:56:51Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "希望在浏览器中比较 UI 组件样式、查看可复制示例代码，或试用 Markdown 编辑器，再集成到自己项目中的前端和全栈开发者。",
+      "what": "以 Tailwind CSS v4 组件库为核心的开发资源网站，提供按钮、卡片、表单、导航等组件预览、配套示例代码、主题文档及外部 Tailwind Play 入口。网站还直接提供可使用的 Markdown 编辑器演示，有格式工具栏、原始 Markdown 输入和渲染预览，并展示普通与混合编辑模式；因此本条收录的是可操作的网页组件与编辑器示例站，非仅 npm 库说明页。",
+      "why": "作者个人制作动机未说明。唯一作者评论在 HN API 中标记为 dead，内容仅为 [flagged]，无法核实其原始自述。官网说明的产品目标是用语义化 CSS 类减少冗长样式类，提高组件复用与无障碍支持；不把这些定位推断为作者个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978580",
+          "https://frutjam.com/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取 HN 原帖、实时官方 API及作者评论占位、官网、Markdown 编辑器页面。在独立云浏览器标签页打开编辑器演示并开启 Preview，确认默认 Markdown 标题被渲染为标题，工具栏和文本输入区真实存在。未安装库、提交表单、上传图片或测试完整应用集成。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "核心产品仍是开发用 CSS 组件库，站内工具主要服务于预览与试用；将组件用于自己的产品，需要自行安装或引入 CSS 并集成代码，不是完整托管网站构建器。",
+        "“无 JavaScript”针对核心样式库；Markdown 编辑器是独立 JavaScript 插件，文档明确无需 Frutjam 或 Tailwind 也可使用。不要把编辑器的功能误写为纯 CSS 实现。",
+        "官网的 WCAG 色彩对比度和 PageSpeed 分数为项目方说法，本次未做无障碍审计或性能测试，也不能保证集成后的整个网站自动达标。",
+        "在线编辑器已验证默认内容预览；图片上传需要开发者配置后端，持久保存、复杂编辑与跨浏览器兼容性未实测。",
+        "HN 作者评论原文不可读取；HN 发帖时间也不代表库或站点首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978580"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978580.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://frutjam.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978599.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://frutjam.com/plugins/markdown-editor"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nezanuha/frutjam"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "UI 组件",
+        "CSS",
+        "Markdown",
+        "在线演示",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49978554",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978554",
+      "title": "SealKeeper",
+      "url": "https://sealkeeper.run/",
+      "canonicalUrl": "https://sealkeeper.run/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978554",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978554",
+      "publishedAt": "2026-10-06T13:55:08Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "希望记录 AI 代理完成任务的表现、浏览候选代理履历，或让代理参与公开任务及挑战的开发者与代理运营者。",
+      "what": "为 AI 代理建立签名活动履历的网站与配套 CLI。网页可浏览代理档案、任务列表、活动动态和排行榜，任务页提供分类、难度及状态筛选；代理通过 CLI 领取和提交任务，累计 Trust，并获得有时效的 SEAL 签名记录。另有每周挑战及对决，用于展示和比较任务表现。",
+      "why": "作者未说明个人制作动机。官网明确的产品目标是让人们在依赖一个代理前，查看它实际完成并被核验过的任务，而非只相信代理自称可信。HN 作者首条介绍已被标记 flagged；仍可读的更正评论仅说明等级需要跨运营者的工作和已发布任务，不能据此推断作者的个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978554",
+          "https://hacker-news.firebaseio.com/v0/item/49978592.json",
+          "https://sealkeeper.run/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、实时官方 API及全部评论节点，核查官网、公开任务和代理目录页面、SEAL 说明、数据共享说明及 CLI README。公开页面返回真实任务列表、代理活动和筛选控件，具有独立浏览价值。未登录、注册代理、安装 CLI、领取任务或提交答案；未实际测试筛选、签名验证或排行榜算法。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "产品标注 beta。公开履历可直接浏览；参与任务需要注册代理、GitHub 身份及本地 CLI，README 要求 Node 22.12 以上。运行任务使用用户自己的模型，可能消耗相应额度。",
+        "SEAL 是签名活动记录，不是安全、合法性或适用性的认证，也不授予任何操作权限。官方明确说安全分数尚未实施，不能用 Trust 或等级替代安全审计。",
+        "任务可能由平台验题、双方确认，或完成方报告成功后发布方 48 小时未回应而计入；并非所有成绩均经过独立人工验证。作者更正说明未获等级的代理也能领取任务，银级和金级要求与多个运营者合作。",
+        "官方称私钥、普通提示词和工具输入输出留在本地，但提交答案、发布任务及规定的活动元数据会发送至服务；这些是产品方声明，未做隐私或密码学审计。HN 时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978554"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978554.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978784"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978592.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sealkeeper.run/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sealkeeper.run/tasks"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sealkeeper.run/agents"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sealkeeper.run/seal"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sealkeeper.run/what-is-shared"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/sealkeeper-dev/cli"
+        }
+      ],
+      "tags": [
+        "AI代理",
+        "任务评测",
+        "公开履历",
+        "排行榜",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49978401",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978401",
+      "title": "Jotbus",
+      "url": "https://jotbus.com/",
+      "canonicalUrl": "https://jotbus.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978401",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978401",
+      "publishedAt": "2026-10-06T13:45:04Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "在多台机器或多个模型之间使用 Claude Code、Codex、Cursor 等编码代理，需要共享上下文、交接任务、互相审查代码或向同事代理发送文件的开发者及小团队。",
+      "what": "面向编码代理的共享加密工作区，通过本地 CLI/MCP 交换笔记和文件，并用 @提及把消息交给正在工作的代理。除命令行接入外，提供浏览器 Dashboard：公开前端源码包含工作区创建与管理、消息历史解密展示、附件解密下载、访问令牌管理及订阅页面。用户可用网页观察代理间的交接与讨论，持有工作区密钥的客户端负责本地加解密。",
+      "why": "作者在 HN 明确说，自己经常要在不同环境和机器上的编码代理之间，或与同事之间，反复复制粘贴上下文及文件，因此制作 Jotbus，希望不再手工搬运这些内容。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978564"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、实时官方 API及所有可读作者评论、官网、官方安全说明、npm README 和 Dashboard 公开 HTML/JavaScript。源码确认工作区列表、消息本地解密与轮询、附件下载和 GitHub 登录界面；未登录、安装客户端、创建工作区、上传文件或提交消息，登录后的功能只完成源码核验，未进行端到端实测。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "免费临时工作区可由 CLI 无账号创建，有效期 60 分钟，官网称到期约一小时后删除；免费单文件上限 2 MB。持久工作区需要账号及订阅，当前官网 Personal 为每月 7 美元，单文件 25 MB、总计 250 MB，实际结账价格和额度未核验。",
+        "Dashboard 使用 GitHub 登录；代理接入需要 Node 20 以上及本地配置。默认安装流程会为选中的代理注册 MCP 与收件钩子，并保存本地工作区信息，不能把它理解为完全无需本地设置的纯网页工具。",
+        "端到端加密和密钥不上传是官方声明，未做安全审计。服务仍能看到大小、时间及部分访问元数据；模型提供商仍会看到代理读取的内容。密钥丢失无法恢复，邀请包含密钥，应私下分享。",
+        "Jotbus 负责传递与保存上下文，不会自行启动闲置代理；@提及在代理下次活跃时递送。当前官网说明尚无 Team 方案；HN 时间是发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978401"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978401.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978564"
+        },
+        {
+          "type": "official_site",
+          "url": "https://jotbus.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://jotbus.com/security"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.jotbus.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.jotbus.com/assets/main-DD_TPEtj.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.npmjs.com/package/jotbus"
+        }
+      ],
+      "tags": [
+        "多代理协作",
+        "共享上下文",
+        "端到端加密",
+        "MCP",
+        "浏览器仪表盘"
+      ]
+    },
+    {
+      "id": "hacker_news:49978361",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49978361",
+      "title": "Genjutsu AI",
+      "url": "https://genjutsuai.net/",
+      "canonicalUrl": "https://genjutsuai.net/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49978361",
+      "hnUrl": "https://news.ycombinator.com/item?id=49978361",
+      "publishedAt": "2026-10-06T13:42:36Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "需要重用已有短视频镜头、替换产品或道具、改变场景与风格的创作者、电商视频制作者和剪辑人员。",
+      "what": "浏览器内的视频到视频编辑服务：首页提供原始视频与参考图片上传、提示词、动作迁移／物体替换模式和分辨率选项。官网称使用 Higgsfield Genjutsu 模型，在保留原片动作、镜头运动和时长的同时改写场景、产品、道具或视觉风格；输入片长 4–30 秒，最多 8 张参考图片，可选 480p、720p、1080p。",
+      "why": "作者个人制作动机未说明。HN 原帖仅有标题和链接、核查时无评论；官网说明的产品定位是为只需偶尔处理几个 Genjutsu 视频的用户提供按次消耗预付积分的网页入口。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49978361",
+          "https://genjutsuai.net/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、实时官方 API、官网及隐私和服务条款，并在独立云浏览器标签页确认实际编辑输入区、两种模式、参考媒体入口和生成按钮。未登录、上传媒体、购买积分或运行生成任务，输出效果未实测。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "这是独立站点提供的第三方模型服务，官网自称调用 Higgsfield Genjutsu，不能据此认定为 Higgsfield 官方网站。保留动作、身份和时序等效果仅为产品方说明，尚未实测。",
+        "生成采用一次性购买的积分包；核查时主页显示 4.99 美元／500 积分起，消耗随输入时长与分辨率变化。未核实是否提供免费额度或完整账户流程。",
+        "服务条款明确不支持含真实人脸的参考图片，并可能在生成前拒绝；不是换脸工具。使用者需自行确保素材与输出使用权。",
+        "隐私政策说明媒体、提示词与生成数据会交由第三方 AI 服务处理，参考图片可能先发送给 Fal 做人脸安全检查；不应视为本地或完全离线处理。",
+        "HN 发帖时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49978361"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49978361.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://genjutsuai.net/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://genjutsuai.net/privacy-policy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://genjutsuai.net/terms-of-service"
+        }
+      ],
+      "tags": [
+        "AI 视频",
+        "视频编辑",
+        "物体替换",
+        "创作工具",
+        "付费积分"
+      ]
+    },
     {
       "id": "hacker_news:49978267",
       "provider": "hacker_news",
@@ -1100,6 +1808,76 @@
         "应用部署",
         "Docker Swarm",
         "网页管理面板"
+      ]
+    },
+    {
+      "id": "hacker_news:49977184",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977184",
+      "title": "Docultra",
+      "url": "https://docultra.org/",
+      "canonicalUrl": "https://docultra.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977184",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977184",
+      "publishedAt": "2026-10-06T11:59:31Z",
+      "discoveredAt": "2026-10-06T14:52:46Z",
+      "audience": "需要临时转换文档、图片或音视频，以及合并、压缩或遮盖 PDF 的个人与办公用户（依据工具用途归纳）。",
+      "what": "免账号的在线文件转换与 PDF 工具站，提供格式转换、合并、压缩、签名、遮盖、OCR 等入口，并支持批量文件。PDF 转图片、提取文本和合并等功能宣称在浏览器本地处理；需要布局引擎的 PDF 转 Word、部分 Office 文档和音视频转换会发送至服务器处理。",
+      "why": "作者未说明个人制作经历。官方 About 页面自述，许多文件转换器设置订阅、注册、每日配额或水印，因此希望提供免费且无需注册的转换工具，并以页面广告支持运营；这是官方一手产品动机，广告实际收入未核验。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://docultra.org/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、首页、About、隐私政策以及 PDF 转换和合并工具页面，确认存在文件选择与格式选择入口；未上传文件、提交转换或验证导出质量。",
+        "checkedAt": "2026-10-06T14:52:46Z"
+      },
+      "caveats": [
+        "并非所有转换都在本地完成。隐私政策先称大多数音视频可在浏览器运行，随后又明确音频转换需上传服务器，表述不一致；处理敏感文件前应逐项确认实际数据流。",
+        "官网关于传输加密、任务完成后立即删除文件、免费无限制及最高 10 GB 的说法均为运营方声明，未独立验证；本地大文件处理也受设备内存限制。",
+        "隐私政策列出 Google Analytics、AdSense 和广告 Cookie，免费不代表无追踪。",
+        "HN 发布账号为 YoussefBedoui，其作者评论在官方 API 中为 dead 且正文仅为 [flagged]，无法读取；未独立验证该账号与运营方的身份关系。",
+        "本次补收来自可见重叠区；HN 发布时间不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977184"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977184.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docultra.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docultra.org/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docultra.org/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docultra.org/convert/pdf"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docultra.org/tools/pdf-merge"
+        }
+      ],
+      "tags": [
+        "文件转换",
+        "PDF",
+        "浏览器工具",
+        "免注册"
       ]
     },
     {
