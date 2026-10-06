@@ -1,9 +1,274 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T17:50:27Z",
-  "count": 180,
+  "updatedAt": "2026-10-06T18:49:59Z",
+  "count": 187,
   "projects": [
+    {
+      "id": "hacker_news:49982299",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982299",
+      "title": "Prevo",
+      "url": "https://www.prevoapp.com/",
+      "canonicalUrl": "https://www.prevoapp.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982299",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982299",
+      "publishedAt": "2026-10-06T18:35:35Z",
+      "discoveredAt": "2026-10-06T18:49:59Z",
+      "audience": "希望在正式签证或入籍面试、求职面试和投资人问答前进行口头演练的成年人。",
+      "what": "面向签证、美国公民入籍、求职面试和融资路演的 AI 语音练习服务，官网同时提供移动应用和网页入口。产品介绍称会口头提问、听取回答、追问含糊之处，并按清晰度、一致性等给出准备度反馈；另有无需麦克风的选择题练习模式。",
+      "why": "作者未说明个人创作动机。官网给出的产品目标是让用户在重要面试前先练习开口作答，在紧张场景中更清楚地表达，并通过反馈找到需要继续准备的部分。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://www.prevoapp.com/",
+          "https://www.prevoapp.com/voice"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API（核查时无评论），核对官网首页、Quiz、Voice、隐私和使用条款，以及首页 Continue on the web 所链接的网页登录页。确认存在网页账号入口，支持 Google、Apple 或邮箱登录；公开 Quiz／Voice 路由主要是功能介绍。本次未注册、登录、开启麦克风、输入个人资料、生成测验、完成语音练习或购买点数。",
+        "checkedAt": "2026-10-06T18:49:59Z"
+      },
+      "caveats": [
+        "公开的 Quiz 与 Voice 页面不是已完成的交互演示；核心练习需进入账号。官网条款称部分功能可能先在移动应用上线，本次未确认网页端与手机端的功能一致性。",
+        "官网称测验模式免费不限次数，新账号有两次免费语音练习；更多语音练习使用一次性购买的点数。实际账号权益、地区价格、网页购买渠道和扣点情况未实测。",
+        "隐私页说明语音、转录、回答和练习资料会由第三方 AI／语音服务处理，转录保存在账号中；本次未独立审计数据处理或隐私承诺，不宜提交不必要的敏感材料。",
+        "准备度评分和 AI 反馈不代表官方资格判断、通过概率或成功保证。官网明确不是律所或政府机构，不保证签证、入籍、融资或录用结果；官方要求仍需向相关机构或合格专业人士核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982299"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982299.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.prevoapp.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.prevoapp.com/login"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.prevoapp.com/quiz"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.prevoapp.com/voice"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.prevoapp.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.prevoapp.com/terms"
+        }
+      ],
+      "tags": [
+        "面试练习",
+        "AI语音",
+        "签证准备",
+        "入籍练习",
+        "求职",
+        "创业路演"
+      ]
+    },
+    {
+      "id": "hacker_news:49982151",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982151",
+      "title": "Gitwal",
+      "url": "https://gitwal.com/alerts",
+      "canonicalUrl": "https://gitwal.com/alerts",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982151",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982151",
+      "publishedAt": "2026-10-06T18:21:43Z",
+      "discoveredAt": "2026-10-06T18:49:59Z",
+      "audience": "希望知道项目在哪被讨论的开源作者，以及评估开源依赖、研究 GitHub 项目趋势的开发者。",
+      "what": "追踪公开社交内容里 GitHub 仓库链接的网页服务，提供按平台查看的 Mentions 信息流、仓库／账号入口，以及邮件提醒。官网列出 X、Bluesky、Reddit、Hacker News、Lobsters、V2EX、Qiita 和 arXiv；另有 GitHub 事件档案与趋势页面，帮助查看项目的公开讨论和活动。",
+      "why": "作者 gajus 在 HN 称这是自己近十年前 GitSpo 项目的重生：索引社交站点中提及 GitHub 仓库的内容，给开源作者提供每日或每周摘要，也让选用开源项目的人查看公开论坛怎么评价它。他明确将其作为免费的公共服务提供。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49982151"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API（核查时无评论），核对 Alerts、Mentions 和 About 页面。无需登录即可看到实际的跨平台帖子列表、时间窗口和 GitHub 事件档案说明；提醒入口要求通过 GitHub 获取授权。本次没有提交搜索、登录、授权、订阅邮件或验证邮件投递。",
+        "checkedAt": "2026-10-06T18:49:59Z"
+      },
+      "caveats": [
+        "公开信息流可直接阅读；邮件提醒需要 GitHub 授权，官网标为只读访问，但本次没有进入授权流程核实实际权限。",
+        "官网提醒页写每日邮件，作者在 HN 提到每日或每周摘要；未登录，无法确认目前是否可选择每周频率。",
+        "可见各平台统计截止时点并不完全相同，不能据此保证实时、完整收录所有提及；仅含未附仓库链接的讨论也不应假定可被检出。",
+        "社交讨论与活动记录可以辅助评估项目，但不是代码质量、安全性或维护可靠性的证明。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982151"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982151.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://gitwal.com/alerts"
+        },
+        {
+          "type": "official_site",
+          "url": "https://gitwal.com/mentions"
+        },
+        {
+          "type": "official_site",
+          "url": "https://gitwal.com/about"
+        }
+      ],
+      "tags": [
+        "开源项目",
+        "GitHub",
+        "社交提及",
+        "邮件提醒",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49981964",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49981964",
+      "title": "Lift & Coast",
+      "url": "https://lift-and-coast.vercel.app/",
+      "canonicalUrl": "https://lift-and-coast.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49981964",
+      "hnUrl": "https://news.ycombinator.com/item?id=49981964",
+      "publishedAt": "2026-10-06T18:07:12Z",
+      "discoveredAt": "2026-10-06T18:49:59Z",
+      "audience": "想在浏览器中体验方程式风格竞速、计时挑战或与朋友比赛的玩家。",
+      "what": "F1 风格的浏览器赛车游戏。公开菜单列出快速比赛、大奖赛、锦标赛、计时赛、多人模式和车库；赛前页面可选择赛道、天气、时段、比赛圈数、AI 难度与车辆设定。官网展示 30 条赛道，并介绍最多 8 名真人、其余由 AI 补齐的联机房间模式。",
+      "why": "作者未说明具体创作动机。作者 Hussain04 在 HN 仅说明这是通过 vibecoding 制作、可在浏览器运行的 F1 风格游戏，并邀请大家体验。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49981964"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API（核查时无评论），并核对官网菜单、About、Grand Prix 和 Race 路由。页面中可见赛道、天气、AI 与车辆设置，以及联机房间说明；Race 的静态响应显示正在加载赛道。本次没有执行 3D 游戏、实际驾驶、创建房间、登录或上传存档。",
+        "checkedAt": "2026-10-06T18:49:59Z"
+      },
+      "caveats": [
+        "赛道数量、多人上限和各比赛模式来自官网页面说明；未验证实际赛道加载、操控、物理真实性、帧率或多人同步。",
+        "首页可直接进入赛前页面；About 另有保存圈速的用户入口和存档导入／导出功能，本次未验证账号、存档或排行榜。",
+        "这是作者介绍的 F1 风格项目；本次没有核实其与赛事、车队或车手名称相关的授权关系。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49981964"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49981964.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://lift-and-coast.vercel.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://lift-and-coast.vercel.app/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://lift-and-coast.vercel.app/grand-prix"
+        },
+        {
+          "type": "official_site",
+          "url": "https://lift-and-coast.vercel.app/race"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "赛车",
+        "方程式赛车",
+        "多人游戏"
+      ]
+    },
+    {
+      "id": "hacker_news:49981716",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49981716",
+      "title": "Typia Jev Schema Builder",
+      "url": "https://typia.io/playground/",
+      "canonicalUrl": "https://typia.io/playground/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49981716",
+      "hnUrl": "https://news.ycombinator.com/item?id=49981716",
+      "publishedAt": "2026-10-06T17:42:48Z",
+      "discoveredAt": "2026-10-06T18:49:59Z",
+      "audience": "使用 TypeScript、需要把业务类型转成 AI 分类／决策问题结构的开发者，以及想在浏览器查看 Typia 编译结果和运行示例的用户。",
+      "what": "Typia 新增从 TypeScript 类型生成 Jev 问题结构及答案解码器的能力：布尔字段映射为是非问题，枚举映射为选项，属性和枚举注释提供问题说明；可直接调用 Jev 或经 Vercel AI SDK 使用。同一类型也能生成 OpenAI Structured Outputs 所需的 JSON Schema。官网另有实际浏览器 Playground，提供 TypeScript 编辑区、编译后的 JavaScript、错误提示和 Execute 控制，可探索 Typia 的代码转换。",
+      "why": "作者未说明此次功能的个人创作缘由。官方文章给出的产品目标是从同一份 TypeScript 类型与注释生成 Jev 问题结构、解码答案，并复用类型生成结构化输出所需的 JSON Schema，减少重复定义。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://typia.io/blog/jev/",
+          "https://typia.io/docs/llm/evaluation/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖和官方 API（核查时无评论）、官方 Jev 文章、evaluation 文档、Playground 页面及其公开 JavaScript。确认 Playground 包含编辑、编译输出和执行界面，页面代码配置了浏览器编译 worker 与 Typia runtime；没有在编辑器输入代码或执行 Jev 示例，也未调用任何模型 API。",
+        "checkedAt": "2026-10-06T18:49:59Z"
+      },
+      "caveats": [
+        "这是 Typia 库的新功能及其浏览器实验界面，不是无需配置即可完成 Jev 推理的独立托管分类服务。Playground 默认示例演示随机数据、验证、JSON 序列化和 Protocol Buffer，并非 Jev 推理；本次未验证 Jev 特定功能能否在 Playground 端到端执行。",
+        "实际调用 Jev、Vercel AI SDK 对应提供方或 OpenAI 需要各自 SDK、API 凭据及服务权限；直接 SDK 与 Vercel provider 所用环境变量名称不同，需遵循相应文档。",
+        "生产项目需要 Typia 编译期转换配置；生成问题结构、类型校验和答案解码不能保证模型判断正确。外部推理的数据处理、费用、延迟和安全性未核验。",
+        "HN 时间为此次来源帖时间，不代表 Typia 或 Playground 的首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49981716"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49981716.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://typia.io/blog/jev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://typia.io/playground/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://typia.io/docs/llm/evaluation/"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "TypeScript",
+        "AI 决策",
+        "Schema",
+        "浏览器 Playground"
+      ]
+    },
     {
       "id": "hacker_news:49981384",
       "provider": "hacker_news",
@@ -7740,6 +8005,65 @@
       ]
     },
     {
+      "id": "hacker_news:49965102",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49965102",
+      "title": "Approvegate",
+      "url": "https://www.approvegate.io/",
+      "canonicalUrl": "https://www.approvegate.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49965102",
+      "hnUrl": "https://news.ycombinator.com/item?id=49965102",
+      "publishedAt": "2026-10-05T14:08:01Z",
+      "discoveredAt": "2026-10-06T18:49:59Z",
+      "audience": "使用 GitHub Actions、GitLab CI 等部署流水线，希望把发布审批、职责分离和变更审计记录落到实际部署步骤中的开发、平台工程与合规团队。",
+      "what": "为部署流水线增加审批检查，并以网页管理受保护服务和审计记录。官方说明审批关联具体构建，检查审批人是否不同于作者、审批是否在有效窗口、是否处于冻结期；新服务先在 shadow 模式记录本来会阻止的部署，再由团队切换为强制阻断。公开首页另有条件开关式 gate 模拟器，可展示允许、阻止和紧急覆盖的判定逻辑。",
+      "why": "作者未说明个人创作缘由。官网给出的产品目标是让已有的发布审批流程真正约束部署，并在部署发生时保留批准人、构建 SHA 和判定理由，减少审计时从 PR、聊天和截图重新拼凑证据的工作。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://www.approvegate.io/",
+          "https://www.approvegate.io/docs"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网、公开文档和首页前端模块。确认公开模拟器包含审批、职责分离、有效期、冻结条件及紧急覆盖控制，公开 JavaScript 有本地状态切换和判定逻辑；同时核对实际接入需要账户、API key 和流水线配置。本次未在浏览器点击控件，未登录、生成凭据、接入仓库、执行部署或验证后端审批。HN 评论仅有 flagged 占位，无法核对其中的作者说明。",
+        "checkedAt": "2026-10-06T18:49:59Z"
+      },
+      "caveats": [
+        "首页演示及示意产品画面不能证明真实部署阻断、审计导出或权限控制已经端到端有效；公开文档描述的能力未在生产流水线中实测。",
+        "正式使用需要注册账户、创建 API key 并配置 CI secret；新服务默认 shadow 模式不会阻止部署，需主动切换 Enforcing。",
+        "服务不可达时默认失败关闭，也可配置继续部署并标为 unverified；紧急覆盖会允许部署并记录理由，团队需自行评估这些策略。",
+        "官网列有免费额度与付费方案，保留期限和审计导出受方案限制；价格和额度可能变化。使用该服务本身不等于通过 SOC 2、PCI DSS、SOX、HIPAA 等合规审核。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49965102"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49965102.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.approvegate.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.approvegate.io/docs"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "CI/CD",
+        "部署审批",
+        "审计",
+        "网页演示"
+      ]
+    },
+    {
       "id": "hacker_news:49964977",
       "provider": "hacker_news",
       "source": "show_hn",
@@ -8918,6 +9242,73 @@
       ]
     },
     {
+      "id": "hacker_news:49962605",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49962605",
+      "title": "MCP Transparency Log",
+      "url": "https://yassinht.github.io/mcp-transparency-log/",
+      "canonicalUrl": "https://yassinht.github.io/mcp-transparency-log/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49962605",
+      "hnUrl": "https://news.ycombinator.com/item?id=49962605",
+      "publishedAt": "2026-10-05T09:36:53Z",
+      "discoveredAt": "2026-10-06T18:49:59Z",
+      "audience": "想追踪公开 MCP 服务可访问性、工具接口变化和长期观测记录的 AI agent 开发者、安全研究人员与基础设施维护者。",
+      "what": "可直接浏览的 MCP 观测数据网站，展示最近一次普查、逐日端点图表与结果表，并支持按服务名或主机名搜索服务器，查看工具数、观察天数、变化次数和首次发现日期。背后项目定时采集官方注册表中声明网络端点的公开 MCP 服务，把工具描述、JSON Schema 等观测加入带签名树头的追加式 Merkle 日志；网页是这些记录的派生视图。",
+      "why": "作者在仓库中说明，发布者签名只能说明是谁发布了内容，无法提醒使用者工具描述或结构已不同于上次审查，因此希望用独立、持续的第三方观测积累可追溯历史，回答工具接口究竟如何随时间变化。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://github.com/yassinht/mcp-transparency-log"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、项目 README、公开数据网站及页面 JavaScript，确认统计图表、逐日表格和按名称／主机搜索的实现；另成功读取 census.json 和 servers.json。核查时普查数据有 38 条，最新日期为 2026-10-06，服务器索引有 14,363 条，离线核对 weather 可匹配 34 条。未在浏览器输入查询，未运行爬虫或安装验证 CLI，也未独立重建 Merkle 树或核验远程服务器。HN 评论仅有 flagged 占位。",
+        "checkedAt": "2026-10-06T18:49:59Z"
+      },
+      "caveats": [
+        "范围限于官方注册表中可公开观察的 MCP 网络端点，不代表整个 MCP 生态，也不覆盖需凭据才能枚举工具的服务内容。",
+        "网页统计与索引由项目运营者生成，本次只核对公开数据和展示逻辑；搜索结果最多显示 200 条，且至少需要三个字符。",
+        "按仓库说明，Merkle 日志可用于检验已承诺历史是否被改写，不能单独证明观测真实；独立见证与 gossip 尚未实现，不能把其签名当作服务安全背书。",
+        "仓库明确记录过噪声分类与抽样错误及修正；描述中的动态数字、轮换文本和不同采样时刻可能影响变化统计，需结合其方法和限制解读。",
+        "首个签名树头于 2026-09-07 覆盖此前九天的观测，只证明当日已将这些记录纳入日志，不能证明每条观测都在其标注日期完成。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49962605"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49962605.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/yassinht/mcp-transparency-log"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yassinht.github.io/mcp-transparency-log/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yassinht.github.io/mcp-transparency-log/data/census.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://yassinht.github.io/mcp-transparency-log/data/servers.json"
+        }
+      ],
+      "tags": [
+        "MCP",
+        "开发者工具",
+        "安全研究",
+        "数据看板",
+        "透明日志"
+      ]
+    },
+    {
       "id": "hacker_news:49962594",
       "provider": "hacker_news",
       "source": "show_hn",
@@ -9674,6 +10065,77 @@
         "社交媒体",
         "内容优化",
         "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49960371",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49960371",
+      "title": "Ramen（自托管 MCP 管理控制台）",
+      "url": "https://github.com/bkraad47/ramen",
+      "canonicalUrl": "https://github.com/bkraad47/ramen",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49960371",
+      "hnUrl": "https://news.ycombinator.com/item?id=49960371",
+      "publishedAt": "2026-10-05T03:27:26Z",
+      "discoveredAt": "2026-10-06T18:49:59Z",
+      "what": "自托管的多团队、多区域 MCP 工具运行与管理平台，带有 FastAPI、Jinja2 和 HTMX 构建的浏览器控制台。团队可把 Python 工具放入 Git 仓库，由控制台管理分组、环境、区域、部署任务、权限、密钥、日志和审计；支持先部署 canary（小规模试运行版本）、检查工具接口与测试结果，再更新稳定版本。底层以 Rust 节点处理协议与访问控制，Python 进程运行工具，面向本地 Docker 或 GCP／AWS Kubernetes 部署。",
+      "audience": "需要在自有基础设施上为多个团队托管 MCP 工具、分配权限和追踪部署的开发平台团队、DevOps 工程师与具备运维能力的开发者。",
+      "why": "作者未说明个人创作经历。官方 How it works 将设计目标解释为：MCP 能让模型调用工具，但大量工具服务多个团队时，逐个运行服务器、分散配置密钥和人工判断访问关系会变得难以管理，因此按团队、代码仓库、成员角色与分阶段部署组织成统一平台。HN 提交账号 bulkguy47 与仓库署名 Raad 的对应身份未独立确认；其评论只返回 flagged 占位，未据此推断动机。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49960371",
+          "https://bkraad47.github.io/ramen/how-it-works/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖与官方 API、评论状态、官方 README、架构说明与入门文档，并核对仓库中的控制台源码结构、管理界面模板及截图说明。资料显示这是包含实际浏览器管理界面的自托管系统，并非仅提供 MCP API。未安装、启动本地实例、登录、创建凭据、接入仓库或部署云资源。",
+        "checkedAt": "2026-10-06T18:49:59Z"
+      },
+      "caveats": [
+        "需要自行安装并运维后才能使用控制台；官网是文档站，没有本次可直接进入的公共管理实例。浏览器管理功能由官方文档和源码核对，不等于运行实测。",
+        "系统涉及云权限、工具执行、凭据和团队数据隔离，部署者需要自行审查默认配置、HTTPS、认证和网络边界；作者的安全、可用性与云部署测试声明未获独立验证。",
+        "官方明确区分已运行验证和仅测试覆盖的功能，并说明 Microsoft Entra ID 与 Google Workspace 登录尚未在真实租户验证；不要据功能列表假定所有集成均已成熟。",
+        "自托管软件仍可能产生云基础设施与运维成本；未测试大规模负载、多区域故障恢复或实际 MCP 客户端兼容性。HN 时间为来源帖时间，不代表项目首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49960371"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49960371.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/bkraad47/ramen"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bkraad47.github.io/ramen/how-it-works/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bkraad47.github.io/ramen/get-started/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/bkraad47/ramen/blob/main/console/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/bkraad47/ramen/blob/main/console/src/ramen_console/templates/group.html"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "MCP",
+        "Kubernetes",
+        "开发者工具",
+        "运维控制台"
       ]
     },
     {
