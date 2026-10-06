@@ -1,9 +1,96 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T20:53:37Z",
-  "count": 198,
+  "updatedAt": "2026-10-06T21:46:51Z",
+  "count": 200,
   "projects": [
+    {
+      "id": "hacker_news:49983919",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49983919",
+      "title": "StatLite",
+      "url": "https://pvrlabs.xyz/statlite/",
+      "canonicalUrl": "https://pvrlabs.xyz/statlite/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49983919",
+      "hnUrl": "https://news.ycombinator.com/item?id=49983919",
+      "publishedAt": "2026-10-06T20:50:34Z",
+      "discoveredAt": "2026-10-06T21:46:51Z",
+      "what": "MIT 开源、可自托管的轻量应用监控网页看板。一个 Go 程序轮询应用并把历史数据存入本地 SQLite，在浏览器查看请求量、HTTP 错误、平均延迟、CPU、内存、健康状态及重启事件。主要对接 Spring Boot Actuator，也支持指定的 Quarkus、Micronaut 指标接口；FastAPI、Express、Django、Go 和 Gin 可通过官方指南添加固定 JSON 指标端点。官网另有使用样本数据的公开演示。",
+      "audience": "在小型 VPS 或资源有限服务器上维护一个或少量应用、想快速查看近期运行状况的独立开发者和小团队，尤其是 Spring Boot 用户。",
+      "why": "作者未说明个人创作契机。官网“Why it exists”明确说明：Actuator 虽有有用的运行数据，但反复读取原始 JSON 不适合作为日常看板；官方指南进一步解释，少量 VPS 应用需要基本监控，却未必需要运维一整套 Prometheus 与 Grafana。这是官方说明的产品缘由，不能推断为作者亲历故事。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://pvrlabs.xyz/statlite/",
+          "https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html",
+          "https://news.ycombinator.com/item?id=49983919"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取 HN 原帖并刷新官方 API（核查时没有评论），核对官网、官方指南、仓库 README、产品与配置文档及 MIT 许可证。在独立云浏览器打开公开演示，看到请求、错误、延迟和运行时图表，并将时间范围从 24 小时切换为 1 小时。页面明确使用样本数据；本次未安装或部署、接入实际服务、提交表单、登录或验证真实采集及性能。",
+        "checkedAt": "2026-10-06T21:46:51Z"
+      },
+      "caveats": [
+        "看板和 API 没有内置身份认证。官方要求默认保持回环地址，远程访问应通过防火墙、VPN、SSH 隧道或有认证的反向代理保护；应用指标端点也应限制访问。",
+        "定位是少量应用的固定指标看板，不支持任意指标与标签、PromQL、自定义看板、集中日志、分布式追踪或内置告警投递；也不能替代独立的外部可用性监控。",
+        "公开演示是样本数据，不代表真实线上服务或采集成功。约 15 MiB 内存是官方测得的空闲基线，历史查询可能增加占用，本轮未复现性能测量。",
+        "集成需要应用暴露受支持的指标接口；FastAPI、Express、Django、Go 和 Gin 需要自行添加端点。健康与数据库状态依赖应用提供明确的健康信号，能成功读取指标本身不等于数据库或应用业务健康。",
+        "产品文档说明 7 天和 30 天图表采用粗采样，可能遗漏瞬时峰值；平均延迟也不是延迟分位数。重启检测依赖轮询，可能延后到下一次成功采集。",
+        "HN 发帖账号为 ejboy；官网指南署名 Ted Kupolov，仓库归属 PVRLabs，本次未独立核实账号与真实身份的对应关系。来源帖时间为 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49983919"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49983919.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pvrlabs.xyz/statlite/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pvrlabs.xyz/statlite/demo.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/PVRLabs/statlite"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/PVRLabs/statlite/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/PVRLabs/statlite/blob/main/docs/product.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/PVRLabs/statlite/blob/main/docs/configuration.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/PVRLabs/statlite/blob/main/LICENSE"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "应用监控",
+        "Spring Boot",
+        "SQLite",
+        "开源",
+        "网页看板"
+      ]
+    },
     {
       "id": "hacker_news:49983573",
       "provider": "hacker_news",
@@ -842,6 +929,82 @@
         "社交提及",
         "邮件提醒",
         "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49982138",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49982138",
+      "title": "Wave Studio",
+      "url": "https://wave-studio.pages.dev/",
+      "canonicalUrl": "https://wave-studio.pages.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49982138",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982138",
+      "publishedAt": "2026-10-06T18:20:52Z",
+      "discoveredAt": "2026-10-06T21:46:51Z",
+      "audience": "需要为网页首页、产品展示或视觉素材制作渐变背景的前端开发者、网页设计师，以及喜欢生成艺术的创作者。",
+      "what": "用于设计 Stripe 风格 3D 渐变波浪的免费浏览器工作室。官方文档说明可从预设开始调整曲线、扭转、宽度、渐变、光泽与多层波带，并加入可选的指针和滚动交互；可导出 React、Vue、Svelte 或原生 JavaScript 代码、静态图片、视频／动图、自包含 HTML 和 JSON 配置。项目同时提供 MIT 开源仓库和本地运行说明，网页工作室无需先安装库。",
+      "why": "作者 Amir_A 在 HN 原帖明确说，自己一直喜欢 Stripe 的设计，后来在 YC 播客的视频中看到 Stripe 用于生成首页 3D 波浪的内部工具；觉得没有开源替代品很可惜，于是做了这个项目，还添加了更多可调参数。这是作者自己的创作动机，而非根据产品功能推测。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49982138",
+          "https://hacker-news.firebaseio.com/v0/item/49982138.json"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已实时读取 HN 原帖、官方 API 和全部一条评论，核对官网公开页面说明、GitHub README、MIT 许可证与 workspace 配置。官网在独立云端浏览器标签页加载出预览工作区和尺寸控制，但随后报 THREE.WebGLRenderer 创建 WebGL context 失败，未成功看到波浪或验证编辑、导出流程。功能范围依据官网及官方仓库说明；未安装、登录、提交内容或运行项目。",
+        "checkedAt": "2026-10-06T21:46:51Z"
+      },
+      "caveats": [
+        "工作室依赖浏览器图形能力；本轮环境无法创建 WebGL context，不能据此断言所有设备都不可用，也不能把页面加载当作成功实测。图像、视频、动图与代码导出均未验证。",
+        "嵌入到自己网站时仍需集成导出的代码与相应依赖；官方说明 npm 方案依赖 Three.js，并建议提供静态 poster，以便在不支持 WebGL、减少动态效果或节省流量等条件下回退。该说明不等于工作室本身已有同样的可用性保障。",
+        "官方文档提醒默认 16:9 构图在窄屏容器中可能明显裁切，需要调整 Camera 设置。实际移动端效果、图形性能与导出格式兼容性未作跨设备测试。",
+        "已核对公开 MIT 许可证和本地运行说明，但未复现安装与构建。核查时 HN 只有一条读者询问开源仓库的评论，没有作者补充回复；来源帖时间为 HN 发帖时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49982138"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49982138.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49984357.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wave-studio.pages.dev/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Amir-Abushanab/wave3d"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Amir-Abushanab/wave3d/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Amir-Abushanab/wave3d/blob/main/LICENSE"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Amir-Abushanab/wave3d/blob/main/package.json"
+        }
+      ],
+      "tags": [
+        "网页设计",
+        "渐变背景",
+        "3D",
+        "WebGL",
+        "开源",
+        "生成艺术"
       ]
     },
     {
