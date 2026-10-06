@@ -1,9 +1,341 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T10:51:36Z",
-  "count": 130,
+  "updatedAt": "2026-10-06T11:46:18Z",
+  "count": 135,
   "projects": [
+    {
+      "id": "hacker_news:49977013",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977013",
+      "title": "urTuner",
+      "url": "https://urtuner.com/",
+      "canonicalUrl": "https://urtuner.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977013",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977013",
+      "publishedAt": "2026-10-06T11:37:50Z",
+      "discoveredAt": "2026-10-06T11:45:38Z",
+      "audience": "需要在手机或电脑浏览器里给吉他、贝斯、尤克里里、提琴等乐器调音的演奏者与学习者。",
+      "what": "无需注册的浏览器调音器与音乐工具站，提供多种乐器和定弦预设、可调 A4 基准音、自动或手动选弦及参考音；另有半音阶调音、节拍器、音高检测和和弦资料。麦克风调音需要浏览器授权。",
+      "why": "作者未说明个人制作动机。官网表达的产品目标是提供免费、直接在浏览器运行的调音及音乐工具；HN 提交者 artiomartiom 与网站作者的身份关系未获独立确认。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977013",
+          "https://urtuner.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 和官网返回的完整调音界面、选项、使用说明及 FAQ。核查时原帖没有评论；未开启麦克风、播放参考音或用真实乐器测试，音高准确率与延迟未验证。联系页、隐私页和调音脚本的后续读取返回 403，相关内容未核验。",
+        "checkedAt": "2026-10-06T11:45:38Z"
+      },
+      "caveats": [
+        "官网称麦克风音频在本机处理、不录制或上传；本次没有完成运行时网络或隐私审计，不能将声明视为独立安全保证。",
+        "麦克风检测依赖浏览器权限和音频输入环境；支持范围、免费政策与实际效果以当前服务为准。",
+        "HN 发帖时间不代表产品首次上线时间；未取得用户量、收入或需求验证证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977013"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977013.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://urtuner.com/"
+        }
+      ],
+      "tags": [
+        "音乐",
+        "调音",
+        "浏览器工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49976996",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976996",
+      "title": "Gutsy",
+      "url": "https://github.com/kouhxp/gutsy",
+      "canonicalUrl": "https://github.com/kouhxp/gutsy",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976996",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976996",
+      "publishedAt": "2026-10-06T11:35:05Z",
+      "discoveredAt": "2026-10-06T11:42:29Z",
+      "audience": "希望在本地尝试客服分流、反馈分类和模型路由等概率判断流程的开发者（依据演示用途归纳）",
+      "what": "CPU 本地决策模型与推理服务，接受是非、选项和评分问题并返回概率。仓库附带六个浏览器演示，包括客服工单分流、反馈表提问和模型路由；需自行安装运行时、下载模型并连接本地服务。",
+      "why": "未找到作者个人创作动机的第一人称说明。官方 README 将产品目标描述为在本地提供结构化概率判断，避免每次请求依赖远程服务。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/kouhxp/gutsy",
+          "https://news.ycombinator.com/item?id=49976996"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 页面与官方 API、仓库及运行时 README、源码树，并检查客服分流与反馈表的 HTML/JavaScript：界面有提问按钮，向本地 /v1/systemone 发起请求。未安装依赖、下载模型或运行推理。",
+        "checkedAt": "2026-10-06T11:44:44Z"
+      },
+      "caveats": [
+        "这是需本地部署的浏览器演示集合，未发现可直接使用的托管在线版本；演示使用虚构数据。",
+        "README 声明仅支持英语，算术、多步规则和陌生难题存在明显弱点；性能与准确率均为项目方报告，本次未复测。",
+        "演示要求启用 --cors；项目方提醒，此设置会让所访问的任意网页查询本地服务，使用后应关闭。",
+        "HN 提交者为 mrkn1，仓库所有者为 kouhxp；现有帖子没有正文或评论证明二者为同一人。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976996"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976996.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kouhxp/gutsy"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kouhxp/gutsy/tree/main/gutsy-inference/examples"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kouhxp/gutsy/blob/main/gutsy-inference/examples/support-triage.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kouhxp/gutsy/blob/main/gutsy-inference/examples/feedback-sheet.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kouhxp/gutsy/blob/main/gutsy-inference/README.md"
+        }
+      ],
+      "tags": [
+        "本地 AI",
+        "自托管",
+        "浏览器演示",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49976908",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976908",
+      "title": "HAR Analyzer",
+      "url": "https://har-analyzer.onlinetool.workers.dev/",
+      "canonicalUrl": "https://har-analyzer.onlinetool.workers.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976908",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976908",
+      "publishedAt": "2026-10-06T11:23:17Z",
+      "discoveredAt": "2026-10-06T11:45:38Z",
+      "audience": "需要查看浏览器网络日志、比较请求或排查接口问题的 Web 开发者、测试人员与支持工程师。",
+      "what": "在网页中导入 HAR（HTTP Archive，浏览器网络请求归档）文件，查看请求、响应、头部、Cookie、载荷与耗时，并按 URL、方法、状态筛选或比较请求；提供 cURL、Python、Fetch 代码复制，页面也列有脱敏导出入口。页面源码还包含若干基于正则表达式的可疑载荷提示。",
+      "why": "作者未说明个人制作动机。HN 标题和网站只说明本地解析、导出请求与调试的产品用途；页面署名 vj1naruto，尚无一手材料确认其与 HN 提交者 kvmsolutionscon 的身份关系。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49976908",
+          "https://har-analyzer.onlinetool.workers.dev/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、公开页面和内嵌前端源码；可见本地 file.text() 读取、JSON 解析、过滤、比较及代码生成逻辑。核查时原帖没有评论。未导入任何 HAR 文件、触发调试请求、操作导出或进行端到端功能测试。 当前源码的耗时渲染段引用未在函数内定义的 entry，且未找到脱敏导出按钮对应实现；这些功能不能视为已可用。",
+        "checkedAt": "2026-10-06T11:45:38Z"
+      },
+      "caveats": [
+        "页面宣称完全客户端处理且不保存数据，源码中的导入流程也显示本地读取，但本次未做完整运行时网络、隐私或安全审计。",
+        "HAR 可能含认证头、Cookie、查询参数及响应中的敏感信息；本次未找到脱敏导出入口的实现，不能依赖该按钮清除秘密。简单正则威胁提示也不等于安全检测结论。",
+        "调试按钮会复制请求并打开另一个接口测试站；本次未使用此流程，不能据此认为工具安全隔离或会自动清除凭据。",
+        "HN 发帖时间不代表产品首次上线时间；未取得用户量、收入或需求验证证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976908"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976908.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://har-analyzer.onlinetool.workers.dev/"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "网络调试",
+        "HAR",
+        "浏览器工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49976824",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976824",
+      "url": "https://trytofu.ai/",
+      "canonicalUrl": "https://trytofu.ai/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976824",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976824",
+      "publishedAt": "2026-10-06T11:12:02Z",
+      "discoveredAt": "2026-10-06T11:45:28Z",
+      "title": "Tofu：让编程代理部署全栈应用的托管平台",
+      "audience": "已经用 AI 编程代理完成代码，希望减少主机、数据库、域名和登录服务配置工作的独立开发者与小型产品团队。",
+      "what": "提供独立 Web 控制台及 MCP 接口的应用部署平台。官方文档描述从代码或 GitHub 导入、框架确认、构建和可达性检查，到部署历史、日志与回滚；付费方案还整合托管 Postgres、自有域名、登录和邮件、分析等能力。官网可阅读示例流程，实际控制台需要 Google 或 GitHub 登录；本轮未创建项目或验证真实部署。",
+      "why": "HN 发帖者 1353504031 自称 Tofu 创始人。他说团队已会写代码、也部署过产品，但代理写完可在本地运行的应用后，正式上线仍要花两三个小时配置主机、数据库、密钥、重定向和域名，并管理多个供应商账号。因此他们希望减少账号与服务之间的人工接线，让编程代理真正完成从代码到上线的过程。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49976824"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核查 HN 原帖、官方 API、两条评论、发帖者资料、官网功能与方案、About 和部署文档，并在云浏览器查看首页及控制台入口。控制台实际跳转至 Google/GitHub 登录页；公开文档明确描述独立仪表盘的部署、日志和回滚功能，因此按 Web 服务收录。官网动画是示例流程，未当作实际部署证据。未登录、安装客户端、连接代理或 GitHub、上传代码、配置域名、开通试用或付款。",
+        "checkedAt": "2026-10-06T11:45:28Z"
+      },
+      "caveats": [
+        "真实控制台需要登录，本轮未进入。所谓约十分钟上线、兼容各种代理和安全检查能力均为产品方说明，未独立验证成功率、性能、隔离性或密钥处理。",
+        "核查时官网 Free 方案仅支持一个已构建静态站点，最多 10 MB、500 个文件；服务端、数据库、自定义域名及构建等需 Pro。Pro 页面标价每月 9.99 美元，最多五个应用并共享一个托管数据库；额度和价格以购买时页面为准，域名费用另计。",
+        "官网说明七天 Pro 试用未转付费会立即降回 Free；需要 Pro 的应用下线，托管数据库被归档后删除，归档仅保留九十天。试用前应阅读当前条款并自行保留代码和数据备份。",
+        "公开文档不支持常驻后台进程、应用自带定时任务或非 HTTP 服务，也没有逐个拉取请求的预览部署。About 明确表示直接购买、续费和转移域名尚未提供，不能把 HN 中计划推出的功能视为已上线。",
+        "接入代理、GitHub、域名或数据库会涉及代码、权限和业务数据；本次没有安全或隐私审计。官网称迁走应用与数据库仍需手动步骤。",
+        "HN 账号 1353504031 仅在正文中自称创始人，未独立核实现实身份。另一用户称成功部署三个站点，作者只回复致谢；该评论不构成独立测试。publishedAt 仅为本条 Show HN 时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976824"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976824.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976889"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976901"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/1353504031.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trytofu.ai/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trytofu.ai/docs/deploy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trytofu.ai/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.trytofu.ai/dashboard/overview"
+        }
+      ],
+      "tags": [
+        "Web 应用",
+        "应用部署",
+        "AI 编程",
+        "MCP",
+        "托管平台",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49976619",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49976619",
+      "url": "https://polyroll.neocities.org/",
+      "canonicalUrl": "https://polyroll.neocities.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49976619",
+      "hnUrl": "https://news.ycombinator.com/item?id=49976619",
+      "publishedAt": "2026-10-06T10:41:02Z",
+      "discoveredAt": "2026-10-06T11:46:18Z",
+      "title": "PolyRoll：程序生成关卡的 3D 弹珠浏览器游戏",
+      "audience": "喜欢 Super Monkey Ball、Marble Blast 式平衡与平台挑战，希望用电脑或触屏设备玩短局网页游戏的玩家。",
+      "what": "以弹珠滚动、跳跃和地图倾斜为核心的 3D 网页游戏。部署源码包含 WebGL 渲染、物理步进、随机种子生成的关卡、落下重试与过关递进，并提供键盘、鼠标及触屏方向键。页面无需登录即可打开；本次云浏览器无法创建 WebGL 上下文，因此只确认入口与实现，未实际游玩。",
+      "why": "HN 发帖者 macwhisperer 自述，约三个月前在朋友家第一次接触代理式编程，于是想试着做一款游戏；两人借助 Gemini 规划和 Claude Code 迭代，累计约六至八小时做出原型。他说朋友已无太大兴趣继续开发，自己也没有 Claude Code，因此现在公开分享，让其他人也能玩到。灵感来自 Super Monkey Ball 与 Marble Blast。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49976619"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读核查 HN 原帖、官方 Firebase 元数据、发帖者资料、官网 HTML，以及部署中的 main.js、level.js、renderer.js 和 input.js。云浏览器可读取第 1 关和操作提示，但画面为空；控制台明确报告 WebGL 被当前环境禁用、无法创建上下文。源码确认生成关卡、键盘与触屏输入、物理循环及关卡推进；未实测操作、通关或移动设备。核查时原帖无评论。",
+        "checkedAt": "2026-10-06T11:46:18Z"
+      },
+      "caveats": [
+        "需要支持并启用 WebGL 的浏览器。本轮的空画面可定位到云浏览器的 WebGL 上下文创建失败，不能据此断言产品在其他设备也无法运行，也不能标为已成功试玩。",
+        "作者明确提醒关卡可能出现故障、难度较高且没有存档；刷新页面会重新生成关卡，并从第 1 关开始。程序生成不保证每一局都合理或可通关。",
+        "移动端适配、物理手感、难度平衡和长期稳定性未测试。作者表示后续开发意愿有限，没有可核验的持续维护承诺。",
+        "HN 账号 macwhisperer 以第一人称描述和朋友共同制作的经历；公开账号资料没有补充身份，未独立核实其与站点的归属。可读取部署脚本不等于获得开源许可证。",
+        "publishedAt 是这条 Show HN 的发布时间；作者称约三个月前制作，未给出产品首次上线的准确日期。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49976619"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49976619.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/macwhisperer.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://polyroll.neocities.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://polyroll.neocities.org/js/main.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://polyroll.neocities.org/js/level.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://polyroll.neocities.org/js/renderer.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://polyroll.neocities.org/js/input.js"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "3D 游戏",
+        "程序生成",
+        "WebGL",
+        "休闲游戏"
+      ]
+    },
     {
       "id": "hacker_news:49976458",
       "provider": "hacker_news",
