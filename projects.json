@@ -1,9 +1,152 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T10:49:49.319760Z",
-  "count": 223,
+  "updatedAt": "2026-10-07T11:42:33.585298Z",
+  "count": 225,
   "projects": [
+    {
+      "id": "hacker_news:49991322",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991322",
+      "title": "Token Barometer",
+      "url": "https://tokenbarometer.com/",
+      "canonicalUrl": "https://tokenbarometer.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991322",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991322",
+      "publishedAt": "2026-10-07T11:36:13Z",
+      "discoveredAt": "2026-10-07T11:42:33.585298Z",
+      "what": "一个无需登录的 LLM API 价格资料站与成本计算器，把不同模型、托管商的输入、输出、缓存和批处理价格整理为美元／百万 token，并保留价格变化记录、来源与可信度标签。网页还提供模型比较及云端 API 对本地 GPU 的成本估算，将硬件折旧、电费、维护工时、利用率和吞吐量假设展开显示。",
+      "audience": "需要比较模型供应商、追踪 API 调价，或初步估算云端调用与本地部署成本的 AI 应用开发者、技术负责人和自托管爱好者。",
+      "why": "官网作者 Dejan Strbad 在 About 页直接解释：他找到的 LLM 价目表大多只有当天价格，无法看出何时变化及幅度；不同模型对同一文本的 token 数不同，单看每 token 标价容易误比；许多云端与本地比较又假设 GPU 始终繁忙、忽略闲置成本。他因此制作了带历史记录、分词口径和利用率假设的工具。HN 发帖账号为 dstrbad，与官网链接使用的公开账号一致；身份依据为作者公开自述，未另做实名认证。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://tokenbarometer.com/about",
+          "https://news.ycombinator.com/item?id=49991322"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已核对截止前后实时 HN 原帖及官方 API 时间，并阅读官网 About、方法说明；云端浏览器可加载价格表，打开计算器可看到默认样例的云端／本地成本、盈亏平衡点、敏感性表和假设来源。未改动参数、提交表单或逐条复算。普通 HTTP 抓取首页返回 403，但浏览器可用。",
+        "checkedAt": "2026-10-07T11:42:33.585298Z"
+      },
+      "caveats": [
+        "价格来自官方网页、OpenRouter API 与社区聚合资料；部分来源停用、延迟或待人工审核，覆盖并不完整。来源标签代表该站的采集路径，不是本档案对价格准确性的独立保证，采用前应回到供应商核实。",
+        "本地吞吐量由硬件规格和效率假设估算，并非真实部署基准测试；硬件、电价、利用率、量化和维护工时会改变结果。页面明确只比较成本，没有纳入模型质量或量化后的能力损失。",
+        "已观察默认样例和只读导航；未测试自定义参数、数据导出、API、所有历史记录及持续更新流程。代码目前未公开，站点称数据使用 CC BY 4.0。",
+        "来源帖发布时间不等于网站首次上线；官网规模、流量、需求、收入与长期维护情况未独立验证。",
+        "该帖在截止前的实时 shownew 可见，截止后列表和 showstories 均未再出现；原帖及官方 API 仍可读取且帖子没有 dead/deleted 标记。API 列出一条作者评论，但内容仅为 [flagged]，无法核对其原文；制作动机来自官网一手自述，不据此推断列表变化原因。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991322"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991322.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tokenbarometer.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tokenbarometer.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tokenbarometer.com/methodology"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tokenbarometer.com/calc"
+        }
+      ],
+      "tags": [
+        "AI",
+        "价格比较",
+        "成本估算",
+        "数据历史",
+        "无需登录"
+      ]
+    },
+    {
+      "id": "hacker_news:49991266",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991266",
+      "title": "RESPdeck",
+      "url": "https://aeke.github.io/respdeck/",
+      "canonicalUrl": "https://aeke.github.io/respdeck/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991266",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991266",
+      "publishedAt": "2026-10-07T11:30:34Z",
+      "discoveredAt": "2026-10-07T11:42:33.585298Z",
+      "what": "一个可自行部署的 Redis 浏览器管理界面，采用 React 前端与 Fastify 后端。官方说明支持用 SCAN 增量浏览键、按模式或类型筛选、查看命名空间分组，以及检查和编辑字符串、哈希、列表、集合、有序集合与流；还提供 JSON 格式化、TTL 管理、重命名和删除确认。可连接多个独立 Redis 实例，连接默认只读。官网另提供无需注册、使用浏览器内合成数据的演示。",
+      "audience": "希望在自己基础设施上用网页查看和管理 Redis 的开发者、运维人员，以及需要先用示例数据了解界面的用户。当前适合单管理员、独立 Redis 实例的场景。",
+      "why": "作者未说明制作动机。官网只陈述希望以清晰、现代的界面探索、理解和处理 Redis 数据，并让用户自行托管。HN 发帖账号为 aeke，与 GitHub 仓库所有者同名；官网署名 Abdullah EKE，但仅凭同名账号不能独立确认 HN 发帖者身份。检查时原帖没有正文或评论，也没有可核对的作者补充说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991266",
+          "https://github.com/aeke/respdeck",
+          "https://aeke.github.io/respdeck/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已核对实时 HN 讨论页、官方 API 时间、官网、README、更新日志及官方发行说明；HN 检查时没有正文或评论。云端浏览器中的公开演示成功加载 24 个合成数据键，初始显示 users:1001 的 JSON 文档；点击 config:feature_flags 后可看到 new_dashboard=true、dark_mode=true、beta_search=false 三个哈希字段。未编辑、提交表单、安装部署或连接真实 Redis，未独立验证真实数据写入、安全性、无遥测和性能。",
+        "checkedAt": "2026-10-07T11:42:33.585298Z"
+      },
+      "caveats": [
+        "公开演示只使用浏览器中的合成数据，不能连接真实 Redis，修改会在刷新后重置。处理真实数据需要自行部署后端并完成管理员设置，不能把演示理解为托管数据库服务。",
+        "当前是 v0.1.0-rc.1 首个公开候选版本，仅支持独立 Redis 与单管理员会话；Cluster、Sentinel、SSH 隧道、RedisJSON 模块和多用户访问尚不在此版本范围内。",
+        "官方要求远程访问使用 HTTPS，并正确配置来源地址和安全 Cookie；凭据保存在自托管服务的数据卷中，需连同加密密钥备份。只读模式和其他安全控制未经本次独立审计。",
+        "SCAN 结果不是数据库快照，命名空间分组只代表已加载的键；大型或二进制值的编辑有限制，界面操作不提供跨多步事务，也没有任意命令控制台或 FLUSH 操作。",
+        "官方发行说明声称完成 Redis 7.2/8.2、TLS、浏览器端到端和十万键数据集等检查，本次未复跑。README 中 Validation、Roadmap 和土耳其语研究说明三个文档链接在检查时返回 404，仓库当前文件树也未列出对应文件。",
+        "HN 帖子发表于 2026-10-07 11:30:34 UTC；GitHub 官方记录显示首个候选版已于 2026-10-06 13:03:59 UTC 发布。收录时间不等于首次上线；实际用户规模、稳定性和长期维护尚未核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991266"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991266.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/aeke/respdeck"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aeke.github.io/respdeck/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aeke.github.io/respdeck/demo/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/aeke/respdeck/releases/tag/v0.1.0-rc.1"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/aeke/respdeck/blob/0a5dda07ca8674d05ff5099c5437f367144c2a8c/README.md"
+        }
+      ],
+      "tags": [
+        "Redis",
+        "数据库管理",
+        "自托管",
+        "开源",
+        "开发者工具",
+        "浏览器界面"
+      ]
+    },
     {
       "id": "hacker_news:49990836",
       "provider": "hacker_news",
