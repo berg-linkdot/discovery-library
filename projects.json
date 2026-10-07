@@ -1,9 +1,74 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T23:13:44Z",
-  "count": 286,
+  "updatedAt": "2026-10-07T23:46:01Z",
+  "count": 287,
   "projects": [
+    {
+      "id": "hacker_news:50000084",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50000084",
+      "title": "StayLeet",
+      "url": "https://stayleet.com/",
+      "canonicalUrl": "https://stayleet.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50000084",
+      "hnUrl": "https://news.ycombinator.com/item?id=50000084",
+      "publishedAt": "2026-10-07T23:19:20Z",
+      "discoveredAt": "2026-10-07T23:46:01Z",
+      "audience": "希望在使用 AI 编程工具的同时保持计算机基础、系统理解和设计审查能力的软件工程师。",
+      "what": "面向软件工程师的免费网页练习工具，聚焦非编码技能。官网提供两条轨道：技术基础以约 5–10 分钟的短题练习编程语言、数据结构、并发、数据库等主题；系统设计以约 15–30 分钟阅读设计文档并找出缺陷，题材包括限流器、短链接、文件同步、Webhook 投递和 LLM 用量计费等。进入练习需要登录。",
+      "why": "作者 jjak82 在 HN 原帖自述，随着 AI 编写越来越多代码，工程师仍需保有足够的技能与知识来审查、判断其输出；他自己觉得刻意练习有用，因此制作这个侧重技术基础和系统设计的项目，并向其他工程师征求对工作中技能退化风险的看法。作者称项目主要借助 AI 工具构建；上述担忧与练习效果属于作者经验和观点，未作独立效果验证。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50000084"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对官方 HN API、实时原帖、官网前端资源及云端浏览器呈现的首页、使用条款和隐私政策；核查时没有 HN 评论。浏览器确认两条练习轨道和主题列表，点击技术基础入口显示 GitHub、Google、LinkedIn 登录选项。未继续登录、创建账户、作答、提交反馈或验证评分与学习效果。",
+        "checkedAt": "2026-10-07T23:46:01Z"
+      },
+      "caveats": [
+        "首页可以匿名查看，但本次进入练习时被登录弹窗拦住；因此仅核验了公开页面和入口，不能称为已体验完整练习或评分。",
+        "官网条款明确题目由 AI 编写且可能出错，适合练习而非专业建议；没有独立验证题库准确率、难度分层或长期保持技能的效果。",
+        "条款将服务描述为免费工具，面向美国用户，并注明不面向欧盟、欧洲经济区或英国；本次未核查登录后的具体使用额度，也未验证地区限制如何执行。",
+        "隐私政策称会保存登录身份、答题与使用记录；分享练习会生成公开页面并显示姓名和头像。政策所述不向出题模型提供个人资料或输入内容等保障，未经过本次独立审计。",
+        "官网列出运营方 Confabulous Software LLC，但未独立核实 HN 投稿账号与运营方法律身份的对应关系。",
+        "publishedAt 是 Show HN 提交时间，不代表产品首次上线；作者仍在征求反馈，不能据此断言市场需求或训练成效已经验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50000084"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50000084.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stayleet.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stayleet.com/terms"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stayleet.com/privacy"
+        }
+      ],
+      "tags": [
+        "技能练习",
+        "系统设计",
+        "计算机基础",
+        "软件工程",
+        "AI 编程",
+        "网页应用"
+      ]
+    },
     {
       "id": "hacker_news:49999322",
       "provider": "hacker_news",
