@@ -1,9 +1,81 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T00:44:08Z",
-  "count": 208,
+  "updatedAt": "2026-10-07T01:42:25Z",
+  "count": 209,
   "projects": [
+    {
+      "id": "hacker_news:49986499",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49986499",
+      "title": "Puppet Master：集中管理编码代理的自托管网页工作台",
+      "url": "https://puppet-master.xyz/",
+      "canonicalUrl": "https://puppet-master.xyz/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49986499",
+      "hnUrl": "https://news.ycombinator.com/item?id=49986499",
+      "publishedAt": "2026-10-07T00:57:15Z",
+      "discoveredAt": "2026-10-07T01:42:25Z",
+      "audience": "同时运行多个 Claude Code、Codex 等编码代理，需要在浏览器查看会话、审批工具调用和审阅代码，并愿意自行部署的开发者。",
+      "what": "开源、自托管的编码代理管理工作台，网页仪表盘把项目、会话状态和实时终端集中在一处，并提供代码或文档审阅、任务与计划、开发预览及文件分享。官方文档说明可连接本地或远程工作节点，把 HTTP MCP 服务或 OpenAPI 描述的接口接入审批策略；还提供连接同一控制器的 iOS 配套应用。实际代理仍使用用户已安装的 CLI 与模型账户。",
+      "why": "作者在 HN 原帖中说，随着越来越多地使用 Claude 和 Codex，他难以管理分散在 tmux 窗格与会话中的任务，因此制作了 Puppet Master；他也希望使用更丰富的网页界面、离开电脑后从手机继续工作，并按跨平台任务需要调度不同机器。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49986499"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖 HTML 与实时官方 API，核查时均无评论；读取官网、安装文档、GitHub 仓库、完整 README 与 SECURITY.md，确认自托管网页入口及使用前提。未安装或运行服务，未登录、连接模型、执行代理任务或测试审批和远程访问；功能及安全描述来自作者与官方文档。",
+        "checkedAt": "2026-10-07T01:42:25Z"
+      },
+      "caveats": [
+        "这是需要自行部署的网页应用，官网是介绍与文档入口；需运行 macOS 或 Linux 主机，并自行安装、认证所用代理 CLI。项目不包含模型访问权限，模型服务可能另行收费。",
+        "网页默认仅监听本机，面向单个受信任用户；访问仪表盘可控制机器上的代理和终端。远程访问需要正确配置 HTTPS、认证与网络访问控制，本次未做安全审计。",
+        "容器隔离、凭据保护、审批策略、预览分享和移动通知均是官方描述，未实测，不能据此认定代理可安全地获得无限权限。",
+        "仓库说明仍属早期软件，CLI、数据库结构和工作节点协议可能变化；浏览器终端要求 WebGL2。",
+        "HN 发帖账号为 chrismoos，与所链接仓库的所有者用户名一致；本次未独立核实其真实身份。publishedAt 为此次 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49986499"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49986499.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://puppet-master.xyz/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://puppet-master.xyz/docs/install/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/chrismoos/puppet-master"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/chrismoos/puppet-master/master/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/chrismoos/puppet-master/master/SECURITY.md"
+        }
+      ],
+      "tags": [
+        "AI 编码",
+        "开发者工具",
+        "自托管",
+        "网页应用",
+        "开源",
+        "代理管理"
+      ]
+    },
     {
       "id": "hacker_news:49986244",
       "provider": "hacker_news",
