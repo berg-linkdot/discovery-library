@@ -1,9 +1,221 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T02:45:44Z",
-  "count": 211,
+  "updatedAt": "2026-10-07T04:19:27.074772Z",
+  "count": 214,
   "projects": [
+    {
+      "id": "hacker_news:49987765",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49987765",
+      "title": "nanoMuse：支持自托管网页端的跨设备个人智能体",
+      "url": "https://nanomuse.cn/",
+      "canonicalUrl": "https://nanomuse.cn/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49987765",
+      "hnUrl": "https://news.ycombinator.com/item?id=49987765",
+      "publishedAt": "2026-10-07T03:30:44Z",
+      "discoveredAt": "2026-10-07T04:19:27.074772Z",
+      "audience": "希望在手机、电脑与浏览器间使用个人 AI 助手，关注跨设备任务、可编辑记忆和定时工作，并愿意配置模型服务或自行部署运行时的技术用户。",
+      "what": "开源个人智能体项目，提供手机和桌面客户端、网页应用与连接设备的中继。官方文档介绍通过浏览器、shell、MCP 和技能执行任务，在同一账号下跨设备交接任务与审批，并提供可编辑记忆、定时例程及目标跟踪。网页应用可连接自行部署的 Docker 运行时；官网另有在模拟手机内操作仿真应用的精简版在线演示。",
+      "why": "作者未说明个人创作动机。此次 HN 原帖只有仓库链接，核查时没有评论；官方资料介绍了希望提供跨设备、可自行部署的个人智能体这一产品目标，但未给出可确认的个人创作缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49987765",
+          "https://github.com/nano-muse/nanoMuse",
+          "https://nanomuse.cn/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML 和官方 API，均未见评论；核对官方仓库 README、自托管与跨设备文档、隐私和安全说明，并读取官网及在线演示页面 HTML。确认存在可自托管网页应用，演示页面明确标注模拟手机与精简版限制；未启动演示会话、登录、安装、部署、连接模型或执行任何任务。",
+        "checkedAt": "2026-10-07T04:19:27.074772Z"
+      },
+      "caveats": [
+        "在线演示要求登录，官网称每次免费体验半小时；其中手机和应用是 MobileGym 的重建模拟环境，不是真实微信、支付宝或铁路服务，也不能代表完整 Android 应用能力。",
+        "实用网页端需要运行后端，官方提供 Docker 自托管方式；网页控制台本身没有设备操作能力，需要相应运行时或设备配合。模型使用依赖社区额度或自备服务商密钥，可能产生模型及主机费用。",
+        "根据项目隐私说明，社区中继的新账号默认开启用于模型改进的对话文本留存，登录后也默认同步主对话；设置中可关闭或删除相应数据。消息和工具结果可能发送至所选模型服务商，不能将自托管等同于所有数据都不离开设备。",
+        "代理可执行命令并操作设备；审批、隔离、跨设备同步及隐私措施均未独立测试或安全审计。官方安全说明建议保持认证、限制网络暴露并审阅授权范围。",
+        "HN 提交者为 ilreb，本次未确认其是否为项目作者或维护者。publishedAt 为这次 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49987765"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987765.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nano-muse/nanoMuse"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/nano-muse/nanoMuse/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nanomuse.cn/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.nanomuse.dev/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nano-muse/nanoMuse/blob/main/docs/self-hosting.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nano-muse/nanoMuse/blob/main/docs/every-device.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nano-muse/nanoMuse/blob/main/docs/privacy.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nano-muse/nanoMuse/blob/main/SECURITY.md"
+        }
+      ],
+      "tags": [
+        "个人智能体",
+        "跨设备",
+        "自托管",
+        "开源",
+        "网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49987761",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49987761",
+      "title": "easiest.ai：带网页聊天入口的多智能体工具",
+      "url": "https://easiest.ai/",
+      "canonicalUrl": "https://easiest.ai/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49987761",
+      "hnUrl": "https://news.ycombinator.com/item?id=49987761",
+      "publishedAt": "2026-10-07T03:29:45Z",
+      "discoveredAt": "2026-10-07T04:19:27.074772Z",
+      "what": "一套面向 AI 任务与编程工作的工具。此次 Show HN 主要介绍采用 Vim 风格键位的终端 Shell，强调并行子任务、上下文压缩与 token 费用跟踪；其官网也提供浏览器 Chat 入口，可选择智能体、设定指令、选择模型并组织会话。核查时无需登录即可打开 Helpful Assistant 聊天界面，看到输入框、智能体切换及推理模式控件，但未发送消息。",
+      "audience": "希望在浏览器中与不同 AI 智能体对话的用户，以及关注多任务处理、上下文大小和推理成本的开发者与小团队。Vim 风格指的是以键盘操作为主的编辑器习惯，属于 Shell 部分，不能据此推断网页界面也采用相同操作方式。",
+      "why": "作者未说明具体个人经历或创作起因。HN 发帖者 skhameneh 自称制作了这个专注高效并行任务的 TUI 工具，并将小上下文、客户端和工具输出压缩描述为设计目标；这些属于其公开产品目标，未获得独立效果验证。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49987761"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对实时 HN 原帖与官方 API 时间；当前原帖没有评论。云端浏览器读取官网并经 Start Chat 打开访客聊天界面，确认网页入口与可见控件存在。未登录、安装、发送提示词、运行任务或测试模型输出。",
+        "checkedAt": "2026-10-07T04:19:27.074772Z"
+      },
+      "caveats": [
+        "HN 原帖重点是终端工具，并把网页聊天和桌面应用描述为即将推出；本轮官网却已能打开网页聊天界面，只有桌面版被明确标记为 coming soon。此处仅确认当前界面可达，不能证明聊天后端已可用。",
+        "原帖所称早期测试者节省 90% 以上 API 费用，以及官网类似成本与能力数字均未独立核验，不代表收入、真实需求或普遍性能结果。",
+        "网页可见访客界面；实际发送消息是否需要登录、可用模型、限额和计费没有实测。官网把免费方案限定为非商业用途，商业使用须自行核对当前许可和价格。",
+        "未审计安全、数据处理或模型隐私；不要仅凭官网介绍提交私密内容。",
+        "发布时间是这条 HN 帖子的时间，不代表网站或产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49987761"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easiest.ai/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easiest.ai/home"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987761.json"
+        }
+      ],
+      "tags": [
+        "AI 助手",
+        "网页聊天",
+        "多智能体",
+        "开发工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49987419",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49987419",
+      "title": "ohmytt：免登录查看 TikTok 公开账号资料与媒体下载选项",
+      "url": "https://ohmytt.com/",
+      "canonicalUrl": "https://ohmytt.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49987419",
+      "hnUrl": "https://news.ycombinator.com/item?id=49987419",
+      "publishedAt": "2026-10-07T02:42:08Z",
+      "discoveredAt": "2026-10-07T04:19:27.074772Z",
+      "audience": "希望在浏览器中查看已知 TikTok 账号公开资料、比较公开统计，或保存自己拥有使用权的帖子媒体的成年用户。",
+      "what": "一个独立的 TikTok 网页工具集。可按准确用户名、数字用户 ID 或个人主页链接查询公开资料、粉丝统计及来源返回的地区参考；视频下载页接受帖子链接、短链接或视频 ID，列出可用的视频、图片和音频格式，并介绍图片集 ZIP 下载。官网还提供故事、转发、直播、评论及趋势等工具入口，支持中文等四种语言，标称免费且无需 TikTok 登录或 API 密钥。",
+      "why": "作者未说明个人创作动机。HN 原帖仅有标题与产品链接，核查时无正文或评论；官网说明希望把公开账号查询与媒体查看放在同一个工作区，这属于产品目标，不能据此推断作者经历或创业原因。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49987419",
+          "https://ohmytt.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML 和官方 Firebase 元数据；两者均显示无评论，API 时间对应 2026-10-07 02:42:08 UTC。已在云端浏览器打开账号查询首页与视频下载页，确认表单、功能说明和限制可见，并读取官方隐私政策与服务条款。未提交账号或视频查询，未下载媒体、登录、安装扩展或联系运营方，故未验证查询返回内容及下载成功率。",
+        "checkedAt": "2026-10-07T04:19:27.074772Z"
+      },
+      "caveats": [
+        "功能依赖公开数据与第三方 API，可能受到配额、隐私设置、内容删除及服务可用性的影响；当前免费不代表永久承诺。仅核对页面，不代表已实测整套工具。",
+        "地区字段只是来源估计，并非实时位置或已核实的注册国家；结果不能用来核实身份。该查询器不支持按真实姓名、邮箱、电话号码或相似昵称寻找个人，也不能解锁私密内容。",
+        "下载只列出来源实际提供的格式，不保证高清或无水印；应仅保存自己拥有、获得许可或依法有权使用的内容，返回下载链接不等于获得再传播授权。",
+        "免 TikTok 登录不等于完全匿名。官方隐私政策说明查询会传给服务器及必要的数据提供方，浏览器保存查询历史和会话信息，生产站点默认使用第三方访问分析且无关闭开关；未独立审计数据处理或隐私合规。",
+        "服务条款限定 18 岁及以上用户，并禁止骚扰、跟踪、批量个人档案及对他人有重大影响的决策用途。",
+        "HN 发帖账号为 valorantPanda；官网仅提供项目名称与联系邮箱，未能独立确认该账号与作者或运营方的身份对应关系。publishedAt 是此次 HN 发帖时间，并非产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49987419"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987419.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ohmytt.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ohmytt.com/download"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ohmytt.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ohmytt.com/terms"
+        }
+      ],
+      "tags": [
+        "TikTok",
+        "公开账号查询",
+        "媒体下载",
+        "网页工具",
+        "免登录"
+      ]
+    },
     {
       "id": "hacker_news:49986878",
       "provider": "hacker_news",
