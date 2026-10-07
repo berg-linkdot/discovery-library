@@ -1,9 +1,137 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-06T23:45:37Z",
-  "count": 206,
+  "updatedAt": "2026-10-07T00:44:08Z",
+  "count": 208,
   "projects": [
+    {
+      "id": "hacker_news:49986244",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49986244",
+      "title": "SEO Bandwagon Link Analyzer（扩展配套网页工具）",
+      "url": "https://seobandwagon.com/tools/link-analyzer",
+      "canonicalUrl": "https://seobandwagon.com/tools/link-analyzer",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49986244",
+      "hnUrl": "https://news.ycombinator.com/item?id=49986244",
+      "publishedAt": "2026-10-07T00:31:27Z",
+      "discoveredAt": "2026-10-07T00:44:08Z",
+      "audience": "需要检查网页内外链、链接属性和锚文本的网站维护者、SEO 从业者及小企业经营者。",
+      "what": "SEO Bandwagon 官网提供的独立网页链接分析入口。页面可输入网址，官方介绍可汇总内链与外链、nofollow／sponsored／UGC 属性、空白或泛化锚文本，以及域名级外链概况等；适合准备链接检查与优化清单。HN 原帖主要介绍 Chrome 扩展，本条收录其官网配套的网页工具，未安装或测试扩展。",
+      "why": "作者未说明这项独立网页链接分析器的制作原因。HN 发帖者在介绍 Chrome 扩展时说，最初是为自己公司的外链建设制作，后来扩展为 SEO 审核及本地商家引用管理，并与 SEO Bandwagon 免费账户相连；该说明不能直接视为这项网页工具的独立创作动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49986244",
+          "https://seobandwagon.com/tools/link-analyzer"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖与官方 API，核查时无评论；在云浏览器打开扩展官方页、免费工具目录和 Link Analyzer 页面，确认网页中有网址输入框与 Analyze 按钮，并能读取功能说明。直接 HTTP 抓取官网返回 403，但云浏览器访问正常。未输入网址、提交分析、登录、安装扩展或检验输出。",
+        "checkedAt": "2026-10-07T00:44:08Z"
+      },
+      "caveats": [
+        "本条是原帖扩展的配套网页工具，不是扩展本体；HN 提交时间不代表网页工具首次上线时间。",
+        "页面标为免费工具，但未提交分析，无法确认执行时是否要求登录、具体额度、处理时长及结果质量。",
+        "坏链识别、链接分类、域名级外链统计等能力来自官方页面说明，本次未实测；不能据此保证覆盖完整或提升搜索排名。",
+        "运行分析需把待检查网址提交给网站服务；本次未提交任何网址或用户数据。",
+        "HN 发帖账号为 keepkalm，自述为扩展作者；本次未独立核实其真实身份或与网站运营方的对应关系。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49986244"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49986244.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seobandwagon.com/seo-chrome-extension"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seobandwagon.com/tools"
+        },
+        {
+          "type": "official_site",
+          "url": "https://seobandwagon.com/tools/link-analyzer"
+        }
+      ],
+      "tags": [
+        "SEO",
+        "链接分析",
+        "网页工具",
+        "网站维护"
+      ]
+    },
+    {
+      "id": "hacker_news:49986138",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49986138",
+      "title": "AgentOS：从手机管理 AI 编码代理的自托管网页工作台",
+      "url": "https://github.com/saadnvd1/agent-os",
+      "canonicalUrl": "https://github.com/saadnvd1/agent-os",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49986138",
+      "hnUrl": "https://news.ycombinator.com/item?id=49986138",
+      "publishedAt": "2026-10-07T00:18:33Z",
+      "discoveredAt": "2026-10-07T00:44:08Z",
+      "audience": "需要在电脑与手机间查看、回复多个 AI 编码会话，并愿意自行部署服务的开发者。",
+      "what": "开源、手机优先的自托管网页工作台，在浏览器集中管理 Claude Code、Codex、Gemini CLI 等编码代理。README 描述了多窗格终端、会话保活、聊天、Git 差异与 worktree 管理，以及把提示交给代理执行并生成拉取请求的任务流程；还可配置工作区编排器跟踪任务、审查与合并。它需要自己的运行机器和编码代理，不是打开公共网址即可使用的托管演示。",
+      "why": "作者在 HN 说明本轮改进围绕自己的手机使用场景：在桌前开始工作，离开后通过 Tailscale 从手机查看进度或回答代理；希望能先交给代理任务，再稍后审阅生成的拉取请求。作者同时说明几个月前已介绍过 AgentOS，但未进一步说明最初创作的起因。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49986138"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML、官方 API、仓库页面、完整 README 及仓库关联的作者网站；核查时 API 显示无评论，原帖也无可见评论。README 提供浏览器入口、自托管步骤与移动访问说明。README 链接的 runagentos.com、www.runagentos.com 及 /docs 均返回 HTTP 404。未安装、运行服务、登录、提交表单或操作编码代理，未验证会话恢复、任务编排和安全机制。",
+        "checkedAt": "2026-10-07T00:44:08Z"
+      },
+      "caveats": [
+        "需要自行部署；README 列出的前提包括 Node.js 20+、tmux、ripgrep 和至少一个 AI 编码 CLI。任务生成拉取请求还需要已登录的 GitHub CLI 与具有 GitHub remote 的项目。项目免费开源不代表相关模型服务免费。",
+        "文档中的聊天界面以 Claude Code/Claude Agent SDK 为具体实现；不能据支持列表推定所有代理都有相同的聊天、恢复、分叉或任务能力。远程机器目前主要支持终端及会话操作，文档明确文件、Git、worktree 等功能尚不可用。",
+        "该网页能以部署者身份操作终端。README 提醒本机与 tailnet 默认受信任，共享 tailnet 应启用额外配对；Wi-Fi 访问流量不加密，移动访问及 passkey 等能力涉及网络、HTTPS 与设备配置。本次没有安全审计。",
+        "聊天默认 Full access；编排器的审查、CI 检查和 passkey 审批均为项目文档描述，未实际验证，不能当作已证实的安全保证。",
+        "README 的托管云服务和在线文档链接当前返回 404，因此本条采用可访问的源码仓库作为入口；未找到可直接试用的公共网页实例。",
+        "HN 发帖账号为 saadn92，本次未独立核实其真实身份。作者明示此前已发布过介绍；publishedAt 仅为此次 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49986138"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49986138.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/saadnvd1/agent-os"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/saadnvd1/agent-os/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://saadnaveed.com/"
+        }
+      ],
+      "tags": [
+        "AI 编码",
+        "开发者工具",
+        "自托管",
+        "移动端",
+        "开源",
+        "网页应用"
+      ]
+    },
     {
       "id": "hacker_news:49985533",
       "provider": "hacker_news",
