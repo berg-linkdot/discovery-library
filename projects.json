@@ -1,9 +1,154 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T17:57:21Z",
-  "count": 272,
+  "updatedAt": "2026-10-07T18:45:23Z",
+  "count": 276,
   "projects": [
+    {
+      "id": "hacker_news:49996945",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49996945",
+      "title": "wfform",
+      "url": "https://wfform.com/",
+      "canonicalUrl": "https://wfform.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49996945",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996945",
+      "publishedAt": "2026-10-07T18:33:23Z",
+      "discoveredAt": "2026-10-07T18:45:23Z",
+      "audience": "希望在浏览器中查找、比较并使用 OpenRouter 免费模型，且愿意自备 API key 的 AI 使用者和开发者。",
+      "what": "独立的 OpenRouter 网页客户端，将免费模型目录、流式聊天和浏览器本地会话历史放在同一工作区。官方说明支持查看模型能力与价格、编辑重发消息、归档及导入导出对话，并按模型能力处理附件；另提供可安装的 PWA 外壳。",
+      "why": "作者未说明个人制作原因。HN 原帖只有项目标题和链接；官网与仓库说明的产品目标，是把免费模型发现、聊天和本地会话管理集中到浏览器工作区。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49996945",
+          "https://wfform.com/about.html",
+          "https://github.com/consciontologic/wfform"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已通过只读 HTTP 核对实时 HN 原帖、官网 HTML、公开设置说明、数据条款及官方仓库 README。主页返回 Flutter/JavaScript 应用外壳，功能描述由可读说明页和 README 交叉核对；未运行交互界面，未输入 API key、发送消息、上传附件或安装 PWA。",
+        "checkedAt": "2026-10-07T18:45:23Z"
+      },
+      "caveats": [
+        "需要 JavaScript 和用户自己的 OpenRouter API key；免费模型仍受 OpenRouter 账户条件、速率限制和供应商可用性约束。",
+        "官网称只允许兼容且相关计费项为零的模型，并且不会静默切换到付费模型；本次未验证筛选、实际调用或计费行为。",
+        "消息、附件和调用凭据会由浏览器发送给 OpenRouter，参与请求的模型供应商按其政策处理内容。设置中保存的 API key 会留在该浏览器。",
+        "历史、草稿和偏好保存在浏览器本地，不会自动跨设备同步；清除站点数据可能丢失记录，应自行导出备份。",
+        "离线能力限于已缓存的应用外壳、目录和历史；远端聊天仍需联网。媒体附件能力随模型和供应商而异。",
+        "网站使用 Google Analytics；官方称未添加包含提示词、回复、附件或 API key 的自定义分析事件，本次没有独立审计网络行为或隐私安全性。",
+        "HN 投稿账号 metaph6 与官网／仓库维护者的身份关系未核实；未把投稿标题视为个人创作经历。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49996945"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49996945.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wfform.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wfform.com/about.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wfform.com/terms.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/consciontologic/wfform"
+        }
+      ],
+      "tags": [
+        "AI 聊天",
+        "OpenRouter",
+        "模型发现",
+        "本地历史",
+        "PWA",
+        "自带 API key"
+      ]
+    },
+    {
+      "id": "hacker_news:49996431",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49996431",
+      "title": "getrequest",
+      "url": "https://www.getrequest.io/",
+      "canonicalUrl": "https://getrequest.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49996431",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996431",
+      "publishedAt": "2026-10-07T18:01:11Z",
+      "discoveredAt": "2026-10-07T18:45:23Z",
+      "audience": "需要接收 webhook、调试 API、模拟接口，或在后端故障后检查和恢复请求的开发者及工程团队。",
+      "what": "带网页管理界面的托管 API 请求中转与检查服务。官方文档列出同步代理、异步排队重试和静态 JSON 模拟三种端点，可查看请求日志；付费功能包括请求重放、批量重试及公开调试链接。",
+      "why": "作者在 HN 以创始人身份自述：2023 年在一家初创公司工作时，流量突增或故障会让 API 请求失败或消失，恢复很费力，因此一直想要一个放在 API 前面的简单处理层。后来他仍反复想到这个问题，于发帖前一个月开始集中开发首版。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49996435"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已通过只读 HTTP 核对实时 HN 原帖、同账号创始人评论、官网、公开入门文档、同步/异步说明和限制参考页。确认有网页注册/登录入口及公开定价；未注册、创建端点、发送 API 请求或测试转发、持久化、重试与计费。",
+        "checkedAt": "2026-10-07T18:45:23Z"
+      },
+      "caveats": [
+        "需注册使用。核查时官网列出的免费计划为每月 10,000 次请求、日志保留 7 天；手动重放和公开分享链接标为 Pro 功能。",
+        "“不丢请求”是产品宣传，不能视为保证。官方文档明确承认：异步二进制正文接近 200 KiB 时，可能在返回 HTTP 202 后因编码膨胀而入队失败，且没有日志；文档建议二进制正文约低于 180 KiB，较大负载改用同步代理。",
+        "同步端点上游超时为 3 秒、正文上限 1 MiB，且不自动重试；异步端点每次等待上游 10 秒，最多尝试 6 次、约 36 分钟，仍可能最终失败。",
+        "官方文档称转发只保留允许列表及 X- 前缀请求头，Stripe-Signature 不会传到目标后端；接入带签名校验的 webhook 前需核对兼容性。",
+        "服务会处理并保存请求和响应内容，公开调试链接无需账号即可查看；接入真实业务前应核对日志、凭据和敏感数据处理方式。",
+        "未实测吞吐、可靠性、故障恢复、安全性或宣传中的上线速度；官网功能图示不是本次实际创建的请求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49996431"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49996435"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49996431.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.getrequest.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docs.getrequest.io/introduction"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docs.getrequest.io/guides/async-api"
+        },
+        {
+          "type": "official_site",
+          "url": "https://docs.getrequest.io/guides/reference"
+        }
+      ],
+      "tags": [
+        "API",
+        "Webhook",
+        "请求检查",
+        "重试",
+        "开发者工具",
+        "托管服务"
+      ]
+    },
     {
       "id": "hacker_news:49996128",
       "provider": "hacker_news",
@@ -1799,6 +1944,64 @@
       ]
     },
     {
+      "id": "hacker_news:49993261",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993261",
+      "title": "Emergence（涌现与混沌模拟）",
+      "url": "https://modlit.io/emergence/",
+      "canonicalUrl": "https://modlit.io/emergence/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993261",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993261",
+      "publishedAt": "2026-10-07T14:21:05Z",
+      "discoveredAt": "2026-10-07T18:44:07Z",
+      "what": "可在浏览器中探索简单局部规则如何产生复杂行为的科学模拟合集。公开应用代码定义了 21 个模型，涵盖生命游戏、鸟群、交通堵塞、伊辛磁体、流体、分形与混沌系统；页面提供播放、单步、重置、速度控制及导览入口，配有模型解释。",
+      "audience": "想直观理解涌现、混沌与基础科学模型的学习者、教师和科学可视化爱好者，以及研究科学计算交互界面的开发者。",
+      "why": "作者在 HN 明确表示，制作它是为了演示有趣而简单的涌现行为概念，并展示自己为科学与工程开发应用的服务。官方文章进一步解释，希望把需要脚本运行的教科书模型变成他人打开链接就能理解和探索的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49993261",
+          "https://modlit.io/writing/emergence/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已只读核对实时 HN 原帖、官方 API、应用 HTML、官方技术文章与页面链接的 JavaScript 静态资源；代码中识别出 21 个模型定义，HTML 可见导览和播放等控件。未在浏览器执行或操作模拟，未运行作者测试，也未验证计算正确性或性能。",
+        "checkedAt": "2026-10-07T18:44:07Z"
+      },
+      "caveats": [
+        "核查时 HN 网页把该帖标为 flagged；原文仍公开可读，官方 API 未返回 dead 标记。该状态不用于推断产品质量。",
+        "这是用于演示与学习的简化模型，作者称其为展示作品；不能据此认定适合真实工程、科学预测或专业决策。",
+        "模型客户端运行、无框架和性能数字为作者表述；本次仅阅读静态资料，没有验证运行时网络行为、计算精度、性能或全部控件。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993261"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993261.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://modlit.io/emergence/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://modlit.io/writing/emergence/"
+        }
+      ],
+      "tags": [
+        "科学可视化",
+        "涌现",
+        "混沌",
+        "交互模拟",
+        "教学"
+      ]
+    },
+    {
       "id": "hacker_news:49993256",
       "provider": "hacker_news",
       "source": "show_hn",
@@ -1870,6 +2073,68 @@
         "固定排播",
         "怀旧",
         "无需账户"
+      ]
+    },
+    {
+      "id": "hacker_news:49993027",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993027",
+      "title": "Three Good Stops",
+      "url": "https://threegoodstops.com/",
+      "canonicalUrl": "https://threegoodstops.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993027",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993027",
+      "publishedAt": "2026-10-07T14:01:36Z",
+      "discoveredAt": "2026-10-07T18:44:07Z",
+      "what": "面向美国公路旅行的停靠城镇推荐工具：输入起点、目的地、希望连续驾驶多久及停靠类型，官方称会沿实际路线推荐三个城镇，并列出绕行距离、餐饮、加油和住宿信息。首页提供免账号预览表单与一条标注为真实结果的示例，另有公开路线指南。",
+      "audience": "在美国本土 48 州自驾、希望按驾驶时长安排休息或过夜的旅行者，尤其是需要兼顾宠物、电动车补能或多日行程的人。",
+      "why": "作者在 HN 评论中说，自己经常与妻子旅行，为了让不喜欢长时间连续开车的妻子更舒适，会把长途驾驶拆成短段；因此想要一个结合起终点、停靠间隔、宠物、住宿及电动车需求，给出三个合适停靠选择的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49996817"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对实时 HN 原帖、作者评论、官方 API、官网 HTML 与公开路线指南目录。确认首页存在起终点输入表单、停靠示例、服务范围与定价说明；没有填写或提交路线，没有登录、注册、订阅或付款，未实测推荐结果。",
+        "checkedAt": "2026-10-07T18:44:07Z"
+      },
+      "caveats": [
+        "官方目前宣称覆盖美国本土 48 州；路线、商家数量与推荐准确性未独立验证，作者也承认早期版本可能给出不合理停靠建议。",
+        "官网称免账号可预览停靠点，首个完整行程需用邮箱和密码注册；后续完整行程提供付费包或订阅。本次未创建账号或购买。",
+        "电动车功能只推荐停靠城镇；官网明确要求另用车载导航或 PlugShare 确认具体快充站。天气、营业时间、充电可用性及道路条件均未实测。",
+        "应在出发前或安全停车后查看路线与建议；页面展示的城镇或商家信息不能替代实时导航与现场情况。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993027"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49996817"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993027.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://threegoodstops.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://threegoodstops.com/guides"
+        }
+      ],
+      "tags": [
+        "公路旅行",
+        "路线规划",
+        "停靠推荐",
+        "美国",
+        "早期产品"
       ]
     },
     {
