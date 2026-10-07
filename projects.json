@@ -1,9 +1,99 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T04:49:25.398306Z",
-  "count": 215,
+  "updatedAt": "2026-10-07T06:45:58.525292Z",
+  "count": 218,
   "projects": [
+    {
+      "id": "hacker_news:49988491",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49988491",
+      "title": "Detangle：带离线交互网页报告的 JavaScript 依赖分析工具",
+      "url": "https://debug-diary-1.github.io/detangle/",
+      "canonicalUrl": "https://debug-diary-1.github.io/detangle/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49988491",
+      "hnUrl": "https://news.ycombinator.com/item?id=49988491",
+      "publishedAt": "2026-10-07T05:11:20Z",
+      "discoveredAt": "2026-10-07T06:45:58.525292Z",
+      "audience": "维护 JavaScript 或 TypeScript 项目，希望在浏览器里检查循环依赖、模块关系和架构规则违规，并愿意先在本地或 CI 中运行命令行分析的开发者与团队。",
+      "what": "一个用 Rust 编写的开源依赖分析工具，附带可独立打开的交互式 HTML 报告。先在项目里运行 detangle report --open，工具扫描导入关系和配置规则，生成单个自包含网页文件；浏览器中可按文本与严重级别筛选违规，按指标排序模块，查看模块的导入、被导入及循环关系，并在文件夹依赖图上缩放、平移、拖拽节点和下钻目录。网页使用报告内嵌的数据，无需持续运行服务端。工具还提供命令行检查、终端交互浏览器及实验性 ESLint 集成，这些是独立于网页报告的使用方式。",
+      "why": "作者在发布文章中说明，大型 JavaScript 项目的依赖检查往往慢到开发者不愿在工作时运行，违规导入因此要到 CI 或重构时才被发现；他测量了现有循环依赖检查的耗时后制作 Detangle，希望把依赖与架构规则检查提前到日常编辑过程中。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://www.debugdiary.dev/log/detangle-dependency-rules-for-javascript-in-under-a-second"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "实时读取 HN 原帖 HTML、官方 Firebase 元数据及其子项；原帖无可见评论，API 的唯一子项标记为 dead，正文仅为 [flagged]。核对作者文章、项目官网、README、参考文档、Cargo 配置以及 main.rs、report.rs 和 report.html 源码。源码确认 report 命令写入自包含 HTML 并可交给系统浏览器打开；页面包含数据筛选、排序、模块详情及文件夹图交互。未安装或运行 Detangle，未生成真实项目报告或在浏览器中实测报告交互、准确性与性能。",
+        "checkedAt": "2026-10-07T06:45:58.525292Z"
+      },
+      "caveats": [
+        "项目官网是介绍与文档入口，本次未发现公开托管的可交互报告演示。实际网页报告需要先安装或调用本地／CI 中的 Detangle，再扫描项目生成 HTML；不能直接在官网分析代码。",
+        "网页展示生成时的静态数据快照；源码变更后需重新生成报告。作者所说的随编辑实时更新主要属于终端浏览器与 ESLint 集成，不能视为 HTML 报告的实时能力。",
+        "工具不是 TypeScript 类型检查器；模块解析、类型导入与不同规则工具的语义存在差异。替换已有检查前应在自己的项目上核对结果；缺少已声明的依赖包也可能导致无法解析的导入。",
+        "报告内嵌项目根目录、配置路径、模块名、依赖关系与规则结果。分享报告前应检查是否暴露私有项目结构；自包含网页并不意味着文件内容适合公开。",
+        "作者发布的亚秒级性能数据来自指定代码库、版本与一台 Mac，本次未独立验证，不能保证其他项目或机器得到相同结果。ESLint 集成仍标为实验性。",
+        "官方提供 macOS、Linux 和 Windows 的预编译文件；从源码构建的当前 Cargo 配置要求 Rust 1.94 或更新版本。本文仅审阅公开页面及源码，没有验证各平台安装与兼容性。",
+        "文章署名 Pallav；本次未独立核实 HN 账号 debug-diary 与作者的身份对应。publishedAt 是此次 HN 提交时间，不代表产品首次发布。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49988491"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49988491.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.debugdiary.dev/log/detangle-dependency-rules-for-javascript-in-under-a-second"
+        },
+        {
+          "type": "official_site",
+          "url": "https://debug-diary-1.github.io/detangle/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/debug-diary-1/detangle"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/debug-diary-1/detangle/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/debug-diary-1/detangle/blob/main/docs/reference.md#html-report"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/debug-diary-1/detangle/blob/main/src/main.rs"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/debug-diary-1/detangle/blob/main/src/report.rs"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/debug-diary-1/detangle/blob/main/src/report.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/debug-diary-1/detangle/blob/main/Cargo.toml"
+        }
+      ],
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "依赖分析",
+        "离线网页报告",
+        "架构规则",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49988001",
       "provider": "hacker_news",
@@ -91,6 +181,174 @@
         "本地网页看板",
         "开发工具",
         "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49987803",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49987803",
+      "title": "EasyToSTL：把图片和文字生成 3D 打印模型的网页工具",
+      "url": "https://easytostl.com/",
+      "canonicalUrl": "https://easytostl.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49987803",
+      "hnUrl": "https://news.ycombinator.com/item?id=49987803",
+      "publishedAt": "2026-10-07T03:36:36Z",
+      "discoveredAt": "2026-10-07T06:45:58.525292Z",
+      "audience": "希望把照片、草图、标志或文字描述变成 3D 打印模型的爱好者、桌游模型制作者和产品原型设计者，以及需要在浏览器查看或转换现有 3D 文件的用户。",
+      "what": "一个面向 3D 打印的网页工具。官网提供图片与文字两种 AI 生成模式，介绍支持单图或多视角输入、在线预览、毫米尺寸调整，以及 STL、GLB、OBJ 导出；另有 3D 文件查看器和 GLB 转 STL 等格式转换页面。AI 生成在云端运行并消耗积分；官方称基本查看与格式转换免费、无需账号且在浏览器本地处理。",
+      "why": "作者未说明个人创作经历或具体起因。官网 About 以团队口吻明确表示，项目是为降低把二维图片、线稿和标志转成封闭三维网格时的 CAD 操作复杂度、学习门槛和软件成本而建，让创作者直接在浏览器中完成模型生成；这是官方自述，不能据此确认 HN 提交者的个人动机。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://easytostl.com/about"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已实时读取 HN 原帖 HTML、官方 Firebase 条目及其唯一子评论，并核对官网首页、About、价格、隐私、查看器和 GLB 转 STL 页面。HN 没有可见评论；同一提交账号的子评论被标记 dead，正文仅剩 [flagged]，无可用作者说明。云浏览器先显示图片／文字模式、上传区与积分生成按钮，随后首页变成 Oops / Something went wrong；点击一次 Try again 后错误仍在。未登录、安装、上传、填写或提交生成请求、购买或联系站方；未完成任何模型生成、转换、导出或切片测试。",
+        "checkedAt": "2026-10-07T06:45:58.525292Z"
+      },
+      "caveats": [
+        "本次云浏览器加载首页后出现应用错误，重试未恢复；只能确认网页入口与产品说明，无法确认当前生成流程可用，不能视为成功实测。免费转换页面本次也未验证到可完成操作的转换器。",
+        "官网称注册可获得试用积分，但 AI 生成功能并非完全免费或免账号。价格页显示按月 Pro 为 16.90 美元、Max 为 26.90 美元，另有一次性积分包；积分包标注解锁全部下载，免费额度的具体下载权限未核实。",
+        "封闭网格、无需修复、切片器兼容、尺寸精度和生成速度均为官方主张，本次未独立验证。请在实际打印前用切片器检查模型；普通 STL 不保留颜色和纹理。",
+        "隐私政策区分本地查看／转换和云端 AI 生成：AI 上传图片及生成资产会由服务处理并保存，不能把本地工具的数据声明套用到整个网站。官方称未经明确同意不会用私人上传模型训练公共第三方基础模型；数据流和安全措施未审计。",
+        "HN 提交者为 dawn3727，账号与网站经营者、开发团队之间的关系未独立核实。publishedAt 仅为这次 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49987803"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987803.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987805.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easytostl.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easytostl.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easytostl.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easytostl.com/privacy-policy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easytostl.com/3d-viewer"
+        },
+        {
+          "type": "official_site",
+          "url": "https://easytostl.com/glb-to-stl"
+        }
+      ],
+      "tags": [
+        "3D 打印",
+        "图片转 3D",
+        "文字转 3D",
+        "STL",
+        "网页工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49987784",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49987784",
+      "title": "ImgKit：在浏览器本地处理图片的免费工具箱",
+      "url": "https://imgkit.xyz/",
+      "canonicalUrl": "https://imgkit.xyz/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49987784",
+      "hnUrl": "https://news.ycombinator.com/item?id=49987784",
+      "publishedAt": "2026-10-07T03:33:55Z",
+      "discoveredAt": "2026-10-07T06:45:58.525292Z",
+      "audience": "需要压缩图片以满足表单大小限制、批量转换格式、调整社交媒体配图，或希望减少将照片交给第三方服务器的普通用户、内容创作者与开发者。",
+      "what": "一个无需账号即可打开的网页图片工具箱。官网标称 62 项工具，覆盖按质量或目标 KB 大小压缩、裁剪缩放、HEIC 等格式转换、图片与 PDF 互转、水印、元数据清理、截图美化和批处理；另有背景移除、人脸模糊、放大与文字识别等功能。官方说明图片在本机浏览器内处理，部分功能通过下载到设备的 AI 模型运行。本轮直接打开工具目录和压缩界面，确认存在质量滑杆、目标大小选项及输出格式控件。",
+      "why": "作者在官网 About 页明确表示，自己制作小而快的网页工具；ImgKit 源于对许多免费图片压缩器要求先把照片上传到服务器的烦恼，因此选择把处理放在用户浏览器内，让文件留在设备上。官网署名 Jaydip Patel；这是第一方自述，未独立核实个人身份。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://imgkit.xyz/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖、官方 Firebase 元数据及唯一子评论记录；原帖没有可读评论，该子评论来自发帖账号但已被标记 dead，HTML 与 API 仅显示 [flagged]，未推测其原文。核对官网首页、About、隐私说明、工具目录、压缩、背景移除及 AI 图像标记检查页面，并在云端浏览器打开目录和压缩工具，确认无需登录可见操作界面。未选择或上传文件、提交表单、安装应用、执行图片处理、下载结果或测试断网及网络流量。",
+        "checkedAt": "2026-10-07T06:45:58.525292Z"
+      },
+      "caveats": [
+        "“62 项”是官网目录的标称数量，本次未逐项测试；人像背景模糊仍标为即将推出。工具界面可达不等于全部处理能力或输出质量已经验证。",
+        "压缩页面显示单文件上限 50 MB。官方说明目标大小模式可能进一步缩小图片尺寸，并在重新编码时去除 EXIF 等元数据；需要保留尺寸、定位或版权信息时应检查最终文件。",
+        "部分 AI 功能需要首次联网下载模型及设备算力。背景移除页称人像模型约 26 MB，通用模型约 115 MB 且要求 WebGPU；离线使用须先加载相应页面、资源与模型，不能理解为首次访问也不需要网络。",
+        "“图片不上传”是官方架构与隐私声明，本次未通过源码或网络抓包独立审计。隐私页明确列出 Vercel 页面访问统计、第三方目录徽章和模型下载请求；这不代表访问网站本身没有对外网络连接。",
+        "AI 图像检查器读取文件元数据和内容凭证声明，不核验内容凭证签名，也不检测 SynthID 等不可见水印；缺少标记不能证明图片并非 AI 生成。",
+        "HN 账号 jaydippatel83 的公开简介自称正在制作 ImgKit，官网署名 Jaydip Patel；关联来自公开自述，未独立核实其真实身份。publishedAt 为此次 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49987784"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987784.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987789.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/user/jaydippatel83.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imgkit.xyz/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imgkit.xyz/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imgkit.xyz/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imgkit.xyz/dashboard"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imgkit.xyz/compress-image"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imgkit.xyz/remove-background"
+        },
+        {
+          "type": "official_site",
+          "url": "https://imgkit.xyz/ai-image-checker"
+        }
+      ],
+      "tags": [
+        "图片工具",
+        "本地处理",
+        "图片压缩",
+        "格式转换",
+        "隐私",
+        "网页应用"
       ]
     },
     {
