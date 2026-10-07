@@ -1,9 +1,267 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T19:47:00Z",
-  "count": 278,
+  "updatedAt": "2026-10-07T21:02:59Z",
+  "count": 282,
   "projects": [
+    {
+      "id": "hacker_news:49998240",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49998240",
+      "title": "Botscent 在线检测演示",
+      "url": "https://botscent.nibnalin.me/",
+      "canonicalUrl": "https://botscent.nibnalin.me/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49998240",
+      "hnUrl": "https://news.ycombinator.com/item?id=49998240",
+      "publishedAt": "2026-10-07T20:18:48Z",
+      "discoveredAt": "2026-10-07T21:02:59Z",
+      "audience": "想直接在浏览器中观察当前访问是否被识别为 AI 代理，以及了解网站如何接入代理检测的网站开发者和 AI 工具使用者。",
+      "what": "Botscent 库的公开在线检测演示：打开主页后，页脚会显示当前访问的代理判定，在有证据时给出代理名称和匹配原因，无需安装即可查看本次访问结果。页面另有隐藏广告、变价、日志和简化布局等模拟场景；把检测用于自己的网站，仍需安装其 TypeScript 或 Python 库。",
+      "why": "作者在 HN 将它称为周末制作的小项目，官网也称其为趣味尝试，但未具体说明个人制作原因。公开产品目标是让网站识别访问中的 AI 代理，并由网站开发者自行决定记录、调整页面或处理访问。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49998240",
+          "https://botscent.nibnalin.me/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已只读核对实时 HN 原帖、官方 API、官网、文档和仓库，并在云端浏览器打开主页。实际页脚显示 ChatGPT，并列出 signer.web-bot-auth.verified；确认当前访问有可见检测输出，不据此推断总体准确率。HN 此时没有评论；未安装库、提交表单或接入其他网站。",
+        "checkedAt": "2026-10-07T21:02:59Z"
+      },
+      "caveats": [
+        "本条收录的是可直接查看当前访问结果的网页演示。核心产品仍是供开发者接入的库，没有在这里验证托管分析服务或任意网址扫描功能。",
+        "上方商店、价格、广告和访问日志场景是脚本驱动的示意展示，不是实时商店业务或检测效果统计；真正观察到的检测结果来自页脚。",
+        "官方说明 human 只代表未发现代理证据，不证明是真人；该工具不承诺识别刻意伪装成人类的自动化。本次仅观察一个云端浏览器会话，没有评估漏报、误报或跨浏览器覆盖率。",
+        "页面判定和未验证的代理名称可被伪造，不应单独用于授权。官方要求访问控制检查服务器请求判定及 isVerified；签名只证明代理运营方基础设施签署请求，不识别背后的个人或模型。",
+        "服务器校验密钥随库版本打包，密钥轮换与撤销需要更新库才能生效。真正部署后的安全、合规和访问策略仍由网站维护者负责。",
+        "官方称客户端不发送网络请求、不设 cookie 或存储，库采用 MIT 许可；这不等于本次已完成独立隐私、安全或性能审计。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49998240"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49998240.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botscent.nibnalin.me/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botscent.nibnalin.me/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botscent.nibnalin.me/docs/trust-model"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nalinbhardwaj/botscent"
+        }
+      ],
+      "tags": [
+        "在线演示",
+        "浏览器检测",
+        "AI 代理",
+        "开发者工具",
+        "MIT",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49998065",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49998065",
+      "title": "Economicus",
+      "url": "https://aquarium.money/economicus",
+      "canonicalUrl": "https://aquarium.money/economicus",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49998065",
+      "hnUrl": "https://news.ycombinator.com/item?id=49998065",
+      "publishedAt": "2026-10-07T20:01:19Z",
+      "discoveredAt": "2026-10-07T21:01:12Z",
+      "audience": "对 AI 代理行为、机制设计与实验经济感兴趣的开发者、研究者和观察者（依据产品用途归纳）",
+      "what": "可公开围观的自主 AI 实体经济实验。实体带着各自的章程和资金运行，为思考付费，并在世界中发帖、接受悬赏、出售作品和交易；网站展示活动流、实体余额、市场及经济统计。",
+      "why": "作者表示自己一直调整不同“世界”的条件，尝试让 AI 实体之间的经济运转起来；尤其关注 AI 擅长供给却缺少需求的问题，并尝试通过外部委托和不同章程改变行为。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49998065"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 Show HN 作者正文，并在云端浏览器加载公开世界：活动流、悬赏结果、上架与售出记录、实体余额和经济统计均可见。仅观察公开信息，未创建实体或进行交易。",
+        "checkedAt": "2026-10-07T21:01:12Z"
+      },
+      "caveats": [
+        "这是受设计规则和外部悬赏影响的 AI 经济实验；作者对比较优势等现象的解释不是独立验证结论，也不代表现实市场需求已获验证。",
+        "未独立核验资金流、模型自治程度、账目或作品质量；未进行充值、购买、创建实体或任何支付。",
+        "publishedAt 是 Show HN 提交时间，不是产品上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49998065"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49998065.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aquarium.money/economicus"
+        }
+      ],
+      "tags": [
+        "AI 代理",
+        "经济实验",
+        "公开观察"
+      ]
+    },
+    {
+      "id": "hacker_news:49997971",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49997971",
+      "title": "gtlds.fyi",
+      "url": "https://gtlds.fyi/",
+      "canonicalUrl": "https://gtlds.fyi",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49997971",
+      "hnUrl": "https://news.ycombinator.com/item?id=49997971",
+      "publishedAt": "2026-10-07T19:53:17Z",
+      "discoveredAt": "2026-10-07T21:01:12Z",
+      "audience": "希望了解新通用顶级域申请、申请公司与竞争情况的域名从业者和互联网爱好者（依据产品用途归纳）",
+      "what": "浏览 2026 轮新 gTLD 申请的公开目录。页面按拟申请后缀或公司组织信息，展示申请者、国家和申请编号，并提供搜索、重叠申请与替代名称选项。",
+      "why": "作者未说明个人创作动机。当前能确认的是网站将新 gTLD 申请整理为便于浏览的目录；这是可观察的产品用途。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49997971",
+          "https://gtlds.fyi/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 Show HN 讨论，在云端浏览器打开目录并进入 .abion 详情，确认可见申请者 Abion AB、国家及申请编号。未输入或提交表单，搜索与全部筛选逻辑未逐项测试。",
+        "checkedAt": "2026-10-07T21:01:12Z"
+      },
+      "caveats": [
+        "展示的是申请中的后缀，不能视为已获批准、已开放注册或面向公众的可购域名。",
+        "官网链接 ICANN 申请系统作为来源；本次未逐条对照官方记录，也未确认数据更新频率和完整性。",
+        "检查时可见的 HN 评论中未找到提交者 irs 对个人创作动机的说明；其他评论者的建议和赞许不作为作者动机或需求验证。",
+        "publishedAt 是 Show HN 提交时间，不是产品上线时间。",
+        "HN 提交者 irs 与网站制作人的身份对应关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49997971"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49997971.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://gtlds.fyi/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://gtlds.fyi/names/abion"
+        }
+      ],
+      "tags": [
+        "域名",
+        "信息目录",
+        "互联网基础设施"
+      ]
+    },
+    {
+      "id": "hacker_news:49997954",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49997954",
+      "title": "Buildra",
+      "url": "https://buildra.dev/",
+      "canonicalUrl": "https://buildra.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49997954",
+      "hnUrl": "https://news.ycombinator.com/item?id=49997954",
+      "publishedAt": "2026-10-07T19:52:20Z",
+      "discoveredAt": "2026-10-07T21:01:03Z",
+      "audience": "希望用自然语言制作并预览网页应用、内部工具或软件原型的独立开发者、创业者和小团队。",
+      "what": "浏览器中的 AI 软件构建工作区。官方介绍可从文字描述或 GitHub 仓库开始，让代理提出计划、在项目沙箱中编写并运行代码，持续展示预览，再发布到 buildra.page；支持下载源码，并宣称可处理网页、手机应用、后端和脚本。",
+      "why": "官网 About 页介绍，Buildra 源于对 AI 编码工具只交付代码、却不负责实际运行的失望：使用者仍要自己花时间确认哪些部分能工作。因此团队把运行中的应用预览和需要用户确认的计划放进同一个制作流程。该页称项目由 Amir Elgammal 独立开发；HN 原帖未补充个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://buildra.dev/about",
+          "https://news.ycombinator.com/item?id=49997954"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对实时 HN 原帖与官方 API，并阅读官网首页、About、FAQ、隐私、安全和条款页的公开文本。HN 此时没有评论。确认有网页构建工作区说明与账户入口；未登录、创建项目、导入仓库、运行生成流程或发布应用，首页样例不作为真实生成效果的实测。",
+        "checkedAt": "2026-10-07T21:01:03Z"
+      },
+      "caveats": [
+        "创建项目的入口指向账户页。官网当前列出的免费额度为每日 5 credits、每月最多 25 credits、同时 3 个项目；付费套餐和更高能力模式有额外费用，credits 消耗与实际构建效果未验证。",
+        "GitHub 导入与输出镜像是不同操作：官方 FAQ 说明镜像只从 Buildra 推送到用户仓库，GitHub 上的新改动不会自动回流，也不代建分支、PR 或运行 CI。",
+        "官方安全页称提示词、代码及附件图片会发送给在中国存储和处理数据的模型供应商，并提示供应商可能将数据用于训练、另有退出机制；Buildra 自身声称不训练，不等于上游供应商同样不训练。本次未独立核查隐私或安全。",
+        "AI 生成代码仍需自行检查和测试。服务条款明确不保证没有缺陷、安全问题或偏离需求的行为；公开展示不证明可直接用于生产。",
+        "免费项目长期闲置有归档及后续删除政策，重要源码应另行导出或镜像保存。付费订阅按条款在账期末取消，未使用部分通常不退款。",
+        "官网不同段落对手机应用商店构建所需套餐表述不完全一致：资费区列入 Starter，而 FAQ 功能段落提到 Pro；如依赖该能力，应以实际账户可用条件核实。",
+        "创办人身份来自官网 About 页；HN 投稿账号 elgammalqa 与官网所述 Amir Elgammal 的对应关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49997954"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49997954.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buildra.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buildra.dev/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buildra.dev/faq"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buildra.dev/security"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buildra.dev/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buildra.dev/terms"
+        }
+      ],
+      "tags": [
+        "AI 编程",
+        "网页应用",
+        "应用构建",
+        "代码生成",
+        "原型制作",
+        "GitHub"
+      ]
+    },
     {
       "id": "hacker_news:49997043",
       "provider": "hacker_news",
