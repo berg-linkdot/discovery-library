@@ -1,9 +1,474 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T12:54:01.353685Z",
-  "count": 236,
+  "updatedAt": "2026-10-07T14:50:28.828996Z",
+  "count": 245,
   "projects": [
+    {
+      "id": "hacker_news:49993300",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993300",
+      "title": "InBrief",
+      "url": "https://inbrief.info/",
+      "canonicalUrl": "https://inbrief.info/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993300",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993300",
+      "publishedAt": "2026-10-07T14:23:24Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993300"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993300.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/frankzch/ai-news-brief"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/frankzch/ai-news-brief/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://inbrief.info/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://inbrief.info/zh/"
+        }
+      ],
+      "audience": "想快速阅读 AI 新闻、社媒讨论、视频与开源动态的中英文读者，以及想自建新闻筛选管线的开发者。",
+      "what": "一个提供中英文 AI 资讯摘要的网页服务，配套开源的 AI News Brief 聚合引擎。官方仓库说明，引擎从 RSS、Hacker News、Reddit、X、YouTube 字幕和 GitHub Trending 收集内容，再用 LLM 过滤、摘要、打标签和评分，并进行去重；读者可直接使用 InBrief 网站，无须自行部署引擎。",
+      "why": "官方说明的产品目标是把多来源 AI 资讯整理成更简短、去重后的每日简报，减少逐条浏览的负担。未找到作者对个人开发起因的明确陈述，因此这里只记录产品目标。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://inbrief.info/",
+          "https://github.com/frankzch/ai-news-brief"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、仓库 README 与官方网页的公开内容。直接 HTTP 读取的网站提供六条带来源与相对时间的中文新闻摘要，并有语言切换、新闻／社媒／视频／开源分类及历史入口。HN 核查时没有评论；未登录、运行自建管线或实际测试筛选和摘要生成。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "开源仓库主要是采集与摘要后端；本条因其明确链接并驱动可直接浏览的 InBrief 网页而收录，不能据此认定网站全部前端代码都已开源。",
+        "自托管需要 Python、PostgreSQL／pgvector 及兼容的模型 API；部分来源抓取还可能需要浏览器会话。未验证完整部署、来源覆盖率、去重效果或持续运行成本。",
+        "模型摘要和重要性评分不是事实核查；本次只验证页面提供了内容，未逐条核实新闻、时效或原文准确性。",
+        "网站提供登录与定价入口；未核对付费权益、订阅流程或真实使用量。Show HN 发帖时间不是首次上线证明，收入与需求未验证。"
+      ],
+      "tags": [
+        "AI 资讯",
+        "新闻聚合",
+        "中英文摘要",
+        "开源后端",
+        "网页阅读"
+      ]
+    },
+    {
+      "id": "hacker_news:49993256",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993256",
+      "title": "CartoonTV",
+      "url": "https://cartoontv.xyz/",
+      "canonicalUrl": "https://cartoontv.xyz/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993256",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993256",
+      "publishedAt": "2026-10-07T14:20:42Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993256"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993256.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993521.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cartoontv.xyz/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cartoontv.xyz/about/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cartoontv.xyz/privacy/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cartoontv.xyz/chat-rules/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cartoontv.xyz/shows/tom-and-jerry/"
+        }
+      ],
+      "audience": "想重温传统电视排播体验、愿意随频道观看经典动画的观众；聊天室另有 13 岁以上门槛。",
+      "what": "把经典动画做成传统电视体验的网页：三个频道按本地时区的固定节目表播放，提供节目指南、频道切换、字幕与 CRT 画面选项，并带可选的同步观看聊天。站方称视频来自权利方 YouTube 频道，经嵌入播放器播放；用户选择频道，不能自由选集、暂停或倒带。",
+      "why": "官网 About 明确希望找回放学回家打开电视、看正在播出的节目，以及偶然遇到未主动选择节目的感觉，并称这是面向伴随这些动画长大的观众的一人业余项目。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://cartoontv.xyz/about/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、唯一评论、官网首页、About、隐私与聊天规则，并抽查 Tom and Jerry 节目页。公开页面列出三个频道、百余部节目、节目时间及 YouTube 剧集链接；未实际播放、测试换台或加入聊天室。通用网页抓取工具无法读取首页，但直接 HTTP 可正常返回完整页面。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "视频来自官方权利方上传是站方的说明，未逐集核验授权或嵌入播放条件。HN 唯一评论提出版权疑问，但没有提供证据，不能把该评论当成侵权结论。",
+        "聊天采用点对点连接，会向其他参与者暴露 IP 地址，且没有人工审核；站方限制 13 岁以上使用并在学龄前节目时段关闭聊天。本次未开启聊天或接受年龄声明。",
+        "无需账户不等于不收集使用数据：隐私页列出 YouTube、Google Analytics 与 Microsoft Clarity；分析功能在 EEA、英国和瑞士等待同意，其他地区默认开启。",
+        "未核实各地区视频可播性、字幕覆盖、排播同步或站方的无广告说法。Show HN 发帖时间不是首次上线证明；使用量、捐赠收入与市场需求未验证。"
+      ],
+      "tags": [
+        "经典动画",
+        "网络电视",
+        "固定排播",
+        "怀旧",
+        "无需账户"
+      ]
+    },
+    {
+      "id": "hacker_news:49992421",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49992421",
+      "title": "Keel",
+      "url": "https://usekeel.io/",
+      "canonicalUrl": "https://usekeel.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49992421",
+      "hnUrl": "https://news.ycombinator.com/item?id=49992421",
+      "publishedAt": "2026-10-07T13:19:39Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49992421"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49992421.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://usekeel.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://usekeel.io/how-it-works"
+        },
+        {
+          "type": "official_site",
+          "url": "https://app.usekeel.io/sign-in"
+        }
+      ],
+      "audience": "研究 Hyperliquid 系统化交易策略的开发者、量化交易使用者，以及关注 AI 生成策略如何验证与审计的人。",
+      "what": "面向 Hyperliquid 的网页策略构建、回测与运行平台。官方展示可视化组件编辑器和 AI 辅助构建流程：用有类型的组件描述策略，验证类型、时间尺度和连接规则，再把策略编译成固定版本，供回测与实盘引擎使用；LLM 用于编写阶段，不在逐笔执行环节运行。",
+      "why": "作者 zferland 在 HN 明确表示，一次性 AI 脚本或把 LLM 放进执行循环会带来不可靠、慢、难审计和隐蔽的时序数据错误，所以开发了 Keel，想用运行前可验证的类型化组件，让同一份编译策略用于回测和实盘。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49992421",
+          "https://usekeel.io/how-it-works"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖及官方 API、官网首页、How it works 的类型与时间尺度验证示例，并只读访问应用入口；入口返回 sign-in 页面。HN 核查时无评论。未登录、接入代理、连接钱包、运行回测、部署策略或进行交易；页面示例不等于实际功能测试。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "实际策略编辑器需要进入账户，本次只验证公开说明和登录入口；速度、回测准确性、版本一致性与非托管安全性均未独立测试或审计。",
+        "涉及加密资产永续合约。展示的历史回测与模拟收益不代表未来表现，类型验证也不能消除市场风险、模型假设错误或交易亏损；此条仅介绍软件，不构成投资建议。",
+        "作者明确说仍在改进可构建的策略种类，以及代理从自然语言转成策略的质量。",
+        "官网当前说明仅支持 Hyperliquid；未核验费用、地域可用性或账户资格。Show HN 发帖时间不是首次上线证明，收入、客户规模和需求未验证。"
+      ],
+      "tags": [
+        "策略编辑器",
+        "量化研究",
+        "回测",
+        "AI 辅助",
+        "Hyperliquid"
+      ]
+    },
+    {
+      "id": "hacker_news:49992074",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49992074",
+      "title": "Sortaballs",
+      "url": "https://sortaballs.vercel.app/",
+      "canonicalUrl": "https://sortaballs.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49992074",
+      "hnUrl": "https://news.ycombinator.com/item?id=49992074",
+      "publishedAt": "2026-10-07T12:52:40Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49992074"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49992074.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sortaballs.vercel.app/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49992075"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sortaballs.vercel.app/assets/index-DG2iRVJN.js"
+        }
+      ],
+      "what": "浏览器里的彩球分类逻辑游戏：把同色球移入同一容器，通过颜色数量、容器高度和初始分布等规则形成十种模式。作者称合计有超过一千道按难度排列的关卡；官网前端包含撤销、重置、有限的正确步骤提示、浏览器本地进度保存及明暗主题，部分模式会在接近解完时提前判胜。",
+      "audience": "喜欢彩球分类和逐关逻辑挑战的休闲玩家，尤其适合希望在浏览器中直接开始、按不同规则尝试谜题的人。",
+      "why": "作者 self_refactor 在 HN 说明，自己经常玩 Queen’s Game，想在另一种游戏类型中获得相近的挑战；最初主要想给彩球分类玩法加入提示，随后尝试不同模式，并在亲自游玩后继续扩展。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49992075"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 元数据及作者介绍评论；官网 HTTP 返回 200，并已静态读取线上前端脚本中的十种模式、规则说明、提示限制和本地存储实现。未运行游戏、完成关卡或逐一核对题库数量与解答正确性。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "作者把提示描述为下一步正确移动，但线上使用说明明确只逐步展示预存解法的开头，并非能求解任意当前局面的完整解题器；十色模式说明只保存前二十步。",
+        "已完成进度和当前棋盘保存在此浏览器的本地存储；未验证跨设备同步、长期保存或清除浏览器数据后的恢复。",
+        "超过一千关及无广告是作者自述，未逐关清点或进行广告／网络审计；各模式难度、近胜判定和提示行为未通过实际游玩验证。",
+        "收录时间依据 Show HN 发帖时间，不代表首次上线；未验证玩家规模、市场需求或收入。"
+      ],
+      "tags": [
+        "逻辑游戏",
+        "彩球分类",
+        "浏览器游戏",
+        "本地进度",
+        "无需注册"
+      ]
+    },
+    {
+      "id": "hacker_news:49992057",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49992057",
+      "title": "A Walkable History of Art",
+      "url": "https://artmuseum.artfrompixels.com/",
+      "canonicalUrl": "https://artmuseum.artfrompixels.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49992057",
+      "hnUrl": "https://news.ycombinator.com/item?id=49992057",
+      "publishedAt": "2026-10-07T12:51:08Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49992057"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49992057.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://artmuseum.artfrompixels.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/justdataplease/art-history-museum"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/justdataplease/art-history-museum/main/README.md"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49992584"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49992506"
+        }
+      ],
+      "what": "可在浏览器中探索的艺术史时间线与第一人称三维画廊：按时期或艺术家浏览，再进入按年代排列作品的展厅。首页提供 Gallery Wall、Star Map、精选与全部艺术家切换；官方 README 称收录三十五个时期／传统、五百二十六位艺术家和八万二千一百三十九件作品，资料与图片来自 Wikipedia、Wikidata 和 Wikimedia Commons。",
+      "audience": "想按年代认识画家与绘画作品的艺术爱好者和学习者，以及希望参考开放知识资料如何组织成三维教育体验的开发者。",
+      "why": "作者未说明个人创作动机。官方 README 给出的产品目标是让艺术史更容易探索：看见同时代的艺术家、沿年代了解一个人的作品，并接触少数著名画作之外的作品，把维基知识变成无需账户即可参观的空间。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/justdataplease/art-history-museum#readme"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 元数据、现有讨论及发帖者 jasontr 的回复；官网 HTTP 返回 200，HTML 中可核对时间线视图、艺术家选择和官方源码链接，并核对仓库 README。未在三维场景中行走、打开画作或测试移动端控制。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "HN 发帖账号为 jasontr，官网与仓库署名 justdataplease；本次公开来源未明确证明二者身份关系，不能把发帖者的所有说法直接当作作者自述。",
+        "馆藏数量为 README 所列，未逐项核对。官方承认覆盖不均、艺术家选择与时期分组带有编辑判断，部分日期、尺寸和图片缺失。",
+        "部分作品会为展厅调整显示比例；代码采用 MIT 许可，文字、图片和音乐分别保留原许可与署名，不能把代码开源理解为所有画作可自由再利用。",
+        "三维浏览体验、图片清晰度、移动设备性能及来源数据准确性未实测；HN 的语音导览建议与回复不构成该功能已上线的证据。",
+        "Show HN 发帖时间不是首次上线证明；未验证实际访客规模、需求或收入。"
+      ],
+      "tags": [
+        "艺术史",
+        "三维画廊",
+        "教育",
+        "开放知识",
+        "开源",
+        "无需账户"
+      ]
+    },
+    {
+      "id": "hacker_news:49991992",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991992",
+      "title": "Probe",
+      "url": "https://askprobe.com/",
+      "canonicalUrl": "https://askprobe.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991992",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991992",
+      "publishedAt": "2026-10-07T12:45:25Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991992"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991992.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://askprobe.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://askprobe.com/auth?mode=signup"
+        }
+      ],
+      "audience": "需要验证产品、定价或市场定位的创业者、产品团队、设计师、营销人员和研究代理机构。",
+      "what": "一个客户研究 Web 服务：从研究问题生成问卷，通过分享链接招募自己的受众，或使用服务方提供的参与者面板；随后把回答归纳为主题，保留原始引语对应关系，并呈现可靠性提示及不同意见。官网还介绍跨研究保留上下文的工作区记忆功能。",
+      "why": "作者未说明",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991992",
+          "https://askprobe.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网功能与适用角色说明，并核对免费试用入口指向注册／登录页面。HN 发帖人 fvincenti 在标题中称其为自己的新研究工具，但原帖没有正文或评论解释创作动机。未注册、提交邮箱、创建研究或招募参与者。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "参与者规模、身份核验、语言覆盖、研究完成速度和统计可靠性均为官网主张，未用真实研究独立验证。",
+        "官网区分免费分享链接研究与付费面板招募；免费开始不表示招募参与者或所有功能都免费，当前具体结算条件未测试。",
+        "官网展示的仪表盘和引语为产品介绍材料，不能据此确认真实客户数量、研究质量、需求或收入。",
+        "HN 标题支持发帖人自称工具作者，但其真实身份、团队角色与个人创作动机未进一步核实；该帖时间不代表首次上线时间。"
+      ],
+      "tags": [
+        "客户研究",
+        "问卷",
+        "用户招募",
+        "AI 分析",
+        "SaaS"
+      ]
+    },
+    {
+      "id": "hacker_news:49991986",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991986",
+      "title": "ProcInSh",
+      "url": "https://github.com/akawashiro/procinsh",
+      "canonicalUrl": "https://github.com/akawashiro/procinsh",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991986",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991986",
+      "publishedAt": "2026-10-07T12:45:06Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991986"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991986.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991997"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/akawashiro/procinsh"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/akawashiro/procinsh/blob/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://akawashiro.com/articles/procinsh-en"
+        }
+      ],
+      "audience": "想观察 Linux 进程关系、内存映射、文件与网络活动的软件开发者、系统工程师，以及喜欢三维系统可视化的技术用户。",
+      "what": "一个需自行运行的 Linux 进程检查 Web UI。Rust 后端采集系统信息，浏览器中的 Three.js 三维视图用方盒表示进程、用动态连线呈现文件及 socket 活动，并提供进程列表和详细信息页面，可查看内存映射、寄存器、调用栈等。服务默认在本机 127.0.0.1:9090 使用。",
+      "why": "作者在 HN 和个人文章中说，他长期向往《攻壳机动队》式的三维电脑界面，又希望它能服务日常 Linux 工作，而非只有视觉效果。因此把进程、地址空间和实时活动映射到可自由移动的三维空间，补充常用命令行工具难以同时呈现的系统整体视角。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991997",
+          "https://akawashiro.com/articles/procinsh-en"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、作者评论、GitHub README 及作者博客，确认其为 TypeScript／Three.js 前端与 Rust 后端组成的自托管 Web UI，文档提供本机浏览器入口及演示视频链接。未安装、编译、运行程序或检视任何真实进程；功能说明依据作者材料。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "需要 Linux x86-64 及原生编译、eBPF 等依赖；完整观测功能需要 root 或相应系统能力授权，不能直接在普通托管网页中检查自己的电脑。",
+        "README 明确警告：开启非回环地址访问会在没有认证的情况下暴露进程内存和环境变量，可能泄露凭据及其他敏感信息，不应直接暴露到公网。",
+        "作者说明 WSL2 支持有限；README 未验证容器环境，博客也提示当前容器中的 eBPF 和进程标识可能造成问题。",
+        "未实测实时准确性、性能开销及稳定性；三维演示和作者说明不能证明其优于现有调试工具。",
+        "HN 作者帐号 a_kawashiro 直接声明制作本项目并链接仓库及个人文章；作者真实身份与实际用户规模未独立核实。"
+      ],
+      "tags": [
+        "Linux",
+        "进程监控",
+        "三维可视化",
+        "自托管",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49991917",
       "provider": "hacker_news",
@@ -201,6 +666,74 @@
       ]
     },
     {
+      "id": "hacker_news:49991697",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991697",
+      "title": "Schema",
+      "url": "https://dobrinov.github.io/schema/",
+      "canonicalUrl": "https://dobrinov.github.io/schema/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991697",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991697",
+      "publishedAt": "2026-10-07T12:16:06Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991697"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991697.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dobrinov.github.io/schema/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dobrinov.github.io/schema/app/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/dobrinov/schema"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/dobrinov/schema/main/README.md"
+        }
+      ],
+      "audience": "需要理解数据库结构、审查迁移或比较 Git 分支中 schema 变化的后端开发者，尤其是使用 Postgres、MySQL、SQLite 或 Rails 的团队。",
+      "what": "把 SQL 或 Rails schema 文件转换为交互式实体关系图，并以颜色显示表、列、索引等变化。提供无需安装的 Web playground、由本地服务承载的浏览器界面，以及 SVG、PNG 和独立 HTML 导出；支持筛选、邻接表浏览和设计模式。",
+      "why": "作者未说明个人开发动机。官方说明的产品目标是直接比较已经提交到 Git 的数据库结构文件，让开发者从大型 schema 中聚焦相关表并看清迁移变化，无需连接数据库或启动应用。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/dobrinov/schema",
+          "https://dobrinov.github.io/schema/"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "核对 HN 官方 API、原帖、README 和官网，并在独立云端浏览器标签页打开官方 playground。默认示例显示 5 张变化表及增删改细节；实际切换 All tables 后画布扩展为 23 张表中的 20 张可见表。未打开用户文件、安装 CLI、连接数据库或验证真实 Git 工作流。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "试玩验证仅覆盖官方示例与视图切换，不能证明所有 SQL 方言、迁移或大型仓库都正确。",
+        "README 说明 Design 模式的 SQL 导出仍为 PostgreSQL DDL，即使输入支持 MySQL 和 SQLite。",
+        "作者 HN 评论正文在官方 API 中仅显示 [flagged]，无法据此补写开发经历；官网与 README 的性能、离线处理和隐私主张未独立审计。",
+        "Show HN 发帖时间不是首次上线证明；未验证真实用户数、需求或收入。"
+      ],
+      "tags": [
+        "数据库",
+        "可视化",
+        "Git 差异",
+        "开源",
+        "WebAssembly",
+        "无需登录"
+      ]
+    },
+    {
       "id": "hacker_news:49991667",
       "provider": "hacker_news",
       "source": "show_hn",
@@ -261,6 +794,89 @@
         "软件公司",
         "多人游戏",
         "MCP"
+      ]
+    },
+    {
+      "id": "hacker_news:49991626",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991626",
+      "title": "DaiDocs（.dai 记忆地图与 .cai 代码记忆）",
+      "url": "https://daidocs.com/",
+      "canonicalUrl": "https://daidocs.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991626",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991626",
+      "publishedAt": "2026-10-07T12:08:29Z",
+      "discoveredAt": "2026-10-07T14:50:28.828996Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991626"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991626.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49992201"
+        },
+        {
+          "type": "official_site",
+          "url": "https://daidocs.com/results-code.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://daidocs.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Kerneta/daidocs"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Kerneta/daidocs/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Kerneta/daidocs/main/Kerneta-Cai/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Kerneta/daidocs/main/package.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/Kerneta/daidocs/main/tools/dashboard/build_dashboard.mjs"
+        }
+      ],
+      "audience": "需要让 AI 助手跨会话保留项目背景、检索代码依赖，或查看本地记忆文件的开发者与重度 AI 工具使用者。",
+      "what": "把会话和文档记忆保存为 .dai 文本文件，把代码关系保存为 .cai 图结构；通过索引和针对问题的检索减少重复读取。项目另提供可离线打开的单文件 HTML 记忆地图，浏览存储、记忆条目、原文与关联并进行搜索。提交链接主要展示 .Cai 与 Graphify 的自测结果。",
+      "why": "作者在代码结果页以第一人称解释：代码适合图结构，但现有工具常把图藏进数据库，而读取它的语言模型擅长文本；因此尝试把整个代码图保留为可以打开、搜索和 Git 比较的纯文本，并与图数据库方案测量比较。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://daidocs.com/results-code.html"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "核对 HN 官方 API、联合创始人评论、代码结果页、官网、主 README、代码子项目 README、package.json 和仪表盘构建源码。官方仓库确有 dashboard / dashboard-live 脚本；构建器读取本地记忆并嵌入单文件 HTML，提供记忆与项目视图。未安装、执行构建器、生成真实记忆页面、登录托管仪表盘或复现基准。",
+        "checkedAt": "2026-10-07T14:50:28.828996Z"
+      },
+      "caveats": [
+        "按整个项目收录：已提供的 HTML 界面用于记忆地图；本次提交重点 .Cai 的专门交互式代码图可视化仍标为开发中，不能误写为已上线。",
+        "无需服务器的 HTML 仪表盘需要从项目源代码与自己的本地文件构建；托管 Web／移动／团队连接器仍在候补阶段，并非可直接使用的云服务。",
+        "标题中的 218 倍来自作者对 httpx imports 查询的特定测试；载荷形态不同，页面也列出落后项目，不应当作通用性能或成本保证。",
+        "所有基准、支持范围及费用主张均为作者自测，未独立复现；未验证真实使用量、需求或收入。",
+        "生成的 HTML 包含完整记忆，分享前应检查内容及访问权限。"
+      ],
+      "tags": [
+        "AI 记忆",
+        "代码检索",
+        "本地优先",
+        "开源",
+        "离线 HTML"
       ]
     },
     {
