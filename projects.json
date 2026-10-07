@@ -1,9 +1,77 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T18:45:23Z",
-  "count": 276,
+  "updatedAt": "2026-10-07T19:47:00Z",
+  "count": 278,
   "projects": [
+    {
+      "id": "hacker_news:49997043",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49997043",
+      "title": "TraceUX",
+      "url": "https://trace-ux.builtbyfrank.dev/",
+      "canonicalUrl": "https://trace-ux.builtbyfrank.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49997043",
+      "hnUrl": "https://news.ycombinator.com/item?id=49997043",
+      "publishedAt": "2026-10-07T18:41:03Z",
+      "discoveredAt": "2026-10-07T19:46:00Z",
+      "audience": "需要在自己的服务器上查看网站访客会话、收集产品反馈，并发布更新的小型产品团队和网站开发者。",
+      "what": "自托管网页体验分析工具，将 Go 服务、SQLite 和网页管理界面打包在一起。网站接入追踪脚本后，可在浏览器中回放 DOM 事件、查看日志，收集与会话关联的反馈，并发布带评论和反应的产品公告；另提供后端性能指标入口。",
+      "why": "作者未说明个人制作经历。官方仓库的 Why 段落以 Smartlook 关闭为背景，表示希望提供比多服务分析套件更轻量、可在小型 VPS 运行的自托管替代品，让团队自行控制会话数据。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/fjosue4/trace-ux",
+          "https://news.ycombinator.com/item?id=49997043"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对实时 HN 原帖、作者补充的演示链接、官方 README、许可证及演示站 HTML。确认有自托管网页管理界面和公开演示入口；尚未运行浏览器交互、登录、部署服务、接入网站或验证实际回放。",
+        "checkedAt": "2026-10-07T19:46:00Z"
+      },
+      "caveats": [
+        "正式使用需要自行部署、配置 HTTPS，并将追踪脚本接入要分析的网站；无软件许可费不代表无需服务器与运维成本。",
+        "采用 TraceUX Community Source License v1.0，属于源码可用而非 OSI 批准的开源软件；共享或托管版本须保留品牌，修改版对外提供服务还需提供相应源码，禁止白标或改名为另一产品。",
+        "“无限会话”指没有厂商配额；实际容量受服务器、存储和保留策略限制，内存与吞吐宣传本次未实测。",
+        "官方称默认遮蔽表单输入，并提供额外文本遮蔽和区块排除；不等于自动清除所有敏感信息。部署者仍需审查 DOM、日志、身份标识、告知同意及访问权限，本次未独立审计隐私或安全。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49997043"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49997859"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49997043.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/fjosue4/trace-ux"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/fjosue4/trace-ux/blob/main/LICENSE"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trace-ux.builtbyfrank.dev/"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "会话回放",
+        "用户反馈",
+        "产品公告",
+        "网站分析",
+        "源码可用"
+      ]
+    },
     {
       "id": "hacker_news:49996945",
       "provider": "hacker_news",
@@ -74,6 +142,64 @@
         "本地历史",
         "PWA",
         "自带 API key"
+      ]
+    },
+    {
+      "id": "hacker_news:49996495",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49996495",
+      "title": "Sharc / HN Simulator",
+      "url": "https://news.ycombinator.lol",
+      "canonicalUrl": "https://news.ycombinator.lol/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49996495",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996495",
+      "publishedAt": "2026-10-07T18:05:35Z",
+      "discoveredAt": "2026-10-07T19:46:00Z",
+      "what": "可直接浏览的 Hacker News 近似复刻站；底层 Sharc 把 Arc 运行环境移植到 Common Lisp / SBCL，并提供可自托管的 News 网页应用。当前站点复制真实 HN 的帖子与评论，并非原设想的 AI 评论社区。",
+      "audience": "想比较 HN 界面细节、学习 Lisp Web 应用，或自行部署类似新闻讨论站的开发者。",
+      "why": "作者 sillysaurusx 在原帖自述：最初想做一个所有评论均由 AI 生成的 HN，但暂时搁置了这部分；持续约四个月开发，是为了测试自己的能力，验证能否重现 Paul Graham 所做的系统，也把它视作艺术实验。作者还提到 AI API 成本是未来继续尝试的障碍。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49996495"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、项目 README 和可访问的 HN Simulator 首页。README 明确给出本地启动 News 后通过浏览器访问的路径；未安装、登录、认领账户或测试提交、评论与管理功能。",
+        "checkedAt": "2026-10-07T19:46:00Z"
+      },
+      "caveats": [
+        "这是独立复刻与实验站，不是 Hacker News 官方站；.lol 是其域名后缀，也呼应作者的玩笑式项目定位。",
+        "原帖时间为分享时间；作者称站点此前已运行数月，不能据此认为刚上线。",
+        "作者表示 /ask 和 /show 尚未复制；吞吐量、稳定性与近似程度未独立压测。",
+        "站点当前展示复制的 HN 内容；没有执行账户认领或资料修改，也未访问删除、受限或非公开评论。",
+        "自托管须安装 SBCL 并运行服务；README 中邮件、验证码及导入器的配置要求未验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49996495"
+        },
+        {
+          "type": "official_site",
+          "url": "https://news.ycombinator.lol"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/shawwn/sharc"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49996495.json"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "社区",
+        "Lisp",
+        "网页演示"
       ]
     },
     {
