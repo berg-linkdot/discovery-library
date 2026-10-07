@@ -1,9 +1,564 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T14:50:28.828996Z",
-  "count": 245,
+  "updatedAt": "2026-10-07T15:56:00.794166Z",
+  "count": 253,
   "projects": [
+    {
+      "id": "hacker_news:49994289",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994289",
+      "title": "Search2o",
+      "url": "https://search2o.com/",
+      "canonicalUrl": "https://search2o.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994289",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994289",
+      "publishedAt": "2026-10-07T15:33:27Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994289"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994289.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pypi.org/project/search2o/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://search2o.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://search2o.com/gettingstarted.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://search2o.com/docs/gui/index.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://search2o.com/about.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Search2o/agent-server"
+        }
+      ],
+      "audience": "希望把多个任务型 AI 代理统一发布、搜索和运行的企业开发者及技术团队。",
+      "what": "带浏览器界面的混合部署 AI 代理平台。开发者用 JSONC DSL 定义任务流程，在网页中起草、验证和发布；使用者输入需求后，由搜索匹配并运行代理。Agent Server 由用户本地或自托管部署，支持连接模型、API、数据库和 MCP，搜索与状态等部分由 Search2o Cloud 承担。",
+      "why": "作者未说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49994289",
+          "https://search2o.com/about.html"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、当前 PyPI 元数据，以及官网、Getting started、GUI 文档和 About 页面。文档明确提供随 Python 包安装的单页 Web 界面，入口为本地 9020 端口的 /ui；核查时 HN 无评论。未安装、注册、获得许可证、登录或运行代理。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "属于本地/自托管服务与云端结合的产品，不是纯离线工具；运行需要 Search2o 账户及许可证，使用外部模型可能另有费用。",
+        "官方将 Agent Server 标为 source available、专有许可证；GitHub 仓库不含完整 GUI，GUI 随 PyPI 包提供，不应描述为完整开源平台。",
+        "官网列出的安全、加密、成本控制和扩展能力是官方说明，本次未测试或审计，也未输入业务数据。",
+        "HN 发帖账号为 ramvenkat11；官网称创办人为 Ram Venkat，但本次未独立核验两者身份关系，公开材料没有可归于该发帖者的第一人称创作动机。"
+      ],
+      "tags": [
+        "AI 代理",
+        "浏览器界面",
+        "自托管",
+        "混合云",
+        "JSONC"
+      ]
+    },
+    {
+      "id": "hacker_news:49994101",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994101",
+      "title": "O.N.E. / O-ASIS",
+      "url": "https://one-oasis.surge.sh/",
+      "canonicalUrl": "https://one-oasis.surge.sh/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994101",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994101",
+      "publishedAt": "2026-10-07T15:22:13Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994101"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994101.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kyberlex/ONE"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kyberlex/ONE/blob/main/PLAY.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kyberlex/ONE/blob/main/sim/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://open-networked-earth.surge.sh/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://one-oasis.surge.sh/"
+        }
+      ],
+      "audience": "对资源分配、社区治理、生态村与社会系统沙盒感兴趣的玩家、开发者和研究爱好者。",
+      "what": "O.N.E. 项目中的浏览器资源与社区治理沙盒 O-ASIS。网页提供世界、区域、村庄等视图，以及能源、水、食物、居民、建筑、家务与公民议事等面板；项目借此探索无货币社区的资源协调，并另附治理文本与设计资料。应将其视为概念模拟和可探索原型。",
+      "why": "作者未说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49994101",
+          "https://github.com/kyberlex/ONE"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、可见评论、仓库 README、PLAY 与模拟器说明，并通过 HTTP 核对官方门户和 O-ASIS 页面。O-ASIS 返回含资源面板、地图层级和操作控件的 HTML；未在浏览器实际运行脚本、游玩、创建角色或测试多人连接。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "项目包含大量关于制度、经济、工程及科学证明的强断言；本次未独立验证，模拟器的存在不能证明这些现实主张成立。",
+        "未验证资源计算、物理模型、持续存档、多人通信、硬件导出和各控件实际可用性，也没有验证性能指标。",
+        "仓库与网页对范围和术语的描述较宏大，且存在不同版本内容；此条只收录可访问的 Web 沙盒，不将其视为成熟生产系统或法律、建设建议。",
+        "HN 账号和仓库署名均为 kyberlex / Kyberlex，但真实身份未独立核验；可读 HN 内容未包含作者的第一人称创作动机。"
+      ],
+      "tags": [
+        "浏览器游戏",
+        "资源模拟",
+        "社区治理",
+        "开源",
+        "概念原型"
+      ]
+    },
+    {
+      "id": "hacker_news:49993993",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993993",
+      "title": "BabaCAD Robotics Web（RobotSimulator.ai）",
+      "url": "https://www.babacad.com/robotics/web/",
+      "canonicalUrl": "https://www.babacad.com/robotics/web/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993993",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993993",
+      "publishedAt": "2026-10-07T15:15:17Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993993"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993993.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.babacad.com/robotics/web/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://robotsimulator.ai/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.babacad.com/robotics/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.babacad.com/robotics/docu/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.babacad.com/robotics/sim2real/"
+        }
+      ],
+      "audience": "学习工业机械臂、演示运动学与路径规划的学生和教师，以及希望先在网页中建立机器人场景的工程师。",
+      "what": "浏览器内的工业机械臂模拟与离线编程工具，可配置机器人、姿态序列和场景物体。公开界面提供碰撞检测、避障对象选择、精度参数和轨迹重算；文档另介绍多机械臂、直线与曲线路径、STL 导入和工作区保存。RobotSimulator.ai 当前重定向至这个 Web 应用。",
+      "why": "作者未说明。HN 原帖只有标题与应用链接，核查时没有评论；官方资料说明面向工程师和学生提供网页机器人模拟，但没有交代创作的个人缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49993993",
+          "https://www.babacad.com/robotics/"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已核对实时 HN 原帖及官方 API、Web 界面的公开 HTML、官方文档与实机连接说明，并确认 RobotSimulator.ai 的重定向。另在本次云端浏览器打开应用，页面标题正确，但弹出无法初始化 WebGL、浏览器或设备可能不支持的提示，未能验证 3D 场景和机器人执行。未重算避障轨迹、导入文件、启用 AI 或连接实机。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "本次云端浏览器无法初始化 WebGL，交互核查受限；这只说明该测试环境未成功运行，不据此判断所有浏览器均不可用。",
+        "碰撞检测、路径规划与逆运动学的准确性、速度和安全性未独立验证，不能以网页模拟结果代替真实工作站的安全评估。",
+        "实机连接需要本地桥接程序和匹配的机器人配置；官方提醒未建模的障碍物不会被模拟避开，网页停止按钮不是安全功能。本次没有安装程序或操作硬件。",
+        "公开界面说明 AI 助手仍为实验功能，当前需教育机构激活码；基础模拟器与 AI 功能的访问条件不同。",
+        "HN 发帖账号为 comirza，页面版权署名 Mirza Coralic 与 Faris Bazdar；本次未确认该账号与署名作者的身份对应。Show HN 时间不是产品首次上线时间。"
+      ],
+      "tags": [
+        "机器人",
+        "工业仿真",
+        "运动学",
+        "路径规划",
+        "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49993790",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993790",
+      "title": "Portia（自托管 Web 界面）",
+      "url": "https://github.com/Jad1908/portia",
+      "canonicalUrl": "https://github.com/Jad1908/portia",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993790",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993790",
+      "publishedAt": "2026-10-07T15:00:45Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993790"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993790.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Jad1908/portia"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Jad1908/portia/blob/main/INSTALL.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Jad1908/portia/blob/main/portia/ui/__main__.py"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Jad1908/portia/blob/main/pyproject.toml"
+        }
+      ],
+      "audience": "需要清理、理解和转换真实业务数据，并保留每一步处理决策的数据分析师、数据工程师及技术团队。",
+      "what": "提供本地 Web 界面的数据工作助手，可连接 PostgreSQL、Snowflake、BigQuery 或 CSV/Parquet 文件，进行数据画像、问答、图表和转换规划。项目把处理决定保留为 YAML 规格、日志与上下文，并生成可单独运行的 SQL；也提供 Claude Code 插件和命令行入口。",
+      "why": "作者 jad1908 在 HN 自述，他做 FDE 时反复遇到真实客户数据准备成为瓶颈，包括迁移损坏、分类体系版本混杂和重复列。每个问题都要做决定，因此希望用 Portia 加快这些决策，并把上下文保留下来，让不同聊天之间的工作能接续。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49993790"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖与官方 API（核查时无评论），以及官方仓库 README、INSTALL、pyproject 和 Web UI 启动文件。启动代码使用 NiceGUI，默认监听本地 127.0.0.1:8080，并打开浏览器，因此不是纯 CLI。未安装、启动服务、接入模型或数据库，也未处理任何数据。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "需要自行安装 Python 环境及依赖，并配置支持的模型；知识图谱功能另需 Neo4j / Docker。这里提供的是自托管入口，没有验证在线托管版本。",
+        "官方声称其应用模式限制模型直接读取原始数据，但这不是独立安全审计结果；README 同时提醒 Claude Code 插件中的 shell 不受同等文件限制。",
+        "真实数据库操作遵循所连接账户的权限，查询或建表可能带来费用和写入风险；生成的 SQL、质量检查与数据正确性均未实测。",
+        "HN 账号与仓库所有者使用相同的 jad1908 / Jad1908 名称；FDE 经历和开发者身份来自其自述，未独立认证。"
+      ],
+      "tags": [
+        "数据准备",
+        "数据质量",
+        "AI 助手",
+        "SQL",
+        "自托管",
+        "Web 界面"
+      ]
+    },
+    {
+      "id": "hacker_news:49993772",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993772",
+      "title": "Codync",
+      "url": "https://www.codync.dev/demo/desktop",
+      "canonicalUrl": "https://www.codync.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993772",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993772",
+      "publishedAt": "2026-10-07T14:59:03Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993772"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993772.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/leepokai/Codync"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/leepokai/Codync/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.codync.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.codync.dev/demo/desktop"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.codync.dev/demo/desktop/assets/index-DJ5oPlCe.js"
+        }
+      ],
+      "audience": "想先在浏览器了解多代理聊天、群组协作、回复线程和审批界面的开发者；正式产品面向在自己的电脑上运行编码代理、并从桌面或 iPhone 管理任务的人。",
+      "what": "开放源码的本机多代理客户端，官网另提供可直接打开的浏览器交互演示。演示包含 Pacer、Scout、Reviewer 等示例机器人、Ship room 群组、聊天与详情栏，可切换查看工作流。正式产品需要安装本地主机和客户端，官方称可接入 Claude Code、Codex 等 ACP 代理。",
+      "why": "作者未说明。已核对的 HN 原帖没有创作动机正文或评论；官网和 README 解释了把本机代理组织为可消息联系的机器人这一产品目标，未发现足以归因的第一人称创作缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49993772",
+          "https://github.com/leepokai/Codync"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已核对 HN 原帖、官方仓库 README、官网及独立网页演示。在浏览器中从 Ship room 切换至 Reviewer，观察示例对话和代理详情；未发送消息、点击审批、连接账户或添加文件。另只读查看演示公开脚本，确认示例对话预置且使用内存中的 demo-host，不能把演示当作真实代理执行证明。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "收录入口是浏览器模拟演示。公开脚本预置对话及代理状态，部分操作提示需安装 Codync；未验证真实模型调用、代码修改、任务执行或多代理协作。",
+        "正式产品仍需安装桌面/手机客户端和本机主机，网页演示不是可直接处理真实项目的托管服务。",
+        "免费、支持代理数量、端到端加密、跨设备和远程屏幕能力均来自官方说明，未进行安全审计或跨平台测试；所用模型服务可能另行收费。",
+        "HN 核查时无评论；发帖日期不是首次上线日期。"
+      ],
+      "tags": [
+        "浏览器演示",
+        "模拟数据",
+        "编码代理",
+        "多代理聊天",
+        "开源",
+        "本机运行"
+      ]
+    },
+    {
+      "id": "hacker_news:49993706",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993706",
+      "title": "Crystal Ridge Defense（couchslop）",
+      "url": "https://couchslop.com/tower",
+      "canonicalUrl": "https://couchslop.com/tower",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993706",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993706",
+      "publishedAt": "2026-10-07T14:53:51Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993706"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993706.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://couchslop.com/tower"
+        },
+        {
+          "type": "official_site",
+          "url": "https://couchslop.com/tower/host?solo"
+        },
+        {
+          "type": "official_site",
+          "url": "https://couchslop.com/play"
+        }
+      ],
+      "audience": "想在聚会中用电视或电脑作公共屏幕、让朋友拿手机一起玩的玩家，也适合共享屏幕远程参与。",
+      "what": "Jackbox 风格的网页多人塔防游戏：主屏幕显示地图与房间码，玩家用手机加入，各自防守一段道路；在波次间通过答题和小游戏赚金币，用于建造、升级防御塔，也可由一名玩家扮演进攻方。官方页面标示基础游戏免费、无需账户或安装，并提供带机器人队友的单人体验入口。",
+      "why": "作者 dblhumbucker 在 HN 自述，自己和朋友一直喜欢用派对游戏结束聚会，因此在决定辞职的第二天开始做一个供大家玩的 Jackbox 式网站；想先尽快做出可玩的版本，再反复改到好玩。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49993706"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对实时 HN 原帖及官方 API、游戏介绍页、作者提供的单人主屏幕入口和手机加入页的公开 HTML。主屏幕含房间、教程与开始游戏控件，加入页含姓名及房间码表单。核查时 HN 无评论；未建房、填写表单、连接手机或实际完成对局。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "本次仅作页面核对，未验证多人同步、机器人队友、题库质量、完整关卡或不同设备兼容性；主屏幕页面的初始文字仍为加载模型和等待玩家。",
+        "官网建议每人一部手机并保持主屏幕标签页在前台，后台节流可能让游戏停顿；标示支持 2–8 人、4–6 人较合适，实际人数表现未测试。",
+        "作者称已售卖 9.99 美元定制版，但核查时官网定制区域仍显示 Opening soon，并列未来 14.99 美元价格；定制购买是否开放未确认。",
+        "手机页提示自画头像可能展示在官网，提交的好评可能附名字引用；本次未提交姓名、绘图、邮箱或评价。"
+      ],
+      "tags": [
+        "派对游戏",
+        "塔防",
+        "多人游戏",
+        "知识问答",
+        "浏览器游戏"
+      ]
+    },
+    {
+      "id": "hacker_news:49993647",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993647",
+      "title": "ARSA AI Box",
+      "url": "https://demo-dashboard.arsa.technology/",
+      "canonicalUrl": "https://arsa.technology/products/arsa-ai-box-series/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993647",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993647",
+      "publishedAt": "2026-10-07T14:49:07Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993647"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993647.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo-dashboard.arsa.technology/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo-dashboard.arsa.technology/bsg/auth/login"
+        },
+        {
+          "type": "official_site",
+          "url": "https://arsa.technology/products/arsa-ai-box-series/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://arsa.technology/products/arsa-ai-box-series/basic-safety-guard/"
+        }
+      ],
+      "audience": "评估现有 IP 摄像头视频分析的工业现场安全团队、交通或零售运营人员，以及需要本地部署和浏览器仪表盘的企业 IT 团队。",
+      "what": "配套本地网页仪表盘的视频分析设备与软件方案。官方说明通过 ONVIF/RTSP 接入已有摄像头，在现场设备处理视频，并用浏览器查看事件和报表。公开演示门户列出安全装备与禁入区域、交通、零售客流、户外广告受众四种仪表盘入口；实际硬件及分析许可证需另行取得。",
+      "why": "作者未说明。HN 作者的补充评论已被标记而无法读取；官网介绍的是复用既有摄像头、在本地处理视频和集中查看分析结果的产品目标，未据此推断作者个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49993647",
+          "https://arsa.technology/products/arsa-ai-box-series/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖及可见评论、官方 AI Box 与 Basic Safety Guard 产品页、公开演示门户和原帖指向的 BSG 登录页。登录页可达，但本次未登录演示，未观察登录后的仪表盘交互，也未接入摄像头或测试识别。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "核查止于公开产品资料、演示门户和登录页；仪表盘功能、实时告警、报表导出及视频识别效果均未实测。",
+        "这是现场部署的付费硬件与软件方案，不是开箱即用的免费网页分析服务；官网说明摄像头、网络、安装与分析许可证可能另计。",
+        "离线运行、视频不外传、相机兼容性、并发路数与准确率属于官方主张，未独立审计；实际表现依赖相机位置、距离、分辨率和照明等条件。",
+        "摄像监控、车牌、人脸及受众估计涉及隐私与误识别风险，需由使用者核实适用规则；演示不构成安全合规保证。",
+        "作者评论不可读，唯一可见讨论询问与 Frigate 的比较，未见作者公开答复；未验证客户规模或实际部署业绩。"
+      ],
+      "tags": [
+        "视频分析",
+        "浏览器仪表盘",
+        "本地部署",
+        "IP 摄像头",
+        "企业工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49993639",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993639",
+      "title": "QuorumFile",
+      "url": "https://quorumfile.thecompound.tech/",
+      "canonicalUrl": "https://quorumfile.thecompound.tech/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993639",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993639",
+      "publishedAt": "2026-10-07T14:48:35Z",
+      "discoveredAt": "2026-10-07T15:56:00.794166Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993639"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993639.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://quorumfile.thecompound.tech/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://quorumfile.thecompound.tech/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://quorumfile.thecompound.tech/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://quorumfile.thecompound.tech/security"
+        }
+      ],
+      "audience": "需要整理美国 HOTMA 收入与租金政策选项及董事会采用材料的公共住房机构工作人员和相关合规顾问。",
+      "what": "面向公共住房机构的网页政策资料与文书服务。首页提供 HUD participant code 查询、机构例外条件和听证日期输入界面，并公开展示政策选项及 eCFR 引用；官方称可生成免费的 Decision Sheet，付费提供 ACOP/HCV 政策章节及采用材料。关于页把付费部分界定为文书起草服务。",
+      "why": "作者未说明。HN 原帖没有动机正文或评论；官网说明其目标是把机构需要记录的政策选择及对应引用汇集成决策单和文书材料，未发现作者第一人称创作缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49993639",
+          "https://quorumfile.thecompound.tech/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官网首页、关于、价格与安全页，观察查询输入、政策选项列表、时间线说明和样本链接。未提交 HUD 编码或任何表单，未生成 Decision Sheet、购买文书、上传现有政策或订阅通知；未逐项验证法规解释与适用日期。",
+        "checkedAt": "2026-10-07T15:56:00.794166Z"
+      },
+      "caveats": [
+        "网页中的法规解释、适用例外、时间计算和合规结论由服务方提供，本次没有独立法律核验，也没有测试个别机构生成结果；不能据此确认机构已满足义务。",
+        "免费查询与付费起草是不同范围。核查时官方标价为单一政策文件 19 美元、两类文件 25 美元，均为一次性；未进入结账核验最终金额。",
+        "官方安全页称无需账户，但生成的 Decision Sheet 会存入数据库并可通过链接重新打开，也使用分析服务；未审计实际数据处理或链接访问控制。",
+        "没有提供任何机构、住户或家庭数据；使用前应核实输出准确性、适用政策及隐私安排。",
+        "HN 核查时无评论；服务交付、更新承诺、法规引用完整性和市场需求未独立验证。"
+      ],
+      "tags": [
+        "政策资料",
+        "文书起草",
+        "HOTMA",
+        "公共住房",
+        "网页工具"
+      ]
+    },
     {
       "id": "hacker_news:49993300",
       "provider": "hacker_news",
