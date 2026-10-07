@@ -1,9 +1,1058 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T15:56:00.794166Z",
-  "count": 253,
+  "updatedAt": "2026-10-07T17:57:21Z",
+  "count": 272,
   "projects": [
+    {
+      "id": "hacker_news:49996128",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49996128",
+      "title": "SkanQRCode",
+      "url": "https://skanqrcode.com/",
+      "canonicalUrl": "https://skanqrcode.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49996128",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996128",
+      "publishedAt": "2026-10-07T17:38:33Z",
+      "discoveredAt": "2026-10-07T17:50:51Z",
+      "what": "用于二维码链接和 AI 代理访问链接前的风险筛查服务，提供 URL/IP 安全 API，并在官网提供可输入 URL 的公开检查预览。官方描述结合威胁情报、域名年龄、仿冒域名和重定向信号，返回允许、警告或阻止建议。quishing 指借二维码传播的网络钓鱼。",
+      "audience": "二维码扫描应用、企业设备或安全浏览器开发者，以及需要对外部链接做预检的 AI 代理开发者。",
+      "why": "作者未说明个人制作原因。HN 原帖与官网只表达了在打开二维码链接或让代理抓取内容前先做风险检查的产品目标。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49996128",
+          "https://skanqrcode.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对实时 HN 原帖、官方 API 时间与浏览器官网。官网可见 URL 输入框、Check 按钮、示例链接及 API 文档入口，明确称预览调用真实后端；未提交检查表单，未申请 API key 或注册。普通 HTTP 与搜索抓取未能读取官网，但云浏览器成功显示完整页面。",
+        "checkedAt": "2026-10-07T17:50:51Z"
+      },
+      "caveats": [
+        "官网仍使用 early access、waitlist 和 v0 发放 key 的措辞；不能把展示的定价或功能表当成已全面开放的服务。",
+        "未测量宣称的低于 500 毫秒延迟，未验证误报、漏报、零日钓鱼检测能力或后台实际行为。",
+        "URL 风险判定不是安全保证；官网也承认存在误报和漏报。",
+        "预览会把输入的链接交给远端服务；本次没有提交任何链接或个人资料。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49996128"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49996128.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://skanqrcode.com/"
+        }
+      ],
+      "tags": [
+        "链接安全",
+        "二维码",
+        "网络钓鱼",
+        "在线演示",
+        "API",
+        "早期访问"
+      ]
+    },
+    {
+      "id": "hacker_news:49995778",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995778",
+      "title": "Pinrail（网页审批流程演示）",
+      "url": "https://pinrail.dev/review",
+      "canonicalUrl": "https://pinrail.dev/review",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995778",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995778",
+      "publishedAt": "2026-10-07T17:15:03Z",
+      "discoveredAt": "2026-10-07T17:55:51Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995778"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995778.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/forgeplane/pinrail"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pinrail.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pinrail.dev/review"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/forgeplane/pinrail/blob/main/website/src/pages/review.astro"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/forgeplane/pinrail/blob/main/website/src/components/index/HeroDemo.astro"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/forgeplane/pinrail/blob/main/sdk/README.md"
+        }
+      ],
+      "audience": "想了解人类如何逐项审批 AI 代理工作、比较结构化反馈与聊天确认流程的开发者、产品设计者和 AI 工作流使用者。",
+      "what": "Pinrail 为桌面端 AI 代理审批收件箱提供的交互式网页演示。访问者可以审阅六段预设落地页内容，逐段接受或退回、选择理由或填写备注，并观察旁边实时生成的决策 JSON；交回后，页面用模拟终端和预设替代文案展示下一轮修改。实际 Pinrail 产品让代理通过 CLI 提交代码、文档、图片等审批请求，再取得人的结构化决定。",
+      "why": "官方 README 说明，代理执行工作时，有些步骤仍需要人判断，例如以人的名义发布评论、发客户邮件或变更生产环境；在聊天中审批往往需要阅读长段文字再打字回复，因此项目为不同内容提供专门的审阅视图和结构化决定。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/forgeplane/pinrail#why"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 官方 API、README、官网和 /review 页面，以及网页演示、首页截图切换与 SDK 的公开源码。/review 返回 HTTP 200；源码确认接受、退回、决策 JSON 和多轮替换逻辑在页面内部执行，终端回复与替代内容为预设模拟。未执行浏览器交互、提交表单、安装桌面程序或连接代理。HN 作者唯一评论被标记，正文不可读。",
+        "checkedAt": "2026-10-07T17:55:51Z"
+      },
+      "caveats": [
+        "此条收录的是固定内容的网页审批流程演示，不是能接收用户真实项目或连接真实代理的在线审批服务；演示中的“交回”“发布”和代理等待均为模拟。",
+        "演示自由文本理由不会触发真实 AI 改写；源码会选择预设替代版本，不能用它评估模型理解或实际代理执行能力。",
+        "官网首页的桌面收件箱可切换示例，但各审批视图主体是截图；可操作的流程演示位于 /review。",
+        "完整产品需安装 macOS 或 Linux 桌面应用，并让代理运行 CLI；官网标注 Windows 尚未支持、项目仍处早期开发。",
+        "网页演示的 UI 行为仅由公开源码核查，本次没有验证浏览器端完整流程或桌面应用与代理的实际联动。"
+      ],
+      "tags": [
+        "AI 代理",
+        "人工审批",
+        "交互演示",
+        "结构化反馈",
+        "工作流设计",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "id": "hacker_news:49995763",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995763",
+      "title": "Jellex",
+      "url": "https://jellex.x86.cx/",
+      "canonicalUrl": "https://jellex.x86.cx/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995763",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995763",
+      "publishedAt": "2026-10-07T17:13:55Z",
+      "discoveredAt": "2026-10-07T17:52:19Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995763"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995763.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iridium/jellex"
+        },
+        {
+          "type": "official_site",
+          "url": "https://jellex.x86.cx/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iridium/jellex/blob/main/src/routes/login/%2Bpage.svelte"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iridium/jellex/blob/main/src/lib/session.svelte.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iridium/jellex/blob/main/src/lib/playback.ts"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iridium/jellex/blob/main/src/lib/components/player/Player.svelte"
+        }
+      ],
+      "audience": "已有 Jellyfin 媒体服务器、喜欢 Plex Web 界面，想在浏览器里浏览和播放自有电影、剧集与音乐的用户。",
+      "what": "为 Jellyfin 制作的 Plex Web 风格单页客户端。浏览器直接连接 Jellyfin API，提供媒体库、搜索、播放队列、继续观看、视频和音乐播放器等界面；Jellex 本身不需要额外业务后端，媒体仍由已有 Jellyfin 服务器提供。作者提供在线入口与连接 Jellyfin 公共演示服务器的按钮，也公开了自行构建和部署前端的源码。",
+      "why": "作者在 Show HN 原帖中说，自己使用 Jellyfin 时最大的不满一直是界面，因此把 Plex Web 的界面重新做在 Jellyfin 之上。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49995763"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖与官方 API、项目 README、公开网站 HTML，以及登录、会话、媒体库和播放相关源码。在线入口返回 HTTP 200，源码确认有服务器连接、密码或 Quick Connect 登录和 Jellyfin 公共演示入口。未运行浏览器交互、登录个人或演示服务器、播放媒体或验证端到端可用性。",
+        "checkedAt": "2026-10-07T17:52:19Z"
+      },
+      "caveats": [
+        "这是第三方 Jellyfin 前端，需要现有且浏览器可访问的 Jellyfin 服务器及账号；自身不提供媒体服务器或内容库。",
+        "公共演示按钮会实际登录 Jellyfin 演示服务器，本次仅核查源码，没有执行该登录；不能据此保证演示媒体、播放和兼容性当前可用。",
+        "源码在 HTTPS 页面中只尝试 HTTPS 服务器地址，纯 HTTP 的家庭服务器不能直接从该 HTTPS 在线入口连接。",
+        "登录后的服务器地址和访问令牌会保存在浏览器 localStorage；在个人服务器上使用前应评估对托管前端及其代码的信任。",
+        "作者明确披露整个项目由 LLM（Claude）在其指导下编写；本次未做安全审计或媒体格式兼容性测试。"
+      ],
+      "tags": [
+        "Jellyfin",
+        "媒体管理",
+        "浏览器播放器",
+        "自托管前端",
+        "在线演示",
+        "Plex 风格"
+      ]
+    },
+    {
+      "id": "hacker_news:49995687",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995687",
+      "title": "Daydream Studio",
+      "url": "https://labs.daydream.live/studio/",
+      "canonicalUrl": "https://labs.daydream.live/studio/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995687",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995687",
+      "publishedAt": "2026-10-07T17:08:29Z",
+      "discoveredAt": "2026-10-07T17:50:25Z",
+      "audience": "希望将旋律、节奏或简短录音发展成完整编曲，并实时调整虚拟乐手演奏的音乐创作者。",
+      "what": "浏览器录音室研究预览：从上传、麦克风录音或文字提示生成的源音轨开始，加入虚拟伴奏乐手，逐轨构建作品，并在播放时调整旋律、节奏、和弦跟随及演奏描述。界面提供多轨编辑、混音和分轨导出，并建立在团队开源的 DEMON 实时音乐引擎之上。",
+      "why": "联合创始人 Hunter 在 HN 表示，团队研究音乐控制，希望模型像音乐家一样理解和弦谱、律动及旋律分工，让创作者能够实时指挥演奏；Studio 是展示这项研究的浏览器预览。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49995687"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖 API、Studio 完整页面与公开前端模块、Daydream 研究和定价页面、DEMON 官方 README；核对源音轨入口、虚拟乐手控制、混音／分轨导出和本地／账号存储逻辑。未登录、上传音频、启用麦克风、提交生成请求或验证听感与延迟。核查时原帖没有评论。",
+        "checkedAt": "2026-10-07T17:50:25Z"
+      },
+      "caveats": [
+        "这是研究预览，官网明示经常变化且可能出错；页面提示完整 Studio 体验面向桌面和较宽窗口。",
+        "生成与实时播放依赖云端算力及用量额度，并非全部在浏览器本地运行。官网列有免费和付费额度；本次未登录，未核实当前访客可用时长。",
+        "源音频界面与源码限制到两分钟，上传文件上限为 80 MiB；乐手提示为器乐用途，页面说明要求演唱的提示会被去掉。",
+        "未登录项目以浏览器存储为主，清理站点数据或存储不足可能影响保留；账号云端保存和导出流程未实际测试。",
+        "开源的是 DEMON 引擎，不代表整个托管录音室和控制模型均开源；自行运行引擎需要较强 NVIDIA GPU、模型文件与本地安装。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995687"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995687.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://labs.daydream.live/studio/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://daydream.live/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://daydream.live/pricing"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/daydreamlive/DEMON"
+        },
+        {
+          "type": "official_site",
+          "url": "https://labs.daydream.live/assets/music-producer-simulator-CuFPxzaw.js"
+        }
+      ],
+      "tags": [
+        "音乐创作",
+        "AI 伴奏",
+        "在线录音室",
+        "研究预览",
+        "实时控制"
+      ]
+    },
+    {
+      "id": "hacker_news:49995539",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995539",
+      "title": "agent.reviews",
+      "url": "https://agent.reviews/",
+      "canonicalUrl": "https://agent.reviews/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995539",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995539",
+      "publishedAt": "2026-10-07T16:59:11Z",
+      "discoveredAt": "2026-10-07T17:50:25Z",
+      "audience": "需要比较 AI 编程工具、API 和开发服务的开发者，以及希望了解代理使用摩擦的软件团队。",
+      "what": "汇集 AI 编程代理在实际任务后提交的软件工具评论，可在网页按类别浏览工具、阅读具体任务经历，并比较实用性、易用性和可靠性评分。网站提供公开页面及 Markdown 阅读版本；代理集成另通过 CLI 和技能提交使用反馈。",
+      "why": "Armature 联合创始人 Louis 在 HN 说，团队观察大量代理会话后发现，同一种工具的限制在不同任务里不断重复出现，而代理与软件厂商、不同代理之间缺少共享反馈的渠道，因此建立这个评论平台。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49995539"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、可读评论及作者回复，检查官网首页、评论方法说明、Git 工具评论页和比较页的公开文本。首页和具体评论无需登录即可读取，确认并非仅有安装入口；没有安装 CLI 或技能、认证账号或提交评论。另一条顶层评论已删除。",
+        "checkedAt": "2026-10-07T17:50:25Z"
+      },
+      "caveats": [
+        "评分、任务结果、代理和模型名称主要由提交代理自报，官方明确说明它们不是独立证明；已验证标记表示用户登录身份得到确认，并不等于独立审核工具表现。",
+        "官网目前公开提供评论浏览；HN 原帖曾将安装、认证和首次评论描述为访问流程的一部分，实际网页以本次查阅到的开放阅读状态为准。",
+        "作者声称使用三层隐私过滤；这不能替代对提交内容的人工检查，本次没有验证过滤效果或上传任何任务信息。",
+        "评论反映各自任务情境和样本量，不能当作统一条件下的性能基准。代理提交需要另行安装集成；本次仅阅读公开页面。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995539"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995539.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agent.reviews/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agent.reviews/how-it-works.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agent.reviews/source-control/git.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agent.reviews/compare.md"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995828"
+        }
+      ],
+      "tags": [
+        "AI 代理",
+        "软件评测",
+        "工具发现",
+        "开发者工具",
+        "公开评论"
+      ]
+    },
+    {
+      "id": "hacker_news:49995240",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995240",
+      "title": "Nearline",
+      "url": "https://nearline.sxm.li/",
+      "canonicalUrl": "https://nearline.sxm.li/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995240",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995240",
+      "publishedAt": "2026-10-07T16:40:33Z",
+      "discoveredAt": "2026-10-07T17:50:25Z",
+      "audience": "希望在演唱会、体育赛事等人群密集场所与附近的人进行即时交流的参与者。",
+      "what": "基于物理距离的临时社交信息流，提供发帖、回复、点赞、转发及最新／热门排序。可选约 65 米、170 米或 450 米的邻近范围；线程在最后一次回复、点赞或转发后安静 15 分钟便到期，另有使用相同房间 ID 和口令的私密信息流筛选。",
+      "why": "作者在 HN 表示，这个想法来自几天前对附近社交的设想，认为临时帖子可能在演唱会、体育赛事等拥挤场景中有用。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49995240"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖 API、官网应用 HTML、公开 JavaScript 和工作原理文档，核对距离选项、发帖与回复界面、15 分钟到期规则，以及 passkey 和位置权限入口；没有创建账号、登录、提供位置、发帖或执行浏览器互动。核查时原帖没有评论。",
+        "checkedAt": "2026-10-07T17:50:25Z"
+      },
+      "caveats": [
+        "进入信息流需要 passkey 及设备位置权限；本次未登录或授权定位，因此没有核实真实内容密度或端到端发帖。",
+        "官方说明浏览器将经纬度转成 H3 网格后再发送，发帖或转发仍会向服务端提供较细粒度的地区网格；这不是完全不传位置。隐私与删除承诺仅作来源说明，未审计服务端。",
+        "距离为网格覆盖的近似值；15 分钟按最后一次互动计时，并非固定在发帖 15 分钟后删除。",
+        "页面含达到当日容量上限后的暂停状态；本次仅看到这段界面代码，未认定服务当前已暂停。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995240"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995240.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nearline.sxm.li/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nearline.sxm.li/how-it-works"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nearline.sxm.li/app.js"
+        }
+      ],
+      "tags": [
+        "附近社交",
+        "临时帖子",
+        "浏览器应用",
+        "位置权限",
+        "Passkey"
+      ]
+    },
+    {
+      "id": "hacker_news:49995139",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995139",
+      "title": "MedDebt 医学院债务计算器",
+      "url": "https://www.medschooldebtcalculator.com/calculator",
+      "canonicalUrl": "https://www.medschooldebtcalculator.com/calculator",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995139",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995139",
+      "publishedAt": "2026-10-07T16:33:38Z",
+      "discoveredAt": "2026-10-07T17:57:21Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995139"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995139.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.medschooldebtcalculator.com/calculator"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.medschooldebtcalculator.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.medschooldebtcalculator.com/methodology"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.medschooldebtcalculator.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.medschooldebtcalculator.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2025-05-30/interest-rates-direct-loans-first-disbursed-between-july-1-2025-and-june-30-2026"
+        }
+      ],
+      "audience": "希望初步比较美国医学院学生贷款偿还路径的医学生、住院医师、专科培训医师和主治医师。",
+      "what": "可直接打开的网页债务情景计算器，输入专业、培训年限、收入、贷款、利率和生活支出，比较标准还款、积极偿还、公共服务贷款豁免（PSLF）及再融资，并展示逐年债务、净资产和机会成本。核心计算器免费，专家模式包含配偶与职业变化等假设；账户保存、长期追踪和提醒另有免费额度或 Pro 计划。",
+      "why": "创始人在官方 About 页说明，他看到医生面临大额教育债务决策，却缺少清晰、针对医学职业阶段的计算工具；已有工具要么过于通用，要么夹在再融资销售页面中，因此希望提供来源透明、可自行调整的免费计算器。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.medschooldebtcalculator.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖和 API、计算器完整页面、About、Methodology、Privacy 和 Pricing，并用 Federal Student Aid 官方公告核查一个利率来源。确认无登录即可读取核心输入和默认结果；未执行交互或测试计算公式，未输入个人财务数据、保存情景、订阅、注册或提交表单。HN 作者的唯一评论被标记，正文不可读。方法论存在下述已核实的利率来源错误。",
+        "checkedAt": "2026-10-07T17:57:21Z"
+      },
+      "caveats": [
+        "发现具体资料错误：方法论称默认 6.5% 对应 2025 年研究生 Direct Unsubsidized 利率，但 Federal Student Aid 对 2025-07-01 至 2026-06-30 首次发放的该类贷款公布为 7.94%；使用前应以自己的贷款合同和最新官方规则覆盖默认值。",
+        "这是情景估算，不能据此认定 PSLF 资格、豁免金额或再融资适合自己；没有验证其计算引擎的准确性，重大财务决策应与合格财务或税务顾问核对。",
+        "方法论明确省略州税细节、浮动利率、雇主还贷福利、部分年度职业中断，并简化配偶贷款；收益率、收入和支出假设会显著改变结果。",
+        "隐私政策称匿名计算在浏览器中进行，但登录后会存储情景、财务档案和聊天等数据，网站也使用 Google Analytics；不能将“数据不离开设备”理解为所有功能的保证。",
+        "官网披露可能从再融资推荐链接获得佣金，页面存在邮件和再融资群组招募；核心免费不代表所有追踪、提醒、AI 和保存功能免费。"
+      ],
+      "tags": [
+        "财务情景计算",
+        "医学生",
+        "学生贷款",
+        "美国",
+        "PSLF",
+        "免费核心功能"
+      ]
+    },
+    {
+      "id": "hacker_news:49995028",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995028",
+      "title": "Binge Ready",
+      "url": "https://dvelton.github.io/binge-ready/",
+      "canonicalUrl": "https://dvelton.github.io/binge-ready/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995028",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995028",
+      "publishedAt": "2026-10-07T16:25:45Z",
+      "discoveredAt": "2026-10-07T16:49:05Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995028"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995028.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dvelton.github.io/binge-ready/"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/user?id=deevelton"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/dvelton/binge-ready"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/dvelton/binge-ready/blob/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dvelton.github.io/binge-ready/data/finales.json"
+        }
+      ],
+      "audience": "习惯等一季全部播完再一次看完、希望查询剧集季终日期的观众。",
+      "what": "电视剧季终日期查询网页，区分已经播完与即将播完的季度，可按剧名、平台、类型、语言、国家和日期范围筛选，并将收藏、已看状态保存在本浏览器。数据来自 TVMaze，附 RSS；它提供播出日程信息，不提供视频播放。",
+      "why": "作者在 HN 自述，自己受不了每周只更新一集，经常搜索剧集的季终播出日期，判断何时可以一次看完，因此做了这个工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49995028"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、公开个人简介、官网 HTML、前端脚本、仓库 README 与实时日程 JSON。官网和数据均返回 HTTP 200，数据生成于 2026-10-07；核查时原帖暂无评论。确认存在搜索、筛选与收藏控件及相应数据，未在浏览器操作控件或验证单条节目日程。",
+        "checkedAt": "2026-10-07T16:49:05Z"
+      },
+      "caveats": [
+        "覆盖范围取决于 TVMaze 的美国广播及网络/流媒体日程；尚未确认季终的节目不会进入即将播完列表，未来日期可能变化，不能据此保证当地平台已可观看。",
+        "默认显示近七天的主要英语剧集；主要剧集依赖热度阈值，可能漏掉新剧，可切换全部剧集及其他语言。",
+        "未测试搜索、筛选、收藏、已看状态持久化或 RSS 客户端，也未审计隐私、安全与每日更新任务。",
+        "HN 发帖账号 deevelton 的公开简介指向 GitHub dvelton，与官网链接的仓库一致；此关联为公开账号自述，真实身份未独立核验。"
+      ],
+      "tags": [
+        "追剧",
+        "季终日期",
+        "日程查询",
+        "浏览器工具",
+        "TVMaze"
+      ]
+    },
+    {
+      "id": "hacker_news:49995007",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49995007",
+      "title": "Akicode",
+      "url": "https://akicode.com/en",
+      "canonicalUrl": "https://akicode.com/en",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49995007",
+      "hnUrl": "https://news.ycombinator.com/item?id=49995007",
+      "publishedAt": "2026-10-07T16:24:25Z",
+      "discoveredAt": "2026-10-07T16:49:05Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995007"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995007.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://akicode.com/en"
+        },
+        {
+          "type": "official_site",
+          "url": "https://akicode.com/app"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/user?id=lqs_"
+        }
+      ],
+      "audience": "学习 Python 或 C++ 的孩子与初学者，以及需要浏览器编程练习环境的家长和教师。",
+      "what": "浏览器编程应用，官方介绍可在本地运行并逐步调试 Python、C++，无需服务器或账户。网页提供新建程序、图形与小游戏示例、Python 交互窗口和 Linux 终端；作者称底层是 TypeScript 编写的 Linux 克隆，调试按钮使用 gdb，另有 X11 和 Redis 演示。",
+      "why": "作者未说明。原帖介绍了面向儿童的编程用途，并说附带 Linux 工具是为了好玩，但没有说明创作整个产品的第一人称缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49995007"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 与公开个人简介；核查时暂无评论。HTTP 抓取官网返回 403，但浏览器成功打开英文首页，并点击 Open akicode 进入 /app，看到中文新建程序界面、Python/C++ 选项、示例按钮、Python 交互窗口及 Linux 终端。未运行代码或执行调试。",
+        "checkedAt": "2026-10-07T16:49:05Z"
+      },
+      "caveats": [
+        "应用明确提示处于内部测试阶段，功能可能不稳定或改变；英文首页当前进入的应用界面为中文。",
+        "浏览器本地执行、无需服务器或账户、Linux 程序兼容性与 gdb/X11/Redis 功能是官方或发帖者说明；本次未实际运行或验证。",
+        "未测试程序保存、调试、文件操作、离线能力、浏览器兼容性、性能或安全隔离，也未评估儿童使用的隐私与内容安全。",
+        "HN 发帖账号为 lqs_，公开个人简介为空；本次未独立核验真实身份或账号与产品运营者的关系。"
+      ],
+      "tags": [
+        "编程学习",
+        "Python",
+        "C++",
+        "浏览器 IDE",
+        "Linux"
+      ]
+    },
+    {
+      "id": "hacker_news:49994822",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994822",
+      "title": "paste-preview",
+      "url": "https://github.com/alan890104/claude-code-paste-preview",
+      "canonicalUrl": "https://github.com/alan890104/claude-code-paste-preview",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994822",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994822",
+      "publishedAt": "2026-10-07T16:12:23Z",
+      "discoveredAt": "2026-10-07T16:52:13.073919Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994822"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994822.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/alan890104/claude-code-paste-preview"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/alan890104/claude-code-paste-preview/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/alan890104/claude-code-paste-preview/blob/main/editor/editor.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/alan890104/claude-code-paste-preview/blob/main/editor/server.mjs"
+        }
+      ],
+      "audience": "在 Claude Code 终端会话中粘贴截图，希望先预览、圈注和裁剪再交给模型的开发者。",
+      "what": "Claude Code 图片粘贴插件，带本地图片标注 Web 界面。粘贴后显示带编号的缩略图，并打开支持画笔、椭圆、矩形、箭头、文字、裁剪、旋转及撤销的编辑器；Linux、Windows 使用本地浏览器窗口，macOS 通常使用承载同一编辑器的原生浮动面板。确认后让 Claude 读取编辑后的图片。",
+      "why": "未见作者的个人创作动机。官方 README 明确提出的产品痛点是：终端把图片显示成编号占位符，连续粘贴后难以分辨各张图片；工具希望让用户看清并标出要讨论的部分。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/alan890104/claude-code-paste-preview/blob/main/README.md"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖与 API 评论、官方仓库 README、canvas 编辑器和本地 HTTP 服务源码。源码明确提供绑定 127.0.0.1 的浏览器编辑界面，具备图片读取、标注及保存流程，因此按带实用 Web UI 的本地工具收录。HN 作者评论被标记为 flagged，无可读正文。未安装插件、启动服务或实际标注图片。",
+        "checkedAt": "2026-10-07T16:52:13.073919Z"
+      },
+      "caveats": [
+        "不是无需安装的在线图片编辑网站；依赖 Claude Code 2.1.291 及以上版本，mods 属于早期功能，Linux/Windows 编辑器需要 Node.js 18 及以上版本。",
+        "终端内真正显示缩略图需要 kitty graphics protocol；其他终端可能仅显示图片编号和 Edit 按钮。macOS 原生浮窗需要 Xcode Command Line Tools，否则走 Chrome 浏览器方案。",
+        "插件不能直接替换消息中的图片，只能移除原图并向 Claude 提供编辑文件路径；若图片匹配检查失败，官方称会同时保留原图和编辑图。未验证此行为及后续 Claude 读取。",
+        "依赖 Claude Code 内部临时图片目录，目录布局变化时退回读取剪贴板；重启后历史消息缩略图不会保留。未审计跨平台兼容性和图片数据处理安全。",
+        "HN 发帖账号为 alkd；本次未独立核验其真实身份或与产品运营者的关系，无法读取的作者评论不作为创作动机依据。"
+      ],
+      "tags": [
+        "图片标注",
+        "Claude Code",
+        "本地 Web UI",
+        "开发者工具",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49994681",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994681",
+      "title": "CROWDB Console（自托管）",
+      "url": "https://crowdb.dev/",
+      "canonicalUrl": "https://crowdb.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994681",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994681",
+      "publishedAt": "2026-10-07T16:00:52Z",
+      "discoveredAt": "2026-10-07T16:50:58.813515Z",
+      "audience": "需要在本地开发和测试 Apache Iceberg 数据表、检查存储状态的数据工程师。",
+      "what": "CROWDB 的单容器存储开发预览，附带本地浏览器 Console。用户通过 Iceberg SDK 写入数据，再在网页中查看集群健康、表、快照、manifest 和 Parquet 文件；数据写入与查询仍经 SDK 或 DuckDB 等客户端完成。属于自托管 Web 管理工具，官网不是托管数据服务。",
+      "why": "HN 发帖者 crowdb 自述，找不到方便的单节点 Docker Iceberg 存储方案；自己正在开发 CROWDB，基本流程能工作后便把它做成单容器版本供开发测试，并明确表示还不确定是否对别人有用。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49994767",
+          "https://news.ycombinator.com/item?id=49994681"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、作者评论及官方 API、官网、当前仓库 README 和单容器教程。教程明确本地 9090 端口的 Console 可检查真实表、快照与文件，官网亦链接 Console UI。未安装 Docker、启动服务、写入数据或执行查询。",
+        "checkedAt": "2026-10-07T16:50:58.813515Z"
+      },
+      "caveats": [
+        "官方标为开发预览，建议仅使用可丢弃数据；README 明确不支持生产使用或磁盘格式升级兼容，Dataset 与直接 GPU 数据传输仍在设计中。",
+        "所述容器面向 Linux amd64；本次只核对官方网页、文档与截图说明，未实测 UI、性能、持久性、故障恢复或访问控制。",
+        "HN 作者账号为 crowdb，官网署名 Gian Crow 并链接 buzzcrow/crowdb；公开链接相互对应，但未独立核验实名。",
+        "HN 发帖时间不是产品首次上线时间；作者测试成功和官网性能表述不等同于独立验证、市场需求或收入证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994681"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994767"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994681.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://crowdb.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://buzzcrow.github.io/blog/run-iceberg-in-one-container/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/buzzcrow/crowdb"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "数据工程",
+        "Iceberg",
+        "Web 控制台",
+        "开发预览"
+      ]
+    },
+    {
+      "id": "hacker_news:49994579",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994579",
+      "title": "Configstream",
+      "url": "https://github.com/configstream/configstream",
+      "canonicalUrl": "https://github.com/configstream/configstream",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994579",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994579",
+      "publishedAt": "2026-10-07T15:53:23Z",
+      "discoveredAt": "2026-10-07T16:51:50Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994579"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994579.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/configstream/configstream"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/configstream/configstream/blob/main/docs/walkthrough.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/configstream/configstream/blob/main/configstream-admin-spring-boot-starter/src/main/resources/templates/configstream-admin/dashboard.html"
+        }
+      ],
+      "audience": "已经使用 MongoDB、希望通过网页集中查看和修改运行中配置的 Java / Spring Boot 团队。",
+      "what": "面向 Spring Boot 的动态配置和功能开关工具，配套可自托管的 Web 管理台。网页可以搜索服务、查看活跃实例及属性，编辑并复核配置、查看变更历史及恢复旧值；变更经服务写入 MongoDB，再通过 Change Streams 推送到各实例的内存缓存。浏览器管理台随 admin starter 集成到团队自己的 Spring Boot 应用中。",
+      "why": "作者未说明个人创作动机。官方说明的产品目标，是利用团队已有的数据库实现无需重启的配置传播，减少轮询、消息代理及独立配置服务器等额外基础设施。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/configstream/configstream#what-it-does",
+          "https://github.com/configstream/configstream#who-its-for"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖及官方 API、仓库 README、管理台模板和带截图的端到端 walkthrough，确认具备浏览器服务列表、编辑复核、历史与恢复流程。HN 唯一作者评论被标记，正文不可读。仅作 HTTP 与源码核查；未安装 Docker/Java、启动本地服务、登录或修改配置。",
+        "checkedAt": "2026-10-07T16:51:50Z"
+      },
+      "caveats": [
+        "需要自行部署；管理台不是公开托管服务，也没有独立可下载的 admin jar，而是通过 starter 和注解集成到自己的 Spring Boot 应用。",
+        "当前 README 标为 0.2.1，API 和设置在 1.0 前仍可能变化；要求 Java 17+、Spring Boot 3/4 和 MongoDB 副本集，PostgreSQL 支持仍在计划中。",
+        "仅用于非机密属性和功能开关，不应存储密码或凭据；不提供百分比发布或 A/B 实验。新增、重命名和变更属性类型需修改服务的配置清单，网页主要编辑已有值。",
+        "生产登录、身份验证及团队权限需由宿主应用配置；快速示例的公开测试账号仅用于本地演示。约一秒传播等表现为官方说明，本次未实测。"
+      ],
+      "tags": [
+        "配置管理",
+        "功能开关",
+        "Spring Boot",
+        "MongoDB",
+        "自托管",
+        "Web 管理台"
+      ]
+    },
+    {
+      "id": "hacker_news:49994446",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994446",
+      "title": "Trigora",
+      "url": "https://trigora.dev/",
+      "canonicalUrl": "https://trigora.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994446",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994446",
+      "publishedAt": "2026-10-07T15:44:30Z",
+      "discoveredAt": "2026-10-07T16:51:50Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994446"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994446.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/trigora-dev/trigora"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trigora.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cloud.trigora.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trigora.dev/company"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trigora.dev/docs/quickstart/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trigora.dev/docs/cloud/projects/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trigora.dev/docs/cloud/executions/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trigora.dev/docs/reference/limits/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trigora.dev/pricing"
+        }
+      ],
+      "audience": "需要让长时间运行的 AI 代理、审批和事件驱动程序在故障后继续执行的开发者及技术团队。",
+      "what": "持久化执行平台，支持用 TypeScript、Python 或 Rust 编写程序，并在显式持久化边界保存可恢复的执行状态。Trigora Cloud 提供托管运行环境和浏览器控制台，管理项目、程序及执行；程序可等待事件、定时器和子任务。作者同时提供 SDK、CLI、本地运行时和独立的 TCC 引擎。",
+      "why": "官方公司介绍称，项目最初是托管 webhook、cron 和队列工作流的控制平面；实际运营让团队发现，程序一旦长时间运行、分支和等待，依靠保留历史重建执行状态会成为限制，因此转向在持久化边界保存可继续执行的状态。此为官方自述的产品起源，未核验 HN 发帖者的个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://trigora.dev/company"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖及 API、官方 README、官网、公司介绍、定价、快速入门、项目、执行及限制文档。Cloud 入口返回 Trigora Dashboard 应用，项目文档明确说明网页项目选择器可列出和创建项目。HN 作者评论已被标为 dead，正文不可读。未创建账户、登录控制台、生成令牌、安装 CLI 或部署和运行程序。",
+        "checkedAt": "2026-10-07T16:51:50Z"
+      },
+      "caveats": [
+        "实际云端工作流需要账户与 API token，并结合 SDK/CLI 编写和部署程序；本次未进入登录后控制台或检验故障恢复。",
+        "语言支持是受约束的子集，部分并发和语言结构不支持；持久化操作须遵守其边界规则，不能视为任意现有程序直接迁移即可运行。",
+        "官方明确说明，恢复机制不保证外部 I/O 恰好一次，也不保证恒定时间恢复；官网延迟比较是指定环境下的官方测试，不是本次独立基准。",
+        "Cloud 有免费额度与按 CPU、持久化操作和存储计费的付费方案；套餐和价格可能变动，应以当前定价页为准。SDK、客户端及 CLI 为 MIT；底层 TCC Engine 使用 Business Source License 1.1，不宜把整个平台概括成完全开源。"
+      ],
+      "tags": [
+        "持久化执行",
+        "AI 代理",
+        "工作流",
+        "开发者工具",
+        "云端控制台",
+        "TypeScript",
+        "Python",
+        "Rust"
+      ]
+    },
+    {
+      "id": "hacker_news:49994443",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994443",
+      "title": "Bigwords.page",
+      "url": "https://bigwords.page/",
+      "canonicalUrl": "https://bigwords.page/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994443",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994443",
+      "publishedAt": "2026-10-07T15:44:21Z",
+      "discoveredAt": "2026-10-07T16:48:15Z",
+      "audience": "需要临时接机牌、会议室标识、活动倒计时或信息屏的用户，以及远程管理浏览器展示设备的人",
+      "what": "把浏览器屏幕变成大字标牌、轮播消息或倒计时；通过内置编辑器或 URL 片段设置文字、配色、动画和二维码，再用链接打开或分享。官网称无需账户，提供 MIT 开源版本。",
+      "why": "作者在 HN 说明，他想在一台可远程管理、却无法亲手操作的平板上显示消息；浏览器展台模式容易配置，但消息如何送达仍是问题，因此做成由 URL 本身携带消息的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49994461"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已通过实时 HTTP 核对 HN 原帖、作者评论、官网和文档；浏览器打开编辑器后显示默认 Hello, world! 预览、Viewer URL，以及字体、颜色、尺寸、动画和二维码配置控件。未输入自定义内容，未测试动画、倒计时或二维码效果。",
+        "checkedAt": "2026-10-07T16:48:15Z"
+      },
+      "caveats": [
+        "编辑器和标牌显示需要 JavaScript；本次观察到默认预览界面，未测试自定义配置、设备兼容性或自托管。",
+        "消息保存在链接中，持有链接或看见屏幕的人仍可读取；文档说明长链接可能被聊天或邮件工具截断，外部图片主机也会收到图片请求。",
+        "创作动机来自 HN 提交者 SpeakingOfBrad 的第一人称评论；未独立核实其现实身份。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994443"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994461"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bigwords.page/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bigwords.page/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bigwords.page/editor"
+        }
+      ],
+      "tags": [
+        "浏览器工具",
+        "标牌",
+        "倒计时",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49994422",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994422",
+      "title": "srl（Meridian CRM 示例）",
+      "url": "https://srl-example.santella.dev/",
+      "canonicalUrl": "https://srl-example.santella.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994422",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994422",
+      "publishedAt": "2026-10-07T15:42:38Z",
+      "discoveredAt": "2026-10-07T16:51:50Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994422"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994422.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/BernardoGiordano/srl"
+        },
+        {
+          "type": "official_site",
+          "url": "https://srl-example.santella.dev/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/BernardoGiordano/srl/blob/main/docs/getting-started.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/BernardoGiordano/srl/blob/main/example/src/routes.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://srl-example.santella.dev/src/main.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://srl-example.santella.dev/src/pages/login-page.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://srl-example.santella.dev/src/pages/dashboard-page.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://srl-example.santella.dev/app.manifest.json"
+        }
+      ],
+      "audience": "希望探索无需开发构建步骤的 Web Components 单页应用，并通过完整界面评估路由、表单、权限和微前端的前端开发者。",
+      "what": "Angular 风格的响应式 Web Components 库，附带可访问的 Meridian CRM 浏览器示例。示例源码包含仪表盘、订单、客户、库存、员工、设置以及分析和账单远程应用，用于展示路由、表单、会话与权限、国际化及组件协作。开发时浏览器通过 import map 直接加载 JavaScript、HTML 模板和 CSS；部署时另有生产构建。",
+      "why": "官方 README 说明，这个想法来自与同事讨论如何在不进行开发构建的情况下更快制作原型；作者也披露使用 AI 编程助手参与 SDK 的设计、实现与测试。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/BernardoGiordano/srl#license-and-credits"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖及 API、官方 README 和 getting-started、在线示例 HTML 与公开入口模块、登录和仪表盘模板、应用清单及仓库路由。确认在线入口标识为 Meridian CRM example，源码提供可操作业务界面和角色登录演示；仅核查页面与公开源码，未执行 JavaScript 浏览器流程、提交登录、调用业务写接口或安装依赖。HN 唯一作者评论已被标记，正文不可读。",
+        "checkedAt": "2026-10-07T16:51:50Z"
+      },
+      "caveats": [
+        "核心交付仍是前端库与开发工具，Meridian 是功能示例，不应当作经过生产验证的独立 CRM 服务或真实业务数据管理产品。",
+        "示例需要 JavaScript，内部业务页面受演示会话和角色守卫保护；官方说明使用任意用户名及预设角色进入演示，本次没有登录或验证端到端业务操作。",
+        "“无构建”指开发流程；正式部署另有校验、压缩和完整性固定的生产构建。CLI 创建项目要求 Node.js 22 或更高版本。",
+        "源码说明示例依赖实际 Node HTTP 后端提供会话、API 和事件流；静态托管前端本身不足以实现登录和数据流程。"
+      ],
+      "tags": [
+        "Web Components",
+        "前端开发",
+        "在线演示",
+        "CRM 示例",
+        "无构建开发",
+        "MIT"
+      ]
+    },
     {
       "id": "hacker_news:49994289",
       "provider": "hacker_news",
@@ -77,6 +1126,65 @@
         "自托管",
         "混合云",
         "JSONC"
+      ]
+    },
+    {
+      "id": "hacker_news:49994199",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49994199",
+      "title": "The Spool List STL Checker",
+      "url": "https://thespoollist.com/tools/stl-checker",
+      "canonicalUrl": "https://thespoollist.com/tools/stl-checker",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49994199",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994199",
+      "publishedAt": "2026-10-07T15:28:18Z",
+      "discoveredAt": "2026-10-07T16:52:13.073919Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49994199"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49994199.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://thespoollist.com/tools/stl-checker"
+        },
+        {
+          "type": "official_site",
+          "url": "https://thespoollist.com/about"
+        }
+      ],
+      "audience": "想在切片或找人代打印之前，快速检查 STL 模型几何完整性与打印空间的 3D 打印爱好者、设计师和创客。",
+      "what": "免费的浏览器 STL 检查工具，可读取二进制或 ASCII STL，旋转查看模型并高亮缺陷边，分析开放边、非流形边、退化面、包围盒、体积和常见打印机空间适配。页面给出问题说明及外部修复建议，并可跳转到 The Spool List 寻找制作报价。",
+      "why": "作者未说明个人创作动机。官网给出的产品目标是让用户在浏览器内先检查模型的网格完整性与尺寸，再决定如何修复或寻找制作服务；不能据此推断作者的个人经历。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://thespoollist.com/tools/stl-checker"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖、API 评论、官网工具页面、内嵌 STL 解析与几何分析脚本，以及官方 About 页面。确认有文件选择、3D 预览、缺陷边开关和分析报告的真实前端实现；文件由 FileReader 在浏览器解析。HN 作者评论被标记为 flagged，无可读正文。未在浏览器载入模型，未验证检测准确性或申请报价。",
+        "checkedAt": "2026-10-07T16:52:13.073919Z"
+      },
+      "caveats": [
+        "只做几何与尺寸检查，默认 STL 坐标单位为毫米；不覆盖壁厚、悬垂、材料、切片参数等实际打印风险，页面的“可打印”判断不是打印成功保证。",
+        "打印空间适配只是对模型包围盒与少量预设机型尺寸进行排序比较，不是完整摆放、支撑或碰撞优化；页面标示文件大小约 80 MB 上限。",
+        "STL 几何分析在本地进行，但并非所有操作都不传数据：点击分享会将文件名、尺寸、体积、三角形数和检查摘要发给分享链接服务；报价链接也携带尺寸等摘要。页面还含第三方字体、渲染库和分析脚本，本次未做隐私审计。",
+        "提供缺陷定位和修复建议，不等于已自动修复模型；制作报价属于另外的市场服务，本次未联系商家或核验价格。",
+        "HN 发帖账号为 TheSpoolList；本次未独立核验其真实身份或与产品运营者的关系，无法读取的作者评论不作为创作动机依据。"
+      ],
+      "tags": [
+        "3D 打印",
+        "STL",
+        "浏览器工具",
+        "网格检查",
+        "免费工具"
       ]
     },
     {
@@ -220,6 +1328,70 @@
         "运动学",
         "路径规划",
         "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:49993965",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49993965",
+      "title": "Zetteldesk",
+      "url": "https://zetteldesk.com/en",
+      "canonicalUrl": "https://zetteldesk.com/en",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49993965",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993965",
+      "publishedAt": "2026-10-07T15:13:17Z",
+      "discoveredAt": "2026-10-07T16:52:13.073919Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49993965"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49993965.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://zetteldesk.com/en"
+        },
+        {
+          "type": "official_site",
+          "url": "https://zetteldesk.com/app"
+        },
+        {
+          "type": "official_site",
+          "url": "https://zetteldesk.com/assets/index-BfCnnVpj.js"
+        }
+      ],
+      "audience": "需要把 PDF 或 AI 助手生成的内容变成纸质邮寄信件的个人、小型团队和办公自动化开发者，尤其是使用德国邮寄流程的人。",
+      "what": "带 Web 管理后台和远程 MCP 接口的纸质信件寄送服务。官方前端包含 PDF 寄送、信件列表与详情、状态、余额及账单页面；MCP 支持生成或检查符合 DIN 5008 布局的信件、查询报价、提交打印邮寄和查询状态。信件由德国合作方打印装封并寄出，可选挂号和国际邮件。",
+      "why": "作者未说明个人创作动机。官网表达的产品目标是让用户从 AI 对话或网页完成原本需要打印、装信封和寄出的日常纸质通信；这只是官方产品目标。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://zetteldesk.com/en"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖、API 评论、官网价格与工具说明，并读取官网引用的生产 JavaScript 包；其中明确包含受认证保护的 /app、账单、信件列表/详情和 /app/mail/send 页面，确认并非只有 MCP 介绍页。直接 HTTP 请求 /app 返回应用外壳，未登录或进入实际账户。HN 作者评论为 dead，无可读正文；未上传 PDF、充值、连接 MCP 或寄信。",
+        "checkedAt": "2026-10-07T16:52:13.073919Z"
+      },
+      "caveats": [
+        "实际寄信需要账户与预付余额。核查时官网标示最低充值 €10、标准信件 €1.12 起，无订阅费；最终费用取决于页数、单双面、彩色、挂号和目的地，应以提交前报价为准。",
+        "寄信会向服务商和德国打印寄送合作方传输信件内容与地址；官网称文件加密存储并在 90 天后删除，这些隐私和合规说明未经过独立审计。",
+        "官网称信件交付打印前可取消并退回余额，进入打印邮寄后不能撤回；本次未验证取消窗口、退款执行、实际送达或挂号证明。",
+        "MCP 的“destructive”标记及官网关于客户端确认的描述不能保证所有 AI 客户端都一定询问；启用自动发送或自动充值前应单独核实账户与客户端设置。",
+        "没有公开免登录寄信演示；此条以已核对的前端实现及官方功能说明收录，不能视为已经验证付费后端或实物履约。",
+        "HN 发帖账号为 akrost；本次未独立核验其真实身份或与产品运营者的关系，无法读取的作者评论不作为创作动机依据。"
+      ],
+      "tags": [
+        "邮件寄送",
+        "MCP",
+        "办公自动化",
+        "Web 应用",
+        "德国"
       ]
     },
     {
@@ -1089,6 +2261,79 @@
         "娱乐",
         "开源",
         "无需登录"
+      ]
+    },
+    {
+      "id": "hacker_news:49991898",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991898",
+      "title": "Catan Advisor",
+      "url": "https://martha889.github.io/catan-advisor/",
+      "canonicalUrl": "https://martha889.github.io/catan-advisor/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991898",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991898",
+      "publishedAt": "2026-10-07T12:35:32Z",
+      "discoveredAt": "2026-10-07T17:52:42Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991898"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991898.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/martha889/catan-advisor"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/martha889/catan-advisor/blob/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://martha889.github.io/catan-advisor/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://martha889.github.io/catan-advisor/app.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://martha889.github.io/catan-advisor/vision.js"
+        }
+      ],
+      "audience": "想学习卡坦岛双人策略、复盘已结束的对局，或在与机器人对局时获得可解释建议的玩家，以及研究规则型博弈 AI 的开发者。",
+      "what": "无需账户和安装的浏览器卡坦岛策略辅助工具。可载入示例棋盘、粘贴截图或手动设置资源和数字，再手动记录放置、掷骰、建造与交易；页面给出起始位置、建造顺序、强盗、弃牌和发展卡建议。开局会对 6 个候选点各模拟 60 局，进度保存在浏览器本地。仓库还公开规则型机器人及其自我对局实验。",
+      "why": "作者在 HN 原帖说明，想弄清楚卡坦岛里哪些策略真正有用，于是编写规则型机器人，让它自我对局 20,000 次，并将每项策略改动与前一版本进行数千局对照测试；README 补充，项目起初是实用策略助手，因此采用便于检查和解释的手写规则。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991898",
+          "https://github.com/martha889/catan-advisor#faq"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖和 API、官方 README、公开 demo HTML 及其 app.js、vision.js。确认页面包含示例棋盘、棋盘校正、游戏设置与回合记录界面，源码提供示例入口、本地存储及 6×60 局开局搜索。原帖无可读评论；本次未在浏览器中执行交互或复现 20,000 局实验，未上传截图、提交表单或安装代码。",
+        "checkedAt": "2026-10-07T17:52:42Z"
+      },
+      "caveats": [
+        "研究仅覆盖双人基础游戏，主要配置为 15 分获胜和 9 张牌弃牌阈值；不能直接套用到常规多人游戏或扩展版。",
+        "数据来自机器人自我对局及不同版本对照，未测量对人类玩家的实力；终局持有奖励与胜率的关系是相关性，不代表因果。",
+        "模拟包含银行与港口交易，但不建模玩家间交易；作者披露使用垄断卡时模拟引擎可看到对手真实手牌，存在隐藏信息泄漏。",
+        "截图识别针对 colonist.io 棋盘美术调校，其他画风可能需要手动修正；工具不连接游戏平台，实际进程需要手动记录。",
+        "作者限定用途为策略学习、已结束对局复盘和对机器人游戏，不应用于与真人在线对局中的实时辅助。"
+      ],
+      "tags": [
+        "卡坦岛",
+        "策略学习",
+        "浏览器工具",
+        "蒙特卡洛模拟",
+        "开源",
+        "无需账户"
       ]
     },
     {
@@ -7128,6 +8373,65 @@
       ]
     },
     {
+      "id": "hacker_news:49977886",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49977886",
+      "title": "City 2026",
+      "url": "https://dator.dev/city2026/",
+      "canonicalUrl": "https://dator.dev/city2026/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49977886",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977886",
+      "publishedAt": "2026-10-06T13:09:27Z",
+      "discoveredAt": "2026-10-07T17:57:21Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49977886"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49977886.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dator.dev/city2026/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dator.dev/city2026/assets/index-BMxc7_8G.js"
+        }
+      ],
+      "audience": "想在电脑浏览器里体验低多边形城市建设游戏的玩家，以及观察 AI 重建复杂经典游戏实验的开发者。",
+      "what": "以 SimCity 2000 为参照的 WebGL 低多边形城市建设浏览器游戏。公开程序包含新建城市、示例城市、地图编辑、城市存档加载与保存，以及分区、道路、供水供电、预算等模拟界面；加入烟雾、景深和环境音效。打开网页后点击开始，无需安装客户端。",
+      "why": "作者在 HN 原帖明确说，既是因为自己想要这样的游戏，也想测试 Opus 5.5 能力；制作结果比预期好，于是公开分享。作者描述以旧版游戏为参照，使用 AI 进行反编译、翻译、验证和后续打磨。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49977886"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、API、公开网页及其可下载的 JavaScript bundle，确认存在新建/示例城市、地图编辑、存档、预算与 WebGL 渲染的实际程序，以及桌面优先提示。唯一评论已删除。未在浏览器执行游戏、载入个人存档或验证作者所称模拟与原版一致的测试。",
+        "checkedAt": "2026-10-07T17:57:21Z"
+      },
+      "caveats": [
+        "作者所称与原版逐步一致、运行 10,000 个游戏日的验证属于作者自述，本次未复现；不应视为完整兼容性或无错误保证。",
+        "程序明确提示尚未针对手机和平板设计，建议使用有鼠标的大屏设备；需要可运行 WebGL 的浏览器。",
+        "这是独立重建实验，不是官方 SimCity 产品；HN 没有提供可核查的完整项目仓库或授权说明，本次也未审计游戏逻辑和全部资源的授权。",
+        "公开静态页面最初仅显示加载和点击开始；核查依据为页面及公开程序，不是端到端试玩或性能测试。"
+      ],
+      "tags": [
+        "浏览器游戏",
+        "城市建设",
+        "WebGL",
+        "低多边形",
+        "AI 编程实验",
+        "桌面优先"
+      ]
+    },
+    {
       "id": "hacker_news:49977818",
       "provider": "hacker_news",
       "source": "show_hn",
@@ -7985,32 +9289,36 @@
       "source": "show_hn",
       "sourceId": "49976996",
       "title": "Gutsy",
-      "url": "https://github.com/kouhxp/gutsy",
-      "canonicalUrl": "https://github.com/kouhxp/gutsy",
+      "url": "https://huggingface.co/spaces/kouhxp/gutsy-sheet",
+      "canonicalUrl": "https://huggingface.co/spaces/kouhxp/gutsy-sheet",
       "sourceUrl": "https://news.ycombinator.com/item?id=49976996",
       "hnUrl": "https://news.ycombinator.com/item?id=49976996",
       "publishedAt": "2026-10-06T11:35:05Z",
       "discoveredAt": "2026-10-06T11:42:29Z",
-      "audience": "希望在本地尝试客服分流、反馈分类和模型路由等概率判断流程的开发者（依据演示用途归纳）",
-      "what": "CPU 本地决策模型与推理服务，接受是非、选项和评分问题并返回概率。仓库附带六个浏览器演示，包括客服工单分流、反馈表提问和模型路由；需自行安装运行时、下载模型并连接本地服务。",
-      "why": "未找到作者个人创作动机的第一人称说明。官方 README 将产品目标描述为在本地提供结构化概率判断，避免每次请求依赖远程服务。",
+      "audience": "希望在浏览器或本地探索客户反馈分类、客服分流和模型路由等概率判断流程的开发者与产品团队（依据演示用途归纳）。",
+      "what": "本地决策模型及浏览器演示，接受是非、选项和评分问题并返回概率。新增的托管反馈表演示把 gutsy-0.8b 量化模型加载到浏览器，以 WebAssembly 对 30 行示例客户反馈回答自定义是非问题，逐行显示 P(yes) 并支持列排序，无需本地服务器；原仓库另有需自行部署推理服务的客服分流、反馈表和模型路由演示。",
+      "why": "作者未说明个人创作动机。先前核查的官方 README 将产品目标描述为在本地提供结构化概率判断，避免每次请求依赖远程服务；新托管演示说明模型、反馈行和问题在浏览器内处理，但未另述制作这版演示的个人缘由。",
       "whySource": {
         "status": "product_goal_only",
         "urls": [
           "https://github.com/kouhxp/gutsy",
-          "https://news.ycombinator.com/item?id=49976996"
+          "https://news.ycombinator.com/item?id=49976996",
+          "https://news.ycombinator.com/item?id=49995544",
+          "https://huggingface.co/spaces/kouhxp/gutsy-sheet/raw/main/README.md"
         ]
       },
       "verification": {
         "status": "source_reviewed",
-        "summary": "已读取 HN 页面与官方 API、仓库及运行时 README、源码树，并检查客服分流与反馈表的 HTML/JavaScript：界面有提问按钮，向本地 /v1/systemone 发起请求。未安装依赖、下载模型或运行推理。",
-        "checkedAt": "2026-10-06T11:44:44Z"
+        "summary": "在 2026-10-06 既有仓库及本地演示核查基础上，2026-10-07 新增读取 HN 49995544 官方 API、Hugging Face Space 页面与公开元数据、直连应用 HTML、README 和 gutsy-web.js。确认 Space 为公开且 RUNNING，托管页面具有模型加载、30 行反馈表、自定义问题、概率列和排序逻辑；此前“未发现托管在线版本”限制已更新。未下载 505 MB 模型、安装依赖、提交问题或运行推理，因此不宣称推理结果及速度已实测。新帖无正文或评论。",
+        "checkedAt": "2026-10-07T17:51:40Z"
       },
       "caveats": [
-        "这是需本地部署的浏览器演示集合，未发现可直接使用的托管在线版本；演示使用虚构数据。",
-        "README 声明仅支持英语，算术、多步规则和陌生难题存在明显弱点；性能与准确率均为项目方报告，本次未复测。",
-        "演示要求启用 --cors；项目方提醒，此设置会让所访问的任意网页查询本地服务，使用后应关闭。",
-        "HN 提交者为 mrkn1，仓库所有者为 kouhxp；现有帖子没有正文或评论证明二者为同一人。"
+        "2026-10-07T16:59:21Z 的新 HN 帖 49995544 补充了托管浏览器演示；此条沿用原始 49976996 的 ID、首次发布日期和首次发现时间，避免把同一产品重复计数。",
+        "托管演示首次需要下载约 505 MB 的 gutsy-0.8b Q4_K_M 模型并占用浏览器存储与内存；本次只读核查了页面和源码，未验证模型下载、准确率或运行速度。",
+        "Hugging Face 内嵌视图无法共享线程内存而退为单线程；官方建议打开直连页面 https://kouhxp-gutsy-sheet.static.hf.space/index.html 以使用多线程，仍取决于浏览器环境。",
+        "反馈表使用 30 行内置示例数据，展示的是概率判断，不是已验证可处理任意业务数据的生产系统。仓库先前声明仅支持英语，算术、多步规则和陌生难题有明显弱点。",
+        "原仓库的其他本地服务演示仍需自行安装运行时、下载模型并连接服务；其中 --cors 设置会让所访问的其他网页查询本地服务，使用后应关闭。托管 WebAssembly 演示不需要这个本地服务流程。",
+        "模型在浏览器执行、问题和表格行不离开页面的说法有公开前端实现支持，但本次没有进行实际运行时网络审计。HN 提交者 mrkn1 与仓库及 Space 所有者 kouhxp 是否同一人仍未获作者明确说明。"
       ],
       "sources": [
         {
@@ -8040,13 +9348,43 @@
         {
           "type": "repository",
           "url": "https://github.com/kouhxp/gutsy/blob/main/gutsy-inference/README.md"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49995544"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49995544.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/spaces/kouhxp/gutsy-sheet"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/api/spaces/kouhxp/gutsy-sheet"
+        },
+        {
+          "type": "official_site",
+          "url": "https://kouhxp-gutsy-sheet.static.hf.space/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://huggingface.co/spaces/kouhxp/gutsy-sheet/raw/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://huggingface.co/spaces/kouhxp/gutsy-sheet/raw/main/gutsy-web.js"
         }
       ],
       "tags": [
         "本地 AI",
+        "浏览器推理",
+        "在线演示",
         "自托管",
-        "浏览器演示",
-        "开发者工具"
+        "客户反馈",
+        "WebAssembly"
       ]
     },
     {
