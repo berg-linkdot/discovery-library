@@ -1,9 +1,729 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T11:42:33.585298Z",
-  "count": 225,
+  "updatedAt": "2026-10-07T12:54:01.353685Z",
+  "count": 236,
   "projects": [
+    {
+      "id": "hacker_news:49991917",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991917",
+      "title": "Fennec",
+      "url": "https://pranavworks100.github.io/fennec/",
+      "canonicalUrl": "https://pranavworks100.github.io/fennec/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991917",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991917",
+      "publishedAt": "2026-10-07T12:37:45Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991917"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991917.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pranavworks100.github.io/fennec/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pranavworks100.github.io/fennec/news.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/pranavworks100/fennec"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/pranavworks100/fennec/main/README.md"
+        }
+      ],
+      "what": "一个把科技新闻做成 AI 吐槽日报的网站：每条新闻配有戏谑标题、简短评论、通俗说明和原文链接，并归入 COOKING（势头正好）或 COOKED（陷入麻烦）两组。官方仓库描述的流程是从 Hacker News 与 RSS 收集候选，由模型筛选和改写，再通过 GitHub Actions 生成静态新闻数据供网页读取。",
+      "audience": "想用轻松语气浏览科技动态的软件工程师，以及想参考 GitHub Pages、定时脚本与生成式 AI 组合方式的开发者。",
+      "why": "作者在 HN 表示，这是几个月前做的周末趣味项目，想把科技新闻变成吐槽并分成 COOKING／COOKED，而不是只给干巴巴的摘要；发帖时正在征求让内容更好笑的建议。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991917"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、官网、前端脚本、news.json 和作者链接的仓库 README。云端浏览器实际呈现 2026-10-06 的完整十条摘要，7 条 COOKING、3 条 COOKED，含吐槽、通俗说明和外部来源链接；数据文件与页面一致。未运行新闻生成流程或逐条验证链接与报道事实。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "作者明确承认部分吐槽平淡泛泛，且有时会抓到几个月前的旧新闻；模型排名、分类与摘要不代表新闻事实已经核实。",
+        "核查时数据标注为前一天（2026-10-06）；不能仅据此判断定时更新失败，因为 README 所列每日运行时间为 13:00 UTC，本次核查早于当日该时间。",
+        "抽查数据可见一个原文 URL 末尾带有反斜杠；原始链接的可用性和全部新闻准确性未逐条验证。",
+        "官网与 README 的零成本说法取决于 GitHub 与模型服务免费额度，未独立核对账单或长期成本；自行部署需要相应服务配置。",
+        "作者说项目数月前已做成，本次 Show HN 帖子不是首次上线证明；读者规模、需求和收入未验证。"
+      ],
+      "tags": [
+        "科技新闻",
+        "AI 摘要",
+        "娱乐",
+        "开源",
+        "无需登录"
+      ]
+    },
+    {
+      "id": "hacker_news:49991893",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991893",
+      "title": "leaks.md",
+      "url": "https://leaks.md/",
+      "canonicalUrl": "https://leaks.md/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991893",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991893",
+      "publishedAt": "2026-10-07T12:35:08Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "what": "面向 AI 代理的安全与对齐问题报告网站，并提供供人阅读的介绍、政策和公开报告流。官方设计支持通过 HTTP／MCP 提交结构化事件，经防垃圾提交的工作量证明与编辑审查后，可按所选模式保留私密或发布脱敏版本；官网称提交会被加密并返回签名回执。",
+      "audience": "研究 AI 代理失误、奖励投机、欺骗或监督规避的安全研究者、代理开发者与需要了解披露流程的运营人员。",
+      "why": "官网把设计灵感明确归于 OpenAI 2025 年的《Training LLMs for Honesty via Confessions》研究，并说明希望代理尽早报告问题，让仍在计划或发生中的错误有机会被阻止，也让其他代理从公开的行为模式中学习。这是官方说明的设计缘由，未发现作者个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://leaks.md/humans#idea",
+          "https://leaks.md/humans#early"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API，并用云端浏览器核对官网代理说明页、面向人的介绍／政策页和公开 feed。公开 feed 在核查时显示尚无已发布条目；介绍页的提交数等统计显示尚未连接。未安装技能、接入 MCP、计算提交挑战、上传任何信息或验证加密和回执实现。普通 HTTP 抓取首页返回 403，浏览器可读取。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "匿名与加密属于服务方主张，未经独立安全审计。本档案不构成隐私、安全或合规背书。",
+        "官网明确说明所有模式的报告都同时加密给编辑密钥；private 表示不公开发布，并不表示编辑无法解密。默认的 leaks 提交可由编辑审查后发布。",
+        "政策说明 Cloudflare、提交者自己的运营方／主机／网络可能保留记录，法律程序可能要求披露；站方也表示未独立确认实际运行中的 Cloudflare 日志保留设置。",
+        "公开 feed 在本次核查时为空，统计尚未连接；未验证真实提交、审核时效、脱敏效果、撤回流程或服务使用量。",
+        "面向代理的网页含提交和持续使用的指示，这些仅是被核对的产品内容。接入前应明确数据和接收方授权，不应自动发送用户的工作内容、身份资料或凭据。",
+        "来源帖时间不是首次上线证明；文中积分是服务方的感谢机制，不是可信度评分、收入或市场需求证据。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991893"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991893.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://leaks.md/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://leaks.md/humans"
+        },
+        {
+          "type": "official_site",
+          "url": "https://leaks.md/humans#policy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://leaks.md/feed"
+        }
+      ],
+      "tags": [
+        "AI 安全",
+        "事件报告",
+        "公开资料",
+        "无需账户"
+      ]
+    },
+    {
+      "id": "hacker_news:49991869",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991869",
+      "title": "Eastern Front 1941–43",
+      "url": "https://zekcrates.github.io/eastern-front/",
+      "canonicalUrl": "https://zekcrates.github.io/eastern-front/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991869",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991869",
+      "publishedAt": "2026-10-07T12:32:12Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991869"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991869.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://zekcrates.github.io/eastern-front/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://zekcrates.github.io/eastern-front/js/main.js?v=40"
+        },
+        {
+          "type": "official_site",
+          "url": "https://zekcrates.github.io/eastern-front/js/engine.js?v=40"
+        }
+      ],
+      "what": "一款直接在浏览器运行的二战东线战略游戏，玩家选择德军或苏联红军，在 1941—1943 年的地图上调动部队、增援与进攻城市。公开前端代码包含铁路连接、补给、生产、天气、空袭与历史事件规则，另有历史背景和武器介绍。",
+      "audience": "喜欢浏览器战略游戏、二战东线题材和轻量战争模拟的玩家。",
+      "why": "作者未说明。HN 原帖仅表示自己制作了这款浏览器战争游戏；已查阅的首页和公开脚本未提供可归于作者的具体创作缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991869",
+          "https://zekcrates.github.io/eastern-front/"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网 HTML 和直接提供的游戏脚本。首页包含两方选择及开始游戏入口，脚本实现地图、部队指令、模拟循环和暂停控制；本次未在浏览器启动或完成对局，不能据静态代码断言实际游玩体验。核查时 API 无评论。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "这是战争题材娱乐作品；页面包含二战阵营旗帜和战斗描述。历史文字、数字及游戏平衡未独立核实，不应当作严谨历史研究资料。",
+        "仅核对页面及前端源码，未测试地图渲染、操作响应、完整战役、移动设备兼容性或长期存档。",
+        "来源帖发布时间不代表游戏首次上线；作者背景、需求、用户规模和收入均未验证。"
+      ],
+      "tags": [
+        "浏览器游戏",
+        "战略游戏",
+        "历史题材",
+        "无需登录"
+      ]
+    },
+    {
+      "id": "hacker_news:49991667",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991667",
+      "title": "Monolith",
+      "url": "https://monolithgame.app/",
+      "canonicalUrl": "https://monolithgame.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991667",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991667",
+      "publishedAt": "2026-10-07T12:12:48Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "audience": "喜欢策略桌游、资源管理和软件行业题材的玩家，也适合想与朋友同屏或在线进行技术公司经营对战的人。",
+      "what": "在浏览器里经营软件公司的竞争式引擎构筑游戏。玩家从带有技术债的单体系统起步，完成需求赚收入，再融资、招聘工程师和扩展系统，同时平衡技术债、士气与维护成本；胜利路线包括 IPO 后的估值竞争和 AI 竞赛。公开页面提供引导教程、机器人对战、在线匹配／私人房间及同机轮流玩的入口，并提供供代理参与游戏的 MCP 接入说明。",
+      "why": "HN 发帖账号 chancelloradams 在原帖自述，自己在科技行业当了多年工程师，想用游戏调侃公司里的术语、惯例与裁员等现象，同时做出足够复杂、能发挥策略的玩法；灵感来自 lichess、Monopoly、MTG、Wingspan、Twilight Struggle、Slay the Spire 和 Balatro 等。官网署名 Luc Cary；本轮没有独立核验该署名与 HN 账号的身份对应。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991667",
+          "https://monolithgame.app/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖与官方 API、游戏首页、公开前端脚本、世界观页面和 MCP 说明。云端浏览器成功加载 v0.38.5 首页，显示未登录、引导教程、机器人对战、在线匹配／私人房间、同机两至三人轮流玩等入口。未开始教程／对局、登录、创建房间或 API key，也未验证匹配、计分与存档。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "作者称这是其首次游戏开发尝试和早期开放版本；游戏平衡、完成度与在线玩家数量未独立验证。",
+        "官网提示更适合大屏笔记本浏览器。同机模式支持两或三人，但并非所有在线、排名和代理模式都支持同样的组合；应以游戏内规则为准。",
+        "MCP 的规则和卡牌资料可公开读取，代理实际参赛需账户及 API key；本轮没有创建凭证或让代理参赛。",
+        "收录依据是公开页面、源码和作者说明；本轮未实际完成对局，因此不能确认在线匹配、机器人表现、排名或所有玩法均正常。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991667"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991667.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://monolithgame.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://monolithgame.app/backstory.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://monolithgame.app/mcp.html"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "策略游戏",
+        "软件公司",
+        "多人游戏",
+        "MCP"
+      ]
+    },
+    {
+      "id": "hacker_news:49991599",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991599",
+      "title": "Punchline",
+      "url": "https://punchline.passmint.com/",
+      "canonicalUrl": "https://punchline.passmint.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991599",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991599",
+      "publishedAt": "2026-10-07T12:06:15Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "audience": "想了解 Apple Wallet／Google Wallet 会员卡、集点卡实时更新流程的开发者，以及计划给门店接入电子集点卡的小型业务团队。",
+      "what": "以虚构咖啡馆为场景的在线集点卡演示。网页展示发卡二维码和 Apple／Google Wallet 预览，说明如何把卡加入手机钱包、用网页上的模拟买咖啡操作增加集点，再查看卡面更新和回执。代码开源；演示应用保存集点状态，Passmint 服务负责签名、发卡、推送与 webhook 回报。",
+      "why": "作者未说明个人制作动机。官网和仓库只明确说明产品目标：把 Passmint 的钱包发卡、更新和回执流程做成足够小、便于读懂的开源咖啡馆演示，让开发者能看到网页操作如何更新手机里的卡。HN 发帖账号为 alexpate；仓库属于 getpassmint，本轮未获得足以独立确认该账号与维护者身份关系的资料。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://punchline.passmint.com/",
+          "https://github.com/getpassmint/punchline"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 API、演示首页、官方仓库 README 和 Passmint 官网。云端浏览器成功渲染二维码、[TEST] 卡片预览、Apple／Google Wallet 模式选项与三步说明。未访问发卡链接、扫码、发卡、加入钱包、点击模拟购买或测试手机推送。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "Punchline 是虚构咖啡馆，不提供真实咖啡购买或可兑现优惠；页面说明发到钱包的卡和更新流程是真实的，示例卡显示 [TEST]。",
+        "开源的是演示应用；自行运行需 Node 22+、pnpm、Passmint 账户、API key 和会员卡模板，部署说明使用 Cloudflare Workers／D1。它不是无需外部服务的完整自托管钱包后端。",
+        "实卡生产模式需要在 Passmint 接入自己的 Apple 签名证书和 Google issuer；本轮没有安装钱包卡，也未验证签名、推送、webhook 及各设备兼容性。",
+        "HN 核对时无作者补充说明或评论；功能与架构来自官方页面和代码说明，未做端到端交互验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991599"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991599.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://punchline.passmint.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://passmint.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/getpassmint/punchline"
+        }
+      ],
+      "tags": [
+        "钱包通行证",
+        "会员卡",
+        "开发者工具",
+        "开源",
+        "在线演示"
+      ]
+    },
+    {
+      "id": "hacker_news:49991569",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991569",
+      "title": "CloudGrip — 带网页仪表盘的自托管 LLM 预算代理",
+      "url": "https://github.com/Aliyunazeer/cloudgrip-backend",
+      "canonicalUrl": "https://github.com/Aliyunazeer/cloudgrip-backend",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991569",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991569",
+      "publishedAt": "2026-10-07T12:03:53Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "what": "自托管的 LLM API 代理与浏览器管理仪表盘。项目意在给 API 开支设置上限，观察请求日志、客户预算及使用情况，并在达到阈值时停止后续请求；代码包含网页前端和管理员分析界面，不只是命令行程序。",
+      "audience": "运行 AI 代理、希望在自有服务器集中观察 API 请求与预算的开发者；需要自行部署和审查实现。",
+      "why": "官方 README 的“Why CloudGrip”把失控代理循环与反复加载上下文导致预算快速消耗列为产品要解决的问题。HN 提交者 aliyunazeer07 未留下可读的个人制作经过，作者个人动机未说明；其与仓库维护者的身份关联未独立核实。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/Aliyunazeer/cloudgrip-backend#why-cloudgrip",
+          "https://news.ycombinator.com/item?id=49991569"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "核对实时 HN 原帖、官方 API 时间、仓库 README、HTML 前端与服务端网页路由；确认有自托管网页仪表盘实现。仓库标注的托管站点本轮返回 HTTP 500，未安装、登录或发送代理请求。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "需要自托管；本轮没有运行项目，预算拦截、计费准确性、并发下的额度限制和真实模型兼容性均未验证。",
+        "README 简介称使用 SQLite，而当前服务端与环境配置使用 PostgreSQL/Supabase，部署说明和实际实现存在差异。",
+        "仓库指向的托管站点本轮返回 HTTP 500；不能据此确认在线服务可用。",
+        "隐私、安全、严格预算上限及延迟表现属于项目自述，并非本次核查背书；接入真实凭据或流量前需自行审查。",
+        "HN 提交时间仅代表本次分享时间，不代表首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991569"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991569.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Aliyunazeer/cloudgrip-backend"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Aliyunazeer/cloudgrip-backend/blob/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Aliyunazeer/cloudgrip-backend/blob/main/server.js"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Aliyunazeer/cloudgrip-backend/blob/main/index.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cloudgrip-backend.vercel.app/"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "LLM",
+        "预算监控",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49991567",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991567",
+      "title": "VeriQuote",
+      "url": "https://rickinto.place/veriquote",
+      "canonicalUrl": "https://rickinto.place/veriquote",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991567",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991567",
+      "publishedAt": "2026-10-07T12:03:33Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "audience": "构建带来源引用的研究助手、RAG 应用或 AI 代理的开发者，以及想直观看懂“引用存在”和“引用支持结论”差别的读者。",
+      "what": "可在浏览器查看和编辑八组引用样例的验证演示：先用确定性匹配器检查引文是否出现在来源中，再用 LLM 判断引文是否支持回答中的具体主张，并展示分项结果与基准图表。底层是开源 TypeScript 库和 CLI，但本条收录的是公开网页演示；自定义文本的匹配检查在浏览器运行，重新调用 LLM 裁判则需用户自己的兼容接口与 API key。",
+      "why": "作者未说明个人制作起因。官方 README 明确把“读取资料并写出结论的代理”列为开发此工具的目标场景：答案里的引用编号难以人工逐一核查，真实引文也不一定支持它旁边的结论，因此把逐字匹配和语义支持拆开检查。HN 发帖账号和官方 GitHub 均为 rickintoplace，官网与仓库相互链接；这里只按公开账号归属描述，未另核验真实身份。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/rickintoplace/veriquote",
+          "https://rickinto.place/veriquote"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取实时 HN 原帖及官方 API、可见作者评论、官网与官方仓库。云端浏览器加载八组样例，并从 Supported 切换到 Claim contradicts：引文匹配仍为 exact match 1.00，裁判结果由 entailed 0.97 变为 contradicted 0.00，页面显示 Blocked by the judge。此为预设样例展示，并未发起新的 LLM 请求。未编辑文本、输入密钥或复现基准；另只读查看作者提供的 NavigNine 首页。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "这是引用与主张之间的核验辅助工具，不能证明来源本身真实，也不能保证消除幻觉；匹配器可能放过借用来源词汇的伪造句，LLM 裁判仍可能误判。基准结果为作者报告，本轮未复现。",
+        "页面明确说明示例来源与其中的临床试验是为演示编写的虚构材料，不应当作医疗证据。",
+        "运行自定义 LLM 裁判需要兼容浏览器请求的 OpenAI-compatible 接口和自己的 API key，可能产生模型费用；本轮未输入任何凭证或验证数据传输声明。",
+        "作者另提供的 NavigNine 研究助手称不再商业销售、仅作免费演示，受限流影响；首页还显示维护及当日免费额度已用尽相关提示，未验证实际对话可用性。",
+        "HN API 另列一条作者评论但内容仅为 [dead]，无法据此补写作者制作动机。已验证预设样例的页面切换，未验证自定义文本、实时裁判与完整研究助手流程。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991567"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991567.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rickinto.place/veriquote"
+        },
+        {
+          "type": "official_site",
+          "url": "https://navignine.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/rickintoplace/veriquote"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991717"
+        }
+      ],
+      "tags": [
+        "AI",
+        "引用核验",
+        "浏览器演示",
+        "开源",
+        "RAG"
+      ]
+    },
+    {
+      "id": "hacker_news:49991533",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991533",
+      "title": "Equations Explained Colorfully — Navier–Stokes",
+      "url": "https://p.migdal.pl/equations-explained-colorfully/#navier-stokes",
+      "canonicalUrl": "https://p.migdal.pl/equations-explained-colorfully/#navier-stokes",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991533",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991533",
+      "publishedAt": "2026-10-07T12:00:03Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991533"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991533.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://p.migdal.pl/equations-explained-colorfully/#navier-stokes"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/stared/equations-explained-colorfully"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/stared/equations-explained-colorfully/blob/main/src/examples/navier-stokes.md"
+        }
+      ],
+      "what": "用颜色把公式中的项、自然语言解释和定义连接起来的交互式数学说明工具。本次 HN 链接指向 Navier–Stokes 示例，拆解密度、局部加速度、对流、压力、黏性和外力；项目还提供 LaTeX／Markdown 编辑器、不同配色与独立 HTML、LaTeX、Beamer、Typst 导出选项。",
+      "audience": "想理解公式每一项含义的数学与物理学习者，以及需要制作带注释公式的教师、科普作者和技术写作者。",
+      "why": "作者未说明具体制作缘由。作者 Piotr Migdał 的官方 README 将项目描述为制作彩色注释公式的轻量框架，并列出可探索解释、BetterExplained 彩色公式与 Stuart Riffle 的傅里叶变换图解等灵感来源；这些不能替代其未说明的个人动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991533",
+          "https://github.com/stared/equations-explained-colorfully"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对实时 HN 原帖及官方 API，读取官网公开资源、作者仓库 README 和 Navier–Stokes 示例源文。云端浏览器成功渲染该示例的彩色公式、各项说明、编辑器内容与导出选项；未实际编辑、测试全部悬停行为或导出文件。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "Navier–Stokes 示例使用常黏度、不可压缩牛顿流体的这一写法；它是逐项解释，不是流体仿真器或方程求解工具。",
+        "已确认页面渲染，但未验证所有色彩无障碍方案、交互、编辑器和导出格式，也未运行仓库测试。",
+        "此次 HN 展示的是现有框架中的一个公式示例，发帖时间不能证明框架或示例首次上线。"
+      ],
+      "tags": [
+        "数学",
+        "物理",
+        "交互教学",
+        "可视化",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49991419",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991419",
+      "title": "Cellula Humana / The Human Cell",
+      "url": "https://cellulahumana.com/",
+      "canonicalUrl": "https://cellulahumana.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991419",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991419",
+      "publishedAt": "2026-10-07T11:47:38Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991419"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991419.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cellulahumana.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cellulahumana.com/nucleus/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cellulahumana.com/zh/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://djordjejanjic.rs/work/human-cell/"
+        }
+      ],
+      "what": "一个人体细胞的 3D 浏览器图谱，官网提供细胞膜、细胞核、染色体、线粒体等 19 个结构的介绍与来源链接，支持包括简体中文在内的七种语言。官方作品页说明可点击结构进入细节，部分视角会切到分子层级；即使不运行 3D，独立文本页仍可阅读。",
+      "audience": "想直观看懂细胞结构与空间关系的生物学学习者、教师，以及对微观世界感兴趣的普通读者。",
+      "why": "作者未说明。官网和作者 Djordje Janjic 的作品页介绍了交互图谱、技术实现与可追溯的科学内容，但没有给出个人制作缘由；HN 原帖也没有补充说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991419",
+          "https://cellulahumana.com/",
+          "https://djordjejanjic.rs/work/human-cell/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对实时 HN 原帖及官方 API，阅读官网首页、中文首页、细胞核文本页和作者作品说明。已确认 19 个结构入口、七种语言链接及细胞核页的资料引用；尚未在浏览器运行 WebGL 场景、操纵镜头或核验全部科学陈述。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "官网明确这是约 14 微米的示意性通用细胞：为了看清内部而减少细胞器数量，部分分子放大约 2–20 倍，颜色也属于示意。",
+        "3D 视图需要 JavaScript 与 WebGL；本次 HTTP 文本检查不能证明各设备上的图形性能或全部相机交互正常。",
+        "已抽查细胞核页的来源列表，未逐篇复核所有资料或医学准确性；应把它当作教育图谱，而非诊断工具。",
+        "publishedAt 仅表示本次 HN 发帖时间，首次上线时间及长期维护情况未核实。"
+      ],
+      "tags": [
+        "生物学",
+        "3D",
+        "教育",
+        "可视化",
+        "中文支持"
+      ]
+    },
+    {
+      "id": "hacker_news:49991413",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991413",
+      "title": "Artrepo",
+      "url": "https://www.habibicode.org/artrepo",
+      "canonicalUrl": "https://www.habibicode.org/artrepo",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991413",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991413",
+      "publishedAt": "2026-10-07T11:46:41Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991413"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991413.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.habibicode.org/artrepo"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.habibicode.org/artrepo/gallery"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.habibicode.org/artrepo/looks.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.habibicode.org/artrepo/api/gallery"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991675"
+        }
+      ],
+      "what": "把公开代码仓库的文件结构和提交历史转换成生成艺术的网页工具。作者介绍三种风格：由提交逐步绘制的点彩 OG、以地形和水面表现代码与活动间隔的 Estampe，以及按提交历史编织的 Woven 地毯；网页还提供调色、重播、PNG／MP4 导出和公开画廊入口。",
+      "audience": "想把项目历史做成视觉作品的开发者、开源维护者，以及对数据驱动艺术有兴趣的人。",
+      "why": "作者未说明。HN 作者 nicocarsui 自称 Artrepo 创作者，介绍它如何把公开仓库确定性地转换成艺术；官网也描述了项目目标，但未解释为何开始制作。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991413",
+          "https://www.habibicode.org/artrepo"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对实时 HN 原帖、官方 API 及当时两条评论；读取官网页面、公开前端代码、风格定义和只读画廊数据，确认三个风格及样例记录。未提交仓库生成、上传画廊、导出或联系印刷服务；实际生成流程和结果一致性尚未实测。 另尝试云端浏览器打开官网时，页面崩溃并显示 Aw, Snap!（Error code: 9），因此未完成可视渲染验证。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "目前页面限定公开仓库；所谓相同仓库产生相同图像是作者声明，未做重复生成验证，历史变化和风格／调色选择也会影响结果。",
+        "HN 有读者反馈 Linux 大型仓库生成时报错，尚无作者说明；这只是单条用户报告，不足以判断全部大型仓库的可用性。",
+        "页面存在 Add to gallery 与 Contact for print 等操作，本次均未执行；公开画廊记录不等同于用户量、需求或商业收入。",
+        "本次是新的 HN 帖子。官方画廊数据已有 2026-09-26 的记录，因此不应把发帖日写成项目首次上线日。",
+        "本轮云端浏览器打开页面时崩溃，原因未确定；这不能证明其他浏览器或用户设备也不可用。"
+      ],
+      "tags": [
+        "生成艺术",
+        "Git",
+        "数据可视化",
+        "开发者工具"
+      ]
+    },
+    {
+      "id": "hacker_news:49991390",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49991390",
+      "title": "Transformer visualisation",
+      "url": "https://llm.manogya.dev/",
+      "canonicalUrl": "https://llm.manogya.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49991390",
+      "hnUrl": "https://news.ycombinator.com/item?id=49991390",
+      "publishedAt": "2026-10-07T11:44:37Z",
+      "discoveredAt": "2026-10-07T12:54:01.353685Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49991390"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49991390.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://llm.manogya.dev/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/manogyasingh/transformer-visualisation"
+        }
+      ],
+      "what": "一个把微型 GPT-2 风格模型的计算逐步展开的交互教学网站：从分词、词嵌入、注意力、MLP 到下一个 token 的采样，再展示一次预训练更新和一轮 PPO／RLHF。官方代码说明模型只有两层、宽度 8、两个注意力头及 18 个词，让矩阵和逐格计算能在屏幕上查看。",
+      "audience": "已接触 Transformer 概念、想把公式与实际张量运算对应起来的机器学习学习者，以及讲解推理、梯度和后训练的教师。",
+      "why": "HN 作者 xtcntr 在原帖以第一人称解释：他正在上一门推理语言模型课程，课程项目占一半；开始后发现自己虽然知道架构、理论和步骤，却仍不理解某些阶段的目的或具体运作，因此想做一段交互式的单 token 生成过程。作者也注明部分灵感来自 Brendan Bycroft 的 LLM 可视化。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49991390"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已核对实时 HN 原帖及官方 API，读取官网公开资源与作者仓库 README。云端浏览器成功加载完整导览，并点击 Tokenize：默认短语 the cat sat on the 显示词 ID (0, 1, 4, 5, 0) 与词表查询计算。未运行训练、完整 PPO 或独立检查全部数学结果。",
+        "checkedAt": "2026-10-07T12:54:01.353685Z"
+      },
+      "caveats": [
+        "这是为展示计算而缩小的教学模型；18 词整词词表、两层结构和玩具语料不能代表实际大模型的能力或性能。",
+        "官方 README 说明 RLHF 比较数据来自模拟标注者，预训练模型代替 SFT 起点；不能据此当作真实人类反馈训练实验。",
+        "已验证导览加载和一个分词步骤，未测试全部交互、梯度、收敛、奖励模型及 PPO 数值正确性，也未安装或运行仓库测试。",
+        "publishedAt 是本次 HN 发帖时间，不代表项目首次上线；作者关于制作方式的说法未独立验证。"
+      ],
+      "tags": [
+        "AI",
+        "Transformer",
+        "交互教学",
+        "可视化",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49991322",
       "provider": "hacker_news",
