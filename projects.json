@@ -1,9 +1,93 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T01:42:25Z",
-  "count": 209,
+  "updatedAt": "2026-10-07T02:45:44Z",
+  "count": 211,
   "projects": [
+    {
+      "id": "hacker_news:49986878",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49986878",
+      "title": "Hiku：每天四档难度的数字跳跃消除谜题",
+      "url": "https://hikupuzzle.com/",
+      "canonicalUrl": "https://hikupuzzle.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49986878",
+      "hnUrl": "https://news.ycombinator.com/item?id=49986878",
+      "publishedAt": "2026-10-07T01:40:38Z",
+      "discoveredAt": "2026-10-07T02:45:44Z",
+      "audience": "喜欢数独和纯逻辑数字谜题、希望每天在浏览器中做短时挑战的玩家；也适合希望在网页中嵌入每日益智游戏的媒体、博客及网站维护者。",
+      "what": "免费、免账号的浏览器数字谜题，每天提供简单、中等、困难、专家四档棋盘。数字沿横向或纵向移动与自身数值相同的格数，必须落在另一个数字上；较大数减去较小数，差值留在落点，相等则一起消失，目标是清空棋盘。官方还提供规则教学、撤销及星级记录，并允许通过脚本或 iframe 将每日棋盘嵌入其他网站。",
+      "why": "作者未说明个人创作动机。HN 发帖者自述制作了 Hiku，但原帖仅介绍数字跳跃与相减的玩法、每日四档难度及免费免账号；核查到的评论也未补充原因。官网将其定位为适合数独爱好者的平静、纯逻辑谜题，这属于产品定位。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49986878",
+          "https://hikupuzzle.com/en/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML、官方 Firebase 元数据及全部 1 条评论；HTML 仍显示无评论，API 已返回一条简短评价。读取官网首页、英文首页、规则、嵌入指南及每日游戏页面源码；公开每日题目接口成功返回 2026-10-07 的四档棋盘。未在浏览器实际完成移动或解题，未验证界面渲染、无障碍、星级与分享功能，也未安装 iPhone 应用。",
+        "checkedAt": "2026-10-07T02:45:44Z"
+      },
+      "caveats": [
+        "网页游戏免费且无需账号；另有 iPhone 应用，应用内的教学关卡与网页每日棋盘并非同一项功能，本次未核查应用价格或安装体验。",
+        "四档棋盘数据已成功获取，但未完成实际游戏，不能据此保证每题可解、难度合适或各浏览器体验一致。",
+        "官网称网页成绩仅保存在本地浏览器、不发送游戏数据，但网站使用 Cloudflare Web Analytics 统计访问，主机仍会收到常规网络请求；本次未独立审计隐私或无障碍合规。",
+        "免费嵌入条款要求保留游戏内指向 Hiku 应用的链接，不得隐藏、移除或遮盖；本次只读取说明，未在任何网站部署。",
+        "HN 发帖账号为 esschul；官网署名 Rubberduck，本次未独立核实账号与运营方的身份对应关系。publishedAt 为此次 HN 提交时间，不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49986878"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49986878.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49987409"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49987409.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hikupuzzle.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hikupuzzle.com/en/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hikupuzzle.com/en/rules/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hikupuzzle.com/daily/embed-en"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hikupuzzle.com/daily/?lang=en"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hikupuzzle.com/api/daily?day=2026-10-07"
+        }
+      ],
+      "tags": [
+        "数字谜题",
+        "逻辑游戏",
+        "网页游戏",
+        "每日挑战",
+        "可嵌入"
+      ]
+    },
     {
       "id": "hacker_news:49986499",
       "provider": "hacker_news",
@@ -12634,6 +12718,99 @@
           "type": "official_site",
           "url": "https://svetoviz.com/content/guides/datasets"
         }
+      ]
+    },
+    {
+      "id": "hacker_news:49957044",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49957044",
+      "title": "Arcadeia：带动态视频预览的自托管照片与视频库",
+      "url": "https://github.com/travelonium/arcadeia",
+      "canonicalUrl": "https://github.com/travelonium/arcadeia",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49957044",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957044",
+      "publishedAt": "2026-10-04T19:33:16Z",
+      "discoveredAt": "2026-10-07T02:45:44Z",
+      "audience": "拥有个人照片、视频或 NAS 媒体档案，希望在浏览器里快速识别、查找和重看素材，并愿意维护自托管服务的用户。",
+      "what": "开源、自托管的网页媒体库，以自动轮播视频关键画面的动态缩略图帮助用户在不逐个打开文件的情况下认出片段；支持搜索与高级查询、收藏、拖放导入文件或目录、网络存储，以及转码后的浏览器播放。当前仓库文档另提供默认关闭的本地语音转写，将视频中的话语加入搜索。官方提供共享样例演示，个人媒体需部署到自己的实例。",
+      "why": "作者未说明个人创作动机。HN 发帖者自述为维护者，介绍动态缩略图能帮助用户不逐一打开文件就识别视频，并希望获得缩略图实用性和安装指南障碍方面的反馈；这些是功能目标和反馈诉求，不能据此推断其个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49957048",
+          "https://github.com/travelonium/arcadeia/blob/master/README.md"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML、官方 Firebase 元数据与当前全部 1 条评论（维护者自述）；读取官方仓库 README、仓库元数据和网站文档源码。网页检索可读官网及安装说明，演示页仅返回需要 JavaScript 的应用外壳，直接请求官网和演示站超时；未完成浏览器交互、安装、上传、播放或转写测试。",
+        "checkedAt": "2026-10-07T02:45:44Z"
+      },
+      "caveats": [
+        "这是需要自行部署和维护的网页应用，非托管个人相册服务；采用 AGPL-3.0 许可证。官方样例演示不能替代自有实例，不应向共享演示上传个人媒体。",
+        "维护者明确表示没有面向公网部署的内置身份验证；官方警告尚未充分测试公网环境，应先限于本地或可信网络，外网使用需自行处理认证、TLS 与访问限制。",
+        "仓库当前安装文档要求 Docker Compose 2.24.4 或以上、至少 4 GB 内存及 10 GB 可用空间（另加媒体空间）；README 与检索到的网站旧页面仍有较旧要求，应核对实际发布版说明。",
+        "本地语音转写默认关闭，消耗 CPU，准确率取决于模型、语言与录音；当前仓库文档与旧发布版功能可能不同，本次未验证运行效果。",
+        "publishedAt 为此次 HN 提交时间，不代表产品首次上线时间；发帖账号 omidontop 仅按其自述标注为维护者，未推断其真实身份。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957044"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957044.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49957048"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49957048.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/travelonium/arcadeia"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/travelonium/arcadeia/blob/master/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/travelonium/arcadeia/blob/master/Site/docs/index.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/travelonium/arcadeia/blob/master/Site/docs/getting-started.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/travelonium/arcadeia/blob/master/Site/docs/settings.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.arcadeia.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.arcadeia.org/docs/getting-started.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.arcadeia.org/"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "媒体管理",
+        "照片与视频",
+        "动态预览",
+        "网页应用",
+        "开源"
       ]
     },
     {
