@@ -1,9 +1,150 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T06:45:58.525292Z",
-  "count": 218,
+  "updatedAt": "2026-10-07T07:42:25.962723Z",
+  "count": 220,
   "projects": [
+    {
+      "id": "hacker_news:49989229",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49989229",
+      "title": "Sayrud：可自托管的实时协作多维表格",
+      "url": "https://sayrud.com/",
+      "canonicalUrl": "https://sayrud.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49989229",
+      "hnUrl": "https://news.ycombinator.com/item?id=49989229",
+      "publishedAt": "2026-10-07T06:50:14Z",
+      "discoveredAt": "2026-10-07T07:42:25.962723Z",
+      "audience": "需要用浏览器共同管理项目、任务和共享数据，希望自行部署并接入已有登录系统的小团队与开发者。",
+      "what": "一个开源、自托管的协作表格数据库，提供 Vue 与 TypeScript 网页端。同一张表可使用网格、看板、画廊和表单视图，并分别设置筛选、排序、分组及可见字段；支持文字、数字、日期、选择、附件和公式等字段。官方介绍可实时共同编辑、显示在线成员及编辑单元格、批量编辑、撤销重做，并提供管理员发布的 JavaScript 字段快捷处理、REST API 与多种单点登录配置。Docker Compose 将前后端、PostgreSQL 和 Redis 一起部署。",
+      "why": "作者未说明具体个人创作起因。HN 正文、官网和 README 介绍的产品目标是把项目、任务与共享数据放在同一张表中协作；没有找到第一人称的制作动机说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49989229",
+          "https://github.com/sayrud/sayrud"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖 HTML 和官方 Firebase 条目，两者均无评论，因此没有可核对的作者评论。审阅官方仓库 README、前端 package.json、Docker Compose 与示例配置，并在云浏览器打开官网及在线演示入口。官网成功呈现功能说明、部署文档链接与明确标为静态的产品路线图预览；在线演示最终跳转到 /login，页面仅提供“使用 GitHub 登录”，与 HN 说明一致。未登录、注册、安装、提交表单或执行实际表格操作，未验证实时协作、公式、权限或性能。普通 HTTP 请求官网与文档站返回 403，官网已通过云浏览器核对，文档内容未核实。",
+        "checkedAt": "2026-10-07T07:42:25.962723Z"
+      },
+      "caveats": [
+        "官网路线图示例明确标为静态预览，不能作为实时协作成功实测；公开演示已在浏览器核对到 GitHub 登录入口，本次未登录。",
+        "自行部署需要 Docker、Docker Compose v2、PostgreSQL 和 Redis。README 说明首次注册的账号自动成为系统管理员，生产部署应替换默认数据库密码并自行管理账号、备份和服务暴露范围。",
+        "实时编辑、公式、身份系统集成和管理员 JavaScript 字段快捷处理均按官方材料记录，未安装或进行多人、权限、安全与性能测试；HN 提到可连接外部模型分类字段值，本次未核实该集成。",
+        "项目采用 AGPL-3.0 许可证，使用与修改部署前应阅读仓库许可证。",
+        "HN 提交账号为 E99p1ant，官网页脚也署名 E99p1ant；仅核对到相同署名，未独立核实作者真实身份。publishedAt 为此次 HN 提交时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49989229"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49989229.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/sayrud/sayrud"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/sayrud/sayrud/master/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://sayrud.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://try.sayrud.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/sayrud/sayrud/blob/master/frontend/package.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/sayrud/sayrud/blob/master/docker-compose.yaml"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/sayrud/sayrud/blob/master/config/sayrud.example.yaml"
+        }
+      ],
+      "tags": [
+        "多维表格",
+        "实时协作",
+        "项目管理",
+        "自托管",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:49989186",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49989186",
+      "title": "SlopGuesser：猜代码由人还是 AI 编写的每日网页游戏",
+      "url": "https://slopguesser.dev/",
+      "canonicalUrl": "https://slopguesser.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49989186",
+      "hnUrl": "https://news.ycombinator.com/item?id=49989186",
+      "publishedAt": "2026-10-07T06:44:51Z",
+      "discoveredAt": "2026-10-07T07:42:25.962723Z",
+      "audience": "喜欢阅读代码、想挑战自己辨别代码来源直觉的开发者与编程爱好者。",
+      "what": "一个每日提供八段代码、让玩家猜测由人类还是 AI 编写的网页游戏。首页提供昵称和 Play 入口，公开排行榜展示每日成绩与用时，并提供总榜入口。官方介绍支持 JavaScript、TypeScript、Python、PHP、Go、Rust 和 C；每轮揭晓时会列出代码所属项目、文件、提交与作者或模型来源。",
+      "why": "作者在官网 About 以第一人称说明，起初想做一个测试人们能否识别 AI 生成代码的小游戏，也把它当作对 AI 普及前软件工程时代的致敬；他回忆在马德里大学时期写 C 程序、与优秀工程师共事，并收录自己欣赏的开发者的代码。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://slopguesser.dev/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖 HTML、官方 Firebase item API、官网首页、About 和排行榜页面。HN 元数据与原帖显示当前没有评论，因此无作者评论可核对；官网呈现昵称表单、开始游戏入口和已有排行榜。依照只读限制未提交昵称、开始游戏、答题或登录，未实测代码展示、答案揭晓、计分与每日刷新。",
+        "checkedAt": "2026-10-07T07:42:25.962723Z"
+      },
+      "caveats": [
+        "首页 Play 会提交昵称表单，本次未提交，因此完整游玩流程没有实测；网页入口可访问不等于全部交互均经验证。",
+        "作者称以 2021 年前的 GitHub 提交筛选人类代码，以编程智能体署名提交筛选 AI 代码，并补充由模型根据人类代码的文字描述生成的配对样本。这些来源规则没有独立审计，游戏分数不应当作通用 AI 代码检测能力的科学评估。",
+        "代码来源、开源许可、模型归属及揭晓链接来自官方说明，本次未逐个审查实际题目和授权。",
+        "官网署名 Daniel，HN 提交账号为 marcascode；未独立核实二者身份对应。publishedAt 为这次 HN 提交时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49989186"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49989186.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://slopguesser.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://slopguesser.dev/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://slopguesser.dev/leaderboard"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "代码阅读",
+        "AI",
+        "每日挑战"
+      ]
+    },
     {
       "id": "hacker_news:49988491",
       "provider": "hacker_news",
