@@ -1,9 +1,98 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T04:19:27.074772Z",
-  "count": 214,
+  "updatedAt": "2026-10-07T04:49:25.398306Z",
+  "count": 215,
   "projects": [
+    {
+      "id": "hacker_news:49988001",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49988001",
+      "title": "Zit：带本地网页看板的多智能体 Git 协作工具",
+      "url": "https://getzit.org/",
+      "canonicalUrl": "https://getzit.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49988001",
+      "hnUrl": "https://news.ycombinator.com/item?id=49988001",
+      "publishedAt": "2026-10-07T04:01:55Z",
+      "discoveredAt": "2026-10-07T04:49:25.398306Z",
+      "audience": "同时让多名开发者或多个编程智能体修改同一 Git 仓库，希望在浏览器中集中查看改动、工作区占用和冲突原因，并能在 macOS 或 Linux 上安装命令行工具的开发者与小团队。",
+      "what": "一个开源 Git 扩展，附带可在本机浏览器使用的只读实时看板。安装后在仓库中运行 git zit web，网页以图和列表展示已接受、待检查、无效的改动及打开的工作区；可选择节点查看改动说明、差异、检查证据、失效原因与文件占用，并按智能体、标识、任务或文件筛选，复制下一步处理命令。底层工具用独立工作区组织并行改动，在接受前合并并运行配置的检查，还可保存智能体报告的改动理由和成本。",
+      "why": "作者未说明具体个人创作起因。HN 发帖者自称团队制作了这个 Git 扩展，希望社区共同改进直接使用 git worktree 的工作方式；官方文档将减少重复副本、提前发现并行改动冲突、检查普通文本合并无法判断的问题和保留改动理由列为产品目标。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49988001",
+          "https://getzit.org/why"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML 与官方 Firebase 元数据，均显示没有评论；核对官网首页、Web view、设计目标与限制说明，以及官方仓库 README、安全说明、网页 HTML 和 Rust HTTP 服务源码。源码确认提供本地网页、图数据和改动详情接口，并限制为回环地址及 GET 请求。未安装或运行 Zit，未初始化仓库、启动本地服务、执行智能体或实际操作网页看板；功能与安全效果未实测。",
+        "checkedAt": "2026-10-07T04:49:25.398306Z"
+      },
+      "caveats": [
+        "官网是文档与演示录像入口，没有核实到公开托管的可交互仓库演示。实际网页看板需先安装 Zit，并在已初始化的本地仓库中启动服务；不能直接在官网使用。",
+        "看板只读，接受、重试和丢弃改动仍需使用命令行或终端界面。官方说明默认使用 127.0.0.1:4747，端口占用时会选其他空闲端口；这不是多人登录的远程托管服务。",
+        "要求 Git 2.38 或更新版本，当前支持 macOS 和 Linux，尚不支持 Windows。从源码安装需要 Rust 1.88 或更新版本；节省磁盘空间依赖 APFS、btrfs 或支持 reflink 的 XFS，其他文件系统会退回普通检出。",
+        "工作区隔离文件，不隔离进程、端口或网络；配置中的检查和准备命令以使用者权限运行，智能体也按获得的权限执行。项目没有服务端账号或访问控制，不应将网页只读或工作区机制视为安全沙箱。",
+        "官方速度、磁盘和智能体成本数据来自特定机器及有限运行，本次未独立验证；检查通过也不保证代码质量。自动推断的依赖和冲突判断有语言及语义范围限制。",
+        "HN 账号 ironfootnz 自称制作团队成员，官网仓库标注由 Autohand AI 开发和赞助；本次未独立核实个人身份。publishedAt 是这次 HN 提交时间，不是产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49988001"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49988001.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getzit.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getzit.org/web"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getzit.org/why"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getzit.org/limits"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/autohandai/getzit"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/autohandai/getzit/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/autohandai/getzit/blob/main/src/web.rs"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/autohandai/getzit/blob/main/src/web/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/autohandai/getzit/blob/main/SECURITY.md"
+        }
+      ],
+      "tags": [
+        "Git",
+        "多智能体",
+        "本地网页看板",
+        "开发工具",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:49987765",
       "provider": "hacker_news",
