@@ -1,9 +1,83 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T08:48:36.664655Z",
-  "count": 221,
+  "updatedAt": "2026-10-07T09:46:03.512425Z",
+  "count": 222,
   "projects": [
+    {
+      "id": "hacker_news:49990188",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "49990188",
+      "title": "bitsql：带浏览器 SQL 试验场的轻量 SQL Server 模拟器",
+      "url": "https://mirekrusin.com/bitsql/#playground",
+      "canonicalUrl": "https://mirekrusin.com/bitsql/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49990188",
+      "hnUrl": "https://news.ycombinator.com/item?id=49990188",
+      "publishedAt": "2026-10-07T09:12:30Z",
+      "discoveredAt": "2026-10-07T09:46:03.512425Z",
+      "audience": "希望在浏览器中试写 T-SQL，或为本地开发和应用持续集成减轻 SQL Server 测试环境负担的开发者。",
+      "what": "以 MoonBit 编写的内存型 SQL Server 模拟器，官网附有无需安装或登录的浏览器 SQL 试验场。网页提供可编辑查询、运行与重置按钮，以及联表、窗口函数、JSON 和事务示例；发布脚本把 SQL 交给独立 Worker 中的 JavaScript 版执行器，并将结果显示为表格。完整项目也提供使用 TDS 协议的容器服务，供既有 SQL Server 客户端和 ORM 测试使用。",
+      "why": "作者未说明个人创作起因。官网与 README 说明的产品目标是减轻 SQL Server 应用测试的启动、下载和内存负担，尽可能沿用已有查询和客户端；浏览器试验场让使用者不启动容器也能了解 SQL 执行器。HN 正文只提到实现语言，没有补充制作动机。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=49990188",
+          "https://mirekrusin.com/bitsql/",
+          "https://github.com/mirek/bitsql"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "实时读取 HN 原帖 HTML 与官方 API，确认当时没有评论；通过 HTTP 读取官网、README、页面发布脚本和 SQL Worker。确认页面具有查询编辑与结果展示界面，脚本包含示例 SQL、Worker 消息调用及查询结果表格渲染。本次没有打开浏览器实际执行查询，也未启动容器或核验官方兼容性与性能数据。",
+        "checkedAt": "2026-10-07T09:46:03.512425Z"
+      },
+      "caveats": [
+        "收录依据是官网提供的浏览器 SQL 试验场；完整产品主要是本地或 CI 使用的内存数据库模拟器，并非托管生产数据库。",
+        "官网说明浏览器版仅支持单会话，不提供 TDS 连接、HTTP 集成或计划等待；等待请求、停止操作和 10 秒超时会重置数据库，每个结果集最多展示 200 行。",
+        "官网称查询与数据保留在当前标签页。本次只核对页面及脚本，未进行运行时网络、隐私、安全或完整 SQL 正确性测试。",
+        "内存型模拟器不提供 SQL Server 的持久化、备份、复制或生产查询优化能力；官网要求发布前仍在真实 SQL Server 上验证应用。",
+        "服务端 README 说明其接受任意用户名和密码；此行为用于测试兼容，不能视为生产认证保障。官方性能与兼容性数字未独立验证。",
+        "HN 发帖账号为 mirekrusin，链接指向同名个人域名；本次未独立核实其现实身份。来源帖的发布时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=49990188"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/49990188.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mirekrusin.com/bitsql/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mirek/bitsql"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/mirek/bitsql/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mirekrusin.com/bitsql/assets/index-9xptkV9e.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mirekrusin.com/bitsql/assets/engine.worker-CJbO-0AM.js"
+        }
+      ],
+      "tags": [
+        "SQL 试验场",
+        "开发者工具",
+        "数据库测试",
+        "开源",
+        "浏览器本地运行"
+      ]
+    },
     {
       "id": "hacker_news:49989940",
       "provider": "hacker_news",
