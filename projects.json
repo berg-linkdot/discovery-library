@@ -1,9 +1,263 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T12:47:28.708909Z",
-  "count": 308,
+  "updatedAt": "2026-10-08T13:49:25.083662Z",
+  "count": 312,
   "projects": [
+    {
+      "id": "hacker_news:50005516",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005516",
+      "title": "Aqtos BOSS* — 企业运营工作台",
+      "url": "https://aqtos.com/",
+      "canonicalUrl": "https://aqtos.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005516",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005516",
+      "publishedAt": "2026-10-08T13:21:06Z",
+      "discoveredAt": "2026-10-08T13:44:25Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005516"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005516.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aqtos.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aqtos.com/about/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aqtos.com/introducing-the-boss-you-will-actually-like/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://aqtos.com/boss-product-tour/"
+        }
+      ],
+      "audience": "希望将项目、客户、人事和财务放在同一工作空间，并向 AI 助手提供业务上下文的中小企业、服务团队与分布式团队（依据官网用途归纳）",
+      "what": "企业运营网页应用，将项目任务、CRM、人事与休假、工时、费用、发票和内部沟通整合到一个工作空间；官网展示 AI 助手基于同一业务上下文查询信息、建立任务和记录费用的示例。",
+      "why": "创始人 Damjan Dano 在署名起源文章中说，2014 年管理一家拥有二十多名分布式员工的公司时，希望找到贯通人事、工作流和财务的工具，却遇到割裂的系统和困难的集成，因此开始设计自己的统一业务管理产品。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://aqtos.com/introducing-the-boss-you-will-actually-like/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖与官方元数据、产品首页、关于页、创始人起源文章及产品导览文字。核查时 HN 无评论；未注册、登录或实际操作业务工作空间。",
+        "checkedAt": "2026-10-08T13:44:25Z"
+      },
+      "caveats": [
+        "首页的业务数据与 AI 操作展示属于官方示例，未验证真实模型调用、权限执行、集成效果或业务操作。",
+        "官网提供试用和付费方案；产品导览是示例工作空间的录屏介绍，本次仅阅读页面及文字说明，未将其视为实际使用验证。",
+        "条目的发布时间为本次 HN 帖子发布时间，不是产品首次上线时间。HN 发帖账号 ddano 与官网创始人的身份对应关系未独立验证；创作动机依据官网署名文章。"
+      ],
+      "tags": [
+        "企业管理",
+        "项目管理",
+        "CRM",
+        "AI 上下文",
+        "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:50005320",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005320",
+      "title": "OpenCal — 多日历空闲时间分享",
+      "url": "https://opencal.link/",
+      "canonicalUrl": "https://opencal.link/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005320",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005320",
+      "publishedAt": "2026-10-08T13:00:13Z",
+      "discoveredAt": "2026-10-08T13:44:25Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005320"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005320.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://opencal.link/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://opencal.link/teams-calendar-scheduling-link"
+        },
+        {
+          "type": "official_site",
+          "url": "https://opencal.link/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://opencal.link/terms"
+        }
+      ],
+      "audience": "同时使用工作与个人日历，需要向招聘方、客户或同事分享可约时间的人（依据官网场景归纳）",
+      "what": "免费的空闲时间分享与预约网页应用，将 Google、Microsoft、iCloud 及其他日历的忙闲状态汇总到一个链接，展示最长 90 天内的可用时段；登录访客可比较双方空闲时间并预约。另提供 Teams/Outlook 日历的屏幕读取、浏览器扩展及 .ics 日历订阅方式。",
+      "why": "作者未说明个人创作动机。官网展示减少手动比对多个日历、来回发送可约时间的产品用途；未将这一场景推断为作者的个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005320",
+          "https://opencal.link/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖与官方元数据，直接读取官网、示例日历说明、Teams 指南、隐私政策和条款。核查时 HN 无评论；未登录、连接日历、安装应用或扩展、授权屏幕读取或提交预约。",
+        "checkedAt": "2026-10-08T13:44:25Z"
+      },
+      "caveats": [
+        "Google、Microsoft、iCloud 连接与真实预约未实测。产品虽免费，条款明确说明并非开源。",
+        "官网称屏幕图像只在浏览器内处理，但识别出的忙碌起止时间会加密保存到服务端；通过屏幕读取的 Teams 日历需用户在变更后手动重读，并非自动同步。",
+        "隐私政策说明服务会保存账户资料、预约信息和加密的连接凭据；分享链接还会展示姓名及用户选定的个人资料。隐私与加密声明未做独立安全审计。",
+        "默认预约仅保存在 OpenCal，不发送邮件；启用 Google 或 Outlook 日历写入后由相应日历发送邀请。",
+        "条目的发布时间为 HN 帖子发布时间，不是产品首次上线时间。HN 发帖账号 kyisaiah47 与产品运营者的身份对应关系未独立验证。"
+      ],
+      "tags": [
+        "日程安排",
+        "日历整合",
+        "预约",
+        "浏览器应用"
+      ]
+    },
+    {
+      "id": "hacker_news:50005276",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005276",
+      "title": "Wordminos：把字母拼块摆成纵横单词的每日小游戏",
+      "url": "https://wordminos.com/play-en.html",
+      "canonicalUrl": "https://wordminos.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005276",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005276",
+      "publishedAt": "2026-10-08T12:56:46Z",
+      "discoveredAt": "2026-10-08T13:45:30Z",
+      "audience": "喜欢填字、字母拼块与每日短篇益智游戏的玩家，以及想观察网页游戏设计与打磨的开发者。",
+      "what": "可直接打开的浏览器文字拼图。把带字母的拼块拖到棋盘，点击旋转，使拼块覆盖相应颜色标记，横向和纵向都组成有效单词。官网及公开客户端包含每日 Daily、较短的 Mini、关卡包、教程、拼图编辑器、主题设置和本地进度；网站还链接法语、西班牙语版本。",
+      "why": "作者未说明具体创作起因。HN 作者 dyarosla 自述用 12 天制作这款每日文字游戏，基础机制约一小时就完成，其余时间主要花在设计、迭代、打磨、反馈效果与个性上；这是开发过程说明，不能据此推断个人需求或商业动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005276"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、英文游戏入口、规范首页及公开 play.js，核对规则、拖动与旋转说明、每日与 Mini 模式、编辑器入口和 localStorage 进度读写；检查时原帖无评论。没有执行游戏、拖放拼块、通关、分享或安装应用，静态源码核查不等于实际试玩。",
+        "checkedAt": "2026-10-08T13:45:30Z"
+      },
+      "caveats": [
+        "游戏依赖 JavaScript、Canvas 及网站资源；实际画面、触控操作、辅助功能、性能与浏览器兼容性未测试。",
+        "进度与部分设置使用当前浏览器的 localStorage；未核实跨设备同步或清除浏览器数据后的恢复能力。",
+        "源码包含完整版本、更多关卡和移动商店的升级文案及免费关卡限制逻辑；未核实完整版本是否已经上架、价格、当前免费数量或离线能力，不能把升级文案视为网页端已验证功能。",
+        "英文字表署名 SCOWL；其他语言版本仅确认入口，未逐一游玩或核查字表质量、每日更新与谜题可解性。",
+        "publishedAt 为 Show HN 发帖时间，不代表产品首次上线；HN 账号与作者现实身份之间的关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005276"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005276.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wordminos.com/play-en.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wordminos.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wordminos.com/play.js"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "文字拼图",
+        "每日挑战",
+        "本地进度"
+      ]
+    },
+    {
+      "id": "hacker_news:50005190",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005190",
+      "title": "pentas.id / Momenial for Events：自有品牌活动报名与票务",
+      "url": "https://pentas.id/",
+      "canonicalUrl": "https://pentas.id/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005190",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005190",
+      "publishedAt": "2026-10-08T12:47:25Z",
+      "discoveredAt": "2026-10-08T13:45:30Z",
+      "audience": "希望使用自有品牌办理免费报名、付费门票、审批入场和现场签到的活动组织者、企业及咖啡馆等场地经营者。",
+      "what": "白标网页票务与报名服务，当前官网展示名为 Momenial for Events。提供可预览的活动创建流程、按票种收集信息、免费与付费票、审批、多日活动、电子票、二维码签到及 CSV 导出；不同方案可使用子域名、自有域名和品牌外观。官网称开始搭建与预览无需账号，发布前再完成后续步骤。",
+      "why": "HN 作者 wiradikusuma 表示，他在上一年为一家大型国有企业举办活动时开发了白标票务与报名应用，后来决定产品化；他一直在自己的咖啡馆使用，亲友也用它举办过大小活动。这些是作者自述，本次没有独立核验其客户关系或使用规模。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005190"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖与官方 API，检查时没有评论；网页检索工具可读取官网和定价页的公开索引内容，核对品牌、功能、试用与收费差异。直接请求首页、定价、创建向导及咖啡馆活动页均返回 HTTP 403，未实际进入后台、填写表单、发布活动、注册、购票、付款或签到。",
+        "checkedAt": "2026-10-08T13:45:30Z"
+      },
+      "caveats": [
+        "“不按每张票收费”不等于所有收款免费：定价页列出通过 Momenial 自有 Midtrans 账户收取印尼盾时，按每笔付费报名收取 3%，最低 IDR 7,500；自有支付渠道另有服务商费用。",
+        "免费方案、自有子域名、自有域名和按单场付费的权限不同；按单场购买不包含账号级域名与品牌等权益。完整方案与最新费用应以官网为准，本次未进入结账。",
+        "二维码离线签到、恢复联网后的同步、库存不超售、权限隔离、邮件与 WhatsApp 发送等均为官方功能说明，未做可靠性、安全或数据保护测试。",
+        "报名可能涉及联系方式、身份证明及上传资料；本次没有提交任何真实参会者数据。证书还需关联 Momenial 账号并消耗其积分，不能将票务方案等同不限量发证。",
+        "官网信息来自检索工具可读的索引版本，直接页面访问受限；创建和预览可用性、三分钟上线等宣传指标未验证。",
+        "publishedAt 为 Show HN 发帖时间，不是最初开发或上线日期；作者关于咖啡馆、企业活动和区域数据库的说明均为自述。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005190"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005190.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pentas.id/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pentas.id/pricing"
+        }
+      ],
+      "tags": [
+        "活动管理",
+        "票务",
+        "白标",
+        "报名表",
+        "二维码签到"
+      ]
+    },
     {
       "id": "hacker_news:50005124",
       "provider": "hacker_news",
