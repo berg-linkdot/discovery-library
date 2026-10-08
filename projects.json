@@ -1,9 +1,696 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T13:49:25.083662Z",
-  "count": 312,
+  "updatedAt": "2026-10-08T14:46:46.178311Z",
+  "count": 322,
   "projects": [
+    {
+      "id": "hacker_news:50006352",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006352",
+      "title": "dcss garden：Dungeon Crawl Stone Soup 种子浏览与检索",
+      "url": "https://dcss.garden/0.34.1/",
+      "canonicalUrl": "https://dcss.garden/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006352",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006352",
+      "publishedAt": "2026-10-08T14:38:48Z",
+      "discoveredAt": "2026-10-08T14:44:21Z",
+      "audience": "玩 Dungeon Crawl Stone Soup 指定种子模式，希望寻找适合特定装备、角色构筑或玩法的地牢开局，并接受提前查看内容的玩家。",
+      "what": "按游戏版本分开的网页种子目录，可浏览和比较地牢前期的物品、神器、祭坛、商店、传送门与出现楼层，提供多条件搜索及逐楼层详情。0.34.1 页面显示约 130 万条种子，默认扫描到 D:8；另有旧版本、社区精选和针对单一种子加深扫描的入口。仓库提供生成管线、SQLite 数据库及可自托管网页应用。",
+      "why": "HN 作者 dcss_gardener 说，自己把沿用了多年的工具加上网页界面，方便小型种子分享社区找到有趣、适合不同构筑或玩法的开局；目标不是穷举所有种子，也不是完整列出每个种子的全部内容。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006352"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 和作者补充评论，核对官网种子列表、关于页、搜索页、40591 号种子详情及源码仓库；云端浏览器确认列表和搜索界面可打开。未提交搜索表单、添加种子、请求加深扫描、标记反馈、自托管或在游戏中复现。",
+        "checkedAt": "2026-10-08T14:44:21Z"
+      },
+      "caveats": [
+        "种子严格依赖游戏版本：同一数字在不同版本会生成不同地牢。作者特别提醒使用网页游戏时匹配已收录版本，不要与开发主干混用。",
+        "默认内容与热度指标只覆盖 D:1–D:8，不能视为全局价值或难度评估；数据库不是全种子空间，未出现不等于不存在。",
+        "种子 40591 的物品与楼层信息已核对网页，但未在 DCSS 中重放验证；提前查看会暴露探索内容。",
+        "站点自称与 DCSS 官方无关联，关于页署名维护者 Jones Melton；HN 账号与现实身份未独立核实。publishedAt 为本次 HN 发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006352"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006352.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006389"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006389.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dcss.garden/0.34.1/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dcss.garden/0.34.1/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dcss.garden/0.34.1/search"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dcss.garden/0.34.1/seed/40591"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/jonesmelton/dcss_seeds"
+        }
+      ],
+      "tags": [
+        "游戏工具",
+        "DCSS",
+        "种子检索",
+        "地牢探索",
+        "自托管"
+      ]
+    },
+    {
+      "id": "hacker_news:50006291",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006291",
+      "title": "Proxion — 自托管 Proxmox VE 网页控制台与示例演示",
+      "url": "https://c2tech-sys.github.io/proxion/",
+      "canonicalUrl": "https://github.com/C2Tech-sys/proxion",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006291",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006291",
+      "publishedAt": "2026-10-08T14:32:11Z",
+      "discoveredAt": "2026-10-08T14:43:49Z",
+      "audience": "已有 Proxmox VE 主机或集群，希望采用接近 VMware/vSphere 浏览体验的自托管用户、家庭实验室与系统管理员。",
+      "what": "Apache-2.0 开源、自托管的 Proxmox VE 网页前端。仓库展示集群仪表盘、虚拟机与容器目录、资源图表、内嵌 VNC/终端、快照与备份恢复、迁移、硬件编辑和告警通知等功能；提供无需安装的 GitHub Pages 示例数据演示，正式管理集群需要自行部署并连接 Proxmox。",
+      "why": "HN 发帖者 Sedude 在作者评论中说，自己从 VMware 转来后已习惯某些操作方式，因此与 AI 一起制作替代 Proxmox 原生界面的前端。仓库作者另称它最初用于自己的 Proxmox 集群，并在日常使用。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006292",
+          "https://github.com/C2Tech-sys/proxion"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已直接读取 HN 原帖、官方 API 及两条作者评论，核对实时仓库 README、许可证说明与部署要求；演示入口返回 HTTP 200 的应用页面。未执行演示 JavaScript、点击控制按钮、部署、登录或连接真实集群，因此未将入口可访问等同功能实测。",
+        "checkedAt": "2026-10-08T14:43:49Z"
+      },
+      "caveats": [
+        "在线演示使用静态 fixture 数据，不连接真实主机；实际使用属于自托管网页应用，需要自行维护服务、TLS、会话配置与 Proxmox 权限。",
+        "README 所述只读代理不代表整个应用只读：获授权的登录会话可通过单独路由执行创建、删除、迁移、配置及电源操作。权限隔离、安全性与写操作可靠性未独立审计。",
+        "这是独立、非官方项目；仓库明确表示未获 Proxmox 公司背书。并非所有 Proxmox 配置都已实现，部分任务仍需返回原生界面。",
+        "功能与 AI 辅助开发情况来自作者和当前仓库说明；未核验作者现实身份或其生产使用效果。发布时间为本次 Show HN 发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006291"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006291.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006292"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006292.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/C2Tech-sys/proxion"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/C2Tech-sys/proxion/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://c2tech-sys.github.io/proxion/"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "虚拟化",
+        "Proxmox",
+        "系统管理",
+        "开源",
+        "示例数据演示"
+      ]
+    },
+    {
+      "id": "hacker_news:50006092",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006092",
+      "title": "CandleFeed L2 — 带公开缺口说明的 Binance 历史订单簿数据",
+      "url": "https://candlefeed.ai/data/order-book/",
+      "canonicalUrl": "https://candlefeed.ai/data/order-book/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006092",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006092",
+      "publishedAt": "2026-10-08T14:16:52Z",
+      "discoveredAt": "2026-10-08T14:43:49Z",
+      "audience": "需要研究 Binance USD-M 永续合约历史盘口、交易执行与回测，并能够通过 API 或 Python 处理数据文件的开发者和研究人员。",
+      "what": "历史市场数据网站与 API 服务，作者介绍其 L2 产品由东京和新加坡三个采集节点记录 100ms 深度增量、逐笔成交和每五分钟一次的最多千档快照，按日合并为 Parquet 文件并披露缺口。官方文档提供文件结构、订单簿重建规则、Python 客户端及免账号样本接口说明；这次收录聚焦历史数据查询与下载。",
+      "why": "HN 作者 pentelicus 表示，团队想用 Binance 当时的订单簿测试交易执行想法，但商业逐笔数据对只研究一个交易所而言成本难以接受，因此从 2026 年 6 月开始自行记录。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006092"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已直接读取 HN 原帖及官方 API，核查时无评论；通过网页检索读取官方订单簿文档、首页方案信息及服务条款。产品页、样本 API 和条款直访返回 HTTP 403，缺口页亦未成功读取；未注册、安装、付费、下载数据集或实际回放订单簿。",
+        "checkedAt": "2026-10-08T14:43:49Z"
+      },
+      "caveats": [
+        "作者与文档称当前 L2 覆盖一个交易所的 25 个品种，早期十个品种从 2026 年 6 月开始，另外十五个从 9 月下旬开始；不能补回未采集的历史。100ms 不是 Binance 最快的深度流，也不是实时交易数据源。",
+        "作者承认多个节点仍有共同漏采；连续性检查和三节点采集不等于无缺口或独立验证的数据准确性。公开缺口日志的实际内容和样本下载可用性本次未核实。",
+        "作者及订单簿文档称 2026-10-01 的 BTCUSDT、DOTUSDT 盘口样本无需账号；免费账号可取每月首日样本，有配额。完整历史属于付费方案；检索到的部分通用文档仍写着“尚未开放”，与新帖和专门文档不一致，实际权限与最新价格需以可访问页面为准。",
+        "免费样本同样受内部使用许可约束；条款不允许转售、重新发布原始记录或可重建原始记录的衍生数据。未将可下载样本描述为开放数据。",
+        "服务条款署名运营方 Foxsoft LLC；HN 账号与运营方的身份关系未独立验证。发布时间为本次 Show HN 发帖时间，不是采集开始或产品首次上线日期。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006092"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006092.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://candlefeed.ai/data/order-book/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://candlefeed.ai/docs/order-book/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://candlefeed.ai/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://candlefeed.ai/docs/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://candlefeed.ai/terms/"
+        }
+      ],
+      "tags": [
+        "历史数据",
+        "订单簿",
+        "API",
+        "量化研究",
+        "Parquet",
+        "验证受限"
+      ]
+    },
+    {
+      "id": "hacker_news:50006071",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006071",
+      "title": "Hence：用图片线索推理的每日逻辑拼图",
+      "url": "https://hencegame.com/",
+      "canonicalUrl": "https://hencegame.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006071",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006071",
+      "publishedAt": "2026-10-08T14:14:52Z",
+      "discoveredAt": "2026-10-08T14:44:21Z",
+      "audience": "喜欢斑马谜题、逻辑方格和每日短篇益智游戏，希望用手机或电脑完成可分享挑战的玩家。",
+      "what": "免费、免账号的每日网页逻辑游戏，每天提供相同的 4×4 与 6×6 两道题，以图片之间的同列、左右、相邻或排除关系推断各图块所在列。官网提供教程、提示、错误检查、奖章及本地统计，完成后可分享用时挑战朋友；进度保存在当前浏览器。",
+      "why": "作者未说明个人创作起因。HN 作者 atguy 明确强调设计目标：让每道题仅靠推理即可解出，用提示推动思考而不过度泄题，并把图块设计成形状和颜色易辨识、适合小屏幕的玩具式视觉。这是作者自述的设计意图。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006071"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已核对 HN 原帖及官方 API，在云端浏览器阅读首页、规则及媒体资料，打开当日 4×4 棋盘并进入交互教程。直接文本请求曾返回 403，但浏览器正常；未完成教程或每日谜题、验证求解器、发送挑战或注册。检查时 HN 无评论。",
+        "checkedAt": "2026-10-08T14:44:21Z"
+      },
+      "caveats": [
+        "所有谜题均可纯推理解出、提示质量及分享挑战效果仍属官方或作者声明，本次未逐题验证；短题约三分钟也是官网估计。",
+        "进度和统计保留在当前设备的浏览器中；未核实跨设备同步、清除浏览器资料后的恢复或隐私实现。",
+        "官网署名制作者 Guy Malachi；未独立核实 HN 账号 atguy 与其现实身份对应关系。媒体页写明计划于 2026 年 10 月 5 日上线，条目 publishedAt 则为本次 HN 发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006071"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006071.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hencegame.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hencegame.com/how-to-play"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hencegame.com/play/4"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hencegame.com/press"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "逻辑推理",
+        "每日挑战",
+        "免注册",
+        "本地进度"
+      ]
+    },
+    {
+      "id": "hacker_news:50006000",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006000",
+      "title": "css.earth：以 HTML 与 3D CSS 探索宇宙",
+      "url": "https://css.earth/",
+      "canonicalUrl": "https://css.earth/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006000",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006000",
+      "publishedAt": "2026-10-08T14:09:20Z",
+      "discoveredAt": "2026-10-08T14:44:21Z",
+      "audience": "希望直观探索天体与公开观测资料的天文爱好者、学生和教师，以及研究 CSS 三维渲染的网页开发者。",
+      "what": "天文三维浏览器，将行星、卫星、恒星、系外行星、星云和星系放在共享场景中，支持天体检索、独立链接、资料页和数据图层切换。官方说明通过 PolyCSS 将几何模型渲染为 HTML/CSS，不使用 WebGL 或 Canvas；源码可自托管。检查时检索框标示 4,547 个天体。",
+      "why": "官方仓库的 Motivation 章节说明，航天机构与天文台积累了大量公开资料，但分散在不易使用的档案、格式和论文中；项目希望让大众在三维网页中探索这些数据，并能追溯其来源。这是官方说明的制作目标，HN 发帖者没有另述个人经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/layoutit/css.earth"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已核对 HN 原帖及官方 API、官方 README 和地球数据来源说明。在云端浏览器确认地球模型实际显示，并从可见光切换至 NASA 2016 夜光图层，资料卡随之更新。直接文本请求曾返回 403，浏览器正常；未测试其他全部天体、无 JavaScript 模式或自托管。检查时 HN 无评论。",
+        "checkedAt": "2026-10-08T14:44:21Z"
+      },
+      "caveats": [
+        "地球图层属于不同日期的历史影像、合成数据或模型，云层并非实时天气，2016 夜光图也不代表当前照明；部分颜色和地形阴影经过展示性处理。",
+        "地球数据说明列有近距离缩放缺片和大气模型等已知限制；未独立审计科学精度、所有数据来源、浏览器兼容性或性能。",
+        "源代码为 MIT 许可，科学数据、影像与衍生素材保留各自来源的许可及署名要求；NASA 等来源标注不表示认可。",
+        "官网 GitHub 链接 layoutit/cssEarth 当前跳转至 layoutit/css.earth，已作为同一项目处理。publishedAt 是 HN 发帖时间；HN 账号 rofko 与维护者身份对应关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006000"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006000.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://css.earth/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/layoutit/cssEarth"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/layoutit/css.earth"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/layoutit/cssEarth/main/src/objects/earth/README.md"
+        }
+      ],
+      "tags": [
+        "天文",
+        "数据可视化",
+        "3D CSS",
+        "互动演示",
+        "自托管"
+      ]
+    },
+    {
+      "id": "hacker_news:50005789",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005789",
+      "title": "RA2 VM：自带正版资源的红警 2 浏览器运行环境",
+      "url": "https://ra2.games/",
+      "canonicalUrl": "https://ra2.games/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005789",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005789",
+      "publishedAt": "2026-10-08T13:50:02Z",
+      "discoveredAt": "2026-10-08T14:44:21Z",
+      "audience": "持有《红色警戒 2》或《尤里的复仇》合法游戏文件、希望在浏览器中游玩或与朋友联机的玩家，以及研究旧 Windows 游戏兼容层的开发者。",
+      "what": "粉丝制作的网页游戏运行环境，以 v86、自定义固件及 Win32/DirectX 兼容层执行原始 x86 游戏程序，无需启动完整 Windows。官方仓库提供在线入口及可自托管前端，列出 RA2/YR 选择、遭遇战、存档、地图包和经 WebSocket 中继联机等 Alpha 功能；资源须由玩家自行导入。",
+      "why": "作者未说明个人创作起因。HN 发帖者说明产品目标是把原版红警 2 与尤里的复仇带到现代网页，并选择兼容层而非重写引擎，以保留原版行为；其更快启动与更流畅战场的比较属于作者声明。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005789",
+          "https://github.com/ra2-games/ra2"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖及官方 API、官方仓库 README，并在云端浏览器打开中文资源选择界面，确认文件、文件夹和联机入口；检查时 HN 无评论。未导入游戏文件、运行游戏、连接中继、安装或自托管。",
+        "checkedAt": "2026-10-08T14:44:21Z"
+      },
+      "caveats": [
+        "运行环境不附带游戏程序或素材，需自行提供合法拥有的原始文件；本项目明确表示未获 Electronic Arts 授权、认可或支持。",
+        "仓库明确处于 Alpha；短时双人回归测试不能证明所有战役、MOD、大规模对战或长时间互联网比赛兼容。HN 的“完整兼容”和性能优势未独立验证。",
+        "自托管静态前端不包含联机中继；联机需要可达的中继服务、相同房间及匹配游戏版本。官方说明断线后不能恢复原比赛。",
+        "项目代码标为 GPL-3.0-or-later，第三方代码和游戏资源仍受各自许可约束。publishedAt 为本次 HN 发帖时间；账号 OkBerry6472 与维护团队的现实身份对应关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005789"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005789.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ra2-games/ra2"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/ra2-games/ra2/main/README.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ra2.games/"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "红色警戒",
+        "游戏兼容层",
+        "自托管",
+        "需自备游戏资源"
+      ]
+    },
+    {
+      "id": "hacker_news:50005771",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005771",
+      "title": "Carolina Codes Polyglot — 多语言网站后端与在线基准看板",
+      "url": "https://carolina.codes/benchmarks",
+      "canonicalUrl": "https://carolina.codes/benchmarks",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005771",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005771",
+      "publishedAt": "2026-10-08T13:48:08Z",
+      "discoveredAt": "2026-10-08T14:43:49Z",
+      "audience": "对多语言 Web API、后端架构、线上延迟观察及开源实现感兴趣的开发者与技术社区。",
+      "what": "可直接浏览的会议网站实验与基准看板：讲者和赞助商数据由多种语言/框架实现的 API 提供，页面标出本次请求后端与耗时；看板列出样本数、平均/最小/最大耗时、语言选择及流量可视化入口，并链接各实现的 GitHub 仓库。核查时有 27 个语言/框架实现条目，其中同一种语言可对应多个框架。",
+      "why": "官方起源文章署名 Barry Jones：重建会议网站时，已有博客已能满足多数信息发布需求，因此他希望新站足够有趣、值得分享，体现多语言会议的理念，并让社区和赞助商通过技术参与。当前基准页也明确说，这个多语言网站构想始于 2024 年，因为做起来有趣。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://blog.carolina.codes/p/a-polyglot-site-for-a-polyglot-conference",
+          "https://carolina.codes/benchmarks"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已直接读取 HN 原帖、官方 API、基准页及首页，核查时 HN 无评论；另读取官方署名起源文章的可检索内容和 API starter 仓库 README。确认页面输出基准数值、后端标记、架构说明与源码链接；未启动流量可视化、切换语言或运行任何仓库。",
+        "checkedAt": "2026-10-08T14:43:49Z"
+      },
+      "caveats": [
+        "这是真实网站请求往返时间的观察，并非受控、等资源的语言性能排名；Fly.io 冷启动、预热、网络、框架和具体实现均可能影响数值，不能据此断言某种语言普遍更快。",
+        "官网说明数据保存在内存，重新部署会清空；相同语言及请求的一秒缓存命中不增加统计，超时可能切换另一语言或回退 SQL。因此看板不代表每次页面加载都被同等计入。",
+        "HN 标题称 27 种语言，但当前列表实际包含同语言的不同框架实现，例如 Python 的 http.server/Django 与 Ruby 的 Sinatra/Rails；本条按实现条目描述。",
+        "官网称暂未开放新增语言投稿；链接的 API starter 是带虚构示例资料的开发骨架，并不包含已完成 HTTP API。源码链接与可视化入口的存在不等于本次完成互动或部署测试。",
+        "动机依据官网署名文章；HN 账号 brightball 与作者现实身份的关系未独立验证。发布时间为本次 Show HN 发帖时间，2024 年文章是历史构想，当前能力以现网页为准。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005771"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005771.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://carolina.codes/benchmarks"
+        },
+        {
+          "type": "official_site",
+          "url": "https://carolina.codes/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://blog.carolina.codes/p/a-polyglot-site-for-a-polyglot-conference"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/brightball/carolina-codes-api-starter"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/brightball/carolina-codes-api-starter/main/README.md"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "多语言",
+        "性能观察",
+        "架构示例",
+        "源码学习",
+        "在线看板"
+      ]
+    },
+    {
+      "id": "hacker_news:50005694",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005694",
+      "title": "LinkedIn 数据驱动的个人简历网站示例",
+      "url": "https://larsbaunwall.github.io/",
+      "canonicalUrl": "https://larsbaunwall.github.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005694",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005694",
+      "publishedAt": "2026-10-08T13:40:19Z",
+      "discoveredAt": "2026-10-08T14:41:52.438057Z",
+      "audience": "想将自己的 LinkedIn 资料同步为独立简历网站和 PDF、愿意自行配置构建流程的开发者；数据可携带 API 的可用地区有限制。",
+      "what": "可访问的个人简历网站与公开源代码示例：通过 unlinked 从 LinkedIn 拉取资料，整理后用 Hugo 生成静态网页及完整、一页版 PDF，并以 GitHub Actions 定期重建。它展示的是自行部署的简历发布流程，不是输入任意 LinkedIn 链接即可使用的托管生成器。",
+      "why": "HN 发帖者 lbaune 自述 LinkedIn 越来越像封闭花园，导致自己在不同格式间维护简历很麻烦，因此展示用会员数据可携带 API 建立自己的简历网站的做法，希望给同样受限的人一些启发。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005694"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已只读核对 HN 原帖、官方 API、项目 README 与公开简历页面。README 指明数据管道、Hugo、PDF 和定时发布机制；未申请 LinkedIn 访问令牌、安装依赖、部署或验证资料自动同步。",
+        "checkedAt": "2026-10-08T14:41:52.438057Z"
+      },
+      "caveats": [
+        "这是自托管/自行构建的网站示例，现成网页展示作者本人的简历，不是面向所有人的在线简历编辑服务。",
+        "README 说明需要用户自己的 LinkedIn Member Data Portability 令牌，并注明面向欧洲经济区和瑞士会员；未独立核对 API 当前资格或授权条款。",
+        "仓库欢迎借鉴实现，但明确页面文字和肖像属于原作者；复用时应换成自己的内容。",
+        "HN 账号与仓库作者的对应关系依据投稿内容及其链接，未独立核实真实身份。",
+        "HN 发帖时间不等于网站首次上线时间；未验证自动更新可靠性或隐私安全。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005694"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005694.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/larsbaunwall/larsbaunwall.github.io"
+        },
+        {
+          "type": "official_site",
+          "url": "https://larsbaunwall.github.io/"
+        }
+      ],
+      "tags": [
+        "简历",
+        "个人网站",
+        "自托管",
+        "LinkedIn",
+        "静态网站"
+      ]
+    },
+    {
+      "id": "hacker_news:50005611",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005611",
+      "title": "Tallyhook",
+      "url": "https://tallyhook.dev/",
+      "canonicalUrl": "https://tallyhook.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005611",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005611",
+      "publishedAt": "2026-10-08T13:30:02Z",
+      "discoveredAt": "2026-10-08T14:42:28Z",
+      "audience": "使用 Claude Code 或 Codex、需要按客户核算 AI 用量并准备账单的自由职业者、开发服务商和小型工程团队",
+      "what": "把编程代理的本机会话日志归集到仓库、模型、开发者及客户，按公开 API 标价换算用量成本，并支持加价、预算告警、CSV 与客户报告。免费采集器之外另有付费托管网页仪表盘，官网提供虚构团队数据的免注册演示入口。",
+      "why": "官网明确给出起因：开发这款工具的机器上，一个 Max 席位八周内产生了约 4,054 美元的公开标价等值用量、涉及 740 次会话，但原有仪表盘无法解释这些用量属于哪些项目，因此做了按项目和客户归集的工具。该数额是官网自述的等值用量，不是已核实账单。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://tallyhook.dev/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 API 中的故事及评论、官方仓库和产品官网。演示入口返回至应用页的重定向；未进入演示操作，也未注册、安装采集器或核对实际账单。",
+        "checkedAt": "2026-10-08T14:42:28Z"
+      },
+      "caveats": [
+        "金额是公开 API 标价的等值估算，不等于订阅用户实付账单；官网说明部分服务端工具费和附加费未计入。",
+        "托管服务需要采集器上传会话元数据，包括开发者标识、仓库、文件路径及可关闭的首条提示词片段；免费本地命令与托管同步的隐私边界不同。",
+        "官网演示使用虚构团队的样本数据；托管应用和 API 非开源。HN 作者评论在官方 API 中仅显示 [flagged]，无法读取其原文。",
+        "HN 投稿账号与官网或仓库作者的现实身份关系未独立核实。",
+        "HN 发帖时间不代表产品首次上线时间；官网宣传和使用量自述不构成收入或需求验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005611"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005611.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005622.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/tallyhook/tallyhook-collector"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tallyhook.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tallyhook.dev/demo"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "AI 成本",
+        "客户计费",
+        "托管网页应用"
+      ]
+    },
+    {
+      "id": "hacker_news:50005552",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005552",
+      "title": "TinyWebUI",
+      "url": "https://tinysuite.dev/products/tinywebui/",
+      "canonicalUrl": "https://tinysuite.dev/products/tinywebui/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005552",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005552",
+      "publishedAt": "2026-10-08T13:23:59Z",
+      "discoveredAt": "2026-10-08T14:42:28Z",
+      "audience": "希望自己托管 AI 聊天、网页研究和长期记忆工作区，并自行连接模型端点的个人用户与小团队",
+      "what": "可自托管的浏览器 AI 聊天工作区，连接兼容 OpenAI API 的云端或本地模型；内置 TinySearch 网页搜索与 TinyContext 记忆的 MCP 连接，支持附件、历史检索、会话编辑、工具调用审批和定时提示词。聊天、文档与工具输出保存在本地 SQLite。",
+      "why": "作者未说明可核实的个人创作动机；HN 作者评论在官方 API 中仅显示 [flagged]。官网的产品目标是保持工具轻量、可检查，并通过筛选证据与节约上下文，让本地代理更实用；这属于产品目标。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://hacker-news.firebaseio.com/v0/item/50005573.json",
+          "https://tinysuite.dev/philosophy/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 API 项目和评论、官方 GitHub README、产品页与部署文档，确认它启动本地网页服务而非纯 CLI。未安装、启动或连接模型，实际聊天与 MCP 功能未实测。",
+        "checkedAt": "2026-10-08T14:42:28Z"
+      },
+      "caveats": [
+        "需要自行部署并配置模型端点；要求 Node.js 22.13 或以上，内置 MCP 工具还需要 uv。没有可直接使用的官方托管后端。",
+        "本地保存历史不表示所有推理都在本地进行：使用云端模型时，相关请求会发往所配置的模型服务。",
+        "当前 README 要求首次启动设置所有者密码；对外提供访问前仍需妥善设置认证、网络暴露和 MCP 权限。",
+        "未包含 OCR、云同步和分支聊天历史；未验证其运行性能或安全隔离。",
+        "HN 投稿账号与官网或仓库作者的现实身份关系未独立核实。",
+        "HN 发帖时间不代表产品首次上线时间；官网宣传和使用量自述不构成收入或需求验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005552"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005552.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005573.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/TinySuiteHQ/TinyWebUI"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tinysuite.dev/products/tinywebui/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tinysuite.dev/docs/tinywebui/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tinysuite.dev/philosophy/"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "AI 聊天",
+        "网页搜索",
+        "MCP",
+        "本地优先"
+      ]
+    },
     {
       "id": "hacker_news:50005516",
       "provider": "hacker_news",
