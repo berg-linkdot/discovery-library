@@ -1,9 +1,446 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T19:46:37.221035Z",
-  "count": 344,
+  "updatedAt": "2026-10-08T20:46:26.719810Z",
+  "count": 351,
   "projects": [
+    {
+      "id": "hacker_news:50011877",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50011877",
+      "title": "Letterkin：用尽量少的不同字母解答每日五道词谜",
+      "url": "https://letterkin.io/",
+      "canonicalUrl": "https://letterkin.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011877",
+      "hnUrl": "https://news.ycombinator.com/item?id=50011877",
+      "publishedAt": "2026-10-08T20:38:40Z",
+      "discoveredAt": "2026-10-08T20:44:50Z",
+      "audience": "喜欢每日英语词谜、词汇联想和低压力字母组合挑战的玩家。",
+      "what": "每日英语网页词谜：根据五条线索各填一个至少三个字母的单词，整局以使用的不同字母总数计分，越少越好；同一字母在词内或跨答案重复不增加分数。官网规则说明，正确答案一旦锁定就不能修改或重复使用，无倒计时，并提供编辑目标、练习题和不泄露答案的成绩分享入口。",
+      "why": "作者未明确说明个人制作缘由。HN 投稿和官网介绍了尽量复用字母、完成五道线索的玩法目标，没有可据以判断创作经历或动机的自述。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50011877",
+          "https://letterkin.io/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖与官方 API，并在云浏览器查看官网当日第 001 期的五条线索、五字母编辑目标及玩法弹窗。核查时 HN 无评论。未输入或提交答案、完成练习、分享成绩或发送反馈，词汇判定、计分和存档恢复未实测。",
+        "checkedAt": "2026-10-08T20:44:50Z"
+      },
+      "caveats": [
+        "玩法要求英语单词，接受哪些词和同义答案、题目难度及编辑目标的可达性未独立验证。",
+        "官网称每日进度保存在当前浏览器；本轮未验证跨设备同步、清除浏览器数据后的恢复或长期题库更新。正确答案锁定后不可更改，应按站方规则谨慎选择。",
+        "HN 投稿账号 onion92 与官网作者身份的对应关系未独立核实；本条发布时间是 Show HN 投稿时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011877"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011877.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://letterkin.io/"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "每日谜题",
+        "英语单词",
+        "字母组合"
+      ]
+    },
+    {
+      "id": "hacker_news:50011813",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50011813",
+      "title": "cliphou.se Motion Graphics Benchmark：比较语言模型生成动画代码的成本与耗时",
+      "url": "https://cliphou.se/benchmark/",
+      "canonicalUrl": "https://cliphou.se/benchmark/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011813",
+      "hnUrl": "https://news.ycombinator.com/item?id=50011813",
+      "publishedAt": "2026-10-08T20:34:20Z",
+      "discoveredAt": "2026-10-08T20:44:50Z",
+      "audience": "选择动画代码生成模型、评估 API 成本与生成可靠性的开发者、动态设计师和 AI 工具构建者。",
+      "what": "一个公开的动态视觉代码生成基准。站方让十个语言模型通过 OpenRouter 对同样的三种 Remotion 简报各运行两次，公开成片入口、生成代码、请求、模型与供应商信息、API 成本、耗时及编译／渲染结果。网页可按任务、运行轮次和原始／修复结果切换；核查时原始记录为 48 个成功渲染、12 个失败，额外 R1 修复后展示 60 个渲染结果，视觉评审尚未完成。",
+      "why": "HN 投稿人 dsco 表示，随着智能体越来越擅长生成动态视觉，他想弄清高价模型和便宜模型在成本及耗时上的差别；同时希望工程师能更容易发现、修改和复用动画，减少计算开销。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50011813"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、当时唯一一条非作者评论，以及官网基准页、关于页、测试协议、原始结果和 R1 修复数据。在云浏览器确认原始／修复视图可切换，原始数据 60 条与修复数据 12 条相符，视觉评审数为零。未运行模型、下载执行代码、编辑模板或验证视频播放与视觉质量。",
+        "checkedAt": "2026-10-08T20:44:50Z"
+      },
+      "caveats": [
+        "当前视觉分数全部待评审；60 个可渲染结果包含额外修复，不能解读为 100% 首次成功率，也不能据此宣布模型质量排名或赢家。",
+        "这是语言模型编写 Remotion 代码的测试，不是原生文生视频模型评测。每个模型每项任务仅两轮，推理档位并不等于一致计算预算，结果只提供探索性参考。",
+        "原始协议采用 32,000 token 上限；R1 额外修复提高到 64,000 token，并改用直接 TSX 输出和更完整错误信息。应区分原始与修复结果，成本和耗时均为站方公开记录，本轮没有独立重跑或核对账单。",
+        "云浏览器的媒体控件显示无法播放，本轮仅核实页面和公开数据，未确认成片播放、效果、模板编辑或导出。模型可用性、价格和站方结果可能继续变化。",
+        "HN 投稿账号 dsco 与官网作者身份的对应关系未独立核实；本条发布时间是 Show HN 投稿时间，不代表主站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011813"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011813.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011879.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/benchmark/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/about/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/benchmark/protocol.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/benchmark/results.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/benchmark/recovery-protocol.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/benchmark/recovery.json"
+        }
+      ],
+      "tags": [
+        "模型评测",
+        "动态视觉",
+        "Remotion",
+        "代码生成",
+        "API 成本"
+      ]
+    },
+    {
+      "id": "hacker_news:50011667",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50011667",
+      "title": "Netint.xyz：从证书透明度日志查找子域名与域名片段",
+      "url": "https://netint.xyz/",
+      "canonicalUrl": "https://netint.xyz/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011667",
+      "hnUrl": "https://news.ycombinator.com/item?id=50011667",
+      "publishedAt": "2026-10-08T20:25:19Z",
+      "discoveredAt": "2026-10-08T20:44:52Z",
+      "audience": "需要查询公开域名、梳理自己或获授权资产的子域名，以及研究域名命名分布的开发者、运维人员与研究者。",
+      "what": "公开的域名检索网站，以证书透明度日志中的域名和完整域名为数据源。帮助页提供三种模式：查询一个域名下的子域名、按名称片段寻找不同后缀的域名，以及寻找层级中包含指定片段的域名。首页可选择返回数量，另有统计页和公开 API 文档入口；站方称使用 PostgreSQL 中的树状结构保存数据。",
+      "why": "官网作者在 About 页表示，已有子域名搜索工具在速度、稳定性、商业化程度或功能上未能满足自己的需求，因此想尝试制作一个更好的替代方案。HN 投稿人另称已利用过去几个月的零碎时间开发，并希望获得反馈；两处作者身份的对应未独立核实。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://netint.xyz/about",
+          "https://news.ycombinator.com/item?id=50011667"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML、官方 API、官网搜索首页、About、Help、Stats 及 API 文档入口。核查时 HN 无评论，首页与统计页显示约 6.92 亿条记录。仅核对公开页面内容，未提交检索表单、运行 API 查询或测试性能、覆盖率与可用性。",
+        "checkedAt": "2026-10-08T20:44:52Z"
+      },
+      "caveats": [
+        "数据来自证书透明度日志，不等于完整 DNS 资产清单；未出现在相关日志中的域名可能缺失，历史记录也不证明域名或服务当前仍可用。",
+        "“快速”、记录总量及数据库规模是站方说明或统计展示，本轮未独立验证，也未确认数据更新频率、API 限额或长期运营稳定性。",
+        "About 页称不记录查询或跟踪用户，页脚将数据标为 CC BY-SA 4.0；本轮未审计隐私实现或逐项确认数据权利。",
+        "本条发布时间是 Show HN 投稿时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011667"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011667.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://netint.xyz/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://netint.xyz/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://netint.xyz/help"
+        },
+        {
+          "type": "official_site",
+          "url": "https://netint.xyz/stats"
+        },
+        {
+          "type": "official_site",
+          "url": "https://netint.xyz/docs"
+        }
+      ],
+      "tags": [
+        "域名检索",
+        "子域名",
+        "证书透明度",
+        "网络资产",
+        "API"
+      ]
+    },
+    {
+      "id": "hacker_news:50011573",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50011573",
+      "title": "AppsHunter.io：浏览 iPhone／iPad 应用、价格历史与折扣的目录",
+      "url": "https://appshunter.io/",
+      "canonicalUrl": "https://appshunter.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011573",
+      "hnUrl": "https://news.ycombinator.com/item?id=50011573",
+      "publishedAt": "2026-10-08T20:19:51Z",
+      "discoveredAt": "2026-10-08T20:44:52Z",
+      "audience": "希望寻找 iPhone／iPad 应用和游戏、比较应用资料与评价、查看价格变化及限时折扣的用户。",
+      "what": "面向 iOS 应用的网页发现目录，提供应用与游戏分类、榜单、促销列表、主题合集和搜索入口。官方介绍包括价格历史、版本变化、评论与评分、应用内购买信息及提醒；本轮读取的一张应用详情页确实列出价格、兼容设备、版本、评分、评论摘要、替代应用及价格历史入口。站点说明数据来自 iTunes Search API，最终引向 Apple App Store。",
+      "why": "未找到作者个人制作缘由。HN 投稿只有“帮助用户找到更好应用”的标题，没有正文或评论；官网 About 和 FAQ 介绍了发现应用与追踪折扣的用途，不能据此推断作者经历或创作动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50011573",
+          "https://appshunter.io/about",
+          "https://appshunter.io/faq"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML、官方 API、官网首页、About、FAQ、价格追踪介绍及 TurboScan 应用详情页；核查时 HN 无正文及评论。公开目录与详情可直接读取。未提交搜索、注册登录、创建合集、启用提醒、安装应用或购买，通知及时性与历史图表交互未实测。",
+        "checkedAt": "2026-10-08T20:44:52Z"
+      },
+      "caveats": [
+        "官网称免费使用并追踪超过 200 万个应用，但规模、覆盖率及长期政策未独立核实；首页存在明确标注的赞助推广位置。",
+        "About 页称每日刷新，价格追踪介绍又使用实时监测表述，本轮未确认实际延迟。价格、地区可用性、应用内购买及订阅条件应以购买时的 App Store 页面为准。",
+        "详情页含站内评论摘要、标签与替代应用推荐；本轮没有验证其生成方式、准确性或推荐相关性，不能当作实际安装体验或质量背书。",
+        "HN 投稿账号与网站运营者的身份对应未独立核实；本条发布时间是 Show HN 投稿时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011573"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011573.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://appshunter.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://appshunter.io/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://appshunter.io/faq"
+        },
+        {
+          "type": "official_site",
+          "url": "https://appshunter.io/ios-app-price-tracker"
+        },
+        {
+          "type": "official_site",
+          "url": "https://appshunter.io/ios/app/turboscan-document-scanner/id1017559099"
+        }
+      ],
+      "tags": [
+        "应用发现",
+        "iOS",
+        "App Store",
+        "价格历史",
+        "折扣目录"
+      ]
+    },
+    {
+      "id": "hacker_news:50011193",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50011193",
+      "title": "Libraries on foot：查看步行范围内公共图书馆覆盖的世界地图",
+      "url": "https://leafle.org/on-foot",
+      "canonicalUrl": "https://leafle.org/on-foot",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011193",
+      "hnUrl": "https://news.ycombinator.com/item?id=50011193",
+      "publishedAt": "2026-10-08T19:55:43Z",
+      "discoveredAt": "2026-10-08T20:44:52Z",
+      "audience": "关心公共图书馆、步行可达性、社区公共服务分布或城市地理数据的居民与研究者。",
+      "what": "leafle 提供的公共图书馆步行覆盖地图，页面可选择 5、10 或 30 分钟，以及步行可达性、人均覆盖、图书馆热图与人口等视图。制作说明称，将 OpenStreetMap、部分官方图书馆名录和 leafle 检查的分馆位置交给 Mapbox 等时圈 API，沿道路和步道估算步行范围，再汇总到约 0.1 平方公里的 H3 网格；人均视图结合 WorldPop 人口数据显示每万人可获得的图书馆供给。",
+      "why": "HN 作者 kidnoodle 表示，在处理其他事情时，好奇世界上有多少地方能步行到图书馆，于是整理 OpenStreetMap 及官方名录中的图书馆位置，并用 Mapbox 等时圈 API 计算覆盖。作者提到喀拉拉邦图书馆众多是一个有趣观察，未将其当作独立核验的排名结论。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50011255"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML、官方 API、唯一的作者评论，以及官网地图页的完整文字、控件选项和制作方法。未运行地图前端或操作图层、定位、分享和路线选择，因此只确认公开页面与方法说明可读取，地图渲染、交互和具体地点结果未实测。",
+        "checkedAt": "2026-10-08T20:44:52Z"
+      },
+      "caveats": [
+        "覆盖取决于 OpenStreetMap 及补充名录的完整性和坐标准确度，不能理解为已经收齐全球所有图书馆；官网特别说明中国数据另有国家及浙江省平台补充。",
+        "这是模型估算的道路步行可达性，不能保证图书馆当前开放、允许进入或借阅，也不能替代现场对道路通行、无障碍与安全条件的核实。",
+        "人均视图使用 WorldPop 2025 年约 1 公里人口网格和两步移动搜寻法，显示供给模型而非馆藏、座位、实际服务质量或最新人口调查；约 0.1 平方公里六边形数值是网格内平均覆盖。",
+        "HN 作者评论简述 OSM、中国和墨西哥来源；当前官网方法说明还列出阿根廷、西开普及麦德林名录。本轮以官网当前说明概述范围，未逐个核验外部数据集或路线算法。",
+        "HN 投稿账号与网站制作团队的身份对应未独立核实；本条发布时间是 Show HN 投稿时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011193"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011193.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011255"
+        },
+        {
+          "type": "official_site",
+          "url": "https://leafle.org/on-foot"
+        }
+      ],
+      "tags": [
+        "公共图书馆",
+        "步行可达性",
+        "互动地图",
+        "城市数据",
+        "OpenStreetMap"
+      ]
+    },
+    {
+      "id": "hacker_news:50011077",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50011077",
+      "title": "NS UI：带网页预览的 React 组件目录",
+      "url": "https://design.helpmarq.com/",
+      "canonicalUrl": "https://design.helpmarq.com",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011077",
+      "hnUrl": "https://news.ycombinator.com/item?id=50011077",
+      "publishedAt": "2026-10-08T19:48:12Z",
+      "discoveredAt": "2026-10-08T20:44:34.012103Z",
+      "what": "可在网页浏览、搜索和预览 React 界面组件的个人目录，包含 ASCII 字符艺术、动效、表单与数据展示等类别；页面提供组件安装命令，并链接 API 与 MCP 文档。",
+      "audience": "寻找界面灵感与可复用组件的前端开发者、设计师及 AI 辅助开发用户。",
+      "why": "HN 作者 nikolas_sapa 说自己长期收藏各类 UI 组件，想整理出更独特、免费且易用的目录，尤其探索 ASCII 组件；也希望收集设计反馈，让设计社区参与扩充。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50011077"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 作者原帖及官网目录、类别和预览说明。未安装组件、连接 MCP 或执行代码。",
+        "checkedAt": "2026-10-08T20:44:34.012103Z"
+      },
+      "caveats": [
+        "网页包含实用预览目录，因此收录；本轮只读取页面，没有逐个交互测试。",
+        "数量和免费描述是核查时的页面或作者声明；未审计许可证、组件性能、无障碍性或安全性。",
+        "ASCII 指用字符排列形成图像；作者的 AI slop 表述指其对低质同质化 AI 设计的批评。",
+        "HN 发帖时间不等于该目录首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011077"
+        },
+        {
+          "type": "official_site",
+          "url": "https://design.helpmarq.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011077.json"
+        }
+      ],
+      "tags": [
+        "React",
+        "界面组件",
+        "设计参考"
+      ]
+    },
+    {
+      "id": "hacker_news:50011044",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50011044",
+      "title": "Upfling：上传静态网页文件并取得分享链接",
+      "url": "https://upfling.host/",
+      "canonicalUrl": "https://upfling.host",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011044",
+      "hnUrl": "https://news.ycombinator.com/item?id=50011044",
+      "publishedAt": "2026-10-08T19:45:32Z",
+      "discoveredAt": "2026-10-08T20:44:34.012103Z",
+      "what": "面向 HTML、CSS、JavaScript 等静态文件的托管网站，也支持文档分享。官网提供文件上传入口，主打省去 Git 仓库和构建部署流程；发布需要免费账户。",
+      "audience": "已有静态页面的个人创作者、AI 建站用户和向客户交付预览的自由职业者。",
+      "why": "官网署名 Guy 的创始人说，把已经做好的页面放上网反而比制作页面更麻烦：部署容易遇到构建错误，分享文档也有访问权限和大附件问题，因此想让上传文件后取得网址更简单。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://upfling.host/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 原帖、官方 API 与官网功能及创始人自述；直接 HTTP 请求返回 403，官网内容通过网页读取工具取得。未登录或上传文件。",
+        "checkedAt": "2026-10-08T20:44:34.012103Z"
+      },
+      "caveats": [
+        "HN 发帖账号 guylr 与官网创始人 Guy 的身份关联未独立证实；动机来自官网署名自述。",
+        "免费额度、速度、安全扫描、隐私和用户评价均为官网声明，未验证实际表现或需求、收入。",
+        "来源帖发布时间不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50011044"
+        },
+        {
+          "type": "official_site",
+          "url": "https://upfling.host/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50011044.json"
+        }
+      ],
+      "tags": [
+        "静态托管",
+        "网站发布",
+        "文件分享"
+      ]
+    },
     {
       "id": "hacker_news:50010564",
       "provider": "hacker_news",
