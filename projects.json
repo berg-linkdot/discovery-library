@@ -1,9 +1,202 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T10:47:33.607926Z",
-  "count": 298,
+  "updatedAt": "2026-10-08T11:46:35.087047Z",
+  "count": 301,
   "projects": [
+    {
+      "id": "hacker_news:50004615",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004615",
+      "title": "Ping CV Builder：九款免费简历模板",
+      "url": "https://pingjobs.co/cv-builder",
+      "canonicalUrl": "https://pingjobs.co/cv-builder",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004615",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004615",
+      "publishedAt": "2026-10-08T11:38:54Z",
+      "discoveredAt": "2026-10-08T11:45:47.350824Z",
+      "audience": "希望无需注册即可制作简历、选择不同单栏或双栏版式并下载 PDF 的求职者。",
+      "what": "Ping 提供的浏览器简历生成器，官网展示九款模板，可填写经历、教育、技能与语言等内容，加入可选照片、查看预览并下载 PDF。Compact 使用 US Letter，其余八款使用 A4；页面称草稿和照片保存在当前浏览器中，使用生成器无需账号。",
+      "why": "作者未说明具体的个人创作动机。HN 作者 arminn 自述曾与设计师合作制作这些模板，并把自己的相关知识整理进免费简历生成器；他还称模板帮助过很多人获得面试和工作，但没有提供可独立核验的效果数据。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50004615"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 及产品页，核对九种模板、纸张尺寸、无需账号、本地草稿保存和 PDF 下载入口；检查时无评论。未填写或上传个人资料、切换模板、下载 PDF，也未测试排版、中文字体或招聘系统解析效果。",
+        "checkedAt": "2026-10-08T11:45:47.350824Z"
+      },
+      "caveats": [
+        "清除浏览器数据会删除草稿和照片；官网建议下载 PDF 留存，本次未验证跨设备同步或草稿恢复能力。",
+        "应遵循具体雇主的纸张、版式及照片要求；九款模板的打印效果、长内容分页、中文支持和 ATS 兼容性均未实测。",
+        "免费及无需注册来自作者说明和当前产品页；“帮助很多人获得面试和工作”是作者自述，不代表有独立验证的求职效果。",
+        "publishedAt 是 Show HN 发帖时间，不是首次上线日期；本次没有登录或使用 Ping 的其他求职服务。",
+        "HN 投稿账号与产品作者的现实身份关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004615"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004615.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pingjobs.co/cv-builder"
+        }
+      ],
+      "tags": [
+        "简历制作",
+        "求职工具",
+        "PDF",
+        "浏览器本地草稿"
+      ]
+    },
+    {
+      "id": "hacker_news:50004535",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004535",
+      "title": "NoHope Swarm：用自然语言编写群体行为的游戏实验",
+      "url": "https://nohope.io/",
+      "canonicalUrl": "https://nohope.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004535",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004535",
+      "publishedAt": "2026-10-08T11:29:29Z",
+      "discoveredAt": "2026-10-08T11:45:47.350824Z",
+      "audience": "对群体模拟、实验性游戏、自然语言控制和运行时生成程序感兴趣的玩家及开发者。",
+      "what": "浏览器群体控制实验：选中一组单位，用自然语言描述动作或持续行为，由模型生成程序并动态加入模拟。官方公开说明区分一次性 Command 与持续 Behavior；指令和固定 API 参考发送给模型后，生成的小型 GPU 程序在本机每个模拟 tick 执行，多个行为按安装顺序作用于运动或能量控制。",
+      "why": "作者未说明个人创作起因。HN 作者 levmiseri 明确把当前作品称为实验，并表示希望最终做成完整游戏；已说明的探索方向是让玩家描述群体指令或行为，再由语言模型编写并动态插入实现。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50004535"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、检查时唯一一条非作者评论、官网 HTML 及公开客户端脚本中的操作说明和行为解释页内容。首页 HTTP 返回成功，但静态页面只显示加载外壳；本次未启动交互游戏、提交自然语言指令或验证模型生成及 GPU 执行。",
+        "checkedAt": "2026-10-08T11:45:47.350824Z"
+      },
+      "caveats": [
+        "作者明确表示目前更像实验，尚希望发展成完整游戏；玩法完整度、长时间稳定性、多人能力与不同浏览器或 GPU 的兼容性未实测。",
+        "官方说明自然语言内容会发送给模型服务，并非完全离线；本次没有核实模型供应商、输入保留政策、费用或调用额度。",
+        "官方称程序在本机运行，并有工作量、内存和游戏规则限制；错误响应保留原指令，运行时错误只停止相关指令。这些属于实现说明，未做独立安全或隔离测试。",
+        "Command 会被新的点击目的地打断，持续 Behavior 可同时存在但后执行的运动或能量请求会覆盖先前请求；复杂或相互冲突的描述不保证都能满足。",
+        "publishedAt 仅为 Show HN 发帖时间，不能据此判断首次发布；官网静态加载页也不代表本次实际跑通了演示。",
+        "HN 投稿账号与产品作者的现实身份关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004535"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004535.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004543"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nohope.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nohope.io/behavior/explanation"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nohope.io/assets/Explanation-BTazLrm6.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nohope.io/assets/index-D-AEPuHj.js"
+        }
+      ],
+      "tags": [
+        "实验游戏",
+        "群体模拟",
+        "自然语言控制",
+        "生成式AI",
+        "GPU"
+      ]
+    },
+    {
+      "id": "hacker_news:50004493",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004493",
+      "title": "IsCited",
+      "url": "https://iscited-enzovezzaros-projects.vercel.app",
+      "canonicalUrl": "https://iscited-enzovezzaros-projects.vercel.app",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004493",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004493",
+      "publishedAt": "2026-10-08T11:23:58Z",
+      "discoveredAt": "2026-10-08T11:45:44Z",
+      "audience": "想检查网站对 AI 抓取是否友好、并追踪 AI 回答是否提及自己网站的网站经营者、营销人员与独立开发者（依据功能归纳）",
+      "what": "浏览器中的网站 AI 可见性检查工具。免费入口接受域名，检查 robots.txt、llms.txt、sitemap、结构化数据及速度等信号，宣称给出 0–100 分、五项子分数、修改建议和可下载的 llms.txt。Pro 订阅则宣称每周复查，并用五个买家式问题向 AI 助手查询，邮件报告引用或遗漏情况与回答片段。",
+      "why": "作者未说明个人创作动机。HN 只有标题且核查时暂无作者评论；官网表达的产品目标是帮助网站经营者了解 AI 可见性，并以较低门槛持续检查是否被 AI 回答引用，这属于产品定位。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50004493",
+          "https://iscited-enzovezzaros-projects.vercel.app"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 官方 API 与讨论页、官网扫描表单、抓取政策、条款和隐私页。公开页面提供无需注册的浏览器扫描入口；未提交域名、实际运行扫描、注册或订阅，报告质量与引用监测效果未验证。",
+        "checkedAt": "2026-10-08T11:45:44Z"
+      },
+      "caveats": [
+        "免费扫描检查的是网站公开文件和技术可访问性信号，不能等同于已经验证 ChatGPT、Perplexity 等是否实际引用该网站；AI 回答监测属于官网宣传的 Pro 功能。",
+        "官网宣传的 10 秒扫描、评分、llms.txt 生成和引用监测效果均未实测；llms.txt 或较高评分本身不保证获得 AI 引用。",
+        "核查时 Pro 标价 19 美元/月；免费扫描按 IP 和域名限流。隐私页称会存储扫描域名与结果，Pro 还使用 OpenAI/Google 做每周回答检查。",
+        "条目时间为 Show HN 发帖时间，不代表产品首次上线时间。",
+        "HN 投稿账号与产品作者的现实身份关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004493"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004493.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://iscited-enzovezzaros-projects.vercel.app"
+        },
+        {
+          "type": "official_site",
+          "url": "https://iscited-enzovezzaros-projects.vercel.app/bot"
+        },
+        {
+          "type": "official_site",
+          "url": "https://iscited-enzovezzaros-projects.vercel.app/terms"
+        },
+        {
+          "type": "official_site",
+          "url": "https://iscited-enzovezzaros-projects.vercel.app/privacy"
+        }
+      ],
+      "tags": [
+        "浏览器应用",
+        "AI 可见性",
+        "网站分析",
+        "营销工具"
+      ]
+    },
     {
       "id": "hacker_news:50004081",
       "provider": "hacker_news",
