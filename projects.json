@@ -1,9 +1,71 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-07T23:46:01Z",
-  "count": 287,
+  "updatedAt": "2026-10-08T01:44:32Z",
+  "count": 288,
   "projects": [
+    {
+      "id": "hacker_news:50000965",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50000965",
+      "title": "Chromatics",
+      "url": "https://chromatics.mobile/",
+      "canonicalUrl": "https://chromatics.mobile/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50000965",
+      "hnUrl": "https://news.ycombinator.com/item?id=50000965",
+      "publishedAt": "2026-10-08T01:30:42Z",
+      "discoveredAt": "2026-10-08T01:44:32Z",
+      "audience": "阅读英文经典小说、容易混淆人物别名或叙事场景，希望借助颜色和听读辅助保持阅读连贯性的读者。",
+      "what": "经典文学阅读工具，按人物为对话与姓名着色，并用提示栏标示场景、时间和叙述者。虽然 HN 介绍主要面向 iPhone 和 iPad，官网也提供可直接打开的网页书架与阅读器；本次在浏览器打开《傲慢与偏见》并翻页，看到场景提示、章节目录入口及音频控件。官网还介绍 LibriVox 听读、摘录保存与导出等应用功能。",
+      "why": "官网 About 页署名 Max 的作者自述，阅读乔伊斯的《尤利西斯》时感到吃力，受到 BBC 用不同颜色区分字幕说话者的启发，希望减少辨认人物、别名和叙事场景的心智负担，让自己更沉浸于故事；他称借助大语言模型识别人物及别名，结合 Project Gutenberg 的经典文本构建了工具。HN 投稿者 mchromatics 亦以开发者口吻介绍项目，但本次未独立核实账号与 Max 的现实身份对应关系。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://chromatics.mobile/about/",
+          "https://news.ycombinator.com/item?id=50000965"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "核对实时 Show HN 列表、官方 HN API、原帖及官网首页与 About 页；核查时原帖没有评论。云端浏览器匿名打开《傲慢与偏见》网页阅读器，确认第 1–2 页文本显示并成功翻到第 3–4 页（界面总页数 773）。未登录、安装原生应用、提交表单、播放整本音频或购买。",
+        "checkedAt": "2026-10-08T01:44:32Z"
+      },
+      "caveats": [
+        "本次收录依据是实际可用的网页阅读器，而非仅有原生应用宣传页；完整应用的离线阅读、摘录同步、导出和付费功能未验证。",
+        "官网称书目文本来自 Project Gutenberg、录音来自 LibriVox；作品或译本的公版状态因地区而异，本次未逐本核查版权。",
+        "人物归属、别名识别、颜色可辨性和场景提示的准确率未独立评估；不能据此宣称改善注意力或阅读能力的效果已得到验证。",
+        "官网列出免费精选书目与 Pro 付费方案；网页和原生应用的完整权限范围、书库规模及按需生成速度未逐项实测。",
+        "《尤利西斯》的意识流叙事和俄语小说中一人多种姓名/昵称，是官网解释阅读难点时的语言文化背景，并非所有读者都会遇到相同困难。",
+        "publishedAt 是 Show HN 帖子时间，不代表网站首次上线；官网读者证言和价格不能作为独立需求、收入或市场成效证明。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50000965"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50000965.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://chromatics.mobile/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://chromatics.mobile/about/"
+        }
+      ],
+      "tags": [
+        "在线阅读",
+        "经典文学",
+        "网页演示",
+        "有声书",
+        "人物对话",
+        "iOS"
+      ]
+    },
     {
       "id": "hacker_news:50000084",
       "provider": "hacker_news",
