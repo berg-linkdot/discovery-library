@@ -1,9 +1,347 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T17:45:24.224006Z",
-  "count": 335,
+  "updatedAt": "2026-10-08T18:45:41.564849Z",
+  "count": 340,
   "projects": [
+    {
+      "id": "hacker_news:50009928",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50009928",
+      "title": "MarbleMD：带实时协作与 AI 连接入口的在线 Markdown 编辑器",
+      "url": "https://marble.md/",
+      "canonicalUrl": "https://marble.md/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009928",
+      "hnUrl": "https://news.ycombinator.com/item?id=50009928",
+      "publishedAt": "2026-10-08T18:30:21Z",
+      "discoveredAt": "2026-10-08T18:45:10.982077Z",
+      "audience": "用 Markdown 编写技术文档、笔记或团队资料，希望边写边预览并与他人协作的开发者和写作者。",
+      "what": "浏览器中的 Markdown 编辑器，首页直接提供可编辑的欢迎文档。官方介绍支持行内预览、表格、代码、LaTeX 数学公式和 Mermaid 图表，文档保持纯 Markdown，可下载或保存为 PDF；分享链接后可实时共同编辑。AI & agents 面板提供 MCP 连接说明，让已授权的助手搜索、读取和更新笔记。",
+      "why": "HN 作者 danieldeng2 表示，过去一年越来越常用 Markdown 写技术文档，却找不到方便的实时分享协作方式，因此制作了结合 Typora 式简洁编辑体验和多人协作的 Marble.md。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50009928"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API，并在云浏览器查看编辑器欢迎页、菜单及 AI & agents 说明。核查时 HN 无评论。未编辑或上传文档、注册登录、分享链接、连接 MCP 或执行 AI 操作；多人同步、导出及持久化效果未实测。",
+        "checkedAt": "2026-10-08T18:45:10.982077Z"
+      },
+      "caveats": [
+        "首页称免费；保存、整理及分享笔记需要注册，受邀加入协作文档则标注无需账号。未核实容量、使用限制或长期定价。",
+        "AI 连接说明要求认证，并允许助手搜索、读取和更新笔记；本轮只阅读说明，未授予任何访问权限或验证数据隐私。",
+        "直接抓取官网返回 403，云浏览器可正常显示公开编辑器。作者身份及其所述上线时间、用户数量未独立核实；此处发布时间为本次 HN 投稿时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50009928"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50009928.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://marble.md/"
+        }
+      ],
+      "tags": [
+        "Markdown",
+        "在线编辑器",
+        "实时协作",
+        "技术文档",
+        "MCP"
+      ]
+    },
+    {
+      "id": "hacker_news:50009580",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50009580",
+      "title": "Artvinto：复古海报与艺术印刷品浏览目录",
+      "url": "https://www.artvinto.com/",
+      "canonicalUrl": "https://www.artvinto.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009580",
+      "hnUrl": "https://news.ycombinator.com/item?id=50009580",
+      "publishedAt": "2026-10-08T18:08:31Z",
+      "discoveredAt": "2026-10-08T18:45:10.982077Z",
+      "audience": "寻找复古海报、艺术图像与墙面装饰灵感的设计师、艺术爱好者及家居布置者。",
+      "what": "公开浏览复古海报、艺术作品及其复制印刷品的目录。探索页提供分类、国家和排序控件，作品详情列出作者、年代、媒介与主色，并可跳转查看相似配色；官网也提供主题合集和艺术家入口。站点展示按需印刷选项，但核查的商品页明确提示当前暂时无法结账。",
+      "why": "官网 About 自述，项目源于对 20 世纪中期展览印刷品和早期广告石版画的长期兴趣，希望保存历史视觉作品，并让爱好者、室内设计师与收藏者更容易获得高质量复制品。该说法来自站方，HN 投稿人 bluefin 与制作团队的身份对应未核实。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.artvinto.com/page/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及官方 API，并在云浏览器查看官网、About、Explore 目录及一张海报的详情页。核查时 HN 无正文及评论。未提交搜索或其他表单、收藏、加购、登录、下单或联系商家；印刷、修复及配送效果未实测。",
+        "checkedAt": "2026-10-08T18:45:10.982077Z"
+      },
+      "caveats": [
+        "核查的商品详情页显示订单暂时停用：可加入购物车但不能结账。当前适合作为艺术浏览入口，不应据此认为可以立即购买。",
+        "官网所称作品数量、艺术家数量、公众领域来源、按单数字修复、印刷品质、评分和配送速度均未独立验证；浏览图片不代表获得下载、再利用或商用授权。",
+        "作品说明和年代归属仅核对了站内展示，未逐件查证原始馆藏或出处。直接抓取官网返回 403，但云浏览器可读取公开页面。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50009580"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50009580.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.artvinto.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.artvinto.com/page/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.artvinto.com/explore"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.artvinto.com/item/ZJmrY8/feuillets-de-l-elegance-feminine"
+        }
+      ],
+      "tags": [
+        "艺术目录",
+        "复古海报",
+        "设计灵感",
+        "墙面装饰",
+        "按需印刷"
+      ]
+    },
+    {
+      "id": "hacker_news:50009439",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50009439",
+      "title": "Noble Shapes：在浏览器探索与定制 noble 多面体",
+      "url": "https://nobleshap.es/",
+      "canonicalUrl": "https://nobleshap.es/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009439",
+      "hnUrl": "https://news.ycombinator.com/item?id=50009439",
+      "publishedAt": "2026-10-08T17:59:33Z",
+      "discoveredAt": "2026-10-08T18:45:27.635703Z",
+      "audience": "对立体几何、数学可视化或生成式图形感兴趣的学习者、教师、设计师与开发者。",
+      "what": "可直接打开的 3D 多面体编辑器。官网列出 146 种有限形式及两个无限族，可查看整体、线框或单个面，并调整配色、视角和动画；文档说明支持分享设计链接及导出 PNG、GLB 和几何 JSON。另提供展示图库、数学背景及 MIT 开源库。",
+      "why": "未找到作者说明个人制作缘由。官网及官方 README 将其定位为在浏览器创建、探索和渲染 noble 多面体的工具，并让数学几何数据与视觉呈现都可供使用；这是产品目标，不据此推断创作者经历。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://nobleshap.es/",
+          "https://github.com/jakiestfu/noble-shapes"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网研究页、官方 README、文档及许可证。云端浏览器成功显示 Create 3D 中的小星形十二面体、几何计数和控制面板，并展开外观选项核对配色功能。未修改设计、提交表单、下载导出文件、安装软件或独立复算几何；核查时 HN 没有评论。",
+        "checkedAt": "2026-10-08T18:45:27.635703Z"
+      },
+      "caveats": [
+        "146 种有限形式及两个无限族是项目依据 Connor Hill 分类给出的覆盖范围，本轮未逐个验证数学实现或分类完备性。",
+        "官方文档说明 GLB 对简单凸面输出着色三角形；自交或其他复杂面保留为边，其原始面循环放入元数据，不能假定所有形状都导出为完整实心表面。",
+        "浏览器文档称优先使用 WebGL2，不能使用时回退到 CPU；不同设备的性能、导出文件和分享链接恢复效果未实测。",
+        "HN 投稿账号与官网所链 GitHub 仓库拥有者均为 jakiestfu，可见同名关联，但未独立核实个人身份。发布时间为本次 Show HN 发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50009439"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50009439.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nobleshap.es/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nobleshap.es/3d"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nobleshap.es/research"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/jakiestfu/noble-shapes"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/jakiestfu/noble-shapes/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/jakiestfu/noble-shapes/main/DOCUMENTATION.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/jakiestfu/noble-shapes/main/LICENSE"
+        }
+      ],
+      "tags": [
+        "几何",
+        "数学可视化",
+        "3D",
+        "在线编辑器",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:50009322",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50009322",
+      "title": "ahhhtrak：用美国地方公共交通探索跨城路线",
+      "url": "https://ahhhtrak.com/",
+      "canonicalUrl": "https://ahhhtrak.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009322",
+      "hnUrl": "https://news.ycombinator.com/item?id=50009322",
+      "publishedAt": "2026-10-08T17:53:17Z",
+      "discoveredAt": "2026-10-08T18:45:27.635703Z",
+      "audience": "对美国地方公交网络、慢旅行和跨地区公共交通衔接感兴趣的人。",
+      "what": "以美国地图为入口的路线探索网页，官方介绍称可连接城市公交、轻轨、地铁、通勤铁路和渡轮，也可选择小型地方航班，不包含 Amtrak 或 Greyhound 等长途服务。页面提示在地图上选择两个地点；数据自述来自交通机构公布的时刻表、Mobility Database、Transitland、美国 National Transit Database 及航空统计资料。",
+      "why": "未找到作者自述的个人制作缘由。官网以“能否只靠地方公共交通横穿美国”为探索目标，并面向愿意尝试低效率路线的旅行者；这属于产品定位，不能视为创作者的个人经历。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://ahhhtrak.com/"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖、官方 API 和两条评论，并在云端浏览器阅读官网 Welcome/About 及选点提示。欢迎界面可显示，关闭后地图区域未渲染出底图；未输入地点、点选路线、提交表单、登录或进行实际旅程规划。直接抓取官网返回 403，网页读取工具仅取得简短首页文字。",
+        "checkedAt": "2026-10-08T18:45:27.635703Z"
+      },
+      "caveats": [
+        "当前浏览器核查未能显示地图，无法确认路线计算、覆盖范围、查询速度或输出内容；官网可打开不等于路线功能已验证。",
+        "HN 用户反馈结果没有具体班次与出发时刻；投稿人 willmeyers 回复称曾取得 TransitApp API 访问，但限流严重，且认为实时数据对这个项目增益有限。因此应把它当作交通网络探索工具，具体换乘、运营日期和到达时间须另向交通机构确认。",
+        "官方说明允许可选的小型地方航班，不能把所有结果一概理解为完全不乘飞机。数据来源、时效、完整性及票价均未独立核验。",
+        "HN 投稿人以项目制作方口吻回复，但官网公开欢迎页未显示可用于独立核对的作者署名。发布时间为本次 Show HN 发帖时间，不代表首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50009322"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50009445"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50009558"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50009322.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50009558.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ahhhtrak.com/"
+        }
+      ],
+      "tags": [
+        "公共交通",
+        "美国",
+        "路线探索",
+        "地图",
+        "旅行"
+      ]
+    },
+    {
+      "id": "hacker_news:50009150",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50009150",
+      "title": "Rinkata：为团队与编程代理共享目标、决策和验收证据的网页工作台",
+      "url": "https://rinkata.dev/",
+      "canonicalUrl": "https://rinkata.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009150",
+      "hnUrl": "https://news.ycombinator.com/item?id=50009150",
+      "publishedAt": "2026-10-08T17:44:57Z",
+      "discoveredAt": "2026-10-08T18:45:09.825069Z",
+      "audience": "与多个 AI 编程代理协作的软件团队、独立开发者，以及需要追踪需求、人工决策与交付证据的产品负责人。",
+      "what": "提供浏览器中的 Rinkata Hub UI，用 Knowledge、Ideas、Work、Complete 四个面板串起项目资料、想法、目标、规格、任务、决策和完成证据。人类与所连接的代理读写同一份项目上下文；文档描述了待人工判断的事项、代理交接，以及关联测试、截图和拉取请求的验收记录。可以先创建无代码仓库的项目进行规划，再按需要连接 GitHub 或代理。",
+      "why": "Quirence 创办人 Christian Biermann 在官网博客中说明，团队制作 Rinkata 是为了让代理的工作始终关联背后的需求与决策。他用自己的个人网站举例：看到初版后改变页面规划，希望新方向仍能关联此前已验收的工作，并保留变更缘由和审阅证据。这是团队第一手自述；未核实 HN 投稿人 bschwab 与该作者的对应关系。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://rinkata.dev/blog/hello-rinkata/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖、官方 API 及其两个评论记录，并阅读官网首页、浏览器登录指南、首个项目指南、四面板说明、定价与团队博客；确认有独立网页工作台而非仅命令行工具。登录入口返回应用页面，但未登录、创建项目、连接代理、安装软件、上传资料或实际运行工作流。",
+        "checkedAt": "2026-10-08T18:45:09.825069Z"
+      },
+      "caveats": [
+        "浏览器入门指南要求使用 Google 登录；本次仅核查公开网页与文档，没有进入登录后的工作台，代理协作和证据追踪能力未实测。",
+        "核查时官网 Team 方案标为免费、最多 10 席，并限制项目记录与 AI 用量，例如每月 100 次 AI 调用；更大团队需询价，额度和价格可能变化。",
+        "接入代理或 GitHub 需要额外连接与授权；功能和数据处理效果均据官方说明，未进行权限、隐私或安全审计。",
+        "HN API 列出的两个评论均显示为已标记内容，公开讨论页没有可读评论正文，因此未将其作为作者动机依据。发布时间为这次 Show HN 发帖时间，并非产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50009150"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50009150.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rinkata.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rinkata.dev/docs/onboarding/first-machine"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rinkata.dev/docs/onboarding/first-project"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rinkata.dev/docs/ui/index"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rinkata.dev/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rinkata.dev/blog/hello-rinkata/"
+        }
+      ],
+      "tags": [
+        "AI 编程",
+        "团队协作",
+        "项目管理",
+        "知识库",
+        "验收证据",
+        "网页工具"
+      ]
+    },
     {
       "id": "hacker_news:50008611",
       "provider": "hacker_news",
