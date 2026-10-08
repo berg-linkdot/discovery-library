@@ -1,9 +1,54 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T16:43:50.327138Z",
-  "count": 333,
+  "updatedAt": "2026-10-08T17:45:24.224006Z",
+  "count": 335,
   "projects": [
+    {
+      "id": "hacker_news:50008611",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50008611",
+      "title": "TikStory：无需 TikTok 登录的公开 Stories 查看网页",
+      "url": "https://tikstory.net/",
+      "canonicalUrl": "https://tikstory.net/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50008611",
+      "hnUrl": "https://news.ycombinator.com/item?id=50008611",
+      "publishedAt": "2026-10-08T17:11:12Z",
+      "discoveredAt": "2026-10-08T17:45:24.120146Z",
+      "what": "输入公开账号用户名或主页链接，网站称可查看和下载 TikTok Stories（通常发布 24 小时后消失的短暂动态），也提供视频、头像及公开资料相关工具。",
+      "audience": "想浏览公开内容的普通用户、内容创作者及社交媒体研究人员。",
+      "why": "官网 About 说明，团队认为查看公开 TikTok 内容不应要求注册账号或向每位创作者留下自己的身份，因此制作了这个工具。HN 投稿人 likaibinyoon 与官网团队的对应关系未核实。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://tikstory.net/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已阅读 HN 原帖及官方页面；核查时原帖无评论。仅核对公开界面与说明，未提交查询或答题表单。",
+        "checkedAt": "2026-10-08T17:45:24.120146Z"
+      },
+      "caveats": [
+        "官网可通过网页读取工具查看；直接抓取返回 403。未输入任何账号，实际内容获取与下载能力未实测。",
+        "匿名、不留历史和免费均为官网自述，未做隐私或安全验证；工具称仅支持公开账号。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50008611"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tikstory.net/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50008611.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50007993",
       "provider": "hacker_news",
@@ -77,6 +122,51 @@
         "吃豆人",
         "开源",
         "在线演示"
+      ]
+    },
+    {
+      "id": "hacker_news:50007890",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50007890",
+      "title": "Signals and Systems：面向数据科学家的信号与系统交互实验",
+      "url": "https://m.regrok.info/signals-for-data-scientists.html",
+      "canonicalUrl": "https://m.regrok.info/signals-for-data-scientists.html",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50007890",
+      "hnUrl": "https://news.ycombinator.com/item?id=50007890",
+      "publishedAt": "2026-10-08T16:27:58Z",
+      "discoveredAt": "2026-10-08T17:45:24.120146Z",
+      "what": "围绕平滑、傅里叶级数、采样、卷积和滤波等概念提供 16 个浏览器实验。页面将《Signals and Systems》教材章节联系到数据分析场景，展示图表、切换控件及自测题。",
+      "audience": "想理解时间序列和信号处理基础的数据科学家、分析师及学习者。",
+      "why": "作者未说明。HN 投稿人 vipin211 未提供创作缘由，也未明确证明其与页面作者的关系；网页说明了教学目标，但没有个人制作动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50007890"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已阅读 HN 原帖及官方页面；核查时原帖无评论。仅核对公开界面与说明，未提交查询或答题表单。",
+        "checkedAt": "2026-10-08T17:45:24.120146Z"
+      },
+      "caveats": [
+        "直接抓取返回 403，云浏览器成功显示实验目录、首个实验图表及自测控件。未逐项操作 16 个实验或验证计算正确性。",
+        "页面称数据来自真实数据集，并列出 Wikimedia、汇率数据和教材引用；本轮未逐一复算或验证教学效果。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50007890"
+        },
+        {
+          "type": "official_site",
+          "url": "https://m.regrok.info/signals-for-data-scientists.html"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50007890.json"
+        }
       ]
     },
     {
