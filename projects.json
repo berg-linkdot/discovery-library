@@ -1,9 +1,166 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T03:45:10Z",
-  "count": 291,
+  "updatedAt": "2026-10-08T09:44:24.747599Z",
+  "count": 294,
   "projects": [
+    {
+      "id": "hacker_news:50003705",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50003705",
+      "title": "Tide 自托管视频会议",
+      "url": "https://demo.tide.convex.works/",
+      "canonicalUrl": "https://demo.tide.convex.works/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003705",
+      "hnUrl": "https://news.ycombinator.com/item?id=50003705",
+      "publishedAt": "2026-10-08T09:33:36Z",
+      "discoveredAt": "2026-10-08T09:44:24.747599Z",
+      "what": "可自托管的视频会议网页应用。匿名演示页展示会议室列表与新建入口，说明可创建可重复使用的会议链接；作者介绍可用单个 Go 二进制部署到 VPS，并支持 OIDC 登录及服务端会议录制。",
+      "audience": "希望在自有服务器运行简洁视频会议服务的小团队和有部署能力的开发者。",
+      "why": "作者 robomonk 在 HN 评论中说明，团队厌倦在 Google 或 Zoom 上托管会议，想要私有、自托管的方案，又觉得 Jitsi 过于臃肿和笨重，因此开发 Tide，目标是保持简单、容易部署。作者身份与这些主观比较未独立核实。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50003732"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 原帖、同一投稿者的作者评论与匿名演示网页，观察到 Rooms 列表及 New 入口。",
+        "checkedAt": "2026-10-08T09:44:24.747599Z"
+      },
+      "caveats": [
+        "未创建会议室、加入通话、授权摄像头或麦克风，也未测试录制与 OIDC。",
+        "自托管需自行部署；单二进制、录制及登录能力依据作者说明，未安装验证。",
+        "公开演示并不代表产品首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003705"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.tide.convex.works/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50003705.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003732"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "视频会议"
+      ]
+    },
+    {
+      "id": "hacker_news:50003666",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50003666",
+      "title": "Squidly 加密资产看板",
+      "url": "https://www.squidly.finance/",
+      "canonicalUrl": "https://www.squidly.finance/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003666",
+      "hnUrl": "https://news.ycombinator.com/item?id=50003666",
+      "publishedAt": "2026-10-08T09:27:25Z",
+      "discoveredAt": "2026-10-08T09:44:24.747599Z",
+      "what": "将公开钱包地址、中心化交易所只读接口、对账单导入及手动记录汇总到统一的加密资产网页看板。官网展示按币种和来源拆分的资产总值、历史读数与持仓表，并提供明确标为虚构数据的公开样例。",
+      "audience": "资产分散在多个钱包、链和交易所，希望集中查看余额与估值的加密资产持有者。",
+      "why": "作者未说明个人制作动机。HN 投稿账号 r4id4 只提供链接，没有正文或评论；官网提出解决多钱包、多交易所分别查看并手工汇总资产的问题，这是产品目标，投稿者与产品团队的身份关系未独立确认。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50003666",
+          "https://www.squidly.finance/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 原帖、官方 API 和官网，包括公开样例看板、支持来源及只读访问说明。",
+        "checkedAt": "2026-10-08T09:44:24.747599Z"
+      },
+      "caveats": [
+        "未注册、登录、连接钱包或交易所、提供地址或 API key，也未上传对账单。",
+        "样例资产和历史数字是官网标注的虚构数据，不能作为实际资金、用户或收益证据。",
+        "只读、加密存储与不能交易或提现均为官网声明，未进行安全审计；资产估值准确性未验证。",
+        "CEX 指中心化交易所，DEX 指去中心化交易所；具体覆盖范围以产品实际支持为准。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003666"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.squidly.finance/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50003666.json"
+        }
+      ],
+      "tags": [
+        "加密资产",
+        "看板"
+      ]
+    },
+    {
+      "id": "hacker_news:50003615",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50003615",
+      "title": "Top FDE Jobs",
+      "url": "https://topfdejobs.com/",
+      "canonicalUrl": "https://topfdejobs.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003615",
+      "hnUrl": "https://news.ycombinator.com/item?id=50003615",
+      "publishedAt": "2026-10-08T09:21:05Z",
+      "discoveredAt": "2026-10-08T09:44:24.747599Z",
+      "what": "面向 Forward Deployed Engineer 的职位聚合网站，提供资历、办公方式、雇佣类型、发布时间与最低薪资筛选，并链接到雇主的申请页面。核查时首页显示 90 家公司的 513 个职位，另有公司目录与工具资源入口。",
+      "audience": "寻找客户现场交付、产品落地及应用 AI 工程职位的求职者，以及招聘相关人才的公司。",
+      "why": "作者未说明制作动机。HN 投稿账号 tonysurfly 只有链接，没有正文或评论；官网页脚注明由 Webfuse 维护，但未说明个人创作经历，投稿账号与维护团队的现实身份关系未独立核实。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50003615",
+          "https://topfdejobs.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 原帖、官方 API 与官网职位列表、筛选标签及雇主申请链接。",
+        "checkedAt": "2026-10-08T09:44:24.747599Z"
+      },
+      "caveats": [
+        "FDE（Forward Deployed Engineer）通常指贴近客户、把产品与真实数据及业务流程结合落地的工程角色；具体职责因雇主而异。",
+        "职位数量、薪资和发布时间来自聚合页面，未逐条核对雇主职位是否仍开放。",
+        "未投递申请、发布职位或提交表单；未实测所有筛选与保存功能。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003615"
+        },
+        {
+          "type": "official_site",
+          "url": "https://topfdejobs.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50003615.json"
+        }
+      ],
+      "tags": [
+        "招聘",
+        "职位搜索"
+      ]
+    },
     {
       "id": "hacker_news:50001629",
       "provider": "hacker_news",
