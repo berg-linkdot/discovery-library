@@ -1,9 +1,525 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T11:46:35.087047Z",
-  "count": 301,
+  "updatedAt": "2026-10-08T12:47:28.708909Z",
+  "count": 308,
   "projects": [
+    {
+      "id": "hacker_news:50005124",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005124",
+      "title": "ScreenCI：把产品教程视频写成可在 CI 重录的 E2E 测试",
+      "url": "https://screenci.com/",
+      "canonicalUrl": "https://screenci.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005124",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005124",
+      "publishedAt": "2026-10-08T12:39:16Z",
+      "discoveredAt": "2026-10-08T12:47:06.092531Z",
+      "audience": "需要随网页产品更新维护帮助中心、上手教程和发布演示视频的开发者、产品团队与技术写作者。",
+      "what": "结合本地 Playwright 录制与托管网页编辑、渲染和视频发布的服务。可让编码助手编写教程脚本，在自己的机器或 CI 上驱动真实网页，再生成带旁白、自动缩放、字幕和叠加素材的视频；浏览器端可编辑旁白、声音和语言，付费导出可供永久链接及嵌入使用。CLI 与脚本编写 API 采用 MIT 许可；托管服务另行提供。",
+      "why": "HN 投稿者 ollipal 自称 Olli，与朋友 Patrik 自筹资金开发。他说自己所在团队曾遇到教程视频过期，甚至为了手工维护的视频而延迟界面改进，因此把教程写成可执行的 Playwright E2E 测试，让产品发布时可以重新录制，流程失效时像测试一样报错。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005124"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网、定价页、CI 与数据上传说明及官方仓库 README；检查时原帖没有评论。确认它包含托管网页编辑和视频服务，非纯 CLI 项目。demo.screenci.com 返回名为 Northstar 的应用外壳，是供录制的样例 SaaS；本次未安装 CLI、运行编码助手、录制、上传、登录或导出视频，也未实际操作网页编辑器。",
+        "checkedAt": "2026-10-08T12:47:06.092531Z"
+      },
+      "caveats": [
+        "录制依赖本地或 CI 的 CLI、Playwright 与 Chromium；网页预览不等于无需本地工具的浏览器录屏器，样例 SaaS 也不是 ScreenCI 编辑器。",
+        "官方定价页的免账号试用限录制三个视频并查看实时预览，成片导出需要付费；旁白与导出有额度及超额计费，当前价格和限制需以官网为准。",
+        "并非全部数据留在本机：原始屏幕录像、时序数据及默认上传的 screenci/ 配置和视频脚本文本会交给服务；官方称应用源代码、环境文件和登录会话不上传，可用 uploadSources:false 禁止上传脚本。画面里可见的敏感信息仍会进入录像，需在录制前遮挡。",
+        "CI 重录及失败检查取决于所写脚本、环境和流水线配置；本次未验证旁白质量、视频效果、流程覆盖、自动更新可靠性或服务的数据保护声明。MIT 许可仅涵盖公开 CLI 和编写 API。",
+        "publishedAt 是 Show HN 发帖时间，不是产品首次上线时间；HN 投稿账号与 Olli、Patrik 及公司现实身份之间的关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005124"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005124.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://screenci.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://screenci.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://screenci.com/docs/repository-and-ci"
+        },
+        {
+          "type": "official_site",
+          "url": "https://screenci.com/docs/reference/configuration"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.screenci.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/screenci/screenci"
+        }
+      ],
+      "tags": [
+        "教程视频",
+        "Playwright",
+        "持续集成",
+        "网页编辑器",
+        "视频托管"
+      ]
+    },
+    {
+      "id": "hacker_news:50005050",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005050",
+      "title": "Bot Bowl Bench：用 Blood Bowl 对局观察大模型决策",
+      "url": "https://botbowlbench.com/",
+      "canonicalUrl": "https://botbowlbench.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005050",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005050",
+      "publishedAt": "2026-10-08T12:31:49Z",
+      "discoveredAt": "2026-10-08T12:47:06.092531Z",
+      "audience": "希望观看语言模型游戏对局、研究工具调用与多步决策，并检查原始比赛数据的 AI 开发者、研究者及 Blood Bowl 玩家。",
+      "what": "公开的大模型对战观察网站，提供直播入口、比赛回放、排行榜、玩法与决策指标及数据下载。模型通过 OpenRouter 和 MCP 工具在 botbowl 引擎里执教五人制 Blood Bowl，同阵容主客场对赛，每半场八回合；排名采用基于全部已完成对局拟合的 Bradley–Terry 模型并显示 Elo 尺度与 95% 区间。比赛页还可同步查看模型聊天、回合计划和逐步事件。",
+      "why": "HN 作者 crimsoneer 表示自己想为 Mistral 4 找一个有意义的基准；作为 Blood Bowl 爱好者，他知道这款游戏对 AI 很有挑战，于是基于已有 Bot Bowl 生态做了这个观战与评测站，初期先使用较便宜的模型。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005050"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网首页、方法说明、排行榜、比赛与开放数据页面及链接的官方仓库。读取网站公开只读接口时有 26 场已完成比赛、45 场排队及 1 场进行中，排行榜返回真实记录，确认网站不只是空白框架。检查时 HN 没有评论；本次未在浏览器播放完整对局、运行基准、安装代码或调用模型服务。",
+        "checkedAt": "2026-10-08T12:47:06.092531Z"
+      },
+      "caveats": [
+        "游戏随机性较强，初期每个模型比赛数量有限；官方提醒 95% 区间重叠时名次尚不确定。排名仅反映这个游戏、工具、提示词和预算设置，不能直接等同通用智能或实际工作能力。",
+        "每回合有工具次数和时间预算，每场有费用及总时长上限；连续三次无效调用或预算耗尽会提前结束回合。API 故障导致默认策略接管的对局仍计入排行榜，但研究数据会标记为不可采纳。",
+        "官网提供可采纳比赛筛选及原始数据；本次只读取公开网页和结果接口，未复跑统计、核验模型供应商实际响应或验证研究复现性，比赛数量会继续变化。",
+        "代码基于 botbowl，官方标为 Apache-2.0；美术素材不在该代码许可内。公开观战无需本次登录，自行部署和调用模型可能需要账户及费用。",
+        "publishedAt 仅表示 Show HN 发帖时间，不是项目首次上线时间；HN 账号 crimsoneer 与 GitHub 维护者的现实身份关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005050"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005050.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botbowlbench.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botbowlbench.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botbowlbench.com/leaderboard"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botbowlbench.com/matches"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botbowlbench.com/data"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botbowlbench.com/api/status"
+        },
+        {
+          "type": "official_site",
+          "url": "https://botbowlbench.com/api/leaderboard"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/AndreasThinks/botbowlbench"
+        }
+      ],
+      "tags": [
+        "AI评测",
+        "游戏AI",
+        "Blood Bowl",
+        "MCP",
+        "公开数据",
+        "比赛回放"
+      ]
+    },
+    {
+      "id": "hacker_news:50005024",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50005024",
+      "title": "Etchv：为图片、PDF 和短视频嵌入可追溯的隐形水印",
+      "url": "https://etchv.com/",
+      "canonicalUrl": "https://etchv.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005024",
+      "hnUrl": "https://news.ycombinator.com/item?id=50005024",
+      "publishedAt": "2026-10-08T12:28:57Z",
+      "discoveredAt": "2026-10-08T12:47:06.092531Z",
+      "audience": "需要为不同接收者或授权分别标记图片、文件和短视频副本的内容平台开发者、摄影师、设计团队与媒体资产管理者。",
+      "what": "隐形水印 API 与网页服务，在媒体像素、PDF 页面或视频帧里嵌入标识，之后检测标识并关联自己的交付记录。官网提供免注册样例入口，以及 PDF 整页转成 PNG 后恢复标识的回放和实时演示入口；另有六种语言的官方 SDK、MCP 接入与异步任务说明。网页强调检测只能关联到具体副本，不能证明是谁传播了文件。",
+      "why": "HN 作者 agurha 明确说，朋友担心未经授权、没有署名的媒体复制越来越容易，这直接启发了 Etchv；他希望通过可在部分截图、格式变化及压缩后恢复的隐形水印，让被复制的媒体仍能追溯到原来的交付副本。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50005024"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、当时唯一一条非作者评论，以及官网、PDF 转图片演示、创意交付测试、PDF/视频限制和安全数据处理页。演示页显示官方保存的成功检测收据，并明确回放经过时间编辑；本次没有点击运行实时任务、提交表单、上传文件、注册、调用 API 或独立测试水印恢复。",
+        "checkedAt": "2026-10-08T12:47:06.092531Z"
+      },
+      "caveats": [
+        "水印存活率是作者自测，不是独立保证。官方 208 张照片测试中，社交流和聊天压缩设置全部恢复，但 300px 缩略图仅 16 张恢复；某些纠错匹配依赖资产仍保存在账户内，打印、扫描和拍摄屏幕未测，作者也承认熟练者可以移除水印。",
+        "PDF 当前限 1–8 页、输入 20MB；有密码、数字签名、表单或旋转页面等情况会被拒绝。官方说明输出可增大，局部页面截图及重新保存可能使水印失效；本次未检查文本或版式保真。",
+        "视频只接收受限的 H.264 MP4/MOV 短片：最多 240 帧、每帧 1MP、全片合计 40MP，1080p 不符合限制；720p 通常仅约一两秒，360p 约几秒。音频不加水印，首页快捷演示只标记一个选定帧，完整 API 才处理每帧。",
+        "只检测 Etchv 自己的水印，不能识别任意 AI 生成媒体，也不能仅凭匹配结果认定某人泄露文件。官网的视觉质量、安全、性能与成功率均未由本次核查独立验证。",
+        "这不是纯本地工具：文件交给 Etchv 处理。官方称处理副本七天后删除，但成功任务的原始与输出资产可随订阅保存最长一年，试用或订阅结束后保存三十天；SOC 2 仍在进行中，未完成认证。",
+        "publishedAt 是 Show HN 发帖时间，不是首次上线日期；HN 投稿账号 agurha 与产品作者的现实身份关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005024"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005024.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005132"
+        },
+        {
+          "type": "official_site",
+          "url": "https://etchv.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://etchv.com/demo/trace"
+        },
+        {
+          "type": "official_site",
+          "url": "https://etchv.com/solutions/creative-delivery"
+        },
+        {
+          "type": "official_site",
+          "url": "https://etchv.com/pdf-watermarking-api"
+        },
+        {
+          "type": "official_site",
+          "url": "https://etchv.com/video-watermarking-api"
+        },
+        {
+          "type": "official_site",
+          "url": "https://etchv.com/security"
+        }
+      ],
+      "tags": [
+        "隐形水印",
+        "媒体溯源",
+        "图片",
+        "PDF",
+        "短视频",
+        "API"
+      ]
+    },
+    {
+      "id": "hacker_news:50004965",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004965",
+      "title": "Get YouTube Text：提取、阅读和导出 YouTube 字幕文本",
+      "url": "https://getyoutubetext.com",
+      "canonicalUrl": "https://getyoutubetext.com",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004965",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004965",
+      "publishedAt": "2026-10-08T12:23:34Z",
+      "discoveredAt": "2026-10-08T12:46:53Z",
+      "audience": "希望阅读、检索或引用视频内容的学生、研究者、内容创作者，以及需要导出 YouTube 字幕的用户。",
+      "what": "提供无需账号的网页字幕提取入口：粘贴 YouTube 链接，或把视频网址中的域名替换为 getyoutubetext.com。官网介绍同步视频播放、按行跳转、搜索、公开分享链接，以及 TXT、SRT、VTT、CSV、JSON、Markdown 导出；AI 摘要按钮将文本交给 ChatGPT、Claude 或 Gemini 等外部工具。FAQ 说明依赖视频已有的自动生成或人工字幕。",
+      "why": "官网 About 页署名 Mukund Kapoor 的作者自述，经常通过讲座、教程和长播客学习，却反复需要暂停、回放并清理带时间戳的字幕；试过的其他工具又有注册墙、额度限制或杂乱输出，所以制作了自己想用的免费、无需账号、尽快得到可用文本的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://getyoutubetext.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "只读核对 HN 原帖、官方 API、两个被标记评论的状态、官网首页、About 和更新日志。确认公开输入页面及官方功能说明；没有提交视频链接、提取字幕、生成公开分享链接、发送文本到 AI、下载文件或安装扩展。",
+        "checkedAt": "2026-10-08T12:46:53Z"
+      },
+      "caveats": [
+        "HN 标题宣称无广告，但核查时首页 HTML 包含 Google AdSense 的 adsbygoogle.js 脚本及 Cloudflare 分析脚本；没有进行运行时网络审计或确认实际展示广告，因此不把“无广告、无追踪”作为已验证事实。",
+        "视频必须有可用字幕；字幕正确率、翻译质量、各导出格式、速度、额度及不同视频的可用性均未实测。官网的“即时、无限制、125+ 语言”等属于未独立核验的产品宣传。",
+        "AI 摘要使用外部 AI 服务；公开分享链接会让取得链接的人访问相应文本。本次没有测试分享权限、内容保留或服务端处理，也没有读到可核查的隐私和条款正文。",
+        "HN 作者账号 mkapoor26 的评论已被标记，API 只返回占位文本；创作动机来自官网 About 页，HN 账号与署名作者的现实身份关系未独立核实。",
+        "publishedAt 是 Show HN 发帖时间，不是首次上线时间；官网更新日志列有早于本帖的 2026 年 9 月更新。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004965"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004965.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getyoutubetext.com"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getyoutubetext.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getyoutubetext.com/changelog"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getyoutubetext.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getyoutubetext.com/terms"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004970.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005025.json"
+        }
+      ],
+      "tags": [
+        "YouTube",
+        "字幕提取",
+        "文本导出",
+        "浏览器工具"
+      ]
+    },
+    {
+      "id": "hacker_news:50004848",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004848",
+      "title": "Privatrak：可视化配置的产品分析与漏斗仪表盘",
+      "url": "https://privatrak.com",
+      "canonicalUrl": "https://privatrak.com",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004848",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004848",
+      "publishedAt": "2026-10-08T12:09:15Z",
+      "discoveredAt": "2026-10-08T12:46:53Z",
+      "audience": "想了解网站功能使用、转化流失和点击问题，同时减少访客标识收集的产品团队、网站经营者及开发者。",
+      "what": "托管的产品分析 Web 服务：网站接入一个追踪脚本后，可用浏览器里的元素选择器定义功能，建立漏斗、用户路径和自定义仪表盘，并查看无效、重复、报错或缓慢点击。官方另提供无须注册的示例商店数据演示，以及供外部 AI 助手读取分析或配置项目的 MCP 接口；隐私设计称每日聚合后删除会话关联。",
+      "why": "HN 发帖者 qwend 自述，做自由职业网页开发和企业 Web 应用时，一些项目没有分析工具，团队反复不知道用户实际在用哪些功能；政府客户场景不便使用同意横幅，已有工具又难配置，导致始终没人接入。他因此希望制作容易设置、偏重群体趋势且方便 AI 助手使用的分析工具，并称在过去一年真正开始开发。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50004848"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 作者正文及官方 API，核对官网首页、接入步骤、隐私架构、AI 说明、价格和 About，并请求公开演示地址。演示返回 HTTP 200 和 JavaScript 应用加载外壳，未实际显示或操作分析面板；没有注册、安装追踪脚本、连接 MCP、提交事件或修改任何项目。",
+        "checkedAt": "2026-10-08T12:46:53Z"
+      },
+      "caveats": [
+        "“无 Cookie、无浏览器存储、不保留原始 IP/User-Agent、无需同意横幅及 GDPR/CCPA 合规”均为官方声明，本次未做技术审计或法律合规判断，不能据此保证任意部署场景都适用。",
+        "官方明确自定义事件属性会按原样存储，稳定用户 ID 等仍可能让访问可关联；网址也可能携带个人信息。自动净化规则不等于能保证所有输入都没有敏感数据。",
+        "作者明确不适合跨多日追踪同一个人或会话回放；每日聚合和删除会话关联限制了可回答的问题，不能把日内会话数当作长期独立用户身份。",
+        "“无代码”配置仍需要先给网站添加追踪脚本。免费层为每月 10,000 个事件、1 个项目、30 天保留，FAQ 将它定位于个人、爱好及评估，商业项目被引导至付费计划；超额后新事件会被拒绝，不会排队或补录。",
+        "MCP 使用用户另行连接的外部 AI 服务，读取的数据受该服务条款约束；读写权限及撤销功能未测试，官网说明撤销某些漏斗变更会永久丢失已经计数的天数。",
+        "公开演示使用示例商店数据；本次只获取加载外壳，不代表实际跑通演示。作者所说刚上线和少量用户属于自述，publishedAt 仅为 Show HN 发帖时间，HN 账号与经营者现实身份关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004848"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004848.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://privatrak.com"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.privatrak.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://privatrak.com/how-it-works"
+        },
+        {
+          "type": "official_site",
+          "url": "https://privatrak.com/privacy"
+        },
+        {
+          "type": "official_site",
+          "url": "https://privatrak.com/ai"
+        },
+        {
+          "type": "official_site",
+          "url": "https://privatrak.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://privatrak.com/about"
+        }
+      ],
+      "tags": [
+        "产品分析",
+        "可视化配置",
+        "转化漏斗",
+        "隐私设计",
+        "MCP"
+      ]
+    },
+    {
+      "id": "hacker_news:50004819",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004819",
+      "title": "Minimal Flight：浏览器中的极简 3D 飞行小游戏",
+      "url": "http://iotic.com/vibe/flight.html",
+      "canonicalUrl": "http://iotic.com/vibe/flight.html",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004819",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004819",
+      "publishedAt": "2026-10-08T12:04:38Z",
+      "discoveredAt": "2026-10-08T12:46:53Z",
+      "audience": "喜欢短时飞行与收集玩法的网页游戏玩家，以及想阅读 Three.js 单页实验实现的开发者。",
+      "what": "可直接打开的 Three.js 飞行游戏实验。已读取的单页源码包含程序生成地形、湖泊与树木，指针拖动控制飞机俯仰和转弯，收集金币计分、随得分改变昼夜氛围和速度、碰撞后重置，以及通过浏览器 localStorage 保存最高分；页面标题为 Minimal Flight。",
+      "why": "作者未说明具体创作动机。HN 原帖只有“单 HTML 文件的极简 3D 飞行模拟器”标题和链接，核查时唯一可读评论来自其他用户；游戏页面也没有作者说明，不能从功能或域名推断个人起因。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50004819",
+          "http://iotic.com/vibe/flight.html"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读核对 HN 原帖、官方 API、唯一非作者评论，以及可通过 HTTP 访问的游戏完整 HTML/JavaScript。确认其中的控制、场景生成、收集计分和本地最高分实现；没有运行 Three.js 场景、执行游戏代码或实际试玩。尝试同路径 HTTPS 返回 502，保留帖子中的可读取 HTTP 地址。",
+        "checkedAt": "2026-10-08T12:46:53Z"
+      },
+      "caveats": [
+        "“单 HTML 文件”不表示完全离线或无依赖：页面从 cdnjs 加载 Three.js r128；需可用 JavaScript、WebGL 和相应网络资源，设备兼容性与帧率未实测。",
+        "本次读取到的入口使用未加密 HTTP，同路径 HTTPS 请求返回 502；这不证明所有用户或以后访问都会失败，也未绕过任何浏览器安全警告。",
+        "控制逻辑采用按住并拖动指针，首次按下会尝试进入全屏；最高分写入当前浏览器 localStorage，不代表账号云同步。",
+        "源码与页面表明是简化的飞行和金币收集实验，未验证真实飞行物理、画面效果、碰撞准确性或游戏完成度；HN 的一条粗糙度评价只是评论者意见。",
+        "publishedAt 是 Show HN 发帖时间，不是作品首次上线时间；HN 投稿账号 iotic 与网站作者的现实身份关系未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004819"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004819.json"
+        },
+        {
+          "type": "official_site",
+          "url": "http://iotic.com/vibe/flight.html"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50005014"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50005014.json"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "Three.js",
+        "飞行",
+        "程序生成",
+        "单页实验"
+      ]
+    },
+    {
+      "id": "hacker_news:50004795",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004795",
+      "title": "Favz：公开 AI 代理配置观察站",
+      "url": "https://favz.co/",
+      "canonicalUrl": "https://favz.co/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004795",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004795",
+      "publishedAt": "2026-10-08T12:00:57Z",
+      "discoveredAt": "2026-10-08T12:45:27.329052Z",
+      "audience": "想了解 MCP、skills 和插件配置趋势的开发者、工具作者与 AI 工具研究者。",
+      "what": "读取公开 GitHub 仓库中的 AI 代理配置，展示工具增长榜、共同配置关系、仓库配置历史与可下载统计数据。核查时首页称已保留约 16.6 万个仓库；可在网页浏览工具和仓库排行。另有可选 CLI，持续监测插件尚未完成。",
+      "why": "作者未说明个人制作原因。官网说明目标是观察公开配置中实际写入了哪些工具，帮助发现相似配置采用的新工具；HN 发帖账户与网站团队的真实身份关系未独立确认。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://favz.co/",
+          "https://news.ycombinator.com/item?id=50004795"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 官方 API、公开讨论页及官网数据说明、榜单和方法限制；作者评论在核查时被标记，未读取到正文。未运行 CLI、提交邮箱或安装插件。",
+        "checkedAt": "2026-10-08T12:45:27.329052Z"
+      },
+      "caveats": [
+        "publishedAt 为 Show HN 帖子时间，不代表网站首次上线。",
+        "配置中存在不等于持续使用；仓库数、文件数与分层样本是不同统计口径，不能混用。",
+        "数据只覆盖能找到的公开仓库，不含私人及未提交的个人配置，且可能受模板、重复配置和发现延迟影响；官网也指出删除可能只是改名或文件移动。",
+        "网站统计与方法说明为官方自述，未独立复现采集；不能据此推断收入、付费需求或全行业市场份额。",
+        "首页可读取榜单与方法，但工具目录 /tools/ 在此次读取中返回 HTTP 403，未逐项验证目录功能。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004795"
+        },
+        {
+          "type": "official_site",
+          "url": "https://favz.co/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004795.json"
+        }
+      ],
+      "tags": [
+        "AI 工具",
+        "开发者工具",
+        "数据看板"
+      ]
+    },
     {
       "id": "hacker_news:50004615",
       "provider": "hacker_news",
