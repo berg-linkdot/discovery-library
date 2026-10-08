@@ -1,9 +1,184 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T01:44:32Z",
-  "count": 288,
+  "updatedAt": "2026-10-08T03:45:10Z",
+  "count": 291,
   "projects": [
+    {
+      "id": "hacker_news:50001629",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50001629",
+      "title": "Futex 人工审批服务",
+      "url": "https://futex.rodmena.co.uk/",
+      "canonicalUrl": "https://futex.rodmena.co.uk/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50001629",
+      "hnUrl": "https://news.ycombinator.com/item?id=50001629",
+      "publishedAt": "2026-10-08T03:35:10Z",
+      "discoveredAt": "2026-10-08T03:45:10Z",
+      "what": "面向 AI 代理的托管人工审批控制服务：代理通过 MCP 或 HTTP 请求决策并立即获得编号，审核者通过邮件中的安全网页链接批准、拒绝、委派或升级，代理再以轮询或 Webhook 取得结果。官网介绍多阶段与多人审批、超时、审计和租户隔离；不是 Linux 的同名同步原语。",
+      "audience": "需要在自动化执行前加入人工把关，并让审批结果可靠返回代理工作流的开发者和团队。",
+      "why": "作者未说明创作动机。HN 原帖只有链接，核查时没有作者正文或评论；官网提出让 AI 工作流接入持久、受策略约束的人工决策这一产品目标。投稿账号 rodmena 与官网品牌相近，但其作者身份未独立确认。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50001629"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对实时列表、官方 HN API、HN 原帖及官方主页和 API 文档入口；确认官方描述包含供审核者使用的网页链接。未申请 API key、发送邮件、接入 MCP 或创建真实审批，因此未实际打开带授权信息的审核页面。",
+        "checkedAt": "2026-10-08T03:45:10Z"
+      },
+      "caveats": [
+        "本条按在线审批服务及其网页审核流程收录，核查主要限于官方资料；没有公开可直接试用的审批样例被本次验证。",
+        "使用需取得服务凭据并接入工作流；未申请凭据或测试任何审批操作。",
+        "多租户隔离、签名 Webhook、故障时拒绝放行和审计完整性均为官方描述，未做安全或可靠性验证。",
+        "publishedAt 是 Show HN 帖子发布时间，不代表网站首次上线；官网宣称、演示数据与热度不构成独立需求或收入验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50001629"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50001629.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://futex.rodmena.co.uk/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://futex.rodmena.co.uk/docs"
+        }
+      ],
+      "tags": [
+        "AI代理",
+        "人工审批",
+        "MCP",
+        "工作流",
+        "托管服务"
+      ]
+    },
+    {
+      "id": "hacker_news:50001425",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50001425",
+      "title": "Tolerable Workplace",
+      "url": "https://tolerableworkplace.com/",
+      "canonicalUrl": "https://tolerableworkplace.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50001425",
+      "hnUrl": "https://news.ycombinator.com/item?id=50001425",
+      "publishedAt": "2026-10-08T02:51:51Z",
+      "discoveredAt": "2026-10-08T03:45:10Z",
+      "what": "带职场讽刺语气的员工问卷与分析网页应用。固定 19 道陈述覆盖管理、会议、薪酬、边界、同事与工作意义；按同意或非常同意的回答占比计分，达到 65% 可获得站内的“尚可忍受的工作场所”徽章。公开只读演示可查看趋势、维度、部门分布和问卷入口。",
+      "audience": "想用较轻松、少些企业套话的方式了解员工感受的小型公司、创业团队与人力资源负责人。",
+      "why": "作者未说明个人制作经历。HN 投稿者 joewhale 将目标描述为：为不太把自己当回事的小型创业公司提供非传统企业口吻的员工调查，了解公司状况，并可展示 Tolerable Workplace 徽章；这是帖中明确的产品目标，未独立确认其现实身份。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50001425"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "核对实时列表、官方 HN API、原帖、官网和方法说明；核查时没有评论。从官网 Explore the demo 进入明确标为虚构公司、虚构人物且只读的演示仪表盘，观察到总分、历史趋势和部门拆分。未注册、建立问卷或提交回答。",
+        "checkedAt": "2026-10-08T03:45:10Z"
+      },
+      "caveats": [
+        "“Tolerable”“Meh”表达“还行、能忍受”的英式冷幽默；徽章是网站自定标准，不是政府或独立劳动条件认证，也不是其他职场奖项的关联项目。",
+        "方法说明称少于 5 份回答不展示结果，小群体会合并隐藏，回答不附姓名、邮箱或 IP；这些隐私措施与匿名性未通过审计或真实数据测试。",
+        "演示人物、公司和统计均为虚构样例，不代表付费客户、真实员工或市场需求。",
+        "官网称免费，完整生产问卷、导出、认证和邮箱验证流程未实测；问卷分数不等于经验证的组织健康量表。",
+        "publishedAt 是 Show HN 帖子发布时间，不代表网站首次上线；官网宣称、演示数据与热度不构成独立需求或收入验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50001425"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50001425.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tolerableworkplace.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tolerableworkplace.com/methodology"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tolerableworkplace.com/app"
+        }
+      ],
+      "tags": [
+        "员工调查",
+        "人力资源",
+        "网页演示",
+        "数据看板",
+        "职场"
+      ]
+    },
+    {
+      "id": "hacker_news:50001374",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50001374",
+      "title": "Rhyven 代理应用目录",
+      "url": "https://rhyvenai.com/",
+      "canonicalUrl": "https://rhyvenai.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50001374",
+      "hnUrl": "https://news.ycombinator.com/item?id=50001374",
+      "publishedAt": "2026-10-08T02:44:14Z",
+      "discoveredAt": "2026-10-08T03:45:10Z",
+      "what": "可在浏览器搜索、按执行类型筛选的代理应用目录，列出应用功能、数据位置、所需权限与安装方法。本次看到 13 个应用，打开 Work Management 详情后可查看任务、项目与依赖等结构。配套本地运行时通过统一 MCP 接口连接这些无界面应用；目录浏览无需安装，真正运行应用则需自行安装 Rhyven。",
+      "audience": "希望比较可供 AI 代理使用的应用、检查权限与安装要求，并在自有环境组合工具的开发者。",
+      "why": "自称创作者 Caleb 的 HN 投稿者 calebrhyven 表示，日常工作经常制作和使用 MCP，却发现格式缺乏统一，许多接口仍围绕庞大的人类 UI 平台设计，因此想做面向代理的应用市场和统一工具框架，改善最终用户使用及尝试工具的体验。他还希望代理在用户批准后安装或制作所需工具，减少重复劳动；身份与实际节省效果未独立验证。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50001374"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "核对实时列表、官方 HN API、原帖及官网；核查时没有评论。在公开网页打开 Work Management 详情，确认权限、结构化对象与安装说明可见；未运行命令、安装应用或连接代理。",
+        "checkedAt": "2026-10-08T03:45:10Z"
+      },
+      "caveats": [
+        "本次收录的是实用的在线应用目录；应用执行在使用者环境中，并非免安装的托管工作管理服务。",
+        "官网的自我改进演示注明是对预设测试样例中真实 MCP 调用的剪辑重放，不是对任意任务自主改进能力的独立证明。",
+        "应用安全、权限边界、跨代理数据隔离和运行稳定性未实测。",
+        "publishedAt 是 Show HN 帖子发布时间，不代表网站首次上线；官网宣称、演示数据与热度不构成独立需求或收入验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50001374"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50001374.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://rhyvenai.com/"
+        }
+      ],
+      "tags": [
+        "AI代理",
+        "应用目录",
+        "MCP",
+        "自托管",
+        "开发者工具"
+      ]
+    },
     {
       "id": "hacker_news:50000965",
       "provider": "hacker_news",
