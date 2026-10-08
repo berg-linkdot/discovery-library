@@ -1,9 +1,316 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T09:44:24.747599Z",
-  "count": 294,
+  "updatedAt": "2026-10-08T10:45:15.045892Z",
+  "count": 299,
   "projects": [
+    {
+      "id": "hacker_news:50004081",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004081",
+      "title": "Staffcoder 浏览器工程实战练习",
+      "url": "https://www.staffcoder.com/",
+      "canonicalUrl": "https://www.staffcoder.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004081",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004081",
+      "publishedAt": "2026-10-08T10:28:42Z",
+      "discoveredAt": "2026-10-08T10:42:43.524580Z",
+      "audience": "想学习现代框架、从教程转向实际项目、提升工作技能或准备工程岗位的开发者。",
+      "what": "在浏览器 IDE 中完成接近实际工作的编程挑战，围绕 React、Django、Node.js 等框架及 DevOps、数据与 AI 工程技能，练习开发功能、排错和重构。官网介绍终端、文件系统、实时预览、分级学习路径和进度记录；作者另介绍 AI 辅助及代理开发练习。",
+      "why": "作者 Shashank 明确表示，自己曾在工作中设计过数千道软件工程评估题，发现学习资料很多、动手练习的机会却不足，因此创建 Staffcoder，让开发者通过解决真实工程场景练习技能。官方 About 页也说明，他希望练习更接近工程师的日常工作。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50004081",
+          "https://www.staffcoder.com/about"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对官方 HN API 的作者正文及评论状态，并读取官方主页、About 和 Pricing。确认其面向浏览器的 IDE 服务与公开产品入口；未注册、登录、启动编码会话或运行挑战，功能描述尚未实测。",
+        "checkedAt": "2026-10-08T10:42:43.524580Z"
+      },
+      "caveats": [
+        "内容数量口径不一致：作者 HN 正文称 1000+ 挑战、40 项技能，官网主页和 About 则称 500+ 挑战、39 条学习路径；未登录核对实际库存。",
+        "价格页显示免费层每周 1 小时会话，Pro 为每月 10 美元并受公平使用限制；AI 访问标为可能变化的推出期优惠，作者另提及额外 AI 用量按量计费，应以实际结账条款为准。",
+        "作者表示独立的 Practice 与 Compete 部分仍是后续计划；公开页面上的示例界面不等于已验证的实际练习会话。",
+        "publishedAt 是 Show HN 发布时间，不代表产品首次上线；本次未验证学习效果、IDE 可靠性或作者所述题库质量。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004081"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004081.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.staffcoder.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.staffcoder.com/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.staffcoder.com/pricing"
+        }
+      ],
+      "tags": [
+        "编程练习",
+        "浏览器IDE",
+        "开发者教育",
+        "框架学习"
+      ]
+    },
+    {
+      "id": "hacker_news:50004018",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50004018",
+      "title": "Sibuna 自托管 Web 防火墙",
+      "url": "https://github.com/insanai/sibuna",
+      "canonicalUrl": "https://github.com/insanai/sibuna",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004018",
+      "hnUrl": "https://news.ycombinator.com/item?id=50004018",
+      "publishedAt": "2026-10-08T10:17:20Z",
+      "discoveredAt": "2026-10-08T10:42:16.583996Z",
+      "what": "开源网站与 API 防护服务，提供浏览器工作量证明挑战、访问策略、应用攻击检查和可选 OWASP CRS；附带实用的 Web 管理控制台，可查看流量、调查事件和编辑策略。",
+      "audience": "需要控制机器人与爬虫流量、愿意自行部署反向代理和管理后台的网站开发者及运维人员。",
+      "why": "HN 发帖者 vikrantrathore 自称参与制作，表示希望对 AI 机器人和爬虫造成的自动化流量拥有更多控制。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50004018"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与第一方网页资料；未安装、登录或执行功能。",
+        "checkedAt": "2026-10-08T10:42:16.583996Z"
+      },
+      "caveats": [
+        "需要自托管；控制台是可选组件，未部署或测试拦截效果。",
+        "工作量证明增加访问成本，不能证明访问者是人类，也不是大流量网络攻击防护；会增加客户端计算耗能。",
+        "官方说明控制台性能目标尚未正式通过，截图中的流量与地理数据属于测试数据。",
+        "来源帖子时间不代表产品首次上线；未独立验证性能、需求或收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50004018"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50004018.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/insanai/sibuna"
+        },
+        {
+          "type": "official_site",
+          "url": "https://insanai.github.io/sibuna/book/operations.html"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "安全",
+        "Web 管理台"
+      ]
+    },
+    {
+      "id": "hacker_news:50003965",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50003965",
+      "title": "Gutsy 本地决策模型 Web 演示",
+      "url": "https://github.com/kouhxp/gutsy",
+      "canonicalUrl": "https://github.com/kouhxp/gutsy",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003965",
+      "hnUrl": "https://news.ycombinator.com/item?id=50003965",
+      "publishedAt": "2026-10-08T10:11:28Z",
+      "discoveredAt": "2026-10-08T10:42:16.583996Z",
+      "what": "CPU 本地运行的决策模型及一组浏览器演示：支持工单分流、对反馈表逐行提问、模型路由、依据材料评估陈述等，将文本或 JSON 状态转成类型化问题的选项概率。",
+      "audience": "需要试验本地分类、分流与结构化判断的开发者；本条收录其可自托管 Web 演示。",
+      "why": "作者未说明个人制作动机。官方说明产品目标是本地、可校准的决策概率，而非生成长文本；HN 发帖账号 mrkn1 与仓库作者的身份关系未核实。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50003965",
+          "https://github.com/kouhxp/gutsy"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与第一方网页资料；未安装、登录或执行功能。",
+        "checkedAt": "2026-10-08T10:42:16.583996Z"
+      },
+      "caveats": [
+        "不是免安装在线服务：浏览器页面依赖自托管本地推理服务和模型文件；已读取工单与反馈表示例源码，未安装模型或运行推理。",
+        "演示数据为虚构数据，结果须由本地模型产生；性能与准确率是项目自报，未复现。",
+        "官方标明仅英语，数字日期运算和陌生多步骤规则较弱；启用 CORS 会允许访问的网页请求本地服务。",
+        "来源帖子时间不代表产品首次上线；未独立验证性能、需求或收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003965"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50003965.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kouhxp/gutsy"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kouhxp/gutsy/tree/main/gutsy-inference/examples"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "Web 演示",
+        "本地 AI"
+      ]
+    },
+    {
+      "id": "hacker_news:50003826",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50003826",
+      "title": "SVG Spark 浏览器实用工具集",
+      "url": "https://svg-spark.vercel.app/",
+      "canonicalUrl": "https://svg-spark.vercel.app/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003826",
+      "hnUrl": "https://news.ycombinator.com/item?id=50003826",
+      "publishedAt": "2026-10-08T09:52:01Z",
+      "discoveredAt": "2026-10-08T10:44:24.914159Z",
+      "audience": "需要快速处理图片、文本和开发数据的开发者、营销人员与内容创作者。",
+      "what": "提供十个独立网页工具：SVG 转 PNG/WebP、正则表达式可视化、社交图片尺寸调整、PDF 分拆合并、JSON 转 CSV/Excel、字幕清理、UTM 链接生成、SQL 格式化、颜色对比度检查和 Markdown 预览导出。首页称工具免费且在浏览器本地处理；已查看多个工具的公开输入界面和默认示例。",
+      "why": "未找到可读取的作者创作动机说明。HN 帖子没有正文，唯一作者评论已被标记，官方 API 仅返回占位文本。官网表达的产品目标是提供快速、单页、无需上传文件的日常工具，但没有解释作者为何开始制作。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://svg-spark.vercel.app/",
+          "https://news.ycombinator.com/item?id=50003826",
+          "https://news.ycombinator.com/item?id=50003877"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对官方 HN API 及作者评论状态，并读取主页、SVG 转换、正则、对比度和 Markdown 页面；公开页面含输入控件、选项及默认结果。仅完成页面审阅，未上传文件、输入自定义内容、执行转换或下载导出结果。",
+        "checkedAt": "2026-10-08T10:44:24.914159Z"
+      },
+      "caveats": [
+        "HN 标题称十个 SVG 设计与开发工具，当前官网首页则自称 Free Browser Utilities；实际目录只有 SVG 转图片一项专门处理 SVG，其余为通用开发和内容工具。",
+        "本地处理、零上传、无追踪及输出净化均为官网宣称；未做运行时网络审计、安全测试或文件转换完整性验证。",
+        "各工具页面展示赞助及广告占位；本次没有点击赞助、捐赠或外部链接。",
+        "作者评论无法读取，未据此推断作者背景或动机；publishedAt 是 Show HN 发布时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003826"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003877"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50003826.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50003877.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://svg-spark.vercel.app/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://svg-spark.vercel.app/svg-to-png"
+        },
+        {
+          "type": "official_site",
+          "url": "https://svg-spark.vercel.app/regex"
+        },
+        {
+          "type": "official_site",
+          "url": "https://svg-spark.vercel.app/contrast-checker"
+        },
+        {
+          "type": "official_site",
+          "url": "https://svg-spark.vercel.app/markdown"
+        }
+      ],
+      "tags": [
+        "浏览器工具",
+        "SVG",
+        "开发工具",
+        "文件转换",
+        "隐私"
+      ]
+    },
+    {
+      "id": "hacker_news:50003787",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50003787",
+      "title": "Opposable 云手机与代理控制",
+      "url": "https://getopposable.com/",
+      "canonicalUrl": "https://getopposable.com",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003787",
+      "hnUrl": "https://news.ycombinator.com/item?id=50003787",
+      "publishedAt": "2026-10-08T09:47:03Z",
+      "discoveredAt": "2026-10-08T10:42:16.583996Z",
+      "what": "让 AI 代理通过 MCP 操作手机屏幕；除 Android 原生应用和 iPhone 配件方案外，官网提供带浏览器屏幕查看器的云 Android 手机服务，用于在网页中安装应用、登录，再交由代理操作。",
+      "audience": "希望试验手机任务自动化、通过浏览器管理云手机的开发者和自动化团队。",
+      "why": "HN 发帖者 possiblelion 自称团队成员，表示日常生活大量发生在手机上，希望把计算机使用能力更易用地带到手机。名称指赋予 AI 像人类可对握拇指一样操作手机的能力；未进一步核实个人身份。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50003787"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与第一方网页资料；未安装、登录或执行功能。",
+        "checkedAt": "2026-10-08T10:42:16.583996Z"
+      },
+      "caveats": [
+        "本条因云手机及浏览器查看器纳入，Android 应用本身不是 Web 应用；未开通付费云手机、登录应用或连接任何设备。",
+        "官网列出付费云手机方案，但可用性、隔离性和真实操作效果未独立验证；部分银行应用可能拒绝虚拟设备。",
+        "远程控制会涉及屏幕、账户与设备权限；官网关于审批付款和隐私的描述未经安全审计。iPhone 方案处于测试阶段。",
+        "来源帖子时间不代表产品首次上线；未独立验证性能、需求或收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50003787"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50003787.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://getopposable.com/"
+        }
+      ],
+      "tags": [
+        "云手机",
+        "浏览器管理",
+        "代理自动化"
+      ]
+    },
     {
       "id": "hacker_news:50003705",
       "provider": "hacker_news",
