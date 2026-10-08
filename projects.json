@@ -1,9 +1,209 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T15:48:52.827604Z",
-  "count": 330,
+  "updatedAt": "2026-10-08T16:43:50.327138Z",
+  "count": 333,
   "projects": [
+    {
+      "id": "hacker_news:50007993",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50007993",
+      "title": "Jevman：让 AI 决策模型玩吃豆人的网页基准与对战游戏",
+      "url": "https://opper.ai/jevman-benchmark/",
+      "canonicalUrl": "https://opper.ai/jevman-benchmark/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50007993",
+      "hnUrl": "https://news.ycombinator.com/item?id=50007993",
+      "publishedAt": "2026-10-08T16:34:13Z",
+      "discoveredAt": "2026-10-08T16:41:17Z",
+      "audience": "想比较低延迟 AI 决策模型、观察模型在游戏中的选择，或亲自挑战 AI 幽灵的开发者、研究者与玩家。",
+      "what": "由 Opper 托管的吃豆人网页游戏与模型排行榜。可查看 jev 的录制演示、观看模型实时决策，或自己控制吃豆人对抗由不同模型操纵的幽灵。官网公开六种模型各玩 100 局的成绩、延迟和备用规则使用率，并说明测试方法；开源仓库允许通过 HTTP 端点接入自己的模型，提交可回放的结果。",
+      "why": "HN 作者 felix089 表示，随着多个快速决策模型出现，他们希望实际比较热门选项，认为吃豆人适合检验简单而快速的决策，因此让模型各玩 100 局并公开排行榜和源码，也让人类玩家与模型对战。作者自述 Opper 是自己的创业公司。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50007993"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网公开 HTML、排行榜 JSON，以及官方 README 和贡献指南；确认托管网页游戏入口、录制演示、对战模式及测试方法。核查时 HN API 没有评论。未启动游戏或模型调用、登录、输入密钥、提交分数、安装软件或复跑评测；动态界面及免费额度余额未实测。",
+        "checkedAt": "2026-10-08T16:41:17Z"
+      },
+      "caveats": [
+        "免登录的实时 AI 模式依赖共享免费额度，耗尽后需使用自己的 Opper 账户付费；README 说明登录用户始终使用自己的额度，经典脚本幽灵仍可免费玩。作者所说每局约 2 美分是估算，实际开销随模式、模型和时长变化。",
+        "默认首页展示的是录制对局。评测使用结构化迷宫状态与预先计算的路线信息；超过 2 秒或出错的回答会由简单规则接替，不能把分数当作纯模型表现或通用智能排名。",
+        "榜单由 Opper 自行运行，成绩及延迟尚未独立复测；其方法将误差范围重叠的分数列为并列。社区自报结果的回放只能核对游戏过程与分数，无法证明模型身份、真实延迟、成本或是否挑选了最佳对局。",
+        "仓库采用 AGPL-3.0-or-later；README 提醒修改后作为服务提供时应向用户提供相应源码。发布时间为本次 Show HN 发帖时间，不代表首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50007993"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50007993.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://opper.ai/jevman-benchmark/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://opper.ai/jevman-benchmark/leaderboard.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/opper-ai/jevman-benchmark"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/opper-ai/jevman-benchmark/main/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/opper-ai/jevman-benchmark/blob/main/CONTRIBUTING.md#benchmark-your-own-model"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/opper-ai/jevman-benchmark/main/CONTRIBUTING.md"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "AI 决策模型",
+        "模型评测",
+        "吃豆人",
+        "开源",
+        "在线演示"
+      ]
+    },
+    {
+      "id": "hacker_news:50007527",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50007527",
+      "title": "Ember：会随任务超时顺延的级联日程网页演示",
+      "url": "https://demo.emberflow.space/",
+      "canonicalUrl": "https://demo.emberflow.space/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50007527",
+      "hnUrl": "https://news.ycombinator.com/item?id=50007527",
+      "publishedAt": "2026-10-08T16:04:11Z",
+      "discoveredAt": "2026-10-08T16:42:49.344713Z",
+      "audience": "经常排下超过一天容量的任务、需要根据实际进度调整计划的人。",
+      "what": "带免注册网页演示的任务与日程规划工具。官网介绍，用户列出任务后，Ember 按可用时间安排一天；任务超时会让后续事项顺延，放不下的任务留在 overflow。界面区分逐项完成的工作与可并行的会议、后台事项；核心排程不依赖 AI，AI 为可选功能。",
+      "why": "作者未说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50007527",
+          "https://emberflow.space/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、官方 API、官网及演示公开文件；云端浏览器成功显示 Schedule/Captures 双窗格、预填任务与日程，以及“改动保留在此浏览器”的演示提示。未点击编辑、输入任务、提交表单、登录、连接日历、配置 AI、安装或购买；顺延排程、同步与 AI 效果未实测。",
+        "checkedAt": "2026-10-08T16:43:15.043955Z"
+      },
+      "caveats": [
+        "本条目聚焦公开演示，页面明确提示改动仅保留在当前浏览器。官网标注正式产品仍为 beta，并列有候补及付费支持者入口，演示可访问不代表正式账号立即开放。",
+        "级联顺延、跨日安排与可选 AI 的效果依据官方说明，未验证真实任务排程、持久化、日历同步或数据隐私。",
+        "HN 原帖没有制作动机正文，唯一子评论在官方 API 中标为 dead，未从中推断作者经历；来源帖时间不代表首次上线。",
+        "HN 投稿账号与产品制作方之间的身份对应未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50007527"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50007527.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://emberflow.space/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.emberflow.space/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.emberflow.space/assets/index-DRkrNeql.js"
+        },
+        {
+          "type": "official_site",
+          "url": "https://demo.emberflow.space/schedule?p2=captures"
+        }
+      ],
+      "tags": [
+        "日程规划",
+        "任务管理",
+        "网页演示",
+        "Beta"
+      ]
+    },
+    {
+      "id": "hacker_news:50007383",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50007383",
+      "title": "Convertix：免注册的浏览器图片转文字 OCR 工具",
+      "url": "https://convertix-fast-imager-co.blogspot.com/p/convertix-extract-text-from-image.html",
+      "canonicalUrl": "https://convertix-fast-imager-co.blogspot.com/p/convertix-extract-text-from-image.html",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50007383",
+      "hnUrl": "https://news.ycombinator.com/item?id=50007383",
+      "publishedAt": "2026-10-08T15:53:59Z",
+      "discoveredAt": "2026-10-08T16:42:49.344713Z",
+      "audience": "想从截图、照片或扫描件提取可编辑文字的学生、研究者及日常文档使用者。",
+      "what": "免费免注册的图片 OCR 网页。页面提供本地选图、拖放或粘贴截图入口，可选择包括简体中文、英语、日语在内的 12 种语言，识别结果可编辑、复制或下载为 TXT。公开页面代码使用 Tesseract.js 在浏览器中识别，官方称图片无需上传到服务器。",
+      "why": "作者未说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50007383",
+          "https://convertix-fast-imager-co.blogspot.com/p/convertix-extract-text-from-image.html"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已只读核对 HN 原帖、官方 API、产品页和隐私政策；HTML 含文件选择、语言菜单、文字输出及下载控件，脚本引用 Tesseract.js 并调用 recognize。未选择或粘贴图片、提交表单、运行 OCR 或下载结果，未验证识别速度、准确率及运行时网络行为。",
+        "checkedAt": "2026-10-08T16:42:49.344713Z"
+      },
+      "caveats": [
+        "首次识别需要下载语言数据；官网说明约 10 MB，耗时会受到网络与设备影响，未实测其“秒出”或后续“即时”宣传。",
+        "识别质量依赖图片分辨率、对比度、文字方向和语言选择；官方说明手写及装饰字体明显比印刷文字更难识别。",
+        "图片本地处理是官方说明及代码所示路径，并非独立隐私审计。隐私政策另说明访问日志、Google Analytics、广告及 Cookie；不可将其理解为整个网站没有追踪或外部请求。",
+        "来源帖没有作者正文或可用评论，作者个人制作动机未说明；发布时间仅为本次 Show HN 发帖时间。",
+        "HN 投稿账号与产品制作方之间的身份对应未独立核实。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50007383"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50007383.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://convertix-fast-imager-co.blogspot.com/p/convertix-extract-text-from-image.html"
+        },
+        {
+          "type": "official_site",
+          "url": "https://convertix-fast-imager-co.blogspot.com/p/privacy-policy.html"
+        }
+      ],
+      "tags": [
+        "OCR",
+        "图片转文字",
+        "浏览器工具",
+        "免费工具"
+      ]
+    },
     {
       "id": "hacker_news:50006936",
       "provider": "hacker_news",
