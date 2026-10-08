@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T10:45:15.045892Z",
-  "count": 299,
+  "updatedAt": "2026-10-08T10:47:33.607926Z",
+  "count": 298,
   "projects": [
     {
       "id": "hacker_news:50004081",
@@ -120,63 +120,6 @@
         "自托管",
         "安全",
         "Web 管理台"
-      ]
-    },
-    {
-      "id": "hacker_news:50003965",
-      "provider": "hacker_news",
-      "source": "show_hn",
-      "sourceId": "50003965",
-      "title": "Gutsy 本地决策模型 Web 演示",
-      "url": "https://github.com/kouhxp/gutsy",
-      "canonicalUrl": "https://github.com/kouhxp/gutsy",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50003965",
-      "hnUrl": "https://news.ycombinator.com/item?id=50003965",
-      "publishedAt": "2026-10-08T10:11:28Z",
-      "discoveredAt": "2026-10-08T10:42:16.583996Z",
-      "what": "CPU 本地运行的决策模型及一组浏览器演示：支持工单分流、对反馈表逐行提问、模型路由、依据材料评估陈述等，将文本或 JSON 状态转成类型化问题的选项概率。",
-      "audience": "需要试验本地分类、分流与结构化判断的开发者；本条收录其可自托管 Web 演示。",
-      "why": "作者未说明个人制作动机。官方说明产品目标是本地、可校准的决策概率，而非生成长文本；HN 发帖账号 mrkn1 与仓库作者的身份关系未核实。",
-      "whySource": {
-        "status": "not_stated",
-        "urls": [
-          "https://news.ycombinator.com/item?id=50003965",
-          "https://github.com/kouhxp/gutsy"
-        ]
-      },
-      "verification": {
-        "status": "source_reviewed",
-        "summary": "已核对 HN 原帖、官方 API 时间与第一方网页资料；未安装、登录或执行功能。",
-        "checkedAt": "2026-10-08T10:42:16.583996Z"
-      },
-      "caveats": [
-        "不是免安装在线服务：浏览器页面依赖自托管本地推理服务和模型文件；已读取工单与反馈表示例源码，未安装模型或运行推理。",
-        "演示数据为虚构数据，结果须由本地模型产生；性能与准确率是项目自报，未复现。",
-        "官方标明仅英语，数字日期运算和陌生多步骤规则较弱；启用 CORS 会允许访问的网页请求本地服务。",
-        "来源帖子时间不代表产品首次上线；未独立验证性能、需求或收入。"
-      ],
-      "sources": [
-        {
-          "type": "discussion",
-          "url": "https://news.ycombinator.com/item?id=50003965"
-        },
-        {
-          "type": "source_metadata",
-          "url": "https://hacker-news.firebaseio.com/v0/item/50003965.json"
-        },
-        {
-          "type": "repository",
-          "url": "https://github.com/kouhxp/gutsy"
-        },
-        {
-          "type": "repository",
-          "url": "https://github.com/kouhxp/gutsy/tree/main/gutsy-inference/examples"
-        }
-      ],
-      "tags": [
-        "自托管",
-        "Web 演示",
-        "本地 AI"
       ]
     },
     {
