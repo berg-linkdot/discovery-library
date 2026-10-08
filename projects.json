@@ -1,9 +1,279 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T18:45:41.564849Z",
-  "count": 340,
+  "updatedAt": "2026-10-08T19:46:37.221035Z",
+  "count": 344,
   "projects": [
+    {
+      "id": "hacker_news:50010564",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50010564",
+      "title": "AgentSocialX：把个人知识与观点做成可对话的第二大脑网络",
+      "url": "https://agentsocialx.com/",
+      "canonicalUrl": "https://agentsocialx.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50010564",
+      "hnUrl": "https://news.ycombinator.com/item?id=50010564",
+      "publishedAt": "2026-10-08T19:12:12Z",
+      "discoveredAt": "2026-10-08T19:45:34.613067Z",
+      "audience": "希望分享专业知识、通过 AI 分身回答问题并发现合适联系人的创始人、投资者、研究者、教育者和教练。",
+      "what": "一个围绕个人“第二大脑”组织的知识与社交网站。官方说明，用户可选择连接或导入个人资料、文章、文档及 AI 对话记录，构建反映自己知识与表达方式的 AI 分身；其他人可发现这些分身、提问，并在所有者允许时请求联系真人。首页提供创建入口，但进入后需通过 LinkedIn 或 X 登录。",
+      "why": "HN 投稿人 ximihoque 表示，互联网内容的生产速度远超人类消化速度，而智能体可以更快处理，因此想建立供人们构建或接入第二大脑的网络，让智能体从中学习。其“100 倍”表述是作者目标或宣传说法，本轮没有验证性能。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50010564"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网首页、定价、条款和隐私页，并在云浏览器点击创建入口确认其转到 LinkedIn／X 登录界面。核查时 HN 无评论。未登录、注册、导入资料、连接账号、构建第二大脑、聊天或联系他人，核心回答和匹配效果未实测。",
+        "checkedAt": "2026-10-08T19:45:34.613067Z"
+      },
+      "caveats": [
+        "定价页宣传前 1,000 个第二大脑永久免费，核查时显示 76 个已领取；这是站方展示，名额、长期政策及实际使用额度未独立验证，不能理解为所有用户永久无限免费。",
+        "隐私页说明，相关内容会发送给 AI 模型服务商，提问和会话内容可能向第二大脑所有者展示；公开分身的回答可能利用导入资料。导入工作文件或聊天记录前应自行核对可见范围与数据使用条款，本轮未验证隐私控制的实际效果。",
+        "站方明确提示 AI 回答可能与真人观点不一致，不构成本人的原话、背书或承诺。首页的用户数量、公司标识及效率主张均未独立核验。",
+        "HN 投稿账号与官网作者身份的对应关系未独立核实；本条发布时间是 Show HN 投稿时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50010564"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50010564.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentsocialx.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentsocialx.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentsocialx.com/terms"
+        },
+        {
+          "type": "official_site",
+          "url": "https://agentsocialx.com/privacy"
+        }
+      ],
+      "tags": [
+        "AI 分身",
+        "知识分享",
+        "第二大脑",
+        "专业社交"
+      ]
+    },
+    {
+      "id": "hacker_news:50010430",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50010430",
+      "title": "Star Dewar：重制 TW2002 的太空贸易与争夺网页游戏",
+      "url": "https://stardewar.com/",
+      "canonicalUrl": "https://stardewar.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50010430",
+      "hnUrl": "https://news.ycombinator.com/item?id=50010430",
+      "publishedAt": "2026-10-08T19:02:35Z",
+      "discoveredAt": "2026-10-08T19:45:34.613067Z",
+      "audience": "喜欢经典 BBS 游戏、太空贸易、轻量多人策略和赛季式经营的玩家。",
+      "what": "HN 将其介绍为经典 BBS 游戏 TW2002 的现代重制版。官网提供太空贸易网页游戏入口及完整帮助文档：玩家在六边形星区地图探索港口、买卖三类货物、安排自动贸易路线、升级飞船、战斗和殖民行星。帮助页说明采用 14 天赛季，行动回合随时间补充；另有无需账号的九星区私人教程，进度存于浏览器。",
+      "why": "未找到作者解释个人制作缘由。HN 投稿仅将项目描述为 TW2002 的现代重制版，没有正文或评论补充创作动机；不据此推断作者的怀旧经历或其他原因。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50010430",
+          "https://stardewar.com/help"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖和官方 API，并在云浏览器查看官网、当前帮助页及第二赛季公开排行榜。首页显示 v1.11.0、第二赛季第 1／14 天，以及注册、登录和教程入口；排行榜可正常显示。核查时 HN 无正文及评论。未创建账号、启动教程或实际游玩，交易、战斗、存档与多人同步均未实测。",
+        "checkedAt": "2026-10-08T19:45:34.613067Z"
+      },
+      "caveats": [
+        "无需账号的教程及其本地保存机制来自当前官方帮助说明，本轮未启动教程验证。正式赛季提供注册／登录入口，未核实账号流程或移动端体验。",
+        "帮助页说明每个赛季重新开始，飞船、货币、行星和排名不跨赛季保留；玩家需要接受周期性重置及行动回合限制。",
+        "直接抓取官网返回 403，云浏览器可正常读取；网页读取工具返回了较早版本的首页和帮助内容，本条以当次云浏览器看到的 v1.11.0 页面为准。未独立核验游戏平衡、活跃玩家规模、长期运营或与原作的授权关系。",
+        "HN 投稿账号与官网作者身份的对应关系未独立核实；本条发布时间是 Show HN 投稿时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50010430"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50010430.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stardewar.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stardewar.com/help"
+        },
+        {
+          "type": "official_site",
+          "url": "https://stardewar.com/s2/leaderboard"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "太空贸易",
+        "多人策略",
+        "BBS",
+        "赛季制"
+      ]
+    },
+    {
+      "id": "hacker_news:50010301",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50010301",
+      "title": "Dealophant：按单位价格比较 Amazon 美国站商品",
+      "url": "https://dealophant.com/",
+      "canonicalUrl": "https://dealophant.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50010301",
+      "hnUrl": "https://news.ycombinator.com/item?id=50010301",
+      "publishedAt": "2026-10-08T18:53:11Z",
+      "discoveredAt": "2026-10-08T19:44:29Z",
+      "audience": "在 Amazon 美国站购买日用品，希望把不同包装规格换算成每盎司、每件或每百张价格再比较的消费者。",
+      "what": "提供浏览器搜索入口，官方介绍会读取 Amazon 商品数据、解析标题中的数量并辅助分类，把可比较的商品按单位价格排序；不同单位体系单独列为 Other formats，避免把每份、每盎司或每件混在一起。官网提供纸品、洗衣用品、咖啡胶囊等分类入口；纸巾与厕纸按每百张比较。",
+      "why": "未知：已核查的 HN 原帖与官网没有可读的作者个人制作缘由。官网说明了方便比较不同包装单价的产品用途，但不能据此推断作者经历或动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50010301",
+          "https://dealophant.com/",
+          "https://dealophant.com/how-it-works"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已实时读取 HN 原帖 HTML、官方 API 元数据及唯一子评论记录；评论仅显示 [dead]，没有可用正文。网页读取工具返回标注为当日抓取的官网首页和计算方法页；直接 HTTP 读取官网及公开搜索接口均返回 403，因此不能把抓取内容视为实时功能验证。未实际运行浏览器搜索、点击购买、登录或下单。",
+        "checkedAt": "2026-10-08T19:44:29Z"
+      },
+      "caveats": [
+        "只覆盖 Amazon 美国站、美元价格，不适用于其他国家站点或其他商家；官网称无有效购物车报价的商品会被排除。",
+        "单位数量来自标题解析、模型分类与 Amazon 字段，可能误判包装、浓缩品或缺失数量；最低单位价不等于质量最佳，也不保证覆盖全部商品。",
+        "官网自述搜索时获取价格并提供时间戳，本轮未能实时核验搜索结果；页面抓取内容、分类覆盖及价格时效均可能与当前服务不同，购买前须在 Amazon 确认。",
+        "官网标示免费，并披露出站链接使用 Amazon Associates 佣金标签；排序不受佣金影响是站方自述，未独立审计。",
+        "HN 投稿账号与官网作者身份的对应关系未独立核实；本条发布时间是 Show HN 投稿时间，不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50010301"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50010301.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50010307.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dealophant.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://dealophant.com/how-it-works"
+        }
+      ],
+      "tags": [
+        "购物比价",
+        "单位价格",
+        "Amazon",
+        "美国",
+        "日用品"
+      ]
+    },
+    {
+      "id": "hacker_news:50010250",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50010250",
+      "title": "Aura：带个人图谱记忆和定时任务的自托管 AI 网页工作台",
+      "url": "https://github.com/chetto1983/Aura",
+      "canonicalUrl": "https://github.com/chetto1983/Aura",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50010250",
+      "hnUrl": "https://news.ycombinator.com/item?id=50010250",
+      "publishedAt": "2026-10-08T18:50:13Z",
+      "discoveredAt": "2026-10-08T19:44:29Z",
+      "audience": "有服务器运维能力，希望自行托管多人 AI 助手、选择模型供应商，并保留各自长期记忆与任务记录的开发者和小型组织。",
+      "what": "MIT 开源的自托管 AI 代理，提供内嵌 React 网页工作台。官方文档描述了聊天、带来源与有效时间的图谱记忆、文档检索、定时代理任务、工具调用审批及模型设置；每个登录身份有自己的记忆数据库与工作空间。可以选择云端模型或本地模型，并扩展 MCP 工具及 Telegram 等渠道。",
+      "why": "未知：HN 原帖没有正文，唯一子评论只显示 [flagged]；已阅读的官方 README 和技术概览介绍了自控基础设施与持续工作的产品目标，没有明确说明作者个人为何开始制作。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50010250",
+          "https://github.com/chetto1983/Aura",
+          "https://github.com/chetto1983/Aura/blob/master/docs/TECHNICAL_OVERVIEW.md"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已实时读取 HN 页面、官方 API 及子评论状态，并读取官方仓库、原始 README、技术概览和比较文档。文档明确列出内嵌网页工作台及部署后浏览器入口，因此符合可自托管 Web 工具范围。未安装、部署、创建账号、配置模型或连接第三方服务，功能、安全隔离和记忆效果均未实测。",
+        "checkedAt": "2026-10-08T19:44:29Z"
+      },
+      "caveats": [
+        "需要自行部署 Docker Compose 多服务环境，并非打开链接即可使用的托管服务。README 列出目标机 4 核 CPU、14 GiB 可用内存与 20 GiB 空闲磁盘等要求，实际用量取决于模型和配置。",
+        "自托管数据不代表全程离线：选择云端模型会向对应提供商发送上下文，外部集成也会联系其服务；模型与基础设施成本需自行承担。",
+        "官方技术概览明确提醒，默认安装不等于经过加固、适合互不信任用户的隔离环境；严格沙箱路径依赖原生 Linux。代理具有终端、文件及外部工具能力，部署前须审查权限边界。",
+        "项目的功能、测试覆盖和隔离描述来自官方文档，本轮未独立审计。HN 投稿账号与仓库作者的身份对应未另行核实；发布时间指本次 Show HN 投稿。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50010250"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50010250.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50010262.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/chetto1983/Aura"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/chetto1983/Aura/master/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/chetto1983/Aura/blob/master/docs/TECHNICAL_OVERVIEW.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/chetto1983/Aura/master/docs/TECHNICAL_OVERVIEW.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/chetto1983/Aura/master/docs/COMPARISON.md"
+        }
+      ],
+      "tags": [
+        "AI 助手",
+        "自托管",
+        "网页工作台",
+        "长期记忆",
+        "任务调度",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:50009928",
       "provider": "hacker_news",
