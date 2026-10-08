@@ -1,9 +1,509 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T14:46:46.178311Z",
-  "count": 322,
+  "updatedAt": "2026-10-08T15:48:52.827604Z",
+  "count": 330,
   "projects": [
+    {
+      "id": "hacker_news:50006936",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006936",
+      "title": "Nucleus：以 DOM 为状态的网页开发演示与在线代码学习站",
+      "url": "https://nucleus.excom.dev/",
+      "canonicalUrl": "https://nucleus.excom.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006936",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006936",
+      "publishedAt": "2026-10-08T15:24:01Z",
+      "discoveredAt": "2026-10-08T15:46:57Z",
+      "audience": "希望学习声明式网页交互、比较前端架构，或在少量应用 JavaScript 和免构建流程下制作网页的开发者。",
+      "what": "MIT 开源 Nucleus 技术栈的文档与在线演示网站。页面将可编辑的 HTML、Quark 与 CSS 源码和真实应用预览放在一起，可查看待办事项、温度换算、计时器等例子；另有可浏览的虚构家具商城 Wrenfield。底层以实时 DOM 作为应用状态，用类似 CSS 的 Quark 规则协调属性、列表、事件和数据获取，本条目聚焦无需安装即可访问的学习与演示体验。",
+      "why": "HN 作者 joe-excom 自称独立开发者 Joe，表示最初的动机是网页一直缺少简单、原生的办法把数据映射到文档；常见框架维护 JavaScript 状态副本，再把 DOM 当作输出。他受 CSS 已有的属性内容能力启发，制作直接改写文档的 Quark，希望用声明式规则和很少的应用 JavaScript 构建复杂网页。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006944"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取 HN 原帖、官方 API 与作者评论，核对官网介绍、限制页和仓库；在云端浏览器观察到待办列表及温度换算器的实际预览与源码编辑区，并从 Wrenfield 首页进入 Tresco Sofa 商品详情。未填写或提交表单、修改示例代码、添加待办、登录、使用通行密钥、购物结账或安装工具；换算计算、数据持久化及 3D/AR 未实测。",
+        "checkedAt": "2026-10-08T15:46:57Z"
+      },
+      "caveats": [
+        "这是开发技术的学习与演示站；Wrenfield 明确是虚构商城，不收款、不发货，其商品、价格及配送承诺均为演示内容。",
+        "技术栈仍处于 beta。文档说明部分能力依赖较新的浏览器 API；本次仅在云端浏览器查看，未做跨浏览器或移动设备兼容测试。",
+        "Quark 规则失去匹配后不会自动撤销，需自行编写反向规则；与 React 等管理自身 DOM 状态的框架整合时需要明确边界。大规模节点、逐帧动画等场景也有已知限制。",
+        "作者关于零应用 JavaScript、体积与生产使用的说明不是独立性能或安全验证；发布时间为本次 Show HN 发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006936"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006936.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006944"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006944.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nucleus.excom.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nucleus.excom.dev/docs/introduction.md"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nucleus.excom.dev/examples/temperature"
+        },
+        {
+          "type": "official_site",
+          "url": "https://nucleus.excom.dev/docs/limitations"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wrenfield.excom.dev/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wrenfield.excom.dev/shop/seating/tresco-sofa"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/excom-dev/nucleus"
+        }
+      ],
+      "tags": [
+        "开发者工具",
+        "在线演示",
+        "前端开发",
+        "声明式编程",
+        "开源",
+        "Beta"
+      ]
+    },
+    {
+      "id": "hacker_news:50006930",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006930",
+      "title": "Diffle：键盘优先的自托管 Git 差异审阅网页",
+      "url": "https://github.com/moritzwilksch/diffle",
+      "canonicalUrl": "https://github.com/moritzwilksch/diffle",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006930",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006930",
+      "publishedAt": "2026-10-08T15:23:19Z",
+      "discoveredAt": "2026-10-08T15:44:58.164214Z",
+      "what": "在本机启动服务后，用浏览器查看 Git 工作区、提交或 PR 的差异，按行、代码块和文件留批注；支持键盘导航和已有语言服务器的定义跳转，并可把批注整理给编码代理或 GitHub 待提交审阅。",
+      "audience": "需要仔细审阅代理生成代码、偏好键盘操作的开发者。",
+      "why": "作者未说明个人制作动机。官方 README 说明它借鉴 difit，目标是在浏览器完成差异审阅和批注交接；HN 提交者身份未独立核实。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006930",
+          "https://github.com/moritzwilksch/diffle"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "读取 HN 原帖和官方 README，确认实际浏览器界面与本地服务启动方式；不是仅有命令行的 diff 工具。",
+        "checkedAt": "2026-10-08T15:44:58.164214Z"
+      },
+      "caveats": [
+        "需要本地安装并运行服务，不是开箱即用的托管在线审阅网站；本轮未安装、启动或连接仓库。",
+        "LSP 会在仓库中通过 shell 启动，官方提示其可读取当前用户可访问的文件；GitHub 功能需要授权，未测试。",
+        "未验证审阅正确性、性能或安全性；来源帖时间不代表首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006930"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006930.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/moritzwilksch/diffle"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/moritzwilksch/diffle/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50006805",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006805",
+      "title": "Bud Decision Studio：自托管决策模型网页工作台",
+      "url": "https://github.com/BudEcosystem/Bud-Decision-Studio",
+      "canonicalUrl": "https://github.com/BudEcosystem/Bud-Decision-Studio",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006805",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006805",
+      "publishedAt": "2026-10-08T15:12:52Z",
+      "discoveredAt": "2026-10-08T15:44:58.164214Z",
+      "what": "在自己的电脑上运行开放决策模型，以网页 Playground、评估、历史记录和模型管理界面输入情境与问题，查看答案概率；也提供桌面壳和兼容 Jev 的本地 API。",
+      "audience": "试验小型决策模型、分类和路由工作流的开发者与研究人员。",
+      "why": "作者未说明个人制作动机。官方定位是让开放的 Jev 风格决策模型更容易在本机运行、比较和集成；HN 提交者与项目的关系未独立核实。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006805",
+          "https://github.com/BudEcosystem/Bud-Decision-Studio"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "核对 HN 原帖及官方 README。虽然主要提供桌面安装包，README 明确给出从源码启动本地服务、在浏览器打开界面的方式及 Web UI 架构，按自托管 Web 应用收录。",
+        "checkedAt": "2026-10-08T15:44:58.164214Z"
+      },
+      "caveats": [
+        "需要本地环境、模型下载及相应算力；未安装软件、下载权重或实际运行推理。",
+        "官方列出的毫秒级速度、概率校准及训练提升是项目自述，未独立复测，不代表任何重要决策可靠性。",
+        "各模型有各自许可；页面提到的隐私和访问控制未审计。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006805"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006805.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/BudEcosystem/Bud-Decision-Studio"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/BudEcosystem/Bud-Decision-Studio/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50006728",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006728",
+      "title": "Image Shift：判断照片裁切位置的网页视觉游戏",
+      "url": "https://image-shift.xyz/",
+      "canonicalUrl": "https://image-shift.xyz/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006728",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006728",
+      "publishedAt": "2026-10-08T15:06:23Z",
+      "discoveredAt": "2026-10-08T15:47:14Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006728"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006728.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006729"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006729.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://image-shift.xyz/"
+        }
+      ],
+      "audience": "喜欢短篇视觉解谜、希望尝试图片相对位置判断，或关注视觉模型局限的玩家与研究者。",
+      "what": "给出同一照片的两块裁切，要求把可拖动的一块放到中央参照片段的正确相对位置。官网起始界面显示每局五轮，说明每轮三分之一的分数取决于速度，计时从照片出现时开始；另有匿名选项与教程入口。",
+      "why": "作者未说明个人创作动机。HN 作者 abbassix 的评论只解释了两块图片之间的相对位置判断玩法。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006728",
+          "https://news.ycombinator.com/item?id=50006729"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 及作者玩法评论；官网在云端浏览器成功加载，核对起始说明、五轮计数、速度计分说明与教程入口。未输入姓名、启动游戏、提交答案或验证排行榜。",
+        "checkedAt": "2026-10-08T15:47:14Z"
+      },
+      "caveats": [
+        "HN 标题声称大模型不擅长此游戏，但已读页面未提供可复核的模型评测结果，不能据此得出普遍能力结论。",
+        "本轮仅核对游戏入口和说明，未实际完成拖动、计分或五轮流程；官网的首次上线时间未核实。"
+      ],
+      "tags": [
+        "网页游戏",
+        "视觉解谜",
+        "图片定位"
+      ]
+    },
+    {
+      "id": "hacker_news:50006699",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006699",
+      "title": "mob.so：人与浏览器代理共用的协作留言板",
+      "url": "https://mob.so/",
+      "canonicalUrl": "https://mob.so/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006699",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006699",
+      "publishedAt": "2026-10-08T15:03:51Z",
+      "discoveredAt": "2026-10-08T15:47:14Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006699"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006699.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mob.so/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mob.so/guide"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mob.so/agents"
+        }
+      ],
+      "audience": "同时使用多个具备浏览器操作能力的 AI 代理，希望让它们共享上下文、交换发现，并由人参与讨论的用户。",
+      "what": "托管式网页留言板，让人和不同代理通过同一套浏览器界面阅读、发帖、回复、编辑和交换文件。官方文档提供编辑链接与独立只读链接，并支持 Markdown 形式的消息流；首页标示免费，文件限制为单个 100 MB、每个工作区 1 GB，上传七天后过期。",
+      "why": "HN 作者 david_shi 说，Muse、Grok 等代理各自能访问互联网的不同部分，但让它们协作仍需大量复制粘贴，因此自己制作 mob.so，给代理一个留下发现并接续彼此工作的共同空间。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006699"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 作者原帖与官方 API；核对首页公开文本，并在云端浏览器打开 Guide 和 Using mob with agents，确认操作方式、访问链接、文件限制及调度边界。未创建或编辑帖子、输入参与者名称、上传文件、分享链接或连接代理。",
+        "checkedAt": "2026-10-08T15:47:14Z"
+      },
+      "caveats": [
+        "代理参与写作需要真正能点击和填写网页的浏览器工具；普通网页搜索或文本读取能力不够，官方文档称无需 MCP 或发帖 API。",
+        "编辑链接本身授予写权限，持有只读链接的人可以查看帖子和文件；参与者名称自选，不等同身份认证。分享链接前应确认内容及接收范围。",
+        "@提及不会自动启动其他代理；定时回访依赖各代理所在应用的调度能力。",
+        "文件七天后过期，不宜用作长期唯一存储；发帖、编辑、实时同步及多代理协作尚未实测。"
+      ],
+      "tags": [
+        "AI 代理",
+        "协作",
+        "留言板",
+        "浏览器工具"
+      ]
+    },
+    {
+      "id": "hacker_news:50006657",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006657",
+      "title": "VM Explorer：带模拟演示的自托管 Linux 服务器网页管理台",
+      "url": "https://vm-explorer.com/",
+      "canonicalUrl": "https://vm-explorer.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006657",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006657",
+      "publishedAt": "2026-10-08T15:01:23Z",
+      "discoveredAt": "2026-10-08T15:46:57Z",
+      "audience": "管理 Linux VPS、家庭实验室或多台服务器，希望在浏览器集中查看资源、使用终端、处理文件和分配团队权限的开发者与系统管理员。",
+      "what": "需要在自己的 Linux 主机部署后台服务的商业网页管理工具，官网提供免登录模拟沙盒。功能包括 CPU、内存、磁盘与网络监控、网页 PTY 终端、文件浏览与编辑，以及较高许可档位的跨服务器 HTTPS 后台传输、临时分享链接、权限控制与审计日志。官方定价按节点数量和功能分为一次性许可，不是直接替用户托管服务器的云服务。",
+      "why": "HN 作者 dev-drav 表示，最初只是想方便地把文件传入传出自己的虚拟机，不喜欢用 scp，便临时运行 Python HTTP 服务；但查看日志、启停服务仍要切换到 SSH，于是希望把这些操作集中到一个网页。他先做 HTTPS 文件管理器，再为其加入认证、角色和权限，并在自己及工作场景使用数月后公开。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006667"
+        ]
+      },
+      "verification": {
+        "status": "interactive_demo",
+        "summary": "已读取 HN 原帖、官方 API 与作者评论，核对官网、部署文档和价格页；在云端浏览器通过 Try Live Demo 进入模拟仪表盘，再打开文件管理页，观察到示例资源指标、进程及目录。公开前端代码也表明演示使用生成指标和虚拟文件系统。未登录、提交表单、安装服务、连接真实主机、执行终端命令、传输或修改文件、调整权限或购买。",
+        "checkedAt": "2026-10-08T15:46:57Z"
+      },
+      "caveats": [
+        "在线演示是模拟数据与虚拟文件系统，不能据此确认真实监控精度、终端行为或跨主机传输可靠性。正式使用需要自行部署 Linux 后台服务和配置网络、TLS 及应用账户。",
+        "作者说明后台作为 root 级 systemd 服务运行；官方文档默认生成自签名证书，也提供受信任证书配置方式。权限隔离、认证、审计不可篡改性与其他安全承诺未独立审计。",
+        "核查时官网标价为 Solo 1 台 49.99 美元、Pro 最多 5 台 99.99 美元、Cluster 最多 20 台 249.99 美元的一次性许可；跨 VM 传输从 Pro 起，细粒度 RBAC 和安全审计仅列于 Cluster。结账税费未核验。",
+        "文档说明首次激活和新许可第 30 天的单次验证依赖许可服务器，验证失败有 14 天宽限；长期离线与终身更新均为厂商承诺。公开官网 HTML 包含 Google Analytics 与 Cloudflare Insights 脚本，不能把零遥测宣传泛化到所有网页；自托管服务的数据流未验证。",
+        "本次只核对公开资料和沙盒界面；发布时间为本次 Show HN 发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006657"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006657.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006667"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006667.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vm-explorer.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vm-explorer.com/dashboard"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vm-explorer.com/files"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vm-explorer.com/docs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vm-explorer.com/pricing"
+        },
+        {
+          "type": "official_site",
+          "url": "https://vm-explorer.com/assets/index-PW7KAUe1.js"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "Linux",
+        "服务器管理",
+        "网页终端",
+        "文件管理",
+        "模拟演示",
+        "付费许可"
+      ]
+    },
+    {
+      "id": "hacker_news:50006573",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006573",
+      "title": "IronBee Gamer：带本地网页控制台的游戏代理训练工具（自托管）",
+      "url": "https://github.com/ironbee-ai/ironbee-gamer",
+      "canonicalUrl": "https://github.com/ironbee-ai/ironbee-gamer",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006573",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006573",
+      "publishedAt": "2026-10-08T14:56:14Z",
+      "discoveredAt": "2026-10-08T15:47:14Z",
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006573"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006573.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ironbee-ai/ironbee-gamer"
+        },
+        {
+          "type": "repository",
+          "url": "https://raw.githubusercontent.com/ironbee-ai/ironbee-gamer/main/README.md"
+        }
+      ],
+      "audience": "愿意安装并自托管工具、希望观察或训练 AI 操作浏览器游戏的开发者、模型实验者与游戏代理研究者。",
+      "what": "源码可见的本地网页应用及命令行工具：从浏览器游戏页面提取状态，由 LLM 编写游戏规则，再让本地 Laya 模型或托管 Jev 引擎逐步决策。网页控制台并排展示游戏画面、所见状态、动作和概率，支持游戏库、训练及添加游戏；实际使用需要自行安装运行，并非直接可玩的托管演示。",
+      "why": "作者未说明个人创作动机。HN 提交只有标题和仓库链接，已读 README 主要介绍游戏代理架构、训练方法与操作方式。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006573",
+          "https://github.com/ironbee-ai/ironbee-gamer"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖与官方 API，核对官方仓库和 README 的本地网页 UI、安装依赖、引擎、训练、时钟模式、权限提示及许可说明。未安装、下载模型、运行服务、登录训练 CLI、输入 API 密钥或验证游戏表现。",
+        "checkedAt": "2026-10-08T15:47:14Z"
+      },
+      "caveats": [
+        "这是需要自行部署的本地网页应用。Laya 需要 Python 环境及每个游戏约 700 MB 的模型；训练或添加游戏需要已安装并登录的 Claude Code 或 Codex CLI，Jev 则需要其 API 密钥。",
+        "标题的约 30 ms 和 README 的本地 GPU 延迟均未独立测量。工具默认可在每次决策时暂停游戏时钟，实时模式另行训练和验证，不能把暂停模式成绩当成正常实时游戏表现。",
+        "README 明确提醒训练器权限差异：其描述的 Codex 配置可以只读访问运行用户的文件，游戏页面中的恶意文本可能诱导训练器把文件内容写入规则；未审计权限隔离或安全性。",
+        "仓库采用 Elastic License 2.0，应按该许可证确认使用限制；本条不将源码公开等同于无条件的开源许可。",
+        "游戏支持、训练保留策略与效果均为仓库自述，未复现实验；publishedAt 是本次 HN 发帖时间。"
+      ],
+      "tags": [
+        "自托管",
+        "本地网页应用",
+        "AI 代理",
+        "游戏自动化",
+        "模型训练"
+      ]
+    },
+    {
+      "id": "hacker_news:50006366",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50006366",
+      "title": "Tanzania Education Project：坦桑尼亚乡村助学项目网站",
+      "url": "https://tanzaniaeducationproject.org/",
+      "canonicalUrl": "https://tanzaniaeducationproject.org",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006366",
+      "hnUrl": "https://news.ycombinator.com/item?id=50006366",
+      "publishedAt": "2026-10-08T14:39:47Z",
+      "discoveredAt": "2026-10-08T15:44:58.164214Z",
+      "what": "介绍坦桑尼亚 Njombe 地区的长期助学计划、项目背景、常见问题与公开支持入口的网站。",
+      "audience": "想了解小规模长期教育公益项目的读者与潜在支持者。",
+      "why": "发帖人自述，旅行期间认识当地社区并开始长期承担教育费用，后来希望把由个人持续支持的计划扩展出去；他想探索稳定的教育机会能如何影响一个村庄。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50006366"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "阅读 HN 原帖、发帖人的公开回复和官网首页，确认网站提供公益项目介绍与支持入口；仅做信息网站收录。",
+        "checkedAt": "2026-10-08T15:44:58.164214Z"
+      },
+      "caveats": [
+        "项目成效、组织登记、款项用途和管理成本均属发帖人或网站自述，本轮未独立核验，也不构成捐款建议。",
+        "未捐款、提交表单或联系项目；摘要不转载受助人的个人资料。",
+        "这是可见重叠窗口补收，原帖发表于本轮起点前；发帖时间不是项目或网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50006366"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50006366.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://tanzaniaeducationproject.org/"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50006352",
       "provider": "hacker_news",
