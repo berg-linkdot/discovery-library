@@ -1,9 +1,248 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T21:44:38.898945Z",
-  "count": 356,
+  "updatedAt": "2026-10-08T22:47:17.901664Z",
+  "count": 360,
   "projects": [
+    {
+      "id": "hacker_news:50013022",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50013022",
+      "title": "Human Nutrition Facts：把人体组成做成欧盟食品包装标签的趣味网页",
+      "url": "https://human-nutrition.anishsheela.com/",
+      "canonicalUrl": "https://human-nutrition.anishsheela.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50013022",
+      "hnUrl": "https://news.ycombinator.com/item?id=50013022",
+      "publishedAt": "2026-10-08T22:02:30Z",
+      "discoveredAt": "2026-10-08T22:46:06Z",
+      "audience": "对人体组成、信息可视化与包装设计感兴趣的成年人，尤其是喜欢 xkcd 式科学脑洞的读者。",
+      "what": "一个英德双语的趣味标签生成器：用成年人的年龄、身高、体重、性别及可选体脂比例估算身体组成，再以食品包装展开图呈现能量、脂肪、蛋白质、维生素、矿物质和元素分布。页面提供默认样例、可展开的模型说明、打印及复制链接入口；内容是关于人体组成的思想实验。",
+      "why": "官网明确写明，创意来自一支 xkcd 视频，希望用食品标签的形式呈现关于人体组成的思想实验。公开 HN 帖没有补充作者个人经历或更详细的制作缘由。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://human-nutrition.anishsheela.com/",
+          "https://news.ycombinator.com/item?id=50013022"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖与官方 API，核查时没有评论；在云浏览器查看默认样例、表单、标签结果及展开的方法说明，并读取官网公开页面源码。未填写个人资料、提交表单、打印或复制分享链接，未验证个性化计算与实际打印效果。",
+        "checkedAt": "2026-10-08T22:46:06Z"
+      },
+      "caveats": [
+        "官网明确仅供成年人的趣味思想实验，群体层面的估算误差可能达到 ±20% 或更高，不能用于医学问题、营养评估或个人健康决策。",
+        "标签中的“保质期”使用德国人口寿命表的统计估计，并非个人寿命预测；所展示的营养与微量元素数值没有经过独立科学验证。",
+        "官网称计算在浏览器本地完成；公开源码会将生成标签所用的性别、年龄、身高、体重和可选体脂写入 URL 片段。向别人发送结果链接会一并分享这些信息；本轮未进行完整隐私或网络审计。",
+        "HN 投稿账号 aneeshnl 与网站所署作者身份的对应关系未独立核实；发布时间指 HN 投稿时间，不代表产品首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50013022"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50013022.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://human-nutrition.anishsheela.com/"
+        }
+      ],
+      "tags": [
+        "趣味科普",
+        "人体组成",
+        "标签生成",
+        "数据可视化",
+        "浏览器工具"
+      ]
+    },
+    {
+      "id": "hacker_news:50012938",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50012938",
+      "title": "Awesomer：按收藏增长趋势浏览 awesome 清单中的 GitHub 项目",
+      "url": "https://patrickclery.com/awesomer/",
+      "canonicalUrl": "https://patrickclery.com/awesomer/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50012938",
+      "hnUrl": "https://news.ycombinator.com/item?id=50012938",
+      "publishedAt": "2026-10-08T21:55:08Z",
+      "discoveredAt": "2026-10-08T22:45:06.702526Z",
+      "audience": "希望从主题清单中发现开源工具、寻找近期活跃项目的开发者和开源爱好者。",
+      "what": "将社区维护的 awesome 资源清单做成可浏览的开源项目趋势目录，展示 GitHub stars 总量及 7、30、90 天变化。公开首页展示 37 份清单和约 9,000 个仓库，按主题进入细分目录；作者称每天 11:00 UTC 用本地任务更新数据并重新部署网站。这里的 awesome list 是社区策划的主题资源目录，并非质量认证。",
+      "why": "作者 patrickclery 在 HN 自述，自己常用 awesome 清单发现开源项目，却发现它们往往既不按字母也不按趋势排序，因此做了这个网站满足自己的需求；他也希望将它加入求职作品集，并称目前没有从中赚钱。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50012938"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖和官方 API、作者仓库 README 与线上目录；可读取清单名称、项目总量及趋势数据，没有登录、安装或提交。",
+        "checkedAt": "2026-10-08T22:45:06.702526Z"
+      },
+      "caveats": [
+        "stars 增长只是 GitHub 上的关注指标，不等于真实使用量、付费需求、收入或质量；作者的未盈利自述未经独立验证。",
+        "已读公开首页、项目 README 和 HN 原帖；未逐一审计收录仓库、验证趋势计算或连续观察每日刷新。",
+        "HN 投稿时间不是网站首次上线时间；未核实作者线下身份。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50012938"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50012938.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://patrickclery.com/awesomer/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/patrickclery/awesomer"
+        }
+      ],
+      "tags": [
+        "开源发现",
+        "GitHub",
+        "趋势目录"
+      ]
+    },
+    {
+      "id": "hacker_news:50012880",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50012880",
+      "title": "Titan Engine：带在线表格与浏览器基准演示的 Rust/WASM 计算引擎",
+      "url": "https://podraven.github.io/titan-engine/",
+      "canonicalUrl": "https://podraven.github.io/titan-engine/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50012880",
+      "hnUrl": "https://news.ycombinator.com/item?id=50012880",
+      "publishedAt": "2026-10-08T21:51:03Z",
+      "discoveredAt": "2026-10-08T22:46:06Z",
+      "audience": "正在开发网页表格、数据网格或大量关联公式，希望考察浏览器计算引擎的前端开发者。",
+      "what": "用 Rust 编写并编译为 WebAssembly 的无界面表格计算引擎，提供 JavaScript 包装层、A1 单元格寻址、批量更新、依赖变化通知以及常用算术、逻辑、查找和聚合函数。官方网页除集成文档外，还提供已加载样例数据的 Glide 表格演示，以及可在浏览器运行的 Titan 与 HyperFormula 十类场景基准页面，因此可作为直接查看演示的技术网站收录。",
+      "why": "作者在官方 README 中说明，他想让大型表格重新计算时减少 JavaScript 对象分配，以及数据跨 WebAssembly 边界序列化所耗费的时间；设计上优先考虑浏览器性能，而非严格复现 Excel 的全部内部行为。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://github.com/podraven/titan-engine#readme"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 及当时唯一一条非作者评论，并核对官方 README、主页和基准页。云浏览器确认主页加载了表格样例、公式输入栏与重算耗时显示，基准页有十类测试及运行按钮。未编辑单元格、执行基准、安装包或测试集成，性能和公式正确性未独立验证。",
+        "checkedAt": "2026-10-08T22:46:06Z"
+      },
+      "caveats": [
+        "核心产品是供开发者集成的计算引擎，网页表格是演示；并非已经验证具备完整文件管理、协作和 Excel 导入导出能力的办公套件。",
+        "官网的加速倍数、亚毫秒延迟和流畅度属于作者展示，不能作为独立评测结论；基准页也提示 CPU、电源模式和浏览器扩展会影响耗时，本轮未重跑。",
+        "README 明确优先考虑浏览器性能，不追求与 Excel 内部行为严格一一对应；公式兼容性、边界情况、错误处理和大规模数据正确性仍需按实际业务验证。",
+        "演示依赖浏览器加载 JavaScript、WebAssembly 及第三方 CDN 资源；跨浏览器兼容性、供应链安全和生产可靠性未经审计。",
+        "HN 投稿账号 deathg0d 与仓库作者身份的对应关系未独立核实；发布时间为 HN 投稿时间，不代表项目首次发布。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50012880"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50012880.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50013274.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/podraven/titan-engine"
+        },
+        {
+          "type": "official_site",
+          "url": "https://podraven.github.io/titan-engine/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://podraven.github.io/titan-engine/benchmark.html"
+        }
+      ],
+      "tags": [
+        "电子表格",
+        "WebAssembly",
+        "Rust",
+        "开发者工具",
+        "在线演示",
+        "性能基准"
+      ]
+    },
+    {
+      "id": "hacker_news:50012818",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50012818",
+      "title": "Weather Ribbon：用全年气候色带与图表浏览城市季节变化",
+      "url": "https://weatherribbon.com/",
+      "canonicalUrl": "https://weatherribbon.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50012818",
+      "hnUrl": "https://news.ycombinator.com/item?id=50012818",
+      "publishedAt": "2026-10-08T21:46:44Z",
+      "discoveredAt": "2026-10-08T22:45:06.702526Z",
+      "audience": "想了解城市全年季节规律、做气候比较，或研究开放气候可视化的旅行者、居民与开发者。",
+      "what": "开源城市气候网站，以色带的颜色表示月均温、宽度表示降水量，并提供逐月温度、降雨、降雪、湿度、云量、风速、日照和空气质量图表。README 说明主要气候数据为 1991–2020 年的 30 年常态值，来自 NASA POWER 的 MERRA-2 数据；空气质量来自 Open-Meteo 的 CAMS 数据。数据预先下载，页面以静态 SVG 展示，也可自行部署。",
+      "why": "作者 seizethecheese 在 HN 自述，喜欢全年天气可视化网站，但常用网站塞满展示广告，因此想做一个自己的开源版本。作者还说明使用 Agent Duel 辅助生成代码；仓库说明该项目支持网站托管费用。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50012818"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API、仓库 README，并在云浏览器查看旧金山城市页的已加载色带、月度图表、数据来源和说明；未提交位置或个人资料。",
+        "checkedAt": "2026-10-08T22:45:06.702526Z"
+      },
+      "caveats": [
+        "展示的是长期气候概况及预取数据，不是实时天气预报；不要把长期均值当作具体出行日期的天气。",
+        "旧金山页面的空气质量类别天数汇总明显超过一年 365 天，存在统计或展示口径疑点；未审计数据处理和图表计算，不能据此作健康决策。",
+        "云浏览器已打开旧金山页并看到完整月份和气候图表；普通 HTTP 读取主页及城市页返回 403，但浏览器可读。未测试所有城市、下载、复制和自托管。",
+        "HN 账号与仓库维护者身份对应关系未独立核实；HN 投稿时间不代表首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50012818"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50012818.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://weatherribbon.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://weatherribbon.com/city/san-francisco"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/micjm/WeatherRibbon"
+        }
+      ],
+      "tags": [
+        "气候可视化",
+        "城市",
+        "开源",
+        "可自托管"
+      ]
+    },
     {
       "id": "hacker_news:50012261",
       "provider": "hacker_news",
