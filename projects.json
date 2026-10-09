@@ -1,9 +1,71 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T07:39:59.822633Z",
-  "count": 373,
+  "updatedAt": "2026-10-09T08:41:17.578205Z",
+  "count": 374,
   "projects": [
+    {
+      "id": "hacker_news:50017369",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50017369",
+      "title": "cliphou.se",
+      "url": "https://cliphou.se/",
+      "canonicalUrl": "https://cliphou.se/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50017369",
+      "hnUrl": "https://news.ycombinator.com/item?id=50017369",
+      "publishedAt": "2026-10-09T07:45:48Z",
+      "discoveredAt": "2026-10-09T08:41:17.578205Z",
+      "what": "可在浏览器中浏览和改写动态视频模板的网站，按产品发布、社交广告、活动推广等用途筛选；提供文字和配色编辑界面，并可把 React/Remotion 模板源码或规格交给编码智能体继续加工。",
+      "audience": "需要产品发布视频、社交短片或活动宣传素材的独立开发者、创业者、营销人员和内容创作者。",
+      "why": "HN 发帖者 dsco 自称制作者，说明希望让开发者在产品发布时更快、更省成本地加入视频，并能把模板的完整 Remotion 代码接入自己的工作流；未进一步说明个人起因。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50017369"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已阅读 HN 原帖及作者回复，核对官方 API 时间、官网 About 和公开模板详情；观察到模板预览及编辑、下载入口，未提交修改或导出。",
+        "checkedAt": "2026-10-09T08:41:17.578205Z"
+      },
+      "caveats": [
+        "浏览和编辑无需账号是官网说明；收藏、保存私有编辑涉及登录，本次未测试。",
+        "模板页显示 MP4 下载入口，但 About 对导出的说明侧重下载 Remotion 项目再渲染；本次未验证在线导出是否成功或完整工作流。",
+        "作者身份仅依据 HN 账号自述，未核实真实身份；节省时间和成本是作者目标，未量化验证。",
+        "模板页的模型名称、生成质量和商用许可为站方标注，本次未独立核验模型归属、版权或授权适用性。",
+        "HN 新帖不代表网站刚上线；公开模板详情已有更早的更新日期。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50017369"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50017396"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50017369.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cliphou.se/about/"
+        }
+      ],
+      "tags": [
+        "视频",
+        "动态设计",
+        "在线编辑",
+        "Remotion"
+      ]
+    },
     {
       "id": "hacker_news:50017252",
       "provider": "hacker_news",
