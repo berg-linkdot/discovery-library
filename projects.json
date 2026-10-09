@@ -1,9 +1,117 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T06:43:50.874297Z",
-  "count": 371,
+  "updatedAt": "2026-10-09T07:39:59.822633Z",
+  "count": 373,
   "projects": [
+    {
+      "id": "hacker_news:50017252",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50017252",
+      "title": "QuakeImpact",
+      "url": "https://quakeimpact.ca/",
+      "canonicalUrl": "https://quakeimpact.ca/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50017252",
+      "hnUrl": "https://news.ycombinator.com/item?id=50017252",
+      "publishedAt": "2026-10-09T07:30:14Z",
+      "discoveredAt": "2026-10-09T07:39:59.822633Z",
+      "what": "面向公众的温哥华及卑诗省低陆平原地震影响资料站，把公开报告整理成震后数小时、数天至数月的生活情景，并按供水、电力、交通、食品和住房等系统提供来源与准备指南。",
+      "audience": "大温哥华地区居民、家庭和社区应急志愿者；其他地震地区读者可了解信息组织方式，但不能直接套用当地情景。",
+      "why": "作者 Thomas Tartière 在 HN 原帖和 About 页面说明：多年前听过一场基础设施地震脆弱性讲座，后来担任当地法国社区应急联络志愿者，发现许多居民没有应急物资；因此希望将分散、面向专家的技术报告改写为普通家庭能理解的影响说明，推动居民提前准备。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50017252",
+          "https://quakeimpact.ca/about/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间和官网公开资料；仅进行只读核查。",
+        "checkedAt": "2026-10-09T07:39:59.822633Z"
+      },
+      "caveats": [
+        "这是个人公民项目，页面标为草稿、仍在审查；不是政府或领事馆官方信息。",
+        "作者说明利用生成式 AI 汇总资料并自行复核，也明确自己不是地震或岩土工程专家；本次未逐项验证其引用及灾害影响数值。",
+        "情景不是地震预测；具体应急行动应遵循当地主管部门最新指引。",
+        "HN 发帖时间不等于网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50017252"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50017252.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://quakeimpact.ca/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://quakeimpact.ca/about/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50016840",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50016840",
+      "title": "OldRoll Web",
+      "url": "https://www.oldroll.io/",
+      "canonicalUrl": "https://www.oldroll.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016840",
+      "hnUrl": "https://news.ycombinator.com/item?id=50016840",
+      "publishedAt": "2026-10-09T06:40:14Z",
+      "discoveredAt": "2026-10-09T07:39:59.822633Z",
+      "what": "浏览器复古照片编辑器，提供胶片、早期数码相机、Y2K、90 年代和 VHS 等视觉效果，以及光色调整、边框、贴纸和拼图入口。Y2K 在此指千禧年前后的早期数码视觉风格。",
+      "audience": "希望制作怀旧照片、社交媒体配图、封面或日常影像的创作者与摄影爱好者。",
+      "why": "作者未说明个人制作原因。官网只说明产品目标：把 OldRoll 的相机风格带到浏览器，让用户无需安装应用即可处理已有照片；HN 投稿账号与官方团队的具体关系未独立确认。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://www.oldroll.io/about",
+          "https://news.ycombinator.com/item?id=50016840"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间和官网公开资料；仅进行只读核查。",
+        "checkedAt": "2026-10-09T07:39:59.822633Z"
+      },
+      "caveats": [
+        "已看到网页编辑器及添加照片入口，未上传照片、实测滤镜或导出，也未审计照片处理与隐私机制。",
+        "官网将当前网页版称为上线期间免费；价格及免费范围可能变化。",
+        "官网展示的下载量、评分和评价主要来自移动应用，不能视为网页版需求、收入或使用量验证。",
+        "About 页面自述网页版于 2026 年 9 月推出；本条日期是 HN 发帖时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50016840"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50016840.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.oldroll.io/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.oldroll.io/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.oldroll.io/editor"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50016459",
       "provider": "hacker_news",
