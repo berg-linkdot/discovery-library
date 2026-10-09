@@ -1,9 +1,152 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T13:42:58.235707Z",
-  "count": 384,
+  "updatedAt": "2026-10-09T14:43:16.195454Z",
+  "count": 387,
   "projects": [
+    {
+      "id": "hacker_news:50020908",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50020908",
+      "title": "SoldFetch：eBay 已售商品查询与数据工具",
+      "url": "https://soldfetch.com/",
+      "canonicalUrl": "https://soldfetch.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50020908",
+      "hnUrl": "https://news.ycombinator.com/item?id=50020908",
+      "publishedAt": "2026-10-09T14:19:17Z",
+      "discoveredAt": "2026-10-09T14:43:16.195454Z",
+      "what": "提供 eBay 已售商品、分类和单品资料查询，包含网页查询工具、预设 API 演示，以及 REST 和 MCP 接口。可查看展示价格、成色、运费及可用卖家资料。",
+      "audience": "需要研究二手商品价格的卖家、定价工具开发者和 AI 代理开发者。",
+      "why": "作者未说明个人制作起因。HN 发帖账号 qwikhost 介绍目标是服务转售商和开发者，官网强调用统一接口减少自行维护抓取流程的工作；账号与运营者身份关系未独立确认。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://soldfetch.com/",
+          "https://news.ycombinator.com/item?id=50020908"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与官网公开说明；未注册、连接账户或执行服务功能。",
+        "checkedAt": "2026-10-09T14:43:16.195454Z"
+      },
+      "caveats": [
+        "网页初始响应明确标为示例，不是实时数据；未提交查询、申请 API key 或调用接口。",
+        "已售页面的展示价格不保证是最终成交金额，官网也标注价格及售出日期的不确定性。",
+        "未验证数据覆盖、服务可靠性、收入或市场需求；HN 新帖不代表网站刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50020908"
+        },
+        {
+          "type": "official_site",
+          "url": "https://soldfetch.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50020908.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50020552",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50020552",
+      "title": "Cosmo Cargo：太空背包自动战斗网页试玩",
+      "url": "https://pixelnest.itch.io/cosmo-cargo",
+      "canonicalUrl": "https://pixelnest.itch.io/cosmo-cargo",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50020552",
+      "hnUrl": "https://news.ycombinator.com/item?id=50020552",
+      "publishedAt": "2026-10-09T13:50:56Z",
+      "discoveredAt": "2026-10-09T14:43:16.195454Z",
+      "what": "Pixelnest Studio 的太空策略游戏，提供 HTML5 网页试玩。玩家安排飞船物品、组合效果、招募船员，在航行和自动战斗中升级配置。",
+      "audience": "喜欢物品搭配、Roguelite 和太空策略游戏的玩家。",
+      "why": "作者未说明具体制作起因。发帖者 valryon 自称发布了自己的游戏演示，标题说受到 FTL 启发；FTL 是以飞船管理和太空冒险为主题的独立游戏。官网将作品归于 Pixelnest Studio，未独立确认发帖者的团队职务。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://pixelnest.itch.io/cosmo-cargo",
+          "https://news.ycombinator.com/item?id=50020552"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与官网公开说明；未注册、连接账户或执行服务功能。",
+        "checkedAt": "2026-10-09T14:43:16.195454Z"
+      },
+      "caveats": [
+        "实时页面提供 Run game 与 HTML5 平台标记，但本次只读页面，未启动或实玩游戏。",
+        "仍在开发中，官方提示素材、音效和机制尚未定稿，可能遇到错误或卡关。",
+        "官网有更早的网页演示更新记录，不能把本次 HN 发帖当作首次上线。",
+        "未验证销量、收入或玩家需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50020552"
+        },
+        {
+          "type": "official_site",
+          "url": "https://pixelnest.itch.io/cosmo-cargo"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50020552.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50020490",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50020490",
+      "title": "Credit Upside：信用卡消费回报比较工具",
+      "url": "https://creditupside.com/",
+      "canonicalUrl": "https://creditupside.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50020490",
+      "hnUrl": "https://news.ycombinator.com/item?id=50020490",
+      "publishedAt": "2026-10-09T13:46:44Z",
+      "discoveredAt": "2026-10-09T14:43:16.195454Z",
+      "what": "网页工具，将消费记录与用户持有信用卡的回报规则比较，显示可能错过的积分或返现、未用权益及期限；也提供样例演示、卡片资料和回报计算器。",
+      "audience": "持有多张美国等支持地区信用卡、希望整理回报与年费的用户；不代表支持中国大陆银行卡。",
+      "why": "官网署名创办人 Eric 自述：他持有六张卡，原有表格总把收益算得偏高，因此想重新核算实际回报，先做成自己需要的工具。HN 账号 creditupside 与该个人的对应关系未独立确认。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://creditupside.com/about",
+          "https://news.ycombinator.com/item?id=50020490"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与官网公开说明；未注册、连接账户或执行服务功能。",
+        "checkedAt": "2026-10-09T14:43:16.195454Z"
+      },
+      "caveats": [
+        "依据官网及 About 页核对；About 页通过网页读取工具取得，未独立验证创办人身份。",
+        "未上传账单、注册、连接银行或核验计算结果；本地解析、只读银行连接与隐私保障均为官网说明。",
+        "积分估值、卡片条款和年费会影响结果，应另查发卡机构现行规则；本记录不是办卡或投资建议。",
+        "未核实收入、节省金额或市场需求；HN 发帖日期不是首次上线日期。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50020490"
+        },
+        {
+          "type": "official_site",
+          "url": "https://creditupside.com/about"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50020490.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50019926",
       "provider": "hacker_news",
