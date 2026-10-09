@@ -1,9 +1,110 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T19:42:30Z",
-  "count": 407,
+  "updatedAt": "2026-10-09T21:43:15Z",
+  "count": 409,
   "projects": [
+    {
+      "id": "hacker_news:50026449",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50026449",
+      "title": "Wingral",
+      "url": "https://wingral.com/demo",
+      "canonicalUrl": "https://wingral.com/demo",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50026449",
+      "hnUrl": "https://news.ycombinator.com/item?id=50026449",
+      "publishedAt": "2026-10-09T20:53:46Z",
+      "discoveredAt": "2026-10-09T21:43:15Z",
+      "what": "将创意、设计、文案或定价方案做成问题与选项，通过分享链接收集真人投票及理由，再查看结果报告以辅助方案选择。",
+      "audience": "需要比较方案的独立开发者、产品团队、设计师和营销人员（根据功能推断）；须自行邀请用户、客户或团队参与。",
+      "why": "作者未说明具体制作原因。HN 发帖者 georgi_g94 自称独立开发者及 Wingral 创始人 Georgi，介绍了产品目标和使用流程，但未解释个人创作缘由。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50026454"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖、创始人评论及官方 API；官网与 Demo 访问受限，未注册、投票或提交表单。",
+        "checkedAt": "2026-10-09T21:43:15Z"
+      },
+      "caveats": [
+        "官网和公开 Demo 本次均返回 HTTP 403，实际界面与功能未验证；用途描述依据创始人在 HN 的一手介绍。",
+        "作者称 Demo 无需注册并提供免费计划，未验证当前收费、投票质量或报告效果；平台不提供测试参与者。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50026449"
+        },
+        {
+          "type": "official_site",
+          "url": "https://wingral.com/demo"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50026449.json"
+        },
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50026454"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50026431",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50026431",
+      "title": "Memdebug（自托管）",
+      "url": "https://github.com/juraj-jumic/memdebug",
+      "canonicalUrl": "https://github.com/juraj-jumic/memdebug",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50026431",
+      "hnUrl": "https://news.ycombinator.com/item?id=50026431",
+      "publishedAt": "2026-10-09T20:51:42Z",
+      "discoveredAt": "2026-10-09T21:43:15Z",
+      "what": "本地 AI 智能体记忆审查工具，附只读浏览器界面，可查看时间线、快照、差异与完整性记录；回滚操作仍通过命令行确认执行。",
+      "audience": "能访问本地 Markdown、Git、Open WebUI 或自托管 Mem0 记忆的开发者和高级用户。",
+      "why": "作者 Termich 在 HN 评论说，买电脑试用开放模型时发现智能体会创建自己没有明确要求的记忆，因此想知道记忆如何、何时发生变化，并检查外部文本可能写入的恶意指令。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50026516"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已核对 HN 原帖及作者评论、官方 README 和浏览器查看器使用文档；未运行软件。",
+        "checkedAt": "2026-10-09T21:43:15Z"
+      },
+      "caveats": [
+        "需自行安装并本地运行；浏览器查看器仅绑定本机地址，不是在线托管服务。本次未安装、启动或验证回滚。",
+        "项目仍为 alpha；可疑措辞提示存在漏报和误报，不能阻止实时攻击，也不能普遍证明是哪次对话造成了修改。",
+        "仅能检查可访问的本地记忆，不支持读取 ChatGPT 等云端产品内部记忆；安全、隐私及测试覆盖声明未独立审计。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50026431"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/juraj-jumic/memdebug"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50026431.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/juraj-jumic/memdebug/blob/main/docs/usage.md"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50025619",
       "provider": "hacker_news",
