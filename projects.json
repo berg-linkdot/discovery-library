@@ -1,9 +1,167 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T00:48:22.328358Z",
-  "count": 363,
+  "updatedAt": "2026-10-09T01:43:58.016836Z",
+  "count": 365,
   "projects": [
+    {
+      "id": "hacker_news:50014690",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50014690",
+      "title": "My YaCy Node：通过 YaCy 对等网络搜索网页的浏览器原型",
+      "url": "https://search.my-yacy-node.org/",
+      "canonicalUrl": "https://search.my-yacy-node.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50014690",
+      "hnUrl": "https://news.ycombinator.com/item?id=50014690",
+      "publishedAt": "2026-10-09T01:02:09Z",
+      "discoveredAt": "2026-10-09T01:43:11.259758Z",
+      "audience": "对去中心化网页搜索感兴趣、愿意尝试实验性搜索结果的用户，以及研究 YaCy 网络或搭建自托管搜索栈的开发者。",
+      "what": "一个可直接打开的网页搜索演示，使用 SearXNG 界面连接作者的 YaCy 搜索实现；首页提供搜索框，并明确说明结果来自自动抓取与 YaCy 对等网络。作者希望提高查询速度与结果相关性，尤其是包含多个词的查询。其官方开源仓库把 YaCy 节点拆成小型 Go 服务，并提供从浏览器搜索对等网络到自建索引的部署文档；这些组件也可用于自行搭建搜索服务。",
+      "why": "作者在 HN 原帖明确表示，自己觉得 YaCy 的 Java 参考实现提供的搜索结果质量较差，因此制作了这个原型，尝试更快地返回更相关的结果，特别是改进多词查询，并希望收集使用反馈。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50014690"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖页面及官方 API，核查时没有评论；核对演示首页 HTML、关于页、首页直接链接的官方仓库 README、搜索栈指南和搜索服务规范。首页首次访问返回 HTTP 429，随后正常返回 HTTP 200，确认存在实际搜索表单。未在浏览器渲染页面、提交搜索词、登录、安装或部署服务，也未测试搜索结果、延迟、排序质量及安全性。",
+        "checkedAt": "2026-10-09T01:43:11.259758Z"
+      },
+      "caveats": [
+        "作者明确称其为原型，仓库说明仍在积极开发，部分功能尚未实现，部分行为与 Java 参考实现不同；“更快”和“更相关”是作者目标，本次没有基准测试或独立验证。",
+        "搜索质量依赖 YaCy 网络中参与节点的索引覆盖与新鲜度。官方搜索服务规范也承认这一限制；不能据此假定其覆盖范围、结果完整性或排序质量可替代成熟搜索引擎。",
+        "演示首页声明维护者不创作、挑选或批准搜索内容，也不能控制其他节点分发的内容；查询结果可能包含不适宜或不可靠信息，需要自行判断。",
+        "网页表单会把查询发送到该演示服务器，搜索服务再向对等节点查询。SearXNG 关于页的通用隐私描述不等于本实例的独立隐私保证；未核实日志保留或数据处理方式，不宜输入敏感内容。",
+        "本轮曾遇到 HTTP 429，随后首页恢复正常；服务容量、可用性和完整搜索流程未验证。HN 发布时间仅指本次投稿，不代表底层项目首次发布。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50014690"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50014690.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://search.my-yacy-node.org/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://search.my-yacy-node.org/info/en/about"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nikitakarpei/my-yacy-node"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nikitakarpei/my-yacy-node/blob/main/doc/build-your-own-search-stack/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nikitakarpei/my-yacy-node/blob/main/services/yacydhtsearch/doc/specification.md"
+        }
+      ],
+      "tags": [
+        "网页搜索",
+        "去中心化",
+        "YaCy",
+        "SearXNG",
+        "自托管",
+        "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:50014659",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50014659",
+      "title": "Nace Document Intelligence：带原文定位的文档解析与结构化提取平台",
+      "url": "https://www.nace.ai/ndi",
+      "canonicalUrl": "https://www.nace.ai/ndi",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50014659",
+      "hnUrl": "https://news.ycombinator.com/item?id=50014659",
+      "publishedAt": "2026-10-09T00:58:25Z",
+      "discoveredAt": "2026-10-09T01:43:45.834146Z",
+      "audience": "需要把发票、合同、扫描件、表格等文件接入 AI 工作流，并让提取结果能够回到原文核对的开发者、文档处理团队和企业。",
+      "what": "托管文档处理平台，提供网页 Console 入口和公开开发文档，可通过 API、Python/TypeScript SDK、CLI 或 MCP 接入。NDI 提供解析、拆分、分类、字段提取和原文定位五类任务；官方称覆盖 36 种文件类型，结果可关联页码与边界框、表格单元格或音视频时间段。字段提取按指定结构输出，并区分找到、缺失或存在歧义。平台与 Drex 决策模型共用账户、API 密钥和余额，Console 文档还说明了浏览器 Playground、用量图表及 CSV 导出。",
+      "why": "官方在 2026 年 10 月 8 日的发布文章中说明：实际代理工作流往往从发票、合同、扫描件等杂乱文件开始，传统 OCR 容易丢失结构，而逐页调用通用大模型成本较高，因此专门构建 NDI，把文件转为保留证据位置的结构化信息，供后续代理使用。这是公司对产品创作缘由的自述；HN 投稿者与团队的关系及其个人动机未获得独立确认。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.nace.ai/blog/document-intelligence-launch"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 官方 API 原帖、官网开发者页、NDI 产品页、10 月 8 日官方发布文章、公开 Console 文档及登录入口。HN 原帖没有正文和评论。Console 入口跳转登录页；公开文档确认存在网页 Playground、用量及账单管理，并详细列出文档任务和输出结构。未注册、登录、上传文件、调用模型、创建密钥或实际执行任何文档处理，未验证登录后的 NDI 操作界面。",
+        "checkedAt": "2026-10-09T01:43:45.834146Z"
+      },
+      "caveats": [
+        "需要账户；本次只读取公开资料和登录页，官网样例是官方展示，不代表本次实测成功。Console 中已公开说明的 Playground 属于共享平台功能，未验证 NDI 是否能在网页中完成全部处理步骤。",
+        "“36 种文件类型”不表示五种任务均支持所有格式：官方格式表中音频和视频仅支持解析与原文定位；其他格式也有任务差异。",
+        "文档任务按工具、页数或定位目标消耗余额；高精度解析模式会使部分任务的积分翻倍。各工具当前单价需在 Console 的 Models & pricing 中核对，官方性能比较中的每千页成本不应直接当作个人账户报价。",
+        "官方计费文档称文档任务结束时扣费，已受理任务可能使余额变为负数；保存银行卡并开启自动支付后，超出赠送或充值余额的用量会另行计费。",
+        "结果与生成文件会按服务保留规则到期，具体时间体现在任务的 payload_expires_at；不能将平台当作永久文件存储。",
+        "精度、成本优势和“不以客户数据训练”等说法来自官方，未独立复测或审计。涉及财务、法律或其他敏感文件时，应先核对数据处理及保留条款，并人工复核提取结果。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50014659"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50014659.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nace.ai/developers"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nace.ai/ndi"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.nace.ai/blog/document-intelligence-launch"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.nace.ai/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.nace.ai/docs/perception/documents"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.nace.ai/docs/perception/format-support"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.nace.ai/docs/perception/jobs"
+        },
+        {
+          "type": "official_site",
+          "url": "https://console.nace.ai/docs/drex/reference/pricing"
+        }
+      ],
+      "tags": [
+        "文档处理",
+        "结构化提取",
+        "OCR",
+        "原文溯源",
+        "AI",
+        "开发者工具",
+        "托管服务"
+      ]
+    },
     {
       "id": "hacker_news:50014150",
       "provider": "hacker_news",
