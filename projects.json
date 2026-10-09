@@ -1,9 +1,68 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T02:45:59.956512Z",
-  "count": 366,
+  "updatedAt": "2026-10-09T04:40:08.331513Z",
+  "count": 367,
   "projects": [
+    {
+      "id": "hacker_news:50015833",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50015833",
+      "title": "hangul.ink：在浏览器中逐笔生成韩文手写动画",
+      "url": "https://hangul.ink/",
+      "canonicalUrl": "https://hangul.ink/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50015833",
+      "hnUrl": "https://news.ycombinator.com/item?id=50015833",
+      "publishedAt": "2026-10-09T03:58:16Z",
+      "discoveredAt": "2026-10-09T04:40:08.331513Z",
+      "what": "输入韩文或选择预设短句，由小型循环神经网络逐点生成笔画、笔压和落笔/抬笔序列，并显示为手写动画。官网称模型完全在浏览器运行，生成结果可导出为动画 SVG 或笔画 JSON；这是可直接打开的在线演示，不需自行部署。Hangul 指韩文使用的谚文字母，项目配合 10 月 9 日的韩文节发布。",
+      "audience": "对韩语书写、生成式模型可视化感兴趣的学习者、开发者和创意工作者；不懂韩文的访客也可从带英文释义的示例了解演示。",
+      "why": "署名 Jonathan Baudanza 的作者在官网文章中明确说，这个项目结合了自己对生成式 AI 和韩语的兴趣；他想从零训练自己的生成模型，通过犯错、修正来学习，并做出新的东西。作者表示没有找到可比的韩文笔画数据，因此自行组织采集训练数据。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://hangul.ink/blog/hangul-day"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、官网首页与作者署名文章；核查时 HN 无评论。浏览器可见韩文输入框、预设短句、参数控件，模型加载后显示已就绪。未输入文本、点击生成、提交表单或下载结果，未安装或运行仓库代码。",
+        "checkedAt": "2026-10-09T04:40:08.331513Z"
+      },
+      "caveats": [
+        "作者称训练数据来自一位书写者，约 4,500 行，风格与覆盖范围有限；这不是书写准确性或规范笔顺的教学认证。",
+        "完全本地运行、参数规模及导出能力来自官方说明，本次未验证网络数据流、生成效果、导出流程或隐私安全。",
+        "HN 发帖账号为 jbaudanza，官网作者署名为 Jonathan Baudanza，两者与链接的数据集账号一致；未独立认证其线下身份。",
+        "“首个公开可用韩文手写模型”等排他性说法未独立验证，不作为事实或需求、收入验证；作者表示后续可能转向音频模型。",
+        "官网文章标注 2026 年 10 月 9 日发布；HN 时间是此次投稿时间，不等同于网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50015833"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50015833.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hangul.ink/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://hangul.ink/blog/hangul-day"
+        }
+      ],
+      "tags": [
+        "韩语",
+        "手写生成",
+        "在线演示",
+        "生成式 AI",
+        "浏览器本地运行"
+      ]
+    },
     {
       "id": "hacker_news:50014690",
       "provider": "hacker_news",
