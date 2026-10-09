@@ -1,9 +1,110 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T09:44:06.180838Z",
-  "count": 376,
+  "updatedAt": "2026-10-09T11:43:28.376952Z",
+  "count": 378,
   "projects": [
+    {
+      "id": "hacker_news:50018882",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50018882",
+      "title": "All Things Banana：通往香蕉词条的维基百科小游戏",
+      "url": "https://allthingsbanana.com/",
+      "canonicalUrl": "https://allthingsbanana.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018882",
+      "hnUrl": "https://news.ycombinator.com/item?id=50018882",
+      "publishedAt": "2026-10-09T11:12:59Z",
+      "discoveredAt": "2026-10-09T11:43:28.376952Z",
+      "what": "作者介绍的香蕉主题网站，核心游戏 Bananadle 要求玩家从指定的维基百科页面出发，尽量少点链接到达 banana（香蕉）词条；帖子标题还提到香蕉新闻与价格栏目，这两部分未核实。",
+      "audience": "喜欢维基百科词条跳转、每日文字解谜和轻松主题网站的访客；受众依据玩法归纳。",
+      "why": "HN 发帖者 nicknnamsa 自称制作者，说明求职困难、容易浪费时间，因此在空闲时间借助编码智能体制作这个游戏和网站，作为自己动手做东西的尝试。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50018882"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "核对 HN 作者原帖和官方 API 时间；官网读取返回 403，无法核对实际页面与游戏，功能描述以作者自述为限。",
+        "checkedAt": "2026-10-09T11:43:28.376952Z"
+      },
+      "caveats": [
+        "官网当前未能读取，未试玩，无法确认游戏、每日更新、新闻和价格数据的可用性或准确性。",
+        "作者身份仅依据 HN 自述，未独立核验；HN 新帖不证明网站刚上线，也不构成用户需求或收入验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50018882"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50018882.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://allthingsbanana.com/"
+        }
+      ],
+      "tags": [
+        "网页游戏",
+        "维基百科",
+        "核查受限"
+      ]
+    },
+    {
+      "id": "hacker_news:50018802",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50018802",
+      "title": "CropGuide：为现有上传表单加入浏览器图片裁剪",
+      "url": "https://cropguide.io/",
+      "canonicalUrl": "https://cropguide.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018802",
+      "hnUrl": "https://news.ycombinator.com/item?id=50018802",
+      "publishedAt": "2026-10-09T11:01:56Z",
+      "discoveredAt": "2026-10-09T11:43:28.376952Z",
+      "what": "通过网页管理工具配置图片要求，再把脚本标签接入现有文件上传框，让访客在浏览器中裁剪、缩放、压缩、校验和转换图片后继续原来的上传流程。官网提供公开演示入口，无需先安装本地软件。",
+      "audience": "不写代码、使用无代码建站平台，或希望改善用户上传图片质量的网站经营者与开发者。",
+      "why": "HN 作者 rikschennink 说明，团队希望让不写代码或受平台限制的人也能改善上传图片质量；同时不希望在自己的服务器存储或处理用户图片，因此选择在客户端完成编辑，只从服务端获取图片要求。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50018802"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "核对 HN 作者介绍、官方 API 与官网实时页面，确认公开演示的文件选择入口；未选择或上传图片、注册账号或配置实际网站。",
+        "checkedAt": "2026-10-09T11:43:28.376952Z"
+      },
+      "caveats": [
+        "浏览器本地处理、隐私保障和平台兼容性为官方说明，未独立检查网络传输或做安全审计。",
+        "演示说明要求方形裁剪并限制尺寸，但本轮未提交图片，因此未验证转换质量、完整操作或付费服务。",
+        "作者以团队成员身份发帖，真人身份未独立核验；新 HN 帖子不等于首次上线，未验证商业收入或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50018802"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50018802.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://cropguide.io/"
+        }
+      ],
+      "tags": [
+        "图片处理",
+        "无代码",
+        "网站工具"
+      ]
+    },
     {
       "id": "hacker_news:50018178",
       "provider": "hacker_news",
