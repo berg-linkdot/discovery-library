@@ -1,9 +1,110 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T16:44:43.093210Z",
-  "count": 397,
+  "updatedAt": "2026-10-09T17:44:06.461081Z",
+  "count": 399,
   "projects": [
+    {
+      "id": "hacker_news:50023978",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50023978",
+      "title": "THX-01 在线演示",
+      "url": "https://huggingface.co/spaces/doofz/THX-01-demo",
+      "canonicalUrl": "https://huggingface.co/spaces/doofz/THX-01-demo",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50023978",
+      "hnUrl": "https://news.ycombinator.com/item?id=50023978",
+      "publishedAt": "2026-10-09T17:34:45Z",
+      "discoveredAt": "2026-10-09T17:44:06.461081Z",
+      "what": "HAL-X AI 的多语言决策模型网页演示：针对消息、工单或文档与结构化问题，展示分类概率、数字提取、原文摘录和支持引文等能力。",
+      "audience": "想评估工单分类、文本信息抽取或代理路由的小型决策模型的开发者与研究者。",
+      "why": "作者未说明个人制作原因；模型卡说明产品目标是对文本状态回答结构化决策问题。HN 发帖账号与模型作者的对应关系未确认。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50023978"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖（核查时无评论）、模型卡和官方关联的 Hugging Face Space；演示页面显示模型说明及 Decide 按钮，未提交推理。",
+        "checkedAt": "2026-10-09T17:44:06.461081Z"
+      },
+      "caveats": [
+        "演示界面的输入控件未完整呈现，未验证推理输出或可用性。",
+        "速度、校准效果与优于其他模型的比较均为发布者自述，未独立复现。",
+        "模型可另行安装或自托管；本条因其提供在线演示收录，未安装或运行模型。",
+        "未验证用户需求、收入或安全性；HN 发帖时间不等于首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50023978"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50023978.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/doofz/THX-01"
+        },
+        {
+          "type": "official_site",
+          "url": "https://huggingface.co/spaces/doofz/THX-01-demo"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50023234",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50023234",
+      "title": "Higherlevel",
+      "url": "https://higherlevel.to/",
+      "canonicalUrl": "https://higherlevel.to/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50023234",
+      "hnUrl": "https://news.ycombinator.com/item?id=50023234",
+      "publishedAt": "2026-10-09T16:48:22Z",
+      "discoveredAt": "2026-10-09T17:44:06.461081Z",
+      "what": "把软件行为规范、截图或录屏证据、评论与审批放进同一个在线协作空间；用 Given / When / Then（前提、动作、预期结果）描述验收场景，让人和编程代理一起评审改动。",
+      "audience": "使用 AI 编程代理的开发者、产品经理及复杂 B2B 软件团队。",
+      "why": "作者 Ryan 在原帖自述，代理让实现变快，但理解复杂业务、说明需求和检查结果越来越耗时，因此想把规范与交付证据集中管理。官网介绍署名 Ryan Zidago。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50023234"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖（核查时无评论）、官方首页及作者介绍文章；首页标注 public beta。",
+        "checkedAt": "2026-10-09T17:44:06.461081Z"
+      },
+      "caveats": [
+        "未注册或登录，未实际创建规范、上传证据或测试审批与代理 API。",
+        "功能描述来自作者与官网，不代表已验证协作效果。",
+        "未验证用户需求、收入或安全性；HN 发帖时间不等于首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50023234"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50023234.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://higherlevel.to/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://higherlevel.to/blog/introducing-higherlevel"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50022986",
       "provider": "hacker_news",
