@@ -1,9 +1,197 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T11:43:28.376952Z",
-  "count": 378,
+  "updatedAt": "2026-10-09T12:42:07.610734Z",
+  "count": 382,
   "projects": [
+    {
+      "id": "hacker_news:50019508",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50019508",
+      "title": "GitHub Contribution Globe",
+      "url": "https://turbolego.github.io/github-contrib-globe-badge/",
+      "canonicalUrl": "https://turbolego.github.io/github-contrib-globe-badge",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019508",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019508",
+      "publishedAt": "2026-10-09T12:26:52Z",
+      "discoveredAt": "2026-10-09T12:42:07.610734Z",
+      "what": "把 GitHub 贡献关联到目标仓库所有者公开资料中的地点，按国家汇总为可旋转的网页地球及动态徽章。可自行 fork 并通过 GitHub Actions 与 Pages 托管。",
+      "audience": "想展示开源贡献地理分布的开发者、个人主页维护者。",
+      "why": "发帖者 turbolego 在标题中表示：GitHub 能告诉他贡献了多少，但他还想知道贡献发生在哪里。其 HN 用户名与仓库所有者一致，未进一步核验现实身份。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50019508"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、可见评论及官方资料；未登录、提交文件或实测完整流程。",
+        "checkedAt": "2026-10-09T12:42:07.610734Z"
+      },
+      "caveats": [
+        "已读取仓库 README 和网页入口，未运行生成器或验证地球交互。",
+        "地点取自仓库所有者公开资料并经地理编码，不代表代码执行地点或所有贡献者真实位置；覆盖与精度取决于资料、查询和地理编码。",
+        "HN 发帖时间不代表网站首次上线时间；未验证使用量、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50019508"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50019508.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://turbolego.github.io/github-contrib-globe-badge/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/turbolego/github-contrib-globe-badge"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50019488",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50019488",
+      "title": "Arcadium：AI 对话转可编辑 3D 房屋",
+      "url": "https://arcadium3d.com/create-with-ai",
+      "canonicalUrl": "https://arcadium3d.com/create-with-ai",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019488",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019488",
+      "publishedAt": "2026-10-09T12:24:41Z",
+      "discoveredAt": "2026-10-09T12:42:07.610734Z",
+      "what": "提供给 AI 助手的场景生成说明，将文字、平面图或照片转成结构化 JSON/ZIP，再在浏览器中预览房屋的墙、门、窗和支持的家具，并转入 Arcadium 编辑。",
+      "audience": "希望试验空间布局的室内设计者、房屋规划爱好者及使用 AI 辅助设计的人。",
+      "why": "自述制作者的 HN 用户 arcadium3D 喜欢 Astra 生成的 3D 设计，但认为 Blender/Unreal 的知识门槛、结果不易编辑和迭代耗时妨碍设计探索，因此做了让 AI 输出 Arcadium 可读 JSON 的方案。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50019488"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、可见评论及官方资料；未登录、提交文件或实测完整流程。",
+        "checkedAt": "2026-10-09T12:42:07.610734Z"
+      },
+      "caveats": [
+        "官网称初始预览在本地完成；选择 Edit 或 Share 后需登录并保存到工作区。未上传任何设计文件或验证保存流程。",
+        "尺寸和照片推断仍需人工核对；作者称纹理和复杂模型尚待改进。",
+        "官网说明直接由 AI 提交并返回托管查看链接的接口尚未开放。",
+        "HN 发帖时间不代表网站首次上线时间；未验证使用量、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50019488"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50019488.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://arcadium3d.com/create-with-ai"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50019354",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50019354",
+      "title": "SignalHub",
+      "url": "https://signalhub.trade/",
+      "canonicalUrl": "https://signalhub.trade",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019354",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019354",
+      "publishedAt": "2026-10-09T12:09:11Z",
+      "discoveredAt": "2026-10-09T12:42:07.610734Z",
+      "what": "HN 标题将其描述为把链上钱包活动转化为交易信号的网站；本轮无法读取官网，具体分析方式、支持链及功能范围未核实。",
+      "audience": "从发帖描述推断，面向关注链上钱包行为的加密资产研究者；实际目标用户未核实。",
+      "why": "作者未说明。发帖账号为 imotai，暂无可读的一手说明确认其与产品的关系。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50019354"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已核对 HN 原帖及官方 API；官网读取返回 HTTP 403，无法核验实际界面和功能。",
+        "checkedAt": "2026-10-09T12:42:07.610734Z"
+      },
+      "caveats": [
+        "仅依据 HN 标题保留受限记录，不能确认网站当前可用性、费用或数据质量。",
+        "未连接钱包、登录、交易或核验信号表现；不构成投资建议。",
+        "HN 发帖时间不代表网站首次上线时间；未验证使用量、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50019354"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50019354.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://signalhub.trade/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50019185",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50019185",
+      "title": "Piet 自解释器网页演示",
+      "url": "https://bobbby.online/piet",
+      "canonicalUrl": "https://bobbby.online/piet",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019185",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019185",
+      "publishedAt": "2026-10-09T11:50:18Z",
+      "discoveredAt": "2026-10-09T12:42:07.610734Z",
+      "what": "HN 作者描述的编程艺术网页：把 Piet 解释器编译成一张 Piet 程序图像，再运行 Piet 程序。Piet 是以彩色图块表达程序的实验性语言。",
+      "audience": "对编译器、自解释器、实验编程语言及代码艺术感兴趣的开发者和学习者。",
+      "why": "作者 rhgraysonii 表示自己在探索 Temper 的编译后端，做完 Piet 后端后前一晚制作了这个小艺术项目；网页使用其为乐趣开发的 Blimp 语言编写。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50019185"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已核对 HN 原帖及官方 API；官网读取返回 HTTP 403，无法核验实际界面和功能。",
+        "checkedAt": "2026-10-09T12:42:07.610734Z"
+      },
+      "caveats": [
+        "官网返回 HTTP 403，仅核对作者原帖；未看到或运行实际交互演示，功能描述为作者自述。",
+        "HN 发帖时间不代表网站首次上线时间；未验证使用量、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50019185"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50019185.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bobbby.online/piet"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50018882",
       "provider": "hacker_news",
