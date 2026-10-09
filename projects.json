@@ -1,9 +1,103 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T19:15:00Z",
-  "count": 405,
+  "updatedAt": "2026-10-09T19:42:30Z",
+  "count": 407,
   "projects": [
+    {
+      "id": "hacker_news:50025619",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50025619",
+      "title": "Talus",
+      "url": "https://talus.tersa.tech/",
+      "canonicalUrl": "https://talus.tersa.tech/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50025619",
+      "hnUrl": "https://news.ycombinator.com/item?id=50025619",
+      "publishedAt": "2026-10-09T19:36:11Z",
+      "discoveredAt": "2026-10-09T19:42:30Z",
+      "what": "浏览器端地形生成器：用小型扩散模型生成游戏高度图，可设置地形类型、种子与参数，并提供16位PNG、Unity RAW和OBJ等导出入口。",
+      "audience": "需要快速尝试地形方案的独立游戏开发者、关卡设计者和程序化地形爱好者。",
+      "why": "作者 osfv 在 HN 原帖说，希望随时获得自己想要的地形，因此训练了这个小模型；训练数据来自自己的程序化地图生成器。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50025619"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、作者评论（如有）与官网说明；未操作产品。",
+        "checkedAt": "2026-10-09T19:42:30Z"
+      },
+      "caveats": [
+        "作者称模型有2300万参数，训练于45000张程序化地图；当前输出仅64×64网格，未验证生成质量或真实地形泛化能力。",
+        "官网说明首次运行需下载约54MB，使用WebGPU或CPU；本次未下载模型、运行生成或导出文件，浏览器本地处理与性能声明未经独立审计。",
+        "Talus 在地貌学中指坡脚堆积的碎石；这里是产品名。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50025619"
+        },
+        {
+          "type": "official_site",
+          "url": "https://talus.tersa.tech/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50025619.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50025133",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50025133",
+      "title": "Retro Metro Arcade",
+      "url": "https://retro-metro.xyz/arcade/",
+      "canonicalUrl": "https://retro-metro.xyz/arcade/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50025133",
+      "hnUrl": "https://news.ycombinator.com/item?id=50025133",
+      "publishedAt": "2026-10-09T18:56:11Z",
+      "discoveredAt": "2026-10-09T19:42:30Z",
+      "what": "把电子游戏历史做成地铁线路式导航的网页模拟器，支持加载用户自己的PlayStation、NES、SNES、Game Boy及GBA等游戏文件，并提供部分历史重现和自制游戏入口。",
+      "audience": "复古游戏爱好者、游戏历史学习者，以及拥有合法游戏文件并希望在浏览器中使用的人。",
+      "why": "作者未说明具体制作原因；HN 原帖只介绍了移动端优化和支持平台，官网说明希望把经典主机及爱好者制作的游戏带到浏览器中。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50025133"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、作者评论（如有）与官网说明；未操作产品。",
+        "checkedAt": "2026-10-09T19:42:30Z"
+      },
+      "caveats": [
+        "本次仅核对公开页面及HN原帖，未加载游戏文件、运行模拟器或验证“流畅”和移动端性能。",
+        "官网称不托管商业游戏，只提供开放许可的自制游戏；本次未逐项审核游戏许可。用户需自行确认所用文件的合法授权。",
+        "官网表示无需账号且无广告；本次未登录。HN 发帖者 I-A-S 与页面所列 IASoft 的身份对应未独立核实。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50025133"
+        },
+        {
+          "type": "official_site",
+          "url": "https://retro-metro.xyz/arcade/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50025133.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50024565",
       "provider": "hacker_news",
