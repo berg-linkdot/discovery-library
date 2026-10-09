@@ -1,9 +1,102 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T04:40:08.331513Z",
-  "count": 367,
+  "updatedAt": "2026-10-09T05:43:46.793843Z",
+  "count": 369,
   "projects": [
+    {
+      "id": "hacker_news:50016371",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50016371",
+      "title": "ThoughtWave Radar：按许可证浏览 Show HN 开源项目",
+      "url": "https://thoughtwave.com/radar",
+      "canonicalUrl": "https://thoughtwave.com/radar",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016371",
+      "hnUrl": "https://news.ycombinator.com/item?id=50016371",
+      "publishedAt": "2026-10-09T05:32:40Z",
+      "discoveredAt": "2026-10-09T05:43:46.793843Z",
+      "what": "扫描 HN 中链接 GitHub 仓库的帖子，把项目介绍、仓库、许可证和讨论链接放进可浏览的表格，按评论数排序；页面提供宽松许可证、copyleft、无许可证和不明确四类筛选及邮件订阅入口。",
+      "audience": "想从 Show HN 发现开源项目、先查看许可信息的开发者和技术选型人员。",
+      "why": "发帖者 jkalbfeld 自称创建者，说明希望扫描帖子中的 Git 仓库并展示许可证，帮助读者判断代码使用条件；未说明更具体的个人经历或起因。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50016371"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 API、可见评论及官网。直接网页请求受限后，云端浏览器成功显示产品页面；未登录、提交表单、安装软件或下载内容。",
+        "checkedAt": "2026-10-09T05:43:46.793843Z"
+      },
+      "caveats": [
+        "浏览器可见 45 个仓库，页面最后扫描日期显示为 2026-10-06，不能视为完整或实时覆盖 HN。",
+        "页面的“safe to use”等分类是网站判断，不是本次法律审查；实际使用仍须核对具体许可证、依赖和用途，不能据此保证商业使用合规。",
+        "官网称许可证来自 GitHub SPDX 元数据，本次未逐仓库复核准确性，也未测试筛选或订阅。",
+        "核查时 HN 无评论；发帖者与网站的作者关系仅依据其自述，线下身份未核实。新帖不等于网站首次上线，也不构成需求或收入验证。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50016371"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50016371.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://thoughtwave.com/radar"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50016312",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50016312",
+      "title": "Quake-SRP：可在浏览器打开的 Quake 移植演示",
+      "url": "https://quake-srp.pages.dev/",
+      "canonicalUrl": "https://quake-srp.pages.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016312",
+      "hnUrl": "https://news.ycombinator.com/item?id=50016312",
+      "publishedAt": "2026-10-09T05:22:58Z",
+      "discoveredAt": "2026-10-09T05:43:46.793843Z",
+      "what": "一个 Quake 游戏浏览器演示，HN 标题称使用 safe Rust 移植。页面加载引擎后显示 ready，并提供开始游戏、按键说明、全屏和声音控件。Quake 是经典第一人称射击游戏，此处是网页移植展示。",
+      "audience": "想体验复古游戏的访客，以及关注 Rust、游戏引擎和浏览器移植的开发者。",
+      "why": "作者未说明。HN 发帖账号为 ilreb，帖子未提供创作背景；核查时唯一评论来自另一账号，不能当作作者动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50016312"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 API、可见评论及官网。直接网页请求受限后，云端浏览器成功显示产品页面；未登录、提交表单、安装软件或下载内容。",
+        "checkedAt": "2026-10-09T05:43:46.793843Z"
+      },
+      "caveats": [
+        "仅观察到加载完成并提示可开始，未点击进入游戏、捕获鼠标或测试音频、操作、性能和兼容性。",
+        "safe Rust 为 HN 标题中的技术描述，本次未审查源码，不能据此推断全部代码、依赖或网站的安全性。",
+        "发帖者是否为移植作者未核实；未验证游戏素材授权、源代码许可证和首次上线日期。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50016312"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50016312.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://quake-srp.pages.dev/"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50015833",
       "provider": "hacker_news",
