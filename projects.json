@@ -1,9 +1,105 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T12:42:07.610734Z",
-  "count": 382,
+  "updatedAt": "2026-10-09T13:42:58.235707Z",
+  "count": 384,
   "projects": [
+    {
+      "id": "hacker_news:50019926",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50019926",
+      "title": "FetchDue：代理机构与工作室的应收账款催收助手",
+      "url": "https://fetchdue.thecompound.tech/",
+      "canonicalUrl": "https://fetchdue.thecompound.tech/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019926",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019926",
+      "publishedAt": "2026-10-09T13:04:38Z",
+      "discoveredAt": "2026-10-09T13:42:58.235707Z",
+      "what": "面向应收账款管理的在线服务。官方介绍称，它整理逾期发票，从使用者自己的邮箱跟进客户回复，以其语气起草催款和回复内容，并把待发送内容交由人批准；还提供开票与 Stripe 账单相关功能。",
+      "audience": "需要跟进客户欠款、又希望保留客户沟通控制权的代理机构和工作室。",
+      "why": "作者未说明具体制作起因。发帖账号 kyisaiah47 与 Compound Labs 官网列出的创办人 Isaiah Kim 使用相同账号；公开说明强调让机构逐条批准催收邮件，但这是产品目标，不能推断为作者亲身遇到的经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://thecompound.tech/fetchdue",
+          "https://news.ycombinator.com/item?id=50019926"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与官网公开说明；未注册、连接账户或执行服务功能。",
+        "checkedAt": "2026-10-09T13:42:58.235707Z"
+      },
+      "caveats": [
+        "本次产品子域请求返回了 Compound Labs 产品目录；详细功能来自其 FetchDue 介绍页及标注为 2026-09-14 的页面摘录，未验证当前独立应用入口和完整工作流。",
+        "未连接邮箱、导入发票、发送邮件或测试收款；未验证催收效果、客户数量、收入或安全保障。",
+        "HN 发帖日期不是产品首次上线日期；官网已有更早日期的产品资料。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50019926"
+        },
+        {
+          "type": "official_site",
+          "url": "https://thecompound.tech/fetchdue"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50019926.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50019807",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50019807",
+      "title": "UserAlertX：让 AI 代理给本人发送短信和邮件提醒",
+      "url": "https://useralertx.com/",
+      "canonicalUrl": "https://useralertx.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019807",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019807",
+      "publishedAt": "2026-10-09T12:56:13Z",
+      "discoveredAt": "2026-10-09T13:42:58.235707Z",
+      "what": "API 优先的云端提醒服务，提供网页开户、账户和近期提醒记录入口。官网称，AI 代理或自动化程序可通过 HTTP 请求发送短信及邮件；短信收件人限于完成验证和订阅同意的账户本人，不用于群发。",
+      "audience": "希望在自动化完成、需要处理事情时收到本人手机提醒的开发者、AI 代理使用者与个人自动化用户。",
+      "why": "官方说明将“只向已同意接收的账户本人发短信”作为设计约束，目的是限制任意收件人消息及垃圾短信，并适应运营商登记要求。HN 发帖者 jclmn 与服务运营主体的具体关系未确认；作者个人制作经历未说明。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://useralertx.com/",
+          "https://news.ycombinator.com/item?id=50019807"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方 API 时间与官网公开说明；未注册、连接账户或执行服务功能。",
+        "checkedAt": "2026-10-09T13:42:58.235707Z"
+      },
+      "caveats": [
+        "官网将服务归于 Xpandable Technology Lab LLC；未独立确认发帖者身份、运营商登记或合规宣称。",
+        "官网所述 10DLC 指美国应用到个人短信常用的十位本地号码登记体系；未核实中国大陆或其他地区号码支持情况。",
+        "未注册、验证手机号、发送短信或邮件，也未实测网页账户、投递状态和 API。",
+        "官网称部分受运营商限制的内容会转为邮件并发短信提示；实际过滤规则、隐私与送达率未验证。",
+        "未验证用户数量、收入或市场需求；HN 发帖时间不代表网站首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50019807"
+        },
+        {
+          "type": "official_site",
+          "url": "https://useralertx.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50019807.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50019508",
       "provider": "hacker_news",
