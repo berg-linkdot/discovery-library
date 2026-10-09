@@ -1,9 +1,87 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-08T23:43:19.919144Z",
-  "count": 362,
+  "updatedAt": "2026-10-09T00:48:22.328358Z",
+  "count": 363,
   "projects": [
+    {
+      "id": "hacker_news:50014150",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50014150",
+      "title": "Edi Life OS：整合习惯、目标、专注与收支的自托管生活看板",
+      "url": "https://github.com/edrisranjbar/lifeos",
+      "canonicalUrl": "https://github.com/edrisranjbar/lifeos",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50014150",
+      "hnUrl": "https://news.ycombinator.com/item?id=50014150",
+      "publishedAt": "2026-10-09T00:02:19Z",
+      "discoveredAt": "2026-10-09T00:47:37.222648Z",
+      "audience": "愿意自行部署和维护网页应用，希望把番茄钟、习惯、目标、项目、笔记与个人记账集中管理，并可选接入 AI 助手的个人用户。",
+      "what": "面向单一拥有者的开源网页生活看板，使用 PHP、MySQL 与原生 JavaScript，可通过 Docker、共享主机或本地 PHP 服务部署。官方列出总览、成长、专注、收支、习惯、看板、日历、目标及两类笔记共十个工作区；习惯可驱动目标进度，到期卡片与财务事项可汇入日历。另提供可选的本地 stdio MCP 服务，列出 26 个工具，让兼容客户端读取看板、管理目标与任务、记录习惯和收支。",
+      "why": "作者未公开说明可核实的个人创作动机。官方 README 描述的产品目标是把原本分散在待办、习惯、预算、番茄钟和笔记应用中的信息放进同一套可自托管看板，并把每天的小行动与长期方向连接起来；这属于官方产品目标，不能当作作者个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50014150",
+          "https://github.com/edrisranjbar/lifeos#readme"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 官方 API 原帖及其两个评论记录，核对官方仓库 README、部署指南、MCP 文档，以及浏览器首页 HTML 和 PHP 路由代码，确认存在实际网页工作区与自托管入口。投稿者评论显示为 flagged，未取得其正文；另一条评论发表于本轮 00:40 UTC 截止时间之后，未据此形成产品判断。未安装、部署、登录或运行应用，未测试保存、同步、计时及 MCP 操作，也未进行安全审计。",
+        "checkedAt": "2026-10-09T00:47:37.222648Z"
+      },
+      "caveats": [
+        "本次只核对公开仓库、文档和部分源码，没有发现并验证免安装的公共托管演示；使用者需要准备 PHP 8.1+ 与 MySQL/MariaDB 环境，或使用官方 Docker 配置。",
+        "项目面向单一拥有者。官方明确说明 API 令牌可读写所有支持的数据域，尚未实现令牌作用域或应用级限流；“秘密笔记”只是控制可见性的标记，并非另行加密。外网部署需要自行配置 HTTPS、访问保护与备份。",
+        "默认记账单位为 Toman，日期使用 Asia/Tehran，天气卡片指向伊朗格什姆岛；其他货币、时区与地区的适配未经验证，潮汐数值也只是模型估算，不能用于航海。",
+        "MCP 服务需要另外运行 Node.js 22.9+，目前仅支持本地 stdio，并没有托管的远程 MCP 地址；允许 AI 客户端访问后，相关数据如何处理还取决于客户端和模型服务，不能把自托管等同于所有数据始终不离开设备。",
+        "功能、无跟踪与数据控制等描述主要来自官方文档，运行质量与隐私实现未独立验证；HN 投稿时间不代表项目首次上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50014150"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50014150.json"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50014157.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/edrisranjbar/lifeos"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/edrisranjbar/lifeos/blob/main/docs/deployment.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/edrisranjbar/lifeos/blob/main/mcp/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/edrisranjbar/lifeos/blob/main/public_html/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/edrisranjbar/lifeos/blob/main/server.php"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "个人效率",
+        "习惯追踪",
+        "目标管理",
+        "个人记账",
+        "MCP",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:50013741",
       "provider": "hacker_news",
