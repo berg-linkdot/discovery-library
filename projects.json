@@ -1,9 +1,293 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T17:44:06.461081Z",
-  "count": 399,
+  "updatedAt": "2026-10-09T19:15:00Z",
+  "count": 405,
   "projects": [
+    {
+      "id": "hacker_news:50024565",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50024565",
+      "title": "Dirt Cheap Gold",
+      "url": "https://www.dirtcheapgold.com/",
+      "canonicalUrl": "https://www.dirtcheapgold.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024565",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024565",
+      "publishedAt": "2026-10-09T18:15:33Z",
+      "discoveredAt": "2026-10-09T19:15:00Z",
+      "what": "汇集金币和金条卖家的报价，按规格、产品类型及卖家筛选并比较相对现货价的溢价。",
+      "audience": "需要比较实物黄金公开报价的读者和收藏爱好者；不是投资建议或交易执行服务。",
+      "why": "官网作者自述，自己买黄金时很难找到合适报价，因此做了网站自动比较；由于自己本来也会查价，就在家中电脑上运行并免费提供。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://www.dirtcheapgold.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、作者评论（如有）与官网说明；未操作产品。",
+        "checkedAt": "2026-10-09T19:15:00Z"
+      },
+      "caveats": [
+        "官网称每30分钟检查24家卖家、不含广告或联盟链接；这些是网站说明，未审计更新频率和商业关系。",
+        "显示价格可能变化；税费、运费、付款方式、购买限制、卖家信誉及最终结算价未逐项核实。",
+        "本次读取官网公开报价页与 HN 帖子，没有购买、登录或提供财务建议。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50024565"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.dirtcheapgold.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50024565.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50024499",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50024499",
+      "title": "carrier-explode",
+      "url": "https://carrierexplode.com/",
+      "canonicalUrl": "https://carrierexplode.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024499",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024499",
+      "publishedAt": "2026-10-09T18:10:55Z",
+      "discoveredAt": "2026-10-09T19:15:00Z",
+      "what": "面向手机运营商配置的在线档案与查看工具；作者称持续收集主要手机品牌的运营商设置，并提供常见基带配置的解码与解释。",
+      "audience": "研究手机网络配置的开发者、通信爱好者和设备排障人员。",
+      "why": "作者 simplyalec 将其描述为自己的业余项目，说明了持续归档和解释配置的目标；未说明更具体的个人起因。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50024499"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取官方 HN API 原帖与评论；官网尝试读取受限，未完成网页功能核验。",
+        "checkedAt": "2026-10-09T19:15:00Z"
+      },
+      "caveats": [
+        "官网直接读取返回403，因此本次主要依据作者原帖和讨论中公开的网页配置链接，未核实档案覆盖、解码准确性或交互。",
+        "作者自己指出仍有一些假设需要检查；其“已帮助爱好者群体”属于作者自述，未经独立需求验证。",
+        "仅作资料索引，不建议据此修改手机基带或运营商配置。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50024499"
+        },
+        {
+          "type": "official_site",
+          "url": "https://carrierexplode.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50024499.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50024247",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50024247",
+      "title": "Plannotator Inbox",
+      "url": "https://plannotator.ai/inbox/",
+      "canonicalUrl": "https://plannotator.ai/inbox/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024247",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024247",
+      "publishedAt": "2026-10-09T17:52:26Z",
+      "discoveredAt": "2026-10-09T19:15:00Z",
+      "what": "自托管、本机浏览器里的智能体收件箱：集中呈现长时间运行的编码智能体提出的问题、阻碍、计划、原型及代码差异，供人异步审阅与回应。",
+      "audience": "同时使用多个编码智能体、需要集中处理决策和审阅的开发者。",
+      "why": "发帖者 ramoz 在首条评论说明，智能体不断提出决策，旧问题容易埋在聊天记录中；希望用独立界面突出真正需要人审阅的内容，Inbox 是一次尝试。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50024248"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、作者评论（如有）与官网说明；未操作产品。",
+        "checkedAt": "2026-10-09T19:15:00Z"
+      },
+      "caveats": [
+        "需要在本地安装并运行，网页界面监听本机地址；不是已验证可直接使用的云端托管服务。",
+        "官网列出 Claude Code、Pi、OpenCode 及 MCP 连接方式；本次未安装、连接智能体或验证消息送达。",
+        "官网的云端和手机托管版本标为未来功能，不视为已经提供。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50024247"
+        },
+        {
+          "type": "official_site",
+          "url": "https://plannotator.ai/inbox/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50024247.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50024204",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50024204",
+      "title": "Cactus Needle 浏览器演示",
+      "url": "https://afshinm.github.io/cactus-needle/",
+      "canonicalUrl": "https://afshinm.github.io/cactus-needle/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024204",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024204",
+      "publishedAt": "2026-10-09T17:49:24Z",
+      "discoveredAt": "2026-10-09T19:15:00Z",
+      "what": "JavaScript 本地模型项目的可用网页演示：用文字或语音指令调整节拍器/鼓机步骤及灯光状态，展示工具调用与语音转文字。",
+      "audience": "想观察浏览器端本地 AI 工具调用、语音输入和交互界面的 JavaScript 开发者。",
+      "why": "作者未说明个人制作原因；官网展示的是让 Needle 模型在 JavaScript 应用中本地选择工具动作的产品目标。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://afshinm.github.io/cactus-needle/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、作者评论（如有）与官网说明；未操作产品。",
+        "checkedAt": "2026-10-09T19:15:00Z"
+      },
+      "caveats": [
+        "官网称首次使用需下载约35MB模型，并在浏览器处理请求与音频；本次未下载模型、启用麦克风或运行推理，未独立验证隐私及性能。",
+        "所收录的是实用网页演示，不能将其效果外推到所有设备；HN 发帖者 afshinmeh 与项目作者关系未独立核实。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50024204"
+        },
+        {
+          "type": "official_site",
+          "url": "https://afshinm.github.io/cactus-needle/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50024204.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50024097",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50024097",
+      "title": "Marginalia",
+      "url": "https://marginal-ia.app/en",
+      "canonicalUrl": "https://marginal-ia.app/en",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024097",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024097",
+      "publishedAt": "2026-10-09T17:42:49Z",
+      "discoveredAt": "2026-10-09T19:15:00Z",
+      "what": "浏览器里的PDF/EPUB阅读器：可以重排文本、标注和向AI提问，回答带原文引用，点击即可跳到高亮段落。",
+      "audience": "阅读教材、论文、法规和技术手册的人，尤其需要手机上阅读或核对AI回答原文依据的读者；官网列出医学、法律、编程、数学和物理场景。",
+      "why": "官网“Why does Marginalia exist?”自述：起点是拿手机拍技术书页面交给AI讨论，但书与对话分开、AI无法引用，回头还得手动找段落；于是把阅读、问答和定位依据放在同一屏。HN截至抓取没有评论，无法从HN确认更多作者经历。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://marginal-ia.app/en#faq"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、作者评论（如有）与官网说明；未操作产品。",
+        "checkedAt": "2026-10-09T19:15:00Z"
+      },
+      "caveats": [
+        "无需账号可阅读并提3个问题；继续提问需免费邮箱账号，注册用户有每日和每月额度，官网未在所读首页列出具体额度。当前免费，未来价格可能改变。",
+        "扫描版PDF只能看原始页面，不能切换文本视图或向AI提问。",
+        "“文件不上云”不等于内容不出设备：提问会发送问题和必要段落；登录后书本文本还会经服务器建立索引（官方称不保存），账号会保存带引文的标注及对话。",
+        "默认记录去标识的操作轨迹，官网称阅读内容、标题、问答和笔记被遮盖；可关闭会话记录。",
+        "跨设备恢复需账号，并在新设备重新打开原文件；AI仍可能出错，应核对引用。",
+        "本次只读抓取核实官网功能说明和演示入口，未执行AI提问或浏览器实测，不能把宣传内容写成实测结论。",
+        "HN 发帖者 folio_j 与官网作者的身份对应未独立核实。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50024097"
+        },
+        {
+          "type": "official_site",
+          "url": "https://marginal-ia.app/en"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50024097.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50024055",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50024055",
+      "title": "Read Rare",
+      "url": "https://readrare.com/",
+      "canonicalUrl": "https://readrare.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024055",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024055",
+      "publishedAt": "2026-10-09T17:39:44Z",
+      "discoveredAt": "2026-10-09T19:15:00Z",
+      "what": "把少见的科技公司内部备忘录、员工手册和绝版商业书集中到一个可浏览的书架；当前首页列出45项，提供外部阅读或借阅入口。",
+      "audience": "对科技史、创业、公司经营和一手商业文献感兴趣的读者（根据收录内容归纳）。",
+      "why": "作者 miletus 在首条评论中说，很多关于如何打造事物的好文字从未打算公开，散落在诉讼证物、失效链接和档案扫描件里，所以把它们放在同一个书架上。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50024120"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已只读核对 HN 原帖、作者评论（如有）与官网说明；未操作产品。",
+        "checkedAt": "2026-10-09T19:15:00Z"
+      },
+      "caveats": [
+        "它主要是策展和外链索引，不能据此认为每本书都可直接、匿名、完整在线阅读；部分标为Internet Archive借阅，实际访问依赖第三方站点。",
+        "本次只读抓取核实了首页、45项索引及作者评论；未逐一验证全部外链，也未执行浏览器交互测试。",
+        "HN 发帖时间不代表网站首次上线时间；未验证收入或实际需求规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50024055"
+        },
+        {
+          "type": "official_site",
+          "url": "https://readrare.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50024055.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50023978",
       "provider": "hacker_news",
