@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T01:43:58.016836Z",
-  "count": 365,
+  "updatedAt": "2026-10-09T02:45:59.956512Z",
+  "count": 366,
   "projects": [
     {
       "id": "hacker_news:50014690",
@@ -302,6 +302,75 @@
         "在线演示",
         "声明式UI",
         "开源"
+      ]
+    },
+    {
+      "id": "hacker_news:50013666",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50013666",
+      "title": "Streamline：汇总跨平台观看历史的自托管影视推荐网页应用",
+      "url": "https://github.com/abhichandra21/streamline",
+      "canonicalUrl": "https://github.com/abhichandra21/streamline",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50013666",
+      "hnUrl": "https://news.ycombinator.com/item?id=50013666",
+      "publishedAt": "2026-10-08T23:04:16Z",
+      "discoveredAt": "2026-10-09T02:45:41.642046Z",
+      "audience": "使用多个流媒体服务、希望统一观看记录并寻找未看过影视作品，且愿意自行部署应用和配置模型的观众。",
+      "what": "一个可在笔记本或家庭服务器运行的开源网页应用，提供 Docker 和 Python 部署方式，浏览器入口为 localhost:5051。官方介绍称，它读取 Netflix、Prime Video、Apple TV、Disney+、Max 的观看历史导出及 Plex 播放记录，通过 TMDB 匹配作品，再结合用户标记的喜爱作品建立口味画像。网页界面涵盖自然语言推荐、心情匹配、已看作品海报墙、评分、跨平台待看清单，以及追踪剧集新集的 On Deck；搜索会排除已看作品并解释推荐理由，可选择 Claude、Gemini、OpenAI 或本地模型。",
+      "why": "作者在 HN 原帖说明，流媒体平台只根据自家目录及用户在自家服务上的观看记录推荐，无法了解跨平台的完整历史；Streamline 因此汇总多个服务的数据导出及 Plex 记录，用统一的观看历史和个人喜好寻找未看过的作品。这是作者明确提出的产品动机。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50013666"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "只读核对 HN 原帖页面及官方 API、GitHub 仓库首页和 README，以及 master 分支的 compose.yaml、config.local.example.yaml；确认有实际自托管网页入口、页面功能说明和部署配置。核查时没有评论，HN 页面将投稿标为 flagged。独立文档站请求返回 403，未能核实其详细指南；未安装、运行、登录、导入观看历史、配置密钥或调用模型，也未验证推荐效果及数据保护。",
+        "checkedAt": "2026-10-09T02:45:41.642046Z"
+      },
+      "caveats": [
+        "需要自行部署并准备各服务的观看历史导出，配置 TMDB 访问及所选模型；本次没有运行应用，README 截图来自官方构造的演示片库，不能视为真实用户实测。",
+        "作者估算默认 Claude 搜索约每次 0.06 美元，另有首次描述片库和生成口味画像的模型开销；这些是作者的估算，实际费用取决于模型、数据量和调用次数。",
+        "自托管和本地 SQLite 存储不等于所有处理都留在本机：TMDB 匹配需要外部服务，选择云端模型也会进行模型调用；具体传输字段、日志和保留策略未审计，导入个人观看记录前应自行核对。",
+        "默认 Compose 端口映射为 5051:5051，配置没有限定仅绑定回环地址；若部署到可被外部访问的主机，应先核对认证、防火墙及访问限制。本次未评估安全性。",
+        "作品匹配、流媒体可用性、喜好分析和生成的推荐理由都可能有误；跨平台覆盖及推荐质量属于官方功能描述，未独立测试。",
+        "HN 页面在核查时显示 flagged，但官方 API 未说明原因；不能据此判断产品质量或投稿被标记的缘由。独立文档站本轮无法访问。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50013666"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50013666.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/abhichandra21/streamline"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/abhichandra21/streamline/blob/master/README.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/abhichandra21/streamline/blob/master/compose.yaml"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/abhichandra21/streamline/blob/master/config.local.example.yaml"
+        }
+      ],
+      "tags": [
+        "影视推荐",
+        "观看历史",
+        "自托管",
+        "开源",
+        "AI",
+        "跨平台"
       ]
     },
     {
