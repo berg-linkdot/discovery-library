@@ -1,9 +1,111 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T05:43:46.793843Z",
-  "count": 369,
+  "updatedAt": "2026-10-09T06:43:50.874297Z",
+  "count": 371,
   "projects": [
+    {
+      "id": "hacker_news:50016459",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50016459",
+      "title": "Trained On：AI 提示词训练条款及变更记录",
+      "url": "https://trainedon.me/",
+      "canonicalUrl": "https://trainedon.me/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016459",
+      "hnUrl": "https://news.ycombinator.com/item?id=50016459",
+      "publishedAt": "2026-10-09T05:46:51Z",
+      "discoveredAt": "2026-10-09T06:43:50.874297Z",
+      "what": "按 AI 工具和套餐整理有关用户输入是否用于训练的条款摘录、来源链接和采集日期，并展示条款变更历史；方法页解释如何从 Open Terms Archive 的历史版本中排除无实质变化的噪声。",
+      "audience": "希望查找 AI 服务数据使用条款及历史变化的用户、开发者和研究人员。",
+      "why": "作者未说明个人制作原因。网站说明其目标是提供带日期与出处的训练条款记录；HN 发帖账号 tux404 与网站创建者的关系未独立核实。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://trainedon.me/methodology"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 API、可见评论及官网；在云端浏览器核对网页内容，未登录、提交表单、发送 API 请求或安装软件。",
+        "checkedAt": "2026-10-09T06:43:50.874297Z"
+      },
+      "caveats": [
+        "网站说明部分候选变更由三个不同厂商的语言模型交叉判断，有分歧或不确定时再由人处理；这不等于法律审查或无误保证。",
+        "只描述该网站的整理功能，未逐一核实各厂商条款、用户设置或实际训练行为；使用前须查看对应地区、套餐和当前官方文件。",
+        "方法页列出缺口：Gemini 相关隐私通知未覆盖，Microsoft Copilot 部分近期存档不完整；部分来源为欧洲或爱尔兰版本。",
+        "页面日期代表档案首次采集到文本的时间，并非政策正式生效日；未验证首次上线日期或需求、收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50016459"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50016459.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trainedon.me/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://trainedon.me/methodology"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50016426",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50016426",
+      "title": "APIFlow Studio：浏览器 API 测试与模拟工作台",
+      "url": "https://apiflowstudio.onrender.com/",
+      "canonicalUrl": "https://apiflowstudio.onrender.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016426",
+      "hnUrl": "https://news.ycombinator.com/item?id=50016426",
+      "publishedAt": "2026-10-09T05:40:43Z",
+      "discoveredAt": "2026-10-09T06:43:50.874297Z",
+      "what": "在浏览器提供 API mock 响应、可视化断言、集合与环境管理、请求历史及代码生成入口；官网还展示 OpenAPI/Postman 导入导出、Webhook 模拟和可安装离线 PWA。可打开工作台，无需安装；官网链接开源仓库。",
+      "audience": "需要在后端完成前模拟接口、调试 REST API 和整理测试集合的前端、后端及测试开发者。",
+      "why": "官网的 Open Design 说明强调避免专有格式、强制账号和云端锁定，让开发者保有数据与导出能力；这是官方产品理念，未见可读的作者个人经历说明。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://apiflowstudio.onrender.com/#open-design"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取实时 HN 原帖、官方 API、可见评论及官网；在云端浏览器核对网页内容，未登录、提交表单、发送 API 请求或安装软件。",
+        "checkedAt": "2026-10-09T06:43:50.874297Z"
+      },
+      "caveats": [
+        "已打开工作台界面，未发送真实或模拟请求、触发 Webhook、导入导出文件、填写密钥或安装 PWA；离线、性能和兼容性未实测。",
+        "官网称集合数据保存在本地 IndexedDB，但 Live 模式明确使用后端 CORS 代理；不能将本地存储宣传理解为所有网络请求都不经过服务器。",
+        "官网作者元数据为 Yash Padaliya，HN 发帖账号为 yashpateldev；二者身份关系未独立核实。作者账号评论在 HN 被隐藏，不能作为可读动机依据。",
+        "免费、开源、零锁定等为官网表述；未完成源码、安全或许可证审计，也未验证收入、用户需求与首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50016426"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50016426.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://apiflowstudio.onrender.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/yashpadaliya08/apiflow"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50016371",
       "provider": "hacker_news",
