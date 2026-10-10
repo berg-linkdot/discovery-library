@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T00:00:07.086003Z",
-  "count": 411,
+  "updatedAt": "2026-10-10T00:43:34.654435Z",
+  "count": 412,
   "projects": [
     {
       "id": "hacker_news:50027493",
@@ -101,6 +101,63 @@
           "type": "repository",
           "url": "https://github.com/samcolson4/PodcastDelay"
         }
+      ]
+    },
+    {
+      "id": "hacker_news:50026741",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50026741",
+      "title": "SpecWeave 3（自托管工作看板）",
+      "url": "https://github.com/anton-abyzov/specweave",
+      "canonicalUrl": "https://github.com/anton-abyzov/specweave",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50026741",
+      "hnUrl": "https://news.ycombinator.com/item?id=50026741",
+      "publishedAt": "2026-10-09T21:25:21Z",
+      "discoveredAt": "2026-10-10T00:43:34.654435Z",
+      "what": "以本地 CLI 为核心的 AI 开发任务交接工具，附带自托管 Web 工作看板：汇总开发意图、任务增量、任务状态与验证证据。README 说明可在 Claude Code、Codex、Grok 等工具间交接任务；看板源码区分已完成、阻塞、认领等状态，并统计测试验证、证据和交接情况。",
+      "audience": "在多个编码智能体之间协作、希望通过本地网页查看项目任务进展的开发者与小团队。",
+      "why": "作者未说明个人制作原因。仓库说明的产品目标是让任务在不同编码工具之间交接时保留规格、进度与验证证据；HN 发帖账号为 aabyzov，本轮未独立核实其真实身份。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50026741"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API、项目 README 与看板数据类型源码；确认有 client/server 看板目录。本轮未安装、启动或实测看板。",
+        "checkedAt": "2026-10-10T00:43:34.654435Z"
+      },
+      "caveats": [
+        "需要自行安装和运行；不是开箱即用的托管在线服务，核心工作流仍通过 CLI/智能体进行。",
+        "文档官网本轮返回 403；HN 评论在 API 中标记为不可见，未将其作为作者动机依据。",
+        "未验证跨工具交接、外部同步或安全性；仓库性能与生产力数字未经独立验证。",
+        "HN 帖子时间不代表项目首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50026741"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/anton-abyzov/specweave"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50026741.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/anton-abyzov/specweave/blob/develop/src/dashboard/work-types.ts"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "开发工具",
+        "任务看板",
+        "AI"
       ]
     },
     {
