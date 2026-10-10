@@ -1,9 +1,66 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T00:43:34.654435Z",
-  "count": 412,
+  "updatedAt": "2026-10-10T01:42:57.562358Z",
+  "count": 413,
   "projects": [
+    {
+      "id": "hacker_news:50028341",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50028341",
+      "title": "Reclip：视频提示词与技能示例库",
+      "url": "https://www.reclip.io/claude-opus-5-5-video-prompts",
+      "canonicalUrl": "https://www.reclip.io/claude-opus-5-5-video-prompts",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50028341",
+      "hnUrl": "https://news.ycombinator.com/item?id=50028341",
+      "publishedAt": "2026-10-10T00:48:18Z",
+      "discoveredAt": "2026-10-10T01:42:57.562358Z",
+      "what": "可按主题浏览、搜索的视频创作示例网站，整理动态排版、产品界面、图解等作品及其提示词或技能。详情页提供原作者链接和可复制的提示词，适合参考创作方法。",
+      "audience": "寻找动画、产品演示和视频创作参考的设计师、内容创作者与开发者。",
+      "why": "作者未说明个人制作原因。HN 发帖者 qwikhost 只介绍了示例集合；尚未独立确认其与网站的作者关系。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50028341"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "读取 HN 原帖、官方目录和一个相机镜头示例详情页，确认公开分类、提示词文本和原作者出处可见。",
+        "checkedAt": "2026-10-10T01:42:57.562358Z"
+      },
+      "caveats": [
+        "未登录、提交素材或复现提示词；未验证视频生成工具及付费服务。",
+        "模型名称与生成方式属于网站或作品作者自述，未独立复现；示例不代表模型能力保证。",
+        "站内数量、案例与营销内容不构成需求、收入或使用效果验证。",
+        "来源帖时间不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50028341"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.reclip.io/claude-opus-5-5-video-prompts"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.reclip.io/claude-opus-5-5-video-prompts/x-aichrislee-camera-lens"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50028341.json"
+        }
+      ],
+      "tags": [
+        "创作参考",
+        "提示词",
+        "视频",
+        "示例库"
+      ]
+    },
     {
       "id": "hacker_news:50027493",
       "provider": "hacker_news",
