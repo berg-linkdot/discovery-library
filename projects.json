@@ -1,9 +1,103 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T22:43:22.357494Z",
-  "count": 442,
+  "updatedAt": "2026-10-10T23:43:24.506640Z",
+  "count": 444,
   "projects": [
+    {
+      "id": "hacker_news:50038215",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50038215",
+      "title": "Aporium · Starfield",
+      "url": "https://www.aporium.app/explore",
+      "canonicalUrl": "https://www.aporium.app/explore",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50038215",
+      "hnUrl": "https://news.ycombinator.com/item?id=50038215",
+      "publishedAt": "2026-10-10T23:36:13Z",
+      "discoveredAt": "2026-10-10T23:43:24.506640Z",
+      "what": "把哲学作品中的短摘录组织成可探索的三维星图，并将相关原文片段编排为跨作者的对话线程。作者介绍使用文本嵌入、UMAP 降维、相似度与 AI 判断建立关联；官网提供作者、作品、时代和主题筛选。",
+      "audience": "想通过短篇原文接触哲学、比较不同思想家观点的读者，以及对文本知识可视化感兴趣的人。",
+      "why": "作者 kevinjacobh 在 HN 自述，八个月前开始独立制作，希望减少刷社交媒体的时间，用同样吸引人但更有收获的阅读体验替代，同时兼顾思想深度、易读性和多作者视角。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50038215"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 及可访问的官方资料；仅核对公开页面与说明。",
+        "checkedAt": "2026-10-10T23:43:24.506640Z"
+      },
+      "caveats": [
+        "已读取 Starfield 官网和导航说明，但没有逐项操作三维图或核对全部摘录、译本及版权状态。",
+        "对话是系统将不同时代作者的真实文字进行编排，不是这些作者实际发生过的对谈；AI 关联不保证上下文或观点解读准确。",
+        "作者称约 5,800 段摘录；官网本轮显示 5,868 个可见条目，未独立逐条清点。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入、用户规模或真实需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50038215"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.aporium.app/explore"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50038215.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50038115",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50038115",
+      "title": "Doory",
+      "url": "https://github.com/shaongitbd/doory",
+      "canonicalUrl": "https://github.com/shaongitbd/doory",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50038115",
+      "hnUrl": "https://news.ycombinator.com/item?id=50038115",
+      "publishedAt": "2026-10-10T23:17:22Z",
+      "discoveredAt": "2026-10-10T23:43:24.506640Z",
+      "what": "可自托管的浏览器设计编辑器。官方仓库介绍可从模板或空白画布制作海报、社交图片、演示文稿、邀请函和简历，包含图层、文字、动画、多人协作及图片、PDF、视频等导出功能；提供 Docker Compose 部署方式。",
+      "audience": "需要网页设计工具的个人、小团队，以及愿意自行部署、管理素材和数据的开发者或组织。",
+      "why": "作者未说明个人制作原因。官方仓库只明确产品目标：提供免费、开放且可由使用者掌控的 Canva 类设计工具。HN 发帖者 Aditya_1 与仓库标注的创作者 Siam 的关系未核实。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/shaongitbd/doory"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 及可访问的官方资料；仅核对公开页面与说明。",
+        "checkedAt": "2026-10-10T23:43:24.506640Z"
+      },
+      "caveats": [
+        "已读取官方仓库 README 和 HN 原帖；仓库所链接的 doory.art 官网本轮返回 HTTP 403，未核验托管演示。",
+        "未安装、部署、登录、上传文件或实际测试编辑、协作和导出；所列功能为官方说明。",
+        "仓库使用 Attribution Assurance License，强调保留许可与署名并在运行的应用中展示作者归属；未作法律合规审查。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入、用户规模或真实需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50038115"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/shaongitbd/doory"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50038115.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50037892",
       "provider": "hacker_news",
