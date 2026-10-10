@@ -1,9 +1,56 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T07:48:44.826947Z",
-  "count": 419,
+  "updatedAt": "2026-10-10T08:43:32.159449Z",
+  "count": 420,
   "projects": [
+    {
+      "id": "hacker_news:50030849",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50030849",
+      "title": "Open Components：供人和 AI 使用的组件设计检查表",
+      "url": "https://opencomponents.dev/",
+      "canonicalUrl": "https://opencomponents.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50030849",
+      "hnUrl": "https://news.ycombinator.com/item?id=50030849",
+      "publishedAt": "2026-10-10T08:24:05Z",
+      "discoveredAt": "2026-10-10T08:43:32.159449Z",
+      "what": "作者介绍的公开在线组件设计参考站，按用户界面、用户体验、开发体验和 AI 代理使用体验四个维度梳理规则，并提供带规则编号的检查表、Markdown 页面和 YAML 规则契约。原帖称目前覆盖 Button、Input 与设计令牌命名，配有参考实现及测试，可用于审查自己已有的组件。",
+      "audience": "前端开发者、设计系统维护者，以及使用 AI 编写或审核界面组件的团队。",
+      "why": "HN 投稿者 alexgrozav 自述已开发 UI 库十年，希望分享积累的组件设计知识；他认为 AI 生成的代码常常只是够用，达不到自己手写时追求的质量，因此发起这套可供开发者和 AI 引用的规则。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50030849"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "读取作者 HN 原帖，并用官方 HN API 核验时间；当前原帖无评论。官网读取返回 HTTP 403，未绕过限制，因此以下功能与覆盖范围仅依据作者一手介绍，未核对官网页面或运行参考实现。",
+        "checkedAt": "2026-10-10T08:43:32.159449Z"
+      },
+      "caveats": [
+        "这是在线规则与检查表参考资料；作者明确说明它不是需要安装的组件库。",
+        "项目仍处早期，当前组件覆盖范围和参考实现质量未独立验证；作者称参考实现暂用 Vue，文档另含其他框架示例。",
+        "规则属于该项目的设计建议，不代表获得认可的行业标准；未验证用于 AI 代码审核的效果。",
+        "来源帖时间不代表网站首次上线；未核验用户规模、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50030849"
+        },
+        {
+          "type": "official_site",
+          "url": "https://opencomponents.dev/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50030849.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50030504",
       "provider": "hacker_news",
