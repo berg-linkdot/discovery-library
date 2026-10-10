@@ -1,9 +1,111 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T18:44:08.448331Z",
-  "count": 435,
+  "updatedAt": "2026-10-10T19:43:58.575630Z",
+  "count": 437,
   "projects": [
+    {
+      "id": "hacker_news:50035864",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50035864",
+      "title": "Eval Skills — 本地 Trace Review",
+      "url": "https://github.com/confident-ai/eval-skills",
+      "canonicalUrl": "https://github.com/confident-ai/eval-skills",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50035864",
+      "hnUrl": "https://news.ycombinator.com/item?id=50035864",
+      "publishedAt": "2026-10-10T18:46:27Z",
+      "discoveredAt": "2026-10-10T19:43:58.575630Z",
+      "what": "AI 应用评估技能工具包，附带可自托管的浏览器审阅界面。官方文档与源码显示，本地 Trace Review 可查看执行轨迹，记录通过、失败或暂缓判断与笔记，整理失败模式、查看审阅进度，并导出标注和分类数据。其余工具用于建立评测集、校准评分器与比较改动。",
+      "audience": "需要人工审阅 AI 应用行为的工程师、产品经理、领域专家和小团队。",
+      "why": "作者未说明个人制作原因。官方 README 表达的目标是让团队从可检查的真实执行与人工错误分析出发，建立可信评测并迭代应用；这属于产品目标。HN 发帖账号 jeffreyip 与项目团队的具体关系本次未独立确认。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/confident-ai/eval-skills"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方仓库 README、工具包与示例文档，以及本地审阅器的 HTML 和 Python 服务源码；确认包含实际 Web 界面，而非只有命令行说明。未安装或运行项目。",
+        "checkedAt": "2026-10-10T19:43:58.575630Z"
+      },
+      "caveats": [
+        "这是需在自己的环境配置和运行的本地 Web 审阅器，不是已验证可直接访问的托管在线演示。",
+        "官方提供 Python 和 Node 审阅服务；轨迹、应用适配与评测规则需按实际项目配置。",
+        "人工评审仍需判断质量；模型评分器可能调用外部服务，本地部署不意味着所有数据处理均离线。",
+        "未验证评测准确性、自动改进效果、安全性或生产稳定性；HN 新帖不等于项目刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50035864"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/confident-ai/eval-skills"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50035864.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/confident-ai/eval-skills/blob/main/docs/toolkit.md"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/confident-ai/eval-skills/tree/main/skills/eval-discover/templates/review-app"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50035826",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50035826",
+      "title": "Flopper",
+      "url": "https://flopper.io/",
+      "canonicalUrl": "https://flopper.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50035826",
+      "hnUrl": "https://news.ycombinator.com/item?id=50035826",
+      "publishedAt": "2026-10-10T18:42:44Z",
+      "discoveredAt": "2026-10-10T19:43:58.575630Z",
+      "what": "GPU 硬件资料与价格比较网站。作者说明可对照不同厂商 GPU 的功耗、浮点或整数计算吞吐量，以及 AI 和其他计算任务的性能估算，并汇总多家供应商报价与价格变化。",
+      "audience": "比较 AI 基础设施、消费级显卡或本地大模型硬件的开发者、研究者与采购评估者。",
+      "why": "作者 triwats 在 HN 原帖自述：研究 Nvidia、AMD、Huawei 等 GPU 时，规格散落在不同资料表中，匹配可购买配置、供应商与价格很繁琐，因此制作统一的信息比较入口。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50035826"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖及官方 API 时间；官网返回 HTTP 403，功能描述依据作者的一手说明，未操作比较界面。",
+        "checkedAt": "2026-10-10T19:43:58.575630Z"
+      },
+      "caveats": [
+        "作者指出部分数据属于尽力整理或简单估算，实际吞吐量受工作负载、供电、散热等条件影响。",
+        "作者提到的约 85% 标称性能只是其有限测试观察，不能当作所有 GPU 的规律；本次未核验规格、报价或测试结果。",
+        "企业级整机报价可能依赖采购合同；不能把所列价格当作可成交承诺。",
+        "本次 Show HN 分享不等于网站首次上线，未核验使用量、收入或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50035826"
+        },
+        {
+          "type": "official_site",
+          "url": "https://flopper.io/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50035826.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50035527",
       "provider": "hacker_news",
