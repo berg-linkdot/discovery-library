@@ -1,9 +1,106 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T17:49:31.981047Z",
-  "count": 433,
+  "updatedAt": "2026-10-10T18:44:08.448331Z",
+  "count": 435,
   "projects": [
+    {
+      "id": "hacker_news:50035527",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50035527",
+      "title": "Celery Man Computer",
+      "url": "https://celeryman.fun/",
+      "canonicalUrl": "https://celeryman.fun/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50035527",
+      "hnUrl": "https://news.ycombinator.com/item?id=50035527",
+      "publishedAt": "2026-10-10T18:08:36Z",
+      "discoveredAt": "2026-10-10T18:44:08.448331Z",
+      "what": "一个以 Tim & Eric 的 Celery Man 喜剧短片为灵感的网页 AI 演示。作者称它能复刻原片中的电脑交互，并根据用户提出的新角色要求生成回应。Celery Man 是该短片中的荒诞人物名称，理解原片笑点有助于理解这个作品。",
+      "audience": "喜欢 Tim & Eric 荒诞喜剧、影视梗和生成式 AI 互动演示的人。",
+      "why": "作者 turtlesoup 在 HN 原帖自述：发现新一代 AI 模型终于能重现那段经典喜剧里的电脑，于是花了几天制作这个版本。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50035527"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖并用官方 API 核对发帖时间；官网读取先超时，随后返回 HTTP 403，未能核对实际网页交互。",
+        "checkedAt": "2026-10-10T18:44:08.448331Z"
+      },
+      "caveats": [
+        "功能来自作者自述；“与原剧本完全一致”和任意角色生成能力未实测。",
+        "官网访问受限，登录要求、费用、内容生成限制及数据处理方式未核验。",
+        "仅记录本次 Show HN 分享，不代表网站刚上线；未验证使用量、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50035527"
+        },
+        {
+          "type": "official_site",
+          "url": "https://celeryman.fun/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50035527.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50035515",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50035515",
+      "title": "Site is OK?",
+      "url": "https://siteisok.com/",
+      "canonicalUrl": "https://siteisok.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50035515",
+      "hnUrl": "https://news.ycombinator.com/item?id=50035515",
+      "publishedAt": "2026-10-10T18:08:02Z",
+      "discoveredAt": "2026-10-10T18:44:08.448331Z",
+      "what": "网站基础设施诊断与持续监控工具。官网说明可检查 DNS、SSL/TLS 证书、HTTP 安全头、重定向及邮件认证配置，并给出评分与修复建议；账号功能包括保存域名、定期检查、在线状态监控及邮件提醒。",
+      "audience": "需要检查自己网站配置与可用性的站长、独立开发者和小团队。",
+      "why": "作者未说明制作原因。HN 发帖账号为 yasenp；官网说明服务由 Lindeas Ltd. 运营，但本次资料未确认该账号与运营方的具体身份关系。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50035515"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方首页与 About 页，并用官方 HN API 核对发帖时间；只核对公开说明，未提交域名或启动扫描。",
+        "checkedAt": "2026-10-10T18:44:08.448331Z"
+      },
+      "caveats": [
+        "匿名单次检查、账号监控与付费方案的额度和效果均以官网说明为准，未注册或购买。",
+        "未验证诊断准确率、监控稳定性、告警送达或安全与合规宣称；扫描结果不等于合规认证。",
+        "官网要求仅对自己拥有或明确获准测试的域名进行主动探测；本次未执行任何探测。",
+        "HN 新帖不代表网站首次上线；未验证收入、用户规模或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50035515"
+        },
+        {
+          "type": "official_site",
+          "url": "https://siteisok.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50035515.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://siteisok.com/about.php"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50034485",
       "provider": "hacker_news",
