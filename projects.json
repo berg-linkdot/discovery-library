@@ -1,9 +1,149 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T19:43:58.575630Z",
-  "count": 437,
+  "updatedAt": "2026-10-10T20:42:01.413264Z",
+  "count": 440,
   "projects": [
+    {
+      "id": "hacker_news:50036777",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50036777",
+      "title": "Tutor — 自托管书籍学习助手",
+      "url": "https://github.com/demetrius-edelin/tutor",
+      "canonicalUrl": "https://github.com/demetrius-edelin/tutor",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50036777",
+      "hnUrl": "https://news.ycombinator.com/item?id=50036777",
+      "publishedAt": "2026-10-10T20:23:47Z",
+      "discoveredAt": "2026-10-10T20:42:01.413264Z",
+      "what": "本地运行、通过浏览器学习的 AI 家教。导入 EPUB、带标签的 PDF 或在线文档后，整理概念地图、诊断已掌握知识、安排学习队列，逐个讲解并测试，附书中出处与进度面板。",
+      "audience": "想系统学习自己的书籍或技术文档、能够自行配置本地环境与模型 API 的自学者。",
+      "why": "作者 edelind 在 HN 原帖自述：阅读复杂材料不一定能记住，因此制作工具把概念提取出来、重新讲解并反复测试，以帮助真正学会材料。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50036777"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 时间与官方仓库 README；文档明确说明学习步骤使用本地浏览器应用。未安装、运行或上传书籍。",
+        "checkedAt": "2026-10-10T20:42:01.413264Z"
+      },
+      "caveats": [
+        "这是自托管的单人本地 Web 应用；添加书籍目前需命令行，托管版只是作者计划。",
+        "需要自己的模型 API，调用可能收费；书籍文本会发送给选择的服务商，自托管不代表离线处理。",
+        "官方说明 PDF 需带结构标签，扫描或无标签 PDF 不支持；在线文档抓取不能读取登录后或仅由 JavaScript 生成的正文。",
+        "未核验学习效果、评分准确性、模型价格比较或安全性；模型评分可能出错。",
+        "HN 新帖不等于项目刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50036777"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/demetrius-edelin/tutor"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50036777.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50036653",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50036653",
+      "title": "Larry Co-op",
+      "url": "https://matrix.davor.se/lsl/",
+      "canonicalUrl": "https://matrix.davor.se/lsl/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50036653",
+      "hnUrl": "https://news.ycombinator.com/item?id=50036653",
+      "publishedAt": "2026-10-10T20:10:28Z",
+      "discoveredAt": "2026-10-10T20:42:01.413264Z",
+      "what": "将 Leisure Suit Larry 1 改为多人共同游玩的浏览器入口。公开页面显示加入游戏的表单，并说明所有玩家共享同一局游戏、每两小时重启。",
+      "audience": "熟悉这款经典冒险游戏、希望尝试多人协作改编的成年玩家。",
+      "why": "作者未说明制作原因。HN 发帖者 davorb 称自己制作了多人合作版本；官网链接至同名 GitHub 账号，但本次未进一步核实个人身份。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50036653"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖及 API，浏览官网渲染后的加入页面；未填写表单或加入公共游戏。",
+        "checkedAt": "2026-10-10T20:42:01.413264Z"
+      },
+      "caveats": [
+        "原作以成人幽默为背景；本次未进入游戏核查具体内容。",
+        "未验证多人同步、实际可玩性、重启规则执行或版权授权情况。",
+        "原帖评论已标记或删除，没有可用于解释动机的作者正文；HN 分享时间不是首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50036653"
+        },
+        {
+          "type": "official_site",
+          "url": "https://matrix.davor.se/lsl/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50036653.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50036579",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50036579",
+      "title": "Pale Engine",
+      "url": "https://triptych.github.io/web-games-andrew/game-054/index.html",
+      "canonicalUrl": "https://triptych.github.io/web-games-andrew/game-054/index.html",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50036579",
+      "hnUrl": "https://news.ycombinator.com/item?id=50036579",
+      "publishedAt": "2026-10-10T20:00:37Z",
+      "discoveredAt": "2026-10-10T20:42:01.413264Z",
+      "what": "可在浏览器打开的 Doom 风格第一人称射击游戏。页面提供剧情战役、无尽模式、地图和操作说明，支持键鼠及触屏控制；玩法包括寻找钥匙卡、开门、应对敌人与抵达出口。",
+      "audience": "喜欢复古射击游戏的玩家，以及观察 AI 辅助 Web 游戏制作成果的开发者。",
+      "why": "作者未说明个人制作原因。发帖者 triptych 说明这是沿用其 Web 游戏仓库约定、以 Three.js 制作的 Doom 风格游戏，并自述使用模型生成、用 Playwright 测试；这些是制作方式，不是个人动机。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50036579"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 时间与公开游戏页面及操作说明；未开始游戏或验证战役。",
+        "checkedAt": "2026-10-10T20:42:01.413264Z"
+      },
+      "caveats": [
+        "作者关于生成模型及测试过程的说法未独立复现。",
+        "未验证浏览器兼容性、运行性能、关卡完整性或移动端体验。",
+        "HN 新帖不等于游戏首次上线，未核验收入或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50036579"
+        },
+        {
+          "type": "official_site",
+          "url": "https://triptych.github.io/web-games-andrew/game-054/index.html"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50036579.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50035864",
       "provider": "hacker_news",
