@@ -1,9 +1,61 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T14:40:11.319750Z",
-  "count": 428,
+  "updatedAt": "2026-10-10T15:40:56.029113Z",
+  "count": 429,
   "projects": [
+    {
+      "id": "hacker_news:50033558",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50033558",
+      "title": "p2pIM：带工作量证明的点对点网页聊天原型（自托管）",
+      "url": "https://github.com/iljah/p2pIM",
+      "canonicalUrl": "https://github.com/iljah/p2pIM",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50033558",
+      "hnUrl": "https://news.ycombinator.com/item?id=50033558",
+      "publishedAt": "2026-10-10T14:51:19Z",
+      "discoveredAt": "2026-10-10T15:40:56.029113Z",
+      "what": "点对点即时消息实验系统，附带可在本机浏览器输入、发送和查看消息的界面，并可配置对等节点同步消息。用工作量证明提高发送成本；较大消息需要更多计算，证明随时间衰减，为新消息腾出空间。",
+      "audience": "希望研究点对点消息、反垃圾机制和 Python Web 原型，且愿意自行部署的开发者。",
+      "why": "作者 iljah 说 Bitmessage 仍不支持 Python 3，自己多年尝试类似实现时屡次受限于文档不清晰或不完整；这次借助 ChatGPT 的最小示例指导，在约一天内做出了可用原型。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50033558"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已阅读 HN 原帖、现有评论状态、官方 API 时间及官方仓库 README，确认存在自托管浏览器消息界面；未安装或发送消息。",
+        "checkedAt": "2026-10-10T15:40:56.029113Z"
+      },
+      "caveats": [
+        "这是需要自行运行 Python 服务的早期原型，没有核验托管服务。",
+        "作者明确表示当前不支持加密；不应据此视为安全或私密通信工具。",
+        "工作量证明的防垃圾效果、节点同步可靠性和性能均未实测；示例使用较短字段便于调试，未审计安全实现。",
+        "作者制作耗时是自述；HN 发帖时间不代表首次上线，未验证用户数、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50033558"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/iljah/p2pIM"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50033558.json"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "即时消息",
+        "实验原型"
+      ]
+    },
     {
       "id": "hacker_news:50033189",
       "provider": "hacker_news",
