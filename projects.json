@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T16:43:24.631064Z",
-  "count": 432,
+  "updatedAt": "2026-10-10T17:49:31.981047Z",
+  "count": 433,
   "projects": [
     {
       "id": "hacker_news:50034485",
@@ -47,6 +47,53 @@
         {
           "type": "source_metadata",
           "url": "https://hacker-news.firebaseio.com/v0/item/50034485.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50034204",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50034204",
+      "title": "Vigil：安全审计任务的持久状态 Web 管理台（自托管）",
+      "url": "https://github.com/VigilOSS/Vigil",
+      "canonicalUrl": "https://github.com/VigilOSS/Vigil",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50034204",
+      "hnUrl": "https://news.ycombinator.com/item?id=50034204",
+      "publishedAt": "2026-10-10T15:59:52Z",
+      "discoveredAt": "2026-10-10T17:49:31.981047Z",
+      "what": "面向获授权的安全测试、代码审计及事件响应的开源代理编排项目。除命令行入口外，提供自托管 orchestrator Web 界面，用于查看持久保存的任务状态、事件、资料、覆盖记录和阶段进度；后台使用 SQLite 保存工作状态。",
+      "audience": "需要跟踪长时间安全审计任务、且能自行部署服务的安全工程师与研究人员。",
+      "why": "官方 README 的作者表示，希望项目对独立研究者开展获授权的工作仍然实用，并计划适配更多模型；这是项目目标，作者未说明更具体的最初制作缘由。HN 投稿账号与官方组织同名，其现实身份未独立核实。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://github.com/VigilOSS/Vigil"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读 HN 原帖、官方 API 与仓库 README，确认提供自托管 Web 管理界面；原帖关联评论当前标为已删除，未据其推断动机。",
+        "checkedAt": "2026-10-10T17:49:31.981047Z"
+      },
+      "caveats": [
+        "未安装或运行项目，未访问本地管理台，也未发起任何扫描、审计或测试。",
+        "需要自行部署后台及运行环境；界面能力、模型兼容性和结果准确性来自官方资料，未实测。",
+        "安全测试须有明确授权；收录不代表对其安全性、效果或合规性的背书。",
+        "HN 帖子时间不代表产品首次上线时间；未验证需求、用户规模或收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50034204"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/VigilOSS/Vigil"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50034204.json"
         }
       ]
     },
