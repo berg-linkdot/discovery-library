@@ -1,9 +1,111 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T09:43:07.384558Z",
-  "count": 421,
+  "updatedAt": "2026-10-10T11:44:17.125742Z",
+  "count": 423,
   "projects": [
+    {
+      "id": "hacker_news:50031782",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50031782",
+      "title": "GPUFind：云 GPU 比价与运行成本计算",
+      "url": "https://www.gpufind.cloud/",
+      "canonicalUrl": "https://www.gpufind.cloud/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50031782",
+      "hnUrl": "https://news.ycombinator.com/item?id=50031782",
+      "publishedAt": "2026-10-10T11:18:30Z",
+      "discoveredAt": "2026-10-10T11:44:17.125742Z",
+      "what": "提供云 GPU 型号与供应商价格比较、整次任务的计算费用估算、模型显存适配及租买比较网页。本次 Show HN 分享的是其 MCP 接口，可让编程代理查询公开报价及来源；网站本身也有无需登录即可查看的成本计算器。",
+      "audience": "需要选择模型训练或推理算力的开发者、研究者和小团队。",
+      "why": "作者未说明个人制作原因。HN 投稿者为 the_app_guy_1；官网署名 rahul，二者关系未独立确认。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50031782"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 MCP 说明与公开 Run cost 页面，观察到 GPU 型号、数量、时长及供应商费用结果；未提交计算、登录或调用 MCP。",
+        "checkedAt": "2026-10-10T11:44:17.125742Z"
+      },
+      "caveats": [
+        "计算器仅估算计算费用，不含存储和流量；官网说明不检查库存或最低采购数量。",
+        "报价刷新频率、覆盖范围和最低价属于网站陈述，未逐项核验供应商；不代表可实际采购的最终价格。",
+        "MCP 需要登录并创建 API key；未进行配置、调用或性能测试。",
+        "HN 帖子时间不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50031782"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50031782.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.gpufind.cloud/mcp-tool"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.gpufind.cloud/calculator"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50031583",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50031583",
+      "title": "SqlFlow Control Panel：自托管持久工作流管理台",
+      "url": "https://github.com/bytefish/SqlFlow",
+      "canonicalUrl": "https://github.com/bytefish/SqlFlow",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50031583",
+      "hnUrl": "https://news.ycombinator.com/item?id=50031583",
+      "publishedAt": "2026-10-10T10:47:33Z",
+      "discoveredAt": "2026-10-10T11:44:17.125742Z",
+      "what": "基于 PostgreSQL 或 SQL Server 的持久工作流项目，附带自托管 Angular 网页控制台和管理 API，可查看系统健康、任务处理、慢任务、等待事件和执行记录；工作流引擎支持重试、检查点、调度及等待外部事件。",
+      "audience": "已有 SQL 数据库、需要运行和排查后台任务或 AI 工作流的开发者与运维团队。",
+      "why": "作者 bytefish 在 HN 自称制作者，说明项目受 Absurd 启发并扩展其核心概念；作者未说明更具体的个人制作原因。仓库与 HN 使用同名账号，未独立核验现实身份。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50031583"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已读取 HN 作者介绍、官方仓库 README 与 apps/control-panel 说明，确认存在可在浏览器访问的 Angular 管理台；未安装或运行。",
+        "checkedAt": "2026-10-10T11:44:17.125742Z"
+      },
+      "caveats": [
+        "需要自行部署数据库、后端管理 API 和控制台；不是现成托管服务。",
+        "未实测控制台操作、恢复可靠性、吞吐、安全或生产适用性；生产就绪等说法未独立验证。",
+        "收录依据是附带的实用网页管理台，不把 SDK 本身当在线应用。",
+        "HN 帖子时间不代表项目首次发布。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50031583"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50031583.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/bytefish/SqlFlow"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/bytefish/SqlFlow/tree/main/apps/control-panel"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50030988",
       "provider": "hacker_news",
