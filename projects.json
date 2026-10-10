@@ -1,9 +1,101 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T06:40:31.599294Z",
-  "count": 416,
+  "updatedAt": "2026-10-10T07:48:44.826947Z",
+  "count": 419,
   "projects": [
+    {
+      "id": "hacker_news:50030504",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50030504",
+      "title": "Konnextions：自托管或云端呼叫团队工作台",
+      "url": "https://konnextions.marketingstudios.in/",
+      "canonicalUrl": "https://konnextions.marketingstudios.in/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50030504",
+      "hnUrl": "https://news.ycombinator.com/item?id=50030504",
+      "publishedAt": "2026-10-10T07:17:00Z",
+      "discoveredAt": "2026-10-10T07:48:44.826947Z",
+      "what": "面向呼叫团队的浏览器工作台，整合拨号、客户关系管理、线索分配、通话记录、跟进安排及团队监督。官网区分由企业在 Windows 或 Ubuntu 上部署的 Local 版本，以及面向远程团队的托管 Connect 版本。",
+      "audience": "外呼销售、客户支持、线索运营团队及其管理者。",
+      "why": "作者未说明个人制作原因。官网强调让团队在本地部署与在线工作台之间选择，但这只是产品定位。HN 投稿者 ms_by_pd 与官网所列 Marketing Studios 团队的关系未独立确认。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50030504"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "读取 HN 原帖并用官方 API 核验时间；本轮较早的官网公开页读取成功，后续直接抓取返回 403。原帖暂无评论。未登录官网演示或测试任何呼叫、客户数据及权限功能。",
+        "checkedAt": "2026-10-10T07:48:44.826947Z"
+      },
+      "caveats": [
+        "Local 是需要自行部署和维护的 Web 工作台，不是开箱即用的公共在线服务；Connect 是托管版本。",
+        "部署支持、组织隔离、审计及电话服务兼容性均为官网描述，未验证实际运行、安全或可用性。",
+        "来源帖时间不代表网站首次上线；未核验用户规模、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50030504"
+        },
+        {
+          "type": "official_site",
+          "url": "https://konnextions.marketingstudios.in/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50030504.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50030369",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50030369",
+      "title": "Velu Agent-Friendly Documentation：检查文档能否被 AI 读取",
+      "url": "https://www.veludocs.com/agent-friendly-documentation/",
+      "canonicalUrl": "https://www.veludocs.com/agent-friendly-documentation/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50030369",
+      "hnUrl": "https://news.ycombinator.com/item?id=50030369",
+      "publishedAt": "2026-10-10T06:48:05Z",
+      "discoveredAt": "2026-10-10T07:48:44.826947Z",
+      "what": "面向文档网站的在线检查器，按 Agent-Friendly Documentation Spec 的 7 类、23 项检查评估可发现性、Markdown 版本、页面大小与截断、结构、URL 稳定性、可观察性及访问门槛。官网提供文档 URL 输入入口，并称无需注册、可分享评分。",
+      "audience": "维护开发者文档、SaaS 帮助中心及 AI 产品文档的开发者和技术写作者。",
+      "why": "HN 投稿者 _aravindc 自称 Aravind、Velu 团队成员，说明编程代理越来越先于人类阅读文档，但许多文档有客户端渲染、缺少 llms.txt 和 Markdown、软 404 或内容超过上下文窗口等问题，因此提供此检查工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50030369"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "读取 HN 作者原帖和官方检查器页面，并由官方 HN API 核验发帖时间。原帖当前无评论；未输入 URL 或提交检查。",
+        "checkedAt": "2026-10-10T07:48:44.826947Z"
+      },
+      "caveats": [
+        "评分依据该项目采用的开放社区规范，不代表普遍认可的行业认证，也不能保证所有 AI 代理都能正确理解文档。",
+        "官网称提交的 URL 会被抓取、评分并缓存约 15 分钟；本次未验证实际扫描、评分准确性或分享链接。",
+        "来源帖时间不代表网站首次上线；未核验用户规模、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50030369"
+        },
+        {
+          "type": "official_site",
+          "url": "https://www.veludocs.com/agent-friendly-documentation/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50030369.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50030174",
       "provider": "hacker_news",
@@ -1393,6 +1485,53 @@
         {
           "type": "official_site",
           "url": "https://architect.co/insights/articles/introducing-liquid-inference/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50020915",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50020915",
+      "title": "Parlay Pals：朋友间体育串关选择记录",
+      "url": "https://parlaypals.bet/",
+      "canonicalUrl": "https://parlaypals.bet/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50020915",
+      "hnUrl": "https://news.ycombinator.com/item?id=50020915",
+      "publishedAt": "2026-10-09T14:19:27Z",
+      "discoveredAt": "2026-10-10T07:48:44.826947Z",
+      "what": "用于小组组织和记录体育串关选择的 Web 应用。官网展示团队名单、每人选择的单项、重复选择锁定、结果排行、截图凭证及已付/未付账目记录；声明不接受下注、不代下注，也不收取、保管或转移投注资金。",
+      "audience": "所在地区允许相关活动、需要共同记录体育赛事选择的成年人小组。",
+      "why": "官方页面说明，希望让朋友共同选择串关时不用再翻找混乱的群聊或维护表格；HN 投稿者 thedangler 未在当前可读评论中补充个人制作经历，其与官网团队的身份关系未独立确认。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://parlaypals.bet/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "读取官网公开说明、HN 原帖和可读评论，并由官方 HN API 核验时间。这是重新出现在可见重叠中的旧帖；未注册、邀请成员、选择赛事、上传凭证或执行任何下注及付款。",
+        "checkedAt": "2026-10-10T07:48:44.826947Z"
+      },
+      "caveats": [
+        "parlay 指将多个赛事选择合并的串关，leg 是其中一个单项；本条仅记录产品用途，不提供投注推荐或策略。",
+        "官网不触碰资金等说法是其自述，未核验后台实现、赔率准确性、支付记录安全或当地合规性。",
+        "公开页面中的赔率、金额及排行榜属于展示内容，不代表实际用户、收益或成功率。",
+        "来源帖时间不代表网站首次上线；未核验用户规模、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50020915"
+        },
+        {
+          "type": "official_site",
+          "url": "https://parlaypals.bet/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50020915.json"
         }
       ]
     },
