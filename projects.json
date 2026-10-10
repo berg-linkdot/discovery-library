@@ -1,9 +1,101 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T15:40:56.029113Z",
-  "count": 429,
+  "updatedAt": "2026-10-10T16:43:24.631064Z",
+  "count": 432,
   "projects": [
+    {
+      "id": "hacker_news:50034485",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50034485",
+      "title": "The Sentence：改一个词、长出句子分支的协作文字实验",
+      "url": "https://the-sentence.com/",
+      "canonicalUrl": "https://the-sentence.com",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50034485",
+      "hnUrl": "https://news.ycombinator.com/item?id=50034485",
+      "publishedAt": "2026-10-10T16:30:52Z",
+      "discoveredAt": "2026-10-10T16:43:24.631064Z",
+      "what": "HN 帖子与发布者说明介绍了一种协作文字游戏：参与者修改句子中的一个词，形成可以追溯祖先和后代的句子分支。发布者计划在参与人数达到上限后锁定作品，保留为展示语言演变的档案。",
+      "audience": "对英语文字游戏、多人协作叙事和网络艺术实验感兴趣的人。",
+      "why": "发布者 prowlingciper 说明了把句子演变保存为可追溯“家族树”和博物馆式作品的目标；作者未说明个人制作缘由，其创作者身份未独立核实。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50034494"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读 HN 原帖、发布者评论与官方 API 时间；官网返回 HTTP 403，玩法据一手公开说明整理。",
+        "checkedAt": "2026-10-10T16:43:24.631064Z"
+      },
+      "caveats": [
+        "未能打开官网或实玩，不能确认当前可参与状态、分支界面或锁定机制。",
+        "“最多一百万人”是发布者的计划上限，并非已获得的用户数。",
+        "HN 帖子时间不代表产品首次上线时间；未登录、提交内容或验证需求、收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50034485"
+        },
+        {
+          "type": "official_site",
+          "url": "https://the-sentence.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50034485.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50034052",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50034052",
+      "title": "Health Explorer：了解 DNA、基因与身体关系的网页教育项目",
+      "url": "https://health-explorer.askcyph.ai/",
+      "canonicalUrl": "https://health-explorer.askcyph.ai",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50034052",
+      "hnUrl": "https://news.ycombinator.com/item?id=50034052",
+      "publishedAt": "2026-10-10T15:44:09Z",
+      "discoveredAt": "2026-10-10T16:43:24.631064Z",
+      "what": "作者介绍的免费教育网页，用引导示例帮助理解 DNA 变化如何影响基因与身体，并提供可选的浏览器内助手、六种语言和朗读支持；作者称无需登录。",
+      "audience": "想入门了解遗传学的普通读者、学生及需要多语言或朗读辅助的学习者。",
+      "why": "作者 dj_io 在 HN 自称制作了这个项目，并说明目标是帮助人们探索 DNA 变化与基因、身体之间的关系；作者未说明更具体的个人制作缘由。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50034198"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读 HN 原帖、作者评论与官方 API 时间；官网返回 HTTP 403，功能来自作者自述，尚未实测。",
+        "checkedAt": "2026-10-10T16:43:24.631064Z"
+      },
+      "caveats": [
+        "未验证六种语言、朗读、免费及免登录是否完整可用，也未核查助手所用模型、隐私处理或科学准确性。",
+        "按教育演示收录，不构成诊断、治疗建议或临床有效性背书；未输入任何健康或基因数据。",
+        "HN 帖子时间不代表产品首次上线时间；未登录、提交内容或验证需求、收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50034052"
+        },
+        {
+          "type": "official_site",
+          "url": "https://health-explorer.askcyph.ai/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50034052.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50033558",
       "provider": "hacker_news",
@@ -1176,6 +1268,57 @@
         {
           "type": "source_metadata",
           "url": "https://hacker-news.firebaseio.com/v0/item/50025133.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50025048",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50025048",
+      "title": "braiNOTES：在浏览器里给讲义 PDF 做手写笔记（可自托管）",
+      "url": "https://notes.swimmingbrain.dev/",
+      "canonicalUrl": "https://notes.swimmingbrain.dev",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50025048",
+      "hnUrl": "https://news.ycombinator.com/item?id=50025048",
+      "publishedAt": "2026-10-09T18:48:41Z",
+      "discoveredAt": "2026-10-10T16:43:24.631064Z",
+      "what": "开源的本地优先手写笔记与白板 Web 应用：将讲义 PDF 并排阅读或作为书写页面，使用压感笔、荧光笔、图形与截图工具整理课堂内容；支持导出带矢量笔迹的 PDF、PNG 和可备份的 .brainotes 文件。官方仓库提供静态站点自托管方式。",
+      "audience": "使用触控笔或二合一电脑记课堂笔记的学生，以及需要讲义批注或白板演示的教师、辅导者。",
+      "why": "作者 swimmingbrain 在 HN 说，自己用二合一电脑做手写笔记时，受困于不同应用间转移笔记、导出 PDF 和注册账号，于是想做一个打开标签页即可并排看讲义、直接用笔书写且内容留在浏览器的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50025048"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "已核对 HN 作者正文、官方 GitHub README 与 API 时间；功能和本地存储机制来自公开资料，未导入文件或实测书写。",
+        "checkedAt": "2026-10-10T16:43:24.631064Z"
+      },
+      "caveats": [
+        "官网演示未实测；本地 IndexedDB 自动保存、离线可用及“内容不离开浏览器”是作者与文档描述，未进行网络或安全审计。",
+        "本地浏览器数据可能因清理存储而丢失，导出备份与跨设备迁移流程未验证。",
+        "作者自述自己及朋友使用不等于独立的需求或商业验证。",
+        "HN 帖子时间不代表产品首次上线时间；未登录、提交内容或验证需求、收入。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50025048"
+        },
+        {
+          "type": "official_site",
+          "url": "https://notes.swimmingbrain.dev/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50025048.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/swimmingbrain/brainotes"
         }
       ]
     },
