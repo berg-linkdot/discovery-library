@@ -1,9 +1,62 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-09T22:45:28.191624Z",
-  "count": 410,
+  "updatedAt": "2026-10-10T00:00:07.086003Z",
+  "count": 411,
   "projects": [
+    {
+      "id": "hacker_news:50027493",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50027493",
+      "title": "Find Winning Funnels",
+      "url": "https://findwinningfunnels.com/",
+      "canonicalUrl": "https://findwinningfunnels.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50027493",
+      "hnUrl": "https://news.ycombinator.com/item?id=50027493",
+      "publishedAt": "2026-10-09T22:41:14Z",
+      "discoveredAt": "2026-10-10T00:00:07.086003Z",
+      "what": "面向营销研究的在线 AI 工具：按细分市场寻找广告落地页与销售漏斗，展示截图、卖点分析和建模收入区间。公开首页提供部分案例目录；完整研究需账户。这里的 funnel 指从广告、落地页到留资或购买的一系列转化步骤。",
+      "audience": "广告投手、营销人员，以及研究同类产品获客方式的创业者。",
+      "why": "发帖者 luiscfontan 在原帖评论中表示，希望帮助人们先研究同领域的销售方式，减少搭建漏斗后的试错；未提供个人制作经历，且本轮无法独立确认其开发者身份。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50027497"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、发帖者评论及官网首页、案例目录、FAQ；未注册、登录或运行研究。",
+        "checkedAt": "2026-10-10T00:00:07.086003Z"
+      },
+      "caveats": [
+        "官网收入数字是模型估算，并非企业披露或经审计收入；没有验证任何案例的实际营收、转化率或需求。",
+        "官网 Proven、Rising 标签依据域名年龄及广告等信号，不能据此确认商业成功。",
+        "未测试 AI 搜索、截图、分析准确率、导出或付费功能。",
+        "HN 发布时间不代表网站首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50027493"
+        },
+        {
+          "type": "official_site",
+          "url": "https://findwinningfunnels.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50027493.json"
+        }
+      ],
+      "tags": [
+        "营销研究",
+        "广告",
+        "AI",
+        "Web应用"
+      ]
+    },
     {
       "id": "hacker_news:50027243",
       "provider": "hacker_news",
