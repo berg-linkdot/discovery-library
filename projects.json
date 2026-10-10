@@ -1,9 +1,203 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T11:44:17.125742Z",
-  "count": 423,
+  "updatedAt": "2026-10-10T13:44:02.224110Z",
+  "count": 427,
   "projects": [
+    {
+      "id": "hacker_news:50032872",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50032872",
+      "title": "World Watcher：在地图上切换全球公开摄像头直播",
+      "url": "https://worldwatcher.live/",
+      "canonicalUrl": "https://worldwatcher.live/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50032872",
+      "hnUrl": "https://news.ycombinator.com/item?id=50032872",
+      "publishedAt": "2026-10-10T13:40:00Z",
+      "discoveredAt": "2026-10-10T13:44:02.224110Z",
+      "what": "把公开的 YouTube 摄像头直播整理到交互地图。作者介绍可在地点之间切换直播，按海滩、是否有音频等特征筛选，并通过 Explore 随机探索地点；官网元数据确认其为网页摄像头地图。",
+      "audience": "喜欢远程看风景、城市日常或探索世界各地公开直播的人。",
+      "why": "作者 quinito 在原帖说，已有地图聚合站常需要不断打开新页面观看，使用体验不满意，因此希望做一个能在地点间顺畅切换、并重视摄像头定位的版本。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50032872"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、现有评论、官方 API 时间及产品公开页面；仅只读浏览，未注册、提交表单或执行产品功能。",
+        "checkedAt": "2026-10-10T13:44:02.224110Z"
+      },
+      "caveats": [
+        "本轮官网只读 HTML 主要返回前端应用外壳及元数据，未验证地图交互、播放效果、摄像头坐标或各路直播是否在线。",
+        "作者称会及时移除失效直播，未独立测试这一维护承诺；公开直播的可用性依赖第三方。",
+        "HN 发布时间不等于产品首次上线时间；未核实用户规模、收入或实际需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50032872"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50032872.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://worldwatcher.live/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50032641",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50032641",
+      "title": "Academic Ancestry：探索学术师承与知识谱系",
+      "url": "https://academicancestry.org/",
+      "canonicalUrl": "https://academicancestry.org/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50032641",
+      "hnUrl": "https://news.ycombinator.com/item?id=50032641",
+      "publishedAt": "2026-10-10T13:17:32Z",
+      "discoveredAt": "2026-10-10T13:44:02.224110Z",
+      "what": "输入人物、论文或术语探索学术关系，查看导师、学生及论文审查相关联系；提供多种关系图布局与预设人物群组。官网说明资料结合 Wikidata 导师声明和论文资料库。",
+      "audience": "希望了解学术传承的研究者、学生、教育者及科学史爱好者。",
+      "why": "作者 Codeblackwell 在 HN 自述，希望人们了解“教过自己的人是由谁教的”，追溯知识如何建立在前人的工作之上；官网制作署名与发帖账号相符。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50032641"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、现有评论、官方 API 时间及产品公开页面；仅只读浏览，未注册、提交表单或执行产品功能。",
+        "checkedAt": "2026-10-10T13:44:02.224110Z"
+      },
+      "caveats": [
+        "未提交查询或核验具体人物关系；展示的收录数量是官网统计。",
+        "官网明确 1990 年前及欧美以外地区的记录较薄弱，图中记录终止不意味着某人没有学生。",
+        "作者称近两周制作，属于作者自述，不能当作独立核实的上线日期。",
+        "HN 发布时间不等于产品首次上线时间；未核实用户规模、收入或实际需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50032641"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50032641.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://academicancestry.org/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50032583",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50032583",
+      "title": "frontierroles：AI 工程职位看板与 MCP 查询入口",
+      "url": "https://frontierroles.com/",
+      "canonicalUrl": "https://frontierroles.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50032583",
+      "hnUrl": "https://news.ycombinator.com/item?id=50032583",
+      "publishedAt": "2026-10-10T13:09:31Z",
+      "discoveredAt": "2026-10-10T13:44:02.224110Z",
+      "what": "AI 工程职位网站，可按技能、级别、工作地点及远程方式筛选，并链接到雇主申请页面。此次 HN 展示的是它的 MCP 服务；官网同时提供可直接浏览的职位看板和统计页，说明数据来自雇主招聘系统并按夜更新。",
+      "audience": "寻找 AI 研究、RAG、代理、评测、推理或机器学习工程职位的求职者。",
+      "why": "作者未说明具体制作起因。发帖账号 alastairr 介绍了职位数据来源和 MCP 用法；官网强调让助手发现单纯筛选可能遗漏的机会，这属于产品目标，不能推断为作者个人经历。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50032583"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、现有评论、官方 API 时间及产品公开页面；仅只读浏览，未注册、提交表单或执行产品功能。",
+        "checkedAt": "2026-10-10T13:44:02.224110Z"
+      },
+      "caveats": [
+        "未连接 MCP、登录、投递简历或核实每条职位仍开放；官网职位总数与更新频率是页面信息。",
+        "薪资、岗位分类及去重结果未经逐项核验；招聘地域与签证条件应以雇主原始职位为准。",
+        "HN 发布时间不等于产品首次上线时间；未核实用户规模、收入或实际需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50032583"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50032583.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://frontierroles.com/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://frontierroles.com/mcp/"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50032374",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50032374",
+      "title": "Maple Hill / OpenWants：观察 AI 代理协调居民需求的模拟小镇",
+      "url": "https://maplehill.openwants.com/",
+      "canonicalUrl": "https://maplehill.openwants.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50032374",
+      "hnUrl": "https://news.ycombinator.com/item?id=50032374",
+      "publishedAt": "2026-10-10T12:42:25Z",
+      "discoveredAt": "2026-10-10T13:44:02.224110Z",
+      "what": "可在网页中观察居民、商店及其代理发布需求、互相发送消息、达成交易，并查看小镇的活动流与需求列表。项目公开源码，支持自托管；默认使用内存模拟服务与规则驱动的日常行为，配置模型后可让代理在决策点调用模型。",
+      "audience": "对多代理协作、模拟社会和代理市场实验感兴趣的开发者与研究者。",
+      "why": "作者 ddaniel10 在原帖称，自己长期想探索一个问题：如果人人拥有强大的个人 AI，是否只需一个共享需求空间，就能让代理相互协调，而不再依赖许多分别撮合需求的平台。因此制作模拟城市来观察这种设想。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50032374"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、现有评论、官方 API 时间及产品公开页面；仅只读浏览，未注册、提交表单或执行产品功能。",
+        "checkedAt": "2026-10-10T13:44:02.224110Z"
+      },
+      "caveats": [
+        "这是模拟实验，不是现实居民交易或商业可行性证明。",
+        "官网称“没有脚本”，但仓库明确日常运行由代码控制，无模型时使用规则行为；不能把全部活动描述为自主模型决策。",
+        "未运行源码、配置模型、连接代理或验证交易与成本；官方仓库给出的模型名称和费用未独立核实。",
+        "HN 发布时间不等于产品首次上线时间；未核实用户规模、收入或实际需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50032374"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50032374.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://maplehill.openwants.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/openwants/maplehill"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50031782",
       "provider": "hacker_news",
