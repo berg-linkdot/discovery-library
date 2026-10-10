@@ -1,9 +1,108 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T20:42:01.413264Z",
-  "count": 440,
+  "updatedAt": "2026-10-10T22:43:22.357494Z",
+  "count": 442,
   "projects": [
+    {
+      "id": "hacker_news:50037892",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50037892",
+      "title": "Convertix QR：可定制样式的在线二维码生成器",
+      "url": "https://convertix-fast-imager-co.blogspot.com/p/convertix-free-online-qr-code-generator.html",
+      "canonicalUrl": "https://convertix-fast-imager-co.blogspot.com/p/convertix-free-online-qr-code-generator.html",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50037892",
+      "hnUrl": "https://news.ycombinator.com/item?id=50037892",
+      "publishedAt": "2026-10-10T22:39:37Z",
+      "discoveredAt": "2026-10-10T22:43:22.357494Z",
+      "what": "在浏览器中为网址、纯文本、Wi-Fi 或 WhatsApp 联系链接制作二维码，可设置前景与背景颜色、尺寸及中央 Logo，页面提供 PNG 和 SVG 下载入口。",
+      "audience": "需要制作菜单、名片、活动海报、访客联网说明或业务联系二维码的个人与小商家。",
+      "why": "作者未说明个人制作原因。官网把产品定位为减少注册、水印和基础自定义收费等障碍；HN 发帖者 tanjirods 与网站作者的身份关系未得到明确证实。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50037892"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 时间与工具页面，核对输入类型、自定义和下载说明；原帖暂无作者说明或评论。未填写、上传或生成二维码。",
+        "checkedAt": "2026-10-10T22:43:22.357494Z"
+      },
+      "caveats": [
+        "同站已收录的图片转文字 OCR 是另一独立工具，本条对应专门的二维码生成页面。",
+        "免费、免注册及本地生成是官网描述，未实测下载、扫码可读性或完整网络数据流。",
+        "页面含广告位，站点加载第三方分析与广告脚本；本地生成不等于整站无追踪，请勿把隐私宣传当安全审计结论。",
+        "HN 新帖不等于网站或项目刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50037892"
+        },
+        {
+          "type": "official_site",
+          "url": "https://convertix-fast-imager-co.blogspot.com/p/convertix-free-online-qr-code-generator.html"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50037892.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50037841",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50037841",
+      "title": "Mailbox Viewer：自托管的 Gmail 风格邮件档案网页",
+      "url": "https://github.com/rahimnathwani/mailbox-viewer",
+      "canonicalUrl": "https://github.com/rahimnathwani/mailbox-viewer",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50037841",
+      "hnUrl": "https://news.ycombinator.com/item?id=50037841",
+      "publishedAt": "2026-10-10T22:31:18Z",
+      "discoveredAt": "2026-10-10T22:43:22.357494Z",
+      "what": "把 PST、mbox 等邮件导出文件预处理成静态数据，在浏览器中按会话、标签和 Gmail 风格搜索语法浏览。支持附件文本索引、语义搜索及可分享的会话与搜索链接，提供虚构邮箱示例。",
+      "audience": "需要公开分享获准披露邮件资料的记者、公共记录研究者、档案整理者及能自行部署的技术团队。",
+      "why": "作者 rahimnathwani 在 HN 原帖说，公共记录申请拿到的 PST 或 mbox 普通人难以打开，也不便分享和链接到具体会话；受易用的 Gmail 风格公开邮件阅读器启发，且自己的初版有局限，因此制作了这个版本。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50037841"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 作者原帖、官方 API 时间和仓库 README；示例地址可返回网页应用外壳。未安装、导入邮箱、部署或实测搜索。",
+        "checkedAt": "2026-10-10T22:43:22.357494Z"
+      },
+      "caveats": [
+        "需自托管：先用命令行预处理邮件，再部署静态前端和支持 HTTP Range 的数据存储；不是连接私人 Gmail 的在线邮件客户端。",
+        "FOIA 指美国《信息自由法》相关公共记录申请，PRA 是加州公共记录法语境，解释的是作者使用场景。",
+        "官方明确无登录、无自动脱敏：发布后持有链接的人可读取邮件，发布前需自行审查和删除敏感信息。",
+        "性能、附件解析、语义搜索和安全隔离是文档功能说明，本次未验证效果。",
+        "HN 新帖不等于网站或项目刚上线。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50037841"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/rahimnathwani/mailbox-viewer"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50037841.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://mail.ocaho.com/demo"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50036777",
       "provider": "hacker_news",
