@@ -1,9 +1,69 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T08:43:32.159449Z",
-  "count": 420,
+  "updatedAt": "2026-10-10T09:43:07.384558Z",
+  "count": 421,
   "projects": [
+    {
+      "id": "hacker_news:50030988",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50030988",
+      "title": "Menura：网页视频、音频与图片下载及格式转换",
+      "url": "https://menura.download/",
+      "canonicalUrl": "https://menura.download/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50030988",
+      "hnUrl": "https://news.ycombinator.com/item?id=50030988",
+      "publishedAt": "2026-10-10T08:54:01Z",
+      "discoveredAt": "2026-10-10T09:43:07.384558Z",
+      "what": "无需注册的在线媒体工具：粘贴链接后选择可用的视频、音频或图片下载，也提供本地文件格式转换和压缩入口。页面列出 YouTube、TikTok、Instagram、X 等支持站点；转换页列出 MP4、WebM、MOV、MKV、GIF、MP3、FLAC、JPG、PNG、WebP、AVIF 等输出格式。",
+      "audience": "需要保存自己有权保留的网络素材，或转换、压缩已有媒体文件的用户。",
+      "why": "HN 投稿者 haneboxx 自称制作者，介绍它是 cobalt 的替代工具，希望提供 YouTube 下载支持，并把转换与压缩功能放在一起；作者未说明更具体的个人制作原因。官网署名 hanebox，与投稿者的对应关系依据其自述，未独立核验身份。",
+      "whySource": {
+        "status": "product_goal_only",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50030988"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "读取 HN 原帖及官方 API 时间，当前无评论；核对官网首页、About、转换和压缩页面，仅查看公开界面，未粘贴下载链接、选择文件或执行处理。",
+        "checkedAt": "2026-10-10T09:43:07.384558Z"
+      },
+      "caveats": [
+        "免费、无广告及隐私描述为作者和官网声明，未进行安全或网络流量审计。",
+        "官网称合并和转换在浏览器本地完成，但网络下载会经过服务器中转，并使用匿名分析统计；不能据此理解为所有网络数据完全不离开设备。",
+        "下载只应用于自己拥有权利或获得授权的内容，并遵守来源平台条款；未核验各平台下载可用性。",
+        "官网说明 YouTube 页面变化可能暂时导致下载失效，处理速度也取决于设备与网络。",
+        "来源帖时间不代表网站首次上线；未核验用户规模、收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50030988"
+        },
+        {
+          "type": "official_site",
+          "url": "https://menura.download/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50030988.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://menura.download/about"
+        },
+        {
+          "type": "official_site",
+          "url": "https://menura.download/convert"
+        },
+        {
+          "type": "official_site",
+          "url": "https://menura.download/compress"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50030849",
       "provider": "hacker_news",
