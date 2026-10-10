@@ -1,9 +1,65 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T02:44:15.078998Z",
-  "count": 414,
+  "updatedAt": "2026-10-10T05:41:23.710678Z",
+  "count": 415,
   "projects": [
+    {
+      "id": "hacker_news:50029732",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50029732",
+      "title": "StarGuessr：看星空猜地球位置",
+      "url": "https://starguessr.sidequests.space/",
+      "canonicalUrl": "https://starguessr.sidequests.space/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50029732",
+      "hnUrl": "https://news.ycombinator.com/item?id=50029732",
+      "publishedAt": "2026-10-10T05:03:01Z",
+      "discoveredAt": "2026-10-10T05:41:23.710678Z",
+      "what": "浏览器天文猜位置游戏：根据某时某地的夜空，在地图上猜自己位于地球哪里。每天三轮，第三轮对应当天历史事件的天空；简单模式标注星座、恒星和指南方向，困难模式隐藏提示。另有十节星空导航教学，介绍北极星、南十字座与经纬度判断。",
+      "audience": "喜欢天文、地理猜谜和轻量浏览器游戏的人，以及想了解星空导航的初学者。",
+      "why": "作者未说明制作原因。HN 投稿账号为 Sketchy_，当前原帖没有作者自述或评论，尚未独立确认其创作者身份。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50029732"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "读取 HN 原帖、官方首页、玩法说明和教学页面，确认在线游戏入口与教学界面可见；通过官方 HN API 核验帖子时间。",
+        "checkedAt": "2026-10-10T05:41:23.710678Z"
+      },
+      "caveats": [
+        "未提交位置猜测或完成游戏，星空模拟精度、计分与每日题目更新机制未实测。",
+        "标题中的 GeoGuessr 类比指根据视觉线索猜地理位置；本作线索是夜空，不代表与 GeoGuessr 有官方关联。",
+        "来源帖时间不代表产品首次上线；未验证需求、收入或用户规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50029732"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50029732.json"
+        },
+        {
+          "type": "official_site",
+          "url": "https://starguessr.sidequests.space/"
+        },
+        {
+          "type": "official_site",
+          "url": "https://starguessr.sidequests.space/tutorial/"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "天文",
+        "地理",
+        "教学"
+      ]
+    },
     {
       "id": "hacker_news:50028785",
       "provider": "hacker_news",
