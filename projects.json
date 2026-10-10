@@ -1,9 +1,61 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-10T13:44:02.224110Z",
-  "count": 427,
+  "updatedAt": "2026-10-10T14:40:11.319750Z",
+  "count": 428,
   "projects": [
+    {
+      "id": "hacker_news:50033189",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50033189",
+      "title": "Tessary：排查生产环境 AI 智能体故障的 Web 平台（可自托管）",
+      "url": "https://github.com/tessaryai/tessary",
+      "canonicalUrl": "https://github.com/tessaryai/tessary",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50033189",
+      "hnUrl": "https://news.ycombinator.com/item?id=50033189",
+      "publishedAt": "2026-10-10T14:09:36Z",
+      "discoveredAt": "2026-10-10T14:40:11.319750Z",
+      "what": "开源智能体可靠性平台，提供云端服务和自托管 Web 界面。接收运行轨迹，用分类器筛选异常、将相关发现归并为案例，再结合轨迹及可选的代码仓库信息分析原因并通知负责人。",
+      "audience": "需要观察生产环境 AI 智能体失败情况、排查原因的开发者和工程团队。",
+      "why": "发帖人 infinitetrooper 自称联合创始人 Akhil。他说团队原本为 B2B 软件制作模拟用户做可用性测试，但智能体长时间运行不够可靠，庞大的评测集又使评测成本过高，因此转向覆盖更多运行轨迹、同时降低可靠性检查成本的工具。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50033189"
+        ]
+      },
+      "verification": {
+        "status": "source_reviewed",
+        "summary": "核对 HN 原帖、现有评论、官方 API 时间及官方 GitHub README；README 明确提供云端入口和自托管浏览器界面。未登录、安装或上传运行轨迹。",
+        "checkedAt": "2026-10-10T14:40:11.319750Z"
+      },
+      "caveats": [
+        "官网 tessary.ai 本轮读取返回 HTTP 403，未绕过访问限制；产品说明以官方仓库及作者原帖为依据。",
+        "作者关于成本更低、覆盖更多失败的数字是自述，未独立复现；没有核实实际客户、收入或需求规模。",
+        "自托管需要 Docker 等运行环境；官方仓库说明默认发送不含轨迹内容的匿名遥测心跳，并提供关闭方式，未审计隐私或安全实现。",
+        "未实测云端控制台、分类准确率、根因分析或通知流程；HN 发帖时间不代表首次上线时间。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50033189"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/tessaryai/tessary"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50033189.json"
+        }
+      ],
+      "tags": [
+        "AI 智能体",
+        "可观测性",
+        "自托管"
+      ]
+    },
     {
       "id": "hacker_news:50032872",
       "provider": "hacker_news",
