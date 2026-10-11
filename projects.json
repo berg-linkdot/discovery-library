@@ -1,9 +1,58 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-11T00:43:01.758999Z",
-  "count": 445,
+  "updatedAt": "2026-10-11T01:42:14.427608Z",
+  "count": 446,
   "projects": [
+    {
+      "id": "hacker_news:50038499",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50038499",
+      "title": "Boardsy Free Exhibition Display Tools",
+      "url": "https://boardsy.co.uk/free-exhibition-display-tools/",
+      "canonicalUrl": "https://boardsy.co.uk/free-exhibition-display-tools/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50038499",
+      "hnUrl": "https://news.ycombinator.com/item?id=50038499",
+      "publishedAt": "2026-10-11T00:26:53Z",
+      "discoveredAt": "2026-10-11T01:42:14.427608Z",
+      "what": "一组展会与 LED 展示规划网页工具：根据观看距离和场地估算屏幕尺寸与像素间距，估算展台成本、标牌投资回报、LED 与传统灯箱的五年成本，并生成参展筹备清单。",
+      "audience": "规划展台、门店标牌或活动显示屏的参展商、市场团队与展示设备采购人员。",
+      "why": "作者未说明。HN 投稿账号 Boardsy 与官网品牌同名，但没有可读的作者动机说明，个人作者身份未确认。官网说明的产品目标是帮助用户在咨询供应商前估算展示规格和预算。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50038499",
+          "https://boardsy.co.uk/free-exhibition-display-tools/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 与评论，以及官网的六类工具、输入字段和用途说明；未提交表单或运行计算。",
+        "checkedAt": "2026-10-11T01:42:14.427608Z"
+      },
+      "caveats": [
+        "官网同时销售显示设备，工具页面带有询价与购买入口；本次仅进行只读核查。",
+        "距离和尺寸主要以米表示，成本与交易金额字段以英镑表示，使用其他地区单位或成本时需要自行换算。",
+        "投资回报工具中的转化率提升是假设输入，不能作为真实收益、需求或效果验证；尺寸、成本及回报公式均未独立验证。",
+        "HN 标题称开源，本次未核实代码仓库及许可证。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入或用户规模。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50038499"
+        },
+        {
+          "type": "official_site",
+          "url": "https://boardsy.co.uk/free-exhibition-display-tools/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50038499.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50038215",
       "provider": "hacker_news",
