@@ -1,9 +1,56 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-11T01:42:14.427608Z",
-  "count": 446,
+  "updatedAt": "2026-10-11T03:43:01.811762Z",
+  "count": 447,
   "projects": [
+    {
+      "id": "hacker_news:50039383",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50039383",
+      "title": "Color Swapper",
+      "url": "https://colorswapper.com/",
+      "canonicalUrl": "https://colorswapper.com/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50039383",
+      "hnUrl": "https://news.ycombinator.com/item?id=50039383",
+      "publishedAt": "2026-10-11T02:52:17Z",
+      "discoveredAt": "2026-10-11T03:43:01.811762Z",
+      "what": "用于预览终端或代码编辑器配色的网页工具：识别截图中的颜色，通过主题预设或逐个修改颜色来比较配色方案，提供原图、预览与分屏对照，以及导出入口。页面说明支持 PNG、JPG 和 WebP。",
+      "audience": "希望调整终端、代码编辑器主题，或用截图比较颜色搭配的开发者与配色爱好者。",
+      "why": "作者未说明。HN 投稿账号为 _andrei_，原帖没有正文或评论；本次未确认投稿者与产品作者的关系。官网说明的产品目标是让用户通过截图预览主题、制作自己的配色方案。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50039383",
+          "https://colorswapper.com/"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 与官网；观察到内置终端截图、11 种已识别颜色、主题预设、分屏对照与导出控件。未上传图片、修改颜色或导出文件。",
+        "checkedAt": "2026-10-11T03:43:01.811762Z"
+      },
+      "caveats": [
+        "官网称图片不会离开浏览器，这是官方说明，本次未独立审计数据流或隐私实现。",
+        "只查看了内置示例和界面，未验证自有截图的识别准确性、导出结果或主题兼容性。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入、用户规模或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50039383"
+        },
+        {
+          "type": "official_site",
+          "url": "https://colorswapper.com/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50039383.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50038499",
       "provider": "hacker_news",
