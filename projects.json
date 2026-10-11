@@ -1,9 +1,112 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-11T03:43:01.811762Z",
-  "count": 447,
+  "updatedAt": "2026-10-11T04:44:02.172448Z",
+  "count": 449,
   "projects": [
+    {
+      "id": "hacker_news:50039633",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50039633",
+      "title": "GSD Task Manager",
+      "url": "https://gsd.vinny.dev/",
+      "canonicalUrl": "https://gsd.vinny.dev/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50039633",
+      "hnUrl": "https://news.ycombinator.com/item?id=50039633",
+      "publishedAt": "2026-10-11T03:42:56Z",
+      "discoveredAt": "2026-10-11T04:44:02.172448Z",
+      "what": "基于艾森豪威尔矩阵的浏览器任务管理工具，按紧急程度和重要性分成先做、安排、委派、放弃四个象限。官方资料列出任务编辑、标签、截止日期、搜索、复盘统计和 JSON 导入导出；默认在浏览器本地保存，可选云同步，另提供 MCP 服务供 AI 助手管理任务。支持自托管。",
+      "audience": "需要按轻重缓急整理待办事项的个人，以及希望把任务系统接入 AI 助手的开发者。",
+      "why": "作者未说明个人制作原因。官网标注由 Vinny Carpenter 制作，仓库与 HN 投稿账号 vscarpenter 对应；可读的 HN 评论没有提供可引用的作者动机。官网表达的目标是帮助用户区分紧急与重要并专注完成任务。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50039633",
+          "https://github.com/vscarpenter/gsd-task-manager"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、全部可用评论、官方 API、仓库 README 与公开网站的介绍和应用引导界面。没有创建任务、登录、安装 MCP 服务或启用同步。",
+        "checkedAt": "2026-10-11T04:44:02.172448Z"
+      },
+      "caveats": [
+        "本地存储、离线和隐私特性依据官方说明，未独立审计；启用可选 PocketBase 同步时数据会发送到所配置服务器。",
+        "清除浏览器数据可能丢失本地任务，官方建议导出备份。未验证同步、MCP 权限、离线运行或自托管部署。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入、用户规模或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50039633"
+        },
+        {
+          "type": "official_site",
+          "url": "https://gsd.vinny.dev/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/vscarpenter/gsd-task-manager"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50039633.json"
+        }
+      ]
+    },
+    {
+      "id": "hacker_news:50039577",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50039577",
+      "title": "Perigee",
+      "url": "https://perigee.info/",
+      "canonicalUrl": "https://perigee.info/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50039577",
+      "hnUrl": "https://news.ycombinator.com/item?id=50039577",
+      "publishedAt": "2026-10-11T03:28:52Z",
+      "discoveredAt": "2026-10-11T04:44:02.172448Z",
+      "what": "用于查看地球、月球、火星附近人造物体及太阳系探测器的实时三维网页。官方说明位置由浏览器根据 CelesTrak、NASA/JPL Horizons 等公开数据计算，可切换天体视图、选择航天器、过滤卫星、调整模拟时间，并提供英语和法语界面。",
+      "audience": "太空爱好者、希望了解卫星与探测器位置的学生和科普教育者。",
+      "why": "作者未说明。官网与仓库署名 David Fugère-Lamarre；HN 投稿账号为 Illogika，本次未确认账号与作者的关系。可读原帖没有创作动机说明。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50039577",
+          "https://github.com/dlamarre-dev/Perigee"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读取 HN 原帖与官方 API、官网公开说明和仓库 README。实际打开网页时提示当前浏览器不支持 WebGL 2，未能展示三维场景，因此功能描述依据官方资料。",
+        "checkedAt": "2026-10-11T04:44:02.172448Z"
+      },
+      "caveats": [
+        "需要 JavaScript 与 WebGL 2；本次未验证三维交互、位置精度、离线缓存或数据更新。",
+        "官方明确仅供教育用途，不应用于航天导航或轨道交会风险评估；超出数据范围的外推位置与陈旧轨道数据可能降低可信度。",
+        "Perigee 对应法语 Périgée，名称意为近地点；页面支持英语与法语。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入、用户规模或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50039577"
+        },
+        {
+          "type": "official_site",
+          "url": "https://perigee.info/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/dlamarre-dev/Perigee"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50039577.json"
+        }
+      ]
+    },
     {
       "id": "hacker_news:50039383",
       "provider": "hacker_news",
