@@ -1,9 +1,62 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-11T07:43:30.287175Z",
-  "count": 452,
+  "updatedAt": "2026-10-11T08:40:42.303450Z",
+  "count": 453,
   "projects": [
+    {
+      "id": "hacker_news:50040870",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50040870",
+      "title": "ForQuiz",
+      "url": "https://forquiz.fusebytes.in/",
+      "canonicalUrl": "https://forquiz.fusebytes.in/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50040870",
+      "hnUrl": "https://news.ycombinator.com/item?id=50040870",
+      "publishedAt": "2026-10-11T08:28:55Z",
+      "discoveredAt": "2026-10-11T08:40:42.303450Z",
+      "what": "面向群体测验与知识检查的网页工具：可粘贴题目或从 PDF 指定页生成带主题标签的题目，组织同步答题或限时段内的自主答题，并按主题、组别和个人导出 Excel 报告、比较前后两轮结果。",
+      "audience": "组织课堂测验的教师、企业培训人员，以及社区活动或技术聚会的主持人。",
+      "why": "作者未说明。HN 投稿者 susmitpy 没有在原帖说明个人制作原因，也尚无评论可核实其制作者身份；官网强调希望让组织者看出参与者具体没掌握哪些主题，而不只看到平均分或完成率。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50040870"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、官方 API 和产品官网；当前帖子无正文和评论。官网公开展示产品流程、报告示例及免账号导览入口，未登录、上传 PDF、创建测验或提交答案。",
+        "checkedAt": "2026-10-11T08:40:42.303450Z"
+      },
+      "caveats": [
+        "题目生成、跨轮比较、Excel 导出、弱网络计时公平性及断线恢复均依官网说明，未独立实测。",
+        "参与者免账号的说法来自官网；组织者的账号要求、收费和实际使用额度未核实。",
+        "官网引用的用户评价与活动照片不能作为收入或需求验证。",
+        "HN 发帖时间不是产品首次上线时间；未验证收入、用户规模或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50040870"
+        },
+        {
+          "type": "official_site",
+          "url": "https://forquiz.fusebytes.in/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50040870.json"
+        }
+      ],
+      "tags": [
+        "在线测验",
+        "教学",
+        "企业培训",
+        "知识检查"
+      ]
+    },
     {
       "id": "hacker_news:50040528",
       "provider": "hacker_news",
