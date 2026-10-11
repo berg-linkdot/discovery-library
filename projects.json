@@ -1,9 +1,117 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-11T06:40:06.482909Z",
-  "count": 450,
+  "updatedAt": "2026-10-11T07:43:30.287175Z",
+  "count": 452,
   "projects": [
+    {
+      "id": "hacker_news:50040528",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50040528",
+      "title": "Modelship（自托管监控界面）",
+      "url": "https://github.com/modelship-ai/modelship",
+      "canonicalUrl": "https://github.com/modelship-ai/modelship",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50040528",
+      "hnUrl": "https://news.ycombinator.com/item?id=50040528",
+      "publishedAt": "2026-10-11T07:28:20Z",
+      "discoveredAt": "2026-10-11T07:43:30.287175Z",
+      "what": "自托管多模型推理系统，提供兼容 OpenAI 的接口，并附带 Ray 浏览器仪表盘及可导入 Grafana 的专用监控面板。监控文档说明可按网关、模型、节点筛选，查看请求量、错误率、延迟、推理引擎和 GPU 指标。",
+      "audience": "在自己硬件上部署多个 AI 模型、需要网页监控集群状态的开发者与运维人员。",
+      "why": "HN 作者 Alez007 自述，最初只是想在一块 GPU 上运行多个模型并放到自己的 Unraid 机器上；完成最初目标后不断增加功能，逐步发展为这个集群系统。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50040528"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 作者原帖、官方仓库 README 与监控文档；当前无评论。网页监控能力依据官方部署说明核对，未安装、启动集群或实测仪表盘。",
+        "checkedAt": "2026-10-11T07:43:30.287175Z"
+      },
+      "caveats": [
+        "需要自行部署模型推理服务；Grafana 面板还需配置 Prometheus 数据源，不是打开即用的托管网页。",
+        "核心是推理 API 基础设施；本条收录的是其有文档支持的网页监控用途，不代表提供浏览器聊天产品。",
+        "兼容性、性能和测试通过率为项目自述，未独立复现。仪表盘应按官方安全说明限制访问，不能直接公开暴露。",
+        "HN 发帖时间不是产品首次上线时间；未验证收入、用户规模或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50040528"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/modelship-ai/modelship"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50040528.json"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/modelship-ai/modelship/blob/main/docs/monitoring.md"
+        }
+      ],
+      "tags": [
+        "自托管",
+        "AI基础设施",
+        "监控",
+        "仪表盘"
+      ]
+    },
+    {
+      "id": "hacker_news:50040368",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50040368",
+      "title": "Bobhouse / Bob",
+      "url": "https://bob.spif.fyi/",
+      "canonicalUrl": "https://bob.spif.fyi/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50040368",
+      "hnUrl": "https://news.ycombinator.com/item?id=50040368",
+      "publishedAt": "2026-10-11T06:46:53Z",
+      "discoveredAt": "2026-10-11T07:43:30.287175Z",
+      "what": "以房间和家具作为操作入口的浏览器拟物界面演示。公开客厅中可见书房、保险室等房门，以及日历、邮件、通讯录等物件入口；页面提示访客首次修改会创建自己的副本。",
+      "audience": "对复古桌面、拟物交互和房间式网页界面感兴趣的用户与设计者。",
+      "why": "作者未说明。HN 投稿者 androsynth89 未在原帖说明创作原因，现有评论也不足以确认其制作者身份。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50040368"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读取 HN 原帖、两条评论及公开网页，并在浏览器观察到房间和物件按钮；未拖动、创建副本、提交内容或验证各物件的实际功能。",
+        "checkedAt": "2026-10-11T07:43:30.287175Z"
+      },
+      "caveats": [
+        "评论者将其解释为 Microsoft Bob 式的重制；这是评论者说法，不是作者一手动机。拟物界面指用现实物件代表软件功能的设计。",
+        "部分入口名称看似办公工具，但未核实其功能完整性、保存方式或多人协作能力。",
+        "HN 发帖时间不是产品首次上线时间；未验证收入、用户规模或需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50040368"
+        },
+        {
+          "type": "official_site",
+          "url": "https://bob.spif.fyi/"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50040368.json"
+        }
+      ],
+      "tags": [
+        "网页演示",
+        "拟物界面",
+        "复古"
+      ]
+    },
     {
       "id": "hacker_news:50040177",
       "provider": "hacker_news",
