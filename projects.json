@@ -1,9 +1,120 @@
 {
   "schemaVersion": "1.0.0",
   "language": "zh-CN",
-  "updatedAt": "2026-10-11T08:40:42.303450Z",
-  "count": 453,
+  "updatedAt": "2026-10-11T09:41:00.356964Z",
+  "count": 456,
   "projects": [
+    {
+      "id": "hacker_news:50041060",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50041060",
+      "title": "Krashout",
+      "url": "https://ball.krashout.io/",
+      "canonicalUrl": "https://ball.krashout.io/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50041060",
+      "hnUrl": "https://news.ycombinator.com/item?id=50041060",
+      "publishedAt": "2026-10-11T08:53:21Z",
+      "discoveredAt": "2026-10-11T09:41:00.356964Z",
+      "what": "浏览器多人汽车足球游戏。作者介绍有排位、机器人补位的休闲局，以及可用链接分享的私人房间；WASD 驾驶、Shift 加速、空格射门。",
+      "audience": "想与朋友或远程同事轻松联机、又希望有操作深度的玩家。",
+      "why": "作者 wfme 在 HN 原帖说，想找一款容易上手、但技巧上限高的游戏用于远程团队下班聚会，于是做出介于 TagPro 与 Rocket League 之间的玩法；还专门研究预测与玩家碰撞，改善不稳定网络下的体验。",
+      "whySource": {
+        "status": "author_stated",
+        "urls": [
+          "https://news.ycombinator.com/item?id=50041060"
+        ]
+      },
+      "verification": {
+        "status": "limited",
+        "summary": "已读 HN 原帖及作者回复，并以官方 API 核对发帖时间；官网本轮返回 HTTP 403，功能描述来自作者一手自述。",
+        "checkedAt": "2026-10-11T09:41:00.356964Z"
+      },
+      "caveats": [
+        "未进入游戏或验证联机、延迟、匹配与排名算法。",
+        "讨论中一位访问者报告超时，作者称自己可加载；不能据此判断所有地区的可用性。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50041060"
+        },
+        {
+          "type": "official_site",
+          "url": "https://ball.krashout.io/"
+        },
+        {
+          "type": "repository",
+          "url": "https://ball.krashout.io"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50041060.json"
+        }
+      ],
+      "tags": [
+        "浏览器游戏",
+        "多人联机"
+      ]
+    },
+    {
+      "id": "hacker_news:50040996",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50040996",
+      "title": "CAPL Playground",
+      "url": "https://oldrev.github.io/capl-playground/",
+      "canonicalUrl": "https://oldrev.github.io/capl-playground/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50040996",
+      "hnUrl": "https://news.ycombinator.com/item?id=50040996",
+      "publishedAt": "2026-10-11T08:44:31Z",
+      "discoveredAt": "2026-10-11T09:41:00.356964Z",
+      "what": "在线 CAPL 编译与仿真游乐场，可浏览示例代码、抽象语法树、生成的 C 与 WebAssembly，并在虚拟时间、定时器和 CAN 总线环境中实验。CAPL 是汽车测试工具 CANoe/CANalyzer 使用的脚本语言；项目开源，可自行部署。",
+      "audience": "学习 CAPL 的汽车电子与测试工程师，以及研究编译器和 CAN 总线仿真的开发者。",
+      "why": "作者未说明个人制作原因；官方 README 将其定位为独立、实验性的兼容与教学项目。HN 用户 oldrev 与仓库所有者同名，未另行核实其真实身份。",
+      "whySource": {
+        "status": "not_stated",
+        "urls": [
+          "https://github.com/oldrev/capl-playground"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已核对 HN 原帖、官方仓库 README 与实际呈现的中英文网页编辑器、示例和仿真面板；未手动运行仿真。",
+        "checkedAt": "2026-10-11T09:41:00.356964Z"
+      },
+      "caveats": [
+        "仅实现 CAPL 子集，不是 Vector 官方工具，项目声明与 Vector 无隶属或背书关系。",
+        "README 列明浏览器 includes、数据库信号、完整测试模块等尚不支持；不能替代完整 CANoe 工具链。",
+        "页面端编译及不向服务器发送源码为官方说明，未审计网络行为或兼容性。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50040996"
+        },
+        {
+          "type": "official_site",
+          "url": "https://oldrev.github.io/capl-playground/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/oldrev/capl-playground"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50040996.json"
+        }
+      ],
+      "tags": [
+        "开发工具",
+        "汽车测试",
+        "在线编程",
+        "开源"
+      ]
+    },
     {
       "id": "hacker_news:50040870",
       "provider": "hacker_news",
@@ -163,6 +274,62 @@
         "网页演示",
         "拟物界面",
         "复古"
+      ]
+    },
+    {
+      "id": "hacker_news:50040224",
+      "provider": "hacker_news",
+      "source": "show_hn",
+      "sourceId": "50040224",
+      "title": "suta pattern demos",
+      "url": "https://guksu.github.io/suta/",
+      "canonicalUrl": "https://guksu.github.io/suta/",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50040224",
+      "hnUrl": "https://news.ycombinator.com/item?id=50040224",
+      "publishedAt": "2026-10-11T06:10:15Z",
+      "discoveredAt": "2026-10-11T09:41:00.356964Z",
+      "what": "面向 UI 开发的在线交互模式展示站，提供 56 种模式及布局、动效原则，包括弹窗、导航、加载反馈和表单控件；配套 suta 是给 Claude Code/Codex 的设计技能，展示网页本身可直接浏览，开源可自行部署。",
+      "audience": "使用 AI 辅助前端开发、希望参考具体界面模式的开发者与设计师。",
+      "why": "官方仓库作者自述，AI 生成界面不断重复相似卡片、过多颜色和无必要装饰，因此制作 suta 来减少这种设计上的“AI slop”（低质量、同质化 AI 产物）。HN 发帖者 yung3152 与仓库作者 Guksu 的身份关联未独立核实。",
+      "whySource": {
+        "status": "official_stated",
+        "urls": [
+          "https://github.com/Guksu/suta"
+        ]
+      },
+      "verification": {
+        "status": "page_reviewed",
+        "summary": "已读 HN 原帖、官方 README，并查看呈现完整的网页模式目录；收录的是实用 Web 展示站，而非仅可安装的技能包。",
+        "checkedAt": "2026-10-11T09:41:00.356964Z"
+      },
+      "caveats": [
+        "未安装技能或插件，未验证其生成效果、代码质量或无障碍合规。",
+        "技能与模式文档以韩语为主，展示站有英韩切换；不能把单次对照截图当作普遍效果证据。",
+        "HN 发帖时间不代表产品首次上线时间；未验证收入或市场需求。"
+      ],
+      "sources": [
+        {
+          "type": "discussion",
+          "url": "https://news.ycombinator.com/item?id=50040224"
+        },
+        {
+          "type": "official_site",
+          "url": "https://guksu.github.io/suta/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Guksu/suta"
+        },
+        {
+          "type": "source_metadata",
+          "url": "https://hacker-news.firebaseio.com/v0/item/50040224.json"
+        }
+      ],
+      "tags": [
+        "设计参考",
+        "前端",
+        "交互演示",
+        "开源"
       ]
     },
     {
